@@ -1074,8 +1074,128 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+        /* Degenerate is not ignored because it may be useful to see where it
+         * is, but may be eliminated by min_area option */
+        if (Points->n_points < 4)
+            G_warning(_("Feature (cat %d): degenerated polygon (%d vertices)"),
+                      cat, Points->n_points);
+
+        size = G_area_of_polygon(Points->x, Points->y, Points->n_points);
+        if (size < min_area) {
+            G_debug(2, "\tArea size %.1e, area not imported", size);
+            return 0;
+        }
+
+        n_polygons++;
+
+        if (type & GV_LINE)
+            otype = GV_LINE;
+        else
+            otype = GV_BOUNDARY;
+
+        if (split_distance > 0 && otype == GV_BOUNDARY)
+            split_line(Map, otype, Points, BCats);
+        else
+            Vect_write_line(Map, otype, Points, BCats);
+
+        /* Isles */
+        IPoints = (struct line_pnts **)G_malloc((nr - 1) *
+                                                sizeof(struct line_pnts *));
+        valid_isles = 0;
+        for (i = 1; i < nr; i++) {
+            G_debug(3, "\tInner ring %d", i);
+
+            hRing = OGR_G_GetGeometryRef(hGeom, i);
+
+            if ((np = OGR_G_GetPointCount(hRing)) == 0) {
+                G_warning(_("Skipping empty geometry feature %d"), cat);
+            }
+            else {
+                IPoints[valid_isles] = Vect_new_line_struct();
+
+                for (j = 0; j < np; j++) {
+                    Vect_append_point(
+                        IPoints[valid_isles], OGR_G_GetX(hRing, j),
+                        OGR_G_GetY(hRing, j), OGR_G_GetZ(hRing, j));
+                }
+                Vect_line_prune(IPoints[valid_isles]);
+
+                if (IPoints[valid_isles]->n_points < 4)
+                    G_warning(_("Degenerate island (%d vertices)"),
+                              IPoints[i - 1]->n_points);
+
+                size = G_area_of_polygon(IPoints[valid_isles]->x,
+                                         IPoints[valid_isles]->y,
+                                         IPoints[valid_isles]->n_points);
+                if (size < min_area) {
+                    G_debug(2, "\tIsland size %.1e, island not imported", size);
+                }
+                else {
+                    if (type & GV_LINE)
+                        otype = GV_LINE;
+                    else
+                        otype = GV_BOUNDARY;
+                    if (split_distance > 0 && otype == GV_BOUNDARY)
+                        split_line(Map, otype, IPoints[valid_isles], BCats);
+                    else
+                        Vect_write_line(Map, otype, IPoints[valid_isles],
+                                        BCats);
+                }
+                valid_isles++;
+            }
+        } /* inner rings done */
+
+        /* Centroid */
+        /* Vect_get_point_in_poly_isl() would fail for degenerate polygon */
+        if (mk_centr) {
+            if (Points->n_points >= 4) {
+                ret = Vect_get_point_in_poly_isl(
+                    Points, (const struct line_pnts **)IPoints, valid_isles, &x,
+                    &y);
+                if (ret == -1) {
+                    G_warning(_("Unable calculate centroid"));
+                }
+                else {
+                    Vect_reset_line(Points);
+                    Vect_append_point(Points, x, y, 0.0);
+                    if (type & GV_POINT)
+                        otype = GV_POINT;
+                    else
+                        otype = GV_CENTROID;
+                    Vect_write_line(Map, otype, Points, Cats);
+                }
+            }
+            else if (Points->n_points > 0) {
+                if (Points->n_points >= 2) {
+                    /* center of 1. segment ( 2. point is not best for 3
+                     * vertices as 3. may be the same as 1.) */
+                    x = (Points->x[0] + Points->x[1]) / 2;
+                    y = (Points->y[0] + Points->y[1]) / 2;
+                }
+                else { /* one point */
+                    x = Points->x[0];
+                    y = Points->y[0];
+                }
+                Vect_reset_line(Points);
+                Vect_append_point(Points, x, y, 0.0);
+                if (type & GV_POINT)
+                    otype = GV_POINT;
+                else
+                    otype = GV_CENTROID;
+                Vect_write_line(Map, otype, Points, Cats);
+            }
+            else { /* 0 points */
+                G_warning(_("No centroid written for polygon with 0 vertices"));
+            }
+        }
+
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
@@ -1097,7 +1217,15 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
         lastidx = Points->n_points - 1;
         if (Points->x[0] != Points->x[lastidx] ||
             Points->y[0] != Points->y[lastidx] ||
@@ -1439,6 +1567,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1569,6 +1698,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1639,6 +1770,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
@@ -2036,6 +2169,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2043,6 +2177,9 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -2197,12 +2334,16 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2435,6 +2576,9 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
         for (i = 0; i < valid_isles; i++) {
             Vect_destroy_line_struct(IPoints[i]);
         }

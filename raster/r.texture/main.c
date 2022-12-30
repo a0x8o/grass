@@ -1035,6 +1035,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1140,6 +1141,8 @@ int main(int argc, char *argv[])
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
+=======
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
     threads = G_set_omp_num_threads(parm.nproc);
 =======
 <<<<<<< HEAD
@@ -1477,6 +1480,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d0d53c2f4a (r.texture: Refactor code, remove global variables (#3785))
 =======
 =======
@@ -2556,6 +2560,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 >>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
+=======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
     /* *************************************************************************************************
      *
      * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
@@ -2688,9 +2696,32 @@ int main(int argc, char *argv[])
      ***************************************************************************************************/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
+=======
+=======
+=======
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
+>>>>>>> ef6bae8fb5 (r.texture: Refactor code, remove global variables (#3785))
+=======
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
+=======
+    /* *************************************************************************************************
+     *
+     * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
+<<<<<<< HEAD
+     *or co-occurrence matrix. The image is analyzed for piece, every piece is
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+     *naming moving window (s.w.). The s.w. must be square with number of size's
+     *samples odd, that because we want the sample at the center of matrix.
+     *
+     ***************************************************************************************************/
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
