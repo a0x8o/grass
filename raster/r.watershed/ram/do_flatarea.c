@@ -50,6 +50,7 @@ struct pq_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -108,6 +109,8 @@ struct pq_node {
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -237,7 +240,14 @@ struct pq_node {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    size_t idx;
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
     int idx;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     struct pq_node *next;
@@ -347,6 +357,7 @@ struct orders {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -405,6 +416,8 @@ struct orders {
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -541,7 +554,15 @@ struct orders {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    size_t index;
+    int uphill, downhill;
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
     int index, uphill, downhill;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     char flag;
@@ -588,6 +609,7 @@ int cmp_orders(const void *a, const void *b)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 <<<<<<< HEAD
@@ -656,6 +678,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -669,7 +693,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 int do_flatarea(size_t index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
@@ -698,6 +727,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -706,6 +736,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -853,7 +885,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     int upr, upc, r, c, ct_dir;
     CELL is_in_list, is_worked, this_in_list;
@@ -916,6 +953,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(down_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -984,6 +1022,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -997,7 +1037,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
         if ((index_doer = pq_drop(down_pq)) == SIZE_MAX)
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
@@ -1026,6 +1071,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1034,6 +1080,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1181,7 +1229,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error("get start points: no more points in down queue");
 
         seg_index_rc(alt_seg, index_doer, &r, &c);
@@ -1279,6 +1332,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(up_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -1347,6 +1401,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1360,7 +1416,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
         if ((index_doer = pq_drop(up_pq)) == SIZE_MAX)
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
@@ -1389,6 +1450,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1397,6 +1459,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1544,7 +1608,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error("uphill order: no more points in up queue");
 
         seg_index_rc(alt_seg, index_doer, &r, &c);
@@ -1657,6 +1726,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(down_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -1725,6 +1795,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1738,7 +1810,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
         if ((index_doer = pq_drop(down_pq)) == SIZE_MAX)
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
@@ -1767,6 +1844,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1775,6 +1853,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1922,7 +2002,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error(_("downhill order: no more points in down queue"));
 
         seg_index_rc(alt_seg, index_doer, &r, &c);
@@ -2027,6 +2112,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(up_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -2095,6 +2181,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2108,7 +2196,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
         if ((index_doer = pq_drop(up_pq)) == SIZE_MAX)
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
@@ -2137,6 +2230,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2145,6 +2239,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2292,7 +2388,12 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
             G_fatal_error("no more points in up queue");
 
         seg_index_rc(alt_seg, index_doer, &r, &c);

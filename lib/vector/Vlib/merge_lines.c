@@ -174,6 +174,7 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         /* catgories must be identical */
 =======
 <<<<<<< HEAD
@@ -242,6 +243,8 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -255,7 +258,12 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
                         /* categories must be identical */
 =======
                         /* catgories must be identical */
@@ -284,6 +292,7 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -292,6 +301,8 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
                         /* catgories must be identical */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -439,7 +450,12 @@ int Vect_merge_lines(struct Map_info *Map, int type, int *new_lines,
                         /* catgories must be identical */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
                         if (compare_cats(MCats, Cats) == 0)
                             next_line = curr_line;
                     }

@@ -103,6 +103,7 @@ int cmp(const void *a, const void *b)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 =======
 <<<<<<< HEAD
@@ -171,6 +172,8 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -184,7 +187,12 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 void output_edges(unsigned int n, int mode3d UNUSED, int type,
                   struct Map_info *Out)
 =======
@@ -214,6 +222,7 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -222,6 +231,8 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -369,7 +380,12 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     struct edge *e_start, *e;
     struct vertex *u, *v;
@@ -442,6 +458,7 @@ void output_edges(unsigned int n, int mode3d, int type, struct Map_info *Out)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void output_triangles(unsigned int n, int mode3d, int type,
 =======
 <<<<<<< HEAD
@@ -510,6 +527,8 @@ void output_triangles(unsigned int n, int mode3d, int type,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -523,7 +542,12 @@ void output_triangles(unsigned int n, int mode3d, int type,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 void output_triangles(unsigned int n, int mode3d UNUSED, int type,
 =======
 void output_triangles(unsigned int n, int mode3d, int type,
@@ -552,6 +576,7 @@ void output_triangles(unsigned int n, int mode3d, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -560,6 +585,8 @@ void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -707,7 +734,12 @@ void output_triangles(unsigned int n, int mode3d, int type,
 void output_triangles(unsigned int n, int mode3d, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
                       struct Map_info *Out)
 {
     struct edge *e_start, *e, *next;

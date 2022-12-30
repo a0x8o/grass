@@ -58,6 +58,7 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    double *angle, double *slope)
 =======
 <<<<<<< HEAD
@@ -126,6 +127,8 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -139,7 +142,12 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
                    double *angle UNUSED, double *slope UNUSED)
 =======
                    double *angle, double *slope)
@@ -168,6 +176,7 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -176,6 +185,8 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
                    double *angle, double *slope)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -323,7 +334,12 @@ int Vect_tin_get_z(struct Map_info *Map, double tx, double ty, double *tz,
                    double *angle, double *slope)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     int i, area, n_points;
     struct Plus_head *Plus;

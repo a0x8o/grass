@@ -146,6 +146,7 @@ int Nviz_set_focus_map(int type, int id)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 =======
 <<<<<<< HEAD
@@ -214,6 +215,8 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -227,7 +230,12 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 int Nviz_get_focus(nv_data *data UNUSED, float *x, float *y, float *z)
 =======
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
@@ -256,6 +264,7 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -264,6 +273,8 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -411,7 +422,12 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     float realto[3];
 
@@ -461,6 +477,7 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
 =======
 <<<<<<< HEAD
@@ -529,6 +546,8 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -542,7 +561,12 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 int Nviz_set_focus(nv_data *data UNUSED, float x, float y, float z)
 =======
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
@@ -571,6 +595,7 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -579,6 +604,8 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -726,7 +753,12 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     float realto[3];
 
@@ -774,6 +806,7 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Nviz_has_focus(nv_data *data)
 =======
 <<<<<<< HEAD
@@ -842,6 +875,8 @@ int Nviz_has_focus(nv_data *data)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -855,7 +890,12 @@ int Nviz_has_focus(nv_data *data)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 int Nviz_has_focus(nv_data *data UNUSED)
 =======
 int Nviz_has_focus(nv_data *data)
@@ -884,6 +924,7 @@ int Nviz_has_focus(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -892,6 +933,8 @@ int Nviz_has_focus(nv_data *data)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Nviz_has_focus(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1039,7 +1082,12 @@ int Nviz_has_focus(nv_data *data)
 int Nviz_has_focus(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     float realto[3];
 
@@ -1094,6 +1142,7 @@ float Nviz_get_xyrange(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
 =======
 <<<<<<< HEAD
@@ -1162,6 +1211,8 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1175,7 +1226,12 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 int Nviz_get_zrange(nv_data *data UNUSED, float *min, float *max)
 =======
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
@@ -1204,6 +1260,7 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1212,6 +1269,8 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1359,7 +1418,12 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     GS_get_zrange_nz(min, max);
     return 1;
@@ -1399,6 +1463,7 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 float Nviz_get_longdim(nv_data *data)
 =======
 <<<<<<< HEAD
@@ -1467,6 +1532,8 @@ float Nviz_get_longdim(nv_data *data)
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1480,7 +1547,12 @@ float Nviz_get_longdim(nv_data *data)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 float Nviz_get_longdim(nv_data *data UNUSED)
 =======
 float Nviz_get_longdim(nv_data *data)
@@ -1509,6 +1581,7 @@ float Nviz_get_longdim(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1517,6 +1590,8 @@ float Nviz_get_longdim(nv_data *data)
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 float Nviz_get_longdim(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1664,7 +1739,12 @@ float Nviz_get_longdim(nv_data *data)
 float Nviz_get_longdim(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 {
     float dim;
 
