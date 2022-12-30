@@ -547,6 +547,7 @@ class GPrompt:
                     env["LOCATION_NAME"],
                     env["MAPSET"],
                     ".wxgui_history",
+<<<<<<< HEAD
                 ),
                 encoding="utf-8",
                 mode="r",
@@ -632,6 +633,8 @@ class GPrompt:
 =======
                     ".bash_history",
 >>>>>>> d3904a14b8 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
                 ),
                 encoding="utf-8",
                 mode="r",
