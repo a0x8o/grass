@@ -237,6 +237,7 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
@@ -318,6 +319,8 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
@@ -778,6 +781,7 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1018,6 +1022,11 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
                   int newrl, int newcl)
 {
     int i, j, nrow = oldrh - oldrl + 1, ncol = oldcl - newcl;
@@ -1252,6 +1261,7 @@ void free_convert_matrix(float **b, int nrl, int nrh UNUSED, int ncl UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
                    int ndh)
 =======
@@ -1698,6 +1708,8 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1837,7 +1849,12 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 void free_f3tensor(float ***t, int nrl, int nrh UNUSED, int ncl, int nch UNUSED,
                    int ndl, int ndh UNUSED)
 =======
@@ -1930,6 +1947,7 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2091,6 +2109,8 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2563,6 +2583,7 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2791,6 +2812,10 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 {
     G_free((FREE_ARG)(t[nrl][ncl] + ndl - NR_END));
     G_free((FREE_ARG)(t[nrl] + ncl - NR_END));

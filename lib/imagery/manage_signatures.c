@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -628,6 +629,7 @@
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -970,6 +972,10 @@
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
    \brief Get signature directory
 
    The directory will be in a form "signatures/<type>".
@@ -1436,6 +1442,9 @@ void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2309,19 +2318,33 @@ void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
     if (type == I_SIGFILE_TYPE_SIG) {
         sprintf(dir, "signatures%csig", HOST_DIRSEP);
 =======
+=======
+=======
+   \brief Get signature directory
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 
-  \param element [GNAME_MAX] allocated string buffer
-  \param type I_SIGFILE_TYPE
-*/
-void I__get_signatures_element(char *element, I_SIGFILE_TYPE type)
+   The directory will be in a form "signatures/<type>".
+
+   \param dir [GNAME_MAX] allocated string buffer
+   \param type I_SIGFILE_TYPE
+ */
+void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
 {
     if (type == I_SIGFILE_TYPE_SIG) {
-        sprintf(element, "signatures%csig", HOST_DIRSEP);
+        sprintf(dir, "signatures%csig", HOST_DIRSEP);
     }
     else if (type == I_SIGFILE_TYPE_SIGSET) {
+<<<<<<< HEAD
         sprintf(element, "signatures%csigset", HOST_DIRSEP);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+        sprintf(dir, "signatures%csigset", HOST_DIRSEP);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
     }
     else if (type == I_SIGFILE_TYPE_SIGSET) {
 <<<<<<< HEAD
@@ -3220,6 +3243,7 @@ void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3793,6 +3817,7 @@ void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -4144,6 +4169,10 @@ void I_get_signatures_dir(char *dir, I_SIGFILE_TYPE type)
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
    \brief Make signature dir
 
    Creates directories for storage of signature files of specified type.
@@ -6254,18 +6283,36 @@ void I_make_signatures_dir(I_SIGFILE_TYPE type)
 =======
 =======
   \brief Make signature element (internal use only)
+=======
+   \brief Make signature dir
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-  \param type I_SIGFILE_TYPE
-*/
-void I__make_signatures_element(I_SIGFILE_TYPE type)
+   Creates directories for storage of signature files of specified type.
+   E.g. "<location>/<mapset>/signatures/<type>/"
+
+   \param type I_SIGFILE_TYPE
+ */
+void I_make_signatures_dir(I_SIGFILE_TYPE type)
 {
-    char element[GNAME_MAX];
+    char dir[GNAME_MAX];
+
     G_make_mapset_object_group("signatures");
+<<<<<<< HEAD
     I__get_signatures_element(element, type);
     G_make_mapset_object_group(element);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    I_get_signatures_dir(dir, type);
+    G_make_mapset_object_group(dir);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
@@ -6329,6 +6376,7 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6543,6 +6591,8 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6595,6 +6645,8 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
  *
  * If removal fails, prints a warning and returns 1.
  * It is safe to pass fully qualified names.
@@ -6877,6 +6929,7 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6904,11 +6957,14 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
  *
  * If removal fails, prints a warning and returns 1.
  * It is safe to pass fully qualified names.
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8812,6 +8868,7 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -9183,6 +9240,10 @@ static int list_by_type(I_SIGFILE_TYPE, const char *, int, char ***);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
  * \param type I_SIGFILE_TYPE signature type
  * \param name of signature to remove
  * \return 0 on success
@@ -9324,6 +9385,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9538,6 +9600,8 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -9652,6 +9716,8 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9677,7 +9743,11 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
@@ -11212,7 +11282,15 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 =======
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    char dir[GNAME_MAX];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 
     G_debug(1, "I_signatures_remove(%d, %s);", type, name);
 
@@ -11247,6 +11325,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -11828,6 +11907,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -12170,6 +12250,10 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(_("%s is not in the current mapset (%s)"), name, G_mapset());
         return 1;
     }
@@ -12788,6 +12872,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12841,6 +12926,8 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12910,6 +12997,8 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
         G_warning(_("%s is not in the current mapset (%s)"), name, G_mapset());
         return 1;
     }
@@ -12917,6 +13006,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
         I_get_signatures_dir(dir, type);
         if (G_remove(dir, name) == 1) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13064,6 +13154,8 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -13628,6 +13720,7 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -14011,6 +14104,10 @@ int I_signatures_remove(I_SIGFILE_TYPE type, const char *name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
             G_verbose_message(_("%s removed"), name);
             return 0;
         }
@@ -14067,6 +14164,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -14648,6 +14746,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -14990,6 +15089,10 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
     const char *smapset;
     char old_path[GPATH_MAX], new_path[GPATH_MAX];
@@ -15607,6 +15710,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15660,6 +15764,8 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15729,6 +15835,8 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
     char dir[GNAME_MAX];
     const char *smapset;
     char old_path[GPATH_MAX], new_path[GPATH_MAX];
@@ -15736,6 +15844,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
     G_debug(1, "I_signatures_copy(%d, %s@%s, %s);", type, old_name, old_mapset,
             new_name);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15883,6 +15992,8 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -16447,6 +16558,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -16830,6 +16942,10 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 
     /* Copy only if mapset of new name is the current mapset */
     if (G_name_is_fully_qualified(new_name, tname, tmapset)) {
@@ -16877,6 +16993,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -17450,6 +17567,7 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -17801,6 +17919,10 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     I_make_signatures_dir(type);
 
     I_get_signatures_dir(dir, type);
@@ -19672,15 +19794,30 @@ int I_signatures_copy(I_SIGFILE_TYPE type, const char *old_name,
 =======
 =======
     I__make_signatures_element(type);
+=======
+    I_make_signatures_dir(type);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    I__get_signatures_element(element, type);
-    G_file_name(old_path, element, sname, smapset);
-    G_file_name(new_path, element, tname, G_mapset());
+    I_get_signatures_dir(dir, type);
+    /* Note – we need whole directory not just an element in it thus
+       G_file_name and not G_file_name_misc */
+    G_file_name(old_path, dir, sname, smapset);
+    G_file_name(new_path, dir, tname, G_mapset());
 
+<<<<<<< HEAD
     if (G_copy_file(old_path, new_path) != 1) {
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    if (G_recursive_copy(old_path, new_path) != 0) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
         G_warning(_("Unable to copy <%s> to current mapset as <%s>"),
                   G_fully_qualified_name(old_name, smapset), tname);
         return 1;
@@ -19837,6 +19974,7 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20051,6 +20189,8 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
 =======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -20165,6 +20305,8 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20189,7 +20331,11 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c0e82e005 (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
@@ -21708,7 +21854,15 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+    char dir[GNAME_MAX];
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     const char *smapset;
     char old_path[GPATH_MAX], new_path[GPATH_MAX];
 
@@ -21854,6 +22008,7 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22079,6 +22234,8 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
@@ -22725,6 +22882,7 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -23065,6 +23223,12 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     I_get_signatures_dir(dir, type);
     /* Note – we need whole directory not just an element in it thus
        G_file_name and not G_file_name_misc */
@@ -23104,6 +23268,9 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23289,6 +23456,7 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
     G_file_name(old_path, element, sname, tmapset);
     G_file_name(new_path, element, tname, tmapset);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24426,6 +24594,7 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -24776,6 +24945,12 @@ int I_signatures_rename(I_SIGFILE_TYPE type, const char *old_name,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 
     if (G_rename_file(old_path, new_path) != 0) {
         G_warning(_("Unable to rename <%s> to <%s>"), old_name, new_name);
@@ -24846,6 +25021,7 @@ int I_signatures_list_by_type(I_SIGFILE_TYPE type, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -25348,6 +25524,8 @@ int I_signatures_list_by_type(I_SIGFILE_TYPE type, const char *mapset,
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
  * Sets pointer to NULL to prevent accidental use after free.
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25359,6 +25537,7 @@ int I_signatures_list_by_type(I_SIGFILE_TYPE type, const char *mapset,
 =======
  * Sets pointer to NULL to prevent accidental use after free.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26569,7 +26748,12 @@ int I_signatures_list_by_type(I_SIGFILE_TYPE type, const char *mapset,
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
  *
  * \param int Return value of I_signatures_list_by_type()
  * \param pointer to array filled by I_signatures_list_by_type()
@@ -26604,6 +26788,7 @@ void I_free_signatures_list(int count, char ***list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
@@ -27106,6 +27291,8 @@ void I_free_signatures_list(int count, char ***list)
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
     *list = NULL;
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27117,6 +27304,7 @@ void I_free_signatures_list(int count, char ***list)
 =======
     *list = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28327,7 +28515,12 @@ void I_free_signatures_list(int count, char ***list)
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 }
 
 static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
@@ -28363,6 +28556,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -28944,6 +29138,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -29286,6 +29481,10 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     char dir[GNAME_MAX];
     char **dirlist;
 
@@ -29901,6 +30100,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -29954,6 +30154,8 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30023,12 +30225,15 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
     char dir[GNAME_MAX];
     char **dirlist;
 
     I_get_signatures_dir(dir, type);
     G_file_name(path, dir, "", mapset);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30176,6 +30381,8 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -30738,6 +30945,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -31121,6 +31329,10 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 
     if (access(path, 0) != 0) {
         return count;
@@ -31161,6 +31373,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 616e0cbcd7 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -31742,6 +31955,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 101a8cef7f (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -32084,6 +32298,10 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 =======
 >>>>>>> e435dd0d3f (ci: Ignore paths in CodeQL (#1778))
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
     *out_list = (char **)G_realloc(*out_list, (base + count) * sizeof(char *));
     for (int i = 0; i < count; i++) {
         (*out_list)[base + i] = (char *)G_malloc(
@@ -32551,6 +32769,7 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
@@ -32576,6 +32795,8 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
 >>>>>>> de2caeece8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -33376,11 +33597,21 @@ static int list_by_type(I_SIGFILE_TYPE type, const char *mapset, int base,
             (strlen(dirlist[i]) + 1 + mapset_len + 1) * sizeof(char));
 =======
 =======
+=======
+=======
+    *out_list = (char **)G_realloc(*out_list, (base + count) * sizeof(char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
     for (int i = 0; i < count; i++) {
+<<<<<<< HEAD
         (*out_list)[base + i] =
             (char *)G_malloc((strlen(dirlist[i]) + 1 + mapset_len + 1) *
                              sizeof(char));
 >>>>>>> 5442f908c7 (ci: Ignore paths in CodeQL (#1778))
+=======
+        (*out_list)[base + i] = (char *)G_malloc(
+            (strlen(dirlist[i]) + 1 + mapset_len + 1) * sizeof(char));
+>>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
         sprintf((*out_list)[base + i], "%s@%s", dirlist[i], mapset);
     }
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
