@@ -2033,6 +2033,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2303,6 +2304,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2446,6 +2449,8 @@ int main(int argc, char *argv[])
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
@@ -3113,6 +3118,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -3185,6 +3191,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 506d884519 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -3209,9 +3217,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3309,6 +3320,8 @@ int main(int argc, char *argv[])
 >>>>>>> a40d5515e7 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
+=======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -3994,6 +4007,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab3f49acee (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4522,6 +4536,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
             }
         }
         Rast_put_row(class_fd, class_cell, CELL_TYPE);

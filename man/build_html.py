@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1049,7 +1050,12 @@
 =======
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
@@ -1572,6 +1578,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1668,6 +1675,8 @@
 >>>>>>> ae631bd878 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -2053,13 +2062,17 @@
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab3f49acee (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 984f2e4b5f (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2576,6 +2589,8 @@
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 5208c5ec0d (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 # Authors:
 #   Markus Neteler
 #   Glynn Clements
