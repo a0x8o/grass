@@ -180,6 +180,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -349,6 +350,8 @@ class SuccessTest(TestCase):
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -731,6 +734,8 @@ class SuccessTest(TestCase):
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 3662b58228 (i.maxlik: fix crash when classification result is NULL (#2724))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -974,6 +979,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 4c8699bc56 (r.terrafow: explicit use of default constructors (#2660))
@@ -1024,6 +1030,8 @@ class SuccessTest(TestCase):
 >>>>>>> 1ac37540a5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -1554,7 +1562,15 @@ class SuccessTest(TestCase):
 =======
 =======
 >>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 3662b58228 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
             flags="s",
             quiet=True,
         )

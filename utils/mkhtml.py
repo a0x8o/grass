@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -638,7 +639,12 @@
 =======
 =======
 >>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 3662b58228 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2007-2024 by Glynn Clements
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
@@ -1037,6 +1043,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1110,6 +1117,8 @@
 >>>>>>> 1ac37540a5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1621,7 +1630,15 @@
 =======
 =======
 >>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+# COPYRIGHT:    (C) 2007-2023 by Glynn Clements
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 3662b58228 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 40ae4b13c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 #                and the GRASS Development Team
 #
 #               This program is free software under the GNU General
