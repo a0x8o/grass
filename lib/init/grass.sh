@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1107,7 +1108,12 @@
 =======
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -1646,6 +1652,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1750,6 +1757,8 @@
 >>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -2207,13 +2216,17 @@
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2702,6 +2715,8 @@
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 #
 #               This program is free software under the GNU General
 #   	    	Public License (>=v2). Read the file COPYING that

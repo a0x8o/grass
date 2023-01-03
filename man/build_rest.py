@@ -43,6 +43,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1103,7 +1104,12 @@ Created on Thu Aug  9 14:04:12 2012
 =======
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 by Luca Delucchi and the GRASS Development Team
 =======
 # (C) 2003-2022 by Luca Delucchi and the GRASS Development Team
@@ -1642,6 +1648,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1746,6 +1753,8 @@ Created on Thu Aug  9 14:04:12 2012
 >>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -2203,13 +2212,17 @@ Created on Thu Aug  9 14:04:12 2012
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 # (C) 2003-2023 by Luca Delucchi and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2698,6 +2711,8 @@ Created on Thu Aug  9 14:04:12 2012
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 import os
 import string
@@ -2859,6 +2874,7 @@ footer_tmpl = string.Template(
 --------------
 
 :doc:`Manual main page <index>` \| :doc:`Full Index <full_index>`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3313,6 +3329,7 @@ footer_tmpl = string.Template(
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -3571,6 +3588,10 @@ footer_tmpl = string.Template(
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
  2003-2024 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 """  # noqa: E501
 =======
@@ -3580,6 +3601,7 @@ footer_tmpl = string.Template(
 =======
  2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3796,8 @@ footer_tmpl = string.Template(
 >>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
@@ -4908,7 +4932,15 @@ footer_tmpl = string.Template(
 =======
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+ 2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 """
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 )

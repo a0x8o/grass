@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1623,7 +1624,12 @@
 =======
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -2530,7 +2536,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -3225,13 +3234,17 @@
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c4ee228391 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -4008,6 +4021,8 @@
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 4061759949 (i.maxlik: fix crash when classification result is NULL (#2724))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
