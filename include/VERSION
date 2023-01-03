@@ -1607,6 +1607,7 @@ dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1684,6 +1685,8 @@ dev
 >>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -2700,4 +2703,12 @@ dev
 =======
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+2023
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))

@@ -78,6 +78,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -728,7 +729,12 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -1155,6 +1161,7 @@ Copyright 2004-2023 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1240,6 +1247,8 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1846,7 +1855,15 @@ Copyright 2004-2022 by the GRASS Development Team
 =======
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+Copyright 2004-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 Published under GNU Free Documentation License
 -->

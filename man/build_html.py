@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -727,7 +728,12 @@
 =======
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
@@ -1154,6 +1160,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1239,6 +1246,8 @@
 >>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1845,7 +1854,15 @@
 =======
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+# (C) 2003-2023 Markus Neteler and the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 # Authors:
 #   Markus Neteler
 #   Glynn Clements
