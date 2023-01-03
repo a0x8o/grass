@@ -22,6 +22,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -36,6 +37,8 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
 Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -976,8 +979,16 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -1480,6 +1491,7 @@ Copyright 2004-2023 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1569,6 +1581,8 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
+>>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1603,6 +1617,8 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -2403,8 +2419,19 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+=======
+Copyright 2004-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
 
 Published under GNU Free Documentation License
 -->
