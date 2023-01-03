@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -54,6 +55,8 @@
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -497,8 +500,16 @@
 =======
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 099850264f (i.maxlik: fix crash when classification result is NULL (#2724))
  * COPYRIGHT:   (C) 2000-2024 by the GRASS Development Team
 =======
  * COPYRIGHT:   (C) 2000-2021 by the GRASS Development Team
@@ -989,8 +1000,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
  * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1299,8 +1313,19 @@
 =======
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+=======
+ * COPYRIGHT:   (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 099850264f (i.maxlik: fix crash when classification result is NULL (#2724))
  *
  *              This program is free software under the GNU General Public
  *              License (>=v2). Read the file COPYING that comes with GRASS
