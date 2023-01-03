@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1834,7 +1835,12 @@
 =======
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> fc4d6dbb1b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
      * updated 8/2005, 2006-2024
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017, 2018, 2019, 2021
@@ -2837,7 +2843,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 899ab996ca (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -3898,13 +3907,17 @@
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> fc4d6dbb1b (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1ac37540a5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -4531,6 +4544,8 @@
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
   -->
 
 <a href="https://grass.osgeo.org">GRASS GIS</a> (<b>Geographic
@@ -4552,6 +4567,7 @@ Team</a>, an international team of programmers, GRASS module authors
 are cited within their module's source code and the contributed manual
 pages.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5790,7 +5806,12 @@ pages.
 =======
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> fc4d6dbb1b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 &copy; 2000-2024 by the GRASS Development Team
 =======
 &copy; 2000-2022 by the GRASS Development Team
@@ -6377,6 +6398,7 @@ pages.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -6505,6 +6527,8 @@ pages.
 >>>>>>> 899ab996ca (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -7178,13 +7202,17 @@ pages.
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 &copy; 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> fc4d6dbb1b (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1ac37540a5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -7589,6 +7617,8 @@ pages.
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> db7c12aef8 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 This manual is published under <a
 href="http://www.fsf.org/copyleft/fdl.html">GNU Free Documentation
