@@ -118,6 +118,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1287,6 +1288,7 @@ Usage:
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -2017,6 +2019,10 @@ Usage:
 =======
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> df02c52711 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> ba5db0e234 (i.maxlik: fix crash when classification result is NULL (#2724))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -3087,7 +3093,10 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> ba5db0e234 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> d29537714a (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -4406,13 +4415,17 @@ Usage:
 >>>>>>> 98158c2867 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> ba5db0e234 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c1fe2d6941 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> c745556f47 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 810790e7dc (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -4950,6 +4963,8 @@ Usage:
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> df02c52711 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> ba5db0e234 (i.maxlik: fix crash when classification result is NULL (#2724))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
