@@ -13,11 +13,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 =======
@@ -255,8 +258,16 @@
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2007-2024 by Glynn Clements
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
@@ -368,10 +379,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c066e85bd (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -657,8 +671,19 @@
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+=======
+# COPYRIGHT:    (C) 2007-2023 by Glynn Clements
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 #                and the GRASS Development Team
 #
 #               This program is free software under the GNU General

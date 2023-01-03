@@ -1873,6 +1873,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1882,6 +1883,8 @@ Usage::
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 (C) 2010-2023 by the GRASS Development Team
 =======
@@ -2217,8 +2220,16 @@ Usage::
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
@@ -2401,6 +2412,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -2415,8 +2427,12 @@ Usage::
 >>>>>>> 7e84920a91 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -2800,8 +2816,19 @@ Usage::
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+=======
+(C) 2010-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.

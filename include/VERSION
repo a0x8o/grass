@@ -719,7 +719,11 @@ dev
 2023
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+<<<<<<< HEAD
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1001,5 +1005,16 @@ dev
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+=======
+2023
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))

@@ -653,6 +653,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -710,6 +711,8 @@ int main(int argc, char *argv[])
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -781,7 +784,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 =======
@@ -913,6 +925,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -954,9 +967,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -996,6 +1014,14 @@ int main(int argc, char *argv[])
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
                 class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1252,8 +1278,16 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 0b1431f1d8 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
             }
         }
         Rast_put_row(class_fd, class_cell, CELL_TYPE);
