@@ -286,6 +286,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -480,6 +481,10 @@ class SuccessTest(TestCase):
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e8701b182a (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 352c339deb (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 60bf55d59f (r.terrafow: explicit use of default constructors (#2660))
@@ -1165,7 +1170,12 @@ class SuccessTest(TestCase):
 >>>>>>> 3662b58228 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 68c589f721 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 352c339deb (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1321,6 +1331,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1331,6 +1342,8 @@ class SuccessTest(TestCase):
 >>>>>>> bdf51e20a8 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 352c339deb (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -3066,8 +3079,19 @@ class SuccessTest(TestCase):
 =======
 =======
 >>>>>>> 68c589f721 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 352c339deb (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 24ea37df0a (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e8701b182a (i.maxlik: fix crash when classification result is NULL (#2724))
             flags="s",
             quiet=True,
         )
