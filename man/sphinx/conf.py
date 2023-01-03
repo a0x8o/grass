@@ -2529,6 +2529,7 @@ project = "GRASS GIS 8.3 Documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 506d884519 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2553,11 +2554,14 @@ project = "GRASS GIS 8.3 Documentation"
 >>>>>>> a7da23483e (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
 copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 copyright = "2023, GRASS Development Team"
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3240,7 +3244,15 @@ copyright = "2022, GRASS Development Team"
 =======
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+copyright = "2023, GRASS Development Team"
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 8da59835e3 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -13086,6 +13098,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13177,6 +13190,8 @@ epub_publisher = "GRASS Development Team"
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8da59835e3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13243,12 +13258,18 @@ epub_publisher = "GRASS Development Team"
 =======
 =======
 >>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 8da59835e3 (i.maxlik: fix crash when classification result is NULL (#2724))
 epub_copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13347,6 +13368,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 8da59835e3 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -14292,7 +14315,15 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+epub_copyright = "2023, GRASS Development Team"
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> e0fc7e2fee (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 8da59835e3 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
