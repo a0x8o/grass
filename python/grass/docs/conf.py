@@ -158,6 +158,7 @@ project = "Python library documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1198,7 +1199,12 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 8f9937d00a (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 copyright = "2024, GRASS Development Team"
 =======
 copyright = "2022, GRASS Development Team"
@@ -1729,6 +1735,7 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1829,6 +1836,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -2250,13 +2259,17 @@ copyright = "2022, GRASS Development Team"
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c60dd2ea6 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 8f9937d00a (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa8258f7da (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2759,6 +2772,8 @@ copyright = "2023, GRASS Development Team"
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -3123,6 +3138,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 epub_copyright = "2023, GRASS Development Team"
@@ -3330,6 +3346,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
@@ -3718,6 +3736,7 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 8f9937d00a (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -3791,6 +3810,8 @@ epub_copyright = "2023, GRASS Development Team"
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 epub_copyright = "2022, GRASS Development Team"
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3825,6 +3846,7 @@ epub_copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
@@ -3836,6 +3858,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> e93342de07 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4471,13 +4495,17 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8c60dd2ea6 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 8f9937d00a (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa8258f7da (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -5097,6 +5125,8 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 >>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'wxGUI'
