@@ -30,6 +30,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 (C) 2008-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -81,6 +82,8 @@ Usage:
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -128,6 +131,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -206,6 +210,11 @@ Usage:
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+(C) 2008-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
