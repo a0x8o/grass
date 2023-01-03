@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -755,6 +756,8 @@
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 2788a5026e (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -1187,6 +1190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1911,6 +1915,11 @@
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+# COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2788a5026e (i.maxlik: fix crash when classification result is NULL (#2724))
 #
 #		This program is free software under the GNU General
 #		Public License (>=v2). Read the file COPYING that

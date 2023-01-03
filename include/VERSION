@@ -2085,6 +2085,7 @@ dev
 =======
 3
 dev
+<<<<<<< HEAD
 2022
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2789,4 +2790,10 @@ dev
 =======
 2023
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+2023
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2788a5026e (i.maxlik: fix crash when classification result is NULL (#2724))
