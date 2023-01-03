@@ -178,6 +178,7 @@ project = "Python library documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -687,7 +688,12 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 copyright = "2024, GRASS Development Team"
 =======
 copyright = "2022, GRASS Development Team"
@@ -1062,6 +1068,7 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1123,6 +1130,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> f59448a530 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1556,7 +1565,15 @@ copyright = "2022, GRASS Development Team"
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+copyright = "2023, GRASS Development Team"
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -1869,6 +1886,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 epub_copyright = "2023, GRASS Development Team"
@@ -2020,6 +2038,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
@@ -2237,6 +2257,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> a7da23483e (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
 epub_copyright = "2022, GRASS Development Team"
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2245,6 +2267,7 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2895,7 +2918,15 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+epub_copyright = "2023, GRASS Development Team"
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'wxGUI'

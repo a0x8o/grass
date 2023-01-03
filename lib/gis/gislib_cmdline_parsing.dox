@@ -54,6 +54,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -563,7 +564,12 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -938,6 +944,7 @@ Copyright 2004-2023 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -999,6 +1006,8 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> f59448a530 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1432,7 +1441,15 @@ Copyright 2004-2022 by the GRASS Development Team
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+Copyright 2004-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> fb8e87c2a1 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 115d1c2b17 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 Published under GNU Free Documentation License
 -->
