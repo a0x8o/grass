@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
@@ -145,6 +146,8 @@
 =======
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -173,7 +176,12 @@
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 5a6c7b69e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
@@ -428,6 +436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -435,6 +444,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+<<<<<<< HEAD
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -482,7 +494,15 @@
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+# (C) 2003-2023 Markus Neteler and the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 5a6c7b69e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 # Authors:
 #   Markus Neteler
 #   Glynn Clements

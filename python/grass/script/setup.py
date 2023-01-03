@@ -1484,6 +1484,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 (C) 2010-2023 by the GRASS Development Team
@@ -1613,6 +1614,8 @@ Usage::
 =======
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 2535753a01 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1661,7 +1664,12 @@ Usage::
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 5a6c7b69e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
@@ -1818,12 +1826,15 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 4c066e85bd (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -2106,7 +2117,15 @@ Usage::
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+(C) 2010-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 5a6c7b69e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 2b1d4404b4 (i.maxlik: fix crash when classification result is NULL (#2724))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
