@@ -14,6 +14,7 @@ extracted form gislib.dox and improved by Vaclav Petras, 2013
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -410,6 +411,7 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 936c2c0116 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -913,6 +915,10 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 3baa5ce440 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 Copyright 2004-2024 by the GRASS Development Team
 =======
 Copyright 2004-2022 by the GRASS Development Team
@@ -1395,6 +1401,7 @@ Copyright 2004-2023 by the GRASS Development Team
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1508,6 +1515,8 @@ Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> b8d5485baf (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 3baa5ce440 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1692,13 +1701,17 @@ Copyright 2004-2022 by the GRASS Development Team
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 936c2c0116 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 Copyright 2004-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2257,6 +2270,8 @@ Copyright 2004-2023 by the GRASS Development Team
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 3baa5ce440 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
 
 Published under GNU Free Documentation License
 -->
