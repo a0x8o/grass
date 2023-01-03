@@ -21,6 +21,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # (C) 2003-2023 by Luca Delucchi and the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -50,6 +51,8 @@ Created on Thu Aug  9 14:04:12 2012
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 by Luca Delucchi and the GRASS Development Team
 =======
 # (C) 2003-2022 by Luca Delucchi and the GRASS Development Team
@@ -75,6 +78,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # (C) 2003-2023 by Luca Delucchi and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -118,6 +122,11 @@ Created on Thu Aug  9 14:04:12 2012
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+# (C) 2003-2023 by Luca Delucchi and the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 
 import os
 import string
@@ -289,6 +298,7 @@ footer_tmpl = string.Template(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 =======
 <<<<<<< HEAD
@@ -310,6 +320,8 @@ footer_tmpl = string.Template(
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
  2003-2024 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 """  # noqa: E501
 =======
@@ -319,6 +331,7 @@ footer_tmpl = string.Template(
 =======
  2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +386,11 @@ footer_tmpl = string.Template(
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+ 2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 """
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 )
