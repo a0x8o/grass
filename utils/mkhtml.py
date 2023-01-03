@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -767,6 +768,8 @@
 =======
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -775,7 +778,12 @@
 =======
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 506d884519 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2007-2024 by Glynn Clements
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
@@ -1010,12 +1018,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c066e85bd (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1344,13 +1355,17 @@
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 =======
 # COPYRIGHT:    (C) 2007-2023 by Glynn Clements
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 506d884519 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4c066e85bd (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -1965,6 +1980,8 @@
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
 #                and the GRASS Development Team
 #
 #               This program is free software under the GNU General
