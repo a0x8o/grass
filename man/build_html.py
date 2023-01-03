@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
@@ -36,6 +39,7 @@
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
@@ -56,6 +60,11 @@
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+# (C) 2003-2023 Markus Neteler and the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 # Authors:
 #   Markus Neteler
 #   Glynn Clements
