@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -707,7 +708,12 @@
 =======
 =======
 >>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 7c58471b8e (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 # COPYRIGHT:    (C) 2007-2024 by Glynn Clements
 =======
 # COPYRIGHT:    (C) 2007-2022 by Glynn Clements
@@ -1126,6 +1132,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1207,6 +1214,8 @@
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1787,7 +1796,15 @@
 =======
 =======
 >>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+# COPYRIGHT:    (C) 2007-2023 by Glynn Clements
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 7c58471b8e (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> 5ce13cea96 (i.maxlik: fix crash when classification result is NULL (#2724))
 #                and the GRASS Development Team
 #
 #               This program is free software under the GNU General
