@@ -147,6 +147,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -253,6 +254,8 @@ public:
 =======
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 0e678c812a (Merge branch 'a0x8o' into stag0)
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -276,6 +279,8 @@ public:
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
 =======
 <<<<<<< HEAD
 =======
@@ -388,7 +393,14 @@ public:
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
