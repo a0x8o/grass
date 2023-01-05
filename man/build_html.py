@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -436,7 +437,12 @@
 =======
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 8c60dd2ea6 (r.terrafow: explicit use of default constructors (#2660))
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
@@ -770,6 +776,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -809,6 +816,8 @@
 >>>>>>> ab3f49acee (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 984f2e4b5f (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 8c60dd2ea6 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1107,7 +1116,12 @@
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 816281ce6b (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 8c60dd2ea6 (r.terrafow: explicit use of default constructors (#2660))
 # Authors:
 #   Markus Neteler
 #   Glynn Clements
