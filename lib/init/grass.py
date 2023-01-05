@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -944,7 +945,12 @@
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -1434,6 +1440,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1549,6 +1556,8 @@
 >>>>>>> 3baa5ce440 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1761,6 +1770,7 @@
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
@@ -2315,6 +2325,10 @@
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
 #
 #               This program is free software under the GNU General
 #               Public License (>=v2). Read the file COPYING that

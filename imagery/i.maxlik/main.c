@@ -1852,6 +1852,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2096,6 +2097,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2193,6 +2196,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
                 if (Rast_is_c_null_value(&class_cell[col]) == 0)
                     class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
@@ -2845,6 +2850,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -2902,6 +2908,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3baa5ce440 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> bea6abbdbb (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 506d884519 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c68c3cd4d0 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -4091,7 +4099,12 @@ int main(int argc, char *argv[])
                 class_cell[col] = S.sig[class_cell[col] - 1].oclass;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 40375e6e48 (r.terrafow: explicit use of default constructors (#2660))
             }
         }
         Rast_put_row(class_fd, class_cell, CELL_TYPE);
