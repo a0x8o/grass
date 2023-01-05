@@ -99,6 +99,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1871,7 +1872,12 @@ Usage:
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -2821,6 +2827,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2860,6 +2867,8 @@ Usage:
 >>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
@@ -3998,12 +4007,16 @@ Usage:
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 =======
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 45a737e836 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4611,6 +4624,8 @@ Usage:
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.

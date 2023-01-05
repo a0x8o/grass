@@ -47,6 +47,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -759,6 +760,7 @@ PGM = r.resamp.filter
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1058,10 +1060,15 @@ PGM = r.resamp.filter
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1487,6 +1494,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1592,10 +1600,16 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,6 +1879,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -2804,6 +2820,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3118,6 +3135,10 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> f04c2ba007 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 421dbe1c51 (r.terrafow: explicit use of default constructors (#2660))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 
