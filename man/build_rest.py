@@ -78,6 +78,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -703,7 +704,12 @@ Created on Thu Aug  9 14:04:12 2012
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 # (C) 2003-2024 by Luca Delucchi and the GRASS Development Team
 =======
 # (C) 2003-2022 by Luca Delucchi and the GRASS Development Team
@@ -1121,6 +1127,7 @@ Created on Thu Aug  9 14:04:12 2012
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1200,6 +1207,8 @@ Created on Thu Aug  9 14:04:12 2012
 >>>>>>> 60bf55d59f (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1775,7 +1784,12 @@ Created on Thu Aug  9 14:04:12 2012
 # (C) 2003-2022 by Luca Delucchi and the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 
 import os
 import string
@@ -1935,6 +1949,7 @@ footer_tmpl = string.Template(
 --------------
 
 :doc:`Manual main page <index>` \| :doc:`Full Index <full_index>`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2389,7 +2404,12 @@ footer_tmpl = string.Template(
 =======
 >>>>>>> 3d3f3040e9 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
+<<<<<<< HEAD
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
  2003-2024 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 """  # noqa: E501
 =======
@@ -2399,6 +2419,7 @@ footer_tmpl = string.Template(
 =======
  2003-2023 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2532,6 +2553,8 @@ footer_tmpl = string.Template(
 >>>>>>> 60bf55d59f (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
@@ -3267,7 +3290,12 @@ footer_tmpl = string.Template(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
  2003-2022 `GRASS Development Team <https://grass.osgeo.org>`_, GRASS GIS ${grass_version} Reference Manual
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1903fbe109 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 """
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 )

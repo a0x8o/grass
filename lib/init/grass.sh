@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dfc4e9b268 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -707,7 +708,12 @@
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -1125,6 +1131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1204,6 +1211,8 @@
 >>>>>>> 60bf55d59f (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 21a39e2108 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1779,7 +1788,12 @@
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 480ff97f17 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> e86987389e (r.terrafow: explicit use of default constructors (#2660))
 #
 #               This program is free software under the GNU General
 #   	    	Public License (>=v2). Read the file COPYING that
