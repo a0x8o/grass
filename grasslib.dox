@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 =======
 <<<<<<< HEAD
@@ -29,6 +30,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
      * updated 8/2005, 2006-2024
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017, 2018, 2019, 2021
@@ -49,6 +52,7 @@
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 =======
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -73,6 +77,8 @@
      * updated 8/2005, 2006-2008, 2010-2011, 2017-2022
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
   -->
 
 <a href="https://grass.osgeo.org">GRASS GIS</a> (<b>Geographic
@@ -99,6 +105,7 @@ pages.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 &copy; 2000-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -114,6 +121,8 @@ pages.
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 &copy; 2000-2024 by the GRASS Development Team
 =======
 &copy; 2000-2022 by the GRASS Development Team
@@ -126,6 +135,7 @@ pages.
 =======
 &copy; 2000-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 =======
 &copy; 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -143,6 +153,8 @@ pages.
 &copy; 2000-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 
 This manual is published under <a
 href="http://www.fsf.org/copyleft/fdl.html">GNU Free Documentation
