@@ -1787,6 +1787,7 @@ dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1887,6 +1888,8 @@ dev
 >>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> a1e3744f68 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> ca3778dbc8 (Merge branch 'a0x8o' into stag0)
 =======
 2023
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -3033,4 +3036,9 @@ dev
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f7b8bdee1e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> ca3778dbc8 (Merge branch 'a0x8o' into stag0)
