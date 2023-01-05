@@ -104,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -306,6 +307,8 @@
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -670,7 +673,12 @@
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
  *               Aaron Saw Min Sern (OpenMP parallelization)
  * PURPOSE:
  * COPYRIGHT:    (C) 2010-2023 by Glynn Clements and the GRASS Development Team
@@ -987,6 +995,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1090,6 +1099,8 @@
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -1957,7 +1968,16 @@
  * COPYRIGHT:    (C) 2010 by Glynn Clements and the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ *               Aaron Saw Min Sern (OpenMP parallelization)
+ * PURPOSE:
+ * COPYRIGHT:    (C) 2010-2023 by Glynn Clements and the GRASS Development Team
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
  *
  *               This program is free software under the GNU General Public
  *               License (>=v2). Read the file COPYING that comes with GRASS
@@ -2162,6 +2182,7 @@ static const struct filter_type menu[] = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2309,6 +2330,8 @@ static const struct filter_type menu[] = {
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -2742,12 +2765,15 @@ static const struct filter_type menu[] = {
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
     {NULL, NULL, 0},
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     {NULL},
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3215,7 +3241,15 @@ static const struct filter_type menu[] = {
     {NULL},
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    {NULL, NULL, 0},
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 };
 
 static char *build_filter_list(void)
@@ -3510,6 +3544,7 @@ static void filter(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     while (written_row < dst_w.rows) {
@@ -3677,6 +3712,8 @@ static void filter(void)
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
@@ -3968,7 +4005,12 @@ static void filter(void)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     while (written_row < dst_w.rows) {
         int range = bufrows;
 
@@ -4537,6 +4579,7 @@ static void filter(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4645,6 +4688,8 @@ static void filter(void)
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4690,9 +4735,12 @@ static void filter(void)
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+=======
     while (written_row < dst_w.rows) {
         int range = bufrows;
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4765,6 +4813,8 @@ static void filter(void)
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
@@ -6624,39 +6674,79 @@ static void filter(void)
 
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 
-        G_percent(row, dst_w.rows, 2);
+        if (range > dst_w.rows - written_row) {
+            range = dst_w.rows - written_row;
+        }
+        int start = written_row;
+        int end = written_row + range;
 
-        if (row0 >= cur_row && row0 < cur_row + num_rows) {
-            int m = row0 - cur_row;
-            int n = cur_row + num_rows - row0;
-            int i;
+#pragma omp parallel private(row)
+        {
+            int read_row = 0;
+            int num_rows = 0;
+            int t_id = 0;
 
-            for (i = 0; i < n; i++) {
-                DCELL *tmp = bufs[i];
+#if defined(_OPENMP)
+            t_id = omp_get_thread_num();
+#endif
 
-                bufs[i] = bufs[m + i];
-                bufs[m + i] = tmp;
+#pragma omp for schedule(static, 1)
+            for (row = start; row < end; row++) {
+                int row0 = maprow0[row];
+                int row1 = maprow1[row];
+                int rows = row1 - row0;
+                int i;
+
+                G_percent(computed_row, dst_w.rows, 2);
+
+                if (row0 >= read_row && row0 < read_row + num_rows) {
+                    int m = row0 - read_row;
+                    int n = read_row + num_rows - row0;
+                    int i;
+
+                    for (i = 0; i < n; i++) {
+                        DCELL *tmp = bufs[t_id][i];
+
+                        bufs[t_id][i] = bufs[t_id][m + i];
+                        bufs[t_id][m + i] = tmp;
+                    }
+
+                    read_row = row0;
+                    num_rows = n;
+                }
+                else {
+                    read_row = row0;
+                    num_rows = 0;
+                }
+
+                for (i = num_rows; i < rows; i++) {
+                    G_debug(5, "read: %p = %d", bufs[t_id][i], row0 + i);
+                    /* enlarging the source window to the North and South is
+                     * not possible for global maps in ll */
+                    if (row0 + i >= 0 && row0 + i < src_w.rows)
+                        Rast_get_d_row(infile[t_id], inbuf[t_id], row0 + i);
+                    else
+                        Rast_set_d_null_value(inbuf[t_id], src_w.cols);
+                    h_filter(bufs[t_id][i], inbuf[t_id]);
+                }
+
+                num_rows = rows;
+
+                v_filter(&outbuf[(row - start) * dst_w.cols], bufs[t_id], row,
+                         rows);
+#pragma omp atomic update
+                computed_row++;
             }
-
-            cur_row = row0;
-            num_rows = n;
-        }
-        else {
-            cur_row = row0;
-            num_rows = 0;
         }
 
-        for (i = num_rows; i < rows; i++) {
-            G_debug(5, "read: %p = %d", bufs[i], row0 + i);
-            /* enlarging the source window to the North and South is
-             * not possible for global maps in ll */
-            if (row0 + i >= 0 && row0 + i < src_w.rows)
-                Rast_get_d_row(infile, inbuf, row0 + i);
-            else
-                Rast_set_d_null_value(inbuf, src_w.cols);
-            h_filter(bufs[i], inbuf);
+        for (row = start; row < end; row++) {
+            Rast_put_d_row(outfile, &outbuf[(row - start) * dst_w.cols]);
+            G_debug(5, "write: %d", row);
         }
+<<<<<<< HEAD
 
         num_rows = rows;
 
@@ -7058,6 +7148,7 @@ static void filter(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7159,6 +7250,8 @@ static void filter(void)
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
@@ -7908,7 +8001,12 @@ static void filter(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     }
     G_percent(dst_w.rows, dst_w.rows, 2);
 }
@@ -7917,6 +8015,7 @@ int main(int argc, char *argv[])
 {
     struct GModule *module;
     struct {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8178,6 +8277,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8516,7 +8617,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
         struct Option *rastin, *rastout, *method, *radius, *x_radius, *y_radius,
             *memory, *nprocs;
 =======
@@ -8908,6 +9014,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -8970,6 +9077,8 @@ int main(int argc, char *argv[])
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -9485,7 +9594,12 @@ int main(int argc, char *argv[])
         struct Option *rastin, *rastout, *method, *radius, *x_radius, *y_radius;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     } parm;
     struct {
         struct Flag *nulls;
@@ -9493,6 +9607,7 @@ int main(int argc, char *argv[])
     char title[64];
     int i, t;
     int nprocs;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9646,6 +9761,8 @@ int main(int argc, char *argv[])
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -10140,7 +10257,15 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    size_t in_buf_size, out_buf_size;
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 
     G_gisinit(argv[0]);
 
@@ -10390,6 +10515,7 @@ int main(int argc, char *argv[])
                     "threads setting."));
     nprocs = 1;
 #endif
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 
@@ -10685,6 +10811,8 @@ int main(int argc, char *argv[])
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10872,6 +11000,7 @@ int main(int argc, char *argv[])
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -10982,7 +11111,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     if (nprocs > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
         G_warning(_("Parallel processing disabled due to active MASK."));
 >>>>>>> fa1324421c (r.terrafow: explicit use of default constructors (#2660))
@@ -10991,6 +11125,7 @@ int main(int argc, char *argv[])
 =======
 
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11033,6 +11168,8 @@ int main(int argc, char *argv[])
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
     if (parm.radius->answer) {
         if (parm.x_radius->answer || parm.y_radius->answer)
             G_fatal_error(_("%s= and %s=/%s= are mutually exclusive"),
@@ -11221,6 +11358,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11319,6 +11457,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -11714,13 +11854,21 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     bufs = G_malloc(nprocs * sizeof(DCELL **));
     for (t = 0; t < nprocs; t++) {
         bufs[t] = G_malloc(row_scale * sizeof(DCELL *));
         for (i = 0; i < row_scale; i++)
             bufs[t][i] = Rast_allocate_d_buf();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12490,6 +12638,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+=======
     bufs = G_malloc(row_scale * sizeof(DCELL *));
     for (i = 0; i < row_scale; i++)
         bufs[i] = Rast_allocate_d_buf();
@@ -12506,6 +12656,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12901,11 +13052,19 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 
     Rast_set_input_window(&src_w);
     Rast_set_output_window(&dst_w);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13067,6 +13226,8 @@ int main(int argc, char *argv[])
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -13265,7 +13426,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     /* memory reserved for input */
     in_buf_size = dst_w.cols * sizeof(DCELL) * row_scale * nprocs;
     /* memory available for output buffer */
@@ -13338,6 +13504,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -13401,6 +13568,8 @@ int main(int argc, char *argv[])
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
@@ -13726,7 +13895,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
     bufrows =
         atoi(parm.memory->answer) * (((1 << 20) / sizeof(DCELL)) / dst_w.cols);
     if (bufrows > dst_w.rows) {
@@ -13789,6 +13963,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 936c2c0116 (r.terrafow: explicit use of default constructors (#2660))
@@ -13834,6 +14009,8 @@ int main(int argc, char *argv[])
 >>>>>>> 0785c4fdc0 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -14243,7 +14420,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 
     inbuf = G_malloc(nprocs * sizeof(DCELL *));
     for (t = 0; t < nprocs; t++)
