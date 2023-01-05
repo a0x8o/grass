@@ -4417,6 +4417,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4629,6 +4630,8 @@ public:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4656,6 +4659,7 @@ public:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5082,6 +5086,10 @@ public:
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     elevation_type h{0.0};
     toporank_type toporank{0};
 =======
@@ -5582,6 +5590,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -5672,6 +5681,8 @@ public:
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -6377,7 +6388,12 @@ public:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     /* points at same heights are processed in increasing order of their
        topological rank; overall, this gives topological order and
        guarantees that flow is never puhsed backwards. Note: of course,
@@ -6515,6 +6531,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6790,6 +6807,8 @@ public:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6839,6 +6858,7 @@ public:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7323,6 +7343,10 @@ public:
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     dimension_type i{0}, j{0};
 
 public:
@@ -7583,8 +7607,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 =======
     dimension_type i{0}, j{0};
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
@@ -10890,6 +10917,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -10910,6 +10938,8 @@ public:
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10934,7 +10964,12 @@ public:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -10967,6 +11002,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -10977,6 +11013,10 @@ public:
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -14455,6 +14495,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14730,6 +14771,8 @@ public:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -14779,6 +14822,7 @@ public:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15263,6 +15307,10 @@ public:
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     flowaccumulation_type value{0};
 
 public:
@@ -15415,13 +15463,17 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 =======
+<<<<<<< HEAD
 >>>>>>> f7b8bdee1e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
@@ -15454,6 +15506,8 @@ public:
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     flowaccumulation_type value{0};
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 
@@ -16988,6 +17042,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -17163,6 +17218,8 @@ public:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -17263,6 +17320,8 @@ public:
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -18433,6 +18492,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -18550,6 +18610,8 @@ public:
 >>>>>>> d46f4229a7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -18894,6 +18956,7 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -19458,6 +19521,10 @@ public:
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     flowValue operator!=(const flowValue &elt) { return value != elt.value; }
     flowValue operator==(const flowValue &elt) { return value == elt.value; }
 
@@ -19615,6 +19682,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19890,6 +19958,8 @@ private:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -19939,6 +20009,7 @@ private:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20423,6 +20494,10 @@ private:
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     flowPriority prio{};
     flowValue val{};
 
@@ -20569,13 +20644,17 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 =======
+<<<<<<< HEAD
 >>>>>>> f7b8bdee1e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -20584,6 +20663,8 @@ public:
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
     flowPriority prio{};
     flowValue val{};
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
@@ -20591,8 +20672,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 
 public:
     flowStructure() {}
@@ -23056,6 +23140,8 @@ public:
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
     ~flowStructure() {}
 
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
     flowPriority getPriority() const { return prio; }
 
 <<<<<<< HEAD
