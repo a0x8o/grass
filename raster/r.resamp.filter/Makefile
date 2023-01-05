@@ -41,6 +41,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -707,6 +708,7 @@ PGM = r.resamp.filter
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1020,10 +1022,15 @@ PGM = r.resamp.filter
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1427,6 +1434,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1534,10 +1542,16 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1795,6 +1809,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -2672,6 +2688,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3000,6 +3017,10 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 75205cb772 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 69ab96ba5d (r.terrafow: explicit use of default constructors (#2660))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 
