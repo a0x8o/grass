@@ -175,6 +175,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -336,6 +337,8 @@ public:
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -592,6 +595,10 @@ public:
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
