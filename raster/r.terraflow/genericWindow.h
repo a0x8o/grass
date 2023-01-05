@@ -119,6 +119,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -169,6 +170,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -290,7 +293,12 @@ public:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {

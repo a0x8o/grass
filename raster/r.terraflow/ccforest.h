@@ -84,6 +84,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -145,6 +146,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -432,6 +435,7 @@ public:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
@@ -511,6 +515,10 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     int operator!=(const keyvalue &e2) const
     {
         return (key != e2.key) || (value != e2.value);
@@ -646,6 +654,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -669,6 +678,10 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
@@ -796,6 +809,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 68c589f721 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -975,6 +991,7 @@ public:
 =======
     ~ccforest();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
@@ -1062,6 +1079,10 @@ public:
     ~ccforest();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     void insert(const T &i, const T &j); /* insert edge (i,j) */
     T findNextRoot(const T &i);          /* find root where i >= prev i */
     void printRootStream();

@@ -14311,6 +14311,7 @@ class GMFrame(wx.Frame):
         """Close wxGUI"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -14322,6 +14323,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
         if not self.currentPage:
             self._auimgr.UnInit()
             self.Destroy()

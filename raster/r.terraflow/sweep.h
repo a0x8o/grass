@@ -884,6 +884,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -906,6 +907,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     elevation_type h{0.0};
     toporank_type toporank{0};
 =======
@@ -1147,6 +1150,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
@@ -1228,10 +1232,17 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    elevation_type h{0.0};
+    toporank_type toporank{0};
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     /* points at same heights are processed in increasing order of their
        topological rank; overall, this gives topological order and
        guarantees that flow is never puhsed backwards. Note: of course,
        this is a way of waving hands on topological sorting.  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1349,6 +1360,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     dimension_type i{0}, j{0};
 
 public:
@@ -1793,20 +1806,24 @@ public:
 =======
 >>>>>>> osgeo-main
     dimension_type i, j;
+=======
+    dimension_type i{0}, j{0};
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 
 public:
-    flowPriority(elevation_type a = 0, toporank_type b = 0,
-                 dimension_type c = 0, dimension_type d = 0)
-        : h(a), toporank(b), i(c), j(d)
+    flowPriority() {}
+    flowPriority(elevation_type a) : h{a} {}
+    flowPriority(elevation_type a, toporank_type b, dimension_type c,
+                 dimension_type d)
+        : h{a}, toporank{b}, i{c}, j{d}
     {
     }
 
-    flowPriority(const flowPriority &p)
-        : h(p.h), toporank(p.toporank), i(p.i), j(p.j)
-    {
-    }
-
-    ~flowPriority() {}
+    flowPriority(const flowPriority &) = default;
+    flowPriority &operator=(const flowPriority &) = default;
+    flowPriority(flowPriority &&) = default;
+    flowPriority &operator=(flowPriority &&) = default;
+    ~flowPriority() = default;
 
     elevation_type field1() const { return h; }
 
@@ -2292,6 +2309,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2375,6 +2393,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -2675,6 +2695,8 @@ public:
     ~sweepItemBaseType() {}
 
     /***************************************************************/
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -3125,6 +3147,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3208,6 +3231,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     flowaccumulation_type value{0};
 
 public:
@@ -3662,6 +3687,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3723,6 +3749,8 @@ public:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4009,6 +4037,7 @@ public:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
@@ -4088,6 +4117,10 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     flowValue operator!=(const flowValue &elt) { return value != elt.value; }
     flowValue operator==(const flowValue &elt) { return value == elt.value; }
 
@@ -4146,6 +4179,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4229,6 +4263,8 @@ private:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
     flowPriority prio{};
     flowValue val{};
 
@@ -4866,6 +4902,8 @@ public:
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
     ~flowStructure() {}
 
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
     flowPriority getPriority() const { return prio; }
 
 <<<<<<< HEAD

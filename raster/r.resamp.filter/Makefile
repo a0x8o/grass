@@ -30,6 +30,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38,6 +39,8 @@ PGM = r.resamp.filter
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -331,6 +334,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -426,6 +430,13 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
+DEPENDENCIES = $(RASTERDEP) $(GISDEP)
+EXTRA_CFLAGS = $(OMPCFLAGS)
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 
