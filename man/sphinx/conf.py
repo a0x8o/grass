@@ -4217,6 +4217,7 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c7e56315ec (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -4241,6 +4242,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 =======
 copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -5476,8 +5479,16 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -21506,6 +21517,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -21645,6 +21657,8 @@ epub_publisher = "GRASS Development Team"
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -21802,6 +21816,8 @@ epub_publisher = "GRASS Development Team"
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> osgeo-main
@@ -21809,8 +21825,16 @@ epub_publisher = "GRASS Development Team"
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 epub_copyright = "2022, GRASS Development Team"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -22216,6 +22240,7 @@ epub_copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -22308,6 +22333,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> e24e5f484d (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 91916b041f (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -22612,6 +22639,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 28cedb28c6 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -23911,8 +23940,16 @@ epub_copyright = "2022, GRASS Development Team"
 epub_copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 64ef346811 (Merge branch 'a0x8o' into stag0)
+>>>>>>> 3c42aaaec5 (Merge branch 'a0x8o' into stag0)
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
