@@ -2300,6 +2300,7 @@ dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -2393,6 +2394,8 @@ dev
 >>>>>>> cf8c80fee3 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 6a32c1731d (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -3923,4 +3926,9 @@ dev
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 886d93287a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 6abd882752 (r.terrafow: explicit use of default constructors (#2660))
