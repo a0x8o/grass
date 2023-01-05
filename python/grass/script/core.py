@@ -63,6 +63,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -709,7 +710,12 @@ Usage:
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -1257,6 +1263,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
@@ -1816,7 +1823,14 @@ Usage:
 (C) 2008-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+(C) 2008-2023 by the GRASS Development Team
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.

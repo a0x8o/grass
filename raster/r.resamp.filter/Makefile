@@ -29,6 +29,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -434,11 +435,17 @@ PGM = r.resamp.filter
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -666,11 +673,18 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> a0ce5c372a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,6 +802,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -1268,7 +1284,12 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

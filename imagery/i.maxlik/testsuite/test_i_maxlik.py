@@ -155,6 +155,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -274,6 +275,8 @@ class SuccessTest(TestCase):
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -606,6 +609,8 @@ class SuccessTest(TestCase):
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
@@ -824,6 +829,7 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fb156cfe5 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 4c8699bc56 (r.terrafow: explicit use of default constructors (#2660))
@@ -848,6 +854,8 @@ class SuccessTest(TestCase):
 >>>>>>> a281b09609 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> f3d76d90e7 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
@@ -1217,7 +1225,12 @@ class SuccessTest(TestCase):
             expression=f"{cls.b2}=5.0+rand(-1.0,1.0)",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
             flags="s",
             quiet=True,
         )
