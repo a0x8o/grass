@@ -51805,6 +51805,9 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -51828,6 +51831,7 @@ class GMFrame(wx.Frame):
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -51838,6 +51842,8 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
         if not self.currentPage:
             self._auimgr.UnInit()
             self.Destroy()

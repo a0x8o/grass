@@ -42,15 +42,21 @@ def benchmark(size, label, results):
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=8, repeat=3))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
     Module("g.remove", quiet=True, flags="f", type="raster", name=(reference, output))
 =======
     Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
     Module("g.remove", quiet=True, flags="f", type="raster", name=output)
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 =======
     Module("g.remove", quiet=True, flags="f", type="raster", name=reference)
     Module("g.remove", quiet=True, flags="f", type="raster", name=output)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cd1e658f47 (r.terrafow: explicit use of default constructors (#2660))
 
 
 def generate_map(rows, cols, fname):
