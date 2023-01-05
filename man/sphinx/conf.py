@@ -1664,6 +1664,7 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -1951,8 +1952,16 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -7874,6 +7883,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -7936,6 +7946,8 @@ epub_publisher = "GRASS Development Team"
 =======
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> b613d037dd (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
@@ -7956,7 +7968,20 @@ epub_publisher = "GRASS Development Team"
 =======
 =======
 >>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 4c8699bc56 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+=======
+>>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 epub_copyright = "2022, GRASS Development Team"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8086,6 +8111,7 @@ epub_copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -8100,6 +8126,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 4c8699bc56 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d0c4af5f80 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -8330,6 +8358,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 763393c2b3 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -8638,8 +8668,16 @@ epub_copyright = "2022, GRASS Development Team"
 epub_copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.

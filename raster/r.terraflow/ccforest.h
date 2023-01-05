@@ -67,10 +67,13 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
 <<<<<<< HEAD
 =======
@@ -236,6 +239,8 @@ public:
 >>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -712,6 +717,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -770,12 +776,16 @@ public:
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1127,8 +1137,16 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
     int operator!=(const keyvalue &e2) const
     {
         return (key != e2.key) || (value != e2.value);
@@ -1353,6 +1371,10 @@ public:
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1619,8 +1641,18 @@ public:
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
     ccforest(const ccforest &) = delete;
     ccforest &operator=(const ccforest &) = delete;
     ccforest(ccforest &&) = delete;
@@ -1636,9 +1668,14 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> fc6ae6c77c (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -1998,6 +2035,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -2007,6 +2045,8 @@ public:
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -2235,8 +2275,16 @@ public:
     ~ccforest();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 9b17b70e23 (r.terrafow: explicit use of default constructors (#2660))
     void insert(const T &i, const T &j); /* insert edge (i,j) */
     T findNextRoot(const T &i);          /* find root where i >= prev i */
     void printRootStream();
