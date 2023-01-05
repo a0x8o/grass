@@ -169,6 +169,7 @@ project = "Python library documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -633,7 +634,12 @@ copyright = "2023, GRASS Development Team"
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 614639d14c (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 copyright = "2024, GRASS Development Team"
 =======
 copyright = "2022, GRASS Development Team"
@@ -991,6 +997,7 @@ copyright = "2023, GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1042,6 +1049,8 @@ copyright = "2023, GRASS Development Team"
 >>>>>>> d57829fdd5 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
@@ -1418,7 +1427,12 @@ copyright = "2023, GRASS Development Team"
 copyright = "2022, GRASS Development Team"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 614639d14c (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -1724,6 +1738,7 @@ epub_publisher = "GRASS Development Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 epub_copyright = "2023, GRASS Development Team"
@@ -1861,6 +1876,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 4c14c5377c (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> 9ca218c791 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
@@ -2068,6 +2085,8 @@ epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 9e655d2081 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> d88b10832d (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> 614639d14c (r.terrafow: explicit use of default constructors (#2660))
 epub_copyright = "2022, GRASS Development Team"
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2076,6 +2095,7 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 epub_copyright = "2023, GRASS Development Team"
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2658,7 +2678,12 @@ epub_copyright = "2022, GRASS Development Team"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 614639d14c (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 482cd79ba4 (r.terrafow: explicit use of default constructors (#2660))
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = u'wxGUI'
