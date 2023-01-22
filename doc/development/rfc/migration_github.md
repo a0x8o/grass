@@ -129,6 +129,10 @@ Status: Motion passed Apr 22, 2019
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -395,12 +399,23 @@ Status: Motion passed Apr 22, 2019
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 GRASS GIS is an open source geoinformation system which is developed by a globally
 distributed team of developers. Besides the source code developers also message
 translators, people who write documentation, those who report bugs and wishes and
 more are involved.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,8 +531,17 @@ more are involved.
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 
 The centralized source code management system Subversion (SVN) has served the
 GRASS GIS project very well since 2007. The project has established routines and
@@ -760,7 +784,12 @@ The centralized source code management system Subversion (SVN) has served the GR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -1244,6 +1273,7 @@ more are involved.
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -1252,6 +1282,12 @@ more are involved.
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 
 The centralized source code management system Subversion (SVN) has served the
 GRASS GIS project very well since 2007. The project has established routines and
@@ -1267,12 +1303,15 @@ platform.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1454,8 +1493,17 @@ platform.
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 
 ## Background information of git migration
 
@@ -1661,6 +1709,10 @@ platform.
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1709,15 +1761,47 @@ platform.
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 Since migration is a huge effort, massive work on converting the existing source
 code (organized in branches) and the related trac tickets has been done. The main
 scope of weeks of efforts was to preserve as much information as possible by
 converting trac/svn references to full URLs pointing to the old system kept
 available in read-only mode.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+=======
+Since migration is a huge effort, massive work on converting the existing source code (organized in branches) and the related trac tickets has been done. The main scope of weeks of efforts was to preserve as much information as possible by converting trac/svn references to full URLs pointing to the old system kept available in read-only mode.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+
+The following new GitHub repositories have been
+[created](https://github.com/grass-svn2git). Note that the "cut-off" date of the
+main **grass** repository does not correspond to the first upload to CSV which
+was then migrated to SVN. The repositories **grass** and **grass-legacy** overlap
+in time since they contain different branches:
+
+* repository **grass**
+  * Source code from 2008 (as the starting commit r31142 was selected, i.e.
+    "Welcome to GRASS 7.0.svn") to present day (SVN-trunk -> git-master)
+  * i.e., all 7.x and later release branches + master
+* repository **grass-legacy**
+  * Source code from 1987 (pre-public internet times; manually reconstructed) -
+    2018 (r72361 - last commit to releasebranch_6_4)
+  * i.e., a separate repository for older GRASS GIS releases (3.2, 4.x, 5.x, 6.x)
+* repository **grass-addons**
+  * repository for addons
+  * code re-organized from directory-like layout (grass6, grass7) into
+    branches-like layout (master == grass7, grass6, ...)
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1731,7 +1815,33 @@ available in read-only mode.
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
+<<<<<<< HEAD
+
+The following new GitHub repositories have been
+[created](https://github.com/grass-svn2git). Note that the "cut-off" date of the
+main **grass** repository does not correspond to the first upload to CSV which
+was then migrated to SVN. The repositories **grass** and **grass-legacy** overlap
+in time since they contain different branches:
+
+* repository **grass**
+  * Source code from 2008 (as the starting commit r31142 was selected, i.e.
+    "Welcome to GRASS 7.0.svn") to present day (SVN-trunk -> git-master)
+  * i.e., all 7.x and later release branches + master
+* repository **grass-legacy**
+  * Source code from 1987 (pre-public internet times; manually reconstructed) -
+    2018 (r72361 - last commit to releasebranch_6_4)
+  * i.e., a separate repository for older GRASS GIS releases (3.2, 4.x, 5.x, 6.x)
+* repository **grass-addons**
+  * repository for addons
+<<<<<<< HEAD
+  * code re-organized from directory-like layout (grass6, grass7) into branches-like layout (master == grass7, grass6, ...)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3727,17 +3837,26 @@ in time since they contain different branches:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 Since migration is a huge effort, massive work on converting the existing source code (organized in branches) and the related trac tickets has been done. The main scope of weeks of efforts was to preserve as much information as possible by converting trac/svn references to full URLs pointing to the old system kept available in read-only mode.
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
-The following new GitHub repositories have been [created](https://github.com/grass-svn2git). Note that the "cut-off" date of the main **grass** repository does not correspond to the first upload to CSV which was then migrated to SVN. The repositories **grass** and **grass-legacy** overlap in time since they contain different branches:
+The following new GitHub repositories have been
+[created](https://github.com/grass-svn2git). Note that the "cut-off" date of the
+main **grass** repository does not correspond to the first upload to CSV which
+was then migrated to SVN. The repositories **grass** and **grass-legacy** overlap
+in time since they contain different branches:
 
 * repository **grass**
-  * Source code from 2008 (as the starting commit r31142 was selected, i.e. "Welcome to GRASS 7.0.svn") to present day (SVN-trunk -> git-master)
+  * Source code from 2008 (as the starting commit r31142 was selected, i.e.
+    "Welcome to GRASS 7.0.svn") to present day (SVN-trunk -> git-master)
   * i.e., all 7.x and later release branches + master
 * repository **grass-legacy**
-  * Source code from 1987 (pre-public internet times; manually reconstructed) - 2018 (r72361 - last commit to releasebranch_6_4)
+  * Source code from 1987 (pre-public internet times; manually reconstructed) -
+    2018 (r72361 - last commit to releasebranch_6_4)
   * i.e., a separate repository for older GRASS GIS releases (3.2, 4.x, 5.x, 6.x)
 * repository **grass-addons**
   * repository for addons
+<<<<<<< HEAD
   * code re-organized from directory-like layout (grass6, grass7) into branches-like layout (master == grass7, grass6, ...)
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3752,9 +3871,22 @@ The following new GitHub repositories have been [created](https://github.com/gra
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+  * code re-organized from directory-like layout (grass6, grass7) into
+    branches-like layout (master == grass7, grass6, ...)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 * repository **grass-promo**
   * repository for promotional material
 
@@ -3824,6 +3956,7 @@ The final destination of these repositories will be under <https://github.com/OS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3958,6 +4091,8 @@ The final destination of these repositories will be under <https://github.com/OS
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3972,6 +4107,8 @@ The final destination of these repositories will be under <https://github.com/OS
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4115,8 +4252,16 @@ The final destination of these repositories will be under <https://github.com/OS
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying
 and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN
 has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
@@ -4502,6 +4647,7 @@ Given GRASS GIS’ history of 35+ years we had to invest major effort in identif
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -4513,12 +4659,37 @@ Given GRASS GIS’ history of 35+ years we had to invest major effort in identif
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 Given GRASS GIS’ history of 35+ years we had to invest major effort in identifying
 and mapping user names throughout the decades (CVS was used from 1999 to 2007; SVN
 has been used since 2007, see [history](https://grasswiki.osgeo.org/wiki/Bug_tracking)).
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4760,8 +4931,17 @@ Given GRASS GIS’ history of 35+ years we had to invest major effort in identif
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 
 The following circumstances could be identified:
 
@@ -4825,6 +5005,7 @@ The following circumstances could be identified:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4933,6 +5114,8 @@ The following circumstances could be identified:
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -5647,6 +5830,8 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
@@ -5926,6 +6111,96 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+* user present in both with different name as some were changed in the CVS to
+  SVN migration in 2007, leading to colliding user names
+=======
+* user present in both with different name as some were changed in the CVS to SVN migration in 2007, leading to colliding user names
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+* some users already having a GitHub account (with mostly different name again)
+  * see here for the [author mapping table](https://trac.osgeo.org/grass/browser/grass-addons/tools/svn2git/)
+
+**Important**: nothing is lost as contributions can be
+[claimed](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user)
+in GitHub.
+
+## Activating the GitHub issue tracker
+
+As the cut-off date for the trac migration we selected 2007-12-09 (r25479) as it
+was the first SVN commit (after the years in CVS).
+
+The tickets migrated from trac to GitHub contain updated links in the ticket texts:
+
+* links to other tickets (closed now pointing to full trac URL, open pointing to
+  a new github issues). Note that there were many styles of referring in the
+  commit log message which had to be parsed accordingly.
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+* user present in both with different name as some were changed in the CVS to SVN migration in 2007, leading to colliding user names
+=======
+* user present in both with different name as some were changed in the CVS to
+  SVN migration in 2007, leading to colliding user names
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+* some users already having a GitHub account (with mostly different name again)
+  * see here for the [author mapping table](https://trac.osgeo.org/grass/browser/grass-addons/tools/svn2git/)
+
+**Important**: nothing is lost as contributions can be
+[claimed](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user)
+in GitHub.
+
+## Activating the GitHub issue tracker
+
+As the cut-off date for the trac migration we selected 2007-12-09 (r25479) as it
+was the first SVN commit (after the years in CVS).
+
+The tickets migrated from trac to GitHub contain updated links in the ticket texts:
+
+<<<<<<< HEAD
+* links to other tickets (closed now pointing to full trac URL, open pointing to a new github issues). Note that there were many styles of referring in the commit log message which had to be parsed accordingly.
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+* links to other tickets (closed now pointing to full trac URL, open pointing to
+  a new github issues). Note that there were many styles of referring in the
+  commit log message which had to be parsed accordingly.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -6161,17 +6436,23 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 * user present in both with different name as some were changed in the CVS to SVN migration in 2007, leading to colliding user names
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 * some users already having a GitHub account (with mostly different name again)
   * see here for the [author mapping table](https://trac.osgeo.org/grass/browser/grass-addons/tools/svn2git/)
 
-**Important**: nothing is lost as contributions can be [claimed](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user) in GitHub.
+**Important**: nothing is lost as contributions can be
+[claimed](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user)
+in GitHub.
 
 ## Activating the GitHub issue tracker
 
-As the cut-off date for the trac migration we selected 2007-12-09 (r25479) as it was the first SVN commit (after the years in CVS).
+As the cut-off date for the trac migration we selected 2007-12-09 (r25479) as it
+was the first SVN commit (after the years in CVS).
 
 The tickets migrated from trac to GitHub contain updated links in the ticket texts:
 
+<<<<<<< HEAD
 * links to other tickets (closed now pointing to full trac URL, open pointing to a new github issues). Note that there were many styles of referring in the commit log message which had to be parsed accordingly.
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6186,9 +6467,23 @@ The tickets migrated from trac to GitHub contain updated links in the ticket tex
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+* links to other tickets (closed now pointing to full trac URL, open pointing to
+  a new github issues). Note that there were many styles of referring in the
+  commit log message which had to be parsed accordingly.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 * links to trac wiki (now pointing to full trac URL)
 * links source code in SVN (now pointing to full trac URL)
 * images and attachments (now pointing to full trac URL)
@@ -6257,8 +6552,13 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -6516,8 +6816,16 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 * "operating system" trac label into the GitHub issue text itself (following the
   new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -6761,6 +7069,7 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * "operating system" trac label into the GitHub issue text itself (following the new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -6839,6 +7148,8 @@ Labels are preserved by transferring:
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 * "operating system" trac label into the GitHub issue text itself (following the new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -7117,6 +7428,8 @@ Labels are preserved by transferring:
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
 * "operating system" trac label into the GitHub issue text itself (following the new issue reporting template)
 * converting milestones/tickets/comments/labels
 * converting trac usernames to known GitHub usernames (those missing at time can [claim](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user) commits)
@@ -7143,6 +7456,8 @@ Labels are preserved by transferring:
 * converting trac usernames to known GitHub usernames (those missing at time can [claim](https://help.github.com/en/articles/why-are-my-commits-linked-to-the-wrong-user) commits)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
 * "operating system" trac label into the GitHub issue text itself (following the
   new issue reporting template)
 * converting milestones/tickets/comments/labels
@@ -7156,6 +7471,9 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -7345,8 +7663,17 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 * setting assignees if possible; otherwise set new "grass-svn2git" an assignee
 
 **New labels in the GitHub issue tracker:**
@@ -7413,6 +7740,7 @@ Labels are preserved by transferring:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7493,6 +7821,8 @@ Labels are preserved by transferring:
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7572,9 +7902,12 @@ Labels are preserved by transferring:
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -7616,7 +7949,14 @@ Labels are preserved by transferring:
 =======
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 The trac component of the bug reports have been cleaned up following other OSGeo
 projects like GDAL and QGIS, leading to the following categories:
 =======
@@ -7970,6 +8310,7 @@ projects like GDAL and QGIS, leading to the following categories:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -7992,6 +8333,8 @@ projects like GDAL and QGIS, leading to the following categories:
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -8020,6 +8363,8 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -8204,8 +8549,16 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 The trac component of the bug reports have been cleaned up following other OSGeo projects like GDAL and QGIS, leading to the following categories:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 
 * **Issue category**:
   * bug
@@ -8287,6 +8640,7 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8395,6 +8749,8 @@ The trac component of the bug reports have been cleaned up following other OSGeo
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -9037,6 +9393,8 @@ Note that "normal" bugs reported will not carry a label in order to not overload
 =======
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
@@ -9291,6 +9649,84 @@ practices for dealing with the following:
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+Note that "normal" bugs reported will not carry a label in order to not overload
+the visual impact and readability.
+=======
+Note that "normal" bugs reported will not carry a label in order to not overload the visual impact and readability.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+## Rules and best practices for using Git
+
+Before the new Git repository is open for writing, we need to have rules and best
+practices for dealing with the following:
+
+* Policy for automatic merge commits due to un-synchronous nature of Git. Do we
+  want to avoid those by `git pull --rebase`?
+* How to do backports?
+* A branch for every feature or bug fix in the main repo or is this done in the
+  fork?
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+Note that "normal" bugs reported will not carry a label in order to not overload the visual impact and readability.
+=======
+Note that "normal" bugs reported will not carry a label in order to not overload
+the visual impact and readability.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+
+## Rules and best practices for using Git
+
+Before the new Git repository is open for writing, we need to have rules and best
+practices for dealing with the following:
+
+* Policy for automatic merge commits due to un-synchronous nature of Git. Do we
+  want to avoid those by `git pull --rebase`?
+* How to do backports?
+<<<<<<< HEAD
+* A branch for every feature or bug fix in the main repo or is this done in the fork?
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+* A branch for every feature or bug fix in the main repo or is this done in the
+  fork?
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -9496,13 +9932,18 @@ practices for dealing with the following:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Note that "normal" bugs reported will not carry a label in order to not overload the visual impact and readability.
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 ## Rules and best practices for using Git
 
-Before the new Git repository is open for writing, we need to have rules and best practices for dealing with the following:
+Before the new Git repository is open for writing, we need to have rules and best
+practices for dealing with the following:
 
-* Policy for automatic merge commits due to un-synchronous nature of Git. Do we want to avoid those by `git pull --rebase`?
+* Policy for automatic merge commits due to un-synchronous nature of Git. Do we
+  want to avoid those by `git pull --rebase`?
 * How to do backports?
+<<<<<<< HEAD
 * A branch for every feature or bug fix in the main repo or is this done in the fork?
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9517,9 +9958,22 @@ Before the new Git repository is open for writing, we need to have rules and bes
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+* A branch for every feature or bug fix in the main repo or is this done in the
+  fork?
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 * _(add more)_
 
 ## Turning SVN/trac into readonly mode
@@ -9647,6 +10101,10 @@ Before the new Git repository is open for writing, we need to have rules and bes
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -9913,8 +10371,18 @@ Before the new Git repository is open for writing, we need to have rules and bes
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 As soon as the above listed repositories are stable and functional,
 SVN/trac (<https://trac.osgeo.org/grass/>) at OSGeo will be set into readonly
 mode. They will serve as a reference for existing links and also for the
@@ -9928,9 +10396,14 @@ aforementioned converted commit messages and issues in the issue tracker.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -10288,6 +10761,7 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -10297,6 +10771,8 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -10523,8 +10999,16 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 As soon as the above listed repositories are stable and functional, SVN/trac (<https://trac.osgeo.org/grass/>) at OSGeo will be set into readonly mode. They will serve as a reference for existing links and also for the aforementioned converted commit messages and issues in the issue tracker.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 
 ## Open issues
 
@@ -10595,6 +11079,7 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10729,6 +11214,8 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10743,6 +11230,8 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10886,8 +11375,16 @@ As soon as the above listed repositories are stable and functional, SVN/trac (<h
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 GitHub is a closed platform. In case it would be shutdown, closed or GitHub would
 start asking unreasonable fees, a backup strategy is needed.
 
@@ -11273,6 +11770,7 @@ GitHub is a closed platform. In case it would be shutdown, closed or GitHub woul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -11284,12 +11782,37 @@ GitHub is a closed platform. In case it would be shutdown, closed or GitHub woul
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+GitHub is a closed platform. In case it would be shutdown, closed or GitHub would start asking unreasonable fees, a backup strategy is needed.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 GitHub is a closed platform. In case it would be shutdown, closed or GitHub would
 start asking unreasonable fees, a backup strategy is needed.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11531,8 +12054,17 @@ GitHub is a closed platform. In case it would be shutdown, closed or GitHub woul
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
 The proposed solution is
 
 * GitLab has an import module from GitHub.
@@ -11718,6 +12250,10 @@ The proposed solution is
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -11773,6 +12309,8 @@ The proposed solution is
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
 
 
@@ -11922,9 +12460,14 @@ The proposed solution is
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 =======
@@ -12342,5 +12885,15 @@ The proposed solution is
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+>>>>>>> 2b4e1fe52e (Fix missing function prototypes (#2727))
