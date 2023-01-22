@@ -121,6 +121,7 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -135,6 +136,8 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         snprintf(buf, BUFSIZ, "allocated large memory: %s 0x%lX",
                  formatNumber(buf2, leng), (unsigned long)p);
 =======
@@ -231,6 +234,7 @@ void *LargeMemory::alloc(size_t leng)
         snprintf(buf, BUFSIZ, "allocated large memory: %s 0x%lX",
                  formatNumber(buf2, leng), (unsigned long)p);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +418,8 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         stats->comment(buf);
     }
     return p;
@@ -468,6 +474,7 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -482,6 +489,8 @@ void LargeMemory::free(void *p)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         snprintf(buf, BUFSIZ, "freed large memory: %s 0x%lX",
                  formatNumber(buf2, len[i]), (unsigned long)p);
 =======
@@ -578,6 +587,7 @@ void LargeMemory::free(void *p)
         snprintf(buf, BUFSIZ, "freed large memory: %s 0x%lX",
                  formatNumber(buf2, len[i]), (unsigned long)p);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +771,8 @@ void LargeMemory::free(void *p)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         stats->comment(buf);
     }
 

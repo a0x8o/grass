@@ -91,6 +91,7 @@ const char *G_database_unit_name(int plural)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -214,12 +215,15 @@ int G_database_unit(void)
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 int G_database_unit(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int G_database_unit()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +305,11 @@ int G_database_unit(void)
 int G_database_unit()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int G_database_unit(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 {
     int units;
     const char *name;

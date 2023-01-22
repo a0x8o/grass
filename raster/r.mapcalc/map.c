@@ -1043,6 +1043,7 @@ void create_history(const char *dst, expression *e)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1057,6 +1058,8 @@ void create_history(const char *dst, expression *e)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -1134,6 +1137,7 @@ void create_history(const char *dst, expression *e)
 =======
     for (;;) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1306,6 +1310,8 @@ void create_history(const char *dst, expression *e)
     for (i = 0;; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         char buf[RECORD_LEN];
         int n;
 

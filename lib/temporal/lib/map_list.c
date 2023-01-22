@@ -79,6 +79,7 @@ void tgis_free_map_list(tgisMapList *list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -93,6 +94,8 @@ void tgis_free_map_list(tgisMapList *list)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 tgisMapList *tgis_new_map_list(void)
 =======
 <<<<<<< HEAD
@@ -170,6 +173,7 @@ tgisMapList *tgis_new_map_list()
 =======
 tgisMapList *tgis_new_map_list(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +346,8 @@ tgisMapList *tgis_new_map_list()
 tgisMapList *tgis_new_map_list()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 {
     tgisMapList *list = G_malloc(sizeof(tgisMapList));
 

@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -229,6 +230,8 @@ double **matrix(), *vector();
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 double **matrix(int, int, int, int), *vector(int, int);
 =======
 double **matrix(), *vector();
@@ -239,6 +242,7 @@ double **matrix(), *vector();
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
@@ -277,6 +281,11 @@ double **matrix(), *vector();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+double **matrix(int, int, int, int), *vector(int, int);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 
 /* Computes eigenvalues (and eigen vectors if desired) for      *
  *  symmetric matices.                                          */

@@ -80,6 +80,7 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -94,6 +95,8 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 void set_params(void);                         /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -171,6 +174,7 @@ void set_params();                             /*Fill the paramType structure */
 =======
 void set_params(void);                         /*Fill the paramType structure */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,6 +347,8 @@ void set_params();                             /*Fill the paramType structure */
 void set_params();                             /*Fill the paramType structure */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 void elev_raster_to_g3d(Database db,
                         RASTER3D_Region region); /*Write the raster */
 int open_input_raster_map(const char *name);     /*opens the outputmap */

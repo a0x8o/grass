@@ -36,6 +36,7 @@ Status: Adopted (6 Oct 2014)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52,6 +53,8 @@ Status: Adopted (6 Oct 2014)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 =======
@@ -210,12 +213,16 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 =======
@@ -341,6 +348,9 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 Proposals are available for review for at least seven calendar days, and a
 single veto is sufficient to delay progress although ultimately a majority
 of committee members can pass a proposal.
@@ -348,6 +358,7 @@ of committee members can pass a proposal.
 ## Detailed Process
 
 Proposals:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -479,6 +490,10 @@ Proposals:
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 
  1. Proposals are written up and submitted on the PSC mailing list for discussion.
     Any committee member may call a vote on any proposal, although it is normal
@@ -552,6 +567,7 @@ Voting:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -628,6 +644,8 @@ Voting:
 >>>>>>> osgeo-main
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 Voting:
 
  1. A voting procedure is started by the proposer. For a more visible communication,
@@ -650,6 +668,7 @@ Voting:
     it can be resubmitted for an override vote in which a majority of all eligible
     voters indicating +1 is sufficient to pass it. Note that this is a majority of
     all eligible voters, not just those who actively vote.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,3 +1145,6 @@ Voting:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))

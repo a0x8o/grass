@@ -59,6 +59,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -73,6 +74,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -169,6 +172,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
         stats[i].min = NAN;
         stats[i].max = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +356,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -1278,10 +1284,14 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 
         if (stats[z].n == 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
         sprintf(sum_str, "%.15g", stats[z].sum);
         G_trim_decimal(sum_str);
 
@@ -1720,6 +1730,7 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
                 quartile_25 = median = quartile_75 = NAN;
@@ -1810,6 +1821,11 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                quartile_25 = median = quartile_75 = NAN;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = NAN;
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
@@ -2804,6 +2820,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2818,6 +2835,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
 <<<<<<< HEAD
@@ -2895,6 +2914,7 @@ int print_stats_table(univar_stat *stats)
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3067,6 +3087,8 @@ int print_stats_table(univar_stat *stats)
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -3142,6 +3164,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3207,6 +3230,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -3355,6 +3380,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -3406,9 +3432,12 @@ int print_stats_table(univar_stat *stats)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+=======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3543,6 +3572,9 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {

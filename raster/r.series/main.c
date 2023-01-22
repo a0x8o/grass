@@ -3067,6 +3067,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -3090,6 +3091,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
     lo = -INFINITY;
     hi = INFINITY;
     if (parm.range->answer) {
