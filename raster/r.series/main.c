@@ -14747,6 +14747,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
     lo = -INFINITY;
     hi = INFINITY;
     if (parm.range->answer) {
