@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -247,6 +248,8 @@
 =======
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -387,6 +390,8 @@
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 =======
 extern char *get_color_name();
 extern int get_color_number();
@@ -624,6 +629,7 @@ extern int get_color_number();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -725,6 +731,8 @@ extern int get_color_number();
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1435,7 +1443,12 @@ extern int get_color_number();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 static char *help[] = {"font        fontname",
                        "color       color",
                        "width       #",

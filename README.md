@@ -1749,6 +1749,7 @@ visualization.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1945,6 +1946,8 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2068,6 +2071,10 @@ Jupyter Notebooks by clicking the button below:
 >>>>>>> 8ac294c05f (Add Binder badge/button to readme (#1628))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 >>>>>>> 0503a5c10a (Add Binder badge/button to readme (#1628))
@@ -3880,6 +3887,7 @@ Want to become a core developer? See
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4101,6 +4109,8 @@ Want to become a core developer? See
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -4510,7 +4520,12 @@ Want to become a core developer? See
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
@@ -4684,6 +4699,7 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5680,13 +5696,23 @@ in the Wiki.
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
+detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
+in the Wiki.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 
 ## Docker
 
 Build a docker image using the downloaded source code (run this in the directory
 containing the source code):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6135,6 +6161,8 @@ docker build -t grassgis .
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
@@ -6406,6 +6434,10 @@ docker build -t grassgis .
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 A. Docker image **without graphical user interface - wxGUI**.
 
 =======

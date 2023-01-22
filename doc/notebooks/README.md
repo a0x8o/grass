@@ -110,6 +110,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -331,6 +332,8 @@
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -740,7 +743,12 @@
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
@@ -1256,6 +1264,7 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1286,6 +1295,8 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1556,9 +1567,12 @@ Clone this repository with `git clone` first. Then, locally start the Jupyter no
 server from the command line in the `doc/notebooks/` directory containing the `*.ipynb` files with:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2012,7 +2026,13 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 `jupyter notebook`
 
 This will open a new browser tab or window with a list of the contents of the current
@@ -2126,6 +2146,7 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2315,6 +2336,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2456,11 +2479,14 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2557,6 +2583,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -3332,4 +3360,11 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))

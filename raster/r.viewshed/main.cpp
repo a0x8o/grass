@@ -1291,6 +1291,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1458,6 +1459,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1816,7 +1819,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             snprintf(buf, sizeof(buf), "%s=%s", STREAM_TMPDIR,
                      viewOptions.streamdir);
 =======
@@ -2212,6 +2220,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2278,6 +2287,8 @@ int main(int argc, char *argv[])
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2819,7 +2830,12 @@ int main(int argc, char *argv[])
             sprintf(buf, "%s=%s", STREAM_TMPDIR, viewOptions.streamdir);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             G_debug(1, "setting %s ", buf);
             putenv(buf);
             if (getenv(STREAM_TMPDIR) == NULL) {

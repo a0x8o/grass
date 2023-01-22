@@ -4193,6 +4193,7 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4348,6 +4349,8 @@ void G__print_keywords(FILE *fd, void (*format)(FILE *, const char *))
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -4791,12 +4794,15 @@ int G_get_overwrite(void)
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 int G_get_overwrite(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int G_get_overwrite()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5291,7 +5297,15 @@ int G_get_overwrite(void)
 int G_get_overwrite()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int G_get_overwrite(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 {
     return st->module_info.overwrite;
 }

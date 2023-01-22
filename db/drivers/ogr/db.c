@@ -179,6 +179,7 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -334,6 +335,8 @@ int db__driver_open_database(dbHandle *handle)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -777,12 +780,15 @@ int db__driver_close_database(void)
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 int db__driver_close_database(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int db__driver_close_database()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1277,7 +1283,15 @@ int db__driver_close_database(void)
 int db__driver_close_database()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int db__driver_close_database(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 {
     G_debug(3, "db_driver_close_database()");
 

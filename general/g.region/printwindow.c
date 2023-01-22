@@ -13174,6 +13174,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13299,6 +13300,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13562,7 +13565,12 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             convergence = NAN;
 =======
 <<<<<<< HEAD
@@ -13919,6 +13927,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -13960,6 +13969,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -14401,7 +14412,12 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             convergence = 0. / 0.;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         else if (G_projection() == PROJECTION_LL)
             convergence = 0.0;
         else {

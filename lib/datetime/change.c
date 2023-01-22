@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -215,6 +216,8 @@
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -808,6 +811,8 @@ static void make_incr(DateTime *, int, int, DateTime *);
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 static void make_incr(DateTime *, int, int, DateTime *);
 =======
 static void make_incr();
@@ -821,6 +826,7 @@ static void make_incr();
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1391,7 +1397,15 @@ static void make_incr();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+static void make_incr(DateTime *, int, int, DateTime *);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 
 /*!
  * \brief

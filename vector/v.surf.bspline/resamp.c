@@ -2130,6 +2130,7 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2319,6 +2320,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2460,11 +2463,14 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         points_in_box++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         points_in_box++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2561,6 +2567,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -3336,7 +3344,14 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 
         G_debug(3, "P_Sparse_Raster_Points: interpolate point %d...", i);
         if (bilin)

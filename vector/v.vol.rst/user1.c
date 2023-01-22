@@ -2206,6 +2206,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2427,6 +2428,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2836,7 +2839,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val =
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -3352,6 +3360,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3382,6 +3391,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3652,9 +3663,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val =
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4108,7 +4122,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -4267,6 +4287,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4488,6 +4509,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -4897,7 +4920,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -5413,6 +5441,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5443,6 +5472,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5713,9 +5744,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6169,7 +6203,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -6327,6 +6367,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6548,6 +6589,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -6957,7 +7000,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -7473,6 +7521,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7503,6 +7552,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7773,9 +7824,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8229,7 +8283,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -8387,6 +8447,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8608,6 +8669,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -9017,7 +9080,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -9533,6 +9601,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9563,6 +9632,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9833,9 +9904,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10289,7 +10363,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -10447,6 +10527,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10668,6 +10749,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -11077,7 +11160,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -11593,6 +11681,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -11623,6 +11712,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11893,9 +11984,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12349,7 +12443,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -12507,6 +12607,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12728,6 +12829,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -13137,7 +13240,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -13653,6 +13761,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -13683,6 +13792,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13953,9 +14064,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14409,7 +14523,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }
@@ -14567,6 +14687,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14788,6 +14909,8 @@ int OUTGR(void)
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -15197,7 +15320,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
@@ -15713,6 +15841,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15743,6 +15872,8 @@ int OUTGR(void)
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16013,9 +16144,12 @@ int OUTGR(void)
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16469,7 +16603,13 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
             clean();
             G_fatal_error(_("Unable to read data from temp file"));
         }

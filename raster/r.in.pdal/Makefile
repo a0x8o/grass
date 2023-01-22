@@ -65,6 +65,7 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1383,6 +1384,8 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 $(OBJDIR)/main.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
@@ -1401,8 +1404,16 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 60806474cc (Fix missing function prototypes (#2727))
+>>>>>>> 4191de5198 (Fix missing function prototypes (#2727))
 LINK = $(CXX)
 
 ifneq ($(strip $(CXX)),)
