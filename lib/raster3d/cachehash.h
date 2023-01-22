@@ -179,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -481,6 +482,8 @@
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -607,6 +610,8 @@
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -955,6 +960,7 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2291,6 +2297,7 @@ extern void *Rast3d_cache_hash_new(/* nofElts */);
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2845,3 +2852,7 @@ extern void *Rast3d_cache_hash_new(/* nofElts */);
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))

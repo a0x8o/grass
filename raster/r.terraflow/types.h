@@ -207,6 +207,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -631,6 +632,8 @@ public:
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -809,6 +812,8 @@ public:
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
     static cclabel_type getLabelCount() { return label + 1; }
 =======
@@ -2953,6 +2958,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3119,6 +3125,8 @@ public:
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3905,6 +3913,7 @@ public:
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4406,6 +4415,10 @@ public:
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     static void setLabelCount(int n) { label = n - 1; }
     static void reset() { label = getLabelInit(); }
 };

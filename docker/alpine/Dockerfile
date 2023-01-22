@@ -34455,7 +34455,6 @@ ENV PROJ_NETWORK="ON"
     SHELL="/bin/bash"
 ENV PROJ_NETWORK="ON"
 
-
 # show installed version
 RUN grass --tmp-location XY --exec g.version -rge && \
     pdal --version && \
@@ -34744,6 +34743,7 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35739,6 +35739,7 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 =======
@@ -35852,11 +35853,16 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 # test r.in.pdal in final image because test stage is not executed in github action
 COPY docker/testdata/simple.laz /tmp/simple.laz
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36673,6 +36679,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -36918,6 +36925,10 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 # Data workdir
 WORKDIR /grassdb
 VOLUME /grassdb

@@ -321,6 +321,7 @@ int db_get_table_number_of_columns(dbTable *table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -628,6 +629,8 @@ int db_get_table_number_of_columns(dbTable *table)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1344,7 +1347,12 @@ int db_get_table_number_of_columns(dbTable *table)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 =======
@@ -1398,6 +1406,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2580,6 +2589,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -3140,6 +3150,10 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 {
     int col, ncols;
     dbColumn *column;
@@ -3332,6 +3346,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3639,6 +3654,8 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4355,7 +4372,12 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 =======
@@ -4409,6 +4431,7 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5591,6 +5614,7 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -6151,6 +6175,10 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 {
     int priv, col, ncols;
     dbColumn *column;

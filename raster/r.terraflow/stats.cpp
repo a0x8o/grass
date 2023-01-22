@@ -1509,6 +1509,7 @@ int noclobberFile(char *fname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1817,6 +1818,8 @@ int noclobberFile(char *fname)
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1994,6 +1997,8 @@ int noclobberFile(char *fname)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
                 snprintf(buf, BUFSIZ, "%s.old", fname);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2595,6 +2600,7 @@ int noclobberFile(char *fname)
 >>>>>>> osgeo-main
                 sprintf(buf, "%s.old", fname);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3723,6 +3729,7 @@ int noclobberFile(char *fname)
                 sprintf(buf, "%s.old", fname);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -4209,6 +4216,10 @@ int noclobberFile(char *fname)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
                 if (rename(fname, buf) != 0) {
                     G_fatal_error("%s", fname);
                 }
@@ -4411,6 +4422,7 @@ char *noclobberFileName(char *fname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4719,6 +4731,8 @@ char *noclobberFileName(char *fname)
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4896,6 +4910,8 @@ char *noclobberFileName(char *fname)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
             snprintf(buf, BUFSIZ, "%s.old", fname);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5497,6 +5513,7 @@ char *noclobberFileName(char *fname)
 >>>>>>> osgeo-main
             sprintf(buf, "%s.old", fname);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6625,6 +6642,7 @@ char *noclobberFileName(char *fname)
             sprintf(buf, "%s.old", fname);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -7111,6 +7129,10 @@ char *noclobberFileName(char *fname)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
             if (rename(fname, buf) != 0) {
                 G_fatal_error("%s", fname);
             }
@@ -7317,6 +7339,7 @@ char *statsRecorder::timestamp()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7625,6 +7648,8 @@ char *statsRecorder::timestamp()
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7802,6 +7827,8 @@ char *statsRecorder::timestamp()
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     snprintf(buf, BUFSIZ, "[%.1f] ", rt_seconds(tm));
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8403,6 +8430,7 @@ char *statsRecorder::timestamp()
 >>>>>>> osgeo-main
     sprintf(buf, "[%.1f] ", rt_seconds(tm));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9531,6 +9559,7 @@ char *statsRecorder::timestamp()
     sprintf(buf, "[%.1f] ", rt_seconds(tm));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -10017,6 +10046,10 @@ char *statsRecorder::timestamp()
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     return buf;
 }
 
@@ -10219,6 +10252,7 @@ void statsRecorder::comment(const char *s1, const char *s2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10527,6 +10561,8 @@ void statsRecorder::comment(const char *s1, const char *s2)
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10704,6 +10740,8 @@ void statsRecorder::comment(const char *s1, const char *s2)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     snprintf(buf, BUFSIZ, "%s%s", s1, s2);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11305,6 +11343,7 @@ void statsRecorder::comment(const char *s1, const char *s2)
 >>>>>>> osgeo-main
     sprintf(buf, "%s%s", s1, s2);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12433,6 +12472,7 @@ void statsRecorder::comment(const char *s1, const char *s2)
     sprintf(buf, "%s%s", s1, s2);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -12919,6 +12959,10 @@ void statsRecorder::comment(const char *s1, const char *s2)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     comment(buf);
 }
 
@@ -13106,6 +13150,7 @@ void statsRecorder::comment(const int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13414,6 +13459,8 @@ void statsRecorder::comment(const int n)
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -13591,6 +13638,8 @@ void statsRecorder::comment(const int n)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     snprintf(buf, BUFSIZ, "%d", n);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14192,6 +14241,7 @@ void statsRecorder::comment(const int n)
 >>>>>>> osgeo-main
     sprintf(buf, "%d", n);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15320,6 +15370,7 @@ void statsRecorder::comment(const int n)
     sprintf(buf, "%d", n);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -15806,6 +15857,10 @@ void statsRecorder::comment(const int n)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     comment(buf);
 }
 
@@ -15857,6 +15912,7 @@ char *formatNumber(char *buf, off_t val)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16426,6 +16482,7 @@ char *formatNumber(char *buf, off_t val)
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16823,6 +16880,10 @@ char *formatNumber(char *buf, off_t val)
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
         snprintf(buf, BUFSIZ, "%.2fG (%" PRId64 ")", (double)val / (1 << 30),
                  val);
 =======
@@ -17319,6 +17380,7 @@ char *formatNumber(char *buf, off_t val)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17521,6 +17583,8 @@ char *formatNumber(char *buf, off_t val)
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     }
     else if (val > (1 << 20)) {
         snprintf(buf, BUFSIZ, "%.2fM (%" PRI_OFF_T ")", (double)val / (1 << 20),
@@ -20113,14 +20177,19 @@ char *formatNumber(char *buf, off_t val)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
         sprintf(buf, "%.2fG (%" PRI_OFF_T ")", (double)val / (1 << 30), val);
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     }
     else if (val > (1 << 20)) {
-        sprintf(buf, "%.2fM (%" PRI_OFF_T ")", (double)val / (1 << 20), val);
+        snprintf(buf, BUFSIZ, "%.2fM (%" PRI_OFF_T ")", (double)val / (1 << 20),
+                 val);
     }
     else if (val > (1 << 10)) {
-        sprintf(buf, "%.2fK (%" PRI_OFF_T ")", (double)val / (1 << 10), val);
+        snprintf(buf, BUFSIZ, "%.2fK (%" PRI_OFF_T ")", (double)val / (1 << 10),
+                 val);
     }
     else {
+<<<<<<< HEAD
         sprintf(buf, "%" PRI_OFF_T, val);
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -20132,8 +20201,17 @@ char *formatNumber(char *buf, off_t val)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        snprintf(buf, BUFSIZ, "%" PRI_OFF_T, val);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     }
     return buf;
 }

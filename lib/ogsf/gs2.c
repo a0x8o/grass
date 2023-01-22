@@ -3419,6 +3419,7 @@ int GS_get_distance_alongsurf(int hs, float x1, float y1, float x2, float y2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3646,6 +3647,8 @@ int GS_get_distance_alongsurf(int hs, float x1, float y1, float x2, float y2,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -5320,6 +5323,8 @@ int GS_get_distance_alongsurf(int hs, float x1, float y1, float x2, float y2,
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     Point3 p1, p2;
 =======
     float p1[2], p2[2];
@@ -5333,6 +5338,7 @@ int GS_get_distance_alongsurf(int hs, float x1, float y1, float x2, float y2,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5775,7 +5781,15 @@ int GS_get_distance_alongsurf(int hs, float x1, float y1, float x2, float y2,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    Point3 p1, p2;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 
     gs = gs_get_surf(hs);
     if (gs == NULL) {

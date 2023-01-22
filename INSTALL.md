@@ -11944,6 +11944,7 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12251,6 +12252,8 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12965,7 +12968,12 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 =======
@@ -13170,6 +13178,7 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14297,6 +14306,7 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
@@ -14513,6 +14523,10 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 CFLAGS="-mtune=nocona -m64 -minline-all-stringops" # Intel Pentium 64bit processor
 ```
 

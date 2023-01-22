@@ -361,6 +361,7 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -711,6 +712,8 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -1536,12 +1539,16 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
@@ -1976,6 +1983,8 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 
 #if PROJ_VERSION_MAJOR >= 6
     if (proj_get_type(pj) == PJ_TYPE_BOUND_CRS) {
@@ -2026,6 +2035,7 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -2369,6 +2379,7 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
@@ -2440,9 +2451,14 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2540,6 +2556,8 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3465,12 +3483,16 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
@@ -3941,6 +3963,8 @@ int pj_get_kv(struct pj_info *info, const struct Key_Value *in_proj_keys,
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 #endif
 
     info->pj = pj;

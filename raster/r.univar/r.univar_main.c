@@ -5590,6 +5590,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
@@ -5703,6 +5704,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6120,12 +6123,16 @@ int main(int argc, char *argv[])
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
     zone_info.min = 0;
     zone_info.max = 0;
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
@@ -6394,6 +6401,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     zone_info.n_zones = 0;
 
     fdz = NULL;

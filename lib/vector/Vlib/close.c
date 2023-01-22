@@ -121,6 +121,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int clo_dummy(struct Map_info *map)
 =======
 <<<<<<< HEAD
@@ -571,6 +572,8 @@ static int clo_dummy(struct Map_info *map)
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -729,7 +732,12 @@ static int clo_dummy(struct Map_info *map)
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 static int clo_dummy(struct Map_info *map UNUSED)
 =======
 static int clo_dummy(struct Map_info *map)
@@ -823,6 +831,7 @@ static int clo_dummy(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -942,6 +951,8 @@ static int clo_dummy(struct Map_info *map)
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1363,6 +1374,7 @@ static int clo_dummy(struct Map_info *map)
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1591,6 +1603,10 @@ static int clo_dummy(struct Map_info *map)
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 {
     return -1;
 }
@@ -1690,6 +1706,7 @@ static int clo_dummy(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format(struct Map_info *map)
 =======
 <<<<<<< HEAD
@@ -2140,6 +2157,8 @@ static int format(struct Map_info *map)
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -2298,7 +2317,12 @@ static int format(struct Map_info *map)
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 static int format(struct Map_info *map UNUSED)
 =======
 static int format(struct Map_info *map)
@@ -2392,6 +2416,7 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2511,6 +2536,8 @@ static int format(struct Map_info *map)
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -2932,6 +2959,7 @@ static int format(struct Map_info *map)
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3160,6 +3188,10 @@ static int format(struct Map_info *map)
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -3347,6 +3379,9 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6239,6 +6274,8 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                                      ,
@@ -6314,6 +6351,7 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -6331,6 +6369,8 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -6655,6 +6695,7 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6665,6 +6706,8 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6678,10 +6721,13 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
                                                      ,
                                                      {clo_dummy, format}
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8036,7 +8082,12 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 #endif
 };
 

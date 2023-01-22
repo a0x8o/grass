@@ -2378,6 +2378,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2686,6 +2687,8 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2863,6 +2866,8 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     int (*lower)(double, double);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3464,6 +3469,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> osgeo-main
     int (*lower)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4592,6 +4598,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
     int (*lower)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -5078,6 +5085,10 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 
     dtmp = dcellVal;
     /* I know the functions which call me already check for null values,

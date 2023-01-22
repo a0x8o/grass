@@ -190,6 +190,7 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -498,6 +499,8 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -675,6 +678,8 @@ static void process_row_di(int), process_row_df(int), process_row_dd(int);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 static void (*process_row_FtypeOtype[3][3])(int) = {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1276,6 +1281,7 @@ static void (*process_row_FtypeOtype[3][3])(int) = {
 >>>>>>> osgeo-main
 static void (*process_row_FtypeOtype[3][3])() = {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2404,6 +2410,7 @@ static void (*process_row_FtypeOtype[3][3])() = {
 static void (*process_row_FtypeOtype[3][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -2890,6 +2897,10 @@ static void (*process_row_FtypeOtype[3][3])() = {
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     {process_row_ii, process_row_if, process_row_id},
     {process_row_fi, process_row_ff, process_row_fd},
     {process_row_di, process_row_df, process_row_dd}};

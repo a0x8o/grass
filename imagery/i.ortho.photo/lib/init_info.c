@@ -183,6 +183,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -517,6 +518,8 @@ FILE *I_fopen_group_init_new(char *);
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1074,6 +1077,7 @@ FILE *I_fopen_group_init_new();
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
@@ -1102,6 +1106,10 @@ FILE *I_fopen_group_init_new();
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 =======
@@ -1132,6 +1140,7 @@ FILE *I_fopen_group_init_new();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
@@ -1142,6 +1151,8 @@ FILE *I_fopen_group_init_new();
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -1171,6 +1182,7 @@ FILE *I_fopen_group_init_new();
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
@@ -1199,9 +1211,14 @@ FILE *I_fopen_group_init_new();
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1233,6 +1250,8 @@ FILE *I_fopen_group_init_new(char *);
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -2403,7 +2422,12 @@ FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 
 #define INITIAL_FILE "INIT_EXP"
 

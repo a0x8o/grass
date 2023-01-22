@@ -298,6 +298,9 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -812,6 +815,8 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
                             double[3], double[3]);
 =======
@@ -1882,6 +1887,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2020,6 +2026,8 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2603,6 +2611,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3144,6 +3153,10 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 /* orthoref.c */
 int I_compute_ortho_equations(struct Ortho_Control_Points *,
                               struct Ortho_Camera_File_Ref *,

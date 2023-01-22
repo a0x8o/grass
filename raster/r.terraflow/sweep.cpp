@@ -1593,6 +1593,7 @@ FLOW_DATASTR *initializePQ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1900,6 +1901,8 @@ FLOW_DATASTR *initializePQ()
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2616,7 +2619,12 @@ FLOW_DATASTR *initializePQ()
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 =======
@@ -2670,6 +2678,7 @@ FLOW_DATASTR *initializePQ()
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3852,6 +3861,7 @@ FLOW_DATASTR *initializePQ()
     sprintf(buf, "initialized to %.2fMB\n", (float)PQ_SIZE / (1 << 20));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -4412,6 +4422,10 @@ FLOW_DATASTR *initializePQ()
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     if (stats)
         *stats << buf;
 
@@ -6479,6 +6493,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6787,6 +6802,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6964,6 +6981,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
     snprintf(buf, sizeof(buf), "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7565,6 +7584,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> osgeo-main
     sprintf(buf, "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8693,6 +8713,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
     sprintf(buf, "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -9179,6 +9200,10 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
     if (stats)
         *stats << buf;
 

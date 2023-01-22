@@ -344,6 +344,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -651,6 +652,8 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1367,7 +1370,12 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 =======
@@ -1421,6 +1429,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2603,6 +2612,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             write(out[id], cellp, buflen);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -3163,6 +3173,10 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 >>>>>>> c36046c283 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8ac3ae1058 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 4137a1b10b (Fix missing function prototypes (#2727))
 #pragma omp atomic update
             work++;
         }
