@@ -405,6 +405,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -565,6 +566,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -11502,6 +11505,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -11651,6 +11656,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
         int conflicts = 0;
 
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -11704,7 +11711,6 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
                 point_scalar(dir, 1.0 - d / threshold, &dir);
                 fx.a[point_index[i]][0] += dir.x;
                 fy.a[point_index[i]][0] += dir.y;
-                conflicts++;
             }
         }
 
