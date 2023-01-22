@@ -230,10 +230,13 @@ float variance(float *elevation, int pattern_size)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 void radial2cartesian(PATTERN *pattern)
 =======
 <<<<<<< HEAD
@@ -271,6 +274,7 @@ int radial2cartesian(PATTERN *pattern)
 =======
 void radial2cartesian(PATTERN *pattern)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +337,8 @@ int radial2cartesian(PATTERN *pattern)
 int radial2cartesian(PATTERN *pattern)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 {
     /* this function converts radial coordinates of geomorphon
      * (assuming center as 0,0) to cartezian coordinates

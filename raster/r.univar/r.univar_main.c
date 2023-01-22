@@ -487,6 +487,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     zone_info.min = 0;
     zone_info.max = 0;
 =======
@@ -509,6 +510,10 @@ int main(int argc, char *argv[])
     zone_info.min = 0.0 / 0.0; /* set to nan as default */
     zone_info.max = 0.0 / 0.0; /* set to nan as default */
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    zone_info.min = 0;
+    zone_info.max = 0;
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
     zone_info.n_zones = 0;
 
     fdz = NULL;

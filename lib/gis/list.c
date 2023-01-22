@@ -33,10 +33,13 @@ static int list_element(FILE *, const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
                         int (*)(const char *, const char *, char *));
 =======
 <<<<<<< HEAD
@@ -74,6 +77,7 @@ static int list_element(FILE *, const char *, const char *, const char *,
 =======
                         int (*)(const char *, const char *, char *));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +140,8 @@ static int list_element(FILE *, const char *, const char *, const char *,
                         int (*)(const char *, const char *, const char *));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 /*!
    \brief General purpose list function
@@ -173,10 +179,13 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
                     int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -214,6 +223,7 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 =======
                     int (*lister)(const char *, const char *, char *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +286,8 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
                     int (*lister)(const char *, const char *, const char *))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 {
     struct Popen pager;
     int n;
@@ -331,10 +343,13 @@ static int list_element(FILE *out, const char *element, const char *desc,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
                         int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -372,6 +387,7 @@ static int list_element(FILE *out, const char *element, const char *desc,
 =======
                         int (*lister)(const char *, const char *, char *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +450,8 @@ static int list_element(FILE *out, const char *element, const char *desc,
                         int (*lister)(const char *, const char *, const char *))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 {
     char path[GPATH_MAX];
     int count = 0;

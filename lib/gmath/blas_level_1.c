@@ -342,6 +342,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +368,8 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s)
     for (i = 0; i < rows; i++) {
         s += fabs(x[i]);
@@ -436,6 +439,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -501,6 +505,12 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#pragma omp parallel for schedule(static) private(i) reduction(+ : s)
+    for (i = 0; i < rows; i++) {
+        s += fabs(x[i]);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
     }
 #pragma omp single
     {

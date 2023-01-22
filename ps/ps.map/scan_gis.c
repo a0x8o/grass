@@ -29,10 +29,13 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
             G_list_element(element, desc, mapset, NULL);
 =======
 <<<<<<< HEAD
@@ -70,6 +73,7 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 =======
             G_list_element(element, desc, mapset, NULL);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +136,8 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
             G_list_element(element, desc, mapset, (int (*)())NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
         reject();
         return 0;
     }

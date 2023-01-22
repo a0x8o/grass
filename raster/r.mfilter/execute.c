@@ -151,10 +151,13 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 =======
@@ -199,6 +202,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +268,8 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             write(out[id], cellp, buflen);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 #pragma omp atomic update
             work++;
         }

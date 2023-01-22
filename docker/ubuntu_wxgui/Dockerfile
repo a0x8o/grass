@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 =======
 <<<<<<< HEAD
@@ -37,6 +38,17 @@ FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
+=======
+<<<<<<< HEAD
+FROM ubuntu:22.04@sha256:19478ce7fc2ffbce89df29fea5725a8d12e57de52eb9ea570890dc5852aac1ac
+=======
+<<<<<<< HEAD
+FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -72,6 +84,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,10 +129,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -148,10 +164,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +196,8 @@ ENV DEBIAN_FRONTEND noninteractive
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 <<<<<<< HEAD
@@ -227,8 +248,11 @@ ARG PDAL_VERSION=2.4.3
 ARG PDAL_VERSION=2.7.1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce1a74a04e (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
 =======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
 ARG PDAL_VERSION=2.4.3
 =======
@@ -238,6 +262,7 @@ ARG PDAL_VERSION=2.4.3
 # https://github.com/hobuinc/laz-perf/releases
 ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -301,6 +326,9 @@ ARG PDAL_VERSION=2.7.2
 =======
 ARG PDAL_VERSION=2.7.1
 >>>>>>> 7a1c8d97ba (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 SHELL ["/bin/bash", "-c"]
 
@@ -359,6 +387,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     libnotify4 \
 =======
 <<<<<<< HEAD
@@ -417,6 +446,8 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
     libnotify4 \
@@ -428,6 +459,7 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -451,6 +483,11 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+    libnotify4 \
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -499,6 +536,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     zlib1g-dev
 =======
 <<<<<<< HEAD
@@ -515,6 +553,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
     zlib1g-dev \
     && apt-get clean all && rm -rf /var/lib/apt/lists/*
 =======
@@ -524,6 +564,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     zlib1g-dev
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -551,6 +592,8 @@ RUN apt-get update && apt-get upgrade -y && \
     zlib1g-dev
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 # wxGUI
 RUN pip install -U \
@@ -565,6 +608,7 @@ ENV NO_AT_BRIDGE=1
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +641,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> osgeo-main
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -666,6 +712,7 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -688,6 +735,11 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+## install laz-perf (missing from https://packages.ubuntu.com/)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 RUN apt-get install cmake
 WORKDIR /src
 RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz -O laz-perf-${LAZ_PERF_VERSION}.tar.gz && \
@@ -707,6 +759,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -717,10 +770,13 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,6 +831,10 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -799,6 +859,7 @@ RUN mkdir vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
@@ -865,6 +926,12 @@ RUN mkdir vdatum && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+=======
+## install pdal
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -895,6 +962,7 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -928,10 +996,13 @@ RUN wget -q \
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -957,11 +1028,15 @@ RUN wget -q \
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
       -DBUILD_PLUGIN_PGPOINTCLOUD=ON \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=ON \
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1082,8 @@ RUN wget -q \
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -1084,6 +1161,7 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
@@ -1107,6 +1185,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
@@ -1269,6 +1349,7 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> aac6232e2b (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1280,10 +1361,14 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
 =======
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -1320,6 +1405,9 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
 >>>>>>> 72881fef5b (Dockerfile Debian: versionless link fix)
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -1520,6 +1608,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 ## just scan the LAZ file
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # test LAZ file
@@ -1536,8 +1625,17 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 WORKDIR /grassdb
 VOLUME /grassdb

@@ -92,10 +92,13 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
     snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
 =======
 <<<<<<< HEAD
@@ -133,6 +136,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
     snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,6 +199,8 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
     sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
     fd = G_mkstemp(tmp_path, O_RDWR, 0600);
 

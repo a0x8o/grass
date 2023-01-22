@@ -55,10 +55,13 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 static int brent(void *vstate, double (*f)(double), double *x_minimum,
 =======
 <<<<<<< HEAD
@@ -96,6 +99,7 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 =======
 static int brent(void *vstate, double (*f)(double), double *x_minimum,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +162,8 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 static int brent(void *vstate, double (*f)(), double *x_minimum,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
                  double *f_minimum, double *x_lower, double *f_lower,
                  double *x_upper, double *f_upper)
 {
@@ -294,10 +300,13 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
                      int maxiter)
 =======
@@ -342,6 +351,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
                      int maxiter)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,6 +417,8 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 {
     int i;
     double x_minimum = (x_upper + x_lower) / 2.;

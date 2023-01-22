@@ -1130,6 +1130,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1188,6 +1189,8 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
         return NAN;
 
     case GDT_Float64:
@@ -1236,6 +1239,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
         return 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1257,11 +1261,15 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
         return NAN;
 
     case GDT_Float64:
     case GDT_CFloat64:
         return NAN;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1314,6 +1322,9 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
     default:
         return 0;

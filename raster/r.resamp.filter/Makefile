@@ -11,6 +11,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -46,6 +47,8 @@ PGM = r.resamp.filter
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -88,6 +91,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -95,11 +99,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +138,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> osgeo-main
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

@@ -1356,6 +1356,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -1450,7 +1451,10 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
         Ogr_featuredefn = OGR_L_GetLayerDefn(Ogr_layer);
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
+<<<<<<< HEAD
         available_layer_names[i] =
             G_store((char *)OGR_FD_GetName(Ogr_featuredefn));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1464,7 +1468,13 @@ int main(int argc, char *argv[])
         available_layer_names[i] =
             G_store((char *)OGR_FD_GetName(Ogr_featuredefn));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        available_layer_names[i] = G_store((char *)OGR_L_GetName(Ogr_layer));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
         if (flag.list->answer)
             fprintf(stdout, "%s\n", available_layer_names[i]);

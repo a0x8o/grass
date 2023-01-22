@@ -80,10 +80,13 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
@@ -121,6 +124,7 @@ tgisMapList *tgis_new_map_list();
 =======
 tgisMapList *tgis_new_map_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +187,8 @@ tgisMapList *tgis_new_map_list();
 tgisMapList *tgis_new_map_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -301,10 +307,13 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
@@ -342,6 +351,7 @@ tgisDatasetList *tgis_new_dataset_list();
 =======
 tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +414,8 @@ tgisDatasetList *tgis_new_dataset_list();
 tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

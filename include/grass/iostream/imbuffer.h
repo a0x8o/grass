@@ -102,10 +102,13 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str), "im_buffer: allocate %ld\n",
                  (long)(maxsize * sizeof(T)));
 =======
@@ -150,6 +153,7 @@ public:
         snprintf(str, sizeof(str), "im_buffer: allocate %ld\n",
                  (long)(maxsize * sizeof(T)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +219,8 @@ public:
         sprintf(str, "im_buffer: allocate %ld\n", (long)(maxsize * sizeof(T)));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
         MEMORY_LOG(str);
 
         data = new T[maxsize];

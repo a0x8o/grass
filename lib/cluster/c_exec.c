@@ -42,10 +42,13 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 =======
 <<<<<<< HEAD
@@ -83,6 +86,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +149,8 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
                    int (*checkpoint)(), int *interrupted)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 {
     int changes;
 
