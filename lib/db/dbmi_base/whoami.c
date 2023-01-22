@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -236,6 +237,8 @@
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -639,12 +642,15 @@ const char *db_whoami(void)
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 const char *db_whoami(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 const char *db_whoami()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1031,7 +1037,15 @@ const char *db_whoami(void)
 const char *db_whoami()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+const char *db_whoami(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 {
     return G_store(getenv("LOGNAME"));
 }

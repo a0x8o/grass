@@ -112,6 +112,7 @@ struct multfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -221,6 +222,8 @@ struct multfunc {
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -661,13 +664,21 @@ struct multfunc {
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
     int (*compare)(struct triple *, struct quaddata *);
     struct quaddata **(*divide_data)(struct quaddata *, int, double);
     int (*add_data)(struct triple *, struct quaddata *, double);
     int (*intersect)(struct quaddata *, struct quaddata *);
     int (*division_check)(struct quaddata *, int);
     int (*get_points)(struct quaddata *, struct quaddata *, int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -859,7 +870,12 @@ struct multfunc {
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1644,6 +1660,7 @@ struct multfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1733,6 +1750,8 @@ struct multfunc {
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -2324,7 +2343,12 @@ struct multfunc {
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 };
 
 struct tree_info {

@@ -223,6 +223,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -334,6 +335,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -392,6 +395,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 
             nlines_modified++;
@@ -1002,6 +1007,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 6fc66d242f (wxpyimgview: explicit conversion to int (#2704))
@@ -1229,7 +1235,14 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
         }
     } /* for each selected line */
 
@@ -1399,6 +1412,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1544,6 +1558,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1680,6 +1696,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 
             nlines_modified++;
@@ -1834,6 +1852,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1864,6 +1883,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 =======
 =======
@@ -2574,7 +2595,14 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
         }
     } /* for each line */
 

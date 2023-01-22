@@ -20550,6 +20550,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     PDAL_INC=`"$PDAL_CONFIG" --includes`
@@ -20684,6 +20685,8 @@ else
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -21008,7 +21011,12 @@ else
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
     PDAL_INC=`"$PDAL_CONFIG" --includes`
     USE_PDAL=1
   fi
@@ -21493,6 +21501,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21657,6 +21666,8 @@ else
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -21825,6 +21836,8 @@ else
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
   LIBS="$LIBS $PDAL_LIBS"
   CFLAGS="$CFLAGS $PDAL_CFLAGS"
 <<<<<<< HEAD:configure.ac
@@ -23079,9 +23092,10 @@ else
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
   ac_save_cppflags="$CPPFLAGS"
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
   LIBS="$LIBS $PDAL_LIBS"
   CFLAGS="$CFLAGS $PDAL_CFLAGS"
-  CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
   AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};]], [[pdal::PointTable table;]])],[],[
@@ -23800,6 +23814,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -23885,6 +23900,8 @@ else
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -24097,7 +24114,12 @@ else
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 
   AC_DEFINE(HAVE_PDAL, 1, [define if PDAL exists])
 <<<<<<< HEAD
@@ -38088,6 +38110,7 @@ LOC_CHECK_USE(openmp,OpenMP,USE_OPENMP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38283,6 +38306,8 @@ LOC_CHECK_USE(openmp,OpenMP,USE_OPENMP)
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -38612,7 +38637,12 @@ LOC_CHECK_USE(openmp,OpenMP,USE_OPENMP)
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 if test "$enable_openmp" != no; then
 
 if test -n "${USE_OPENMP}"; then
@@ -39214,6 +39244,7 @@ OMPCFLAGS=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -39297,6 +39328,8 @@ OMPCFLAGS=
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
@@ -40351,51 +40384,56 @@ fi  # enable_openmp
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 =======
+=======
+=======
+if test "$enable_openmp" != no; then
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 
-if test -n "$USE_OPENMP"; then
+if test -n "${USE_OPENMP}"; then
 
-# With OpenMP includes directory
+OPENMP_INCPATH=
+OPENMP_LIBPATH=
+OPENMP_LIB=
+OPENMP_CFLAGS=
 
-LOC_CHECK_INC_PATH(openmp,OpenMP,OMPINCPATH)
+LOC_CHECK_INC_PATH(openmp,OpenMP,OPENMP_INCPATH)
+LOC_CHECK_LIB_PATH(openmp,OpenMP,OPENMP_LIBPATH)
+LOC_CHECK_INCLUDES(omp.h,OpenMP,$OPENMP_INCPATH)
 
-LOC_CHECK_INCLUDES(omp.h,OpenMP,$OMPINCPATH)
+LOC_CHECK_LIBS(omp,omp_get_num_threads,OpenMP,$OPENMP_LIBPATH,OPENMP_LIB,,,[
+LOC_CHECK_LIBS(gomp,GOMP_parallel_start,OpenMP,$OPENMP_LIBPATH,OPENMP_LIB,,,)])
 
-# With OpenMP library directory
-# GCC et al.: -lgomp
-# Solaris cc: -lmtsk
-# AIX xlc: -lxlsmp
-# SGI IRIX 6.5 MIPSpro C/C++: -lmp
+loc_save_cflags="$CFLAGS"
+CFLAGS="${CFLAGS} ${OPENMP_INCPATH} ${OPENMP_LIBPATH} ${OPENMP_LIB}"
+LOC_OPENMP
+CFLAGS="${loc_save_cflags}"
 
-LOC_CHECK_LIB_PATH(openmp,OpenMP,OMPLIBPATH)
+AC_SUBST(OPENMP_INCPATH)
+AC_SUBST(OPENMP_LIBPATH)
+AC_SUBST(OPENMP_LIB)
+AC_SUBST(OPENMP_CFLAGS)
 
-LOC_CHECK_FUNC(GOMP_parallel_start,OpenMP functions,OMPLIB,,,,,[
-LOC_CHECK_LIBS(gomp,GOMP_parallel_start,OpenMP,$OMPLIBPATH,OMPLIB,,,)
-])
+fi # USE_OPENMP
 
-# compiler dependent
-#if test ${CC} = "gcc" ; then
-if test x$GCC = xyes ; then
-	# GNU C compiler (>= 4.2.1)
-	OMPCFLAGS=-fopenmp
-elif test ${CC} = "icc" ; then
-	# Intel compiler
-	OMPCFLAGS=-openmp
-elif test ${CC} = "opencc" ; then
-	# AMD's x86 Open64 compiler
-	OMPCFLAGS=-mp
-elif test ${CC} = "pgcc" ; then
-	# Portland Group's compiler
-	OMPCFLAGS=-mp
-# ... anybody else?
+else # enable_openmp
+
+if test -n "${USE_OPENMP}"; then
+LOC_MSG(OpenMP explicitly disabled with --disable-openmp.)
 fi
+USE_OPENMP=
 
-# try to build a test program with "$CC $OMPCLFAGS" to confirm it works
-#...how?
-#echo "int main() {return 0;}" > test.c
-#$CC $OMPCLFAGS test.c -o test
+fi  # enable_openmp
 
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 fi # $USE_OPENMP
 
 AC_SUBST(OMPINCPATH)
@@ -40746,6 +40784,7 @@ AC_SUBST(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -40835,6 +40874,8 @@ AC_SUBST(OMPCFLAGS)
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -41457,7 +41498,12 @@ fi  # enable_openmp
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 AC_SUBST(USE_OPENMP)
 
 # Done checking OpenMP

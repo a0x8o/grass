@@ -275,6 +275,7 @@ int COGRR1(double x_or, double y_or, double z_or, int n_rows, int n_cols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
@@ -803,10 +804,13 @@ int COGRR1(double x_or, double y_or, double z_or, int n_rows, int n_cols,
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     int POINT();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1152,7 +1156,14 @@ int COGRR1(double x_or, double y_or, double z_or, int n_rows, int n_cols,
     int POINT();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
     int ind, ind1;
     static int first_time_z = 1;
     off_t offset, offset1, offset2;

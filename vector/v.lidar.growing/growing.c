@@ -895,6 +895,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1090,6 +1091,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1419,7 +1422,12 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -1549,6 +1557,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
         cont++;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,7 +1800,14 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
         cont++;
 
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> 945afade8c (Fix missing function prototypes (#2727))
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
