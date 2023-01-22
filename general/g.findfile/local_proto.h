@@ -102,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 void list_elements(void);
@@ -699,6 +700,8 @@ int check_element(const char *);
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -727,11 +730,17 @@ int check_element(const char *);
 =======
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 void list_elements(void);
 /* int check_element(const char *); */
 =======
 void list_elements();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +961,8 @@ void list_elements();
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 void list_elements(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -1165,13 +1176,17 @@ void list_elements(void);
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 =======
 void list_elements(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -1458,6 +1473,8 @@ void list_elements(void);
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 int check_element(const char *);
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

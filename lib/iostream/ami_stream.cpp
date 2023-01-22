@@ -218,6 +218,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -438,6 +439,8 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -489,6 +492,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -915,6 +919,10 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
     snprintf(tmp_path, GPATH_MAX, "%s/%s_XXXXXX", base_dir, base.c_str());
 =======
 <<<<<<< HEAD
@@ -1075,6 +1083,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1126,6 +1135,8 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -1646,6 +1657,7 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
     sprintf(tmp_path, "%s/%s_XXXXXX", base_dir, base.c_str());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
@@ -2214,6 +2226,10 @@ int ami_single_temp_name(const std::string &base, char *tmp_path)
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
     fd = G_mkstemp(tmp_path, O_RDWR, 0600);
 

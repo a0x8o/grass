@@ -1648,6 +1648,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2440,6 +2441,8 @@
 >>>>>>> 5016a6692a (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 #include <cmath>
 =======
 =======
@@ -2495,8 +2498,13 @@
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 #include <cmath>
 =======
+=======
+#include <cmath>
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -3314,6 +3322,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3534,6 +3543,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 2e3eee6b66 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3585,6 +3596,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4011,6 +4023,10 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = NAN;
 =======
 <<<<<<< HEAD
@@ -4171,6 +4187,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4222,6 +4239,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -4744,6 +4763,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5304,6 +5324,10 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 5016a6692a (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];

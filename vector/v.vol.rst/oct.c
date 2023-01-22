@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -442,6 +443,8 @@
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
@@ -609,12 +612,16 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -993,6 +1000,8 @@
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 struct octfunc *
 OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
                  struct octdata **(*divide_data)(struct octdata *),
@@ -1047,6 +1056,7 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
@@ -1056,6 +1066,8 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -2643,6 +2655,8 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
 struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
                                  int (*add_data)(), int (*intersect)(),
                                  int (*division_check)(), int (*get_points)())
@@ -2665,6 +2679,7 @@ struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2675,6 +2690,8 @@ struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2746,7 +2763,12 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 /* Initializes FUNCTIONS structure with given arguments */
 {
     struct octfunc *functions;
@@ -2900,6 +2922,7 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3120,6 +3143,8 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3171,6 +3196,7 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3597,6 +3623,10 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 =======
 <<<<<<< HEAD
@@ -3757,6 +3787,7 @@ struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3808,6 +3839,8 @@ struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -4328,6 +4361,7 @@ struct octtree *OT_tree_new(VOID_T *data, struct octtree **leafs,
 struct octtree *OT_tree_new(VOID_T *data, struct octtree **leafs,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
@@ -4896,6 +4930,10 @@ struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
                             struct octtree *parent, struct octfunc *functions,
                             int octant)
 /*Initializes TREE using given arguments */

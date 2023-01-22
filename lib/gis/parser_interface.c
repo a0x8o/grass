@@ -131,6 +131,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -383,6 +384,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -427,6 +430,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
     if (enc) {
         G_freea(enc);
     }
@@ -446,6 +451,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1740,6 +1746,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2636,6 +2643,14 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (enc) {
+        G_freea(enc);
+    }
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
     if (conv != (iconv_t)-1)
         iconv_close(conv);

@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -585,6 +586,8 @@ FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
 =======
 =======
@@ -618,6 +621,8 @@ FROM ubuntu:22.04@sha256:19478ce7fc2ffbce89df29fea5725a8d12e57de52eb9ea570890dc5
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b0761bbfb2
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 =======
@@ -1184,6 +1189,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b3245b207a (Dockerfile: fix broken lib link (#1625))
 =======
@@ -1294,6 +1300,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 FROM ubuntu:22.04
 
@@ -1685,6 +1693,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -2507,10 +2516,20 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+FROM ubuntu:22.04
+
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2744,6 +2763,8 @@ ENV DEBIAN_FRONTEND noninteractive
 >>>>>>> 576b696e91 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 <<<<<<< HEAD
@@ -3499,13 +3520,22 @@ ARG PDAL_VERSION=2.4.3
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
+# define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+ARG PDAL_VERSION=2.4.3
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 # define versions to be used
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
 # https://github.com/hobuinc/laz-perf/releases
 ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3640,6 +3670,8 @@ ARG LAZ_PERF_VERSION=3.2.0
 =======
 >>>>>>> 9eb4ab8390 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 =======
@@ -3745,6 +3777,7 @@ ARG PDAL_VERSION=2.4.3
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -4370,6 +4403,10 @@ ARG PDAL_VERSION=2.7.1
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
 SHELL ["/bin/bash", "-c"]
 
@@ -6044,6 +6081,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
     libnotify4 \
@@ -6097,6 +6135,8 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
     libnotify4 \
@@ -6111,6 +6151,7 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2458a1951e (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
@@ -6146,7 +6187,15 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+    libnotify4 \
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -6327,6 +6376,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     zlib1g-dev
 =======
 <<<<<<< HEAD
@@ -6735,6 +6785,8 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
@@ -6748,7 +6800,12 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
     zlib1g-dev \
     && apt-get clean all && rm -rf /var/lib/apt/lists/*
 =======
@@ -6821,6 +6878,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -6927,6 +6985,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
     zlib1g-dev
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -7081,6 +7141,7 @@ RUN apt-get update && apt-get upgrade -y && \
     zlib1g-dev
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -7394,6 +7455,10 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
 # wxGUI
 RUN pip install -U \
@@ -7408,6 +7473,7 @@ ENV NO_AT_BRIDGE=1
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7866,6 +7932,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
@@ -7884,6 +7952,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -8803,6 +8873,7 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d87535920f (Dockerfile: fix broken lib link (#1625))
 =======
@@ -8913,6 +8984,8 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -9067,13 +9140,17 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a3cdfc9c11 (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 =======
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -9355,6 +9432,8 @@ RUN wget -q http://download.osgeo.org/proj/proj-${PROJ_VERSION}.tar.gz && \
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 RUN apt-get install cmake
 WORKDIR /src
 RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz -O laz-perf-${LAZ_PERF_VERSION}.tar.gz && \
@@ -9366,6 +9445,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
     make && \
     make install
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9661,6 +9741,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> ae81d49525 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -9682,6 +9764,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
@@ -9939,10 +10022,15 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10150,6 +10238,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -10571,12 +10661,16 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 657de3711d (Dockerfile: fix broken lib link (#1625))
 =======
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -11263,6 +11357,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> efa58b1c30 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -12409,6 +12505,7 @@ RUN mkdir vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -12485,7 +12582,16 @@ RUN mkdir vdatum && \
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+=======
+## install pdal
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -12932,6 +13038,7 @@ RUN wget -q \
       -DBUILD_PLUGIN_GREYHOUND=ON \
       -DBUILD_PLUGIN_HEXBIN=ON \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13751,6 +13858,8 @@ RUN wget -q \
 >>>>>>> 576b696e91 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -13763,10 +13872,13 @@ RUN wget -q \
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13825,12 +13937,15 @@ RUN wget -q \
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
       -DBUILD_PLUGIN_PGPOINTCLOUD=ON \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=ON \
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13955,6 +14070,7 @@ RUN wget -q \
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -14387,6 +14503,10 @@ RUN wget -q \
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -14519,6 +14639,7 @@ ENV SHELL /bin/bash
 ENV LC_ALL "en_US.UTF-8"
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14758,6 +14879,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b3ae6fbd5e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -14936,6 +15059,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
@@ -16619,6 +16744,7 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
 <<<<<<< HEAD
 >>>>>>> e405db5daa (Dockerfile Debian: versionless link fix)
@@ -16635,9 +16761,12 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18112,6 +18241,8 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> aac6232e2b (Dockerfile Debian: versionless link fix):docker/debian/Dockerfile_debian_pdal
 >>>>>>> 40d5941958 (Dockerfile Debian: versionless link fix)
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
@@ -18757,10 +18888,13 @@ RUN rm -rf /tmp/grasstest_epsg_25832
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
@@ -20131,6 +20265,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
@@ -20142,6 +20277,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 
 WORKDIR /grassdb
 VOLUME /grassdb

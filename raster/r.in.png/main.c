@@ -178,6 +178,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -965,6 +966,8 @@ typedef struct {
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1712,6 +1715,8 @@ static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
                               {.suffix = ".r"}, {.suffix = ".g"},
                               {.suffix = ".b"}, {.suffix = ".a"}};
@@ -1728,6 +1733,7 @@ static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
@@ -2579,7 +2585,16 @@ static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
 static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
+                              {.suffix = ".r"}, {.suffix = ".g"},
+                              {.suffix = ".b"}, {.suffix = ".a"}};
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 
 static int Header;
 static int Float;

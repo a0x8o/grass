@@ -64,6 +64,7 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -262,6 +263,8 @@ include $(MODULE_TOPDIR)/include/Make/Module.make
 >>>>>>> 5016a6692a (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1793,6 +1796,8 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 $(OBJDIR)/main.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
@@ -1811,6 +1816,7 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1849,7 +1855,14 @@ $(OBJDIR)/grasslidarfilter.o : EXTRA_CFLAGS += $(PDALCPPFLAGS)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+>>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 LINK = $(CXX)
 
 ifneq ($(strip $(CXX)),)
