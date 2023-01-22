@@ -21041,6 +21041,7 @@ int main(int argc, char *argv[])
 #endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     lo = -INFINITY;
     hi = INFINITY;
 <<<<<<< HEAD
@@ -21056,6 +21057,10 @@ int main(int argc, char *argv[])
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+    lo = -INFINITY;
+    hi = INFINITY;
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
     if (parm.range->answer) {
         lo = atof(parm.range->answers[0]);
         hi = atof(parm.range->answers[1]);

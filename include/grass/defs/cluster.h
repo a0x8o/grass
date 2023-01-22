@@ -136,6 +136,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -329,6 +330,8 @@ int I_cluster_distinct(struct Cluster *, double);
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1432,6 +1435,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
@@ -1466,6 +1470,8 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 =======
@@ -1504,11 +1510,14 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
@@ -1533,6 +1542,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
@@ -1564,6 +1574,10 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 =======
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -1585,8 +1599,11 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
@@ -1768,6 +1785,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
@@ -2391,6 +2409,10 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 /* c_execmem.c */
 int I_cluster_exec_allocate(struct Cluster *);
 int I_cluster_exec_free(struct Cluster *);

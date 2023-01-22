@@ -69,6 +69,7 @@ Status: Adopted (6 Oct 2014)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -126,6 +127,8 @@ Status: Adopted (6 Oct 2014)
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 =======
@@ -1003,6 +1006,7 @@ In brief, the PSC members vote on proposals on the dedicated
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1073,6 +1077,8 @@ In brief, the PSC members vote on proposals on the dedicated
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1505,6 +1511,7 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
@@ -2347,6 +2354,10 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 Proposals are available for review for at least seven calendar days, and a
 single veto is sufficient to delay progress although ultimately a majority
 of committee members can pass a proposal.
@@ -2354,6 +2365,7 @@ of committee members can pass a proposal.
 ## Detailed Process
 
 Proposals:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2808,6 +2820,8 @@ Proposals:
 =======
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3138,12 +3152,16 @@ Proposals:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a82cfbcefa (Fix missing function prototypes (#2727))
 =======
@@ -3476,6 +3494,8 @@ Proposals:
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 
  1. Proposals are written up and submitted on the PSC mailing list for discussion.
     Any committee member may call a vote on any proposal, although it is normal
@@ -3518,6 +3538,7 @@ Proposals:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
 =======
@@ -3526,6 +3547,8 @@ Proposals:
 >>>>>>> c99e518a1a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
@@ -3556,6 +3579,7 @@ Proposals:
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
@@ -3620,6 +3644,10 @@ Proposals:
 >>>>>>> c99e518a1a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 
 Voting:
 
@@ -6942,6 +6970,7 @@ Voting:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
@@ -6976,6 +7005,10 @@ Voting:
 =======
 
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+=======
+
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 Voting:
 
  1. A voting procedure is started by the proposer. For a more visible communication,
@@ -6998,6 +7031,7 @@ Voting:
     it can be resubmitted for an override vote in which a majority of all eligible
     voters indicating +1 is sufficient to pass it. Note that this is a majority of
     all eligible voters, not just those who actively vote.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7196,4 +7230,10 @@ Voting:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+>>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
