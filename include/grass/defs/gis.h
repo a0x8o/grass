@@ -182,6 +182,7 @@ char *G_basename(char *, const char *);
 size_t G_get_num_decimals(const char *);
 char *G_double_to_basename_format(double, size_t, size_t);
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *G_get_basename_separator(void);
 =======
 char *G_get_basename_separator();
@@ -189,6 +190,9 @@ char *G_get_basename_separator();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+char *G_get_basename_separator(void);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 char *G_join_basename_strings(const char **, size_t);
 char *G_generate_basename(const char *, double, size_t, size_t);
 
@@ -433,6 +437,7 @@ void G_init_ilist(struct ilist *);
 void G_free_ilist(struct ilist *);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 struct ilist *G_new_ilist(void);
 =======
 struct ilist *G_new_ilist();
@@ -440,6 +445,9 @@ struct ilist *G_new_ilist();
 =======
 struct ilist *G_new_ilist();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+struct ilist *G_new_ilist(void);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 void G_ilist_add(struct ilist *, int);
 
 /* intersect.c */
@@ -483,6 +491,7 @@ double G_distance2_point_to_line(double, double, double, double, double,
 void G_list_element(const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     int (*)(const char *, const char *, char *));
 =======
                     int (*)(const char *, const char *, const char *));
@@ -490,6 +499,9 @@ void G_list_element(const char *, const char *, const char *,
 =======
                     int (*)(const char *, const char *, const char *));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    int (*)(const char *, const char *, char *));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 char **G_list(int, const char *, const char *, const char *);
 void G_free_list(char **);
 
