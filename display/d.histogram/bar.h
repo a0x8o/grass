@@ -135,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -768,6 +769,8 @@
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 float rem(long int, long int); /* remainder function */
 =======
 <<<<<<< HEAD
@@ -1025,6 +1028,7 @@ float rem(); /* remainder function */
 =======
 float rem(); /* remainder function */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1955,6 +1959,11 @@ float rem(); /* remainder function */
 float rem(); /* remainder function */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+float rem(long int, long int); /* remainder function */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 
 /* normalized coordinates of bar-chart components */
 

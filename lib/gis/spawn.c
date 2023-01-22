@@ -1050,6 +1050,7 @@ int G_spawn(const char *command, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1683,6 +1684,8 @@ int G_spawn(const char *command, ...)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -1940,6 +1943,7 @@ int G_spawn(const char *command, ...)
 =======
     for (i = 0;; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2870,6 +2874,11 @@ int G_spawn(const char *command, ...)
     for (i = 0;; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (;;) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
         const char *arg = va_arg(va, const char *);
 
         args[num_args++] = arg;

@@ -188,6 +188,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -954,6 +955,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
         off_t size;
 
         size = 145; /* max header size, see below */
@@ -1247,6 +1250,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1322,9 +1326,12 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
+=======
         off_t size;
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -1492,11 +1499,13 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
         size = 145; /* max header size, see below */
-        size += ptr->Node_spidx->n_nodes * ptr->Node_spidx->nodesize;
-        size += ptr->Line_spidx->n_nodes * ptr->Line_spidx->nodesize;
-        size += ptr->Area_spidx->n_nodes * ptr->Area_spidx->nodesize;
-        size += ptr->Isle_spidx->n_nodes * ptr->Isle_spidx->nodesize;
+        size += (off_t)ptr->Node_spidx->n_nodes * ptr->Node_spidx->nodesize;
+        size += (off_t)ptr->Line_spidx->n_nodes * ptr->Line_spidx->nodesize;
+        size += (off_t)ptr->Area_spidx->n_nodes * ptr->Area_spidx->nodesize;
+        size += (off_t)ptr->Isle_spidx->n_nodes * ptr->Isle_spidx->nodesize;
 
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -6100,6 +6109,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6860,6 +6870,8 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
@@ -8685,7 +8697,15 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
     else
         return rtree_load_to_memory(fp, rootpos, t, off_t_size);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        rtree_load_to_file(fp, rootpos, t, off_t_size);
+    else
+        rtree_load_to_memory(fp, rootpos, t, off_t_size);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 }
 
 /*!

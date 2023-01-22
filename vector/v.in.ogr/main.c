@@ -10301,6 +10301,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -10449,7 +10450,10 @@ int main(int argc, char *argv[])
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, i);
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
         Ogr_featuredefn = OGR_L_GetLayerDefn(Ogr_layer);
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 
+<<<<<<< HEAD
         available_layer_names[i] =
             G_store((char *)OGR_FD_GetName(Ogr_featuredefn));
 <<<<<<< HEAD
@@ -10869,6 +10873,7 @@ int main(int argc, char *argv[])
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11720,6 +11725,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        available_layer_names[i] = G_store((char *)OGR_L_GetName(Ogr_layer));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 
         if (flag.list->answer)
             fprintf(stdout, "%s\n", available_layer_names[i]);

@@ -152,6 +152,7 @@ int print_output(OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -361,6 +362,8 @@ int print_output(OUTPUT *output)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
 =======
@@ -1415,6 +1418,7 @@ int print_output(OUTPUT *output)
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
                     break;
                 case 2:
                     snprintf(area, sizeof(area), "%.2f sq. meters",
@@ -3044,24 +3048,27 @@ int print_output(OUTPUT *output)
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
                     sprintf(area, "%.3f acres",
                             METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
                     break;
                 case 2:
-                    sprintf(area, "%.2f sq. meters",
-                            cell_size * do_cat->num_cat);
+                    snprintf(area, sizeof(area), "%.2f sq. meters",
+                             cell_size * do_cat->num_cat);
                     break;
                 case 3:
-                    sprintf(area, "%.4f sq. miles",
-                            METERSQ_TO_MILESQ * cell_size * do_cat->num_cat);
+                    snprintf(area, sizeof(area), "%.4f sq. miles",
+                             METERSQ_TO_MILESQ * cell_size * do_cat->num_cat);
                     break;
                 case 4:
-                    sprintf(area, "%.3f hectacres",
-                            METERSQ_TO_HECTACRE * cell_size * do_cat->num_cat);
+                    snprintf(area, sizeof(area), "%.3f hectacres",
+                             METERSQ_TO_HECTACRE * cell_size * do_cat->num_cat);
                     break;
                 case 5:
-                    sprintf(area, "%.3f sq. km.",
-                            METERSQ_TO_KILOSQ * cell_size * do_cat->num_cat);
+                    snprintf(area, sizeof(area), "%.3f sq. km.",
+                             METERSQ_TO_KILOSQ * cell_size * do_cat->num_cat);
                     break;
                 case 6:
+<<<<<<< HEAD
                     sprintf(area, "%6d cells", do_cat->num_cat);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3084,7 +3091,13 @@ int print_output(OUTPUT *output)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    snprintf(area, sizeof(area), "%6d cells", do_cat->num_cat);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
                     break;
                 }
                 fprintf(output->out_file, "%3d %-43s %16s %-.4f\n",

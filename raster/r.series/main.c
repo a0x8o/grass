@@ -13932,9 +13932,14 @@ int main(int argc, char *argv[])
     nprocs = 1;
 #endif
 
+<<<<<<< HEAD
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
+=======
+    lo = -INFINITY;
+    hi = INFINITY;
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
     if (parm.range->answer) {
         lo = atof(parm.range->answers[0]);
         hi = atof(parm.range->answers[1]);

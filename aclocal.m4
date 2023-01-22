@@ -9006,6 +9006,7 @@ dnl to enable Clang detection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9068,6 +9069,9 @@ dnl to enable Clang detection
 =======
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
 # ---------------
@@ -9168,6 +9172,7 @@ AC_DEFUN([LOC_OPENMP],
 
 dnl -------------------- / OpenMP ---------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9495,6 +9500,9 @@ dnl -------------------- / OpenMP ---------------------------------------------
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
 # ---------------
