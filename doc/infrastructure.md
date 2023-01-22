@@ -75,9 +75,11 @@ Related Wiki documents:
 
 * <https://grass.osgeo.org/wiki/GRASS_Migration_to_OSGeo> (historical document)
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 Related Wiki documents:
 
 * <https://grass.osgeo.org/wiki/GRASS_Migration_to_OSGeo> (historical document)
@@ -363,6 +365,8 @@ Related Wiki documents:
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 ## GRASS GIS Source code repository
 
@@ -622,7 +626,8 @@ Issues:
 
 Trac related notes:
 
-* For easier linking in the Trac Wiki, some macro definitions are used for manual page refs (G7:modulename)
+* For easier linking in the Trac Wiki, some macro definitions are used for manual
+  page refs (G7:modulename)
   * <https://trac.osgeo.org/grass/wiki/InterMapTxt>
 * ZIP file download support in trac (was needed for g.extension) * on trac.osgeo.org:
 
@@ -637,9 +642,11 @@ Statistics:
 * <https://github.com/OSGeo/grass/pulse>
 * <https://trac.osgeo.org/grass/stats/code>
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 Git usage:
 
 * [CONTRIBUTING.md file](../CONTRIBUTING.md)
@@ -1278,6 +1285,8 @@ Statistics:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 ## GRASS Web server
@@ -1744,6 +1753,7 @@ Maintainer: M. Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1756,6 +1766,8 @@ Maintainer: M. Neteler
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
   * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University
     Open Source Lab server: osgeo6.osgeo.osuosl.org)
 =======
@@ -2447,6 +2459,10 @@ Maintainer: M. Neteler
   * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University Open Source Lab
   server: osgeo6.osgeo.osuosl.org)
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+  * Shared virtual OSGeo machine (osgeo6) hosted at Oregon State University
+    Open Source Lab server: osgeo6.osgeo.osuosl.org)
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
   * Login: via OSGeo LDAP, there is a "grass" LDAP group
   * Software:
     * OS: Debian Wheezy
@@ -2520,6 +2536,7 @@ Maintainer: M. Neteler
 * i18N translation statistics (<https://grass.osgeo.org/development/translations/#statistics>)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   * generated during compilation of Linux binary snapshot, stats of `(cd locale; make)` are extracted into text file
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2573,7 +2590,14 @@ Maintainer: M. Neteler
 =======
   * generated during compilation of Linux binary snapshot, stats of `(cd locale; make)` are extracted into text file
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+  * generated during compilation of Linux binary snapshot, stats of
+    `(cd locale; make)` are extracted into text file
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
   * text file parsed by PHP page and shown as table
   * GRASS GIS version is coded in devel/i18n_stats.inc
   * for Transifex integration, see below
@@ -3103,9 +3127,11 @@ See <https://github.com/landam/wingrass-maintenance-scripts>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 * <https://github.com/landam/wingrass-maintenance-scripts>
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3228,6 +3254,8 @@ See <https://github.com/landam/wingrass-maintenance-scripts>
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 ## GRASS Mailing lists
@@ -3406,6 +3434,7 @@ Notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -3452,6 +3481,12 @@ Notes:
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
   * grass-abm           Integration of GRASS with JAVA based agent based modeling
                         (ABM)
   * grass-announce      GRASS announcements
@@ -3463,6 +3498,7 @@ Notes:
   * grass-translations  Translation of GRASS (i18N)
   * grass-user          GRASS user list
   * grass-web           GRASS website mailing list
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3516,6 +3552,8 @@ Notes:
 =======
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 * at OSGeo.org (<https://lists.osgeo.org/mailman/listinfo>):
   * grass-abm           Integration of GRASS with JAVA based agent based modeling
@@ -3677,8 +3715,13 @@ Notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4027,18 +4070,23 @@ Notes:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 * OLD, UNUSED: at FBK-irst (<http://grass.fbk.eu/mailman/admin/>):
-   grass-commit-addons  Mailing list to distribute GRASS Addons-SVN commits
-   grass-gui            GRASSGUI mailing list
-   grass-qa             GRASS Quality Assessment and monitoring list
-   grass-windows        winGRASS * Using GRASS on MS-Windows systems mailing list
+  * grass-commit-addons  Mailing list to distribute GRASS Addons-SVN commits
+  * grass-gui            GRASSGUI mailing list
+  * grass-qa             GRASS Quality Assessment and monitoring list
+  * grass-windows        winGRASS * Using GRASS on MS-Windows systems mailing list
 
 Notes:
+
 * grass-announce:
   * moderated by M. Neteler
-  * has monthly password reminder disabled to avoid leakage into publicly archived lists
-* grass-commit is receiving posts from the GRASS SVN at osgeo.org. Not open for other postings, they will be trashed automatically
-* grass-web is an open list (posting without subscription possible) with (Google) spam filter
+  * has monthly password reminder disabled to avoid leakage into publicly
+    archived lists
+* grass-commit is receiving posts from the GRASS SVN at osgeo.org. Not open for
+  other postings, they will be trashed automatically
+* grass-web is an open list (posting without subscription possible) with (Google)
+  spam filter
   * moderated by M. Neteler to avoid spam
+<<<<<<< HEAD
 * OLD, UNUSED: grass-qa is receiving posts from the GRASS Quality Control System at Ecole Polytechnique de Montreal, Canada. Not open for other postings.
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
@@ -4056,6 +4104,7 @@ Notes:
 * OLD, UNUSED: grass-qa is receiving posts from the GRASS Quality Control System
   at Ecole Polytechnique de Montreal, Canada. Not open for other postings.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4119,6 +4168,8 @@ Notes:
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4363,7 +4414,12 @@ Notes:
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 ## GRASS Wiki
 
@@ -4679,6 +4735,7 @@ Maintainer: Martin Landa, Markus Neteler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Summary: The system should run almost autonomous. An eye must be be kept on people
 trying to spam the site
 =======
@@ -4772,10 +4829,17 @@ Macros for manual pages (src, cmd, API, ...):
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 Summary: The system should run almost autonomous. An eye must be be kept
 on people trying to spam the site. Several layers of registration protection
 are in place due to excessive spam.
@@ -4995,6 +5059,7 @@ Macros for manual pages (src, cmd, API, ...):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5036,6 +5101,8 @@ Macros for manual pages (src, cmd, API, ...):
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -5215,7 +5282,12 @@ Macros for manual pages (src, cmd, API, ...):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 * <https://grasswiki.osgeo.org/wiki/Category:Templates>
 
 ## GRASS IRC
@@ -5223,6 +5295,7 @@ Macros for manual pages (src, cmd, API, ...):
 Channel: irc://irc.freenode.net/grass
 Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5320,6 +5393,8 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 * channel owner: Alessandro Frigeri < afrigeri unipg.it > ("geoalf")
 =======
 * channel owner: Alessandro Frigeri <afrigeri unipg.it> ("geoalf")
@@ -5336,7 +5411,13 @@ Web based client: See <https://grasswiki.osgeo.org/wiki/IRC>
 =======
 * channel owner: Alessandro Frigeri <afrigeri unipg.it> ("geoalf")
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+* channel owner: Alessandro Frigeri < afrigeri unipg.it > ("geoalf")
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 * quasi guru level: Markus Neteler ("markusN")
 * further operators:
   * Jachym ("jachym")
@@ -6225,6 +6306,7 @@ Old bugtracker (Jan 2008 - Jan 2020):
 * Settings:
 
 Old tracsvn (OSGeo server) (Dec 2007 * Mai 2019)
+
 ```text
 /var/www/trac/env/grass/conf/trac.ini
   downloadable_paths = /grass-addons/grass7/*/*,/sandbox/*/*
@@ -6253,7 +6335,6 @@ Very very old bugtracker (Dec 2000 * Dec 2006):
 * spamassasin spamfilter locally, bogofilter at grass-dev list
 * reports are directly sent to GRASS Developers mailing list for notification
 * TODO: migrate to trac
-
 
 ## GRASS Addons
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7022,6 +7103,7 @@ Procedure building of binaries (Windows):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 
@@ -7113,6 +7195,8 @@ Procedure of granting write access to Addons repo:
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -7126,7 +7210,12 @@ Procedure of granting write access to Addons repo:
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 - Addons module are compiled on winGRASS build server, at the CTU in Prague) and
   publishing their manual pages on publishing server, i.e. grass.osgeo.org.
@@ -7153,6 +7242,7 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 - generated in grass-addons/utils/addons/grass-addons-publish.sh
 =======
 * Addons module are compiled on build server, currently at the CTU in Prague) and publishing their manual pages on publishing server, i.e. grass.osgeo.org.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7221,13 +7311,18 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 
 * Addons module are compiled on build server, currently at the CTU in Prague) and
   publishing their manual pages on publishing server, i.e. grass.osgeo.org.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7238,6 +7333,8 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass8/modules.xml>
 >>>>>>> osgeo-main
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 * A new compilation is triggered everytime when a commit is done in the Addons-SVN.
 * Logs:
   * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on
@@ -7390,18 +7487,25 @@ XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 * A new compilation is triggered everytime when a commit is done in the Addons-SVN.
 * Logs:
-  * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on `grasslxd` on `osgeo7`)
+  * Linux log files:   <https://grass.osgeo.org/addons/grass7/logs> (compiled on
+    `grasslxd` on `osgeo7`)
   * Windows log files: <http://wingrass.fsv.cvut.cz/grass78/x86_64/addons/latest/logs/>
 
 Procedure of granting write access to Addons repo:
+
 * Request procedure: <https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASS-Addons-SVNrepository>
 * Adding OSGeo-ID:   <https://www.osgeo.org/cgi-bin/auth/ldap_group.py?group=grass_addons>
-* Adding contributor: <https://trac.osgeo.org/grass/browser/grass-addons/contributors.csv> (via SVN commit)
-* Confirm request in grass-psc and give instructions concerning code style etc (see archive for examples)
+* Adding contributor: <https://trac.osgeo.org/grass/browser/grass-addons/contributors.csv>
+  (via SVN commit)
+* Confirm request in grass-psc and give instructions concerning code style etc
+  (see archive for examples)
 
 XML file for g.extension: <https://grass.osgeo.org/addons/grass7/modules.xml>
+
 * generated in grass-addons/utils/addons/grass-addons-publish.sh
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7469,13 +7573,16 @@ Travis CI control files:
    linux.script.sh
 
 Maintenance script:
+
 * <https://github.com/OSGeo/grass-addons/tree/master/utils/grass-ci/grass-ci.sh>
 
 The github update is run as a cronjob on server "geo102" (CTU, CZ).
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 Travis CI control files:
  trunk/.travis/
    linux.before_install.sh
@@ -8368,7 +8475,14 @@ The github update is run as a cronjob on server "geo102" (CTU, CZ).
 =======
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 ## GRASS CI: GitHub Actions
 
 Started in Apr. 2020
@@ -8695,6 +8809,7 @@ Helper files placed in .github/workflows/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8763,6 +8878,8 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -8786,7 +8903,12 @@ Helper files placed in .github/workflows/
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
   * A build job which is not parallelized and is meant for clear & relatively fast check of compilation and building in general. (Duplicating what is running on Travis)
   * A test job which of course needs to build, but the main focus is to run tests, so the compilation is parallelized (depending on nproc) and thus potentially less readable. This runs the whole test suite. (You need to run it locally to see the actual error, but you can see which tests are failing.)
 * Static code analysis/Code quality check using Flake8 with separate checks for python/grass, gui/wxpython, scripts and temporal directories.
@@ -8911,10 +9033,13 @@ Helper files placed in .github/workflows/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -9028,7 +9153,12 @@ Helper files placed in .github/workflows/
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
   * A build job which is not parallelized and is meant for clear & relatively fast
     check of compilation and building in general. (Duplicating what is running
     on Travis)
@@ -9042,6 +9172,7 @@ Helper files placed in .github/workflows/
     that to minimum.
   * Code in testsuite directories is also ignored for now, but should not be in
     the future.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9120,6 +9251,8 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -9298,10 +9431,17 @@ Helper files placed in .github/workflows/
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 ## GRASS docker images
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9392,10 +9532,17 @@ Helper files placed in .github/workflows/
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 Maintainer: Carmen Tawalika, Vaclav Petras + OSGeo-SAC
 
 Docker images are created with a GitHub action. Subsequently, login is done
@@ -9456,10 +9603,13 @@ Explanations: <https://grasswiki.osgeo.org/wiki/GitHub-Zenodo_linkage>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -9572,7 +9722,12 @@ Explanations: <https://grasswiki.osgeo.org/wiki/GitHub-Zenodo_linkage>
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 ## GRASS Coverity Scan
 
 Maintainer: Markus Neteler
@@ -9883,8 +10038,11 @@ is used only occasionally.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 - <https://scan.coverity.com/projects/grass?tab=overview>
 =======
 <<<<<<< HEAD
@@ -9977,10 +10135,13 @@ is used only occasionally.
 ## User message translation management (i18N)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 ## Transifex translation management
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
@@ -10340,6 +10501,7 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 =======
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -10350,7 +10512,11 @@ Translations may be done using the OSGeo Weblate platform:
 =======
 ## OLD: GRASS Quality Control
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
+<<<<<<< HEAD
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -10555,7 +10721,12 @@ Translations may be done using the OSGeo Weblate platform:
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 
 - Weblate: <https://weblate.osgeo.org/>
   - GRASS GIS Weblate server: <https://weblate.osgeo.org/projects/grass-gis/>
@@ -10834,6 +11005,7 @@ Numerous institutions have sponsored the GRASS Project with Hardware/Bandwidth
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10897,10 +11069,17 @@ Numerous institutions have sponsored the GRASS Project with Hardware/Bandwidth
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 - 1997-1999: Institut fuer Landschaftspflege und Naturschutz (ILN), Universitaet
   Hannover, Germany
 - 1999-2001: Institut fuer Physische Geographie und Landschaftsoekologie,
@@ -10931,10 +11110,13 @@ Numerous institutions have sponsored the GRASS Project with Hardware/Bandwidth
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -11047,7 +11229,12 @@ Numerous institutions have sponsored the GRASS Project with Hardware/Bandwidth
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 * 1997-1999: Institut fuer Landschaftspflege und Naturschutz (ILN), Universitaet
   Hannover, Germany
 * 1999-2001: Institut fuer Physische Geographie und Landschaftsoekologie,
