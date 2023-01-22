@@ -118,6 +118,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -237,6 +238,8 @@ int main(int argc, char **argv)
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -475,7 +478,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     int (*rng)(int, double *);
 =======
 <<<<<<< HEAD
@@ -827,6 +835,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -868,6 +877,8 @@ int main(int argc, char **argv)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1266,7 +1277,12 @@ int main(int argc, char **argv)
     int (*rng)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     int i;
     int line, nlines, ttype, n, ret, seed, field;
     struct field_info *Fi, *Fin;

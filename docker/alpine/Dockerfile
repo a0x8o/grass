@@ -15291,7 +15291,6 @@ ENV PROJ_NETWORK="ON"
     SHELL="/bin/bash"
 ENV PROJ_NETWORK="ON"
 
-
 # show installed version
 RUN grass --tmp-location XY --exec g.version -rge && \
     pdal --version && \
@@ -15532,6 +15531,7 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15927,12 +15927,18 @@ RUN grass --tmp-location XY --exec g.version -rge && \
 =======
 =======
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 # test r.in.pdal in final image because test stage is not executed in github action
 COPY docker/testdata/simple.laz /tmp/simple.laz
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16407,7 +16413,12 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 # Data workdir
 WORKDIR /grassdb
 VOLUME /grassdb

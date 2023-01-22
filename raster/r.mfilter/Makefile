@@ -84,6 +84,7 @@ PGM = r.mfilter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -120,6 +121,8 @@ PGM = r.mfilter
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -514,7 +517,12 @@ PGM = r.mfilter
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -833,6 +841,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OMPLIB)
 DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
@@ -924,6 +933,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,10 +1040,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,6 +1155,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
@@ -1681,7 +1698,13 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

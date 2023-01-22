@@ -141,6 +141,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -232,6 +233,8 @@ int do_geogrid(void)
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -735,6 +738,8 @@ int do_geogrid(void)
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
     for (; g >= south; g -= grid) {
 =======
     for (j = 0; g >= south; j++, g -= grid) {
@@ -748,6 +753,7 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,7 +1132,15 @@ int do_geogrid(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (; g >= south; g -= grid) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
         if (g == north || g == south)
             continue;
         for (ll = 0; ll < SEGS; ll++) {
@@ -1219,6 +1233,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1310,6 +1325,8 @@ int do_geogrid(void)
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -1813,6 +1830,8 @@ int do_geogrid(void)
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
     for (; g > west; g -= grid) {
 =======
     for (j = 0; g > west; j++, g -= grid) {
@@ -1826,6 +1845,7 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2204,7 +2224,15 @@ int do_geogrid(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (; g > west; g -= grid) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
         if (g == east || g == west)
             continue;
         for (ll = 0; ll < SEGS; ll++) {

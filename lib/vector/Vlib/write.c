@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static off_t write_dummy(struct Map_info *Map, int type,
                          const struct line_pnts *points,
                          const struct line_cats *cats)
@@ -177,6 +178,8 @@ static off_t write_dummy(struct Map_info *Map, int type,
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -320,7 +323,12 @@ static off_t write_dummy(struct Map_info *Map, int type,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static off_t write_dummy(struct Map_info *Map UNUSED, int type UNUSED,
                          const struct line_pnts *points UNUSED,
                          const struct line_cats *cats UNUSED)
@@ -329,6 +337,7 @@ static off_t write_dummy(struct Map_info *Map, int type,
                          const struct line_pnts *points,
                          const struct line_cats *cats)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,6 +367,8 @@ static off_t write_dummy(struct Map_info *Map, int type,
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 {
     G_warning("Vect_write_line() %s", _("for this format/level not supported"));
 <<<<<<< HEAD
@@ -995,14 +1006,16 @@ static int delete_dummy(struct Map_info *Map, off_t line)
     return -1;
 }
 
-static off_t rewrite_dummy()
+static off_t rewrite_dummy(struct Map_info *Map, off_t line, int type,
+                           const struct line_pnts *points,
+                           const struct line_cats *cats)
 {
     G_warning("Vect_rewrite_line() %s",
               _("for this format/level not supported"));
     return -1;
 }
 
-static int delete_dummy()
+static int delete_dummy(struct Map_info *Map, off_t line)
 {
     G_warning("Vect_delete_line() %s",
               _("for this format/level not supported"));
@@ -1010,7 +1023,11 @@ static int delete_dummy()
     return -1;
 }
 
+<<<<<<< HEAD
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 static off_t rewrite_dummy()
 {
     G_warning("Vect_rewrite_line() %s",
@@ -1586,6 +1603,7 @@ static int restore_dummy(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -1629,6 +1647,8 @@ static int restore_dummy(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -1929,7 +1949,12 @@ static int restore_dummy(struct Map_info *Map, off_t offset, off_t line)
 static int restore_dummy(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 {
     G_warning("Vect_restore_line() %s",
               _("for this format/level not supported"));
@@ -1983,6 +2008,7 @@ static int restore_dummy(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format(struct Map_info *Map, off_t line)
 =======
 <<<<<<< HEAD
@@ -2084,6 +2110,8 @@ static int format(struct Map_info *Map, off_t line)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -2223,7 +2251,12 @@ static int format(struct Map_info *Map, off_t line)
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static int format(struct Map_info *Map UNUSED, off_t line UNUSED)
 =======
 static int format(struct Map_info *Map, off_t line)
@@ -2270,6 +2303,7 @@ static int format(struct Map_info *Map, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2313,6 +2347,8 @@ static int format(struct Map_info *Map, off_t line)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -2610,7 +2646,12 @@ static int format(struct Map_info *Map, off_t line)
 static int format(struct Map_info *Map, off_t line)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -2662,6 +2703,7 @@ static int format(struct Map_info *Map, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format2(struct Map_info *Map, off_t offset, off_t line)
 =======
 <<<<<<< HEAD
@@ -2763,6 +2805,8 @@ static int format2(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -2902,7 +2946,12 @@ static int format2(struct Map_info *Map, off_t offset, off_t line)
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static int format2(struct Map_info *Map UNUSED, off_t offset UNUSED,
                    off_t line UNUSED)
 =======
@@ -2950,6 +2999,7 @@ static int format2(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2993,6 +3043,8 @@ static int format2(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -3290,12 +3342,18 @@ static int format2(struct Map_info *Map, off_t offset, off_t line)
 static int format2(struct Map_info *Map, off_t offset, off_t line)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3446,6 +3504,8 @@ static off_t format_l(struct Map_info *Map, int type,
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -3586,7 +3646,12 @@ static off_t format_l(struct Map_info *Map, int type,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static off_t format_l(struct Map_info *Map UNUSED, int type UNUSED,
                       const struct line_pnts *points UNUSED,
                       const struct line_cats *cats UNUSED)
@@ -3637,6 +3702,7 @@ static off_t format_l(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3718,6 +3784,8 @@ static off_t format_l(struct Map_info *Map, int type,
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4016,7 +4084,12 @@ static off_t format_l(struct Map_info *Map, int type,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -4068,6 +4141,7 @@ static off_t format_l(struct Map_info *Map, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static off_t format_l2(struct Map_info *Map, off_t line, int type,
                        const struct line_pnts *points,
                        const struct line_cats *cats)
@@ -4171,6 +4245,8 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -4312,7 +4388,12 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static off_t format_l2(struct Map_info *Map UNUSED, off_t line UNUSED,
                        int type UNUSED, const struct line_pnts *points UNUSED,
                        const struct line_cats *cats UNUSED)
@@ -4363,6 +4444,7 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4444,6 +4526,8 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4742,7 +4826,12 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -4831,6 +4920,7 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5004,6 +5094,8 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -5293,7 +5385,12 @@ static off_t format_l2(struct Map_info *Map, off_t line, int type,
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static off_t (*Vect_write_line_array[][3])(struct Map_info *, int,
                                            const struct line_pnts *,
                                            const struct line_cats *) = {
@@ -5455,6 +5552,7 @@ static off_t (*Vect_write_line_array[][3])() = {
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6217,7 +6315,16 @@ static off_t (*Vect_write_line_array[][3])(struct Map_info *, int,
 static off_t (*Vect_write_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static off_t (*Vect_write_line_array[][3])(struct Map_info *, int,
+                                           const struct line_pnts *,
+                                           const struct line_cats *) = {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     {write_dummy, V1_write_line_nat, V2_write_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -6319,6 +6426,7 @@ static off_t (*Vect_write_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6492,6 +6600,8 @@ static off_t (*Vect_write_line_array[][3])() = {
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -6781,7 +6891,12 @@ static off_t (*Vect_write_line_array[][3])() = {
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 static off_t (*Vect_rewrite_line_array[][3])(struct Map_info *, off_t, int,
                                              const struct line_pnts *,
                                              const struct line_cats *) = {
@@ -6943,6 +7058,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7705,7 +7821,16 @@ static off_t (*Vect_rewrite_line_array[][3])(struct Map_info *, off_t, int,
 static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static off_t (*Vect_rewrite_line_array[][3])(struct Map_info *, off_t, int,
+                                             const struct line_pnts *,
+                                             const struct line_cats *) = {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     {rewrite_dummy, V1_rewrite_line_nat, V2_rewrite_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -7795,6 +7920,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7914,6 +8040,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8152,7 +8280,12 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     {rewrite_dummy, format_l2, format_l2},
     {rewrite_dummy, format_l2, format_l2}
 =======
@@ -8554,6 +8687,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -8600,6 +8734,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -8969,7 +9105,12 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 #endif
 #ifdef HAVE_POSTGRES
     ,
@@ -9058,6 +9199,7 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9237,6 +9379,8 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 >>>>>>> 287da875f8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -9526,7 +9670,12 @@ static off_t (*Vect_rewrite_line_array[][3])() = {
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
     {rewrite_dummy, format_l2, format_l2}
 #endif
 };
@@ -10889,6 +11038,7 @@ static int (*Vect_delete_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
@@ -11009,10 +11159,16 @@ static int (*Vect_delete_line_array[][3])() = {
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+=======
+=======
+    {rewrite_dummy, format_l2, format_l2}
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 #endif
 };
 
 static int (*Vect_delete_line_array[][3])(struct Map_info *, off_t) = {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11117,6 +11273,8 @@ static int (*Vect_delete_line_array[][3])(struct Map_info *, off_t) = {
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
     {delete_dummy, V1_delete_line_nat, V2_delete_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -11158,6 +11316,7 @@ static int (*Vect_delete_line_array[][3])(struct Map_info *, off_t) = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11302,6 +11461,9 @@ static int (*Vect_restore_line_array[][3])(struct Map_info *, off_t, off_t) = {
 static int (*Vect_restore_line_array[][3])() = {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+static int (*Vect_restore_line_array[][3])(struct Map_info *, off_t, off_t) = {
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
     {restore_dummy, V1_restore_line_nat, V2_restore_line_nat}
 #ifdef HAVE_OGR
     ,
@@ -11331,6 +11493,7 @@ static int (*Vect_restore_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
@@ -11501,12 +11664,17 @@ static int (*Vect_restore_line_array[][3])() = {
     {restore_dummy, format, format}
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+    {restore_dummy, format2, format2},
+    {restore_dummy, format2, format2}
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 #endif
 #ifdef HAVE_POSTGRES
     ,
     {restore_dummy, restore_dummy, restore_dummy}
 #else
     ,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12901,7 +13069,17 @@ static int (*Vect_restore_line_array[][3])() = {
     {restore_dummy, format, format}
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 0cfc981774 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    {restore_dummy, format, format}
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    {restore_dummy, format2, format2}
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+>>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 #endif
 };
 
