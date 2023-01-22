@@ -179,6 +179,7 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -352,6 +353,10 @@ void tgis_free_map_list(tgisMapList *list);
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -550,6 +555,7 @@ void tgis_free_map_list(tgisMapList *list);
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -726,7 +732,13 @@ void tgis_free_map_list(tgisMapList *list);
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
@@ -1104,6 +1116,7 @@ tgisMapList *tgis_new_map_list(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1174,6 +1187,8 @@ tgisMapList *tgis_new_map_list(void);
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -1189,6 +1204,8 @@ tgisMapList *tgis_new_map_list(void);
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1780,8 +1797,16 @@ tgisMapList *tgis_new_map_list();
 tgisMapList *tgis_new_map_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -1999,6 +2024,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2172,6 +2198,10 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -2370,6 +2400,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
@@ -2546,7 +2577,13 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
@@ -2924,6 +2961,7 @@ tgisDatasetList *tgis_new_dataset_list(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2994,6 +3032,8 @@ tgisDatasetList *tgis_new_dataset_list(void);
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -3009,6 +3049,8 @@ tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3600,8 +3642,16 @@ tgisDatasetList *tgis_new_dataset_list();
 tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

@@ -104,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int open_old_dummy(struct Map_info *Map, int update)
 =======
 <<<<<<< HEAD
@@ -234,6 +235,8 @@ static int open_old_dummy(struct Map_info *Map, int update)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -244,6 +247,8 @@ static int open_old_dummy(struct Map_info *Map, int update)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 static int open_old_dummy(struct Map_info *Map, int update)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -401,6 +406,7 @@ static int open_old_dummy(struct Map_info *Map, int update)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
@@ -442,7 +448,15 @@ static int open_old_dummy(struct Map_info *Map, int update)
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 static int open_old_dummy(struct Map_info *Map UNUSED, int update UNUSED)
 =======
 static int open_old_dummy(struct Map_info *Map, int update)
@@ -503,6 +517,7 @@ static int open_old_dummy(struct Map_info *Map, int update)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -575,6 +590,8 @@ static int open_old_dummy(struct Map_info *Map, int update)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
@@ -585,6 +602,8 @@ static int open_old_dummy(struct Map_info *Map, int update)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 static int open_old_dummy(struct Map_info *Map, int update)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -961,8 +980,17 @@ static int open_old_dummy(struct Map_info *Map, int update)
 =======
 static int open_old_dummy(struct Map_info *Map, int update)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 {
     return 0;
 }
@@ -1027,6 +1055,7 @@ static int open_old_dummy(struct Map_info *Map, int update)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 <<<<<<< HEAD
@@ -1157,6 +1186,8 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -1167,6 +1198,8 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -1324,6 +1357,7 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
@@ -1365,7 +1399,15 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 static int open_new_dummy(struct Map_info *Map UNUSED, const char *name UNUSED,
                           int with_z UNUSED)
 =======
@@ -1427,6 +1469,7 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -1499,6 +1542,8 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
@@ -1509,6 +1554,8 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1885,8 +1932,17 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 =======
 static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 {
     return 0;
 }
@@ -1952,6 +2008,7 @@ static int open_new_dummy(struct Map_info *Map, const char *name, int with_z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format_old(struct Map_info *Map, int update)
 =======
 <<<<<<< HEAD
@@ -2082,6 +2139,8 @@ static int format_old(struct Map_info *Map, int update)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -2092,6 +2151,8 @@ static int format_old(struct Map_info *Map, int update)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 static int format_old(struct Map_info *Map, int update)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -2249,6 +2310,7 @@ static int format_old(struct Map_info *Map, int update)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
@@ -2290,7 +2352,15 @@ static int format_old(struct Map_info *Map, int update)
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 static int format_old(struct Map_info *Map UNUSED, int update UNUSED)
 =======
 static int format_old(struct Map_info *Map, int update)
@@ -2351,6 +2421,7 @@ static int format_old(struct Map_info *Map, int update)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2423,6 +2494,8 @@ static int format_old(struct Map_info *Map, int update)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
@@ -2433,6 +2506,8 @@ static int format_old(struct Map_info *Map, int update)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 static int format_old(struct Map_info *Map, int update)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2809,8 +2884,17 @@ static int format_old(struct Map_info *Map, int update)
 =======
 static int format_old(struct Map_info *Map, int update)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -2876,6 +2960,7 @@ static int format_old(struct Map_info *Map, int update)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 <<<<<<< HEAD
@@ -3006,6 +3091,8 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -3016,6 +3103,8 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -3173,6 +3262,7 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
@@ -3214,7 +3304,15 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 static int format_new(struct Map_info *Map UNUSED, const char *name UNUSED,
                       int with_z UNUSED)
 =======
@@ -3276,6 +3374,7 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -3348,6 +3447,8 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
@@ -3358,6 +3459,8 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 static int format_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3734,8 +3837,17 @@ static int format_new(struct Map_info *Map, const char *name, int with_z)
 =======
 static int format_new(struct Map_info *Map, const char *name, int with_z)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -3854,6 +3966,7 @@ static int Open_level = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4087,6 +4200,10 @@ static int Open_level = 0;
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
@@ -4528,8 +4645,16 @@ static int Open_level = 0;
 =======
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 static int (*Open_old_array[][2])(struct Map_info *,
                                   int) = {{open_old_dummy, V1_open_old_nat}
 #ifdef HAVE_OGR
@@ -6307,38 +6432,45 @@ static int (*Open_new_array[][2])(struct Map_info *Map, const char *name,
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 static int (*Open_old_array[][2])() = {{open_old_dummy, V1_open_old_nat}
+=======
+static int (*Open_old_array[][2])(struct Map_info *,
+                                  int) = {{open_old_dummy, V1_open_old_nat}
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 #ifdef HAVE_OGR
-                                       ,
-                                       {open_old_dummy, V1_open_old_ogr},
-                                       {open_old_dummy, V1_open_old_ogr}
+                                          ,
+                                          {open_old_dummy, V1_open_old_ogr},
+                                          {open_old_dummy, V1_open_old_ogr}
 #else
-                                       ,
-                                       {open_old_dummy, format},
-                                       {open_old_dummy, format}
+                                          ,
+                                          {open_old_dummy, format_old},
+                                          {open_old_dummy, format_old}
 #endif
 #ifdef HAVE_POSTGRES
-                                       ,
-                                       {open_old_dummy, V1_open_old_pg}
+                                          ,
+                                          {open_old_dummy, V1_open_old_pg}
 #else
-                                       ,
-                                       {open_old_dummy, format}
+                                          ,
+                                          {open_old_dummy, format_old}
 #endif
 };
 
-static int (*Open_new_array[][2])() = {{open_new_dummy, V1_open_new_nat}
+static int (*Open_new_array[][2])(struct Map_info *Map, const char *name,
+                                  int with_z) = {
+    {open_new_dummy, V1_open_new_nat}
 #ifdef HAVE_OGR
-                                       ,
-                                       {open_new_dummy, V1_open_new_ogr},
-                                       {open_new_dummy, V1_open_new_ogr}
+    ,
+    {open_new_dummy, V1_open_new_ogr},
+    {open_new_dummy, V1_open_new_ogr}
 #else
-                                       ,
-                                       {open_new_dummy, format},
-                                       {open_new_dummy, format}
+    ,
+    {open_new_dummy, format_new},
+    {open_new_dummy, format_new}
 #endif
 #ifdef HAVE_POSTGRES
-                                       ,
-                                       {open_old_dummy, V1_open_new_pg}
+    ,
+    {open_new_dummy, V1_open_new_pg}
 #else
+<<<<<<< HEAD
                                        ,
                                        {open_old_dummy, format}
 <<<<<<< HEAD
@@ -7112,9 +7244,22 @@ static int (*Open_new_array[][2])() = {{open_new_dummy, V1_open_new_nat}
                                        ,
                                        {open_old_dummy, format}
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 65b9047faa (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    ,
+    {open_new_dummy, format_new}
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+>>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+>>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
 #endif
 };
 
