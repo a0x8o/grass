@@ -208,6 +208,7 @@ source repository:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -986,6 +987,8 @@ source repository:
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1009,7 +1012,12 @@ source repository:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
  must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC)
  before copyright messages are removed. If license terms are changed, it has to
  be by agreement (written in email is ok) of the copyright holders.
@@ -2886,6 +2894,7 @@ source repository:
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
  must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC) before copyright messages
  are removed. If license terms are changed, it has to be by agreement
  (written in email is ok) of the copyright holders.
@@ -2941,7 +2950,16 @@ source repository:
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC)
+ before copyright messages are removed. If license terms are changed, it has to
+ be by agreement (written in email is ok) of the copyright holders.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 * When substantial contributions are added to a file (such as
  substantial patches) the author/contributor should be added to the
  list of copyright holders for the file in the file header.
@@ -3005,6 +3023,7 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3336,6 +3355,8 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3473,6 +3494,8 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3543,6 +3566,9 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3996,12 +4022,16 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -4572,3 +4602,5 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))

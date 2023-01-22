@@ -196,6 +196,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -471,6 +472,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -520,6 +523,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1004,6 +1008,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         off_t size;
 
         size = 145; /* max header size, see below */
@@ -1034,6 +1042,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,8 +1261,12 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
         off_t size;
 
@@ -6413,6 +6426,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7191,6 +7205,8 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7214,7 +7230,12 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
@@ -9091,6 +9112,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
         return rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         return rtree_load_to_memory(fp, rootpos, t, off_t_size);
@@ -9146,7 +9168,16 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        rtree_load_to_file(fp, rootpos, t, off_t_size);
+    else
+        rtree_load_to_memory(fp, rootpos, t, off_t_size);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 }
 
 /*!

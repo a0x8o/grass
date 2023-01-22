@@ -136,6 +136,7 @@ PGM = r.neighbors
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -413,6 +414,8 @@ PGM = r.neighbors
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -440,6 +443,7 @@ PGM = r.neighbors
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -883,6 +887,10 @@ PGM = r.neighbors
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
@@ -1314,6 +1322,7 @@ LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1928,6 +1937,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
@@ -1937,12 +1948,15 @@ LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 LIBES = $(STATSLIB) $(RASTERLIB) $(GISLIB) $(MATHLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(STATSDEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2213,6 +2227,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -2735,7 +2751,13 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

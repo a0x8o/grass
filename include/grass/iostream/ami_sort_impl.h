@@ -364,6 +364,7 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -695,6 +696,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -832,6 +835,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
     int i = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -902,6 +907,9 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1355,12 +1363,16 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -1931,6 +1943,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     while (!rheap.empty()) {
         // mergedStr->write_item( rheap.extract_min() );
         // xxx should check error here
@@ -1988,6 +2002,7 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2319,6 +2334,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2456,6 +2473,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
         i++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2526,6 +2545,9 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2979,12 +3001,16 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -3555,6 +3581,8 @@ AMI_STREAM<T> *singleMerge(queue<char *> *streamList, Compare *cmp)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     }
 
     SDEBUG cout << "..done\n";

@@ -134,6 +134,7 @@ static struct robject *draw_line(struct Map_info *, int, int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -167,6 +168,8 @@ static struct robject *draw_line(struct Map_info *, int, int);
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1734,6 +1737,8 @@ static struct robject *draw_line_vertices(void);
 =======
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 static struct robject *draw_line_vertices(void);
 =======
 static struct robject *draw_line_vertices();
@@ -1747,6 +1752,7 @@ static struct robject *draw_line_vertices();
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1780,7 +1786,15 @@ static struct robject *draw_line_vertices();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+static struct robject *draw_line_vertices(void);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 static void draw_line_nodes(struct Map_info *, int, int, struct robject_list *);
 static int draw_line_dir(struct robject_list *, int);
 static void list_append(struct robject_list *, struct robject *);

@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -324,6 +325,8 @@
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -468,6 +471,8 @@
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 extern struct tm *localtime();
 extern struct tm *gmtime();
@@ -758,6 +763,7 @@ extern struct tm *gmtime();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -875,6 +881,8 @@ extern struct tm *gmtime();
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1221,6 +1229,7 @@ extern struct tm *gmtime();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -1785,6 +1794,10 @@ extern struct tm *gmtime();
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 /*
  ** NOTE:  the extern variable "timezone" seems to be treated
  ** differently by different OS, and the tm_zone element of struct tm

@@ -15706,11 +15706,14 @@ int main(int argc, char *argv[])
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     lo = -INFINITY;
     hi = INFINITY;
+<<<<<<< HEAD
 =======
 
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     if (parm.range->answer) {
         lo = atof(parm.range->answers[0]);
         hi = atof(parm.range->answers[1]);

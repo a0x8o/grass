@@ -1485,6 +1485,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1518,6 +1519,8 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -3085,6 +3088,8 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
 =======
     for (i = 0; i < nrows; i++) {
@@ -3098,6 +3103,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3131,7 +3137,15 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; i < (dimensionType)nrows; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         /*read in the raster row */
 
         G_SURFACE_T *tmprast = inrast[0];
@@ -3280,6 +3294,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3492,6 +3507,8 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3519,6 +3536,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3949,6 +3967,10 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         for (j = 0; j < (dimensionType)ncols; j++) {
 =======
 <<<<<<< HEAD
@@ -4101,6 +4123,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4148,6 +4171,8 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -4633,6 +4658,7 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
         for (j = 0; j < Rast_window_cols(); j++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -5210,6 +5236,10 @@ size_t init_event_list_in_memory(AEvent *eventList, char *rastName,
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
             e.row = i;
             e.col = j;
 
@@ -6681,6 +6711,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6714,6 +6745,8 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -8281,6 +8314,8 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
 =======
     for (i = 0; i < nrows; i++) {
@@ -8294,6 +8329,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8327,7 +8363,15 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; i < (dimensionType)nrows; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
         G_percent(i, nrows, 2);
 
@@ -8477,6 +8521,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8689,6 +8734,8 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -8716,6 +8763,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9146,6 +9194,10 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         for (j = 0; j < (dimensionType)ncols; j++) {
 =======
 <<<<<<< HEAD
@@ -9298,6 +9350,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9345,6 +9398,8 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -9830,6 +9885,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
         for (j = 0; j < ncols; j++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -10407,6 +10463,10 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
             e.row = i;
             e.col = j;
@@ -11778,6 +11838,7 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12024,6 +12085,8 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -12054,6 +12117,7 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12421,6 +12485,10 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
         G_percent(i, nrows, 5);
         for (j = 0; j < (dimensionType)ncols; j++) {
@@ -12610,6 +12678,7 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12686,6 +12755,8 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 =======
 =======
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -13144,6 +13215,7 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14107,6 +14179,14 @@ void save_grid_to_GRASS(Grid *grid, char *filename, RASTER_MAP_TYPE type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; i < (dimensionType)nrows; i++) {
+        G_percent(i, nrows, 5);
+        for (j = 0; j < (dimensionType)ncols; j++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
             if (is_invisible_nodata(grid->grid_data[i][j])) {
                 writeNodataValue(outrast, j, type);
             }
@@ -14188,6 +14268,7 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
     dimensionType i, j;
     double elev = 0, viewshed_value;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14913,6 +14994,8 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 =======
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -16150,6 +16233,7 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -16501,6 +16585,9 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
         /* get the row from elevation */
         Rast_get_row(elevfd, elevrast, i, elev_data_type);
@@ -16564,12 +16651,15 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
         /* get the row from elevation */
         Rast_get_row(elevfd, elevrast, i, elev_data_type);
@@ -16578,8 +16668,11 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
@@ -16649,7 +16742,13 @@ void save_vis_elev_to_GRASS(Grid *visgrid, char *elevfname, char *visfname,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
             /* read the current elevation value */
             int isNull = 0;
@@ -16995,6 +17094,7 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17147,6 +17247,8 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -17162,6 +17264,7 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17404,6 +17507,10 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     for (i = 0; i < (dimensionType)nrows; i++) {
         for (j = 0; j < (dimensionType)ncols; j++) {
 =======
@@ -17583,6 +17690,9 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -17948,6 +18058,7 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -18719,6 +18830,10 @@ void save_io_visibilitygrid_to_GRASS(IOVisibilityGrid *visgrid, char *fname,
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
             if (curResult->row == i && curResult->col == j) {
                 /*cell is recodred in the visibility stream: it must be
@@ -18866,6 +18981,7 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19239,6 +19355,8 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
@@ -19473,12 +19591,16 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -19991,6 +20113,8 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     int nrows = Rast_window_rows();
     int ncols = Rast_window_cols();
     if (nrows > maxDimension || ncols > maxDimension)
@@ -20066,15 +20190,19 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
@@ -20326,9 +20454,14 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 >>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20372,6 +20505,8 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -20741,12 +20876,16 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -21383,6 +21522,8 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
     for (i = 0; i < (dimensionType)nrows; i++) {
 

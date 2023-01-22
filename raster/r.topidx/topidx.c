@@ -142,6 +142,7 @@ void calculate_atanb(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -175,6 +176,8 @@ void calculate_atanb(void)
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1742,6 +1745,8 @@ void calculate_atanb(void)
 =======
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     for (; natb < ncells;) {
 =======
     for (iter = 1; natb < ncells; iter++) {
@@ -1755,6 +1760,7 @@ void calculate_atanb(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1788,7 +1794,15 @@ void calculate_atanb(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (; natb < ncells;) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
         /*
            for(i=0;i<80;i++)
            fprintf(stderr,"\b");

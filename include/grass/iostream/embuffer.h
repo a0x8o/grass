@@ -3336,8 +3336,11 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     sprintf(str, "em_buffer: allocate %d AMI_STREAM*, total %ld\n", arity,
             (long)(arity * sizeof(AMI_STREAM<T> *)));
 <<<<<<< HEAD
@@ -4798,6 +4801,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
     assert((level >= 1) && (basesize >= 0));
 
     char str[100];
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     sprintf(str, "em_buffer: allocate %d AMI_STREAM*, total %ld\n", arity,
             (long)(arity * sizeof(AMI_STREAM<T> *)));
 <<<<<<< HEAD
@@ -4810,8 +4815,19 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    snprintf(str, sizeof(str),
+             "em_buffer: allocate %d AMI_STREAM*, total %ld\n", arity,
+             (long)(arity * sizeof(AMI_STREAM<T> *)));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     // allocate STREAM* array
     data = new AMI_STREAM<T> *[arity];
@@ -4950,6 +4966,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5154,6 +5171,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -5181,6 +5200,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5579,6 +5599,10 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str), "em_buffer: allocate deleted array: %ld\n",
              (long)(arity * sizeof(long)));
 =======
@@ -5803,13 +5827,17 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
@@ -5846,6 +5874,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str), "em_buffer: allocate deleted array: %ld\n",
              (long)(arity * sizeof(long)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -5867,8 +5897,11 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
     sprintf(str, "em_buffer: allocate deleted array: %ld\n",
             (long)(arity * sizeof(long)));
@@ -6811,7 +6844,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     deleted = new long[arity];
 
@@ -6949,6 +6987,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7161,6 +7200,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7188,6 +7229,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7614,6 +7656,10 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str), "em_buffer: allocate streamsize array: %ld\n",
              (long)(arity * sizeof(long)));
 =======
@@ -8118,6 +8164,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -8208,6 +8255,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -8914,7 +8963,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     streamsize = new unsigned long[arity];
 
@@ -9053,6 +9107,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9265,6 +9320,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -9292,6 +9349,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9718,6 +9776,10 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str), "em_buffer: allocate name array: %ld\n",
              (long)(arity * sizeof(char *)));
 =======
@@ -10222,6 +10284,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -10312,6 +10375,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -11018,7 +11083,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     name = new char *[arity];
     assert(name);
@@ -16252,6 +16322,7 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17030,6 +17101,8 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -17053,7 +17126,12 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_buffer::substream_merge: allocate keys array, total %ldB\n",
              (long)((long)arity * sizeof(merge_key<Key>)));
@@ -18930,6 +19008,7 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
     sprintf(str,
             "em_buffer::substream_merge: allocate keys array, total %ldB\n",
             (long)((long)arity * sizeof(merge_key<Key>)));
@@ -18985,7 +19064,16 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    snprintf(str, sizeof(str),
+             "em_buffer::substream_merge: allocate keys array, total %ldB\n",
+             (long)((long)arity * sizeof(merge_key<Key>)));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
 
     // keys array is initialized with smallest key from each stream (only

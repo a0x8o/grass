@@ -165,6 +165,7 @@ void M_do_list(int n, const char *mapset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -440,6 +441,8 @@ void M_do_list(int n, const char *mapset)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -489,6 +492,7 @@ void M_do_list(int n, const char *mapset)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -973,6 +977,10 @@ void M_do_list(int n, const char *mapset)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
             G_list_element(list[i].element[0], list[i].desc[0], mapset, NULL);
         }
     }
@@ -3064,16 +3072,20 @@ void M_do_list(int n, const char *mapset)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
             G_list_element(list[i].element[0], list[i].desc[0], mapset, NULL);
         }
     }
     else {
         G_list_element(list[n].element[0], list[n].desc[0], mapset, NULL);
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
@@ -3087,6 +3099,9 @@ void M_do_list(int n, const char *mapset)
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -3213,6 +3228,12 @@ void M_do_list(int n, const char *mapset)
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     }
 }

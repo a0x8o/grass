@@ -67,6 +67,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -170,6 +171,8 @@ PGM = r.resamp.filter
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
@@ -308,6 +311,7 @@ PGM = r.resamp.filter
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -700,6 +704,10 @@ PGM = r.resamp.filter
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -1132,6 +1140,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1252,6 +1261,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -1311,11 +1322,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,6 +1465,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1661,6 +1677,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 170c3816b1 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -2060,6 +2077,10 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> db147411fe (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 09b5ece2f7 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

@@ -142,6 +142,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -346,9 +347,12 @@
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1107,6 +1111,10 @@
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 =======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
@@ -1581,7 +1589,13 @@
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
  *
  * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************
@@ -2134,6 +2148,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
@@ -2486,7 +2501,11 @@
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -2792,6 +2811,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3025,6 +3045,8 @@
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -3870,7 +3892,12 @@
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
  */
 
 #include <stdio.h>
@@ -3905,7 +3932,6 @@ extern "C" {
 
 /************************************************************************/
 /*                        Configuration options.                        */
-
 /************************************************************************/
 
 /* -------------------------------------------------------------------- */
@@ -4135,7 +4161,6 @@ void SHPAPI_CALL SASetupUtf8Hooks(SAHooks *psHooks);
 
 /************************************************************************/
 /*                             SHP Support.                             */
-
 /************************************************************************/
 typedef struct tagSHPObject SHPObject;
 
@@ -4416,6 +4441,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4747,6 +4773,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4884,6 +4912,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4954,6 +4984,9 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5407,12 +5440,16 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -5983,11 +6020,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SHPCreateObject(int nSHPType, int nShapeId, int nParts,
                     const int *panPartStart, const int *panPartType,
                     int nVertices, const double *padfX, const double *padfY,
                     const double *padfZ, const double *padfM);
 SHPObject SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6532,6 +6572,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -6609,7 +6651,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -7827,6 +7874,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 >>>>>>> osgeo-main
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
@@ -8553,6 +8601,9 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -8659,6 +8710,7 @@ typedef struct {
 } SHPTree;
 
 SHPTree SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9287,6 +9339,8 @@ SHPTree SHPAPI_CALL1(*)
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   const double *padfBoundsMin, const double *padfBoundsMax);
 >>>>>>> osgeo-main
@@ -11336,6 +11390,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   double *padfBoundsMin, double *padfBoundsMax);
 void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
@@ -12781,6 +12837,8 @@ int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   double *padfBoundsMin, double *padfBoundsMax);
 void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
@@ -12793,16 +12851,13 @@ int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
 void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
 
 int SHPAPI_CALL1(*)
-
     SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
                             double *padfBoundsMax, int *);
 int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
                                       int);
 
-int SHPAPI_CALL1(*)
-
-    SHPSearchDiskTree(FILE *fp, double *padfBoundsMin, double *padfBoundsMax,
-                      int *pnShapeCount);
+int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
+                                      double *padfBoundsMax, int *pnShapeCount);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12845,6 +12900,7 @@ SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
 void SHPAPI_CALL SHPCloseDiskTree(SHPTreeDiskHandle hDiskTree);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12908,6 +12964,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 
@@ -12965,6 +13023,7 @@ SBNSearchHandle SHPAPI_CALL SBNOpenDiskTree(const char *pszSBNFilename,
 void SHPAPI_CALL SBNCloseDiskTree(SBNSearchHandle hSBN);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13508,6 +13567,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SBNSearchDiskTree(const SBNSearchHandle hSBN, const double *padfBoundsMin,
                       const double *padfBoundsMax, int *pnShapeCount);
 
@@ -13652,6 +13713,7 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13857,11 +13919,16 @@ int SHPAPI_CALL1(*)
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14066,6 +14133,8 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 
@@ -14269,12 +14338,16 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -14835,10 +14908,13 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SBNSearchDiskTree(SBNSearchHandle hSBN, double *padfBoundsMin,
                       double *padfBoundsMax, int *pnShapeCount);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15618,6 +15694,10 @@ int SHPAPI_CALL1(*)
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
                              int bMaxX, int bMaxY, int *pnShapeCount);
@@ -17347,7 +17427,6 @@ void SHPAPI_CALL SBNSearchFreeIds(int *panShapeId);
 
 /************************************************************************/
 /*                             DBF Support.                             */
-
 /************************************************************************/
 typedef struct {
     SAHooks sHooks;
@@ -17407,6 +17486,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17752,6 +17832,8 @@ typedef struct {
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
@@ -17894,12 +17976,16 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -18285,10 +18371,13 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     int nRecordLength; /* Must fit on uint16 */
     int nHeaderLength; /* File header length (32) + field
                           descriptor length + spare space.
                           Must fit on uint16 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18337,6 +18426,8 @@ typedef struct {
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
@@ -18824,6 +18915,8 @@ typedef struct {
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
     int nRecordLength;
     int nHeaderLength;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -18971,6 +19064,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -19061,6 +19155,8 @@ typedef struct {
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -19738,7 +19834,12 @@ typedef struct {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     int nFields;
     int *panFieldOffset;
     int *panFieldSize;
@@ -19878,6 +19979,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20090,6 +20192,8 @@ typedef struct {
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -20117,6 +20221,7 @@ typedef struct {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20547,6 +20652,10 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     char *pszHeader; /* Field descriptors */
 =======
 <<<<<<< HEAD
@@ -20699,6 +20808,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -20746,6 +20856,8 @@ typedef struct {
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -21231,6 +21343,7 @@ typedef struct {
     char *pszHeader;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
@@ -21808,6 +21921,10 @@ typedef struct {
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
     int nCurrentRecord;
     int bCurrentRecordModified;
@@ -21881,6 +21998,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22254,6 +22372,8 @@ typedef struct {
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
@@ -22488,12 +22608,16 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -23006,6 +23130,8 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
     int bWriteEndOfFileChar; /* defaults to TRUE */
 
@@ -23081,15 +23207,19 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
@@ -23341,9 +23471,14 @@ typedef struct {
 >>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23387,6 +23522,8 @@ typedef struct {
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -23756,12 +23893,16 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
@@ -24398,6 +24539,8 @@ typedef struct {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 } DBFInfo;
 
 typedef DBFInfo *DBFHandle;
@@ -24540,6 +24683,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24815,6 +24959,8 @@ typedef enum {
 =======
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -24864,6 +25010,7 @@ typedef enum {
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25348,6 +25495,10 @@ typedef enum {
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     FTDate,
     FTInvalid
 } DBFFieldType;
@@ -27976,6 +28127,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
     FTDate,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
     FTInvalid
 } DBFFieldType;
 
@@ -28051,6 +28203,11 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 } DBFFieldType;
 
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
+    FTInvalid
+} DBFFieldType;
+
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 /* Field descriptor/header size */
 #define XBASE_FLDHDR_SZ         32
 /* Shapelib read up to 11 characters, even if only 10 should normally be used */
@@ -28060,6 +28217,7 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 /* Normally only 254 characters should be used. We tolerate 255 historically */
 #define XBASE_FLD_MAX_WIDTH     255
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -28067,6 +28225,8 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszDBFFile, const char *pszAccess);
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszDBFFile, const char *pszAccess,
@@ -29301,6 +29461,8 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+
+void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 
 #ifdef __cplusplus
 }

@@ -128,6 +128,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -374,6 +375,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -404,6 +407,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -771,6 +775,10 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     if (enc) {
         G_freea(enc);
     }
@@ -997,6 +1005,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1040,6 +1049,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 =======
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1624,6 +1635,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2529,6 +2541,14 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2012d6da25 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (enc) {
+        G_freea(enc);
+    }
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 
     if (conv != (iconv_t)-1)
         iconv_close(conv);

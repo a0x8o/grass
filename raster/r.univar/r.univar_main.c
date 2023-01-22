@@ -4003,6 +4003,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
@@ -4545,6 +4546,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     zone_info.min = 0;
     zone_info.max = 0;
 <<<<<<< HEAD
@@ -4566,7 +4569,14 @@ int main(int argc, char *argv[])
     zone_info.min = 0.0 / 0.0; /* set to nan as default */
     zone_info.max = 0.0 / 0.0; /* set to nan as default */
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    zone_info.min = 0;
+    zone_info.max = 0;
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
     zone_info.n_zones = 0;
 
     fdz = NULL;

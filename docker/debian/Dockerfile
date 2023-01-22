@@ -29204,6 +29204,7 @@ RUN pip3 install grass-session --break-system-packages
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 RUN pip3 install grass-session
 
+<<<<<<< HEAD
 # install GRASS GIS extensions
 RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 <<<<<<< HEAD
@@ -29236,6 +29237,7 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29805,7 +29807,13 @@ RUN grass --tmp-location EPSG:4326 --exec g.extension extension=r.in.pdal
 =======
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+>>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 # add GRASS GIS envs for python usage
 ENV GISBASE "/usr/local/grass/"
 ENV GRASSBIN "/usr/local/bin/grass"
@@ -32187,10 +32195,13 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD
@@ -32557,6 +32568,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 =======
@@ -32571,6 +32583,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -s
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 
 WORKDIR /grassdb
 VOLUME /grassdb
