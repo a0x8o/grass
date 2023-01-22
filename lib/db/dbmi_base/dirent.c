@@ -152,6 +152,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
@@ -262,6 +263,10 @@
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
@@ -1359,6 +1364,7 @@ extern dir_entry *readdir();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
@@ -1425,6 +1431,8 @@ extern dir_entry *readdir();
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2102,6 +2110,7 @@ extern dir_entry *readdir();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 286cd56e73 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2468,6 +2477,10 @@ extern dir_entry *readdir();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 static int cmp_dirent(const void *, const void *);
 static int get_perm(char *);
 static void sort_dirent(dbDirent *, int);
@@ -2642,6 +2655,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2841,6 +2855,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3961,6 +3977,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
@@ -3997,6 +4014,10 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
     db_dirent = db_alloc_dirent_array(count);
     if (db_dirent == NULL) {
 =======
@@ -4036,6 +4057,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
@@ -4043,6 +4065,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
@@ -4074,6 +4098,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
@@ -4103,9 +4128,12 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
     db_dirent = db_alloc_dirent_array(count);
     if (db_dirent == NULL) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4129,6 +4157,8 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> ca99b767dd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
@@ -4352,6 +4382,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
@@ -4958,6 +4989,10 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
         closedir(dp);
         return (dbDirent *)NULL;
     }
@@ -5132,6 +5167,9 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5767,6 +5805,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -6228,6 +6267,10 @@ dbDirent *db_dirent(const char *dirname, int *n)
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
         if (DB_OK != db_set_string(&db_dirent[i].name, entry->d_name))
             break;
         sprintf(path, "%s/%s", dirname, entry->d_name);
@@ -7693,6 +7736,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
@@ -7758,11 +7802,14 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
         if (DB_OK != db_set_string(&db_dirent[i].name, entry->d_name))
             break;
         sprintf(path, "%s/%s", dirname, entry->d_name);
         db_dirent[i].perm = get_perm(path);
         db_dirent[i].isdir = (db_isdir(path) == DB_OK);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9629,6 +9676,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c1f363e78b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10118,6 +10166,11 @@ dbDirent *db_dirent(const char *dirname, int *n)
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
     }
     closedir(dp);
     db_free(path);
@@ -10159,6 +10212,7 @@ dbDirent *db_dirent(const char *dirname, int *n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -13533,6 +13587,8 @@ void db_free_dirent_array(dbDirent *db_dirent, int count)
 >>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
    \param db_dirent pointer to dbDirent
    \param count number of entities in the array
  */
@@ -13608,14 +13664,18 @@ void db_free_dirent_array(dbDirent *db_dirent, int count)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
    \param dirent pointer to dbDirent
+=======
+   \param db_dirent pointer to dbDirent
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
    \param count number of entities in the array
  */
-void db_free_dirent_array(dbDirent *dirent, int count)
+void db_free_dirent_array(dbDirent *db_dirent, int count)
 {
     int i;
 
-    if (dirent) {
+    if (db_dirent) {
         for (i = 0; i < count; i++)
+<<<<<<< HEAD
             db_free_string(&dirent[i].name);
         db_free(dirent);
 <<<<<<< HEAD
@@ -13628,8 +13688,18 @@ void db_free_dirent_array(dbDirent *dirent, int count)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            db_free_string(&db_dirent[i].name);
+        db_free(db_dirent);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
     }
 }
 
@@ -13841,6 +13911,7 @@ dbDirent *db_alloc_dirent_array(int count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14080,6 +14151,8 @@ dbDirent *db_alloc_dirent_array(int count)
 >>>>>>> 9022f5ed1b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
@@ -15838,6 +15911,8 @@ dbDirent *db_alloc_dirent_array(int count)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
     db_dirent = (dbDirent *)db_calloc(count, sizeof(dbDirent));
     if (db_dirent == NULL)
         return db_dirent;
@@ -15869,15 +15944,19 @@ dbDirent *db_alloc_dirent_array(int count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
     db_dirent = (dbDirent *)db_calloc(count, sizeof(dbDirent));
     if (db_dirent == NULL)
         return db_dirent;
 
     for (i = 0; i < count; i++)
         db_init_string(&db_dirent[i].name);
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17230,6 +17309,13 @@ dbDirent *db_alloc_dirent_array(int count)
 =======
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+>>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
     return db_dirent;
 }
