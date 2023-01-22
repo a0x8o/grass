@@ -936,6 +936,10 @@ void gsd_fringe_horiz_line2(float bot, geosurf *surf, int row, int side)
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1341,6 +1345,8 @@ void gsd_fringe_horiz_line2(float bot, geosurf *surf, int row, int side)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
         cnt++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -1379,6 +1385,7 @@ void gsd_fringe_horiz_line2(float bot, geosurf *surf, int row, int side)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -1387,6 +1394,8 @@ void gsd_fringe_horiz_line2(float bot, geosurf *surf, int row, int side)
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -2261,8 +2270,18 @@ void gsd_fringe_horiz_line2(float bot, geosurf *surf, int row, int side)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     }
 
     col--;

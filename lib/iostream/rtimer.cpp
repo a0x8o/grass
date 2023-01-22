@@ -390,6 +390,10 @@
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1156,8 +1160,16 @@
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 #include <grass/iostream/rtimer.h>
 
 #define BUFMAX 256
@@ -2160,12 +2172,17 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 #include <grass/iostream/rtimer.h>
 
@@ -2174,6 +2191,9 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 char *rt_sprint_safe(char *buf, Rtimer rt)
 {
     if (rt_w_useconds(rt) == 0) {
@@ -2804,16 +2824,28 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 char *rt_sprint_safe(char *buf, Rtimer rt)
 {
     if (rt_w_useconds(rt) == 0) {
-        sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]", 0.0, 0.0,
-                0.0, 0.0, 0.0, 0.0);
+        snprintf(buf, BUFMAX, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]",
+                 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
     }
     else {
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         sprintf(buf, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]",
                 rt_u_useconds(rt) / 1000000,
                 100.0 * rt_u_useconds(rt) / rt_w_useconds(rt),
@@ -3374,6 +3406,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3515,6 +3548,10 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3663,6 +3700,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
@@ -3757,6 +3795,8 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3802,6 +3842,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
@@ -4069,6 +4110,11 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(buf, BUFMAX, "[%4.2fu (%.0f%%) %4.2fs (%.0f%%) %4.2f %.1f%%]",
                  rt_u_useconds(rt) / 1000000,
                  100.0 * rt_u_useconds(rt) / rt_w_useconds(rt),
@@ -4077,6 +4123,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
                  rt_w_useconds(rt) / 1000000,
                  100.0 * (rt_u_useconds(rt) + rt_s_useconds(rt)) /
                      rt_w_useconds(rt));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4285,6 +4332,8 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -4294,6 +4343,7 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
@@ -4441,6 +4491,10 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -4787,14 +4841,19 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5349,6 +5408,9 @@ char *rt_sprint_safe(char *buf, Rtimer rt)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     }
     return buf;
 }

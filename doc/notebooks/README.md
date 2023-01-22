@@ -145,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -405,6 +406,8 @@
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -414,6 +417,7 @@
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -432,6 +436,8 @@
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1014,8 +1020,16 @@
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
@@ -1614,7 +1628,10 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1673,6 +1690,7 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1690,14 +1708,23 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2747,8 +2774,17 @@ the `*.ipynb` files with:
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 `jupyter notebook`
 
 This will open a new browser tab or window with a list of the contents of the current
@@ -3169,6 +3205,10 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -3574,6 +3614,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -3612,6 +3654,7 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3620,6 +3663,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4494,5 +4539,15 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))

@@ -251,6 +251,7 @@ void alloc_edges(unsigned int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -480,6 +481,11 @@ void free_memory(void)
 void free_memory(void)
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+void free_memory(void)
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 void free_memory(void)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1722,15 +1728,29 @@ void free_memory(void)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 void free_memory(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 void free_memory()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+void free_memory(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 {
     G_free(sites);
     G_free(edges);

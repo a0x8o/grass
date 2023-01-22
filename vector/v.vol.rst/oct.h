@@ -419,6 +419,10 @@ struct octfunc {
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -1002,8 +1006,18 @@ struct octfunc {
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     int (*compare)(struct quadruple *, struct octdata *);
     struct octdata **(*divide_data)(struct octdata *);
     int (*add_data)(struct quadruple *, struct octdata *);
@@ -1012,6 +1026,7 @@ struct octfunc {
     int (*division_check)(struct octdata *);
     int (*get_points)(struct quadruple *, struct octdata *, double, double,
                       double, double, double, double, int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1169,8 @@ struct octfunc {
 =======
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
@@ -1294,6 +1311,8 @@ struct octtree {
 <<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,6 +1321,7 @@ struct octtree {
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     int (*compare)();
     VOID_T **(*divide_data)();
@@ -2245,6 +2265,11 @@ struct octtree {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 };
 
 struct octtree {
@@ -3766,9 +3791,24 @@ struct octtree {
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+};
+
+struct octtree {
+    struct octdata *data;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     struct octtree **leafs;
     struct octtree *parent;
     struct octfunc *functions;

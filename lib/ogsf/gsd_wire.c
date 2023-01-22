@@ -444,9 +444,12 @@ int gsd_wire_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
@@ -1309,8 +1312,16 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 int gsd_wire_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
@@ -1569,6 +1580,7 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1623,6 +1635,8 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 =======
@@ -2212,6 +2226,7 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -2732,6 +2747,13 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 {
     return (1);
 }

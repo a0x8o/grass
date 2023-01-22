@@ -148,6 +148,7 @@ static unsigned int s, h, sbuf[256];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -376,6 +377,8 @@ static unsigned int s, h, sbuf[256];
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -447,11 +450,39 @@ static unsigned int s, h, sbuf[256];
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 double unfl(void)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+double unfl()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+double unfl(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+double unfl()
+=======
+double unfl(void)
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+double unfl()
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+double unfl()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+double unfl(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2218,8 +2249,16 @@ double unfl(void)
 double unfl()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 {
     int i;
 

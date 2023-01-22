@@ -167,6 +167,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -595,8 +596,12 @@ public:
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
     static cclabel_type getLabelCount() { return label + 1; }
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1719,6 +1724,8 @@ public:
 =======
 =======
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
     static cclabel_type getLabelCount() { return label + 1; }
 =======
@@ -2533,6 +2540,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2553,6 +2561,8 @@ public:
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3324,8 +3334,16 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     static void setLabelCount(int n) { label = n - 1; }
     static void reset() { label = getLabelInit(); }
 };

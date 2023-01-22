@@ -157,6 +157,7 @@ struct aq {                     /* age queue */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -385,6 +386,8 @@ struct aq {                     /* age queue */
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -456,11 +459,39 @@ struct aq {                     /* age queue */
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 typedef struct SEGMENT {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+typedef struct {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+typedef struct SEGMENT {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+typedef struct {
+=======
+typedef struct SEGMENT {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+typedef struct {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+typedef struct {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+typedef struct SEGMENT {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2227,8 +2258,16 @@ typedef struct SEGMENT {
 typedef struct {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     int open;      /* open flag */
     off_t nrows;   /* rows in original data */
     off_t ncols;   /* cols in original data */
@@ -2389,6 +2428,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2617,6 +2657,8 @@ typedef struct {
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2693,12 +2735,16 @@ typedef struct {
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -3110,6 +3156,8 @@ typedef struct {
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     int (*address)(const struct SEGMENT *, off_t, off_t, int *, int *);
     int (*seek)(const struct SEGMENT *S, int, int);
 =======
@@ -3628,6 +3676,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -3726,6 +3775,8 @@ typedef struct {
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4417,6 +4468,8 @@ typedef struct {
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
     int (*address)();
     int (*seek)();
 =======
@@ -4496,8 +4549,16 @@ typedef struct {
     int (*seek)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
     char *fname; /* segment file name */
     int fd;      /* file descriptor to read/write segment */

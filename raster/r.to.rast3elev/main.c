@@ -193,6 +193,7 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -421,6 +422,8 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -492,11 +495,39 @@ void fatal_error(Database db, char *errorMsg); /*Simple Error message */
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 void set_params(void);                         /*Fill the paramType structure */
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+void set_params();                             /*Fill the paramType structure */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+void set_params(void);                         /*Fill the paramType structure */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+void set_params();                             /*Fill the paramType structure */
+=======
+void set_params(void);                         /*Fill the paramType structure */
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+void set_params();                             /*Fill the paramType structure */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+void set_params();                             /*Fill the paramType structure */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+void set_params(void);                         /*Fill the paramType structure */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2263,8 +2294,16 @@ void set_params(void);                         /*Fill the paramType structure */
 void set_params();                             /*Fill the paramType structure */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 void elev_raster_to_g3d(Database db,
                         RASTER3D_Region region); /*Write the raster */
 int open_input_raster_map(const char *name);     /*opens the outputmap */

@@ -71322,6 +71322,10 @@ int main(int argc, char *argv[])
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -71903,8 +71907,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(title, sizeof(title),
              "Raw X,Y,Z data binned into a raster grid by cell %s",
              method_opt->answer);
@@ -71912,6 +71926,12 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72627,6 +72647,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -72726,6 +72747,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72822,6 +72845,8 @@ int main(int argc, char *argv[])
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
     sprintf(title, "Raw X,Y,Z data binned into a raster grid by cell %s",
             method_opt->answer);
@@ -73466,8 +73491,16 @@ int main(int argc, char *argv[])
             method_opt->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     Rast_put_cell_title(outmap, title);
 
     Rast_short_history(outmap, "raster", &history);
@@ -73687,6 +73720,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -73984,6 +74018,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -74063,6 +74099,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -74791,8 +74829,18 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(buff, BUFFSIZE,
                  _("Raster map <%s> created."
                    " " GPOINT_COUNT_FORMAT
@@ -74801,6 +74849,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75033,13 +75086,22 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     }
     else {
         snprintf(buff, BUFFSIZE,
@@ -76969,6 +77031,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -78398,6 +78461,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
 =======
         snprintf(buff, BUFFSIZE,
                  _("Raster map <%s> created."
@@ -78405,6 +78470,7 @@ int main(int argc, char *argv[])
                    " points from %d files found in region."),
                  outmap, grass_filter.num_passed(), infiles.num_items);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -78417,12 +78483,17 @@ int main(int argc, char *argv[])
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     }
     else {
         snprintf(buff, BUFFSIZE,
                  _("Raster map <%s> created."
                    " " GPOINT_COUNT_FORMAT " points found in region."),
                  outmap, grass_filter.num_passed());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78478,6 +78549,8 @@ int main(int argc, char *argv[])
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
 =======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -78555,8 +78628,17 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     }
 
     G_done_msg("%s", buff);

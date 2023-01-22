@@ -148,6 +148,7 @@ void calculate_atanb(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -316,6 +317,8 @@ void calculate_atanb(void)
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -332,12 +335,16 @@ void calculate_atanb(void)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -506,6 +513,8 @@ void calculate_atanb(void)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     for (; natb < ncells;) {
 =======
 <<<<<<< HEAD
@@ -596,6 +605,7 @@ void calculate_atanb(void)
 =======
     for (; natb < ncells;) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +773,8 @@ void calculate_atanb(void)
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
     for (iter = 1; natb < ncells; iter++) {
 =======
@@ -1900,8 +1912,16 @@ void calculate_atanb(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         /*
            for(i=0;i<80;i++)
            fprintf(stderr,"\b");

@@ -308,6 +308,7 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -536,6 +537,8 @@ char *MEM_STREAM<T>::sprint()
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -607,11 +610,39 @@ char *MEM_STREAM<T>::sprint()
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, "[MEM_STREAM %d]", stream_len());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2378,8 +2409,16 @@ char *MEM_STREAM<T>::sprint()
     sprintf(buf, "[MEM_STREAM %d]", stream_len());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     return buf;
 }
 

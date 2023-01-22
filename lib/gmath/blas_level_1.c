@@ -472,6 +472,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -588,12 +589,16 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -664,8 +669,16 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s)
     for (i = 0; i < rows; i++) {
         s += fabs(x[i]);
@@ -2049,6 +2062,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -2095,6 +2109,12 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s)
@@ -3672,8 +3692,20 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
         count++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+#pragma omp parallel for schedule(static) private(i) reduction(+ : s)
+    for (i = 0; i < rows; i++) {
+        s += fabs(x[i]);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     }
 #pragma omp single
     {

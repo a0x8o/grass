@@ -197,6 +197,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -426,6 +427,11 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
     int merged = 0;
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+    int merged = 0;
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
     int merged = 0;
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1668,15 +1674,29 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
     int merged = 0;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     int merged = 0, newl = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    int merged = 0;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     int next_node, direction, node_n_lines, type, ltype, lines_type;
     static struct ilist *List = NULL;
     static struct line_pnts *Points = NULL;

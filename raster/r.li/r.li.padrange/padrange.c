@@ -984,6 +984,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1212,6 +1213,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1283,11 +1286,39 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     long npatch;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    long npatch, area;
+=======
+    long npatch;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    long npatch, area;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3054,8 +3085,16 @@ int calculate(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -3558,6 +3597,10 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -5682,6 +5725,10 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_c_null_value(&supCell, 1);
@@ -7859,6 +7906,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8087,6 +8135,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -8163,12 +8213,16 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -8580,6 +8634,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         min = INFINITY;
         max = -INFINITY;
 =======
@@ -9098,6 +9154,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -9196,6 +9253,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -9887,6 +9946,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         min = 1.0 / 0.0;  /* inf */
         max = -1.0 / 0.0; /* -inf */
 =======
@@ -9966,8 +10027,16 @@ int calculate(int fd, struct area_entry *ad, double *result)
         max = -1.0 / 0.0; /* -inf */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         for (old_pid = 1; old_pid <= pid; old_pid++) {
             if (pst[old_pid].count > 0) {
                 area_p = cell_size_m * pst[old_pid].count / 10000;
@@ -10140,6 +10209,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10368,6 +10438,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10439,11 +10511,39 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     long npatch;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    long npatch, area;
+=======
+    long npatch;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    long npatch, area;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12210,8 +12310,16 @@ int calculateD(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -12714,6 +12822,10 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -14838,6 +14950,10 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_d_null_value(&supCell, 1);
@@ -17015,6 +17131,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17243,6 +17360,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -17319,12 +17438,16 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -17736,6 +17859,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         min = INFINITY;
         max = -INFINITY;
 =======
@@ -18254,6 +18379,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -18352,6 +18478,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -19043,6 +19171,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         min = 1.0 / 0.0;  /* inf */
         max = -1.0 / 0.0; /* -inf */
 =======
@@ -19122,8 +19252,16 @@ int calculateD(int fd, struct area_entry *ad, double *result)
         max = -1.0 / 0.0; /* -inf */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         for (old_pid = 1; old_pid <= pid; old_pid++) {
             if (pst[old_pid].count > 0) {
                 area_p = cell_size_m * pst[old_pid].count / 10000;
@@ -19296,6 +19434,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19524,6 +19663,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -19595,11 +19736,39 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     long npatch;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    long npatch, area;
+=======
+    long npatch;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    long npatch, area;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch, area;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    long npatch;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21366,8 +21535,16 @@ int calculateF(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -21870,6 +22047,10 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -23994,6 +24175,10 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_f_null_value(&supCell, 1);
@@ -26171,6 +26356,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26399,6 +26585,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -26475,12 +26663,16 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -26892,6 +27084,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         min = INFINITY;
         max = -INFINITY;
 =======
@@ -27410,6 +27604,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -27508,6 +27703,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -28199,6 +28396,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         min = 1.0 / 0.0;  /* inf */
         max = -1.0 / 0.0; /* -inf */
 =======
@@ -28278,8 +28477,16 @@ int calculateF(int fd, struct area_entry *ad, double *result)
         max = -1.0 / 0.0; /* -inf */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         for (old_pid = 1; old_pid <= pid; old_pid++) {
             if (pst[old_pid].count > 0) {
                 area_p = cell_size_m * pst[old_pid].count / 10000;

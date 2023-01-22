@@ -143,6 +143,7 @@ PGM = r.mfilter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -177,6 +178,10 @@ PGM = r.mfilter
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
@@ -1035,8 +1040,16 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -1543,8 +1556,11 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,15 +1580,43 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
->>>>>>> osgeo-main
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
 LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OMPLIB)
 DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
+=======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+LIBES = $(ROWIOLIB) $(RASTERLIB) $(GISLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
+DEPENDENCIES = $(ROWIODEP) $(RASTERDEP) $(GISDEP)
+EXTRA_CFLAGS = $(OPENMP_CFLAGS)
+EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
@@ -1592,7 +1636,13 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 =======
@@ -1774,6 +1824,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -3068,6 +3119,11 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

@@ -204,6 +204,7 @@ const char *G_database_unit_name(int plural)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -433,6 +434,11 @@ int G_database_unit(void)
 int G_database_unit(void)
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
+=======
+int G_database_unit(void)
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 int G_database_unit(void)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1675,15 +1681,29 @@ int G_database_unit(void)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 int G_database_unit(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int G_database_unit()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+int G_database_unit(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 {
     int units;
     const char *name;

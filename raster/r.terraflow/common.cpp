@@ -234,6 +234,7 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -462,6 +463,8 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -538,12 +541,16 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -955,6 +962,8 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(buf, BUFSIZ, "allocated large memory: %s 0x%lX",
                  formatNumber(buf2, leng), (unsigned long)p);
 =======
@@ -1473,6 +1482,7 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1571,6 +1581,8 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2262,6 +2274,8 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         sprintf(buf, "allocated large memory: %s 0x%lX",
                 formatNumber(buf2, leng), (unsigned long)p);
 =======
@@ -2341,8 +2355,16 @@ void *LargeMemory::alloc(size_t leng)
                 formatNumber(buf2, leng), (unsigned long)p);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         stats->comment(buf);
     }
     return p;
@@ -2510,6 +2532,7 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2738,6 +2761,8 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2814,12 +2839,16 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -3231,6 +3260,8 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(buf, BUFSIZ, "freed large memory: %s 0x%lX",
                  formatNumber(buf2, len[i]), (unsigned long)p);
 =======
@@ -3749,6 +3780,7 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -3847,6 +3879,8 @@ void LargeMemory::free(void *p)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4538,6 +4572,8 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         sprintf(buf, "freed large memory: %s 0x%lX", formatNumber(buf2, len[i]),
                 (unsigned long)p);
 =======
@@ -4617,8 +4653,16 @@ void LargeMemory::free(void *p)
                 (unsigned long)p);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         stats->comment(buf);
     }
 

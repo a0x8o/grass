@@ -3087,6 +3087,10 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -3492,6 +3496,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
         points_in_box++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
@@ -3530,6 +3536,7 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3538,6 +3545,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4412,8 +4421,18 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
         G_debug(3, "P_Sparse_Raster_Points: interpolate point %d...", i);
         if (bilin)

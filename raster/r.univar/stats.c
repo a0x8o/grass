@@ -172,6 +172,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -400,6 +401,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -476,12 +479,16 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -893,6 +900,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -1411,6 +1420,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1509,6 +1519,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2200,6 +2212,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         stats[i].min = 0.0 / 0.0; /* set to nan as default */
         stats[i].max = 0.0 / 0.0; /* set to nan as default */
 =======
@@ -2279,8 +2293,16 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
         stats[i].max = 0.0 / 0.0; /* set to nan as default */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -5375,6 +5397,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
@@ -5392,11 +5415,19 @@ int print_stats(univar_stat *stats)
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         sprintf(sum_str, "%.15g", stats[z].sum);
         G_trim_decimal(sum_str);
 
@@ -6565,10 +6596,13 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -6578,11 +6612,15 @@ int print_stats(univar_stat *stats)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -6680,6 +6718,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
@@ -12519,6 +12559,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12747,6 +12788,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -12818,11 +12861,39 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14589,8 +14660,16 @@ int print_stats_table(univar_stat *stats)
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -14779,6 +14858,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15039,6 +15119,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15052,6 +15134,7 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -15070,6 +15153,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15648,8 +15733,16 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -16567,6 +16660,9 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16646,6 +16742,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -16660,14 +16757,23 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17701,8 +17807,17 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {

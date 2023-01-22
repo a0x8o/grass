@@ -121,6 +121,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -285,6 +286,8 @@ int I_cluster_distinct(struct Cluster *, double);
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -337,7 +340,14 @@ int I_cluster_distinct(struct Cluster *, double);
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+int I_cluster_exec(struct Cluster *, int, int, double, double, int,
+                   int (*)(struct Cluster *, int), int *);
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -1003,6 +1013,8 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 =======
@@ -1991,9 +2003,22 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+int I_cluster_exec(struct Cluster *, int, int, double, double, int,
+                   int (*)(struct Cluster *, int), int *);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 /* c_execmem.c */
 int I_cluster_exec_allocate(struct Cluster *);
 int I_cluster_exec_free(struct Cluster *);

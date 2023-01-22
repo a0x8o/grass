@@ -104,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 void list_elements(void);
@@ -705,6 +706,10 @@ int check_element(const char *);
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 void list_elements(void);
 int check_element(const char *);
 =======
@@ -758,12 +763,21 @@ int check_element(const char *);
 <<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 void list_elements(void);
 /* int check_element(const char *); */
 =======
 void list_elements();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +983,8 @@ void list_elements();
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1094,6 +1110,8 @@ void list_elements(void);
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
 void list_elements(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -1182,6 +1200,9 @@ void list_elements(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1225,6 +1246,7 @@ void list_elements(void);
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
@@ -1512,6 +1534,11 @@ void list_elements(void);
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 int check_element(const char *);
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

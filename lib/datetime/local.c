@@ -340,6 +340,10 @@
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 =======
@@ -499,6 +503,8 @@
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 extern struct tm *localtime();
 extern struct tm *gmtime();
@@ -1206,6 +1212,7 @@ extern struct tm *gmtime();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1216,6 +1223,8 @@ extern struct tm *gmtime();
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 extern struct tm *localtime();
 extern struct tm *gmtime();
@@ -1365,6 +1374,7 @@ extern struct tm *gmtime();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -1905,6 +1915,13 @@ extern struct tm *gmtime();
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 /*
  ** NOTE:  the extern variable "timezone" seems to be treated
  ** differently by different OS, and the tm_zone element of struct tm

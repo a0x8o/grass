@@ -304,6 +304,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -564,6 +565,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -573,6 +576,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -591,6 +595,8 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1173,8 +1179,16 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -1773,7 +1787,10 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1832,6 +1849,7 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1849,14 +1867,23 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2906,8 +2933,17 @@ em_pqueue<T, Key>::em_pqueue(long pq_sz, long buf_sz, unsigned short nb_buf,
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
 
     // allocate ext memory buffers array
@@ -4430,6 +4466,7 @@ em_pqueue<T, Key>::em_pqueue()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4690,6 +4727,8 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4699,6 +4738,7 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -4717,6 +4757,8 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5299,8 +5341,16 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -5899,7 +5949,10 @@ em_pqueue<T, Key>::em_pqueue()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5958,6 +6011,7 @@ em_pqueue<T, Key>::em_pqueue()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -5975,14 +6029,23 @@ em_pqueue<T, Key>::em_pqueue()
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7032,8 +7095,17 @@ em_pqueue<T, Key>::em_pqueue()
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     // allocate ext memory buffers array
     buff = new em_buffer<T, Key> *[max_nbuf];
@@ -7301,6 +7373,7 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7561,6 +7634,8 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7570,6 +7645,7 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -7588,6 +7664,8 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8170,8 +8248,16 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
@@ -8770,7 +8856,10 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8829,6 +8918,7 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -8846,14 +8936,23 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     snprintf(str, sizeof(str),
              "em_pqueue: allocating array of %ld buff pointers\n",
              (long)max_nbuf);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9903,8 +10002,17 @@ em_pqueue<T, Key>::em_pqueue(MinMaxHeap<T> *im, AMI_STREAM<T> *amis)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     MEMORY_LOG(str);
     buff = new em_buffer<T, Key> *[max_nbuf];
     assert(buff);
@@ -10193,6 +10301,7 @@ bool em_pqueue<T, Key>::fillpq()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10453,6 +10562,8 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10462,6 +10573,7 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -10480,6 +10592,8 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -11062,8 +11176,16 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "em_pqueue::fillpq: allocate array of %hd AMI_STREAMs\n",
                  crt_buf);
@@ -11662,7 +11784,10 @@ bool em_pqueue<T, Key>::fillpq()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11721,6 +11846,7 @@ bool em_pqueue<T, Key>::fillpq()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -11738,14 +11864,23 @@ bool em_pqueue<T, Key>::fillpq()
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "em_pqueue::fillpq: allocate array of %hd AMI_STREAMs\n",
                  crt_buf);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12795,8 +12930,17 @@ bool em_pqueue<T, Key>::fillpq()
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         MEMORY_LOG(str);
     }
     // merge pqsize smallest elements from each buffer into a new stream
@@ -13520,6 +13664,7 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13748,6 +13893,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -13824,12 +13971,16 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
@@ -14241,6 +14392,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n", i);
 =======
@@ -14759,6 +14912,7 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -14857,6 +15011,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -15548,6 +15704,8 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
         sprintf(str, "em_pqueue::empty_buff( %hd ) allocate new em_buffer\n",
                 i);
 =======
@@ -15627,8 +15785,16 @@ void em_pqueue<T, Key>::empty_buff(unsigned short i)
                 i);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
         MEMORY_LOG(str);
         buff[i + 1] = new em_buffer<T, Key>(i + 2, bufsize, buf_arity);
     }

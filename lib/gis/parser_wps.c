@@ -278,6 +278,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -558,6 +559,8 @@ void G__wps_print_process_description(void)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -1638,6 +1641,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
@@ -1693,6 +1697,8 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -1707,6 +1713,8 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -2044,6 +2052,7 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -2551,6 +2560,14 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
                     }
                     /* Modules may have different types of space time datasets
                      * as inputs */
@@ -2566,6 +2583,7 @@ void G__wps_print_process_description(void)
                     }
                     if (strcmp(token, "stvds") == 0) {
                         data_type = TYPE_STVDS;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2851,6 +2869,8 @@ void G__wps_print_process_description(void)
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -3931,6 +3951,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
@@ -3986,6 +4007,8 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -4000,6 +4023,8 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -4337,6 +4362,7 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -4844,6 +4870,14 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
                     }
                     if (strcmp(token, "file") == 0) {
                         data_type = TYPE_PLAIN_TEXT;

@@ -284,6 +284,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -471,6 +472,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -748,6 +751,10 @@ int main(int argc, char *argv[])
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
 =======
@@ -1099,6 +1106,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1231,6 +1239,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -1298,9 +1308,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
     while (Vect_read_next_line(&In, points, Cats) > 0)
         ;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,6 +1394,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -1515,6 +1532,7 @@ int main(int argc, char *argv[])
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1598,6 +1616,10 @@ int main(int argc, char *argv[])
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     while (Vect_read_next_line(&In, points, Cats) > 0) {
         nlines++;
     }
@@ -1654,6 +1676,7 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -2229,6 +2252,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     Vect_rewind(&In);
 
     /* no topology, get number of lines in first pulse input vector */
@@ -2342,6 +2373,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -2529,6 +2561,8 @@ int main(int argc, char *argv[])
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2806,6 +2840,10 @@ int main(int argc, char *argv[])
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
 =======
@@ -3157,6 +3195,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -3289,6 +3328,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -3356,9 +3397,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0)
         ;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,6 +3483,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -3573,6 +3621,7 @@ int main(int argc, char *argv[])
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -3656,6 +3705,10 @@ int main(int argc, char *argv[])
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     while (Vect_read_next_line(&First, points_first, Cats_first) > 0) {
         nlines_first++;
     }
@@ -3712,6 +3765,7 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -4287,6 +4341,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     Vect_rewind(&First);
 
     /* Setting regions and boxes */

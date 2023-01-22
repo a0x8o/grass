@@ -173,6 +173,7 @@ char *labelElevType::printLabel(const labelElevType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -401,6 +402,8 @@ char *labelElevType::printLabel(const labelElevType &p)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -472,11 +475,39 @@ char *labelElevType::printLabel(const labelElevType &p)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2243,8 +2274,16 @@ char *labelElevType::printLabel(const labelElevType &p)
     sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     return buf;
 }
 
@@ -2528,6 +2567,7 @@ char *waterType::printLabel(const waterType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2756,6 +2796,8 @@ char *waterType::printLabel(const waterType &p)
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2827,11 +2869,39 @@ char *waterType::printLabel(const waterType &p)
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    sprintf(buf, CCLABEL_FMT, p.label);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4598,8 +4668,16 @@ char *waterType::printLabel(const waterType &p)
     sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
     return buf;
 }
 

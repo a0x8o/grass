@@ -11126,6 +11126,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -11262,6 +11263,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
@@ -11271,6 +11274,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
@@ -11363,6 +11367,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
         available_layer_names[i] =
@@ -13277,9 +13285,21 @@ int main(int argc, char *argv[])
         available_layer_names[i] =
             G_store((char *)OGR_FD_GetName(Ogr_featuredefn));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+        available_layer_names[i] = G_store((char *)OGR_L_GetName(Ogr_layer));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 
         if (flag.list->answer)
             fprintf(stdout, "%s\n", available_layer_names[i]);

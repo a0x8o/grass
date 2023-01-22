@@ -1887,6 +1887,7 @@ Until 2019: For a more advanced test suite, see
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1983,6 +1984,7 @@ Until 2019: For a more advanced test suite, see
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
@@ -2197,6 +2199,10 @@ Until 2019: For a more advanced test suite, see
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2440,6 +2446,7 @@ Until 2019: For a more advanced test suite, see
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2454,6 +2461,8 @@ Until 2019: For a more advanced test suite, see
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 
 =======
@@ -3377,5 +3386,13 @@ Until 2019: For a more advanced test suite, see
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))

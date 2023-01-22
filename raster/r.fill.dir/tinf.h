@@ -206,12 +206,17 @@ extern int (*is_null)(void *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> main
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1081,8 +1086,16 @@ extern int (*is_null)(void *);
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 extern size_t (*bpe)(void);
 extern void *(*get_max)(void *, void *);
 extern void *(*get_min)(void *, void *);
@@ -2466,6 +2479,7 @@ extern void *(*get_buf)();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2592,6 +2606,8 @@ extern void *(*get_buf)();
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3466,13 +3482,18 @@ extern void *(*get_buf)(void);
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
@@ -3490,6 +3511,9 @@ extern void *(*get_buf)(void);
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 extern size_t (*bpe)(void);
 extern void *(*get_max)(void *, void *);
 extern void *(*get_min)(void *, void *);
@@ -3501,8 +3525,11 @@ extern void *(*get_buf)(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3672,14 +3699,19 @@ extern void *(*get_buf)(void);
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -4230,6 +4262,9 @@ extern void *(*get_buf)(void);
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+>>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
 extern void (*put_row)(int, void *);
 extern double (*slope)(void *, void *, double);
 extern void (*set_min)(void *);
