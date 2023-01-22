@@ -7896,6 +7896,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -7986,6 +7987,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 3424207483 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
@@ -8056,7 +8059,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+>>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
         available_layer_names[i] =
@@ -8779,6 +8787,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
@@ -8790,6 +8799,8 @@ int main(int argc, char *argv[])
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
 =======
 
@@ -9396,7 +9407,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+>>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 
         if (flag.list->answer)
             fprintf(stdout, "%s\n", available_layer_names[i]);
