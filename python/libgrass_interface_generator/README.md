@@ -44,6 +44,7 @@ Currently installed version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -137,10 +138,17 @@ Currently installed version:
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 ### How to update ctypesgen version
 
 1. Replace the GRASS directory `python/libgrass_interface_generator/ctypesgen`
@@ -433,6 +441,9 @@ Currently installed version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -714,14 +725,19 @@ Currently installed version:
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 ### How to update ctypesgen version
 
 1. Replace the GRASS directory `python/libgrass_interface_generator/ctypesgen`
    with the `ctypesgen` directory from ctypesgen source directory.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -739,7 +755,12 @@ Currently installed version:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 2. Replace `python/grass/ctypes/run.py` with `run.py` from ctypesgen source directory.
 3. Apply the patches below.
 4. Update this document with info on installed ctypesgen version.
@@ -785,6 +806,7 @@ Currently installed version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -817,10 +839,17 @@ Currently installed version:
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 It is highly encouraged to report [upstreams](https://github.com/ctypesgen/ctypesgen)
 necessary patches for GRASS.
 =======
@@ -1148,8 +1177,11 @@ It is highly encouraged to report [upstreams](https://github.com/ctypesgen/ctype
 necessary patches for GRASS.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1165,7 +1197,12 @@ necessary patches for GRASS.
 It is highly encouraged to report [upstreams](https://github.com/ctypesgen/ctypesgen) necessary patches for GRASS.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 #### Ctypes "unnamed structure member with 0 bit size"-patch
 
@@ -1237,6 +1274,7 @@ generated files.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1261,6 +1299,12 @@ generated files.
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 <!-- markdownlint-disable line-length -->
 =======
 <<<<<<< HEAD
@@ -1341,6 +1385,7 @@ generated files.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <!-- markdownlint-disable line-length -->
@@ -1531,7 +1576,15 @@ generated files.
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<!-- markdownlint-disable line-length -->
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 ```diff
 --- ctypesgen/printer_python/printer.py.orig
 +++ ctypesgen/printer_python/printer.py
@@ -1695,6 +1748,7 @@ generated files.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1719,6 +1773,12 @@ generated files.
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 <!-- markdownlint-enable line-length -->
 =======
 <<<<<<< HEAD
@@ -1799,6 +1859,7 @@ generated files.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <!-- markdownlint-enable line-length -->
@@ -1989,7 +2050,15 @@ generated files.
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+<!-- markdownlint-enable line-length -->
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 #### Windows specific patches
 

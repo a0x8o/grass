@@ -3882,6 +3882,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3919,6 +3920,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
     }
 =======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 
@@ -3937,7 +3944,11 @@ int main(int argc, char *argv[])
 #endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     lo = -INFINITY;
     hi = INFINITY;
 =======
@@ -3952,10 +3963,18 @@ int main(int argc, char *argv[])
     lo = -1.0 / 0.0; /* -inf */
     hi = 1.0 / 0.0;  /* inf */
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
+    lo = -INFINITY;
+    hi = INFINITY;
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (parm.range->answer) {
         lo = atof(parm.range->answers[0]);
         hi = atof(parm.range->answers[1]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3965,6 +3984,8 @@ int main(int argc, char *argv[])
 >>>>>>> f288517075 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

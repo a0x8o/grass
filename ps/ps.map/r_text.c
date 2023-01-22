@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -121,8 +122,12 @@
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 extern char *get_color_name();
 extern int get_color_number();
@@ -216,6 +221,7 @@ extern int get_color_number();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -254,6 +260,8 @@ extern int get_color_number();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 extern char *get_color_name();
 extern int get_color_number();
@@ -404,7 +412,12 @@ extern int get_color_number();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static char *help[] = {"font        fontname",
                        "color       color",
                        "width       #",

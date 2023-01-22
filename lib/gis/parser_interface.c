@@ -119,6 +119,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -190,6 +191,12 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (enc) {
         G_freea(enc);
     }
@@ -286,6 +293,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -324,6 +332,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (enc)
         G_freea(enc);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -560,13 +570,18 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (enc) {
         G_freea(enc);
     }
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -584,7 +599,12 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     if (conv != (iconv_t)-1)
         iconv_close(conv);

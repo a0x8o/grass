@@ -158,6 +158,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -190,10 +191,17 @@ void main_loop(void)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* int icoub, nmult */;
 =======
 <<<<<<< HEAD
@@ -492,8 +500,11 @@ void main_loop(void)
     /* int icoub, nmult */;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     int icoub /*, nmult */;
 =======
@@ -513,7 +524,12 @@ void main_loop(void)
     int icoub /*, nmult */;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     int iw, iblock, lw;
     int itime, iter1;
 
@@ -565,6 +581,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -589,6 +606,8 @@ void main_loop(void)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* icoub = 0; */
 =======
 <<<<<<< HEAD
@@ -886,6 +905,8 @@ void main_loop(void)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /* icoub = 0; */
 =======
     icoub = 0;
@@ -899,8 +920,17 @@ void main_loop(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    /* icoub = 0; */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* icfl = 0; */
     nstack = 0;
 
@@ -960,6 +990,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -992,10 +1023,17 @@ void main_loop(void)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         /* ++icoub; */
 =======
 <<<<<<< HEAD
@@ -1294,8 +1332,11 @@ void main_loop(void)
         /* ++icoub; */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         ++icoub;
 =======
@@ -1315,7 +1356,12 @@ void main_loop(void)
         ++icoub;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         lw = 0;
         walkwe = 0.;

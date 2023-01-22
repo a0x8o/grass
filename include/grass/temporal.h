@@ -107,6 +107,7 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -139,10 +140,17 @@ void tgis_free_map_list(tgisMapList *list);
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
@@ -441,8 +449,11 @@ tgisMapList *tgis_new_map_list();
 tgisMapList *tgis_new_map_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 tgisMapList *tgis_new_map_list();
 =======
@@ -462,7 +473,12 @@ tgisMapList *tgis_new_map_list(void);
 tgisMapList *tgis_new_map_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 /*! Insert a new map to the map list */
 void tgis_map_list_insert(tgisMapList *list, char *name, char *mapset,
@@ -608,6 +624,7 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -640,10 +657,17 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
@@ -942,8 +966,11 @@ tgisDatasetList *tgis_new_dataset_list();
 tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 tgisDatasetList *tgis_new_dataset_list();
 =======
@@ -963,7 +990,12 @@ tgisDatasetList *tgis_new_dataset_list(void);
 tgisDatasetList *tgis_new_dataset_list();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 /*! Insert a new dataset to the dataset list */
 void tgis_dataset_list_insert(tgisDatasetList *list, char *name, char *mapset,

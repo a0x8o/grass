@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76,10 +77,17 @@
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
  * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
 <<<<<<< HEAD
@@ -168,6 +176,7 @@
  * Copyright (c) 2011-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
@@ -393,6 +402,11 @@
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
  *
  * This software is available under the following "MIT Style" license,
  * or at the option of the licensee under the LGPL (see COPYING).  This
@@ -723,6 +737,7 @@ SHP_CVSID("$Id$")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -763,10 +778,17 @@ SHP_CVSID("$Id$")
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,8 +1117,11 @@ SHP_CVSID("$Id$")
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 #ifndef CPL_UNUSED
 #define CPL_UNUSED
@@ -1115,7 +1140,12 @@ SHP_CVSID("$Id$")
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 typedef unsigned char uchar;
 
 #if UINT_MAX == 65535
@@ -1167,6 +1197,7 @@ typedef unsigned int int32;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1217,6 +1248,8 @@ typedef unsigned int int32;
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -1390,6 +1423,10 @@ typedef unsigned int int32;
 =======
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 #ifndef USE_CPL
 #if defined(_MSC_VER)
 #if _MSC_VER < 1900
@@ -1408,6 +1445,7 @@ typedef unsigned int int32;
 #else
 #define CPL_UNUSED
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 #endif
@@ -1573,6 +1611,8 @@ typedef unsigned int int32;
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 #if defined(WIN32) || defined(_WIN32)
 #ifndef snprintf
 #define snprintf _snprintf
@@ -1660,6 +1700,7 @@ typedef unsigned int int32;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1740,6 +1781,8 @@ typedef unsigned int int32;
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 #ifndef snprintf
 #define snprintf _snprintf
 #endif
@@ -1771,7 +1814,12 @@ typedef unsigned int int32;
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 #endif
 
 #if defined(CPL_LSB)
@@ -1779,6 +1827,7 @@ typedef unsigned int int32;
 #elif defined(CPL_MSB)
 #define bBigEndian true
 #else
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1848,6 +1897,8 @@ typedef unsigned int int32;
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
@@ -1958,7 +2009,14 @@ typedef unsigned int int32;
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static bool bBigEndian;
 #endif
 
@@ -1992,6 +2050,11 @@ static bool bBigEndian;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2062,6 +2125,7 @@ static int bBigEndian;
 =======
 static int bBigEndian;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -2292,13 +2356,21 @@ static int bBigEndian;
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 #endif
 
 /************************************************************************/
 /*                              SwapWord()                              */
 /*                                                                      */
 /*      Swap a 2, 4 or 8 byte word.                                     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2323,10 +2395,13 @@ static int bBigEndian;
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 static void SwapWord(int length, void *wordP)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2395,6 +2470,8 @@ static void SwapWord(int length, void *wordP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -2506,7 +2583,14 @@ static void SwapWord(int length, void *wordP)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     for (int i = 0; i < length / 2; i++) {
         const uchar temp = STATIC_CAST(uchar *, wordP)[i];
         STATIC_CAST(uchar *, wordP)
@@ -2535,6 +2619,11 @@ static void SwapWord(int length, void *wordP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2839,6 +2928,7 @@ static void SwapWord(int length, void *wordP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2877,6 +2967,8 @@ static void SwapWord(int length, void *wordP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3027,7 +3119,12 @@ static void SwapWord(int length, void *wordP)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 }
 
@@ -3036,6 +3133,7 @@ static void SwapWord(int length, void *wordP)
 /*                                                                      */
 /*      A realloc cover function that will access a NULL pointer as     */
 /*      a valid input.                                                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3060,6 +3158,8 @@ static void SwapWord(int length, void *wordP)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 static void *SfRealloc(void *pMem, int nNewSize)
@@ -3102,6 +3202,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3195,10 +3296,17 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (pMem == SHPLIB_NULLPTR)
         return malloc(nNewSize);
     else
@@ -3677,6 +3785,19 @@ static void *SfRealloc(void *pMem, int nNewSize)
         return ((void *)realloc(pMem, nNewSize));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    if (pMem == SHPLIB_NULLPTR)
+        return malloc(nNewSize);
+    else
+        return realloc(pMem, nNewSize);
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3707,14 +3828,19 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (pMem == SHPLIB_NULLPTR)
         return malloc(nNewSize);
     else
         return realloc(pMem, nNewSize);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3728,7 +3854,12 @@ static void *SfRealloc(void *pMem, int nNewSize)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 }
 
 /************************************************************************/
@@ -3772,6 +3903,7 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3812,10 +3944,17 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /*      Write out a header for the .shp and .shx files as well as the    */
 /*    contents of the index (.shx) file.                */
 =======
@@ -4307,8 +4446,11 @@ static void *SfRealloc(void *pMem, int nNewSize)
 /*    contents of the index (.shx) file.                */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4321,11 +4463,17 @@ static void *SfRealloc(void *pMem, int nNewSize)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4497,6 +4645,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
 =======
 =======
@@ -4726,6 +4880,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4764,6 +4919,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
@@ -4911,7 +5068,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->sHooks.Error("SHPWriteHeader failed : SHX file is closed");
         return;
     }
@@ -4919,6 +5081,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     /* -------------------------------------------------------------------- */
     /*      Prepare header block for .shp file.                             */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4986,6 +5149,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     uchar abyHeader[100] = {0};
     abyHeader[2] = 0x27; /* magic cookie */
@@ -5685,6 +5850,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
     uchar abyHeader[100] = {0};
     abyHeader[2] = 0x27; /* magic cookie */
@@ -5885,11 +6052,14 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
     for (i = 0; i < 100; i++)
         abyHeader[i] = 0;
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
+    uchar abyHeader[100] = {0};
     abyHeader[2] = 0x27; /* magic cookie */
     abyHeader[3] = 0x0a;
 
-    i32 = psSHP->nFileSize / 2; /* file size */
+    int32 i32 = psSHP->nFileSize / 2; /* file size */
     ByteCopy(&i32, abyHeader + 24, 4);
     if (!bBigEndian)
         SwapWord(4, abyHeader + 24);
@@ -5904,10 +6074,20 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     if (bBigEndian)
         SwapWord(4, abyHeader + 32);
 
+<<<<<<< HEAD
     dValue = psSHP->adBoundsMin[0]; /* set bounds */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    double dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     ByteCopy(&dValue, abyHeader + 36, 8);
 #if defined(SHP_BIG_ENDIAN)
     SHP_SWAP64(abyHeader + 36);
@@ -6067,6 +6247,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6097,6 +6278,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -6208,7 +6391,14 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -6239,6 +6429,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6309,6 +6504,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
         psSHP->sHooks.Error("Failure writing .shp header");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -6536,7 +6732,14 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return;
     }
 
@@ -6783,6 +6986,9 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         psSHP->sHooks.Error("Failure writing .shx header");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6911,12 +7117,15 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 =======
 
     if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
         psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -6924,6 +7133,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
         psSHP->sHooks.Error(szErrorMsg);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -7204,7 +7414,13 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return;
     }
 
@@ -7249,6 +7465,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7476,6 +7693,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     uint32_t *panSHX =
         STATIC_CAST(uint32_t *, malloc(sizeof(uint32_t) * 2 * psSHP->nRecords));
 =======
@@ -7508,7 +7727,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     int32 *panSHX =
         STATIC_CAST(int32 *, malloc(sizeof(int32) * 2 * psSHP->nRecords));
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -7536,6 +7760,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
     if (panSHX == NULL) {
@@ -7548,6 +7773,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
     if (panSHX == NULL) {
@@ -7714,13 +7941,18 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
     int32 *panSHX =
         STATIC_CAST(int32 *, malloc(sizeof(int32) * 2 * psSHP->nRecords));
     if (panSHX == SHPLIB_NULLPTR) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -7734,7 +7966,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->sHooks.Error("Failure allocatin panSHX");
         return;
     }
@@ -7777,6 +8014,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7809,10 +8047,17 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     for (int i = 0; i < psSHP->nRecords; i++) {
 =======
 <<<<<<< HEAD
@@ -7920,6 +8165,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7958,6 +8204,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     for (i = 0; i < psSHP->nRecords; i++) {
 =======
@@ -8671,6 +8919,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     for (i = 0; i < psSHP->nRecords; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         panSHX[i * 2] = psSHP->panRecOffset[i] / 2;
         panSHX[i * 2 + 1] = psSHP->panRecSize[i] / 2;
         if (!bBigEndian)
@@ -8681,6 +8931,9 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     if (STATIC_CAST(int, psSHP->sHooks.FWrite(panSHX, sizeof(int32) * 2,
                                               psSHP->nRecords, psSHP->fpSHX)) !=
         psSHP->nRecords) {
@@ -8690,6 +8943,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
                  "Failure writing .shx contents: %s", strerror(errno));
         szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
         psSHP->sHooks.Error(szErrorMsg);
+<<<<<<< HEAD
 =======
     if ((int)psSHP->sHooks.FWrite(panSHX, sizeof(int32) * 2, psSHP->nRecords,
                                   psSHP->fpSHX) != psSHP->nRecords) {
@@ -8700,6 +8954,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
                                   psSHP->fpSHX) != psSHP->nRecords) {
         psSHP->sHooks.Error("Failure writing .shx contents");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     }
 
     free(panSHX);
@@ -8714,7 +8970,6 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 
 /************************************************************************/
 /*                              SHPOpen()                               */
-
 /************************************************************************/
 
 SHPHandle SHPAPI_CALL SHPOpen(const char *pszLayer, const char *pszAccess)
@@ -9220,11 +9475,26 @@ static int SHPGetLenWithoutExtension(const char *pszBasename)
 }
 
 /************************************************************************/
+/*                      SHPGetLenWithoutExtension()                     */
+/************************************************************************/
+
+static int SHPGetLenWithoutExtension(const char *pszBasename)
+{
+    const int nLen = STATIC_CAST(int, strlen(pszBasename));
+    for (int i = nLen - 1;
+         i > 0 && pszBasename[i] != '/' && pszBasename[i] != '\\'; i--) {
+        if (pszBasename[i] == '.') {
+            return i;
+        }
+    }
+    return nLen;
+}
+
+/************************************************************************/
 /*                              SHPOpen()                               */
 /*                                                                      */
 /*      Open the .shp and .shx files based on the basename of the       */
 /*      files or either file name.                                      */
-
 /************************************************************************/
 
 SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
@@ -9232,6 +9502,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
                                 const SAHooks *psHooks)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9321,6 +9592,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -9569,6 +9844,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9607,6 +9883,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -9751,12 +10029,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     /*      Ensure the access string is one of the legal ones.  We          */
     /*      ensure the result string indicates binary to avoid common       */
     /*      problems on Windows.                                            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9888,10 +10172,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     bool bLazySHXLoading = false;
     if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
         strcmp(pszAccess, "r+") == 0) {
@@ -9956,6 +10247,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     bool bLazySHXLoading = false;
@@ -10441,9 +10733,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     else {
         bLazySHXLoading = strchr(pszAccess, 'l') != SHPLIB_NULLPTR;
 =======
+=======
+=======
+    bool bLazySHXLoading = false;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
-        strcmp(pszAccess, "r+") == 0)
+        strcmp(pszAccess, "r+") == 0) {
         pszAccess = "r+b";
+<<<<<<< HEAD
 =======
     if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
         strcmp(pszAccess, "r+") == 0)
@@ -10452,14 +10750,23 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     else {
         bLazySHXLoading = strchr(pszAccess, 'l') != NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    }
+    else {
+        bLazySHXLoading = strchr(pszAccess, 'l') != SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         pszAccess = "rb";
     }
 
-    /* -------------------------------------------------------------------- */
-    /*  Establish the byte order on this machine.           */
-    /* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/*  Establish the byte order on this machine.           */
+/* -------------------------------------------------------------------- */
 #if !defined(bBigEndian)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -10468,7 +10775,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     {
         int i = 1;
         if (*((uchar *)&i) == 1)
@@ -10500,6 +10815,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10678,6 +10998,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10767,6 +11088,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -10881,12 +11204,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 #endif
 
     /* -------------------------------------------------------------------- */
     /*  Initialize the info structure.                  */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11030,10 +11359,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
 =======
     psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
@@ -11310,8 +11646,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
 =======
@@ -11331,12 +11670,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     psSHP->bUpdated = FALSE;
     memcpy(&(psSHP->sHooks), psHooks, sizeof(SAHooks));
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11421,6 +11766,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*  Open the .shp and .shx files.  Note that files pulled from  */
     /*  a PC to Unix with upper case filenames won't work!      */
     /* -------------------------------------------------------------------- */
@@ -11785,6 +12132,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /*  Open the .shp and .shx files.  Note that files pulled from  */
     /*  a PC to Unix with upper case filenames won't work!      */
     /* -------------------------------------------------------------------- */
@@ -11830,18 +12179,22 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         pszBasename[i] = '\0';
 
     /* -------------------------------------------------------------------- */
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     /*  Open the .shp and .shx files.  Note that files pulled from  */
     /*  a PC to Unix with upper case filenames won't work!      */
     /* -------------------------------------------------------------------- */
-    nFullnameLen = strlen(pszBasename) + 5;
-    pszFullname = (char *)malloc(nFullnameLen);
-    snprintf(pszFullname, nFullnameLen, "%s.shp", pszBasename);
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
     psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
-    if (psSHP->fpSHP == NULL) {
-        snprintf(pszFullname, nFullnameLen, "%s.SHP", pszBasename);
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
         psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
     }
 
+<<<<<<< HEAD
     if (psSHP->fpSHP == NULL) {
         size_t nMessageLen = strlen(pszBasename) * 2 + 256;
         char *pszMessage = (char *)malloc(nMessageLen);
@@ -11870,18 +12223,24 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         char *pszMessage = (char *)malloc(nMessageLen);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
-                 pszBasename, pszBasename);
+                 pszFullname, pszFullname);
         psHooks->Error(pszMessage);
         free(pszMessage);
 <<<<<<< HEAD
 =======
 
         free(psSHP);
-        free(pszBasename);
         free(pszFullname);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
         free(psSHP);
         free(pszBasename);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -16550,39 +16909,50 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 
 =======
     snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
-    if (psSHP->fpSHX == NULL) {
-        snprintf(pszFullname, nFullnameLen, "%s.SHX", pszBasename);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
         psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
     }
 
-    if (psSHP->fpSHX == NULL) {
-        size_t nMessageLen = strlen(pszBasename) * 2 + 256;
-        char *pszMessage = (char *)malloc(nMessageLen);
-
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
         snprintf(pszMessage, nMessageLen,
-                 "Unable to open %s.shx or %s.SHX."
-                 "Try --config SHAPE_RESTORE_SHX true to restore or create it",
-                 pszBasename, pszBasename);
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
         psHooks->Error(pszMessage);
         free(pszMessage);
 
         psSHP->sHooks.FClose(psSHP->fpSHP);
         free(psSHP);
-        free(pszBasename);
         free(pszFullname);
-        return (NULL);
+        return SHPLIB_NULLPTR;
     }
 
     free(pszFullname);
-    free(pszBasename);
 
     /* -------------------------------------------------------------------- */
     /*  Read the file size from the SHP file.               */
     /* -------------------------------------------------------------------- */
-    pabyBuf = (uchar *)malloc(100);
-    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
+    uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
+    if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
+        psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+        free(pabyBuf);
+        free(psSHP);
 
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     psSHP->nFileSize =
         ((unsigned int)pabyBuf[24] * 256 * 256 * 256 +
@@ -16599,8 +16969,22 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    psSHP->nFileSize = (STATIC_CAST(unsigned int, pabyBuf[24]) << 24) |
+                       (pabyBuf[25] << 16) | (pabyBuf[26] << 8) | pabyBuf[27];
+    if (psSHP->nFileSize < UINT_MAX / 2)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->nFileSize *= 2;
     else
         psSHP->nFileSize = (UINT_MAX / 2) * 2;
@@ -16652,6 +17036,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16745,10 +17130,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         free(pabyBuf);
         free(psSHP);
 
@@ -16819,6 +17211,9 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
         free(pabyBuf);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -16884,6 +17279,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     psSHP->nRecords = pabyBuf[27] | (pabyBuf[26] << 8) | (pabyBuf[25] << 16) |
                       ((pabyBuf[24] & 0x7F) << 24);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 =======
         free(pabyBuf);
@@ -17344,12 +17740,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     psSHP->nRecords = (psSHP->nRecords - 50) / 4;
 
     psSHP->nShapeType = pabyBuf[32];
 
     if (psSHP->nRecords < 0 || psSHP->nRecords > 256000000) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17440,6 +17842,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         char szErrorMsg[200];
 =======
 =======
@@ -17568,6 +17974,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
                  "Record count in .shx header is %d, which seems\n"
+<<<<<<< HEAD
                  "unreasonable.  Assuming header is corrupt.",
                  psSHP->nRecords);
 <<<<<<< HEAD
@@ -17947,8 +18354,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
         snprintf(szError, sizeof(szError),
                  "Record count in .shp header is %d, which seems\n"
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                  "unreasonable.  Assuming header is corrupt.",
                  psSHP->nRecords);
+<<<<<<< HEAD
         psSHP->sHooks.Error(szError);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17964,6 +18374,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
         char szErrorMsg[200];
@@ -17996,7 +18407,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->sHooks.FClose(psSHP->fpSHP);
         psSHP->sHooks.FClose(psSHP->fpSHX);
         free(psSHP);
@@ -18040,6 +18459,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18072,10 +18492,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -18374,8 +18801,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         return (NULL);
 =======
@@ -18395,7 +18825,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return (NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* If a lot of records are advertized, check that the file is big enough */
@@ -18439,6 +18874,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18532,10 +18968,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 2);
         const SAOffset nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
         if (nFileSize > 100 &&
@@ -18633,9 +19076,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
         SAOffset nFileSize;
 
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 2);
-        nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
+        const SAOffset nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
         if (nFileSize > 100 &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             nFileSize / 2 < (SAOffset)(psSHP->nRecords * 4 + 50)) {
@@ -18880,7 +19326,19 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
             psSHP->nRecords = (int)((nFileSize - 100) / 8);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            nFileSize / 2 < (SAOffset)(psSHP->nRecords * 4 + 50)) {
+            psSHP->nRecords = (int)((nFileSize - 100) / 8);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            nFileSize / 2 < STATIC_CAST(SAOffset, psSHP->nRecords * 4 + 50)) {
+            psSHP->nRecords = STATIC_CAST(int, (nFileSize - 100) / 8);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
         psSHP->sHooks.FSeek(psSHP->fpSHX, 100, 0);
     }
@@ -18926,6 +19384,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18952,6 +19411,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     double dValue;
 
 =======
@@ -19088,12 +19551,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -19304,6 +19770,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (bBigEndian)
         SwapWord(8, pabyBuf + 36);
     memcpy(&dValue, pabyBuf + 36, 8);
@@ -19430,6 +19898,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19460,6 +19929,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -20071,13 +20542,21 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     psSHP->panRecOffset =
         STATIC_CAST(unsigned int *,
                     malloc(sizeof(unsigned int) * MAX(1, psSHP->nMaxRecords)));
     psSHP->panRecSize =
         STATIC_CAST(unsigned int *,
                     malloc(sizeof(unsigned int) * MAX(1, psSHP->nMaxRecords)));
+<<<<<<< HEAD
     if (bLazySHXLoading)
         pabyBuf = SHPLIB_NULLPTR;
     else
@@ -20196,6 +20675,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     psSHP->panRecSize = (unsigned int *)malloc(sizeof(unsigned int) *
                                                MAX(1, psSHP->nMaxRecords));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     if (bLazySHXLoading)
@@ -20238,20 +20718,26 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (bLazySHXLoading)
-        pabyBuf = NULL;
+        pabyBuf = SHPLIB_NULLPTR;
     else
-        pabyBuf = (uchar *)malloc(8 * MAX(1, psSHP->nRecords));
+        pabyBuf = STATIC_CAST(uchar *, malloc(8 * MAX(1, psSHP->nRecords)));
 
-    if (psSHP->panRecOffset == NULL || psSHP->panRecSize == NULL ||
-        (!bLazySHXLoading && pabyBuf == NULL)) {
-        char szError[200];
+    if (psSHP->panRecOffset == SHPLIB_NULLPTR ||
+        psSHP->panRecSize == SHPLIB_NULLPTR ||
+        (!bLazySHXLoading && pabyBuf == SHPLIB_NULLPTR)) {
+        char szErrorMsg[200];
 
         snprintf(
-            szError, sizeof(szError),
+            szErrorMsg, sizeof(szErrorMsg),
             "Not enough memory to allocate requested memory (nRecords=%d).\n"
             "Probably broken SHP file",
             psSHP->nRecords);
+<<<<<<< HEAD
         psSHP->sHooks.Error(szError);
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -20263,8 +20749,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->sHooks.FClose(psSHP->fpSHP);
         psSHP->sHooks.FClose(psSHP->fpSHX);
         if (psSHP->panRecOffset)
@@ -20312,6 +20808,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20344,10 +20841,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -20646,8 +21150,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         return (NULL);
 =======
@@ -20667,7 +21174,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return (NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     if (bLazySHXLoading) {
@@ -20713,6 +21225,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
         free(pabyBuf); // sometimes make cppcheck happy, but
@@ -20775,6 +21288,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         free(pabyBuf); // sometimes make cppcheck happy, but
@@ -21440,13 +21955,21 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         free(pabyBuf); // sometimes make cppcheck happy, but
         return (psSHP);
     }
 
     if (STATIC_CAST(int, psSHP->sHooks.FRead(pabyBuf, 8, psSHP->nRecords,
                                              psSHP->fpSHX)) !=
+<<<<<<< HEAD
         psSHP->nRecords) {
         char szErrorMsg[200];
 
@@ -21519,9 +22042,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     if ((int)psSHP->sHooks.FRead(pabyBuf, 8, psSHP->nRecords, psSHP->fpSHX) !=
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         psSHP->nRecords) {
-        char szError[200];
+        char szErrorMsg[200];
 
+<<<<<<< HEAD
         snprintf(szError, sizeof(szError),
                  "Failed to read all values for %d records in .shx file.",
                  psSHP->nRecords);
@@ -21536,8 +22062,21 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Failed to read all values for %d records in .shx file: %s.",
+                 psSHP->nRecords, strerror(errno));
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         /* SHX is short or unreadable for some reason. */
         psSHP->sHooks.FClose(psSHP->fpSHP);
@@ -21585,6 +22124,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -21617,10 +22157,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -21919,8 +22466,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         return (NULL);
 =======
@@ -21940,12 +22490,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return (NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* In read-only mode, we can close the SHX now */
     if (strcmp(pszAccess, "rb") == 0) {
         psSHP->sHooks.FClose(psSHP->fpSHX);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22032,6 +22588,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->fpSHX = SHPLIB_NULLPTR;
 =======
 =======
@@ -22819,7 +23377,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->fpSHX = SHPLIB_NULLPTR;
     }
 
@@ -22910,8 +23473,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         psSHP->fpSHX = NULL;
+=======
+        psSHP->fpSHX = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     }
 
+<<<<<<< HEAD
     for (i = 0; i < psSHP->nRecords; i++) {
         unsigned int nOffset, nLength;
 
@@ -22982,33 +23549,40 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     for (i = 0; i < psSHP->nRecords; i++) {
         unsigned int nOffset, nLength;
 
+=======
+    for (int i = 0; i < psSHP->nRecords; i++) {
+        unsigned int nOffset;
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         memcpy(&nOffset, pabyBuf + i * 8, 4);
         if (!bBigEndian)
             SwapWord(4, &nOffset);
 
+        unsigned int nLength;
         memcpy(&nLength, pabyBuf + i * 8 + 4, 4);
         if (!bBigEndian)
             SwapWord(4, &nLength);
 
-        if (nOffset > (unsigned int)INT_MAX) {
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
             char str[128];
-
             snprintf(str, sizeof(str), "Invalid offset for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
 
             psSHP->sHooks.Error(str);
             SHPClose(psSHP);
             free(pabyBuf);
-            return NULL;
+            return SHPLIB_NULLPTR;
         }
-        if (nLength > (unsigned int)(INT_MAX / 2 - 4)) {
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
             char str[128];
-
             snprintf(str, sizeof(str), "Invalid length for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
 
             psSHP->sHooks.Error(str);
             SHPClose(psSHP);
             free(pabyBuf);
+<<<<<<< HEAD
             return NULL;
+<<<<<<< HEAD
 =======
         psSHP->fpSHX = SHPLIB_NULLPTR;
     }
@@ -23044,6 +23618,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
             free(pabyBuf);
             return SHPLIB_NULLPTR;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         }
         psSHP->panRecOffset[i] = nOffset * 2;
         psSHP->panRecSize[i] = nLength * 2;
@@ -23061,7 +23641,6 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 /*      Open the .shp and .shx files based on the basename of the       */
 /*      files or either file name. It generally invokes SHPRestoreSHX() */
 /*      in case when bRestoreSHX equals true.                           */
-
 /************************************************************************/
 
 SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
@@ -23083,6 +23662,7 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23153,10 +23733,17 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -23455,8 +24042,11 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
     return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     return (NULL);
 =======
@@ -23476,7 +24066,12 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
     return (NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 }
 
 /************************************************************************/
@@ -23484,7 +24079,6 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 /*                                                                      */
 /*      Restore .SHX file using associated .SHP file.                   */
 /*                                                                      */
-
 /************************************************************************/
 
 int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
@@ -23492,6 +24086,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
                               const SAHooks *psHooks)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23581,6 +24176,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -23841,6 +24440,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -23879,6 +24479,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -24023,7 +24625,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     /*      Ensure the access string is one of the legal ones.  We          */
     /*      ensure the result string indicates binary to avoid common       */
@@ -24068,6 +24675,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -24155,10 +24763,17 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         strcmp(pszAccess, "r+") == 0) {
         pszAccess = "r+b";
     }
@@ -24515,8 +25130,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     }
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -24530,11 +25148,17 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     else {
         pszAccess = "rb";
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25661,12 +26285,23 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 #if !defined(bBigEndian)
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+/* -------------------------------------------------------------------- */
+/*  Establish the byte order on this machine.                           */
+/* -------------------------------------------------------------------- */
+#if !defined(bBigEndian)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     {
         int i = 1;
         if (*((uchar *)&i) == 1)
             bBigEndian = false;
         else
             bBigEndian = true;
+<<<<<<< HEAD
     }
 #endif
 
@@ -25749,33 +26384,35 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
          i > 0 && pszBasename[i] != '.' && pszBasename[i] != '/' &&
          pszBasename[i] != '\\';
          i--) {
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     }
-
-    if (pszBasename[i] == '.')
-        pszBasename[i] = '\0';
+#endif
 
     /* -------------------------------------------------------------------- */
     /*  Open the .shp file.  Note that files pulled from                    */
     /*  a PC to Unix with upper case filenames won't work!                  */
     /* -------------------------------------------------------------------- */
-    nFullnameLen = strlen(pszBasename) + 5;
-    pszFullname = (char *)malloc(nFullnameLen);
-    snprintf(pszFullname, nFullnameLen, "%s.shp", pszBasename);
-    fpSHP = psHooks->FOpen(pszFullname, pszAccess);
-    if (fpSHP == NULL) {
-        snprintf(pszFullname, nFullnameLen, "%s.SHP", pszBasename);
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, pszAccess);
+    if (fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
         fpSHP = psHooks->FOpen(pszFullname, pszAccess);
     }
 
-    if (fpSHP == NULL) {
-        nMessageLen = strlen(pszBasename) * 2 + 256;
-        pszMessage = (char *)malloc(nMessageLen);
+    if (fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+
+        pszFullname[nLenWithoutExtension] = 0;
         snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
-                 pszBasename, pszBasename);
+                 pszFullname, pszFullname);
         psHooks->Error(pszMessage);
         free(pszMessage);
 
-        free(pszBasename);
         free(pszFullname);
 
 <<<<<<< HEAD
@@ -25796,6 +26433,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     /* -------------------------------------------------------------------- */
     /*  Read the file size from the SHP file.                               */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25898,6 +26536,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     unsigned char *pabyBuf = STATIC_CAST(unsigned char *, malloc(100));
 =======
 =======
@@ -25920,7 +26560,14 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
     if (psHooks->FRead(pabyBuf, 100, 1, fpSHP) != 1) {
@@ -26104,6 +26751,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -26455,6 +27103,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -26470,6 +27120,9 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         free(pabyBuf);
         free(pszFullname);
 
@@ -26480,6 +27133,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
                                 (pabyBuf[25] << 16) | (pabyBuf[26] << 8) |
                                 pabyBuf[27];
     if (nSHPFilesize < UINT_MAX / 2)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26543,6 +27197,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -26690,11 +27346,18 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         nSHPFilesize *= 2;
     else
         nSHPFilesize = (UINT_MAX / 2) * 2;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26764,6 +27427,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -27353,6 +28018,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
     const char pszSHXAccess[] = "w+b";
     SAFile fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
@@ -27553,6 +28222,9 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
         pszFullname[nLenWithoutExtension] = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         snprintf(pszMessage, nMessageLen,
                  "Error opening file %s.shx for writing", pszFullname);
         psHooks->Error(pszMessage);
@@ -27572,6 +28244,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
         pszMessage = (char *)malloc(nMessageLen);
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
         snprintf(pszMessage, nMessageLen,
                  "Error opening file %s.shx for writing", pszFullname);
         psHooks->Error(pszMessage);
@@ -27716,15 +28389,16 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     if (fpSHX == NULL) {
         nMessageLen = strlen(pszBasename) * 2 + 256;
         pszMessage = (char *)malloc(nMessageLen);
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         snprintf(pszMessage, nMessageLen,
-                 "Error opening file %s.shx for writing", pszBasename);
+                 "Error opening file %s.shx for writing", pszFullname);
         psHooks->Error(pszMessage);
         free(pszMessage);
 
-        psHooks->FClose(fpSHX);
+        psHooks->FClose(fpSHP);
 
         free(pabyBuf);
-        free(pszBasename);
         free(pszFullname);
 
 <<<<<<< HEAD
@@ -27933,6 +28607,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28023,6 +28698,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
     memcpy(pabySHXHeader, pabyBuf, 100);
     psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
@@ -28427,7 +29104,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
     memcpy(pabySHXHeader, pabyBuf, 100);
     psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
@@ -28694,18 +29376,30 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
     pabySHXHeader = (char *)malloc(100);
+=======
+    char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     memcpy(pabySHXHeader, pabyBuf, 100);
     psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
+    free(pabyBuf);
+
+    // unsigned int nCurrentRecordOffset = 0;
+    unsigned int nCurrentSHPOffset = 100;
+    unsigned int nRealSHXContentSize = 100;
+    unsigned int niRecord = 0;
+    unsigned int nRecordLength = 0;
+    unsigned int nRecordOffset = 50;
+    char abyReadRecord[8];
 
     while (nCurrentSHPOffset < nSHPFilesize) {
         if (psHooks->FRead(&niRecord, 4, 1, fpSHP) == 1 &&
             psHooks->FRead(&nRecordLength, 4, 1, fpSHP) == 1) {
             if (!bBigEndian)
                 SwapWord(4, &nRecordOffset);
-            memcpy(abyReadedRecord, &nRecordOffset, 4);
-            memcpy(abyReadedRecord + 4, &nRecordLength, 4);
+            memcpy(abyReadRecord, &nRecordOffset, 4);
+            memcpy(abyReadRecord + 4, &nRecordLength, 4);
 
-            psHooks->FWrite(abyReadedRecord, 8, 1, fpSHX);
+            psHooks->FWrite(abyReadRecord, 8, 1, fpSHX);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28821,6 +29515,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28841,6 +29536,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             // nCurrentRecordOffset += 8;
 =======
 <<<<<<< HEAD
@@ -28921,6 +29622,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             // nCurrentRecordOffset += 8;
@@ -29113,13 +29815,22 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            // nCurrentRecordOffset += 8;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             nCurrentSHPOffset += 8 + nRecordLength * 2;
 
             psHooks->FSeek(fpSHP, nCurrentSHPOffset, 0);
             nRealSHXContentSize += 8;
         }
         else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29244,6 +29955,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             char szErrorMsg[200];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Error parsing .shp to restore .shx. "
@@ -29275,7 +29988,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psHooks->Error("Error parsing .shp to restore .shx");
 =======
 <<<<<<< HEAD
@@ -29524,6 +30242,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -29562,6 +30281,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
             psHooks->Error("Error parsing .shp to restore .shx");
@@ -29974,11 +30695,14 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
             psHooks->FClose(fpSHX);
             psHooks->FClose(fpSHP);
 
             free(pabySHXHeader);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -29987,6 +30711,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
             free(pszBasename);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             free(pszFullname);
 
             return (0);
@@ -30433,6 +31159,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     free(pszFullname);
 =======
     free(pabyBuf);
@@ -30444,6 +31171,9 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     free(pszFullname);
     free(pszBasename);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    free(pszFullname);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     free(pabySHXHeader);
 
     return (1);
@@ -30510,6 +31240,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -30650,6 +31381,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /*                                                                      */
 /*      Close the .shp and .shx files.                                  */
 =======
@@ -30683,7 +31416,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /*                                           */
 /*    Close the .shp and .shx files.                    */
 =======
@@ -31087,8 +31825,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 /*    Close the .shp and .shx files.                    */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -31101,7 +31842,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 void SHPAPI_CALL SHPClose(SHPHandle psSHP)
@@ -31144,6 +31890,7 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -31237,10 +31984,17 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psSHP == SHPLIB_NULLPTR)
         return;
 
@@ -32127,6 +32881,7 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
     free(psSHP->panRecSize);
 
     if (psSHP->fpSHX != SHPLIB_NULLPTR)
+<<<<<<< HEAD
         psSHP->sHooks.FClose(psSHP->fpSHX);
     psSHP->sHooks.FClose(psSHP->fpSHP);
 
@@ -32182,16 +32937,19 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
     if (psSHP->fpSHX != NULL)
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         psSHP->sHooks.FClose(psSHP->fpSHX);
     psSHP->sHooks.FClose(psSHP->fpSHP);
 
-    if (psSHP->pabyRec != NULL) {
+    if (psSHP->pabyRec != SHPLIB_NULLPTR) {
         free(psSHP->pabyRec);
     }
 
-    if (psSHP->pabyObjectBuf != NULL) {
+    if (psSHP->pabyObjectBuf != SHPLIB_NULLPTR) {
         free(psSHP->pabyObjectBuf);
     }
+<<<<<<< HEAD
     if (psSHP->psCachedObject != NULL) {
 <<<<<<< HEAD
 =======
@@ -32210,6 +32968,9 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (psSHP->psCachedObject != SHPLIB_NULLPTR) {
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         free(psSHP->psCachedObject);
     }
 
@@ -32220,7 +32981,6 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 
 /************************************************************************/
 /*                    SHPSetFastModeReadObject()                        */
-
 /************************************************************************/
 
 /* If setting bFastMode = TRUE, the content of SHPReadObject() is owned by the
@@ -32271,6 +33031,7 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32301,6 +33062,8 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -32412,7 +33175,14 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (hSHP->psCachedObject == SHPLIB_NULLPTR) {
             hSHP->psCachedObject =
                 STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
@@ -32441,7 +33211,10 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -32769,6 +33542,8 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
         if (hSHP->psCachedObject == NULL) {
             hSHP->psCachedObject = (SHPObject *)calloc(1, sizeof(SHPObject));
             assert(hSHP->psCachedObject != NULL);
@@ -32787,8 +33562,11 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -32801,7 +33579,12 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
     }
 
@@ -32812,7 +33595,6 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 /*                             SHPGetInfo()                             */
 /*                                                                      */
 /*      Fetch general information about the shape file.                 */
-
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -32854,6 +33636,7 @@ void SHPAPI_CALL SHPGetInfo(const SHPHandle psSHP, int *pnEntities,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -32937,6 +33720,12 @@ void SHPAPI_CALL SHPGetInfo(const SHPHandle psSHP, int *pnEntities,
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psSHP == SHPLIB_NULLPTR)
         return;
 
@@ -33013,6 +33802,7 @@ void SHPAPI_CALL SHPGetInfo(const SHPHandle psSHP, int *pnEntities,
 =======
     if (psSHP == SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
         return;
 
     if (pnEntities != SHPLIB_NULLPTR)
@@ -33593,17 +34383,20 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
     int i;
 
     if (psSHP == NULL)
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         return;
 
-    if (pnEntities != NULL)
+    if (pnEntities != SHPLIB_NULLPTR)
         *pnEntities = psSHP->nRecords;
 
-    if (pnShapeType != NULL)
+    if (pnShapeType != SHPLIB_NULLPTR)
         *pnShapeType = psSHP->nShapeType;
 
-    for (i = 0; i < 4; i++) {
-        if (padfMinBound != NULL)
+    for (int i = 0; i < 4; i++) {
+        if (padfMinBound != SHPLIB_NULLPTR)
             padfMinBound[i] = psSHP->adBoundsMin[i];
+<<<<<<< HEAD
         if (padfMaxBound != NULL)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -33629,8 +34422,17 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
             padfMinBound[i] = psSHP->adBoundsMin[i];
         if (padfMaxBound != NULL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        if (padfMaxBound != SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             padfMaxBound[i] = psSHP->adBoundsMax[i];
     }
 }
@@ -33640,7 +34442,6 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 /*                                                                      */
 /*      Create a new shape file and return a handle to the open         */
 /*      shape file with read/write access.                              */
-
 /************************************************************************/
 
 SHPHandle SHPAPI_CALL SHPCreate(const char *pszLayer, int nShapeType)
@@ -33657,7 +34458,6 @@ SHPHandle SHPAPI_CALL SHPCreate(const char *pszLayer, int nShapeType)
 /*                                                                      */
 /*      Create a new shape file and return a handle to the open         */
 /*      shape file with read/write access.                              */
-
 /************************************************************************/
 
 SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
@@ -33665,6 +34465,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
                                   const SAHooks *psHooks)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33756,6 +34557,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -33788,7 +34591,12 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /* -------------------------------------------------------------------- */
 /*      Establish the byte order on this system.                        */
 /* -------------------------------------------------------------------- */
@@ -34909,49 +35717,54 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
     /* -------------------------------------------------------------------- */
     /*      Establish the byte order on this system.                        */
     /* -------------------------------------------------------------------- */
+=======
+/* -------------------------------------------------------------------- */
+/*      Establish the byte order on this system.                        */
+/* -------------------------------------------------------------------- */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 #if !defined(bBigEndian)
-    i = 1;
-    if (*((uchar *)&i) == 1)
-        bBigEndian = FALSE;
-    else
-        bBigEndian = TRUE;
-#endif
-
-    /* -------------------------------------------------------------------- */
-    /*      Compute the base (layer) name.  If there is any extension       */
-    /*      on the passed in filename we will strip it off.                 */
-    /* -------------------------------------------------------------------- */
-    pszBasename = (char *)malloc(strlen(pszLayer) + 5);
-    strcpy(pszBasename, pszLayer);
-    for (i = (int)strlen(pszBasename) - 1;
-         i > 0 && pszBasename[i] != '.' && pszBasename[i] != '/' &&
-         pszBasename[i] != '\\';
-         i--) {
+    {
+        int i = 1;
+        if (*((uchar *)&i) == 1)
+            bBigEndian = false;
+        else
+            bBigEndian = true;
     }
-
-    if (pszBasename[i] == '.')
-        pszBasename[i] = '\0';
+#endif
 
     /* -------------------------------------------------------------------- */
     /*      Open the two files so we can write their headers.               */
     /* -------------------------------------------------------------------- */
-    nFullnameLen = strlen(pszBasename) + 5;
-    pszFullname = (char *)malloc(nFullnameLen);
-    snprintf(pszFullname, nFullnameLen, "%s.shp", pszBasename);
-    fpSHP = psHooks->FOpen(pszFullname, "wb");
-    if (fpSHP == NULL) {
-        psHooks->Error("Failed to create file .shp file.");
-        goto error;
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHP == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        return NULL;
     }
 
-    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
-    fpSHX = psHooks->FOpen(pszFullname, "wb");
-    if (fpSHX == NULL) {
-        psHooks->Error("Failed to create file .shx file.");
-        goto error;
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    SAFile fpSHX = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHX == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        psHooks->FClose(fpSHP);
+        return NULL;
     }
 
     free(pszFullname);
+<<<<<<< HEAD
     pszFullname = NULL;
     free(pszBasename);
     pszBasename = NULL;
@@ -34965,12 +35778,22 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    pszFullname = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     /* -------------------------------------------------------------------- */
     /*      Prepare header block for .shp file.                             */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35350,6 +36173,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     unsigned char abyHeader[100];
 =======
 =======
@@ -35417,6 +36242,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     uchar abyHeader[100];
     memset(abyHeader, 0, sizeof(abyHeader));
 =======
@@ -35425,12 +36252,23 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
     for (i = 0; i < 100; i++)
         abyHeader[i] = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    uchar abyHeader[100];
+    memset(abyHeader, 0, sizeof(abyHeader));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     abyHeader[2] = 0x27; /* magic cookie */
     abyHeader[3] = 0x0a;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35570,6 +36408,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     uint32_t i32 = 50; /* file size */
 =======
 =======
@@ -35603,7 +36443,12 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     int32 i32 = 50; /* file size */
 =======
     i32 = 50; /* file size */
@@ -35627,6 +36472,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
     i32 = 50; /* file size */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -36265,6 +37111,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
     i32 = 50; /* file size */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    int32 i32 = 50; /* file size */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     ByteCopy(&i32, abyHeader + 24, 4);
     if (!bBigEndian)
         SwapWord(4, abyHeader + 24);
@@ -36281,6 +37132,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double dValue = 0.0; /* set bounds */
 =======
     dValue = 0.0; /* set bounds */
@@ -36288,6 +37140,9 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
     dValue = 0.0; /* set bounds */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    double dValue = 0.0; /* set bounds */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     ByteCopy(&dValue, abyHeader + 36, 8);
     ByteCopy(&dValue, abyHeader + 44, 8);
     ByteCopy(&dValue, abyHeader + 52, 8);
@@ -36298,6 +37153,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
     /*      Write .shp file header.                                         */
     /* -------------------------------------------------------------------- */
     if (psHooks->FWrite(abyHeader, 100, 1, fpSHP) != 1) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36367,6 +37223,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -36611,7 +37469,14 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -36623,6 +37488,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
         psHooks->FClose(fpSHP);
         psHooks->FClose(fpSHX);
         return NULL;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36781,13 +37647,23 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         psHooks->Error("Failed to write .shp header.");
         goto error;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* -------------------------------------------------------------------- */
@@ -36980,6 +37856,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (!bBigEndian)
@@ -37109,7 +37986,14 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -37121,6 +38005,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
         psHooks->FClose(fpSHP);
         psHooks->FClose(fpSHX);
         return NULL;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37279,13 +38164,23 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         psHooks->Error("Failed to write .shx header.");
         goto error;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
 <<<<<<< HEAD
@@ -37519,6 +38414,7 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -37547,6 +38443,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -37665,6 +38563,7 @@ error:
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -37811,7 +38710,14 @@ error:
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 }
 
 /************************************************************************/
@@ -37819,7 +38725,6 @@ error:
 /*                                                                      */
 /*      Compute a bounds rectangle for a shape, and set it into the     */
 /*      indicated location in the record.                               */
-
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -37862,7 +38767,6 @@ static void _SHPSetBounds(uchar *pabyRec, SHPObject *psShape)
 /*                                                                      */
 /*      Recompute the extents of a shape.  Automatically done by        */
 /*      SHPCreateObject().                                              */
-
 /************************************************************************/
 
 void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
@@ -37905,6 +38809,7 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -37970,6 +38875,8 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -38030,6 +38937,8 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
     int i;
 
@@ -38127,6 +39036,7 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
     int i;
 
@@ -38267,7 +39177,12 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     /*      Build extents for this object.                                  */
     /* -------------------------------------------------------------------- */
@@ -38316,6 +39231,7 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38348,10 +39264,17 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -38650,8 +39573,11 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
     for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -38671,7 +39597,12 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
     for (i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psObject->dfXMin = MIN(psObject->dfXMin, psObject->padfX[i]);
         psObject->dfYMin = MIN(psObject->dfYMin, psObject->padfY[i]);
         psObject->dfZMin = MIN(psObject->dfZMin, psObject->padfZ[i]);
@@ -38689,7 +39620,6 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 /*                                                                      */
 /*      Create a shape object.  It should be freed with                 */
 /*      SHPDestroyObject().                                             */
-
 /************************************************************************/
 
 SHPObject SHPAPI_CALL1(*)
@@ -38698,6 +39628,7 @@ SHPObject SHPAPI_CALL1(*)
                     int nVertices, const double *padfX, const double *padfY,
                     const double *padfZ, const double *padfM)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38887,6 +39818,12 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     SHPObject *psObject =
         STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
 =======
@@ -39122,6 +40059,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -39160,6 +40098,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -39309,7 +40249,12 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     psObject->nSHPType = nSHPType;
     psObject->nShapeId = nShapeId;
     psObject->bMeasureIsUsed = FALSE;
@@ -39353,6 +40298,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -39425,6 +40371,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     /*      Establish whether this shape type has M, and Z values.          */
@@ -39436,6 +40384,8 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /*    Establish whether this shape type has M, and Z values.        */
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39970,18 +40920,36 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
     /*      Establish whether this shape type has M, and Z values.          */
+=======
+    /*    Establish whether this shape type has M, and Z values.        */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
+    bool bHasM;
+    bool bHasZ;
+
     if (nSHPType == SHPT_ARCM || nSHPType == SHPT_POINTM ||
         nSHPType == SHPT_POLYGONM || nSHPType == SHPT_MULTIPOINTM) {
+<<<<<<< HEAD
         bHasM = TRUE;
         bHasZ = FALSE;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        bHasM = true;
+        bHasZ = false;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
     else if (nSHPType == SHPT_ARCZ || nSHPType == SHPT_POINTZ ||
              nSHPType == SHPT_POLYGONZ || nSHPType == SHPT_MULTIPOINTZ ||
              nSHPType == SHPT_MULTIPATCH) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40139,10 +41107,17 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         bHasM = true;
         bHasZ = true;
     }
@@ -40371,6 +41346,7 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -40611,6 +41587,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         bHasM = true;
         bHasZ = true;
     }
@@ -40619,8 +41597,11 @@ SHPObject SHPAPI_CALL1(*)
         bHasZ = false;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -40630,7 +41611,12 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* -------------------------------------------------------------------- */
@@ -40681,6 +41667,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -40804,10 +41791,19 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psObject->panPartStart =
             STATIC_CAST(int *, calloc(psObject->nParts, sizeof(int)));
         psObject->panPartType =
@@ -40834,6 +41830,7 @@ SHPObject SHPAPI_CALL1(*)
         psObject->panPartType = (int *)malloc(sizeof(int) * psObject->nParts);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -41162,7 +42159,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         psObject->panPartStart[0] = 0;
         psObject->panPartType[0] = SHPP_RING;
@@ -41205,6 +42209,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41298,10 +42303,17 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; i < nParts; i++) {
             if (panPartStart != SHPLIB_NULLPTR)
                 psObject->panPartStart[i] = panPartStart[i];
@@ -41748,8 +42760,13 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -41814,6 +42831,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         for (int i = 0; i < nParts; i++) {
             if (panPartStart != SHPLIB_NULLPTR)
                 psObject->panPartStart[i] = panPartStart[i];
@@ -41821,8 +42840,11 @@ SHPObject SHPAPI_CALL1(*)
             if (panPartType != SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -41836,7 +42858,12 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 psObject->panPartType[i] = panPartType[i];
             else
                 psObject->panPartType[i] = SHPP_RING;
@@ -41895,6 +42922,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41926,6 +42954,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -42426,7 +43456,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         const size_t nSize = sizeof(double) * nVertices;
         psObject->padfX =
             STATIC_CAST(double *, padfX ? malloc(nSize)
@@ -42448,6 +43485,7 @@ SHPObject SHPAPI_CALL1(*)
             memcpy(psObject->padfZ, padfZ, nSize);
         if (padfM != SHPLIB_NULLPTR && bHasM) {
             memcpy(psObject->padfM, padfM, nSize);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42584,6 +43622,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         psObject->padfX = (double *)calloc(sizeof(double), nVertices);
@@ -42612,8 +43652,16 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psObject->bMeasureIsUsed = TRUE;
         }
     }
@@ -42632,7 +43680,6 @@ SHPObject SHPAPI_CALL1(*)
 /*                                                                      */
 /*      Create a simple (common) shape object.  Destroy with            */
 /*      SHPDestroyObject().                                             */
-
 /************************************************************************/
 
 SHPObject SHPAPI_CALL1(*)
@@ -42677,6 +43724,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -42709,10 +43757,17 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
                             nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
 =======
@@ -43052,8 +44107,11 @@ SHPObject SHPAPI_CALL1(*)
                             nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -43066,7 +44124,12 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 }
 
 /************************************************************************/
@@ -43074,7 +44137,6 @@ SHPObject SHPAPI_CALL1(*)
 /*                                                                      */
 /*      Write out the vertices of a new structure.  Note that it is     */
 /*      only possible to write vertices at the end of the file.         */
-
 /************************************************************************/
 
 int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
@@ -43082,6 +44144,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
                                const SHPObject *psObject)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43171,6 +44234,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -43343,6 +44410,9 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -43538,7 +44608,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     psSHP->bUpdated = TRUE;
 
     /* -------------------------------------------------------------------- */
@@ -43614,6 +44689,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43645,6 +44721,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -43848,12 +44926,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         panRecOffsetNew = STATIC_CAST(
             unsigned int *, SfRealloc(psSHP->panRecOffset,
                                       sizeof(unsigned int) * nNewMaxRecords));
         if (panRecOffsetNew == SHPLIB_NULLPTR)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             return -1;
         psSHP->panRecOffset = panRecOffsetNew;
 
@@ -43890,7 +44975,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             psSHP->panRecSize, sizeof(unsigned int) * nNewMaxRecords);
         if (panRecSizeNew == NULL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return -1;
+        psSHP->panRecOffset = panRecOffsetNew;
+
+        panRecSizeNew = STATIC_CAST(
+            unsigned int *, SfRealloc(psSHP->panRecSize,
+                                      sizeof(unsigned int) * nNewMaxRecords));
+        if (panRecSizeNew == SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             return -1;
         psSHP->panRecOffset = panRecOffsetNew;
 
@@ -44484,6 +45581,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -44599,6 +45697,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     /* The following computation cannot overflow on 32-bit platforms given that
      * the user had to allocate arrays of at least that size. */
@@ -44670,11 +45770,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     uchar *pabyRec =
         STATIC_CAST(uchar *, malloc(psObject->nVertices * 4 * sizeof(double) +
                                     psObject->nParts * 8 + 128));
     if (pabyRec == SHPLIB_NULLPTR)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44893,6 +46001,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -45078,6 +46188,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     if (pabyRec == NULL)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         return -1;
 
     /* -------------------------------------------------------------------- */
@@ -45094,16 +46206,22 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     pabyRec = (uchar *)malloc(psObject->nVertices * 4 * sizeof(double) +
                               psObject->nParts * 8 + 128);
     if (pabyRec == NULL)
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         return -1;
 
     /* -------------------------------------------------------------------- */
-    /*  Extract vertices for a Polygon or Arc.                              */
+    /*  Extract vertices for a Polygon or Arc.                */
     /* -------------------------------------------------------------------- */
+    unsigned int nRecordSize = 0;
+    const bool bFirstFeature = psSHP->nRecords == 0;
+
     if (psObject->nSHPType == SHPT_POLYGON ||
         psObject->nSHPType == SHPT_POLYGONZ ||
         psObject->nSHPType == SHPT_POLYGONM || psObject->nSHPType == SHPT_ARC ||
         psObject->nSHPType == SHPT_ARCZ || psObject->nSHPType == SHPT_ARCM ||
         psObject->nSHPType == SHPT_MULTIPATCH) {
+<<<<<<< HEAD
         int32 nPoints, nParts;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
@@ -45124,6 +46242,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         psObject->nSHPType == SHPT_POLYGONM || psObject->nSHPType == SHPT_ARC ||
         psObject->nSHPType == SHPT_ARCZ || psObject->nSHPType == SHPT_ARCM ||
         psObject->nSHPType == SHPT_MULTIPATCH) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         int32 nPoints, nParts;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -45140,6 +46259,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         int32 nPoints = psObject->nVertices;
         int32 nParts = psObject->nParts;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -45748,6 +46871,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -45780,6 +46904,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; i < psObject->nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -45905,6 +47033,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -45949,6 +47078,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         for (int i = 0; i < psObject->nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         for (i = 0; i < psObject->nParts; i++) {
 =======
@@ -46096,7 +47227,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         for (i = 0; i < psObject->nParts; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             if (bBigEndian)
                 SwapWord(4, pabyRec + 44 + 8 + 4 * i);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -46127,6 +47263,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         if (psObject->nSHPType == SHPT_MULTIPATCH) {
             memcpy(pabyRec + nRecordSize, psObject->panPartType,
                    4 * psObject->nParts);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46197,6 +47334,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; i < psObject->nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -46322,6 +47463,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -46366,6 +47508,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             for (int i = 0; i < psObject->nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             for (i = 0; i < psObject->nParts; i++) {
 =======
@@ -46513,7 +47657,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             for (i = 0; i < psObject->nParts; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 if (bBigEndian)
                     SwapWord(4, pabyRec + nRecordSize);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -46542,6 +47691,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         /*
          * Write the (x,y) vertex values.
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46612,10 +47762,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -46723,6 +47880,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -46761,6 +47919,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -46915,6 +48075,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         for (i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             ByteCopy(psObject->padfX + i, pabyRec + nRecordSize, 8);
             ByteCopy(psObject->padfY + i, pabyRec + nRecordSize + 8, 8);
 
@@ -47310,6 +48472,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (bBigEndian)
                 SwapWord(8, pabyRec + nRecordSize);
@@ -47334,6 +48497,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
             for (i = 0; i < psObject->nVertices; i++) {
@@ -47344,7 +48509,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 ByteCopy(psObject->padfZ + i, pabyRec + nRecordSize, 8);
                 if (bBigEndian)
                     SwapWord(8, pabyRec + nRecordSize);
@@ -47731,6 +48902,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #endif
              || psObject->nSHPType == SHPT_POLYGONZ ||
@@ -47746,6 +48918,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
             for (i = 0; i < psObject->nVertices; i++) {
@@ -47756,7 +48930,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 ByteCopy(psObject->padfM + i, pabyRec + nRecordSize, 8);
                 if (bBigEndian)
                     SwapWord(8, pabyRec + nRecordSize);
@@ -47768,6 +48948,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*  Extract vertices for a MultiPoint.                    */
 =======
 <<<<<<< HEAD
@@ -47786,13 +48967,20 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
     /*  Extract vertices for a MultiPoint.                                  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*  Extract vertices for a MultiPoint.                    */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     else if (psObject->nSHPType == SHPT_MULTIPOINT ||
              psObject->nSHPType == SHPT_MULTIPOINTZ ||
              psObject->nSHPType == SHPT_MULTIPOINTM) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int32 nPoints = psObject->nVertices;
 =======
 <<<<<<< HEAD
@@ -47813,10 +49001,16 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 
         _SHPSetBounds(pabyRec + 12, psObject);
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
         _SHPSetBounds(pabyRec + 12, psObject);
+=======
+=======
+        int32 nPoints = psObject->nVertices;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49269,7 +50463,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             SwapWord(4, &nPoints);
         ByteCopy(&nPoints, pabyRec + 44, 4);
 
-        for (i = 0; i < psObject->nVertices; i++) {
+        for (int i = 0; i < psObject->nVertices; i++) {
             ByteCopy(psObject->padfX + i, pabyRec + 48 + i * 16, 8);
             ByteCopy(psObject->padfY + i, pabyRec + 48 + i * 16 + 8, 8);
 
@@ -49734,6 +50928,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -49752,6 +50947,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -49857,6 +51054,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -49895,6 +51093,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -50035,6 +51235,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
                 SHP_SWAP64(pabyRec + nRecordSize);
 #endif
 =======
+=======
+                ByteCopy(psObject->padfZ + i, pabyRec + nRecordSize, 8);
+                if (bBigEndian)
+                    SwapWord(8, pabyRec + nRecordSize);
+                nRecordSize += 8;
+            }
+        }
+
+        if (psObject->bMeasureIsUsed &&
+            (psObject->nSHPType == SHPT_MULTIPOINTZ ||
+             psObject->nSHPType == SHPT_MULTIPOINTM)) {
+            ByteCopy(&(psObject->dfMMin), pabyRec + nRecordSize, 8);
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             if (bBigEndian)
                 SwapWord(8, pabyRec + nRecordSize);
             nRecordSize += 8;
@@ -50044,6 +51257,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
                 SwapWord(8, pabyRec + nRecordSize);
             nRecordSize += 8;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            for (int i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
             if (bBigEndian)
                 SwapWord(8, pabyRec + nRecordSize);
@@ -50055,7 +51275,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             nRecordSize += 8;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
             for (i = 0; i < psObject->nVertices; i++) {
+=======
+=======
+            for (int i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 ByteCopy(psObject->padfM + i, pabyRec + nRecordSize, 8);
                 if (bBigEndian)
                     SwapWord(8, pabyRec + nRecordSize);
@@ -50069,6 +51295,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     }
 
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50180,6 +51407,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*      Write point.                                                    */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -50229,7 +51458,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*      Write point.                            */
 =======
     /*      Write point.                                                    */
@@ -50515,8 +51749,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      Write point.                            */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     /*      Write point.                                                    */
 =======
@@ -50536,7 +51773,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      Write point.                                                    */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     else if (psObject->nSHPType == SHPT_POINT ||
              psObject->nSHPType == SHPT_POINTZ ||
@@ -50646,6 +51888,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -50763,10 +52006,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     else {
         /* unknown type */
         assert(false);
@@ -50929,6 +52179,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -50937,6 +52188,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -51141,6 +52394,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     else {
         /* unknown type */
         assert(false);
@@ -51226,6 +52481,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -51258,7 +52514,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* -------------------------------------------------------------------- */
@@ -51301,6 +52562,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -51331,6 +52593,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -51442,11 +52706,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*      rewriting the last record of the file, then we can update it in */
     /*      place. Otherwise if rewriting an existing record, and it will   */
     /*      fit, then put it  back where the original came from.  Otherwise */
     /*      write at the end.                                               */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51514,11 +52786,14 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     /*      rewriting and existing record, and it will fit, then put it     */
     /*      back where the original came from.  Otherwise write at the end. */
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51596,6 +52871,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     SAOffset nRecordOffset;
     bool bAppendToLastRecord = false;
@@ -52105,6 +53384,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      back where the original came from.  Otherwise write at the end. */
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
     /* -------------------------------------------------------------------- */
     SAOffset nRecordOffset;
     bool bAppendToLastRecord = false;
@@ -52154,18 +53434,27 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
     /*      rewriting and existing record, and it will fit, then put it     */
     /*      back where the original came from.  Otherwise write at the end. */
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
-    if (nShapeId == -1 || psSHP->panRecSize[nShapeId] < nRecordSize - 8) {
-        unsigned int nExpectedSize = psSHP->nFileSize + nRecordSize;
-
-        if (nExpectedSize < psSHP->nFileSize) // due to unsigned int overflow
-        {
-            char str[128];
-
+    SAOffset nRecordOffset;
+    bool bAppendToLastRecord = false;
+    bool bAppendToFile = false;
+    if (nShapeId != -1 &&
+        psSHP->panRecOffset[nShapeId] + psSHP->panRecSize[nShapeId] + 8 ==
+            psSHP->nFileSize) {
+        nRecordOffset = psSHP->panRecOffset[nShapeId];
+        bAppendToLastRecord = true;
+    }
+    else if (nShapeId == -1 || psSHP->panRecSize[nShapeId] < nRecordSize - 8) {
+        if (psSHP->nFileSize > UINT_MAX - nRecordSize) {
+            char str[255];
             snprintf(str, sizeof(str),
                      "Failed to write shape object. "
-                     "File size cannot reach %u + %u.",
+                     "The maximum file size of %u has been reached. "
+                     "The current record of size %u cannot be added.",
                      psSHP->nFileSize, nRecordSize);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -52176,8 +53465,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            str[sizeof(str) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(str);
             free(pabyRec);
             return -1;
@@ -52231,6 +53529,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52341,6 +53640,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     uint32_t i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 #if !defined(SHP_BIG_ENDIAN)
@@ -52372,7 +53673,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     int32 i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 =======
@@ -52407,6 +53713,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     int32 i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52465,6 +53772,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     i32 = (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 =======
@@ -53052,6 +54361,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     i32 = (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (!bBigEndian)
         SwapWord(4, &i32);
     ByteCopy(&i32, pabyRec, 4);
@@ -53069,6 +54380,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /* -------------------------------------------------------------------- */
     /*      Write out record.                                               */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53327,6 +54639,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
     /* -------------------------------------------------------------------- */
     /*      Guard FSeek with check for whether we're already at position;   */
@@ -53346,6 +54662,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             free(pabyRec);
             return -1;
         }
+<<<<<<< HEAD
     }
     if (psSHP->sHooks.FWrite(pabyRec, nRecordSize, 1, psSHP->fpSHP) < 1) {
 <<<<<<< HEAD
@@ -53600,14 +54917,34 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    }
+    if (psSHP->sHooks.FWrite(pabyRec, nRecordSize, 1, psSHP->fpSHP) < 1) {
+        char szErrorMsg[200];
+
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Error in psSHP->sHooks.FWrite() while writing object of %u "
+                 "bytes to .shp file: %s",
+                 nRecordSize, strerror(errno));
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         free(pabyRec);
         return -1;
     }
 
     free(pabyRec);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53676,6 +55013,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -53787,7 +55126,14 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (bAppendToLastRecord) {
         psSHP->nFileSize = psSHP->panRecOffset[nShapeId] + nRecordSize;
     }
@@ -53816,6 +55162,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -53886,6 +55237,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
     if (bExtendFile) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -54111,7 +55463,14 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (nShapeId == -1)
             nShapeId = psSHP->nRecords++;
 
@@ -54159,6 +55518,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -54334,6 +55694,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*      Expand file wide bounds based on this shape.                    */
 =======
 =======
@@ -54785,6 +56147,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     /*    Expand file wide bounds based on this shape.            */
     /* -------------------------------------------------------------------- */
     if (bFirstFeature) {
@@ -54805,8 +56169,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    /*    Expand file wide bounds based on this shape.            */
+    /* -------------------------------------------------------------------- */
+    if (bFirstFeature) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (psObject->nSHPType == SHPT_NULL || psObject->nVertices == 0) {
             psSHP->adBoundsMin[0] = psSHP->adBoundsMax[0] = 0.0;
             psSHP->adBoundsMin[1] = psSHP->adBoundsMax[1] = 0.0;
@@ -54861,6 +56236,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -54893,10 +56269,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -55195,8 +56578,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -55216,7 +56602,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     for (i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psSHP->adBoundsMin[0] = MIN(psSHP->adBoundsMin[0], psObject->padfX[i]);
         psSHP->adBoundsMin[1] = MIN(psSHP->adBoundsMin[1], psObject->padfY[i]);
         psSHP->adBoundsMax[0] = MAX(psSHP->adBoundsMax[0], psObject->padfX[i]);
@@ -55240,11 +56631,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 
 /************************************************************************/
 /*                         SHPAllocBuffer()                             */
-
 /************************************************************************/
 
 static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55403,10 +56794,17 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (pBuffer == SHPLIB_NULLPTR)
         return calloc(1, nSize);
 
@@ -55644,6 +57042,7 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -55884,6 +57283,8 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (pBuffer == SHPLIB_NULLPTR)
         return calloc(1, nSize);
 
@@ -55892,8 +57293,11 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -55903,7 +57307,12 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
     (*pBuffer) += nSize;
     return pRet;
@@ -55911,12 +57320,12 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 
 /************************************************************************/
 /*                    SHPReallocObjectBufIfNecessary()                  */
-
 /************************************************************************/
 
 static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
                                                      int nObjectBufSize)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56048,10 +57457,17 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (nObjectBufSize == 0) {
         nObjectBufSize = 4 * sizeof(double);
     }
@@ -56456,6 +57872,9 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -56742,6 +58161,8 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (nObjectBufSize == 0) {
         nObjectBufSize = 4 * sizeof(double);
     }
@@ -56753,8 +58174,11 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
         if (pBuffer != SHPLIB_NULLPTR) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -56772,7 +58196,12 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->pabyObjectBuf = pBuffer;
             psSHP->nObjectBufSize = nObjectBufSize;
         }
@@ -56825,6 +58254,7 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -56965,6 +58395,8 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /*      Read the vertices, parts, and other non-attribute information   */
 /*      for one shape.                                                  */
 =======
@@ -56998,7 +58430,12 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /*      Read the vertices, parts, and other non-attribute information    */
 /*    for one shape.                            */
 =======
@@ -57135,6 +58572,7 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -57162,6 +58600,8 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
@@ -57190,9 +58630,12 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 /*      Read the vertices, parts, and other non-attribute information    */
 /*    for one shape.                            */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57238,6 +58681,8 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
@@ -57377,11 +58822,17 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 SHPObject SHPAPI_CALL1(*) SHPReadObject(const SHPHandle psSHP, int hEntity)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57498,6 +58949,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(const SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     /*      Validate the record/entity number.                              */
     /* -------------------------------------------------------------------- */
@@ -58156,6 +59613,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -58273,6 +59731,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -58583,6 +60043,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             snprintf(str, sizeof(str),
                      "Error in fseek()/fread() reading object from .shx file "
                      "at offset %d",
@@ -58609,13 +60071,20 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             snprintf(str, sizeof(str),
                      "Error in fseek()/fread() reading object from .shx file "
                      "at offset %d",
                      100 + 8 * hEntity);
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+            str[sizeof(str) - 1] = '\0';
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
             psSHP->sHooks.Error(str);
+<<<<<<< HEAD
 <<<<<<< HEAD
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -59247,27 +60716,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 =======
             return NULL;
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         }
         if (!bBigEndian)
             SwapWord(4, &nOffset);
         if (!bBigEndian)
             SwapWord(4, &nLength);
 
-        if (nOffset > (unsigned int)INT_MAX) {
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
             char str[128];
-
             snprintf(str, sizeof(str), "Invalid offset for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
 
             psSHP->sHooks.Error(str);
-            return NULL;
+            return SHPLIB_NULLPTR;
         }
-        if (nLength > (unsigned int)(INT_MAX / 2 - 4)) {
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
             char str[128];
-
             snprintf(str, sizeof(str), "Invalid length for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             psSHP->sHooks.Error(str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             return NULL;
@@ -59495,7 +60968,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
 
         psSHP->panRecOffset[hEntity] = nOffset * 2;
@@ -59543,6 +61026,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -59630,10 +61114,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
     if (nEntitySize > psSHP->nBufSize) {
         int nNewBufSize = nEntitySize;
@@ -59702,6 +61193,9 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
     nEntitySize = psSHP->panRecSize[hEntity] + 8;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
     const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -59748,6 +61242,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 =======
     const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
@@ -60122,7 +61617,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (nNewBufSize < INT_MAX - nNewBufSize / 3)
             nNewBufSize += nNewBufSize / 3;
         else
@@ -60168,6 +61668,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -60198,6 +61699,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -61168,7 +62671,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         /* and do not trust the file size in the header the first time we */
         /* need to allocate more than 10 MB */
         if (nNewBufSize >= 10 * 1024 * 1024) {
@@ -61181,6 +62691,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                 else
                     psSHP->nFileSize = STATIC_CAST(unsigned int, nFileSize);
             }
+<<<<<<< HEAD
 
             if (psSHP->panRecOffset[hEntity] >= psSHP->nFileSize ||
                 /* We should normally use nEntitySize instead of*/
@@ -61278,22 +62789,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                 psSHP->nFileSize = 0xFFFFFFFFU;
             else
                 psSHP->nFileSize = (unsigned int)nFileSize;
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
             if (psSHP->panRecOffset[hEntity] >= psSHP->nFileSize ||
-                (unsigned int)nEntitySize >
+                /* We should normally use nEntitySize instead of*/
+                /* psSHP->panRecSize[hEntity] in the below test, but because of
+                 */
+                /* the case of non conformant .shx files detailed a bit below,
+                 */
+                /* let be more tolerant */
+                psSHP->panRecSize[hEntity] >
                     psSHP->nFileSize - psSHP->panRecOffset[hEntity]) {
                 char str[128];
-
                 snprintf(str, sizeof(str),
-                         "Error in fread() reading object of size %u at offset "
+                         "Error in fread() reading object of size %d at offset "
                          "%u from .shp file",
                          nEntitySize, psSHP->panRecOffset[hEntity]);
+                str[sizeof(str) - 1] = '\0';
 
                 psSHP->sHooks.Error(str);
-                return NULL;
+                return SHPLIB_NULLPTR;
             }
         }
 
+<<<<<<< HEAD
         pabyRecNew = (uchar *)SfRealloc(psSHP->pabyRec, nNewBufSize);
         if (pabyRecNew == NULL) {
             char szError[200];
@@ -61309,12 +62829,26 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        uchar *pabyRecNew =
+            STATIC_CAST(uchar *, SfRealloc(psSHP->pabyRec, nNewBufSize));
+        if (pabyRecNew == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                      "Not enough memory to allocate requested memory "
                      "(nNewBufSize=%d). "
                      "Probably broken SHP file",
                      nNewBufSize);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61428,10 +62962,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
             return SHPLIB_NULLPTR;
@@ -61558,6 +63099,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -61596,6 +63138,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szError);
             return NULL;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -61798,13 +63342,18 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
             return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -61816,7 +63365,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
 
         /* Only set new buffer size after successful alloc */
@@ -61863,6 +63417,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -61885,6 +63440,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psSHP->pabyRec == SHPLIB_NULLPTR) {
         return SHPLIB_NULLPTR;
 =======
@@ -62168,6 +63725,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (psSHP->pabyRec == SHPLIB_NULLPTR) {
         return SHPLIB_NULLPTR;
 =======
@@ -62176,8 +63735,18 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     if (psSHP->pabyRec == NULL) {
         return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (psSHP->pabyRec == SHPLIB_NULLPTR) {
+        return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* -------------------------------------------------------------------- */
@@ -62228,6 +63797,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -62305,14 +63875,19 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62367,6 +63942,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -62520,7 +64097,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "Error in fseek() reading object from .shp file at offset %u",
                  psSHP->panRecOffset[hEntity]);
@@ -62565,6 +64149,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -62644,10 +64229,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return SHPLIB_NULLPTR;
     }
 
@@ -62849,7 +64441,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    const int nBytesRead = STATIC_CAST(
+        int, psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
     nBytesRead =
         (int)psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP);
@@ -63449,6 +65051,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -63470,10 +65073,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -63584,6 +65190,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         memcpy(&nSHPContentLength, psSHP->pabyRec + 4, 4);
 #if !defined(SHP_BIG_ENDIAN)
         SHP_SWAP32(&(nSHPContentLength));
@@ -63807,6 +65417,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -64060,23 +65671,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         memcpy(&nSHPContentLength, psSHP->pabyRec + 4, 4);
         if (!bBigEndian)
             SwapWord(4, &(nSHPContentLength));
         if (nSHPContentLength < 0 || nSHPContentLength > INT_MAX / 2 - 4 ||
             2 * nSHPContentLength + 8 != nBytesRead) {
             char str[128];
-
             snprintf(str, sizeof(str),
                      "Sanity check failed when trying to recover from "
                      "inconsistent .shx/.shp with shape %d",
                      hEntity);
+            str[sizeof(str) - 1] = '\0';
 
             psSHP->sHooks.Error(str);
+<<<<<<< HEAD
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
     }
     else if (nBytesRead != nEntitySize) {
@@ -64123,6 +65746,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -64292,6 +65916,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "Error in fread() reading object of size %d at offset %u from "
                  ".shp file",
@@ -65040,6 +66666,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "Error in fread() reading object of size %d at offset %u from "
                  ".shp file",
@@ -65252,33 +66880,49 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
-                 "Error in fread() reading object of size %u at offset %u from "
+                 "Error in fread() reading object of size %d at offset %u from "
                  ".shp file",
                  nEntitySize, psSHP->panRecOffset[hEntity]);
+        str[sizeof(str) - 1] = '\0';
 
         psSHP->sHooks.Error(str);
-        return NULL;
+        return SHPLIB_NULLPTR;
     }
 
     if (8 + 4 > nEntitySize) {
+        char szErrorMsg[160];
         snprintf(szErrorMsg, sizeof(szErrorMsg),
                  "Corrupted .shp file : shape %d : nEntitySize = %d", hEntity,
                  nEntitySize);
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
         psSHP->sHooks.Error(szErrorMsg);
-        return NULL;
+        return SHPLIB_NULLPTR;
     }
+    int nSHPType;
     memcpy(&nSHPType, psSHP->pabyRec + 8, 4);
 
     if (bBigEndian)
         SwapWord(4, &(nSHPType));
 
     /* -------------------------------------------------------------------- */
-    /*      Allocate and minimally initialize the object.                   */
+    /*    Allocate and minimally initialize the object.            */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    SHPObject *psShape;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psSHP->bFastModeReadObject) {
         if (psSHP->psCachedObject->bFastModeReadObject) {
             psSHP->sHooks.Error("Invalid read pattern in fast read mode. "
@@ -65321,6 +66965,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -65343,6 +66988,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -65594,14 +67241,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             return SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
 
         psShape = psSHP->psCachedObject;
@@ -65638,6 +67296,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -65709,6 +67368,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     else {
         psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
     }
@@ -65805,6 +67470,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -65843,6 +67509,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     else
         psShape = (SHPObject *)calloc(1, sizeof(SHPObject));
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -66079,13 +67747,18 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     else {
         psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
     }
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -66103,7 +67776,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     psShape->nShapeId = hEntity;
     psShape->nSHPType = nSHPType;
     psShape->bMeasureIsUsed = FALSE;
@@ -66148,6 +67826,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -66233,6 +67912,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*  Extract vertices for a Polygon or Arc.                              */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -66282,7 +67963,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*  Extract vertices for a Polygon or Arc.                */
 =======
     /*  Extract vertices for a Polygon or Arc.                              */
@@ -66568,8 +68254,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     /*  Extract vertices for a Polygon or Arc.                */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     /*  Extract vertices for a Polygon or Arc.                              */
 =======
@@ -66589,7 +68278,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     /*  Extract vertices for a Polygon or Arc.                              */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* ==================================================================== */
     if (psShape->nSHPType == SHPT_POLYGON || psShape->nSHPType == SHPT_ARC ||
         psShape->nSHPType == SHPT_POLYGONZ ||
@@ -66634,6 +68328,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -66727,10 +68422,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -66827,6 +68529,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -66860,6 +68563,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
@@ -67050,6 +68755,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         unsigned char **ppBuffer = NULL;
 
 =======
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
             char szErrorMsg[160];
@@ -67229,7 +68935,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         unsigned char *pBuffer = NULL;
         unsigned char **ppBuffer = NULL;
 
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
+            char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
@@ -67286,8 +68998,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
         if (40 + 8 + 4 > nEntitySize) {
@@ -67325,7 +69040,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                      hEntity, nEntitySize);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -67370,6 +69090,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -67455,6 +69176,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         /*      Get the X/Y bounds. */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -67671,6 +69394,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         /*    Get the X/Y bounds.                        */
 =======
         /*      Get the X/Y bounds. */
@@ -67727,6 +69452,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         /*      Get the X/Y bounds. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -68303,6 +70029,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         /*      Get the X/Y bounds. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /*    Get the X/Y bounds.                        */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         /* --------------------------------------------------------------------
          */
         memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
@@ -68327,6 +70058,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int32 nPoints;
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
         int32 nParts;
@@ -68336,6 +70068,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        int32 nPoints;
+        memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
+        int32 nParts;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         memcpy(&nParts, psSHP->pabyRec + 36 + 8, 4);
 
         if (bBigEndian)
@@ -68428,6 +70165,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -68476,6 +70214,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             char szErrorMsg[160];
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -68552,6 +70292,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             char szErrorMsg[160];
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -68716,6 +70458,9 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
@@ -68895,6 +70640,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 =======
@@ -68903,6 +70649,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
@@ -68939,7 +70687,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -68979,6 +70732,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69003,6 +70757,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 =======
 <<<<<<< HEAD
@@ -69300,6 +71056,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 =======
         nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
@@ -69313,8 +71071,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (psShape->nSHPType == SHPT_POLYGONZ ||
             psShape->nSHPType == SHPT_ARCZ ||
             psShape->nSHPType == SHPT_MULTIPATCH) {
@@ -69362,6 +71129,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69455,10 +71223,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u, "
@@ -69527,6 +71302,9 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
             char szErrorMsg[160];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -69658,6 +71436,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -69670,6 +71449,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
             char szErrorMsg[160];
@@ -70009,7 +71790,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -70053,6 +71839,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -70146,10 +71933,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
 
@@ -70316,6 +72110,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize =
@@ -70370,6 +72165,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize =
@@ -70560,6 +72357,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
 
@@ -70567,8 +72366,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             const int nObjectBufSize =
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -70582,7 +72384,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 4 * sizeof(double) * nPoints + 2 * sizeof(int) * nParts;
             pBuffer = SHPReallocObjectBufIfNecessary(psSHP, nObjectBufSize);
             ppBuffer = &pBuffer;
@@ -70627,6 +72434,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -70657,6 +72465,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -70729,7 +72539,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfY = STATIC_CAST(
@@ -70738,6 +72555,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfM = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70793,6 +72611,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         psShape->nParts = nParts;
         psShape->panPartStart =
@@ -70874,6 +72696,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 
         psShape->nParts = nParts;
         psShape->panPartStart =
@@ -71553,20 +73376,27 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
         psShape->padfM =
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
         psShape->nParts = nParts;
         psShape->panPartStart =
-            (int *)SHPAllocBuffer(ppBuffer, nParts * sizeof(int));
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
         psShape->panPartType =
-            (int *)SHPAllocBuffer(ppBuffer, nParts * sizeof(int));
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
 
-        if (psShape->padfX == NULL || psShape->padfY == NULL ||
-            psShape->padfZ == NULL || psShape->padfM == NULL ||
-            psShape->panPartStart == NULL || psShape->panPartType == NULL) {
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR ||
+            psShape->panPartStart == SHPLIB_NULLPTR ||
+            psShape->panPartType == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Not enough memory to allocate requested memory "
-                     "(nPoints=%d, nParts=%d) for shape %d. "
+                     "(nPoints=%u, nParts=%u) for shape %d. "
                      "Probably broken SHP file",
+<<<<<<< HEAD
                      hEntity, nPoints, nParts);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71601,17 +73431,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
                      nPoints, nParts, hEntity);
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
         psShape->padfX = STATIC_CAST(
@@ -71655,7 +73493,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -71699,6 +73542,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -71800,6 +73644,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(uint32_t, i) < nParts; i++)
 =======
 =======
@@ -71833,7 +73679,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
 =======
         for (i = 0; (int32)i < nParts; i++)
@@ -72115,8 +73966,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         for (i = 0; (int32)i < nParts; i++)
 =======
@@ -72136,7 +73990,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         for (i = 0; (int32)i < nParts; i++)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->panPartType[i] = SHPP_RING;
 
         /* --------------------------------------------------------------------
@@ -72183,6 +74042,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72281,6 +74141,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(uint32_t, i) < nParts; i++) {
 #if defined(SHP_BIG_ENDIAN)
             SHP_SWAP32(psShape->panPartStart + i);
@@ -72311,7 +74173,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -72342,6 +74209,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72400,6 +74268,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         for (i = 0; (int32)i < nParts; i++) {
 =======
@@ -72544,7 +74414,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         for (i = 0; (int32)i < nParts; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             if (bBigEndian)
                 SwapWord(4, psShape->panPartStart + i);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -72610,6 +74485,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72634,6 +74510,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 char szErrorMsg[160];
 =======
 <<<<<<< HEAD
@@ -72714,6 +74596,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 char szErrorMsg[160];
@@ -72904,7 +74787,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 snprintf(szErrorMsg, sizeof(szErrorMsg),
                          "Corrupted .shp file : shape %d : panPartStart[%d] = "
                          "%d, nVertices = %d",
@@ -72948,6 +74839,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72972,6 +74864,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 <<<<<<< HEAD
@@ -73052,6 +74950,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
@@ -73242,7 +75141,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 psSHP->sHooks.Error(szErrorMsg);
                 SHPDestroyObject(psShape);
                 return SHPLIB_NULLPTR;
@@ -73287,6 +75194,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -73311,6 +75219,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 char szErrorMsg[160];
 =======
 <<<<<<< HEAD
@@ -73391,6 +75305,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 char szErrorMsg[160];
@@ -73581,7 +75496,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 snprintf(szErrorMsg, sizeof(szErrorMsg),
                          "Corrupted .shp file : shape %d : panPartStart[%d] = "
                          "%d, panPartStart[%d] = %d",
@@ -73625,6 +75548,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -73649,6 +75573,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 <<<<<<< HEAD
@@ -73729,6 +75659,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
@@ -73919,7 +75850,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 psSHP->sHooks.Error(szErrorMsg);
                 SHPDestroyObject(psShape);
                 return SHPLIB_NULLPTR;
@@ -73964,6 +75903,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -73996,10 +75936,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         int nOffset = 44 + 8 + 4 * nParts;
 =======
 <<<<<<< HEAD
@@ -74298,8 +76245,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         int nOffset = 44 + 8 + 4 * nParts;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         nOffset = 44 + 8 + 4 * nParts;
 =======
@@ -74319,7 +76269,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         nOffset = 44 + 8 + 4 * nParts;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         /* --------------------------------------------------------------------
          */
@@ -74366,6 +76321,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -74464,6 +76420,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; STATIC_CAST(uint32_t, i) < nParts; i++) {
 #if defined(SHP_BIG_ENDIAN)
                 SHP_SWAP32(psShape->panPartType + i);
@@ -74494,7 +76452,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -74525,6 +76488,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74583,6 +76547,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             for (i = 0; (int32)i < nParts; i++) {
 =======
@@ -74727,7 +76693,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             for (i = 0; (int32)i < nParts; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 if (bBigEndian)
                     SwapWord(4, psShape->panPartType + i);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -74797,6 +76768,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -74900,6 +76872,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(uint32_t, i) < nPoints; i++) {
 #if defined(SHP_BIG_ENDIAN)
             SHP_SWAPDOUBLE_CPY(psShape->padfX + i,
@@ -74939,7 +76913,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
         for (i = 0; (int32)i < nPoints; i++) {
@@ -74966,6 +76945,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75167,6 +77147,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -75222,6 +77204,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             memcpy(psShape->padfX + i, psSHP->pabyRec + nOffset + i * 16, 8);
 
             memcpy(psShape->padfY + i, psSHP->pabyRec + nOffset + i * 16 + 8,
@@ -75677,6 +77664,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             memcpy(&(psShape->dfZMin), psSHP->pabyRec + nOffset, 8);
             memcpy(&(psShape->dfZMax), psSHP->pabyRec + nOffset + 8, 8);
@@ -75700,6 +77688,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
             for (i = 0; (int32)i < nPoints; i++) {
@@ -75710,7 +77700,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 memcpy(psShape->padfZ + i,
                        psSHP->pabyRec + nOffset + 16 + i * 8, 8);
                 if (bBigEndian)
@@ -75724,6 +77720,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             nOffset += 16 + 8 * nPoints;
         }
         else if (psShape->bFastModeReadObject) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75784,6 +77781,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -76035,14 +78034,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             psShape->padfZ = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            psShape->padfZ = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
 
         /* --------------------------------------------------------------------
@@ -76053,6 +78063,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         /*      (options), and the M shapes. */
         /* --------------------------------------------------------------------
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76123,6 +78134,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 <<<<<<< HEAD
@@ -76258,6 +78273,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -76302,6 +78318,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 =======
@@ -76449,7 +78467,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             memcpy(&(psShape->dfMMin), psSHP->pabyRec + nOffset, 8);
             memcpy(&(psShape->dfMMax), psSHP->pabyRec + nOffset + 8, 8);
 
@@ -76492,6 +78515,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76589,10 +78613,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
             for (i = 0; (int32)i < nPoints; i++) {
@@ -76619,6 +78650,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76820,6 +78852,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -76903,6 +78937,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 memcpy(psShape->padfM + i,
                        psSHP->pabyRec + nOffset + 16 + i * 8, 8);
                 if (bBigEndian)
@@ -76953,6 +78992,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76975,6 +79015,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -77226,14 +79268,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             psShape->padfM = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            psShape->padfM = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
     }
 
@@ -77276,6 +79329,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -77361,6 +79415,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*  Extract vertices for a MultiPoint.                                  */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -77413,7 +79469,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*  Extract vertices for a MultiPoint.                    */
 =======
     /*  Extract vertices for a MultiPoint.                                  */
@@ -77697,8 +79758,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     /*  Extract vertices for a MultiPoint.                    */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     /*  Extract vertices for a MultiPoint.                                  */
 =======
@@ -77718,7 +79782,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     /*  Extract vertices for a MultiPoint.                                  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* ==================================================================== */
     else if (psShape->nSHPType == SHPT_MULTIPOINT ||
              psShape->nSHPType == SHPT_MULTIPOINTM ||
@@ -77761,6 +79830,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -77927,6 +79997,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (44 + 4 > nEntitySize) {
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -78760,6 +80832,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         if (44 + 4 > nEntitySize) {
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -78793,14 +80867,19 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         unsigned char *pBuffer = NULL;
         unsigned char **ppBuffer = NULL;
 
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         if (44 + 4 > nEntitySize) {
+            char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
-            return NULL;
+            return SHPLIB_NULLPTR;
         }
+        int32 nPoints;
         memcpy(&nPoints, psSHP->pabyRec + 44, 4);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -78809,6 +80888,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
         /* nPoints is unsigned */
         if (/* nPoints < 0 || */ nPoints > 50 * 1000 * 1000) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             char szErrorMsg[160];
@@ -78953,9 +81033,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 =======
+=======
+            char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             snprintf(szErrorMsg, sizeof(szErrorMsg),
-                     "Corrupted .shp file : shape %d : nPoints = %d", hEntity,
+                     "Corrupted .shp file : shape %d : nPoints = %u", hEntity,
                      nPoints);
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -78968,13 +81052,23 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                      "Corrupted .shp file : shape %d : nPoints = %d", hEntity,
                      nPoints);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79025,6 +81119,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         int nRequiredSize = 48 + nPoints * 16;
 =======
 <<<<<<< HEAD
@@ -79327,6 +81423,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         int nRequiredSize = 48 + nPoints * 16;
 =======
         nRequiredSize = 48 + nPoints * 16;
@@ -79340,8 +81438,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        int nRequiredSize = 48 + nPoints * 16;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (psShape->nSHPType == SHPT_MULTIPOINTZ) {
             nRequiredSize += 16 + nPoints * 8;
         }
@@ -79384,6 +81491,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -79477,10 +81585,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nPoints = %u, "
@@ -79549,6 +81664,9 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
             char szErrorMsg[160];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -79680,6 +81798,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -79692,6 +81811,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
             char szErrorMsg[160];
@@ -80031,7 +82152,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -80075,6 +82201,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -80168,10 +82295,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
 
@@ -80340,6 +82474,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize = 4 * sizeof(double) * nPoints;
@@ -80398,6 +82533,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize = 4 * sizeof(double) * nPoints;
@@ -80592,6 +82729,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
 
@@ -80599,8 +82738,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             const int nObjectBufSize = 4 * sizeof(double) * nPoints;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -80614,7 +82756,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             pBuffer = SHPReallocObjectBufIfNecessary(psSHP, nObjectBufSize);
             ppBuffer = &pBuffer;
         }
@@ -80659,6 +82806,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -80689,6 +82837,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -80761,7 +82911,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfY = STATIC_CAST(
@@ -80770,6 +82927,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfM = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80825,6 +82983,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         if (psShape->padfX == SHPLIB_NULLPTR ||
             psShape->padfY == SHPLIB_NULLPTR ||
@@ -80898,6 +83060,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 
         if (psShape->padfX == SHPLIB_NULLPTR ||
             psShape->padfY == SHPLIB_NULLPTR ||
@@ -81461,13 +83624,19 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
         psShape->padfM =
             (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
-        if (psShape->padfX == NULL || psShape->padfY == NULL ||
-            psShape->padfZ == NULL || psShape->padfM == NULL) {
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Not enough memory to allocate requested memory "
-                     "(nPoints=%d) for shape %d. "
+                     "(nPoints=%u) for shape %d. "
                      "Probably broken SHP file",
+<<<<<<< HEAD
                      hEntity, nPoints);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81495,17 +83664,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
                      nPoints, hEntity);
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
         psShape->padfX = STATIC_CAST(
@@ -81541,7 +83718,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -81585,6 +83767,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -81688,6 +83871,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(uint32_t, i) < nPoints; i++) {
 #if defined(SHP_BIG_ENDIAN)
             SHP_SWAPDOUBLE_CPY(psShape->padfX + i,
@@ -81727,7 +83912,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
         for (i = 0; (int32)i < nPoints; i++) {
@@ -81754,6 +83944,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81955,6 +84146,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -83293,6 +85486,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             memcpy(psShape->padfX + i, psSHP->pabyRec + 48 + 16 * i, 8);
             memcpy(psShape->padfY + i, psSHP->pabyRec + 48 + 16 * i + 8, 8);
 
@@ -83302,6 +85500,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                 SwapWord(8, psShape->padfY + i);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         int nOffset = 48 + 16 * nPoints;
@@ -83430,10 +85629,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
         nOffset = 48 + 16 * nPoints;
+=======
+        int nOffset = 48 + 16 * nPoints;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
         /* --------------------------------------------------------------------
          */
-        /*      Get the X/Y bounds. */
+        /*    Get the X/Y bounds.                        */
         /* --------------------------------------------------------------------
          */
         memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
@@ -83464,9 +85666,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             if (bBigEndian)
                 SwapWord(8, &(psShape->dfZMax));
 
+<<<<<<< HEAD
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 memcpy(psShape->padfZ + i,
                        psSHP->pabyRec + nOffset + 16 + i * 8, 8);
                 if (bBigEndian)
@@ -83480,6 +85689,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             nOffset += 16 + 8 * nPoints;
         }
         else if (psShape->bFastModeReadObject)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83540,6 +85750,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -83791,14 +86003,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             psShape->padfZ = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            psShape->padfZ = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
         /* --------------------------------------------------------------------
          */
@@ -83808,6 +86031,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         /*      (options), and the M shapes. */
         /* --------------------------------------------------------------------
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83878,6 +86102,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 <<<<<<< HEAD
@@ -84013,6 +86241,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -84057,6 +86286,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 =======
@@ -84204,7 +86435,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             memcpy(&(psShape->dfMMin), psSHP->pabyRec + nOffset, 8);
             memcpy(&(psShape->dfMMax), psSHP->pabyRec + nOffset + 8, 8);
 
@@ -84247,6 +86483,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -84344,10 +86581,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
             for (i = 0; (int32)i < nPoints; i++) {
@@ -84374,6 +86618,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84575,6 +86820,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -84658,6 +86905,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             for (i = 0; (int32)i < nPoints; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                 memcpy(psShape->padfM + i,
                        psSHP->pabyRec + nOffset + 16 + i * 8, 8);
                 if (bBigEndian)
@@ -84708,6 +86960,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -84730,6 +86983,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -84981,14 +87236,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             psShape->padfM = NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            psShape->padfM = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     }
 
     /* ==================================================================== */
@@ -85035,6 +87301,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -85104,6 +87371,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -85313,13 +87582,23 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         int nOffset;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         psShape->nVertices = 1;
         if (psShape->bFastModeReadObject) {
             psShape->padfX = &(psShape->dfXMin);
@@ -85368,6 +87647,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -85398,6 +87678,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -85509,7 +87791,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psShape->padfX = STATIC_CAST(double *, calloc(1, sizeof(double)));
             psShape->padfY = STATIC_CAST(double *, calloc(1, sizeof(double)));
             psShape->padfZ = STATIC_CAST(double *, calloc(1, sizeof(double)));
@@ -85537,6 +87826,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -85838,6 +88132,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -85876,6 +88171,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -86025,11 +88322,17 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
 
         if (20 + 8 + ((psShape->nSHPType == SHPT_POINTZ) ? 8 : 0) >
             nEntitySize) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86098,6 +88401,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -86209,7 +88514,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
@@ -86239,7 +88551,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
@@ -86568,6 +88883,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
@@ -86586,8 +88903,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -86600,7 +88920,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             psSHP->sHooks.Error(szErrorMsg);
             SHPDestroyObject(psShape);
             return SHPLIB_NULLPTR;
@@ -86712,7 +89037,6 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 /************************************************************************/
 /*                            SHPTypeName()                             */
-
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) SHPTypeName(int nSHPType)
@@ -86767,7 +89091,6 @@ const char SHPAPI_CALL1(*) SHPTypeName(int nSHPType)
 
 /************************************************************************/
 /*                          SHPPartTypeName()                           */
-
 /************************************************************************/
 
 const char SHPAPI_CALL1(*) SHPPartTypeName(int nPartType)
@@ -86798,11 +89121,11 @@ const char SHPAPI_CALL1(*) SHPPartTypeName(int nPartType)
 
 /************************************************************************/
 /*                          SHPDestroyObject()                          */
-
 /************************************************************************/
 
 void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86873,10 +89196,17 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psShape == SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -87175,8 +89505,11 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
     if (psShape == SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     if (psShape == NULL)
 =======
@@ -87196,7 +89529,12 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
     if (psShape == NULL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return;
 
     if (psShape->bFastModeReadObject) {
@@ -87242,6 +89580,7 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -87335,10 +89674,17 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (psShape->padfX != SHPLIB_NULLPTR)
         free(psShape->padfX);
     if (psShape->padfY != SHPLIB_NULLPTR)
@@ -87510,6 +89856,9 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 =======
     if (psShape->padfX != NULL)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
     if (psShape->padfX != SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -88621,11 +90970,107 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 }
 
 /************************************************************************/
+/*                       SHPGetPartVertexCount()                        */
+/************************************************************************/
+
+static int SHPGetPartVertexCount(const SHPObject *psObject, int iPart)
+{
+    if (iPart == psObject->nParts - 1)
+        return psObject->nVertices - psObject->panPartStart[iPart];
+    else
+        return psObject->panPartStart[iPart + 1] -
+               psObject->panPartStart[iPart];
+}
+
+/************************************************************************/
+/*                      SHPRewindIsInnerRing()                          */
+/************************************************************************/
+
+/* Return -1 in case of ambiguity */
+static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
+                                double dfTestX, double dfTestY,
+                                double dfRelativeTolerance, int bSameZ,
+                                double dfTestZ)
+{
+    /* -------------------------------------------------------------------- */
+    /*      Determine if this ring is an inner ring or an outer ring        */
+    /*      relative to all the other rings.  For now we assume the         */
+    /*      first ring is outer and all others are inner, but eventually    */
+    /*      we need to fix this to handle multiple island polygons and      */
+    /*      unordered sets of rings.                                        */
+    /*                                                                      */
+    /* -------------------------------------------------------------------- */
+
+    bool bInner = false;
+    for (int iCheckRing = 0; iCheckRing < psObject->nParts; iCheckRing++) {
+        if (iCheckRing == iOpRing)
+            continue;
+
+        const int nVertStartCheck = psObject->panPartStart[iCheckRing];
+        const int nVertCountCheck = SHPGetPartVertexCount(psObject, iCheckRing);
+
+        /* Ignore rings that don't have the same (constant) Z value as the
+         * point. */
+        /* As noted in SHPRewindObject(), this is a simplification */
+        /* of what we should ideally do. */
+        if (!bSameZ) {
+            int bZTestOK = TRUE;
+            for (int iVert = nVertStartCheck + 1;
+                 iVert < nVertStartCheck + nVertCountCheck; ++iVert) {
+                if (psObject->padfZ[iVert] != dfTestZ) {
+                    bZTestOK = FALSE;
+                    break;
+                }
+            }
+            if (!bZTestOK)
+                continue;
+        }
+
+        for (int iEdge = 0; iEdge < nVertCountCheck; iEdge++) {
+            int iNext;
+            if (iEdge < nVertCountCheck - 1)
+                iNext = iEdge + 1;
+            else
+                iNext = 0;
+
+            const double y0 = psObject->padfY[iEdge + nVertStartCheck];
+            const double y1 = psObject->padfY[iNext + nVertStartCheck];
+            /* Rule #1:
+             * Test whether the edge 'straddles' the horizontal ray from
+             * the test point (dfTestY,dfTestY)
+             * The rule #1 also excludes edges colinear with the ray.
+             */
+            if ((y0 < dfTestY && dfTestY <= y1) ||
+                (y1 < dfTestY && dfTestY <= y0)) {
+                /* Rule #2:
+                 * Test if edge-ray intersection is on the right from the
+                 * test point (dfTestY,dfTestY)
+                 */
+                const double x0 = psObject->padfX[iEdge + nVertStartCheck];
+                const double x1 = psObject->padfX[iNext + nVertStartCheck];
+                const double intersect_minus_testX =
+                    (x0 - dfTestX) + (dfTestY - y0) / (y1 - y0) * (x1 - x0);
+
+                if (fabs(intersect_minus_testX) <=
+                    dfRelativeTolerance * fabs(dfTestX)) {
+                    /* Potential shared edge, or slightly overlapping polygons
+                     */
+                    return -1;
+                }
+                else if (intersect_minus_testX < 0) {
+                    bInner = !bInner;
+                }
+            }
+        }
+    } /* for iCheckRing */
+    return bInner;
+}
+
+/************************************************************************/
 /*                          SHPRewindObject()                           */
 /*                                                                      */
 /*      Reset the winding of polygon objects to adhere to the           */
 /*      specification.                                                  */
-
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -88665,6 +91110,7 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -88722,6 +91168,8 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     (void)hSHP;
 =======
 =======
@@ -88752,6 +91200,7 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
     int iOpRing, bAltered = 0;
 
@@ -88808,6 +91257,9 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     int iOpRing, bAltered = 0;
 
@@ -88887,6 +91339,7 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -88922,6 +91375,8 @@ int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -89113,7 +91568,14 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /* -------------------------------------------------------------------- */
     /*      Do nothing if this is not a polygon object.                     */
     /* -------------------------------------------------------------------- */
@@ -89164,6 +91626,7 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -89195,6 +91658,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
@@ -89305,7 +91770,14 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     /*      Test if all points have the same Z value.                       */
     /* -------------------------------------------------------------------- */
     int bSameZ = TRUE;
@@ -89315,6 +91787,7 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
             if (psObject->padfZ[iVert] != psObject->padfZ[0]) {
                 bSameZ = FALSE;
                 break;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89421,6 +91894,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -89673,10 +92148,97 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
                 }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             }
         }
     }
+
+    /* -------------------------------------------------------------------- */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    /*      Process each of the rings.                                      */
+    /* -------------------------------------------------------------------- */
+    int bAltered = 0;
+    for (int iOpRing = 0; iOpRing < psObject->nParts; iOpRing++) {
+        const int nVertStart = psObject->panPartStart[iOpRing];
+        const int nVertCount = SHPGetPartVertexCount(psObject, iOpRing);
+
+        if (nVertCount < 2)
+            continue;
+
+        /* If a ring has a non-constant Z value, then consider it as an outer */
+        /* ring. */
+        /* NOTE: this is a rough approximation. If we were smarter, */
+        /* we would check that all points of the ring are coplanar, and compare
+         */
+        /* that to other rings in the same (oblique) plane. */
+        int bDoIsInnerRingTest = TRUE;
+        if (!bSameZ) {
+            int bPartSameZ = TRUE;
+            for (int iVert = nVertStart + 1; iVert < nVertStart + nVertCount;
+                 ++iVert) {
+                if (psObject->padfZ[iVert] != psObject->padfZ[nVertStart]) {
+                    bPartSameZ = FALSE;
+                    break;
+                }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+            }
+<<<<<<< HEAD
+        }
+    }
+=======
+            if (!bPartSameZ)
+                bDoIsInnerRingTest = FALSE;
+        }
+
+        int bInner = FALSE;
+        if (bDoIsInnerRingTest) {
+            for (int iTolerance = 0; iTolerance < 2; iTolerance++) {
+                /* In a first attempt, use a relaxed criterion to decide if a
+                 * point */
+                /* is inside another ring. If all points of the current ring are
+                 * in the */
+                /* "grey" zone w.r.t that criterion, which seems really
+                 * unlikely, */
+                /* then use the strict criterion for another pass. */
+                const double dfRelativeTolerance = (iTolerance == 0) ? 1e-9 : 0;
+                for (int iVert = nVertStart;
+                     iVert + 1 < nVertStart + nVertCount; ++iVert) {
+                    /* Use point in the middle of segment to avoid testing
+                     * common points of rings.
+                     */
+                    const double dfTestX =
+                        (psObject->padfX[iVert] + psObject->padfX[iVert + 1]) /
+                        2;
+                    const double dfTestY =
+                        (psObject->padfY[iVert] + psObject->padfY[iVert + 1]) /
+                        2;
+                    const double dfTestZ =
+                        !bSameZ ? psObject->padfZ[nVertStart] : 0;
+
+                    bInner = SHPRewindIsInnerRing(psObject, iOpRing, dfTestX,
+                                                  dfTestY, dfRelativeTolerance,
+                                                  bSameZ, dfTestZ);
+                    if (bInner >= 0)
+                        break;
+                }
+                if (bInner >= 0)
+                    break;
+            }
+            if (bInner < 0) {
+                /* Completely degenerate case. Do not bother touching order. */
+                continue;
+            }
+        }
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89699,8 +92261,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
         /*      it has to be reversed. */
         /* --------------------------------------------------------------------
          */
-        nVertStart = psObject->panPartStart[iOpRing];
 
+<<<<<<< HEAD
         if (iOpRing == psObject->nParts - 1)
             nVertCount = psObject->nVertices - psObject->panPartStart[iOpRing];
         else
@@ -90950,6 +93512,7 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -90991,12 +93554,17 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
         double dfSum = psObject->padfX[nVertStart] *
                        (psObject->padfY[nVertStart + 1] -
                         psObject->padfY[nVertStart + nVertCount - 1]);
         int iVert = nVertStart + 1;
         for (; iVert < nVertStart + nVertCount - 1; iVert++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91112,6 +93680,12 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             dfSum += psObject->padfX[iVert] *
                      (psObject->padfY[iVert + 1] - psObject->padfY[iVert - 1]);
         }
@@ -91127,12 +93701,15 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
         if ((dfSum < 0.0 && bInner) || (dfSum > 0.0 && !bInner)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             int i;
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
             int i;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -93415,6 +95992,7 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -93453,6 +96031,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -93605,7 +96185,12 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                 psObject->padfX[nVertStart + i] =
                     psObject->padfX[nVertStart + nVertCount - i - 1];
                 psObject->padfX[nVertStart + nVertCount - i - 1] = dfSaved;

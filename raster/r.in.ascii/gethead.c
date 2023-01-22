@@ -512,6 +512,7 @@ int gethead(FILE *fd, struct Cell_head *cellhd, RASTER_MAP_TYPE *d_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int scan_int(const char *s, double *i, int proj)
 =======
 <<<<<<< HEAD
@@ -570,6 +571,10 @@ static int scan_int(const char *s, double *i, int proj)
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static int scan_int(const char *s, double *i, int proj UNUSED)
 =======
 static int scan_int(const char *s, double *i, int proj)
@@ -594,6 +599,9 @@ static int scan_int(const char *s, double *i, int proj)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 static int scan_int(const char *s, double *i, int proj)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -715,7 +723,12 @@ static int scan_int(const char *s, double *i, int proj)
 =======
 static int scan_int(const char *s, double *i, int proj)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     char dummy[3];
     int *i_loc = (int *)i;
@@ -760,6 +773,7 @@ static int scan_int(const char *s, double *i, int proj)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -853,10 +867,17 @@ static int scan_int(const char *s, double *i, int proj)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     if (sscanf(s, "%d%1s", i_loc, dummy) != 1)
         return 0;
     if (*dummy)
@@ -1303,8 +1324,13 @@ static int scan_int(const char *s, double *i, int proj)
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -1369,6 +1395,8 @@ static int scan_int(const char *s, double *i, int proj)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     if (sscanf(s, "%d%1s", i_loc, dummy) != 1)
         return 0;
     if (*dummy)
@@ -1376,8 +1404,11 @@ static int scan_int(const char *s, double *i, int proj)
     if (*i_loc <= 0)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1391,7 +1422,12 @@ static int scan_int(const char *s, double *i, int proj)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         return 0;
     return 1;
 }
@@ -1435,6 +1471,7 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1467,10 +1504,17 @@ static int extract(int count, char *label, char *value, void *data, int proj,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                    int (*scanner)(const char *, double *, int))
 =======
 <<<<<<< HEAD
@@ -1769,8 +1813,11 @@ static int extract(int count, char *label, char *value, void *data, int proj,
                    int (*scanner)(const char *, double *, int))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
                    int (*scanner)())
 =======
@@ -1790,7 +1837,12 @@ static int extract(int count, char *label, char *value, void *data, int proj,
                    int (*scanner)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     if (count) {
         G_warning(_("Duplicate \"%s\" field in header"), label);

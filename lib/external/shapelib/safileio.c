@@ -129,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -202,6 +203,10 @@
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 
 =======
@@ -245,6 +250,7 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +345,8 @@ SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 =======
@@ -488,7 +496,12 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 #ifdef SHPAPI_UTF8_HOOKS
 #ifdef SHPAPI_WINDOWS
 #define WIN32_LEAN_AND_MEAN
@@ -511,6 +524,7 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -523,7 +537,10 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,10 +664,17 @@ static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 
@@ -755,6 +779,7 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 =======
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,15 +954,20 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+=======
 
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -975,7 +1005,13 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     (void)pvUserData;
 =======
@@ -1012,6 +1048,7 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -1029,6 +1066,8 @@ static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -1070,6 +1109,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1189,6 +1229,8 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1392,13 +1434,24 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     return (SAOffset)fread(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -1409,6 +1462,7 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 =======
 /************************************************************************/
 /*                             SADFWrite()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1433,6 +1487,8 @@ static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
@@ -1474,6 +1530,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1593,6 +1650,8 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1796,13 +1855,24 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     return (SAOffset)fwrite(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
@@ -1812,6 +1882,7 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 =======
 /************************************************************************/
 /*                              SADFSeek()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1836,9 +1907,12 @@ static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1996,6 +2070,8 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2185,12 +2261,20 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 {
     return (SAOffset)fseek((FILE *)file, (long)offset, whence);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2205,6 +2289,7 @@ static SAOffset SADFTell(SAFile file)
 =======
 /************************************************************************/
 /*                              SADFTell()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2229,9 +2314,12 @@ static SAOffset SADFTell(SAFile file)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 SAOffset SADFTell(SAFile file)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2389,6 +2477,8 @@ SAOffset SADFTell(SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2578,12 +2668,20 @@ SAOffset SADFTell(SAFile file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 {
     return (SAOffset)ftell((FILE *)file);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2598,6 +2696,7 @@ static int SADFFlush(SAFile file)
 =======
 /************************************************************************/
 /*                             SADFFlush()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2622,6 +2721,8 @@ static int SADFFlush(SAFile file)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 int SADFFlush(SAFile file)
@@ -2663,6 +2764,7 @@ int SADFFlush(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2782,6 +2884,8 @@ int SADFFlush(SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2985,13 +3089,24 @@ int SADFFlush(SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     return fflush((FILE *)file);
 }
@@ -3001,6 +3116,7 @@ static int SADFClose(SAFile file)
 =======
 /************************************************************************/
 /*                             SADFClose()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3025,6 +3141,8 @@ static int SADFClose(SAFile file)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 int SADFClose(SAFile file)
@@ -3066,6 +3184,7 @@ int SADFClose(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3185,6 +3304,8 @@ int SADFClose(SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3388,13 +3509,24 @@ int SADFClose(SAFile file)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     return fclose((FILE *)file);
 }
@@ -3404,6 +3536,7 @@ static int SADRemove(const char *filename, void *pvUserData)
 =======
 /************************************************************************/
 /*                             SADFClose()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3428,6 +3561,8 @@ static int SADRemove(const char *filename, void *pvUserData)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 int SADRemove(const char *filename)
@@ -3469,6 +3604,7 @@ int SADRemove(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3588,6 +3724,8 @@ int SADRemove(const char *filename)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3781,13 +3919,24 @@ int SADRemove(const char *filename)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     (void)pvUserData;
 =======
@@ -3804,6 +3953,7 @@ static void SADError(const char *message)
 =======
 /************************************************************************/
 /*                              SADError()                              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3828,6 +3978,8 @@ static void SADError(const char *message)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 void SADError(const char *message)
@@ -3869,6 +4021,7 @@ void SADError(const char *message)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3988,6 +4141,8 @@ void SADError(const char *message)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4191,13 +4346,24 @@ void SADError(const char *message)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     fprintf(stderr, "%s\n", message);
 }
@@ -4214,6 +4380,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -4231,9 +4398,12 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 void SASetupDefaultHooks(SAHooks *psHooks)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4391,6 +4561,8 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4594,13 +4766,24 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     psHooks->FOpen = SADFOpen;
     psHooks->FRead = SADFRead;
@@ -4636,6 +4819,7 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -4653,6 +4837,8 @@ static wchar_t *Utf8ToWideChar(const char *pszFilename)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 const wchar_t *Utf8ToWideChar(const char *pszFilename)
@@ -4697,7 +4883,6 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
 
 /************************************************************************/
 /*                           SAUtf8WFOpen                               */
-
 /************************************************************************/
 
 <<<<<<< HEAD
@@ -4756,6 +4941,7 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4929,6 +5115,8 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
@@ -5304,6 +5492,8 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
     if (pwszFileName != NULL && pwszAccess != NULL) {
@@ -5321,7 +5511,15 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+    if (pwszFileName != NULL && pwszAccess != NULL) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
         file = (SAFile)_wfopen(pwszFileName, pwszAccess);
     }
     free((wchar_t *)pwszFileName);
@@ -5348,6 +5546,7 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -5365,6 +5564,8 @@ static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 
 int SAUtf8WRemove(const char *pszFilename)
@@ -5655,12 +5856,15 @@ int SAUtf8WRemove(const char *pszFilename)
     int rc = -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     if (pwszFileName != NULL) {
         rc = _wremove(pwszFileName);
     }
@@ -5700,6 +5904,7 @@ int SAUtf8WRemove(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -5717,6 +5922,8 @@ int SAUtf8WRemove(const char *pszFilename)
 =======
 
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 /************************************************************************/
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 

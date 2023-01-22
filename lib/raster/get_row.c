@@ -1549,6 +1549,7 @@ static void gdal_values_int(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1581,10 +1582,17 @@ static void gdal_values_int(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                             const COLUMN_MAPPING *cmap, int nbytes, void *cell,
 =======
 <<<<<<< HEAD
@@ -1883,8 +1891,11 @@ static void gdal_values_int(int fd, const unsigned char *data,
                             const COLUMN_MAPPING *cmap, int nbytes, void *cell,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
                             const COLUMN_MAPPING *cmap, int nbytes, CELL *cell,
 =======
@@ -1904,7 +1915,12 @@ static void gdal_values_int(int fd, const unsigned char *data,
                             const COLUMN_MAPPING *cmap, int nbytes, CELL *cell,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                             int n)
 {
     struct fileinfo *fcb = &R__.fileinfo[fd];
@@ -1953,6 +1969,7 @@ static void gdal_values_int(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1985,10 +2002,17 @@ static void gdal_values_int(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = 0;
 =======
 <<<<<<< HEAD
@@ -2287,8 +2311,11 @@ static void gdal_values_int(int fd, const unsigned char *data,
             c[i] = 0;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             cell[i] = 0;
 =======
@@ -2308,7 +2335,12 @@ static void gdal_values_int(int fd, const unsigned char *data,
             cell[i] = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             continue;
         }
 
@@ -2351,6 +2383,7 @@ static void gdal_values_int(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2383,10 +2416,17 @@ static void gdal_values_int(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = c[i - 1];
 =======
 <<<<<<< HEAD
@@ -2685,8 +2725,11 @@ static void gdal_values_int(int fd, const unsigned char *data,
             c[i] = c[i - 1];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             cell[i] = cell[i - 1];
 =======
@@ -2706,7 +2749,12 @@ static void gdal_values_int(int fd, const unsigned char *data,
             cell[i] = cell[i - 1];
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             continue;
         }
 
@@ -2752,6 +2800,7 @@ static void gdal_values_int(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2819,6 +2868,8 @@ static void gdal_values_int(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = *(GByte *)d;
 =======
 =======
@@ -2978,7 +3029,12 @@ static void gdal_values_int(int fd, const unsigned char *data,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = *(GByte *)d;
             break;
         case GDT_Int16:
@@ -3347,21 +3403,25 @@ static void gdal_values_int(int fd, const unsigned char *data,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             cell[i] = *(GByte *)d;
+=======
+            c[i] = *(GByte *)d;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             break;
         case GDT_Int16:
-            cell[i] = *(GInt16 *)d;
+            c[i] = *(GInt16 *)d;
             break;
         case GDT_UInt16:
-            cell[i] = *(GUInt16 *)d;
+            c[i] = *(GUInt16 *)d;
             break;
         case GDT_Int32:
-            cell[i] = *(GInt32 *)d;
+            c[i] = *(GInt32 *)d;
             break;
         case GDT_UInt32:
-            cell[i] = *(GUInt32 *)d;
+            c[i] = *(GUInt32 *)d;
             break;
         default:
             /* shouldn't happen */
+<<<<<<< HEAD
             Rast_set_c_null_value(&cell[i], 1);
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3373,8 +3433,17 @@ static void gdal_values_int(int fd, const unsigned char *data,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            Rast_set_c_null_value(&c[i], 1);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             break;
         }
 
@@ -3382,6 +3451,7 @@ static void gdal_values_int(int fd, const unsigned char *data,
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3488,6 +3558,12 @@ static void gdal_values_float(int fd, const unsigned char *data,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static void gdal_values_float(int fd UNUSED, const unsigned char *data,
                               const COLUMN_MAPPING *cmap, int nbytes UNUSED,
                               void *cell, int n)
@@ -3583,6 +3659,7 @@ static void gdal_values_float(int fd, const float *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3621,6 +3698,8 @@ static void gdal_values_float(int fd, const float *data,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static void gdal_values_float(int fd, const float *data,
                               const COLUMN_MAPPING *cmap, int nbytes,
                               FCELL *cell, int n)
@@ -3847,13 +3926,18 @@ static void gdal_values_float(int fd, const unsigned char *data,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 static void gdal_values_float(int fd, const unsigned char *data,
                               const COLUMN_MAPPING *cmap, int nbytes,
                               void *cell, int n)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -3871,7 +3955,12 @@ static void gdal_values_float(int fd, const unsigned char *data,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     COLUMN_MAPPING cmapold = 0;
     const float *d = (const float *)data;
@@ -3918,6 +4007,7 @@ static void gdal_values_float(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3950,10 +4040,17 @@ static void gdal_values_float(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = 0;
 =======
 <<<<<<< HEAD
@@ -4252,8 +4349,11 @@ static void gdal_values_float(int fd, const unsigned char *data,
             c[i] = 0;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             cell[i] = 0;
 =======
@@ -4273,7 +4373,12 @@ static void gdal_values_float(int fd, const unsigned char *data,
             cell[i] = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             continue;
         }
 
@@ -4316,6 +4421,7 @@ static void gdal_values_float(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4409,10 +4515,17 @@ static void gdal_values_float(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = c[i - 1];
             continue;
         }
@@ -4641,6 +4754,7 @@ static void gdal_values_float(int fd, const unsigned char *data,
 =======
             c[i] = c[i - 1];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
             continue;
         }
 
@@ -4782,6 +4896,12 @@ static void gdal_values_float(int fd, const unsigned char *data,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+            continue;
+        }
+
+        c[i] = d[cmap[i] - 1];
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -4789,6 +4909,7 @@ static void gdal_values_float(int fd, const unsigned char *data,
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4895,6 +5016,12 @@ static void gdal_values_double(int fd, const unsigned char *data,
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static void gdal_values_double(int fd UNUSED, const unsigned char *data,
                                const COLUMN_MAPPING *cmap, int nbytes UNUSED,
                                void *cell, int n)
@@ -4990,6 +5117,7 @@ static void gdal_values_double(int fd, const double *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5028,6 +5156,8 @@ static void gdal_values_double(int fd, const double *data,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 static void gdal_values_double(int fd, const double *data,
                                const COLUMN_MAPPING *cmap, int nbytes,
                                DCELL *cell, int n)
@@ -5254,13 +5384,18 @@ static void gdal_values_double(int fd, const unsigned char *data,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 static void gdal_values_double(int fd, const unsigned char *data,
                                const COLUMN_MAPPING *cmap, int nbytes,
                                void *cell, int n)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -5278,7 +5413,12 @@ static void gdal_values_double(int fd, const unsigned char *data,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     COLUMN_MAPPING cmapold = 0;
     const double *d = (const double *)data;
@@ -5325,6 +5465,7 @@ static void gdal_values_double(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5357,10 +5498,17 @@ static void gdal_values_double(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = 0;
 =======
 <<<<<<< HEAD
@@ -5659,8 +5807,11 @@ static void gdal_values_double(int fd, const unsigned char *data,
             c[i] = 0;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
             cell[i] = 0;
 =======
@@ -5680,7 +5831,12 @@ static void gdal_values_double(int fd, const unsigned char *data,
             cell[i] = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             continue;
         }
 
@@ -5723,6 +5879,7 @@ static void gdal_values_double(int fd, const unsigned char *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5816,10 +5973,17 @@ static void gdal_values_double(int fd, const unsigned char *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
             c[i] = c[i - 1];
             continue;
         }
@@ -6048,6 +6212,7 @@ static void gdal_values_double(int fd, const unsigned char *data,
 =======
             c[i] = c[i - 1];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
             continue;
         }
 
@@ -6189,6 +6354,12 @@ static void gdal_values_double(int fd, const unsigned char *data,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+            continue;
+        }
+
+        c[i] = d[cmap[i] - 1];
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -6246,6 +6417,7 @@ static void transfer_to_cell_XX(int fd, void *cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6339,10 +6511,17 @@ static void transfer_to_cell_XX(int fd, void *cell)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     static void (*cell_values_type[3])(
         int, const unsigned char *, const COLUMN_MAPPING *, int, void *,
         int) = {cell_values_int, cell_values_float, cell_values_double};
@@ -6507,6 +6686,9 @@ static void transfer_to_cell_XX(int fd, void *cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -6866,6 +7048,8 @@ static void transfer_to_cell_XX(int fd, void *cell)
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
     static void (*cell_values_type[3])(
         int, const unsigned char *, const COLUMN_MAPPING *, int, void *,
         int) = {cell_values_int, cell_values_float, cell_values_double};
@@ -6875,8 +7059,11 @@ static void transfer_to_cell_XX(int fd, void *cell)
         int) = {gdal_values_int, gdal_values_float, gdal_values_double};
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -6890,7 +7077,12 @@ static void transfer_to_cell_XX(int fd, void *cell)
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 #endif
     struct fileinfo *fcb = &R__.fileinfo[fd];
 
@@ -7037,6 +7229,7 @@ static int get_map_row_nomask(int fd, void *rast, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7069,10 +7262,17 @@ static int get_map_row_nomask(int fd, void *rast, int row,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
     static void (*transfer_to_cell_FtypeOtype[3][3])(int, void *) = {
 =======
 <<<<<<< HEAD
@@ -7371,8 +7571,11 @@ static int get_map_row_nomask(int fd, void *rast, int row,
     static void (*transfer_to_cell_FtypeOtype[3][3])(int, void *) = {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
     static void (*transfer_to_cell_FtypeOtype[3][3])() = {
 =======
@@ -7392,7 +7595,12 @@ static int get_map_row_nomask(int fd, void *rast, int row,
     static void (*transfer_to_cell_FtypeOtype[3][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         {transfer_to_cell_XX, transfer_to_cell_if, transfer_to_cell_id},
         {transfer_to_cell_fi, transfer_to_cell_XX, transfer_to_cell_fd},
         {transfer_to_cell_di, transfer_to_cell_df, transfer_to_cell_XX}};

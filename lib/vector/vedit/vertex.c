@@ -339,6 +339,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
             nlines_modified++;
@@ -347,6 +348,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 
             nlines_modified++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         }
     } /* for each selected line */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -648,6 +651,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -713,6 +717,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -773,6 +779,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
 
             nlines_modified++;
@@ -870,6 +878,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 
             nlines_modified++;
@@ -1010,7 +1019,12 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
         }
     } /* for each line */
 

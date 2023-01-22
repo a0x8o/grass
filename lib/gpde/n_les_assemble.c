@@ -377,6 +377,7 @@ void N_set_les_callback_3d_func(N_les_callback_3d *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -464,10 +465,17 @@ void N_set_les_callback_3d_func(N_les_callback_3d *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                                 N_data_star *(*callback_func_3d)(void *,
                                                                  N_geom_data *,
                                                                  int, int, int))
@@ -610,6 +618,7 @@ void N_set_les_callback_3d_func(N_les_callback_3d *data,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
                                 N_data_star *(*callback_func_3d)())
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -801,13 +810,18 @@ void N_set_les_callback_3d_func(N_les_callback_3d *data,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                                 N_data_star *(*callback_func_3d)(void *,
                                                                  N_geom_data *,
                                                                  int, int, int))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -824,7 +838,12 @@ void N_set_les_callback_3d_func(N_les_callback_3d *data,
                                 N_data_star *(*callback_func_3d)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     data->callback = callback_func_3d;
 }
@@ -879,6 +898,7 @@ void N_set_les_callback_2d_func(N_les_callback_2d *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -966,10 +986,17 @@ void N_set_les_callback_2d_func(N_les_callback_2d *data,
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
                                 N_data_star *(*callback_func_2d)(void *,
                                                                  N_geom_data *,
                                                                  int, int))
@@ -1112,6 +1139,7 @@ void N_set_les_callback_2d_func(N_les_callback_2d *data,
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
                                 N_data_star *(*callback_func_2d)())
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -1303,13 +1331,18 @@ void N_set_les_callback_2d_func(N_les_callback_2d *data,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
                                 N_data_star *(*callback_func_2d)(void *,
                                                                  N_geom_data *,
                                                                  int, int))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1326,7 +1359,12 @@ void N_set_les_callback_2d_func(N_les_callback_2d *data,
                                 N_data_star *(*callback_func_2d)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
+>>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 {
     data->callback = callback_func_2d;
 }
