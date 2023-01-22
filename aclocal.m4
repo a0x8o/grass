@@ -3541,6 +3541,7 @@ dnl to enable Clang detection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4135,10 +4136,14 @@ dnl -------------------- / OpenMP ---------------------------------------------
 =======
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 418440c09e (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
 
 # _LOC_LANG_OPENMP
@@ -4240,6 +4245,7 @@ AC_DEFUN([LOC_OPENMP],
 
 dnl -------------------- / OpenMP ---------------------------------------------
 
+<<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
@@ -4551,6 +4557,9 @@ dnl -------------------- / OpenMP ---------------------------------------------
 
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
 # ---------------
