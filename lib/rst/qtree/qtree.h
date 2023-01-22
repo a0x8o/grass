@@ -70,6 +70,7 @@ struct multfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1292,12 +1293,16 @@ struct multfunc {
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
@@ -1591,12 +1596,15 @@ struct multfunc {
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
     int (*compare)(struct triple *, struct quaddata *);
     struct quaddata **(*divide_data)(struct quaddata *, int, double);
     int (*add_data)(struct triple *, struct quaddata *, double);
     int (*intersect)(struct quaddata *, struct quaddata *);
     int (*division_check)(struct quaddata *, int);
     int (*get_points)(struct quaddata *, struct quaddata *, int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2026,6 +2034,8 @@ struct multfunc {
 >>>>>>> 60806474cc (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3974,6 +3984,7 @@ struct multfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4162,6 +4173,8 @@ struct multfunc {
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -5811,7 +5824,12 @@ struct multfunc {
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
 };
 
 struct tree_info {

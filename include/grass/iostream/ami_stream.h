@@ -861,6 +861,7 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1064,6 +1065,8 @@ char *AMI_STREAM<T>::sprint()
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2083,7 +2086,12 @@ char *AMI_STREAM<T>::sprint()
 =======
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 =======
@@ -2149,6 +2157,7 @@ char *AMI_STREAM<T>::sprint()
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4103,7 +4112,12 @@ char *AMI_STREAM<T>::sprint()
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
     return desc;
 }
 

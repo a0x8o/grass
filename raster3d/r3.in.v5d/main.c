@@ -2200,6 +2200,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2403,6 +2404,8 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2806,6 +2809,8 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
                         if (convertNull && IS_MISSING(value))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3455,6 +3460,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 >>>>>>> osgeo-main
                         if (convertNull && (value == MISSING))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5287,7 +5293,12 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
                         if (convertNull && (value == MISSING))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
+>>>>>>> 7da05b27a8 (Fix missing function prototypes (#2727))
                             Rast3d_set_null_value(&value, 1, FCELL_TYPE);
                         Rast3d_put_float(map, x, y, z, value);
                     }
