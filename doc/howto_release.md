@@ -3859,6 +3859,7 @@ Modify the VERSION file use the dedicated script, for RC1, e.g.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The script will compute the correct version string and print a message containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 =======
 The script will compute the correct version string and print a message
@@ -3895,6 +3896,10 @@ containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 The script will compute the correct version string and print a message
 containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+=======
+The script will compute the correct version string and print a message
+containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 
 Commit with a commit message suggested by the script, e.g.:
 
@@ -3912,6 +3917,7 @@ git commit include/VERSION -m "version: GRASS GIS 8.2.0RC1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Check that there is exactly one commit on your local branch and that it is the version change:
 =======
 Check that there is exactly one commit on your local branch and that it is the
@@ -3948,6 +3954,10 @@ version change:
 Check that there is exactly one commit on your local branch and that it is the
 version change:
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+=======
+Check that there is exactly one commit on your local branch and that it is the
+version change:
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 
 ```bash
 git status
@@ -6577,6 +6587,7 @@ run from the top directory and will expect its configuration files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6663,6 +6674,8 @@ run from the top directory and will expect its configuration files
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 to be in the *utils* directory.
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
@@ -6915,7 +6928,13 @@ to be in the *utils* directory.
 to be in the _utils_ directory.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+to be in the *utils* directory.
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7465,6 +7484,7 @@ release candidate because it contains contributor handles and can identify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7544,6 +7564,8 @@ release candidate because it contains contributor handles and can identify
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -8261,7 +8283,13 @@ For major and minor releases, GitHub API gives good results for the first
 release candidate because it contains contributor handles and can identify
 new contributors, so use with the _api_ backend, e.g.:
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+new contributors, so use with the *api* backend, e.g.:
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 ```bash
 python ./generate_release_notes.py api releasebranch_8_2 8.0.0 $VERSION
@@ -8269,6 +8297,7 @@ python ./generate_release_notes.py api releasebranch_8_2 8.0.0 $VERSION
 
 For micro releases, GitHub API does not give good results because it uses PRs
 while the backports are usually direct commits without PRs.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8926,12 +8955,19 @@ The *git log* command operates on commits, so use use the *log* backend:
 =======
 The _git log_ command operates on commits, so use use the _log_ backend:
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+The *git log* command operates on commits, so use use the *log* backend:
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 ```bash
 python ./generate_release_notes.py log releasebranch_8_2 8.2.0 $VERSION
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9075,6 +9111,8 @@ python ./generate_release_notes.py log releasebranch_8_2 8.2.0 $VERSION
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -9882,10 +9920,15 @@ for showing updates since the last RC:
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 In between RCs and between last RC and final release, the _log_ backend is useful
+=======
+In between RCs and between last RC and final release, the *log* backend is useful
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 for showing updates since the last RC:
 
 ```bash
@@ -10096,6 +10139,7 @@ python ./generate_release_notes.py log releasebranch_8_2 8.2.0RC1 $VERSION
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 For the final release, the changes accumulated since the first RC need to be
+<<<<<<< HEAD
 added manually to the result from the _api_ backend.
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
 
@@ -10391,7 +10435,15 @@ added manually to the result from the *api* backend.
 
 <<<<<<< HEAD
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
+=======
+=======
+added manually to the result from the *api* backend.
+
+<<<<<<< HEAD
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 The script sorts them into categories defined in _utils/release.yml_.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11427,6 +11479,7 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -11504,6 +11557,8 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -11769,7 +11824,12 @@ added manually to the result from the *api* backend.
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 The script sorts them into categories defined in *utils/release.yml*.
 However, these notes need to be manually edited to collapse related items into
 one. Additionally, a *Highlights* section needs to be added with manually
@@ -11782,6 +11842,7 @@ if there are any.
 After the automated release job completes, a new release draft will be available
 in the GitHub web interface. You can copy-paste the created release notes to
 GitHub and further modify as needed.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11892,6 +11953,8 @@ GitHub and further modify as needed.
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
@@ -12459,7 +12522,13 @@ GitHub and further modify as needed.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 Older release description may or may not be a good inspiration:
 <https://github.com/OSGeo/grass/releases>.
@@ -13564,6 +13633,7 @@ After an RC, switch to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -13990,7 +14060,12 @@ or major version, e.g., for micro version, use:
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 After a final release, update to the next micro (x.y.Z), minor (x.Y.z),
 or major (X.y.y) version. E.g., for micro version, use:
 =======
@@ -14195,6 +14270,7 @@ version, e.g., for micro version, use:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -14269,6 +14345,8 @@ version, e.g., for micro version, use:
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
+=======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14296,9 +14374,12 @@ version, e.g., for micro version, use:
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+=======
 After a final release, switch to development version for the next micro, minor,
 or major version, e.g., for micro version, use:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14345,6 +14426,8 @@ or major version, e.g., for micro version, use:
 >>>>>>> a82cfbcefa (Fix missing function prototypes (#2727))
 =======
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -14837,12 +14920,18 @@ or major version, e.g., for micro version, use:
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 ```bash
 ./utils/update_version.py micro
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14963,6 +15052,9 @@ Use *major* and *minor* operations for the other version updates.
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
+Use *major* and *minor* operations for the other version updates.
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 Use `--help` for details about the options.
 
 <<<<<<< HEAD
@@ -15885,6 +15977,7 @@ git push upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This part requires extra permissions and needs to be done by one of the
 development coordinators.
 =======
@@ -15981,6 +16074,8 @@ development coordinators.
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
@@ -16051,7 +16146,12 @@ development coordinators.
 =======
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 This part requires extra permissions and needs to be done by one of the development coordinators.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16062,6 +16162,7 @@ This part requires extra permissions and needs to be done by one of the developm
 This part requires extra permissions and needs to be done by one of the
 development coordinators.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16180,6 +16281,8 @@ development coordinators.
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 =======
 This part requires extra permissions and needs to be done by one of the development coordinators.
@@ -16692,7 +16795,12 @@ This part requires extra permissions and needs to be done by one of the developm
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 ### Get the tagged version
 
@@ -17854,6 +17962,7 @@ linked to the tag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17965,6 +18074,8 @@ linked to the tag:
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18183,7 +18294,12 @@ linked to the tag:
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 =======
@@ -18551,6 +18667,7 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -18589,6 +18706,8 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -18948,7 +19067,12 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 ```
 
 ### Get the source code tarball
@@ -21849,6 +21973,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -21933,6 +22058,8 @@ Add the new version to repos which build or test addons:
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -22006,7 +22133,12 @@ Add the new version to repos which build or test addons:
 =======
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
 <<<<<<< HEAD
@@ -22015,6 +22147,7 @@ Add the new version to repos which build or test addons:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22090,6 +22223,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 =======
@@ -22346,11 +22481,17 @@ Add the new version to repos which build or test addons:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml>
   (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh>
   (add new release related line for new branches and final releases)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22461,6 +22602,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 =======
@@ -23072,7 +23215,13 @@ Add the new version to repos which build or test addons:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 
 ## Close milestone
 
@@ -24264,6 +24413,7 @@ which Zenodo creates with a DOI for the published released.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -24487,6 +24637,11 @@ if there are any which show well specific features added or updated in the relea
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+For all releases, click the Binder badge to get Binder to build. Use it to test
+it and to cache the built image. Add more links to (or badges for) more notebooks
+if there are any which show well specific features added or updated in the release.
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 
 ## Create entries for the new release
 
@@ -24497,6 +24652,7 @@ Add entry in <https://trac.osgeo.org/grass/wiki/Release>
 ### Update Hugo web site to show new version
 
 For a (final) release (not release candidate), write announcement and publish it:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24599,9 +24755,13 @@ Software pages:
 
 Software pages:
 =======
+=======
+
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 - News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
 
 Software pages:
+
 - Linux: <https://github.com/OSGeo/grass-website/blob/master/content/download/linux.en.md>
 - Windows: <https://github.com/OSGeo/grass-website/blob/master/content/download/windows.en.md>
 - Mac: <https://github.com/OSGeo/grass-website/blob/master/content/download/mac.en.md>
@@ -24609,6 +24769,7 @@ Software pages:
 - Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 For all releases, click the Binder badge to get Binder to build. Use it to test it and
 to cache the built image. Add more links to (or badges for) more notebooks if there
 are any which show well specific features added or updated in the release.
@@ -26383,6 +26544,7 @@ Write announcement and publish it:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -26460,6 +26622,8 @@ Write announcement and publish it:
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -26853,7 +27017,12 @@ Write announcement and publish it:
 - update cronjob '[cron_grass8_main_src_snapshot.sh](https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/)' on grass.osgeo.org to next
   but one release tag for the differences
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
+>>>>>>> 940b7c1705 (Fix missing function prototypes (#2727))
 - wiki updates, only when new major release:
   - {{cmd|xxxx}} macro: <https://grasswiki.osgeo.org/wiki/Template:Cmd>
   - update last version on main page
