@@ -74,6 +74,7 @@ void G_free_ilist(struct ilist *list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -96,6 +97,8 @@ void G_free_ilist(struct ilist *list)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 struct ilist *G_new_ilist(void)
 =======
 <<<<<<< HEAD
@@ -296,6 +299,7 @@ struct ilist *G_new_ilist()
 =======
 struct ilist *G_new_ilist()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
@@ -386,6 +390,11 @@ struct ilist *G_new_ilist()
 struct ilist *G_new_ilist()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+struct ilist *G_new_ilist(void)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 {
     struct ilist *l = G_malloc(sizeof(struct ilist));
 

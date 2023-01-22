@@ -1629,7 +1629,8 @@ Modify the VERSION file use the dedicated script, for RC1, e.g.:
 ./utils/update_version.py rc 1
 ```
 
-The script will compute the correct version string and print a message containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
+The script will compute the correct version string and print a message
+containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 
 Commit with a commit message suggested by the script, e.g.:
 
@@ -1638,7 +1639,8 @@ git diff
 git commit include/VERSION -m "version: GRASS GIS 8.2.0RC1"
 ```
 
-Check that there is exactly one commit on your local branch and that it is the version change:
+Check that there is exactly one commit on your local branch and that it is the
+version change:
 
 ```bash
 git status
@@ -3289,10 +3291,11 @@ new contributors, so use with the *api* backend, e.g.:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Generate a draft of release notes using a script. The script the script needs to
 run from the top directory and will expect its configuration files
-to be in the _utils_ directory.
+to be in the *utils* directory.
 
 For major and minor releases, GitHub API gives good results for the first
 release candidate because it contains contributor handles and can identify
+<<<<<<< HEAD
 new contributors, so use with the _api_ backend, e.g.:
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3301,7 +3304,13 @@ new contributors, so use with the _api_ backend, e.g.:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+new contributors, so use with the *api* backend, e.g.:
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 ```bash
 python ./generate_release_notes.py api releasebranch_8_2 8.0.0 $VERSION
@@ -3337,12 +3346,15 @@ while the backports are usually direct commits without PRs.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 The *git log* command operates on commits, so use use the *log* backend:
 =======
 <<<<<<< HEAD
@@ -3549,12 +3561,19 @@ The _git log_ command operates on commits, so use use the _log_ backend:
 =======
 The _git log_ command operates on commits, so use use the _log_ backend:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+The *git log* command operates on commits, so use use the *log* backend:
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 ```bash
 python ./generate_release_notes.py log releasebranch_8_2 8.2.0 $VERSION
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3647,6 +3666,8 @@ for showing updates since the last RC:
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4464,6 +4485,9 @@ GitHub and further modify as needed.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 In between RCs and between last RC and final release, the _log_ backend is useful
+=======
+In between RCs and between last RC and final release, the *log* backend is useful
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 for showing updates since the last RC:
 
 ```bash
@@ -4471,8 +4495,9 @@ python ./generate_release_notes.py log releasebranch_8_2 8.2.0RC1 $VERSION
 ```
 
 For the final release, the changes accumulated since the first RC need to be
-added manually to the result from the _api_ backend.
+added manually to the result from the *api* backend.
 
+<<<<<<< HEAD
 The script sorts them into categories defined in _utils/release.yml_.
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4823,6 +4848,7 @@ GitHub and further modify as needed.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -4906,6 +4932,22 @@ GitHub and further modify as needed.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+The script sorts them into categories defined in *utils/release.yml*.
+However, these notes need to be manually edited to collapse related items into
+one. Additionally, a *Highlights* section needs to be added with manually
+identified new major features for major and minor releases. For all releases, a
+*Major* section may need to be added showing critical fixes or breaking changes
+if there are any.
+
+### Modify the release draft
+
+After the automated release job completes, a new release draft will be available
+in the GitHub web interface. You can copy-paste the created release notes to
+GitHub and further modify as needed.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 Older release description may or may not be a good inspiration:
 <https://github.com/OSGeo/grass/releases>.
@@ -5329,6 +5371,7 @@ After an RC, switch to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 After a final release, switch to development version for the next micro, minor,
@@ -5409,6 +5452,8 @@ or major version, e.g., for micro version, use:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 After a final release, update to the next micro (x.y.Z), minor (x.Y.z),
 or major (X.y.y) version. E.g., for micro version, use:
 =======
@@ -5707,12 +5752,20 @@ version, e.g., for micro version, use:
 After a final release, switch to development version for the next micro, minor, or major
 version, e.g., for micro version, use:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+After a final release, switch to development version for the next micro, minor,
+or major version, e.g., for micro version, use:
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 ```bash
 ./utils/update_version.py micro
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5894,6 +5947,8 @@ Use `--help` for details about the options.
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 Use *major* and *minor* operations for the other version updates.
 =======
 <<<<<<< HEAD
@@ -6122,6 +6177,9 @@ development coordinators.
 =======
 =======
 Use _major_ and _minor_ operations for the other version updates.
+=======
+Use *major* and *minor* operations for the other version updates.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 Use `--help` for details about the options.
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6144,6 +6202,7 @@ git push upstream
 
 ## Upload to OSGeo servers
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6219,6 +6278,8 @@ development coordinators.
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 This part requires extra permissions and needs to be done by one of the development coordinators.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6417,7 +6478,14 @@ This part requires extra permissions and needs to be done by one of the developm
 =======
 This part requires extra permissions and needs to be done by one of the development coordinators.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+This part requires extra permissions and needs to be done by one of the
+development coordinators.
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 ### Get the tagged version
 
@@ -6853,6 +6921,7 @@ linked to the tag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6875,6 +6944,8 @@ linked to the tag:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 =======
@@ -7096,6 +7167,7 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O
 =======
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
@@ -7189,6 +7261,12 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
+    -O ChangeLog_${VERSION}.gz
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 ```
 
 ### Get the source code tarball
@@ -8373,6 +8451,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8421,6 +8500,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
 <<<<<<< HEAD
@@ -8451,6 +8532,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -8540,10 +8622,15 @@ Add the new version to repos which build or test addons:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml>
   (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh>
   (add new release related line for new branches and final releases)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8611,6 +8698,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -8749,7 +8838,12 @@ Add the new version to repos which build or test addons:
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 ## Close milestone
 
@@ -9194,9 +9288,9 @@ which Zenodo creates with a DOI for the published released.
 For final releases only, go to Zenodo a get a Markdown badge for the release
 which Zenodo creates with a DOI for the published released.
 
-For all releases, click the Binder badge to get Binder to build. Use it to test it and
-to cache the built image. Add more links to (or badges for) more notebooks if there
-are any which show well specific features added or updated in the release.
+For all releases, click the Binder badge to get Binder to build. Use it to test
+it and to cache the built image. Add more links to (or badges for) more notebooks
+if there are any which show well specific features added or updated in the release.
 
 ## Create entries for the new release
 
@@ -9207,9 +9301,11 @@ Add entry in <https://trac.osgeo.org/grass/wiki/Release>
 ### Update Hugo web site to show new version
 
 For a (final) release (not release candidate), write announcement and publish it:
+
 - News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
 
 Software pages:
+
 - Linux: <https://github.com/OSGeo/grass-website/blob/master/content/download/linux.en.md>
 - Windows: <https://github.com/OSGeo/grass-website/blob/master/content/download/windows.en.md>
 - Mac: <https://github.com/OSGeo/grass-website/blob/master/content/download/mac.en.md>
@@ -9217,6 +9313,7 @@ Software pages:
 - Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 For all releases, click the Binder badge to get Binder to build. Use it to test it and
 to cache the built image. Add more links to (or badges for) more notebooks if there
 are any which show well specific features added or updated in the release.
@@ -10134,6 +10231,7 @@ Write announcement and publish it:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -10204,6 +10302,14 @@ Write announcement and publish it:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+### Only in case of new major release
+
+- update cronjob '[cron_grass8_main_src_snapshot.sh](https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/)'
+  on grass.osgeo.org to next but one release tag for the differences
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 - wiki updates, only when new major release:
   - {{cmd|xxxx}} macro: <https://grasswiki.osgeo.org/wiki/Template:Cmd>
   - update last version on main page

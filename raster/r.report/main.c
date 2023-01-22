@@ -51,8 +51,11 @@ DCELL *DMAX, *DMIN;
 int maskfd;
 CELL *mask;
 CELL NULL_CELL;
+<<<<<<< HEAD
 
 enum OutputFormat format;
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
 char fs[2];
 struct Categories *labels;

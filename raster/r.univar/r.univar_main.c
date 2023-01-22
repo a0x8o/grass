@@ -1040,6 +1040,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
     zone_info.min = 0;
     zone_info.max = 0;
+<<<<<<< HEAD
 =======
     zone_info.min = 0.0 / 0.0; /* set to nan as default */
     zone_info.max = 0.0 / 0.0; /* set to nan as default */
@@ -1130,6 +1131,9 @@ int main(int argc, char *argv[])
     zone_info.min = 0;
     zone_info.max = 0;
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
     zone_info.n_zones = 0;
 
     fdz = NULL;
@@ -1447,6 +1451,8 @@ int main(int argc, char *argv[])
 
     zone_info.min = 0.0 / 0.0; /* set to nan as default */
     zone_info.max = 0.0 / 0.0; /* set to nan as default */
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     zone_info.n_zones = 0;
 
     fdz = NULL;

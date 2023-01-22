@@ -2355,6 +2355,7 @@ dnl to enable Clang detection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2387,6 +2388,9 @@ dnl to enable Clang detection
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
 # ---------------
@@ -2487,6 +2491,7 @@ AC_DEFUN([LOC_OPENMP],
 
 dnl -------------------- / OpenMP ---------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
@@ -2810,6 +2815,9 @@ dnl -------------------- / OpenMP ---------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 
 # _LOC_LANG_OPENMP
 # ---------------
