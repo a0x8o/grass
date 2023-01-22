@@ -5104,6 +5104,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5116,6 +5117,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
             convergence = NAN;
 =======
             convergence = 0. / 0.;
@@ -5132,6 +5135,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
             convergence = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5161,6 +5165,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             convergence = 0. / 0.;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
         else if (G_projection() == PROJECTION_LL)
             convergence = 0.0;
         else {
