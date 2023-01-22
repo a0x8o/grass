@@ -26,6 +26,7 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -34,6 +35,8 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
     int (*cmp)(const void *, const void *);
 =======
 <<<<<<< HEAD
@@ -71,6 +74,7 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
 =======
     int (*cmp)(const void *, const void *);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +160,8 @@ int btree_update(BTREE *B, const void *key, int keylen, const void *data,
     int (*cmp)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
     int dir;
 
     /* first node is special case */
