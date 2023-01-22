@@ -2372,6 +2372,7 @@ USE_OPENMP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2394,10 +2395,15 @@ USE_OPENMP
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 OPENMP_LIB
 OPENMP_LIBPATH
 OPENMP_INCPATH
 OPENMP_CFLAGS
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2418,6 +2424,8 @@ OPENMP_CFLAGS
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -2434,6 +2442,7 @@ OMPINCPATH
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 =======
 OPENMP_LIB
@@ -2457,6 +2466,8 @@ OPENMP_CFLAGS
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 USE_PTHREAD
 PTHREADLIB
 PTHREADLIBPATH
@@ -3012,6 +3023,7 @@ with_x
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 enable_openmp
 =======
 <<<<<<< HEAD
@@ -3057,12 +3069,20 @@ enable_openmp
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 enable_openmp
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+enable_openmp
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 enable_largefile
 '
       ac_precious_vars='build_alias
@@ -4153,6 +4173,7 @@ Optional Features:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   --disable-openmp        do not use OpenMP
 =======
 <<<<<<< HEAD
@@ -4198,12 +4219,20 @@ Optional Features:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
   --disable-openmp        do not use OpenMP
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+  --disable-openmp        do not use OpenMP
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
   --disable-largefile     omit support for large files (LFS)
 
 Optional Packages:
@@ -40223,6 +40252,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -40231,6 +40261,8 @@ fi
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
 <<<<<<< HEAD
@@ -40239,6 +40271,7 @@ fi
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
 =======
@@ -40262,6 +40295,8 @@ fi
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
@@ -40534,6 +40569,9 @@ rm -f core conftest.err conftest.$ac_objext \
   LIBS=${ac_save_libs}
   CFLAGS=${ac_save_cflags}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 
 <<<<<<< HEAD
 =======
@@ -67369,6 +67407,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67393,12 +67432,36 @@ printf %s "checking for location of OpenMP library... " >&6; }
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for location of OpenMP library" >&5
 $as_echo_n "checking for location of OpenMP library... " >&6; }
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for location of OpenMP library" >&5
 printf %s "checking for location of OpenMP library... " >&6; }
 =======
+=======
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for location of OpenMP library" >&5
+$as_echo_n "checking for location of OpenMP library... " >&6; }
+case "$with_openmp_libs" in
+y | ye | yes | n | no)
+	as_fn_error $? "*** You must supply a directory to --with-openmp-libs." "$LINENO" 5
+	;;
+esac
+{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $with_openmp_libs" >&5
+$as_echo "$with_openmp_libs" >&6; }
+
+if test -n "$with_openmp_libs"; then
+    for dir in $with_openmp_libs; do
+        if test -d "$dir"; then
+            OPENMP_LIBPATH="$OPENMP_LIBPATH -L$dir"
+        else
+            as_fn_error $? "*** OpenMP library directory $dir does not exist." "$LINENO" 5
+        fi
+    done
+fi
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
 ac_save_cppflags="$CPPFLAGS"
-CPPFLAGS="$OMPINCPATH $CPPFLAGS"
+CPPFLAGS="$OPENMP_INCPATH $CPPFLAGS"
 for ac_header in omp.h
 do :
   ac_fn_c_check_header_mongrel "$LINENO" "omp.h" "ac_cv_header_omp_h" "$ac_includes_default"
@@ -67418,12 +67481,8 @@ done
 CPPFLAGS=$ac_save_cppflags
 
 
-# With OpenMP library directory
-# GCC et al.: -lgomp
-# Solaris cc: -lmtsk
-# AIX xlc: -lxlsmp
-# SGI IRIX 6.5 MIPSpro C/C++: -lmp
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67602,6 +67661,7 @@ else $as_nop
 =======
 ac_save_libs="$LIBS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 ac_save_ldflags="$LDFLAGS"
@@ -67610,11 +67670,12 @@ LDFLAGS="$OPENMP_LIBPATH $LDFLAGS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 ac_save_ldflags="$LDFLAGS"
-LIBS="  $LIBS"
-LDFLAGS=" $LDFLAGS"
-ac_fn_c_check_func "$LINENO" "GOMP_parallel_start" "ac_cv_func_GOMP_parallel_start"
-if test "x$ac_cv_func_GOMP_parallel_start" = xyes; then :
+LDFLAGS="$OPENMP_LIBPATH $LDFLAGS"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67783,9 +67844,41 @@ CPPFLAGS=$ac_save_cppflags
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
-    OMPLIB="$OMPLIB "
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for omp_get_num_threads in -lomp" >&5
+$as_echo_n "checking for omp_get_num_threads in -lomp... " >&6; }
 
+ac_check_lib_save_LIBS=$LIBS
+LIBS="-lomp  $LIBS"
+cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+/* end confdefs.h.  */
 
+/* Override any GCC internal prototype to avoid an error.
+   Use char because int might match the return type of a GCC
+   builtin and then its argument prototype would still apply.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char omp_get_num_threads ();
+int
+main ()
+{
+return omp_get_num_threads ();
+  ;
+  return 0;
+}
+_ACEOF
+if ac_fn_c_try_link "$LINENO"; then :
+  ac_cv_lib_omp_omp_get_num_threads=yes
+else
+  ac_cv_lib_omp_omp_get_num_threads=no
+fi
+rm -f core conftest.err conftest.$ac_objext \
+    conftest$ac_exeext conftest.$ac_ext
+LIBS=$ac_check_lib_save_LIBS
+{ $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_lib_omp_omp_get_num_threads" >&5
+$as_echo "$ac_cv_lib_omp_omp_get_num_threads" >&6; }
+if test "x$ac_cv_lib_omp_omp_get_num_threads" = xyes; then :
+  OPENMP_LIB="$OPENMP_LIB -lomp "
 else
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -67837,6 +67930,7 @@ else
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -67846,6 +67940,8 @@ else
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 LDFLAGS=${ac_save_ldflags}
 
 ac_save_ldflags="$LDFLAGS"
@@ -68109,6 +68205,7 @@ $as_echo "$ac_cv_lib_gomp_GOMP_parallel_start" >&6; }
 if test "x$ac_cv_lib_gomp_GOMP_parallel_start" = xyes; then :
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68127,6 +68224,9 @@ else
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+  OPENMP_LIB="$OPENMP_LIB -lgomp "
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 else
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -68175,6 +68275,7 @@ CFLAGS="${CFLAGS} ${OPENMP_INCPATH} ${OPENMP_LIBPATH} ${OPENMP_LIB}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68182,6 +68283,8 @@ CFLAGS="${CFLAGS} ${OPENMP_INCPATH} ${OPENMP_LIBPATH} ${OPENMP_LIB}"
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 if test -e penmp || test -e mp; then
   as_fn_error $? "AC_OPENMP clobbers files named 'mp' and 'penmp'. Aborting configure because one of these files already exists." "$LINENO" 5
 fi
@@ -68320,6 +68423,7 @@ fi
     { $as_echo "$as_me:${as_lineno-$LINENO}: checking for $CC option to support OpenMP" >&5
 $as_echo_n "checking for $CC option to support OpenMP... " >&6; }
 
+<<<<<<< HEAD
 =======
 =======
   if test "$enable_openmp" != no; then
@@ -68335,6 +68439,8 @@ $as_echo_n "checking for $CC option to support OpenMP... " >&6; }
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -68387,6 +68493,7 @@ $as_echo "$ac_cv_prog_c_openmp" >&6; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -68403,6 +68510,9 @@ $as_echo "$ac_cv_prog_c_openmp" >&6; }
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
   fi
 
 
