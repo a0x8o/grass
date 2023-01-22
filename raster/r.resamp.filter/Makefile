@@ -45,6 +45,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -740,6 +741,7 @@ PGM = r.resamp.filter
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -1045,6 +1047,10 @@ PGM = r.resamp.filter
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -1671,6 +1677,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1847,6 +1854,8 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -1942,11 +1951,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2160,6 +2172,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> f2ff4a2b4d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2760,6 +2774,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 706ee84443 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -3080,6 +3095,10 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 6caabc686d (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> d80eba7255 (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

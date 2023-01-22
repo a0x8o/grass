@@ -524,6 +524,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -743,6 +744,8 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
@@ -1132,7 +1135,12 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 #pragma omp parallel for schedule(static) private(i) reduction(+ : s)
     for (i = 0; i < rows; i++) {
         s += fabs(x[i]);
@@ -5035,6 +5043,7 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
         s += fabs(x[i]);
         count++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
@@ -5069,7 +5078,17 @@ void G_math_f_asum_norm(float *x, float *value, int rows)
         count++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+#pragma omp parallel for schedule(static) private(i) reduction(+ : s)
+    for (i = 0; i < rows; i++) {
+        s += fabs(x[i]);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
     }
 #pragma omp single
     {

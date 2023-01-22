@@ -211,6 +211,7 @@ int searching_parallel(double *length, double *sunVarGeom_z_orig,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -537,6 +538,8 @@ int useCivilTime(void);
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -1849,12 +1852,15 @@ int useCivilTime(void);
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 int useCivilTime(void);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int useCivilTime();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2322,7 +2328,15 @@ int useCivilTime(void);
 int useCivilTime();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+int useCivilTime(void);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 void setUseCivilTime(int val);
 int useShadow(void);
 void setUseShadow(int val);
@@ -2480,6 +2494,7 @@ void setHorizonInterval(double val);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2725,6 +2740,8 @@ void setHorizonInterval(double val);
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -4444,6 +4461,8 @@ void setAngularLossDenominator(void);
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 void setAngularLossDenominator(void);
 =======
 void setAngularLossDenominator();
@@ -4457,6 +4476,7 @@ void setAngularLossDenominator();
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4995,7 +5015,15 @@ void setAngularLossDenominator();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+void setAngularLossDenominator(void);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 
 /* void cube(int, int); */
 

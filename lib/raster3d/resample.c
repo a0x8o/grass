@@ -243,6 +243,7 @@ void Rast3d_nearest_neighbor(RASTER3D_Map *map, int x, int y, int z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -606,6 +607,8 @@ void Rast3d_nearest_neighbor(RASTER3D_Map *map, int x, int y, int z,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -2065,6 +2068,8 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map, void (*resampleFun)())
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 void Rast3d_set_resampling_fun(RASTER3D_Map *map,
                                void (*resampleFun)(RASTER3D_Map *, int, int,
                                                    int, void *, int))
@@ -2106,6 +2111,7 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map, void (*resampleFun)())
 void Rast3d_set_resampling_fun(RASTER3D_Map *map, void (*resampleFun)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2943,6 +2949,7 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map, void (*resampleFun)())
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3662,6 +3669,14 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void Rast3d_set_resampling_fun(RASTER3D_Map *map,
+                               void (*resampleFun)(RASTER3D_Map *, int, int,
+                                                   int, void *, int))
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 {
     map->resampleFun = resampleFun;
 }
@@ -3871,6 +3886,7 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4234,6 +4250,8 @@ void Rast3d_set_resampling_fun(RASTER3D_Map *map,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -5693,6 +5711,8 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map, void (**resampleFun)())
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 void Rast3d_get_resampling_fun(RASTER3D_Map *map,
                                void (**resampleFun)(RASTER3D_Map *, int, int,
                                                     int, void *, int))
@@ -5734,6 +5754,7 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map, void (**resampleFun)())
 void Rast3d_get_resampling_fun(RASTER3D_Map *map, void (**resampleFun)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6571,6 +6592,7 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map, void (**resampleFun)())
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -7290,6 +7312,14 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void Rast3d_get_resampling_fun(RASTER3D_Map *map,
+                               void (**resampleFun)(RASTER3D_Map *, int, int,
+                                                    int, void *, int))
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 {
     *resampleFun = map->resampleFun;
 }
@@ -7499,6 +7529,7 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7862,6 +7893,8 @@ void Rast3d_get_resampling_fun(RASTER3D_Map *map,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -9321,6 +9354,8 @@ void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)())
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)(RASTER3D_Map *, int,
                                                            int, int, void *,
                                                            int))
@@ -9362,6 +9397,7 @@ void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)())
 void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10199,6 +10235,7 @@ void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)())
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -10918,6 +10955,14 @@ void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)(RASTER3D_Map *, int,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void Rast3d_get_nearest_neighbor_fun_ptr(void (**nnFunPtr)(RASTER3D_Map *, int,
+                                                           int, int, void *,
+                                                           int))
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+>>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 {
     *nnFunPtr = Rast3d_nearest_neighbor;
 }
