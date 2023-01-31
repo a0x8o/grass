@@ -13333,6 +13333,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13481,6 +13482,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> 81fd408422 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -13922,6 +13925,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14201,6 +14205,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
+=======
+=======
+ - external:	\ref external (External libraries from other projects such as shapelib, parson and \ref ccmathlib)
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
  - external:	\ref external (External libraries from other projects such as shapelib and \ref ccmathlib)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
  - fonts:	\ref fonts (GRASS fonts library)

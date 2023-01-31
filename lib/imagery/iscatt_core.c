@@ -668,6 +668,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -912,6 +913,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1005,6 +1008,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1558,6 +1563,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> osgeo-main
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,7 +2898,12 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
                     G_free(rast_pixs);
                     G_free(belongs_pix);
                     G_warning(

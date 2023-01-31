@@ -2770,6 +2770,7 @@ ENV DEBIAN_FRONTEND noninteractive
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -2788,6 +2789,8 @@ ENV DEBIAN_FRONTEND noninteractive
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 <<<<<<< HEAD
@@ -3845,6 +3848,7 @@ ARG LAZ_PERF_VERSION=3.2.0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
@@ -3897,6 +3901,8 @@ ARG LAZ_PERF_VERSION=3.2.0
 <<<<<<< HEAD
 =======
 >>>>>>> 81fd408422 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
@@ -4786,10 +4792,15 @@ ARG LAZ_PERF_VERSION=3.2.0
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+=======
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
@@ -4839,7 +4850,13 @@ ARG PDAL_VERSION=2.4.3
 =======
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 
 SHELL ["/bin/bash", "-c"]
 
@@ -8197,6 +8214,7 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8709,6 +8727,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -11240,6 +11260,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12483,7 +12504,12 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -13640,6 +13666,7 @@ RUN mkdir vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -13700,10 +13727,13 @@ RUN mkdir vdatum && \
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 =======
 ## install pdal
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13834,7 +13864,15 @@ RUN mkdir vdatum && \
 ## install pdal
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -14281,6 +14319,7 @@ RUN wget -q \
       -DBUILD_PLUGIN_GREYHOUND=ON \
       -DBUILD_PLUGIN_HEXBIN=ON \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15130,6 +15169,8 @@ RUN wget -q \
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -15184,6 +15225,8 @@ RUN wget -q \
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
@@ -15334,6 +15377,7 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15356,6 +15400,7 @@ RUN wget -q \
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5952770ec6 (r.horizon manual - fix typo (#2794))
@@ -15398,11 +15443,14 @@ RUN wget -q \
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 81fd408422 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15445,6 +15493,8 @@ RUN wget -q \
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 81fd408422 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
@@ -15962,7 +16012,12 @@ RUN wget -q \
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -21246,8 +21301,11 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 # test LAZ file
 >>>>>>> decbe5b393 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 830e4400c0 (Dockerfile: fix broken lib link (#1625))

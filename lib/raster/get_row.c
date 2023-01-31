@@ -278,6 +278,7 @@ static void read_data_compressed(int fd, int row, unsigned char *data_buf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -471,6 +472,8 @@ static void read_data_compressed(int fd, int row, unsigned char *data_buf,
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -774,7 +777,12 @@ static void read_data_compressed(int fd, int row, unsigned char *data_buf,
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
     bufsize = (size_t)n * fcb->cellhd.cols;
     if (fcb->cellhd.compressed < 0 || (size_t)readamount < bufsize) {
 =======
@@ -3437,14 +3445,20 @@ static void read_data_compressed(int fd, int row, unsigned char *data_buf,
 =======
     bufsize = n * fcb->cellhd.cols;
     if (fcb->cellhd.compressed < 0 || readamount < bufsize) {
+=======
+    bufsize = (size_t)n * fcb->cellhd.cols;
+    if (fcb->cellhd.compressed < 0 || (size_t)readamount < bufsize) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
         if (fcb->cellhd.compressed == 1)
             rle_decompress(data_buf, cmp, n, readamount);
         else {
-            if (G_expand(cmp, readamount, data_buf, bufsize,
-                         fcb->cellhd.compressed) != bufsize)
+            if ((n = G_expand(cmp, readamount, data_buf, bufsize,
+                              fcb->cellhd.compressed)) < 0 ||
+                (unsigned int)n != bufsize) {
                 G_fatal_error(
                     _("Error uncompressing raster data for row %d of <%s>"),
                     row, fcb->name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3455,8 +3469,17 @@ static void read_data_compressed(int fd, int row, unsigned char *data_buf,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            }
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
         }
     }
     else
@@ -39224,6 +39247,7 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -39467,6 +39491,8 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -40015,7 +40041,12 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 =======
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
         if ((res = read(null_fd, flags, size)) < 0 ||
             (unsigned int)res != size) {
 =======
@@ -40481,6 +40512,7 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -40577,6 +40609,8 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 >>>>>>> 81fd408422 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -41451,7 +41485,12 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
         if (read(null_fd, flags, size) != size) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
             G_fatal_error(
                 _("Error reading compressed null data for row %d of <%s>"), row,
                 fcb->name);
@@ -41575,6 +41614,7 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -41750,6 +41790,8 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -43402,6 +43444,8 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
     if ((res = read(null_fd, compressed_buf, readamount)) < 0 ||
         (unsigned int)res != readamount) {
 =======
@@ -43421,6 +43465,7 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -43432,9 +43477,12 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+=======
     if ((res = read(null_fd, compressed_buf, readamount)) < 0 ||
         (unsigned int)res != readamount) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -43484,7 +43532,12 @@ static int read_null_bits_compressed(int null_fd, unsigned char *flags, int row,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+>>>>>>> 7b9fb7e19e (r.horizon manual - fix typo (#2794))
         G_free(compressed_buf);
         G_fatal_error(
             _("Error reading compressed null data for row %d of <%s>"), row,
