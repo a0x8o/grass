@@ -64,6 +64,7 @@ This file contains following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on 
@@ -203,6 +204,8 @@ Updating the message catalogs currently only works on
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -447,7 +450,13 @@ Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+Updating the message catalogs currently only works on
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 unix-like systems and requires xgettext.
 
 ------------------------------------------------------
@@ -548,6 +557,7 @@ NOTE3: Notices to translators can be added by placing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* GTC A comma separated keyword list.
 =======
         /* GTC A comma separated keyword list. 
@@ -687,6 +697,8 @@ NOTE3: Notices to translators can be added by placing
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -931,7 +943,13 @@ NOTE3: Notices to translators can be added by placing
 =======
         /* GTC A comma separated keyword list. 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        /* GTC A comma separated keyword list.
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
            Should not contain spaces! */
         keywords = _("first,second,third");
 
@@ -994,6 +1012,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         plural case", number)
 =======
         plural case", number) 
@@ -1133,6 +1152,8 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1377,7 +1398,13 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 =======
         plural case", number) 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        plural case", number)
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 
 Examples of messages with plural forms.
 Wrong:
@@ -1438,6 +1465,7 @@ Wrong:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1509,6 +1537,8 @@ Wrong:
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1885,7 +1915,14 @@ Wrong:
     G_warning( _("%d %s without geometry skipped"), n, 
         n == 1 ? "feature" : "features"); 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    G_warning( _("%d %s without geometry skipped"), n,
+        n == 1 ? "feature" : "features");
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
     G_message( _("%d maps selected"), n);
     G_message( n == 1 ? _("Remove map") : _("Remove maps"));
 
@@ -1946,6 +1983,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2043,6 +2081,8 @@ Correct:
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -2595,15 +2635,25 @@ Correct:
 =======
 =======
     G_message( n_("%d map from mapset <%s> removed", 
+=======
+    G_message( n_("%d map from mapset <%s> removed",
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
         "%d maps from mapset <%s> removed", n), n, ms);
-    /* Notice double use of number "n" - as an argument for 
+    /* Notice double use of number "n" - as an argument for
     both functions - n_() and G_message() */
     G_message( n_("One file removed", "%d files removed", n) n);
-    /* Both of forms of singular case "%d file" or "One file" are correct. 
+    /* Both of forms of singular case "%d file" or "One file" are correct.
     The choice between them is purely stylistic one. */
+<<<<<<< HEAD
     G_warning( n_("One feature without geometry skipped", 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    G_warning( n_("One feature without geometry skipped",
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
         "%d features without geometry skipped", n), n);
     G_message( n_("%d map selected", "%d maps selected", n), n);
     /* Although in English it is not necessary to provide a separate
@@ -2666,6 +2716,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -2737,6 +2788,8 @@ Correct:
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3169,7 +3222,15 @@ All these messages strings will be then automatically
         
 All these messages strings will be then automatically 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+
+All these messages strings will be then automatically
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 extracted into the message files.
 
 See for example ./vector/v.what.rast/main.c
@@ -3235,6 +3296,7 @@ can be found in gettext manual.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 How to prepare program source:
 =======
 How to prepare program source: 
@@ -3374,6 +3436,8 @@ How to prepare program source:
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -3618,7 +3682,13 @@ How to prepare program source:
 =======
 How to prepare program source: 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+How to prepare program source:
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 https://www.gnu.org/software/gettext/manual/gettext.html#Sources
 
 More advanced tricks like resolving ambiguties and handling of plural forms:
@@ -4252,6 +4322,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 [2] Transifex job copies daily from [1] to here: 
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -4311,11 +4382,18 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 
 [2] Transifex job copies daily from [1] to here: 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+[2] Transifex job copies daily from [1] to here:
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 	https://www.transifex.com/grass-gis/grass7/dashboard/
 
 [3] Translators work in Transifex,
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4451,6 +4529,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
@@ -4549,7 +4629,12 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo
     (MO files are generated when compiling GRASS GIS)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
@@ -5014,6 +5099,7 @@ Semi-automated procedure:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -5153,6 +5239,8 @@ Semi-automated procedure:
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5397,7 +5485,13 @@ Semi-automated procedure:
 =======
      
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
         ./configured --with-nls [...further options...]
         make
 
@@ -5462,6 +5556,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3. Now translate the messages in the po/*.po files (using kbabel or
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or 
@@ -5601,6 +5696,8 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -5845,7 +5942,13 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
      other editor). Just open the .po file(s) in your preferred translation
      software.
 
@@ -5905,6 +6008,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
       
@@ -6044,6 +6148,8 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6288,7 +6394,13 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
       
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
         make mo         creates the mo files (containing translated messages as
                         binary file)
 
@@ -6388,6 +6500,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -6527,6 +6640,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6771,7 +6886,13 @@ DETAILED PROCEDURE :
 =======
     
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
    This will create
     ./templates/grasslibs.pot
     ./templates/grassmods.pot
@@ -6840,6 +6961,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -6937,6 +7059,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -7489,15 +7613,25 @@ DETAILED PROCEDURE :
 =======
 =======
        
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
   3.a) First CASE: Messages have not yet been translated to your language.
        No .po file is present for your language in the ./po/ directory.
-      
+
        Run:
         make pot
         make update-po
+<<<<<<< HEAD
  
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
        Move the generated file from the ./template/ directory
        to the ./po/ directory (for example German language):
         mv ./template/grasslibs.pot ./po/grasslibs_de.po
@@ -7565,6 +7699,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3.b) Second CASE: Some messages have already been translated to
 =======
   3.b) Second CASE: Some messages have already been translated to 
@@ -7704,6 +7839,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -7948,7 +8085,13 @@ DETAILED PROCEDURE :
 =======
   3.b) Second CASE: Some messages have already been translated to 
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+  3.b) Second CASE: Some messages have already been translated to
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
        your language (files present in ./po/ directory), and
        you want to continue with translating new and still
        untranslated messages.
@@ -8009,6 +8152,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -8106,6 +8250,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -8724,18 +8870,28 @@ DETAILED PROCEDURE :
 =======
 =======
        First we have to merge new messages into existing .po files 
+=======
+       First we have to merge new messages into existing .po files
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
        (which contain already translated messages) as new messages
-       might have been added into the GRASS system. 
+       might have been added into the GRASS system.
        To do so, run:
-    
+
        make pot
        make update-po
-    
-       This will update the messages in all existing files in 
+
+       This will update the messages in all existing files in
        the .po/ directory.
+<<<<<<< HEAD
     
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 
 4. TRANSLATE MESSAGES
 
@@ -8796,6 +8952,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
    
@@ -8935,6 +9092,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb1dcf9f32 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -9179,7 +9338,13 @@ DETAILED PROCEDURE :
 =======
    
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
    Run 'kbabel' or equivalent program
     kbabel ./po/grasslibs_<LANGUAGE>.po
     kbabel ./po/grassmods_<LANGUAGE>.po
@@ -9251,6 +9416,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -9348,6 +9514,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -9922,16 +10090,26 @@ DETAILED PROCEDURE :
 =======
 =======
    * Pay attention to keep '%s', '\n' and other stuff also 
+=======
+   * Pay attention to keep '%s', '\n' and other stuff also
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
      in the translated messages!
-   
+
    * Please use 'ISO-8859-1' or 'ISO-8859-15' for western languages.
      See https://en.wikipedia.org/wiki/ISO_8859 for details.
-   
+
    After finishing the translation, save the files.
 
+<<<<<<< HEAD
      
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 5. CREATE MO FILES
 
    run
@@ -10010,6 +10188,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -10107,6 +10286,8 @@ DETAILED PROCEDURE :
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -10615,13 +10796,23 @@ DETAILED PROCEDURE :
 =======
 =======
    
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
    git diff file.c > file.diff
-   
+
    Thanks for submitting.
 
+<<<<<<< HEAD
    
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> 14f59e9b25 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 060d4359ef (r.horizon manual - fix typo (#2794))
 PLEASE HELP TO TRANSLATE GRASS MESSAGES!
 
 ----------------------------------------------
