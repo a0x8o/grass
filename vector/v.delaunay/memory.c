@@ -157,6 +157,7 @@ void alloc_edges(unsigned int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -199,10 +200,17 @@ void alloc_edges(unsigned int n)
 =======
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 void free_memory(void)
 =======
 <<<<<<< HEAD
@@ -319,6 +327,7 @@ void free_memory(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -354,6 +363,8 @@ void free_memory()
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 void free_memory(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -536,7 +547,12 @@ void free_memory()
 void free_memory(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ec40ea5aa2 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 {
     G_free(sites);
     G_free(edges);

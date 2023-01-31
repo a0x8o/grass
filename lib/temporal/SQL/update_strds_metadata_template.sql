@@ -163,6 +163,7 @@ UPDATE strds_metadata SET ewres_min =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -174,6 +175,8 @@ UPDATE strds_metadata SET ewres_min =
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 UPDATE strds_metadata SET ewres_max =
        (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN
 <<<<<<< HEAD
@@ -721,8 +724,19 @@ UPDATE strds_metadata SET ewres_min =
        (SELECT min(ewres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 UPDATE strds_metadata SET ewres_max =
        (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN
+=======
+<<<<<<< HEAD
+UPDATE strds_metadata SET ewres_max = 
+       (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN 
+=======
+UPDATE strds_metadata SET ewres_max =
+       (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
 <<<<<<< HEAD
