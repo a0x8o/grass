@@ -8013,6 +8013,7 @@ int error_Output(int out, msg m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8904,6 +8905,8 @@ int error_Output(int out, msg m)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 =======
         if (write(out, s, strlen(s)) == strlen(s))
@@ -8914,6 +8917,7 @@ int error_Output(int out, msg m)
 =======
         if (write(out, s, strlen(s)) == strlen(s))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -9809,6 +9813,11 @@ int error_Output(int out, msg m)
         if (write(out, s, strlen(s)) == strlen(s))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
             return 1;
         else
             return 0;

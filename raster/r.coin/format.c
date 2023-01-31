@@ -121,6 +121,7 @@ int format_double(double v, char *buf, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -790,6 +791,8 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 =======
     for (k = n; strlen(buf) > n; k--) {
@@ -824,6 +827,7 @@ int format_double(double v, char *buf, int n)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -1663,6 +1667,11 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (k = n; (ssize_t)strlen(buf) > n; k--) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         sprintf(fmt, "%%%d.%dg", n, k);
         sprintf(buf, fmt, v);
     }

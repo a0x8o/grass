@@ -137,6 +137,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1028,6 +1029,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
         if (write(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
@@ -1038,6 +1041,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
         if (write(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -1933,6 +1937,11 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
         if (write(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
             Rast3d_error("Rast3d_write_ints: writing to file failed");
             return 0;
         }
@@ -2064,6 +2073,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2955,6 +2965,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         unsigned int j;
 =======
         int j;
@@ -2965,6 +2977,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
         int j;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -3860,6 +3873,11 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
         int j;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        unsigned int j;
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
 
         n = nofNum % 1024;
         if (n == 0)
@@ -4014,6 +4032,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4905,6 +4924,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
         if (read(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
@@ -4915,6 +4936,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
         if (read(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -5810,6 +5832,11 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
         if (read(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
             Rast3d_error("Rast3d_read_ints: reading from file failed");
             return 0;
         }
@@ -5941,6 +5968,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6832,6 +6860,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         unsigned int j;
 =======
         int j;
@@ -6842,6 +6872,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
         int j;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -7737,6 +7768,11 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
         int j;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        unsigned int j;
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
 
         n = nofNum % 1024;
         if (n == 0)

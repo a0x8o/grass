@@ -306,6 +306,7 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -975,6 +976,8 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
     if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
 =======
     if (nbytes != dst_sz) {
@@ -1009,6 +1012,7 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -1848,6 +1852,11 @@ int G_bz2_expand(unsigned char *src, int src_sz, unsigned char *dst, int dst_sz)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (dst_sz < 0 || nbytes != (unsigned int)dst_sz) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         /* TODO: it is not an error if destination is larger than needed */
         G_warning(_("Got uncompressed size %d, expected %d"), (int)nbytes,
                   dst_sz);

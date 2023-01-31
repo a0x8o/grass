@@ -588,6 +588,7 @@ void Rast_set_cell_format(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1479,6 +1480,8 @@ void Rast_set_cell_format(int n)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
     if (R__.nbytes > (int)sizeof(CELL))
 =======
     if (R__.nbytes > sizeof(CELL))
@@ -1489,6 +1492,7 @@ void Rast_set_cell_format(int n)
 =======
     if (R__.nbytes > sizeof(CELL))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -2384,6 +2388,11 @@ void Rast_set_cell_format(int n)
     if (R__.nbytes > sizeof(CELL))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (R__.nbytes > (int)sizeof(CELL))
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
         R__.nbytes = sizeof(CELL);
 }
 

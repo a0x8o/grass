@@ -243,6 +243,7 @@ with a width of 600 pixel but it is clickable in the manual page). If a larger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 <<<<<<< HEAD
@@ -635,6 +636,8 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
 image is displayed as shrunk, both **width** and **height** HTML parameters
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters
@@ -701,6 +704,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1223,6 +1227,8 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
 (values must be calculated according to the picture size!) should be set:
 
 ```html
