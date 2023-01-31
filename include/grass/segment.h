@@ -218,6 +218,7 @@ struct aq {                     /* age queue */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -412,6 +413,10 @@ struct aq {                     /* age queue */
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
@@ -790,7 +795,12 @@ struct aq {                     /* age queue */
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 typedef struct SEGMENT {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1492,6 +1502,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1610,6 +1621,8 @@ typedef struct SEGMENT {
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -1637,6 +1650,8 @@ typedef struct SEGMENT {
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 typedef struct {
 =======
@@ -3199,8 +3214,16 @@ typedef struct {
 =======
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
     int open;      /* open flag */
     off_t nrows;   /* rows in original data */
     off_t ncols;   /* cols in original data */
@@ -3422,9 +3445,14 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
+=======
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -4023,7 +4051,12 @@ typedef struct {
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
     int (*address)(const struct SEGMENT *, off_t, off_t, int *, int *);
     int (*seek)(const struct SEGMENT *S, int, int);
 =======
@@ -5165,6 +5198,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -5326,6 +5360,8 @@ typedef struct {
 =======
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5376,6 +5412,7 @@ typedef struct {
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -5392,6 +5429,10 @@ typedef struct {
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -5430,6 +5471,7 @@ typedef struct {
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
@@ -5474,6 +5516,10 @@ typedef struct {
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
     int (*address)();
     int (*seek)();
 =======
@@ -5522,6 +5568,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -5546,6 +5593,8 @@ typedef struct {
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -5560,6 +5609,8 @@ typedef struct {
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -6616,8 +6667,16 @@ typedef struct {
 =======
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 
     char *fname; /* segment file name */
     int fd;      /* file descriptor to read/write segment */

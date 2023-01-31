@@ -347,6 +347,7 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -541,6 +542,10 @@ static void main_loop(void)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 8922916e15 (Fix missing function prototypes (#2727))
@@ -919,7 +924,12 @@ static void main_loop(void)
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
         unsigned long delay = 0;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1621,6 +1631,7 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1739,6 +1750,8 @@ static void main_loop(void)
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -1766,6 +1779,8 @@ static void main_loop(void)
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
         unsigned long delay;
 =======
@@ -3328,8 +3343,16 @@ static void main_loop(void)
 =======
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 
         while (XPending(dpy) > 0) {
             XEvent event;
@@ -3613,6 +3636,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3807,6 +3831,10 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 >>>>>>> 51c6907b22 (r.horizon manual - fix typo (#2794))
@@ -4185,7 +4213,12 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
     if (get_4(&p) != (unsigned int)i_width * i_height * 4)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4887,6 +4920,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5005,6 +5039,8 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -5032,6 +5068,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
     if (get_4(&p) != i_width * i_height * 4)
 =======
@@ -6602,8 +6640,16 @@ static int read_bmp_header(const unsigned char *p)
 =======
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
         return 0;
 
     if (size != HEADER_SIZE + i_width * i_height * 4)

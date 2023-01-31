@@ -343,6 +343,7 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -537,6 +538,10 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 >>>>>>> 51c6907b22 (r.horizon manual - fix typo (#2794))
@@ -915,7 +920,12 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
         if (map->indexNbytesUsed > (int)sizeof(long))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1617,6 +1627,7 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1735,6 +1746,8 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -1762,6 +1775,8 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
         if (map->indexNbytesUsed > sizeof(long))
 =======
@@ -3332,8 +3347,16 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
             Rast3d_fatal_error(
                 _("Rast3d_open_cell_old: index does not fit into long"));
 

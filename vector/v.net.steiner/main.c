@@ -2557,6 +2557,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2714,8 +2715,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 8732bd1c8a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> main
 =======
@@ -3798,6 +3803,7 @@ int main(int argc, char **argv)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3810,6 +3816,10 @@ int main(int argc, char **argv)
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 
     G_debug(1, "Nodes' categories (layer %d, %d nodes):", tfield,
             StNodes->n_values);
@@ -4225,6 +4235,7 @@ int main(int argc, char **argv)
                 continue;
             Vect_write_line(&Out, ltype, Points, Cats);
             G_debug(1, "node cat = %d", cat);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5063,6 +5074,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
             k++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5546,6 +5559,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -5693,6 +5707,8 @@ int main(int argc, char **argv)
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 =======
 <<<<<<< HEAD
@@ -6819,8 +6835,16 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+>>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+>>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
         }
     }
 
