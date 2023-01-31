@@ -5009,6 +5009,7 @@ def replace_shebang_win(python_file):
     os.rename(tmp_name, python_file)  # rename temp to original name
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a97572757d (g.proj: fix reading input WKT (#1582))
 =======
@@ -5316,6 +5317,10 @@ def replace_shebang_win(python_file):
 
 
 >>>>>>> 9a37b8a6ad (g.proj: fix reading input WKT (#1582))
+=======
+
+
+>>>>>>> f5973b4368 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
