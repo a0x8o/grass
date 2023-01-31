@@ -251,6 +251,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -570,6 +571,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
@@ -655,6 +658,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2243,7 +2248,12 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -2319,6 +2329,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
         int conflicts = 0;
 
         G_percent(iter, iterations, 1);
@@ -2387,8 +2399,81 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_add(&dx, &fx, &fx);
         matrix_add(&dy, &fy, &fy);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        G_percent(iter, iterations, 1);
+
+        matrix_mult_scalar(0.0, &fx);
+        matrix_mult_scalar(0.0, &fy);
+
+        matrix_mult_scalar(0.0, &dx_old);
+        matrix_mult_scalar(0.0, &dy_old);
+
+        matrix_add(&dx_old, &dx, &dx_old);
+        matrix_add(&dy_old, &dy, &dy_old);
+
+        /* calculate force vectors */
+        for (i = 0; i < index; i++) {
+
+            double cx, cy, f;
+
+            if (point_index[i] == -1)
+                continue;
+            cx = dx.a[point_index[i]][0];
+            cy = dy.a[point_index[i]][0];
+            f = sqrt(cx * cx + cy * cy) * alpha;
+            f /= threshold2;
+            fx.a[point_index[i]][0] -= cx * f;
+            fy.a[point_index[i]][0] -= cy * f;
+
+            for (j = 1; j < index; j++) {
+                if (line_index[i] == line_index[j] || first[j] ||
+                    point_index[i] == point_index[j] ||
+                    point_index[i] == point_index[j - 1])
+                    continue;
+                /* if ith point is close to some segment then
+                 * apply force to ith point. If the distance
+                 * is zero, do not move the points */
+                double d, pdist;
+                POINT in;
+                int status;
+
+                d = dig_distance2_point_to_line(
+                    parray[i].x, parray[i].y, parray[i].z, parray[j].x,
+                    parray[j].y, parray[j].z, parray[j - 1].x, parray[j - 1].y,
+                    parray[j - 1].z, with_z, &in.x, &in.y, &in.z, &pdist,
+                    &status);
+
+                POINT dir;
+
+                if (d == 0.0 || d > threshold2)
+                    continue;
+                d = sqrt(d);
+                point_subtract(parray[i], in, &dir);
+                point_scalar(dir, 1.0 / d, &dir);
+                point_scalar(dir, 1.0 - d / threshold, &dir);
+                fx.a[point_index[i]][0] += dir.x;
+                fy.a[point_index[i]][0] += dir.y;
+            }
+        }
+
+        /* calculate new displacement */
+        matrix_mult_scalar(delta, &fx);
+        matrix_mult_scalar(delta, &fy);
+        matrix_mult_scalar(gama, &dx);
+        matrix_mult_scalar(gama, &dy);
+
+        matrix_add(&dx, &fx, &fx);
+        matrix_add(&dy, &fy, &fy);
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 
