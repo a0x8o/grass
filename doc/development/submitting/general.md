@@ -203,6 +203,7 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -323,6 +324,8 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
@@ -571,7 +574,12 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 =======
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 Often there is more than one active release branch. You can also choose to backport
 only to the closest branch. If you are backporting to other release branches than
 just the closets one, make sure you always backport to all the branches between
@@ -579,6 +587,7 @@ just the closets one, make sure you always backport to all the branches between
 have release branches 3.6 and 3.5, if you backport to 3.5, you should backport to
 3.6, too.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +724,8 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -1092,7 +1103,14 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 =======
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 Often there is more than one active release branch, if you are backporting, make
 sure you always backport to all the branches between "main" and the furthest
 branch you are backporting to. For example, let's say we have "main" and branches
@@ -1162,6 +1180,7 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -1219,6 +1238,8 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 =======
 =======
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -1689,7 +1710,15 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 
 Backport only complete fixes. When you are not sure if the fix is complete or if
 there is an possibility that some details such as wording will change, wait with
@@ -1794,6 +1823,7 @@ should first seek consent in the grass-dev mailing list (see below), then you ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 <<<<<<< HEAD
@@ -1929,6 +1959,8 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -2164,7 +2196,12 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 to expand 'configure.ac' and subsequently run `autoconf-2.71` (later versions
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
@@ -2228,6 +2265,7 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -2305,6 +2343,8 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -2722,7 +2762,15 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 089152282a (r.horizon manual - fix typo (#2794))
 will not work) to re-generate 'configure'.
 
 ## Naming Conventions
