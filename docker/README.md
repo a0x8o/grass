@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -65,6 +66,10 @@
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 
 ## GRASS GIS docker matrix
 <<<<<<< HEAD
@@ -478,6 +483,7 @@ the table above):
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## GRASS GIS docker matrix
 =======
 =======
@@ -522,6 +528,9 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+## GRASS GIS docker matrix
+>>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/mundialis/grass-py3-pdal.svg)](https://grass.osgeo.org/download/software/docker-images/)
 
@@ -537,6 +546,7 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 | Alpine 3.12  | stable-alpine | 8.2 branch | 7.0.1 | 3.1.4 | 2.1.0 | 3.8.10 |  186 MB    |
 <!-- markdownlint-enable line-length -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Last update: 27 Apr 2022 (source: <https://github.com/OSGeo/grass/actions/workflows/docker.yml> and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
@@ -641,6 +651,10 @@ Last update: 22 Jan 2023 (source: <https://github.com/OSGeo/grass/actions/workfl
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
+=======
+Last update: 22 Jan 2023 (source: <https://github.com/OSGeo/grass/actions/workflows/docker.yml>
+and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
+>>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 
 ## Requirements
 
@@ -656,12 +670,18 @@ and <https://hub.docker.com/r/mundialis/grass-py3-pdal/tags>)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 To install a docker image, run (replace `<tag>` with the desired Docker tag from
 the table above):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+To install a docker image, run (replace `<tag>` with the desired Docker tag from
+the table above):
+
+>>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 ```bash
 docker pull osgeo/grass-gis:<tag>
