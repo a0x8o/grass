@@ -56,6 +56,7 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -98,6 +99,8 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 =======
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -126,7 +129,12 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 =======
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
             if (k > (unsigned int)threshold)
 =======
 <<<<<<< HEAD
@@ -430,6 +438,7 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -438,8 +447,12 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 =======
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
             if (k > threshold)
 =======
@@ -448,10 +461,13 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -490,7 +506,12 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 =======
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
                 acc |= bit;
 
             bit >>= 1;

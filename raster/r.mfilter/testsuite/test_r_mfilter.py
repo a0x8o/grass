@@ -222,6 +222,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -319,6 +320,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -347,7 +350,12 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -798,11 +806,15 @@ class TestNeighbors(TestCase):
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
                    1 1 1 
                    1 1 1 
                    1 1 1 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
                    1 1 1
                    1 1 1
                    1 1 1
@@ -857,12 +869,24 @@ class TestNeighbors(TestCase):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
+<<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }

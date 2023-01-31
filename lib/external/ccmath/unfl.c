@@ -50,6 +50,7 @@ static unsigned int s, h, sbuf[256];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -92,6 +93,8 @@ static unsigned int s, h, sbuf[256];
 =======
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -120,7 +123,12 @@ static unsigned int s, h, sbuf[256];
 =======
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 double unfl(void)
 =======
 <<<<<<< HEAD
@@ -424,6 +432,7 @@ double unfl(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -432,8 +441,12 @@ double unfl(void)
 =======
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
 double unfl()
 =======
@@ -442,10 +455,13 @@ double unfl(void)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -484,7 +500,12 @@ double unfl()
 =======
 =======
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f5392b7882 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 {
     int i;
 

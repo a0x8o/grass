@@ -55,6 +55,7 @@ You are right that there is a problem with normals for surfaces with values
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 the surface to disapear for larger values of z for higher resolution/higher
 =======
 <<<<<<< HEAD
@@ -121,6 +122,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
@@ -129,7 +132,12 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 the surface to disappear for larger values of z for higher resolution/higher
 =======
 the surface to disapear for larger values of z for higher resolution/higher
@@ -157,12 +165,15 @@ the surface to disapear for larger values of z for higher resolution/higher
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -302,7 +313,15 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
+=======
+=======
+the surface to disapear for larger values of z for higher resolution/higher
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+>>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 zscale case. Bill fixed it for the SGI-GL version - if the GL version
 is available it would be good to compare them. I will check with Bill,
 but I would like him to finish the legends first.
