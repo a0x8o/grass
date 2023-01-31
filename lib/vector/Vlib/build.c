@@ -125,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format(struct Map_info *Map, int build)
 =======
 <<<<<<< HEAD
@@ -573,6 +574,8 @@ static int format(struct Map_info *Map, int build)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -726,7 +729,12 @@ static int format(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 static int format(struct Map_info *Map UNUSED, int build UNUSED)
 =======
 static int format(struct Map_info *Map, int build)
@@ -819,6 +827,7 @@ static int format(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -936,6 +945,8 @@ static int format(struct Map_info *Map, int build)
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1345,13 +1356,17 @@ static int format(struct Map_info *Map, int build)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 static int format(struct Map_info *Map, int build)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
@@ -1579,6 +1594,8 @@ static int format(struct Map_info *Map, int build)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -1763,6 +1780,9 @@ static int format(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
@@ -4611,6 +4631,8 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 #ifdef HAVE_OGR
                                                        ,
@@ -4720,6 +4742,7 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4958,6 +4981,8 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 =======
 =======
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 static int (*Build_array[])() = {Vect_build_nat
 #ifdef HAVE_OGR
                                  ,
@@ -4983,6 +5008,7 @@ static int (*Build_array[])() = {Vect_build_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -4991,6 +5017,8 @@ static int (*Build_array[])() = {Vect_build_nat
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5040,10 +5068,13 @@ static int (*Build_array[])() = {Vect_build_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
@@ -5083,6 +5114,9 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
@@ -6332,7 +6366,12 @@ static int (*Build_array[])(struct Map_info *, int) = {Vect_build_nat
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 #endif
 };
 
@@ -7387,6 +7426,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7689,6 +7729,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7860,6 +7902,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
             err_centr_dupl /*, err_nocentr */;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8509,6 +8553,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8641,11 +8686,14 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
             err_centr_dupl, err_nocentr;
 =======
             err_centr_dupl /*, err_nocentr */;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8755,6 +8803,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -9552,6 +9602,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
@@ -10045,6 +10096,10 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         struct P_line *Line;
         struct Plus_head *Plus;
 
@@ -10254,6 +10309,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10556,6 +10612,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10727,6 +10785,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
         /* err_nocentr = 0; */
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11376,6 +11436,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11508,11 +11569,14 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
         err_nocentr = 0;
 =======
         /* err_nocentr = 0; */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11622,6 +11686,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -12419,6 +12485,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
@@ -12912,6 +12979,10 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         nareas = Vect_get_num_areas(Map);
         for (area = 1; area <= nareas; area++) {
             if (!Vect_area_alive(Map, area))
@@ -13095,6 +13166,9 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
@@ -13597,6 +13671,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
             /* if (line == 0)
                 err_nocentr++; */
 =======
@@ -14654,6 +14730,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -14791,6 +14868,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14875,6 +14954,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -14912,6 +14992,10 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
             if (line == 0)
                 err_nocentr++;
 =======
@@ -14954,6 +15038,7 @@ int Vect_build_partial(struct Map_info *Map, int build)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -14966,6 +15051,8 @@ int Vect_build_partial(struct Map_info *Map, int build)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -15888,7 +15975,12 @@ int Vect_build_partial(struct Map_info *Map, int build)
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         }
 
         G_verbose_message(_("Number of areas: %d"), plus->n_areas);
@@ -16278,6 +16370,7 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16544,6 +16637,8 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -16632,6 +16727,8 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 
 <<<<<<< HEAD
@@ -16772,6 +16869,7 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17016,6 +17114,8 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -17105,6 +17205,8 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
 
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -17162,6 +17264,9 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
@@ -17789,6 +17894,7 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f940eb7c (Fix missing function prototypes (#2727))
 =======
 =======
@@ -18409,6 +18515,10 @@ int Vect_build_sidx_from_topo(struct Map_info *Map)
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     G_debug(3, "Vect_build_sidx_from_topo(): name=%s", Vect_get_full_name(Map));
 
     G_warning(_("%s is no longer supported"), "Vect_build_sidx_from_topo()");

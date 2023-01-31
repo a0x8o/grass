@@ -196,6 +196,7 @@ int read_rules(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -419,6 +420,8 @@ int read_rules(FILE *fp)
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -698,7 +701,12 @@ int read_rules(FILE *fp)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     for (;;) {
 =======
 <<<<<<< HEAD
@@ -844,6 +852,7 @@ int read_rules(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -912,6 +921,8 @@ int read_rules(FILE *fp)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1011,11 +1022,14 @@ int read_rules(FILE *fp)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
     for (line = 1;; line++) {
 =======
     for (;;) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1088,6 +1102,8 @@ int read_rules(FILE *fp)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -2512,7 +2528,12 @@ int read_rules(FILE *fp)
     for (;;) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         if (isatty(fileno(fp)))
             fprintf(stderr, "> ");
 

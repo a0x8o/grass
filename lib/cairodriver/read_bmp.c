@@ -1751,6 +1751,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1974,6 +1975,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 329e8f795b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -2253,7 +2256,12 @@ static int read_bmp_header(const unsigned char *p)
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     if (get_4(&p) != (unsigned int)HEADER_SIZE + ca.width * ca.height * 4)
 =======
 <<<<<<< HEAD
@@ -2399,6 +2407,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -2467,6 +2476,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2566,11 +2577,14 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
     if (get_4(&p) != HEADER_SIZE + ca.width * ca.height * 4)
 =======
     if (get_4(&p) != (unsigned int)HEADER_SIZE + ca.width * ca.height * 4)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2643,6 +2657,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -4075,7 +4091,12 @@ static int read_bmp_header(const unsigned char *p)
     if (get_4(&p) != (unsigned int)HEADER_SIZE + ca.width * ca.height * 4)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         return 0;
 
     get_4(&p);
@@ -4161,6 +4182,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4458,6 +4480,8 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4635,6 +4659,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
     if (get_4(&p) != (unsigned int)ca.width)
         return 0;
     if (get_4(&p) != (unsigned int)-ca.height)
@@ -6994,9 +7020,15 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
 =======
+    if (get_4(&p) != ca.width)
+        return 0;
+    if (get_4(&p) != -ca.height)
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
     if (get_4(&p) != (unsigned int)ca.width)
         return 0;
     if (get_4(&p) != (unsigned int)-ca.height)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7312,7 +7344,16 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         return 0;
 
     get_2(&p);
@@ -7500,6 +7541,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7802,6 +7844,8 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7973,6 +8017,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
     if (get_4(&p) != (unsigned int)ca.width * ca.height * 4)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8622,6 +8668,7 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8754,11 +8801,14 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
     if (get_4(&p) != ca.width * ca.height * 4)
 =======
     if (get_4(&p) != (unsigned int)ca.width * ca.height * 4)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8870,6 +8920,8 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -9668,6 +9720,7 @@ static int read_bmp_header(const unsigned char *p)
 =======
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
@@ -10166,6 +10219,10 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         return 0;
 
     get_4(&p);
@@ -10370,6 +10427,7 @@ void cairo_read_bmp(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10671,6 +10729,8 @@ void cairo_read_bmp(void)
 >>>>>>> c3e2c0c6ac (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11372,7 +11432,12 @@ void cairo_read_bmp(void)
 =======
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     if (fread(ca.grid, ca.stride, ca.height, input) !=
         (unsigned int)ca.height) {
 =======
@@ -11447,6 +11512,7 @@ void cairo_read_bmp(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -11488,12 +11554,15 @@ void cairo_read_bmp(void)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
     if (fread(ca.grid, ca.stride, ca.height, input) != ca.height) {
 =======
     if (fread(ca.grid, ca.stride, ca.height, input) !=
         (unsigned int)ca.height) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12585,6 +12654,7 @@ void cairo_read_bmp(void)
 =======
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
@@ -13154,6 +13224,10 @@ void cairo_read_bmp(void)
 =======
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         if (feof(input))
             G_fatal_error(_("Cairo: error reading BMP file <%s>: "
                             "unexpected end of file"),

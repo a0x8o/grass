@@ -180,6 +180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -509,6 +510,8 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -592,6 +595,7 @@ FILE *I_fopen_group_init_new(char *);
 =======
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
@@ -687,6 +691,10 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 =======
@@ -831,6 +839,7 @@ FILE *I_fopen_group_init_new();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 =======
@@ -852,6 +861,8 @@ FILE *I_fopen_group_init_new();
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2338,10 +2349,13 @@ FILE *I_fopen_group_init_new();
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
 =======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
@@ -2363,7 +2377,12 @@ FILE *I_fopen_group_init_new();
 =======
 =======
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6ae26438a1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+>>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 #define INITIAL_FILE "INIT_EXP"
 
