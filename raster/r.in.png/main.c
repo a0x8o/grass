@@ -100,6 +100,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -227,6 +228,8 @@ typedef struct {
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -360,7 +363,12 @@ typedef struct {
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
                               {.suffix = ".r"}, {.suffix = ".g"},
                               {.suffix = ".b"}, {.suffix = ".a"}};
@@ -512,6 +520,7 @@ static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 =======
 >>>>>>> osgeo-main
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,12 +970,27 @@ static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+static channel channels[6] = {{""}, {""}, {".r"}, {".g"}, {".b"}, {".a"}};
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 static channel channels[6] = {{.suffix = ""},   {.suffix = ""},
                               {.suffix = ".r"}, {.suffix = ".g"},
                               {.suffix = ".b"}, {.suffix = ".a"}};
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
 static int Header;
 static int Float;
@@ -1315,6 +1339,7 @@ static void read_png(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1388,6 +1413,8 @@ static void read_png(void)
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1503,7 +1530,12 @@ static void read_png(void)
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
     png_buffer = G_malloc((size_t)interlace ? (size_t)height * linesize
                                             : (size_t)linesize);
 =======
@@ -1856,6 +1888,7 @@ static void read_png(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1876,6 +1909,8 @@ static void read_png(void)
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1907,12 +1942,15 @@ static void read_png(void)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
     png_buffer = G_malloc(interlace ? height * linesize : linesize);
 =======
     png_buffer = G_malloc((size_t)interlace ? (size_t)height * linesize
                                             : (size_t)linesize);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2053,7 +2091,12 @@ static void read_png(void)
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
     if (interlace) {
         png_rows = G_malloc(height * sizeof(png_bytep));

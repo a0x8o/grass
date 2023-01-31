@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "config:base",
 =======
 <<<<<<< HEAD
@@ -70,6 +71,8 @@
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
         "config:base",
 =======
@@ -129,6 +132,8 @@
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
         "config:best-practices",
 =======
         "config:best-practices",
@@ -216,6 +221,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -270,6 +276,8 @@
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -285,13 +293,19 @@
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
 =======
 =======
         "config:base",
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +391,8 @@
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
         "config:base",
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -473,7 +489,12 @@
 =======
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
         ":semanticCommitTypeAll(CI)"
     ]
 }

@@ -577,6 +577,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -650,6 +651,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -765,7 +768,12 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 =======
 <<<<<<< HEAD
@@ -1098,6 +1106,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1118,6 +1127,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -1128,11 +1139,14 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 =======
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,6 +1162,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1297,7 +1313,12 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
                     G_free(rast_pixs);
                     G_free(belongs_pix);
                     G_warning(

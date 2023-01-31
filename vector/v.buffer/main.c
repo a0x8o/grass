@@ -410,6 +410,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -483,6 +484,8 @@ int main(int argc, char *argv[])
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -598,7 +601,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
         G_fatal_error(_("The column option requires a valid layer."));
 =======
 <<<<<<< HEAD
@@ -931,6 +939,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -951,6 +960,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -961,11 +972,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
         G_fatal_error(_("The bufcol option requires a valid layer."));
 =======
         G_fatal_error(_("The column option requires a valid layer."));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,6 +995,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1130,7 +1146,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
     tolerance = 0.01;
     if (tol_opt->answer) {

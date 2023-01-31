@@ -88,6 +88,7 @@ void calculate_atanb(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -146,6 +147,8 @@ void calculate_atanb(void)
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -180,7 +183,12 @@ void calculate_atanb(void)
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
     for (; natb < ncells;) {
 =======
 <<<<<<< HEAD
@@ -288,10 +296,13 @@ void calculate_atanb(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -337,6 +348,8 @@ void calculate_atanb(void)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
     for (iter = 1; natb < ncells; iter++) {
 =======
     for (; natb < ncells;) {
@@ -367,9 +380,12 @@ void calculate_atanb(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -711,7 +727,12 @@ void calculate_atanb(void)
     for (; natb < ncells;) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
         /*
            for(i=0;i<80;i++)
            fprintf(stderr,"\b");

@@ -4698,6 +4698,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4767,6 +4768,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4797,11 +4800,17 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
  - external:	\ref external (External libraries from other projects such as shapelib, parson and \ref ccmathlib)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4900,6 +4909,8 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -4984,7 +4995,12 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
  - external:	\ref external (External libraries from other projects such as shapelib, parson and \ref ccmathlib)
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
  - external:	\ref external (External libraries from other projects such as shapelib and \ref ccmathlib)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
  - fonts:	\ref fonts (GRASS fonts library)

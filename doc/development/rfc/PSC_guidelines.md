@@ -71,6 +71,7 @@ Status: Adopted (6 April 2007)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -135,6 +136,8 @@ Status: Adopted (6 April 2007)
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -163,6 +166,8 @@ Status: Adopted (6 April 2007)
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -731,16 +736,20 @@ over the GRASS codebase and to facilitate GRASS project management issues.
 It is desired to keep the administrational overhead as low as possible.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 A GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)) is proposed to formalize control
 over the GRASS codebase and to facilitate GRASS project management issues.
 It is desired to keep the administrational overhead as low as possible.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 A GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC))
 is proposed to formalize control over the GRASS codebase and to facilitate GRASS
 project management issues. It is desired to keep the administrational overhead
 as low as possible.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1069,7 +1078,13 @@ as low as possible.
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
 This document describes how the GRASS Project Steering Committee
 determines membership, and makes decisions on GRASS project issues.
@@ -1159,6 +1174,7 @@ currently include:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1232,6 +1248,8 @@ currently include:
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1347,7 +1365,12 @@ currently include:
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 * Enforcing the submitter guidelines, with the ultimate sanction against
   non-compliance being removal of write access to the source code repository.
 =======
@@ -1700,6 +1723,7 @@ currently include:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1720,6 +1744,8 @@ currently include:
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1751,12 +1777,15 @@ currently include:
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
 * Enforcing the submitter guidelines, with the ultimate sanction against non-compliance being removal of write access to the source code repository.
 =======
 * Enforcing the submitter guidelines, with the ultimate sanction against
   non-compliance being removal of write access to the source code repository.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1897,7 +1926,12 @@ currently include:
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
 In general, once write access has been granted, developers are allowed to
 make changes to the codebase as they see fit. For controversial or
@@ -1974,6 +2008,7 @@ Removal of write access to the source code repository is handled as a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2047,6 +2082,8 @@ Removal of write access to the source code repository is handled as a
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2162,7 +2199,12 @@ Removal of write access to the source code repository is handled as a
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 proposal to the committee as described below in the
 [Operation of the PSC](#operation-of-the-psc) section.
 =======
@@ -2515,6 +2557,7 @@ proposal to the committee as described below in the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2535,6 +2578,8 @@ proposal to the committee as described below in the
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2566,12 +2611,15 @@ proposal to the committee as described below in the [Operation of the PSC](#oper
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
 proposal to the committee as described below in the [Operation of the PSC](#operation-of-the-psc) section.
 =======
 proposal to the committee as described below in the
 [Operation of the PSC](#operation-of-the-psc) section.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2712,7 +2760,12 @@ proposal to the committee as described below in the [Operation of the PSC](#oper
 =======
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 
 ### Legal aspects
 

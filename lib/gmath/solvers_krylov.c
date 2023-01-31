@@ -1730,6 +1730,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1803,6 +1804,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1918,7 +1921,12 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
         for (i = 0; i < (unsigned int)rows; i++) {
 =======
 <<<<<<< HEAD
@@ -2251,6 +2259,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2271,6 +2280,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -2281,11 +2292,14 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
         for (i = 0; i < rows; i++) {
 =======
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2301,6 +2315,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2450,7 +2466,12 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
             G_math_spvector *spvect = G_math_alloc_spvector(1);
 
             switch (prec) {
@@ -2540,6 +2561,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2613,6 +2635,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2728,7 +2752,12 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
         for (i = 0; i < (unsigned int)rows; i++) {
 =======
 <<<<<<< HEAD
@@ -3061,6 +3090,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3081,6 +3111,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -3091,11 +3123,14 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
         for (i = 0; i < rows; i++) {
 =======
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3111,6 +3146,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3260,7 +3297,12 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
             G_math_spvector *spvect = G_math_alloc_spvector(1);
 
             switch (prec) {

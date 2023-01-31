@@ -3535,12 +3535,15 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
             convergence = NAN;
 =======
             convergence = 0. / 0.;
@@ -3554,12 +3557,16 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
             convergence = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
             convergence = 0. / 0.;
 =======
             convergence = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3569,6 +3576,8 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
         else if (G_projection() == PROJECTION_LL)
             convergence = 0.0;
         else {

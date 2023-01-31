@@ -140,6 +140,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -232,6 +233,8 @@ public:
 =======
 >>>>>>> 4c8699bc56 (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -294,6 +297,11 @@ public:
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
     genericWindow(const genericWindow<T> &win)
     {
         for (int i = 0; i < 9; i++) {
@@ -303,6 +311,7 @@ public:
 
     /***************************************************************/
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
@@ -312,6 +321,8 @@ public:
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 82d088b867 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -347,6 +358,7 @@ public:
 
     /***************************************************************/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +478,8 @@ public:
 =======
 =======
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
     genericWindow(const genericWindow<T> &win)
     {
         for (int i = 0; i < 9; i++) {
@@ -474,6 +488,8 @@ public:
     }
 
     /***************************************************************/
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     /* get specified neighbour di,dj in {-1,0,1} */
     T get(short di, short dj) const
     {
@@ -499,6 +515,7 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -512,6 +529,8 @@ public:
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
     genericWindow(const genericWindow<T> &win)
     {
         for (int i = 0; i < 9; i++) {
@@ -546,7 +565,12 @@ public:
 
     /***************************************************************/
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
     /* set specified neighbour di,dj in {-1,0,1} */
     void set(int di, int dj, T val)
     {
@@ -556,6 +580,7 @@ public:
     }
 
     /***************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,10 +949,13 @@ public:
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1866,7 +1894,14 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+>>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
     /*  multiply all elements by a scalar */
     void scalarMultiply(T mult)
     {
