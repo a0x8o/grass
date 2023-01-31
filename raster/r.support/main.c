@@ -2314,6 +2314,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2430,6 +2431,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2441,6 +2444,8 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
@@ -2506,8 +2511,16 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
                 char buf[72];
 
@@ -2621,6 +2634,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2638,8 +2652,12 @@ int main(int argc, char *argv[])
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 =======
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -2779,8 +2797,19 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+            for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
                 char buf[72];
 
                 strncpy(buf, &history_opt->answer[i], sizeof(buf) - 1);

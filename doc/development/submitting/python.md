@@ -201,8 +201,13 @@ flake8 --config lib/python/.flake8 lib/python/temporal/register.py
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -224,13 +229,22 @@ flake8 --config lib/python/.flake8 lib/python/temporal/register.py
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 :exclamation:
 It is very convenient and recommended to [use pre-commit](./submitting.md#use-pre-commit)
 to do both Black formatting and Flake8 file validation.
 
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +283,10 @@ to do both Black formatting and Flake8 file validation.
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -368,6 +386,7 @@ to do both Black formatting and Flake8 file validation.
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
@@ -405,7 +424,15 @@ to do both Black formatting and Flake8 file validation.
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 ### Editor settings for 4-space indentation
 
 The correct editor settings for Python indentation
@@ -514,8 +541,14 @@ The correct editor settings for Python indentation
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+  - Edit > Preferences > Editor > Intentation tab > Type: Spaces
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -537,11 +570,20 @@ The correct editor settings for Python indentation
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
   - Edit > Preferences > Editor > Indentation tab > Type: Spaces
 =======
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +622,8 @@ The correct editor settings for Python indentation
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -699,6 +743,8 @@ The correct editor settings for Python indentation
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+=======
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -710,6 +756,7 @@ The correct editor settings for Python indentation
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 =======
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -740,7 +787,15 @@ The correct editor settings for Python indentation
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 - [​PyCharm](https://www.jetbrains.com/pycharm/) IDE:
   - already fine and includes code-linting
 - [​atom](https://atom.io/) IDE:
@@ -1036,8 +1091,14 @@ strings, e.g.
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+strings, e.g.
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1059,11 +1120,20 @@ strings, e.g.
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 strings, e.g. (good example):
 =======
 strings, e.g.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,6 +1172,8 @@ strings, e.g.
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 strings, e.g.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1221,6 +1293,8 @@ strings, e.g.
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+=======
 strings, e.g.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1232,6 +1306,7 @@ strings, e.g.
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 =======
 strings, e.g.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1262,7 +1337,15 @@ strings, e.g.
 strings, e.g.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 
 ```py
 if ...:
@@ -1374,8 +1457,14 @@ instead of constructing string from several parts:
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
+instead of constructing string from several parts:
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1397,11 +1486,20 @@ instead of constructing string from several parts:
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 instead of constructing string from several parts (bad example):
 =======
 instead of constructing string from several parts:
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1440,6 +1538,8 @@ instead of constructing string from several parts:
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 instead of constructing string from several parts:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1559,6 +1659,8 @@ instead of constructing string from several parts:
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+=======
 instead of constructing string from several parts:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1570,6 +1672,7 @@ instead of constructing string from several parts:
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 =======
 instead of constructing string from several parts:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1600,7 +1703,15 @@ instead of constructing string from several parts:
 instead of constructing string from several parts:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 
 ```py
 if ...:

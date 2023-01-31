@@ -371,6 +371,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -426,6 +427,8 @@ int main(int argc, char *argv[])
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -490,7 +493,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
     if (count < (unsigned int)n_predictors + 1)
 =======
 <<<<<<< HEAD
@@ -602,6 +612,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -640,6 +651,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
     if (count < n_predictors + 1)
 =======
@@ -929,8 +942,16 @@ int main(int argc, char *argv[])
     if (count < n_predictors + 1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
         G_fatal_error(_("Not enough valid cells available"));
 
     for (k = 0; k <= n_predictors; k++) {

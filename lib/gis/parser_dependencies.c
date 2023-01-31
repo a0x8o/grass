@@ -2838,6 +2838,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2952,6 +2953,10 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
@@ -3297,7 +3302,12 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
@@ -3516,10 +3526,13 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
@@ -3527,11 +3540,14 @@ void G__describe_option_rules_xml(FILE *fp)
         for (j = 0; j < rule->count; j++) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
         fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
         for (j = 0; j < (unsigned int)rule->count; j++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3627,8 +3643,17 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             void *p = rule->opts[j];
 
             if (is_flag(p)) {

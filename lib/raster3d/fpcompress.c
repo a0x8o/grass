@@ -213,6 +213,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -268,6 +269,8 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -332,7 +335,14 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -444,6 +454,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -482,6 +493,8 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
             if (8 - nBits < precision) {
 =======
@@ -771,8 +784,16 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
                 cp1++;
 
                 /*printf ("%d %d\n", *cp1, (*src & mask) << (8 - nBits)); */
@@ -996,6 +1017,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1051,6 +1073,8 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1115,7 +1139,14 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -1227,6 +1258,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1265,6 +1297,8 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
             if (8 - nBits < precision) {
 =======
@@ -1554,8 +1588,16 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *cp1 = (unsigned char)(((unsigned char)(*src & mask))
                                        << (8 - nBits));
@@ -1759,6 +1801,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1814,6 +1857,8 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1878,7 +1923,14 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -1990,6 +2042,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2028,6 +2081,8 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
             if (8 - nBits < precision) {
 =======
@@ -2317,8 +2372,16 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;
@@ -2535,6 +2598,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2590,6 +2654,8 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2654,7 +2720,14 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -2766,6 +2839,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2804,6 +2878,8 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
             if (8 - nBits < precision) {
 =======
@@ -3093,8 +3169,16 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 51acb188cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;

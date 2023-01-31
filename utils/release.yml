@@ -2214,6 +2214,7 @@ notes:
     - title: Continuous Integration, Tests, Code Quality, and Checks
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -2324,6 +2325,7 @@ notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2362,6 +2364,8 @@ notes:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
       regexp: '(CI|ci|[Tt]ests|[Cc]hecks|pytest): '
 =======
@@ -2407,6 +2411,7 @@ notes:
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2468,6 +2473,9 @@ notes:
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
       regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
+=======
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 
     - title: Contributing and Management
       regexp: '(contributing|CONTRIBUTING.md|contributors|contributors.csv): '
