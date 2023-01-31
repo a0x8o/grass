@@ -472,6 +472,7 @@ ENV DEBIAN_FRONTEND noninteractive
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
@@ -697,13 +698,16 @@ ARG PDAL_VERSION=2.4.3
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 # define versions to be used
+=======
+# define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
-# https://github.com/hobuinc/laz-perf/releases
-ARG LAZ_PERF_VERSION=3.2.0
 
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1818,6 +1822,7 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2030,6 +2035,8 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -2046,6 +2053,7 @@ RUN mkdir vdatum && \
     cd .. && \
     rm -rf vdatum
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2238,6 +2246,9 @@ RUN mkdir vdatum && \
 =======
 ## install pdal
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -2260,6 +2271,7 @@ RUN wget -q \
       -DHEXER_INCLUDE_DIR=/usr/include/ \
       -DBUILD_PLUGIN_NITF=OFF \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2568,6 +2580,12 @@ RUN wget -q \
 >>>>>>> osgeo-main
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+      -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
+      -DBUILD_PGPOINTCLOUD_TESTS=OFF \
+      -DBUILD_PLUGIN_SQLITE=ON \
+      -DWITH_LASZIP=OFF \
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -3377,10 +3395,13 @@ COPY docker/testdata/test_grass_session.py .
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 # test LAZ file
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 <<<<<<< HEAD

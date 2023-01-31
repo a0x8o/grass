@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -74,6 +75,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata
    SET
        points = new_stats.points_new,
@@ -125,6 +128,7 @@ UPDATE stvds_metadata
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -202,6 +206,8 @@ UPDATE stvds_metadata
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata SET points =
        (SELECT sum(points) FROM vector_metadata WHERE vector_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)

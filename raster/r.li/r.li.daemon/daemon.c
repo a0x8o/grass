@@ -1935,6 +1935,7 @@ int error_Output(int out, msg m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1949,6 +1950,8 @@ int error_Output(int out, msg m)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 =======
 <<<<<<< HEAD
@@ -2026,6 +2029,7 @@ int error_Output(int out, msg m)
 =======
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2198,6 +2202,8 @@ int error_Output(int out, msg m)
         if (write(out, s, strlen(s)) == strlen(s))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
             return 1;
         else
             return 0;

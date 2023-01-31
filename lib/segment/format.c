@@ -446,6 +446,7 @@ static int zero_fill(int fd, off_t nbytes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -460,6 +461,8 @@ static int zero_fill(int fd, off_t nbytes)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
         n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
 =======
 <<<<<<< HEAD
@@ -537,6 +540,7 @@ static int zero_fill(int fd, off_t nbytes)
 =======
         n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +713,8 @@ static int zero_fill(int fd, off_t nbytes)
         n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
         errno = 0;
         if (write(fd, buf, n) != n) {
             int err = errno;

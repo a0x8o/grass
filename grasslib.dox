@@ -1856,6 +1856,7 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1967,6 +1968,10 @@ href="https://grass.osgeo.org">https://grass.osgeo.org</a>
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ - external:	\ref external (External libraries from other projects such as shapelib, parson and \ref ccmathlib)
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
  - external:	\ref external (External libraries from other projects such as shapelib and \ref ccmathlib)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
  - fonts:	\ref fonts (GRASS fonts library)
