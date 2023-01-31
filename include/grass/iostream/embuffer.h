@@ -4246,6 +4246,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     snprintf(str, sizeof(str),
              "em_buffer: allocate %d AMI_STREAM*, total %ld\n", arity,
              (long)(arity * sizeof(AMI_STREAM<T> *)));
@@ -4706,7 +4707,10 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
     snprintf(str, sizeof(str),
              "em_buffer: allocate %d AMI_STREAM*, total %ld\n", arity,
@@ -5983,7 +5987,15 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
              (long)(arity * sizeof(AMI_STREAM<T> *)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     MEMORY_LOG(str);
     // allocate STREAM* array
     data = new AMI_STREAM<T> *[arity];
@@ -6151,6 +6163,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6413,6 +6426,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6541,6 +6556,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
     snprintf(str, sizeof(str), "em_buffer: allocate deleted array: %ld\n",
              (long)(arity * sizeof(long)));
 >>>>>>> 2f988a83ac (wxpyimgview: explicit conversion to int (#2704))
@@ -7331,6 +7348,15 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
@@ -7350,7 +7376,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     sprintf(str, "em_buffer: allocate deleted array: %ld\n",
             (long)(arity * sizeof(long)));
 =======
@@ -7388,6 +7419,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
@@ -7397,6 +7429,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -8600,7 +8634,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     MEMORY_LOG(str);
     deleted = new long[arity];
 
@@ -8767,6 +8806,9 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
@@ -9205,6 +9247,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
     snprintf(str, sizeof(str), "em_buffer: allocate streamsize array: %ld\n",
              (long)(arity * sizeof(long)));
 =======
@@ -10194,6 +10238,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -10315,6 +10360,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10390,6 +10437,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
@@ -10425,6 +10473,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
     sprintf(str, "em_buffer: allocate streamsize array: %ld\n",
             (long)(arity * sizeof(long)));
 =======
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     sprintf(str, "em_buffer: allocate streamsize array: %ld\n",
             (long)(arity * sizeof(long)));
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -10458,10 +10508,13 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -11304,7 +11357,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     MEMORY_LOG(str);
     streamsize = new unsigned long[arity];
 
@@ -11472,6 +11530,9 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
@@ -11910,6 +11971,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
     snprintf(str, sizeof(str), "em_buffer: allocate name array: %ld\n",
              (long)(arity * sizeof(char *)));
 =======
@@ -12899,6 +12962,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -13020,6 +13084,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13095,6 +13161,7 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
@@ -13130,6 +13197,8 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
     sprintf(str, "em_buffer: allocate name array: %ld\n",
             (long)(arity * sizeof(char *)));
 =======
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     sprintf(str, "em_buffer: allocate name array: %ld\n",
             (long)(arity * sizeof(char *)));
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -13163,10 +13232,13 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -14009,7 +14081,12 @@ em_buffer<T, Key>::em_buffer(const unsigned short i, const unsigned long bs,
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     MEMORY_LOG(str);
     name = new char *[arity];
     assert(name);
@@ -20444,6 +20521,7 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20745,6 +20823,8 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 >>>>>>> 218ccb912d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -21514,7 +21594,12 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     snprintf(str, sizeof(str),
              "em_buffer::substream_merge: allocate keys array, total %ldB\n",
              (long)((long)arity * sizeof(merge_key<Key>)));
@@ -23780,9 +23865,15 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
+    sprintf(str,
+            "em_buffer::substream_merge: allocate keys array, total %ldB\n",
+            (long)((long)arity * sizeof(merge_key<Key>)));
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
     snprintf(str, sizeof(str),
              "em_buffer::substream_merge: allocate keys array, total %ldB\n",
              (long)((long)arity * sizeof(merge_key<Key>)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23961,7 +24052,16 @@ AMI_err em_buffer<T, Key>::substream_merge(AMI_STREAM<T> **instreams,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
     MEMORY_LOG(str);
 
     // keys array is initialized with smallest key from each stream (only
