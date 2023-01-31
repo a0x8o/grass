@@ -625,6 +625,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -885,6 +886,8 @@ int OUTGR(void)
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -984,6 +987,8 @@ int OUTGR(void)
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -1003,7 +1008,12 @@ int OUTGR(void)
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
             if (read_val != (size_t)nsizc) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1602,6 +1612,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1713,6 +1724,8 @@ int OUTGR(void)
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2995,8 +3008,16 @@ int OUTGR(void)
             if (read_val != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
                 clean();
                 G_fatal_error(_("Unable to read data from temp file"));
             }

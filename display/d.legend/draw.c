@@ -1845,6 +1845,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2105,6 +2106,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2204,6 +2207,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -2223,7 +2228,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= (int)b_s)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2822,6 +2832,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2933,6 +2944,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4215,8 +4228,16 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
                     G_fatal_error(
                         _("Failed to create format string with maxCat=%f."),
                         maxCat);

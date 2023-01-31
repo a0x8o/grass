@@ -7228,6 +7228,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7282,6 +7285,8 @@ int main(int argc, char *argv[])
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8134,8 +8139,16 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
                 char buf[72];
 
@@ -8190,12 +8203,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -8254,7 +8270,15 @@ int main(int argc, char *argv[])
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+            for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
                 char buf[72];
 
                 strncpy(buf, &history_opt->answer[i], sizeof(buf) - 1);

@@ -420,6 +420,9 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -808,6 +811,8 @@ void N_print_les(N_les *les)
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -827,7 +832,12 @@ void N_print_les(N_les *les)
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
                 for (k = 0; (unsigned int)k < les->Asp[i]->cols; k++) {
                     if (les->Asp[i]->index[k] == (unsigned int)j) {
 =======
@@ -1798,6 +1808,7 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1913,6 +1924,8 @@ void N_print_les(N_les *les)
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1956,6 +1969,7 @@ void N_print_les(N_les *les)
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
@@ -1968,6 +1982,8 @@ void N_print_les(N_les *les)
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -2858,8 +2874,16 @@ void N_print_les(N_les *les)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
                         fprintf(stdout, "%4.5f ", les->Asp[i]->values[k]);
                         out = 1;
                     }

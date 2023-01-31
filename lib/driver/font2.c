@@ -226,6 +226,9 @@ static void read_hersh(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -614,6 +617,8 @@ static void read_hersh(const char *filename)
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -633,7 +638,12 @@ static void read_hersh(const char *filename)
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
         unsigned int i, idx, count;
         int c;
 =======
@@ -1604,6 +1614,7 @@ static void read_hersh(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1719,6 +1730,8 @@ static void read_hersh(const char *filename)
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1762,6 +1775,7 @@ static void read_hersh(const char *filename)
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
@@ -1774,6 +1788,8 @@ static void read_hersh(const char *filename)
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -2664,8 +2680,16 @@ static void read_hersh(const char *filename)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 
         switch (c = fgetc(fp)) {
         case '\r':

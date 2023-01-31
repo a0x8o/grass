@@ -113,6 +113,7 @@ Bug fix (9/12/2010) by Daniel:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -188,6 +189,10 @@ Bug fix (9/12/2010) by Daniel:
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
@@ -546,14 +551,19 @@ Bug fix (9/12/2010) by Daniel:
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -823,6 +833,9 @@ Bug fix (9/12/2010) by Daniel:
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 
 """
 import os

@@ -40935,6 +40935,7 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -41279,6 +41280,8 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 9164d685c2 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -41677,6 +41680,8 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42074,6 +42079,8 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 
 ssh $USER@$SERVER2 "mkdir -p $SERVER2DIR"
@@ -42093,8 +42100,12 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
   INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+=======
+  INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 
 scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
+<<<<<<< HEAD
   INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -43246,6 +43257,7 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
@@ -43275,6 +43287,9 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

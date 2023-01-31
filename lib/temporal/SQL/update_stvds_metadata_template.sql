@@ -247,6 +247,10 @@
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 =======
@@ -595,8 +599,16 @@
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata
    SET
        points = new_stats.points_new,
@@ -632,6 +644,7 @@ UPDATE stvds_metadata
        ) AS new_stats
  WHERE stvds_metadata.id = 'SPACETIME_ID';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +821,8 @@ UPDATE stvds_metadata
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
@@ -846,6 +861,8 @@ UPDATE stvds_metadata
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1335,8 +1352,16 @@ UPDATE stvds_metadata
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+>>>>>>> 50fc95a76f (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata SET points =
        (SELECT sum(points) FROM vector_metadata WHERE vector_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
