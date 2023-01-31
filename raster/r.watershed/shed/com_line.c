@@ -91,6 +91,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -537,11 +538,15 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
         snprintf(input->com_line_ram, (400 * sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
         snprintf(input->com_line_ram, (400 * sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
@@ -605,6 +610,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         sprintf(input->com_line_ram, "\"%s/etc/water/%s\"", G_gisbase(),
                 RAM_NAME);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -668,6 +675,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
@@ -682,6 +690,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -704,6 +714,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
@@ -751,6 +762,10 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -760,6 +775,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -954,6 +970,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1724,7 +1742,12 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         snprintf(input->com_line_ram, (400 * sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
         fprintf(stderr,
@@ -1737,6 +1760,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
             input->com_line_seg = (char *)G_calloc(400, sizeof(char));
             snprintf(input->com_line_seg, (400, sizeof(char)),
                      "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1958,6 +1982,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2953,12 +2979,16 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
@@ -4114,6 +4144,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         }
     }
     else {
@@ -4294,6 +4326,9 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
@@ -4780,6 +4815,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
         snprintf(input->com_line_seg, (400, sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
 =======
@@ -5817,6 +5854,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -5950,6 +5988,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6033,6 +6073,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
@@ -6068,6 +6109,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         sprintf(input->com_line_seg, "\"%s/etc/water/%s\"", G_gisbase(),
                 SEG_NAME);
 =======
@@ -6109,6 +6152,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -6119,6 +6163,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -6476,6 +6522,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
@@ -7024,6 +7071,10 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
     }
 
     G_message(_("\nIf you hit <return> by itself for the next question, this"));
@@ -9143,6 +9194,7 @@ int basin_com_add(char **com_line, double d, double modifier,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9432,6 +9484,8 @@ int basin_com_add(char **com_line, double d, double modifier,
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9533,6 +9587,7 @@ int basin_com_add(char **com_line, double d, double modifier,
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -9628,6 +9683,10 @@ int basin_com_add(char **com_line, double d, double modifier,
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
     snprintf(buf, sizeof(buf), " t=%d", i);
 =======
 <<<<<<< HEAD
@@ -9780,6 +9839,7 @@ int basin_com_add(char **com_line, double d, double modifier,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -9856,6 +9916,8 @@ int basin_com_add(char **com_line, double d, double modifier,
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -11042,7 +11104,12 @@ int basin_com_add(char **com_line, double d, double modifier,
     snprintf(buf, sizeof(buf), " t=%d", i);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
     strcat(*com_line, buf);
 
     return 0;

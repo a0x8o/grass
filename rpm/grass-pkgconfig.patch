@@ -1888,6 +1888,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -1927,10 +1928,13 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2981,6 +2985,7 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3566,6 +3571,10 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 1e595a59e6 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 -prefix=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@
 -exec_prefix=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@
 -libdir=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@/lib
@@ -3749,6 +3758,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4043,6 +4053,8 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 1e595a59e6 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4206,6 +4218,8 @@ Index: grass-7.8.6/grass.pc.in
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4845,6 +4859,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4975,11 +4990,14 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
  
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5088,6 +5106,8 @@ Index: grass-7.8.6/grass.pc.in
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -5856,6 +5876,7 @@ Index: grass-7.8.6/grass.pc.in
 =======
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
@@ -6363,6 +6384,10 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 1e595a59e6 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
  Name: GRASS
  Description: GRASS GIS
  Version: @GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@

@@ -5391,6 +5391,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5780,6 +5781,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -6016,6 +6019,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
                 progress++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6261,6 +6266,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -6334,6 +6340,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -7523,7 +7531,12 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 
                 /*For every available vector type */
                 for (k = 0; k < typenum; k++) {

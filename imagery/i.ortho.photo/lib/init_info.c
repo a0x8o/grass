@@ -176,6 +176,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -497,6 +498,8 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -574,6 +577,7 @@ FILE *I_fopen_group_init_new(char *);
 =======
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d1507c3b80 (r.horizon manual - fix typo (#2794))
 =======
@@ -670,6 +674,10 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 =======
@@ -813,6 +821,7 @@ FILE *I_fopen_group_init_new();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 =======
@@ -832,6 +841,8 @@ FILE *I_fopen_group_init_new();
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2302,7 +2313,16 @@ FILE *I_fopen_group_init_new();
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+FILE *I_fopen_group_init_old(char *);
+FILE *I_fopen_group_init_new(char *);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 
 #define INITIAL_FILE "INIT_EXP"
 

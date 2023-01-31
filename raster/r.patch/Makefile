@@ -177,6 +177,9 @@ PGM = r.patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
@@ -1229,7 +1232,12 @@ PGM = r.patch
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
@@ -2470,6 +2478,7 @@ DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> a3d4227f4a (Fix missing function prototypes (#2727))
 =======
 LIBES = $(RASTERLIB) $(GISLIB) $(OMPLIB)
@@ -2605,11 +2614,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB)
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2687,6 +2699,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 =======
@@ -3785,7 +3799,16 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

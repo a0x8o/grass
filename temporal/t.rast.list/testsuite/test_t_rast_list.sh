@@ -192,6 +192,7 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -486,6 +487,8 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 =======
 >>>>>>> 1e595a59e6 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -649,6 +652,8 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 n1=`g.tempfile pid=1 -d`
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1288,6 +1293,7 @@ n1=`g.tempfile pid=1 -d`
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1418,11 +1424,14 @@ n1=`g.tempfile pid=1 -d`
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
 n1=`g.tempfile pid=1 -d` 
 =======
 n1=`g.tempfile pid=1 -d`
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1531,6 +1540,8 @@ n1=`g.tempfile pid=1 -d`
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2299,6 +2310,7 @@ n1=`g.tempfile pid=1 -d`
 =======
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3e5aeb1393 (r.horizon manual - fix typo (#2794))
 =======
@@ -2806,6 +2818,10 @@ n1=`g.tempfile pid=1 -d`
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 1e595a59e6 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 n2=`g.tempfile pid=2 -d`
 n3=`g.tempfile pid=3 -d`
 n4=`g.tempfile pid=4 -d`

@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
@@ -48,6 +49,8 @@
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -76,6 +79,7 @@
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
@@ -126,6 +130,8 @@
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 
 ## GRASS GIS docker matrix
 <<<<<<< HEAD
@@ -2780,6 +2786,7 @@ the table above):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,6 +3211,8 @@ the table above):
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
 
 ## GRASS GIS docker matrix
 
@@ -3234,6 +3243,7 @@ To install a docker image, run (replace `<tag>` with the desired Docker tag from
 the table above):
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3379,7 +3389,12 @@ the table above):
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 ```bash
 docker pull mundialis/grass-py3-pdal:<tag>
 ```

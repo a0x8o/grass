@@ -237,6 +237,9 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
@@ -941,6 +944,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1396,6 +1400,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         off_t size;
 
         size = 145; /* max header size, see below */
@@ -1792,6 +1800,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1892,6 +1901,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
         off_t size;
 
@@ -2143,6 +2154,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
@@ -2213,6 +2225,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f8af479a35 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         size = 145; /* max header size, see below */
         size += (off_t)ptr->Node_spidx->n_nodes * ptr->Node_spidx->nodesize;
         size += (off_t)ptr->Line_spidx->n_nodes * ptr->Line_spidx->nodesize;
@@ -2221,6 +2237,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2285,6 +2302,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
@@ -2326,6 +2344,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2368,6 +2390,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
@@ -2389,6 +2412,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3802,7 +3827,12 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         if (size < PORT_INT_MAX)
             ptr->spidx_port.off_t_size = 4;
         else
@@ -8397,6 +8427,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8722,6 +8753,8 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 >>>>>>> 84913af40a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -9551,7 +9584,12 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
@@ -11904,9 +11942,15 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 =======
+        return rtree_load_to_file(fp, rootpos, t, off_t_size);
+    else
+        return rtree_load_to_memory(fp, rootpos, t, off_t_size);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12166,7 +12210,16 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 }
 
 /*!

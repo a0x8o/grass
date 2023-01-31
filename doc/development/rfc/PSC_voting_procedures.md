@@ -82,6 +82,7 @@ Status: Adopted (6 Oct 2014)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -153,6 +154,8 @@ Status: Adopted (6 Oct 2014)
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 =======
@@ -1037,6 +1040,7 @@ In brief, the PSC members vote on proposals on the dedicated
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1121,6 +1125,8 @@ In brief, the PSC members vote on proposals on the dedicated
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1256,6 +1262,7 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
@@ -1280,6 +1287,10 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 =======
 In brief, the PSC members vote on proposals on the dedicated
@@ -1306,12 +1317,15 @@ In brief, the PSC members vote on proposals on the dedicated
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1716,6 +1730,7 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 =======
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85142d03b1 (Fix missing function prototypes (#2727))
 =======
@@ -2508,6 +2523,10 @@ In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing 
 =======
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 Proposals are available for review for at least seven calendar days, and a
 single veto is sufficient to delay progress although ultimately a majority
 of committee members can pass a proposal.
@@ -2515,6 +2534,7 @@ of committee members can pass a proposal.
 ## Detailed Process
 
 Proposals:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3008,6 +3028,8 @@ Proposals:
 =======
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3155,6 +3177,8 @@ Proposals:
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -5466,6 +5490,7 @@ Voting:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
@@ -5474,6 +5499,8 @@ Voting:
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -5547,6 +5574,7 @@ Voting:
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
@@ -5576,6 +5604,8 @@ Voting:
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
  1. Proposals are written up and submitted on the PSC mailing list for discussion. Any committee member may call a vote on any proposal, although it is normal practice for the proposer to call the vote. Any interested  party may subscribe to the list and join the discussion, but only [PSC committee members](https://trac.osgeo.org/grass/wiki/PSC) including the PSC Chair get a vote ("eligible voters").
  1. Proposals are available for review for at least seven calendar days before a vote can be closed. It is acknowledged that some more complex issues may require more time for discussion and deliberation: a vote should only be closed after the minimum time period (see above) has passed and sufficient discussion has taken place, or no more progress is being made. The PSC Chair may override this and prolong the discussion period or close a vote straight away if necessary (although the minimum time period for discussion/voting always applies).
 
@@ -5617,6 +5647,7 @@ Voting:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d9ea5124d9 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
@@ -5629,6 +5660,8 @@ Voting:
 >>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 97a4a9ea37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5781,6 +5814,7 @@ Voting:
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
@@ -6924,6 +6958,8 @@ Voting:
 =======
 =======
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -6943,6 +6979,7 @@ Voting:
 
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6996,6 +7033,8 @@ Voting:
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 
  1. Proposals are written up and submitted on the PSC mailing list for discussion.
     Any committee member may call a vote on any proposal, although it is normal
@@ -7011,6 +7050,7 @@ Voting:
     this and prolong the discussion period or close a vote straight away if
     necessary (although the minimum time period for discussion/voting always
     applies).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7060,6 +7100,10 @@ Voting:
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 Voting:
 
  1. A voting procedure is started by the proposer. For a more visible communication,
@@ -7082,6 +7126,7 @@ Voting:
     it can be resubmitted for an override vote in which a majority of all eligible
     voters indicating +1 is sufficient to pass it. Note that this is a majority of
     all eligible voters, not just those who actively vote.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7702,4 +7747,13 @@ Voting:
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 2c0ff799c3 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> f1f70c0e30 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
+>>>>>>> cc0be293e5 (r.horizon manual - fix typo (#2794))
