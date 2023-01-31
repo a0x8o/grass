@@ -48194,6 +48194,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -48731,6 +48732,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -49399,9 +49402,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49456,11 +49462,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < S->nbands; i++) {
 =======
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49519,6 +49531,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49759,6 +49773,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -49882,6 +49897,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
         if (!match1[i]) {
             if (S->semantic_labels[i])
                 total = total + strlen(S->semantic_labels[i]);
@@ -55081,6 +55101,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -55618,6 +55639,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -56286,9 +56309,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56343,11 +56369,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < R->nfiles; j++) {
 =======
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56406,6 +56438,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56646,6 +56680,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -56769,6 +56804,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
         if (!match2[j]) {
             if (group_semantic_labels[j])
                 total = total + strlen(group_semantic_labels[j]);
@@ -61971,6 +62011,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -62508,6 +62549,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 831293fa24 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -63176,9 +63219,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63233,11 +63279,17 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < S->nbands; b1++) {
 =======
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63296,6 +63348,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63536,6 +63590,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -63659,6 +63714,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
                 new_means[c][new_order[b1]] = S->sig[c].mean[b1];
                 for (unsigned int b2 = 0; b2 <= b1; b2++) {
                     if (new_order[b1] > new_order[b2]) {

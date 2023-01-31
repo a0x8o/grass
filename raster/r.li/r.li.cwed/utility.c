@@ -226,6 +226,9 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 =======
@@ -776,6 +779,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
     long i;    /* find token number */
     size_t it; /* iterator */
 =======
@@ -1883,6 +1888,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2032,6 +2038,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2127,6 +2135,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
@@ -2166,6 +2175,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
     long i;  /* find token number */
     long it; /* iterator */
 =======
@@ -2211,6 +2222,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -2229,6 +2241,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2683,6 +2697,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
@@ -3220,6 +3235,10 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
 >>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
     long num;
 
     int term; /* =0 if last token has not /0 */

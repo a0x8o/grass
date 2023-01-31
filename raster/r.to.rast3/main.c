@@ -227,6 +227,7 @@ void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -553,6 +554,8 @@ void fatal_error(void *map, int *fd, int depths,
 =======
 >>>>>>> f2ff4a2b4d (Fix missing function prototypes (#2727))
 =======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -748,6 +751,8 @@ void fatal_error(void *map, int *fd, int depths,
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1427,6 +1432,7 @@ void set_params();                /*Fill the paramType structure */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1565,11 +1571,14 @@ void set_params(void);            /*Fill the paramType structure */
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
 void set_params();                /*Fill the paramType structure */
 =======
 void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1688,6 +1697,8 @@ void set_params();                /*Fill the paramType structure */
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2575,6 +2586,7 @@ void set_params();                /*Fill the paramType structure */
 =======
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3424207483 (Fix missing function prototypes (#2727))
 =======
@@ -3041,6 +3053,10 @@ void set_params();                /*Fill the paramType structure */
 =======
 >>>>>>> 3b4a1c4066 (Fix missing function prototypes (#2727))
 >>>>>>> f2ff4a2b4d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+>>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 void raster_to_g3d(void *map, RASTER3D_Region region,
                    int *fd);                 /*Write the raster */
 int open_input_raster_map(const char *name); /*opens the outputmap */
