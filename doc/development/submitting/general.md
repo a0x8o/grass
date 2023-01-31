@@ -230,6 +230,7 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -413,6 +414,8 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -594,6 +597,7 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
@@ -838,6 +842,10 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 Often there is more than one active release branch. You can also choose to backport
 only to the closest branch. If you are backporting to other release branches than
 just the closets one, make sure you always backport to all the branches between
@@ -935,6 +943,7 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1056,6 +1065,8 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -1430,6 +1441,7 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1663,6 +1675,10 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 Often there is more than one active release branch, if you are backporting, make
 sure you always backport to all the branches between "main" and the furthest
 branch you are backporting to. For example, let's say we have "main" and branches
@@ -1765,6 +1781,7 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -1854,6 +1871,8 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -2352,6 +2371,7 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2578,6 +2598,11 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 
 Backport only complete fixes. When you are not sure if the fix is complete or if
 there is an possibility that some details such as wording will change, wait with
@@ -2714,6 +2739,7 @@ should first seek consent in the grass-dev mailing list (see below), then you ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 <<<<<<< HEAD
@@ -3166,6 +3192,8 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -3324,7 +3352,12 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 to expand 'configure.ac' and subsequently run `autoconf-2.71` (later versions
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
@@ -3419,6 +3452,7 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -3538,6 +3572,8 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -3959,6 +3995,7 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -4189,6 +4226,10 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 will not work) to re-generate 'configure'.
 
 ## Naming Conventions
