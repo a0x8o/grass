@@ -2,10 +2,14 @@
 Name:       r.contour test
 Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public
