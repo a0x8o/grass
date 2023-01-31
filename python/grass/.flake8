@@ -112,6 +112,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -237,6 +238,8 @@ ignore =
 >>>>>>> 1d80a62f1a (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> abaa36c727 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> e70434a447 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a2285639e2 (g.proj: fix reading input WKT (#1582))
 >>>>>>> e8925c7df7 (g.proj: fix reading input WKT (#1582))
@@ -440,12 +443,17 @@ ignore =
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 9400969c2f (g.proj: fix reading input WKT (#1582))
 =======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> edc424b09b (g.proj: fix reading input WKT (#1582))
+=======
     E722, # do not use bare 'except'
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +507,8 @@ ignore =
 >>>>>>> 74ab7a866e (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> c1b258ffc4 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> e70434a447 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
 =======
@@ -839,6 +849,8 @@ ignore =
 =======
 >>>>>>> 9400969c2f (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> edc424b09b (g.proj: fix reading input WKT (#1582))
+=======
 =======
     E722, # do not use bare 'except'
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -847,6 +859,7 @@ ignore =
 >>>>>>> ac5ea6fbe2 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1393,7 +1406,13 @@ ignore =
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 2f523f7cda (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> abaa36c727 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> edc424b09b (g.proj: fix reading input WKT (#1582))
+>>>>>>> e70434a447 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
