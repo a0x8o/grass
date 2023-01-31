@@ -38035,6 +38035,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -38468,6 +38469,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -38583,6 +38586,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 =======
 <<<<<<< HEAD
@@ -42866,6 +42873,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -43299,6 +43307,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -43414,6 +43424,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 >>>>>>> b12e9b488c (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 =======
 <<<<<<< HEAD
@@ -47701,6 +47715,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -47984,6 +47999,8 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 786079f5cb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -48056,6 +48073,7 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -48537,6 +48555,10 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+>>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
                     new_means[c][s][new_order[b1]] =
                         S->ClassSig[c].SubSig[s].means[b1];
@@ -50309,6 +50331,13 @@ char **I_SortSigSetBySemanticLabel(struct SigSet *S, const struct Ref *R)
 =======
 =======
 =======
+=======
+                for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
+                    new_means[c][s][new_order[b1]] =
+                        S->ClassSig[c].SubSig[s].means[b1];
+                    for (unsigned int b2 = 0; b2 < (unsigned int)S->nbands;
+                         b2++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
                         new_vars[c][s][new_order[b1]][new_order[b2]] =
                             S->ClassSig[c].SubSig[s].R[b1][b2];
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
