@@ -77,6 +77,7 @@ You are right that there is a problem with normals for surfaces with values
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 the surface to disapear for larger values of z for higher resolution/higher
 =======
 <<<<<<< HEAD
@@ -186,6 +187,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -345,7 +348,12 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 the surface to disappear for larger values of z for higher resolution/higher
 =======
 the surface to disapear for larger values of z for higher resolution/higher
@@ -396,6 +404,7 @@ the surface to disapear for larger values of z for higher resolution/higher
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -447,6 +456,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> 7ef6112573 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -770,7 +781,12 @@ the surface to disapear for larger values of z for higher resolution/higher
 the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 zscale case. Bill fixed it for the SGI-GL version - if the GL version
 is available it would be good to compare them. I will check with Bill,
 but I would like him to finish the legends first.
