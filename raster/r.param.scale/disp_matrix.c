@@ -50,6 +50,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -143,10 +144,17 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
+>>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
@@ -386,10 +394,14 @@ void disp_matrix(double **a, double *x, double *z, int n)
                         /* Displays matrices used to solve a 
                            set of linear equations in the form 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 
                            _                        _      _  _      _  _
 <<<<<<< HEAD
@@ -858,6 +870,10 @@ void disp_matrix(double **a, double *x, double *z, int n)
 
                            _                        _      _  _      _  _ 
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+                           _                        _      _  _      _  _
+>>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |
