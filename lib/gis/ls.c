@@ -250,6 +250,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -339,6 +340,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -448,6 +451,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -496,8 +501,16 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         unsigned int max_len = 0;
 =======
 <<<<<<< HEAD
@@ -834,6 +847,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -862,6 +876,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -876,17 +892,22 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
         int max_len = 0;
 =======
         unsigned int max_len = 0;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,6 +928,12 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1142,8 +1169,16 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 
         for (i = 0; i < num_items; i++) {
             /* Find maximum filename length */

@@ -98,6 +98,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -187,6 +188,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -296,6 +299,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
@@ -344,8 +349,16 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -720,6 +733,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -752,6 +766,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -790,11 +806,15 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
         stats[i].min = 0.0 / 0.0; /* set to nan as default */
         stats[i].max = 0.0 / 0.0; /* set to nan as default */
@@ -809,10 +829,15 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1024,8 +1049,16 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -5663,11 +5696,14 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5679,7 +5715,12 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
@@ -5699,7 +5740,10 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -5727,7 +5771,12 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
         sprintf(sum_str, "%.15g", stats[z].sum);
         G_trim_decimal(sum_str);
 
@@ -5795,11 +5844,14 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5811,7 +5863,12 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
@@ -5841,7 +5898,10 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -5877,7 +5937,12 @@ int print_stats(univar_stat *stats, enum OutputFormat format)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
@@ -6874,6 +6939,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6963,6 +7029,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> f8994c35ee (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7072,6 +7140,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
@@ -7120,8 +7190,16 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
 <<<<<<< HEAD
@@ -7458,6 +7536,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -7486,6 +7565,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -7500,17 +7581,22 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7531,6 +7617,12 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -7766,8 +7858,16 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -7882,6 +7982,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8026,6 +8127,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8050,6 +8153,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -8233,8 +8338,16 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -9038,6 +9151,11 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
+                quartile_25 = median = quartile_75 = 0.0 / 0.0;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = 0.0 / 0.0;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -9049,10 +9167,15 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9095,7 +9218,12 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -9106,6 +9234,7 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9182,8 +9311,16 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {

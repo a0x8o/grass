@@ -130,6 +130,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -200,6 +201,8 @@ int do_geogrid(void)
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -234,6 +237,8 @@ int do_geogrid(void)
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -272,8 +277,16 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
     for (; g >= south; g -= grid) {
 =======
 <<<<<<< HEAD
@@ -385,6 +398,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -397,6 +411,8 @@ int do_geogrid(void)
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -446,11 +462,14 @@ int do_geogrid(void)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
     for (j = 0; g >= south; j++, g -= grid) {
 =======
     for (; g >= south; g -= grid) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,8 +505,12 @@ int do_geogrid(void)
 =======
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -905,8 +928,16 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         if (g == north || g == south)
             continue;
         for (ll = 0; ll < SEGS; ll++) {
@@ -988,6 +1019,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1058,6 +1090,8 @@ int do_geogrid(void)
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -1092,6 +1126,8 @@ int do_geogrid(void)
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1130,8 +1166,16 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
     for (; g > west; g -= grid) {
 =======
 <<<<<<< HEAD
@@ -1243,6 +1287,7 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -1255,6 +1300,8 @@ int do_geogrid(void)
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1304,11 +1351,14 @@ int do_geogrid(void)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
     for (j = 0; g > west; j++, g -= grid) {
 =======
     for (; g > west; g -= grid) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1344,8 +1394,12 @@ int do_geogrid(void)
 =======
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1763,8 +1817,16 @@ int do_geogrid(void)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         if (g == east || g == west)
             continue;
         for (ll = 0; ll < SEGS; ll++) {

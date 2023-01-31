@@ -2577,6 +2577,10 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 =======
@@ -2654,6 +2658,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
                 progress++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2957,6 +2963,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 progress++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -2981,6 +2988,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -3188,8 +3197,16 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 
                 /*For every available vector type */
                 for (k = 0; k < typenum; k++) {

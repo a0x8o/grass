@@ -94,6 +94,7 @@ int dfwrite_header(file_info *headp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -155,6 +156,8 @@ int dfwrite_header(file_info *headp)
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -244,11 +247,21 @@ int dfwrite_header(file_info *headp)
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
     if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) !=
         (size_t)linep->nthres) {
 =======
@@ -595,10 +608,15 @@ int dfwrite_header(file_info *headp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -863,8 +881,16 @@ int dfwrite_header(file_info *headp)
 =======
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
         fprintf(stderr, "ERROR: fwrite in dspf_header.c\n");
         return (-1);
     }

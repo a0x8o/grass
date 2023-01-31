@@ -246,6 +246,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -390,6 +391,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -414,6 +417,8 @@ class TestNeighbors(TestCase):
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -604,7 +609,12 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -958,7 +968,15 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+=======
+                   1 1 1 
+                   1 1 1 
+                   1 1 1 
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -984,6 +1002,7 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,8 +1059,16 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -1145,6 +1172,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1518,8 +1546,16 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }

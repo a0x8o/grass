@@ -94,6 +94,7 @@ int print_output(OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -108,6 +109,8 @@ int print_output(OUTPUT *output)
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 =======
@@ -183,6 +186,7 @@ int print_output(OUTPUT *output)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
@@ -252,6 +256,13 @@ int print_output(OUTPUT *output)
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
 =======
@@ -386,6 +397,7 @@ int print_output(OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -474,10 +486,14 @@ int print_output(OUTPUT *output)
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -668,8 +684,16 @@ int print_output(OUTPUT *output)
 =======
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
                     snprintf(area, sizeof(area), "%.3f acres",
                              METERSQ_TO_ACRE * cell_size * do_cat->num_cat);
                     break;
@@ -691,6 +715,7 @@ int print_output(OUTPUT *output)
                     break;
                 case 6:
                     snprintf(area, sizeof(area), "%6d cells", do_cat->num_cat);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +785,8 @@ int print_output(OUTPUT *output)
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1c1d57983f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1137,6 +1164,8 @@ int print_output(OUTPUT *output)
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1588,8 +1617,18 @@ int print_output(OUTPUT *output)
                     snprintf(area, sizeof(area), "%6d cells", do_cat->num_cat);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
                     break;
                 }
                 fprintf(output->out_file, "%3d %-43s %16s %-.4f\n",

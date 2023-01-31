@@ -521,6 +521,7 @@ int db__driver_init(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -599,6 +600,8 @@ int db__driver_init(int argc, char *argv[])
 =======
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -614,9 +617,13 @@ int db__driver_init(int argc, char *argv[])
 =======
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 int db__driver_finish(void)
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -773,6 +780,7 @@ int db__driver_finish(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -816,6 +824,11 @@ int db__driver_finish()
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -1176,8 +1189,16 @@ int db__driver_finish()
 int db__driver_finish(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 {
     return DB_OK;
 }

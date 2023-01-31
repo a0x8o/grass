@@ -5727,6 +5727,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -5777,6 +5778,8 @@ int main(int argc, char *argv[])
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6512,10 +6515,13 @@ int main(int argc, char *argv[])
 =======
 =======
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, i);
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
         Ogr_featuredefn = OGR_L_GetLayerDefn(Ogr_layer);
 
         available_layer_names[i] =
             G_store((char *)OGR_FD_GetName(Ogr_featuredefn));
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
@@ -6529,9 +6535,24 @@ int main(int argc, char *argv[])
 =======
         available_layer_names[i] = G_store((char *)OGR_L_GetName(Ogr_layer));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 8712352f45 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 5fc304998e (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+=======
+
+        available_layer_names[i] = G_store((char *)OGR_L_GetName(Ogr_layer));
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+>>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+>>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 
         if (flag.list->answer)
             fprintf(stdout, "%s\n", available_layer_names[i]);
