@@ -115,6 +115,7 @@ UPDATE strds_metadata
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -263,6 +264,12 @@ UPDATE strds_metadata
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
 UPDATE strds_metadata SET min_min =
        (SELECT min(min) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
@@ -1008,10 +1015,14 @@ UPDATE strds_metadata SET ewres_max =
 UPDATE strds_metadata SET min_min = 
        (SELECT min(min) FROM raster_metadata WHERE raster_metadata.id IN 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
 =======
 UPDATE strds_metadata SET min_min =
        (SELECT min(min) FROM raster_metadata WHERE raster_metadata.id IN
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
 UPDATE strds_metadata SET min_max =
@@ -2414,35 +2425,37 @@ UPDATE strds_metadata SET ewres_max =
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET min_max = 
-       (SELECT max(min) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET min_max =
+       (SELECT max(min) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET max_min = 
-       (SELECT min(max) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET max_min =
+       (SELECT min(max) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET max_max = 
-       (SELECT max(max) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET max_max =
+       (SELECT max(max) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
 -- Update the resolution
-UPDATE strds_metadata SET nsres_min = 
-       (SELECT min(nsres) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET nsres_min =
+       (SELECT min(nsres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET nsres_max = 
-       (SELECT max(nsres) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET nsres_max =
+       (SELECT max(nsres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET ewres_min = 
-       (SELECT min(ewres) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET ewres_min =
+       (SELECT min(ewres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
-UPDATE strds_metadata SET ewres_max = 
-       (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN 
+UPDATE strds_metadata SET ewres_max =
+       (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
 <<<<<<< HEAD

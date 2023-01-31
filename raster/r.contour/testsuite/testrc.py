@@ -72,10 +72,36 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+    
+>>>>>>> 5251dcdc10 (Dockerfile: fix broken lib link (#1625))
+=======
+
+>>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
+=======
+    
+>>>>>>> 2ee29772c5 (Dockerfile: fix broken lib link (#1625))
+=======
+
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+=======
+    
+>>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
 
 =======
     
 >>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -322,10 +348,15 @@ Purpose:    Tests r.contour and its flags/options.
 >>>>>>> d1a7e51a61 (Dockerfile: fix broken lib link (#1625))
 =======
 =======
+<<<<<<< HEAD
+>>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
+=======
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
@@ -591,6 +622,8 @@ Purpose:    Tests r.contour and its flags/options.
 =======
 >>>>>>> 2c566ccf9d (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 0daaa332d3 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public
