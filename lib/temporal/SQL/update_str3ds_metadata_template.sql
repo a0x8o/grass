@@ -121,6 +121,7 @@ UPDATE str3ds_metadata SET tbres_max =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -130,6 +131,10 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -373,5 +378,15 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))

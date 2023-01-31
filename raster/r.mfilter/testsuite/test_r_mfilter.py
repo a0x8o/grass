@@ -241,6 +241,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -375,6 +376,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -389,6 +392,8 @@ class TestNeighbors(TestCase):
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -554,7 +559,12 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -769,6 +779,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                    1 1 1 
                    1 1 1 
@@ -839,22 +850,31 @@ class TestNeighbors(TestCase):
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
-                   1 1 1 
-                   1 1 1 
-                   1 1 1 
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
                    1 1 1 
                    1 1 1 
                    1 1 1 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+                   1 1 1 
+                   1 1 1 
+                   1 1 1 
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -876,6 +896,10 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,6 +910,7 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
@@ -920,6 +945,9 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -1345,8 +1373,17 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+>>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
+>>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }
