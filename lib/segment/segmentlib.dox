@@ -291,6 +291,7 @@ memory:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -383,6 +384,8 @@ memory:
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -477,11 +480,17 @@ memory:
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
   allocated memory. No further cleaning up is required.
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +612,8 @@ memory:
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -801,7 +812,12 @@ memory:
   allocated memory. No further cleaning up is required.
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
   allocated memory. No further cleaing up is required.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 

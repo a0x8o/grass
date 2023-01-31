@@ -93,6 +93,7 @@ PGM = r.resamp.interp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -147,6 +148,8 @@ PGM = r.resamp.interp
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -586,7 +589,12 @@ PGM = r.resamp.interp
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -1043,6 +1051,7 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1062,11 +1071,14 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OMPLIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OMPCFLAGS)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,10 +1175,13 @@ EXTRA_CFLAGS = $(OMPCFLAGS)
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
 EXTRA_INC = $(OPENMP_INCPATH)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1289,6 +1304,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
@@ -1886,7 +1903,16 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

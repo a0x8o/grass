@@ -1825,6 +1825,7 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1984,6 +1985,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2103,6 +2106,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
         points_in_box++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2216,7 +2221,11 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
@@ -2849,7 +2858,12 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 
         G_debug(3, "P_Sparse_Raster_Points: interpolate point %d...", i);
         if (bilin)

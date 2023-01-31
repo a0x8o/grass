@@ -182,6 +182,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -319,6 +320,8 @@ public:
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -602,7 +605,12 @@ public:
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         snprintf(str, sizeof(str), "im_buffer: allocate %ld\n",
                  (long)(maxsize * sizeof(T)));
 =======
@@ -983,6 +991,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1035,6 +1044,8 @@ public:
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1090,12 +1101,15 @@ public:
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
         sprintf(str, "im_buffer: allocate %ld\n", (long)(maxsize * sizeof(T)));
 =======
         snprintf(str, sizeof(str), "im_buffer: allocate %ld\n",
                  (long)(maxsize * sizeof(T)));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1477,7 +1491,12 @@ public:
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         MEMORY_LOG(str);
 
         data = new T[maxsize];

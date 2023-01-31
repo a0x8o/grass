@@ -85,6 +85,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -182,6 +183,8 @@ int I_cluster_distinct(struct Cluster *, double);
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -340,7 +343,12 @@ int I_cluster_distinct(struct Cluster *, double);
 =======
 =======
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 =======
@@ -480,6 +488,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -501,9 +510,12 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
 int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
                    int *);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,10 +738,13 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1220,7 +1235,12 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 /* c_execmem.c */
 int I_cluster_exec_allocate(struct Cluster *);
 int I_cluster_exec_free(struct Cluster *);

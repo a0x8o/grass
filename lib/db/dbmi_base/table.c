@@ -231,6 +231,7 @@ int db_get_table_number_of_columns(dbTable *table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -368,6 +369,8 @@ int db_get_table_number_of_columns(dbTable *table)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -651,7 +654,12 @@ int db_get_table_number_of_columns(dbTable *table)
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 =======
@@ -1032,6 +1040,7 @@ static void set_all_column_privs(dbTable *table,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1084,6 +1093,8 @@ static void set_all_column_privs(dbTable *table,
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1139,12 +1150,15 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
 static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,7 +1540,12 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 {
     int col, ncols;
     dbColumn *column;
@@ -1629,6 +1648,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1766,6 +1786,8 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2049,7 +2071,12 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 =======
@@ -2430,6 +2457,7 @@ static int get_all_column_privs(dbTable *table,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2482,6 +2510,8 @@ static int get_all_column_privs(dbTable *table,
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2537,12 +2567,15 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
 static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 =======
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2924,7 +2957,12 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 {
     int priv, col, ncols;
     dbColumn *column;

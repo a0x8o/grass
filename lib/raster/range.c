@@ -400,6 +400,7 @@ int Rast_read_rstats(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -505,6 +506,8 @@ int Rast_read_rstats(const char *name, const char *mapset,
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -614,7 +617,12 @@ int Rast_read_rstats(const char *name, const char *mapset,
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
     if (nbytes < 1 || (unsigned char)nbytes > sizeof(grass_int64)) {
 =======
 <<<<<<< HEAD
@@ -732,6 +740,7 @@ int Rast_read_rstats(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -756,6 +765,8 @@ int Rast_read_rstats(const char *name, const char *mapset,
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -817,11 +828,14 @@ int Rast_read_rstats(const char *name, const char *mapset,
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
     if (nbytes < 1 || nbytes > sizeof(grass_int64)) {
 =======
     if (nbytes < 1 || (unsigned char)nbytes > sizeof(grass_int64)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -874,6 +888,8 @@ int Rast_read_rstats(const char *name, const char *mapset,
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -1504,7 +1520,12 @@ int Rast_read_rstats(const char *name, const char *mapset,
     if (nbytes < 1 || (unsigned char)nbytes > sizeof(grass_int64)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         close(fd);
         G_debug(1, "Invalid byte count in stats file for <%s>",
                 G_fully_qualified_name(name, mapset));

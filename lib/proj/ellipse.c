@@ -350,6 +350,7 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -509,6 +510,8 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -628,6 +631,8 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
             count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -741,7 +746,11 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
@@ -1374,7 +1383,12 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         }
         else {
             err++;

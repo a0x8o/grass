@@ -108,6 +108,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -234,6 +235,8 @@ CREATE VIEW raster_view_abs_time AS SELECT
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -315,7 +318,12 @@ CREATE VIEW raster_view_abs_time AS SELECT
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             FROM raster_base A1, raster_absolute_time A2,
 =======
 <<<<<<< HEAD
@@ -443,6 +451,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -497,6 +506,8 @@ CREATE VIEW raster_view_abs_time AS SELECT
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -1039,7 +1050,12 @@ CREATE VIEW raster_view_abs_time AS SELECT
             FROM raster_base A1, raster_absolute_time A2,
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             raster_spatial_extent A3, raster_metadata A4,
             raster_stds_register A5
             WHERE A1.id = A2.id AND A1.id = A3.id AND
@@ -1146,6 +1162,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1272,6 +1289,8 @@ CREATE VIEW raster_view_rel_time AS SELECT
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1353,7 +1372,12 @@ CREATE VIEW raster_view_rel_time AS SELECT
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             FROM raster_base A1, raster_relative_time A2,
 =======
 <<<<<<< HEAD
@@ -1481,6 +1505,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1535,6 +1560,8 @@ CREATE VIEW raster_view_rel_time AS SELECT
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2077,7 +2104,12 @@ CREATE VIEW raster_view_rel_time AS SELECT
             FROM raster_base A1, raster_relative_time A2,
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             raster_spatial_extent A3, raster_metadata A4,
             raster_stds_register A5
             WHERE A1.id = A2.id AND A1.id = A3.id AND

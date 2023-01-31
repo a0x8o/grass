@@ -224,6 +224,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -337,6 +338,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -397,6 +400,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 
             nlines_modified++;
@@ -775,6 +780,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -870,6 +876,8 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1242,7 +1250,12 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         }
     } /* for each selected line */
 
@@ -1413,6 +1426,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1560,6 +1574,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1698,6 +1714,8 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 
             nlines_modified++;
@@ -1954,6 +1972,7 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -1973,6 +1992,9 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 <<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 =======
@@ -2602,7 +2624,12 @@ int Vedit_add_vertex(struct Map_info *Map, struct ilist *List,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 945afade8c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         }
     } /* for each line */
 

@@ -146,6 +146,7 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -344,6 +345,8 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -677,7 +680,12 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             if (k == (unsigned int)n * n)
                 G_warning("Having difficulties fitting that many circles with "
                           "that radius");
@@ -820,6 +828,7 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -916,6 +925,8 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
 =======
@@ -1029,10 +1040,13 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
             if (k == n * n)
                 G_warning("Having difficulties fitting that many circles with "
                           "that radius");
             if (k == 2 * n * n)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1111,6 +1125,8 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 >>>>>>> 641743d544 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -1120,6 +1136,7 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1622,11 +1639,19 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             if (k == (unsigned int)n * n)
                 G_warning("Having difficulties fitting that many circles with "
                           "that radius");
             if (k == (unsigned int)2 * n * n)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,6 +1791,8 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
@@ -1843,11 +1870,17 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1915,6 +1948,8 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -2423,7 +2458,12 @@ COOR *find_quadrats(int n, double r, struct Cell_head window)
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
                 G_fatal_error("Maximum number of iterations exceeded\nTry "
                               "smaller radius or smaller number of quads");
         }

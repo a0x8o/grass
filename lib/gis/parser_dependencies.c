@@ -5223,6 +5223,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -5277,6 +5278,8 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -5716,7 +5719,12 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
@@ -6515,11 +6523,16 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 =======
+        fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
+        for (j = 0; j < rule->count; j++) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
         fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
         for (j = 0; j < (unsigned int)rule->count; j++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6946,7 +6959,16 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
             void *p = rule->opts[j];
 
             if (is_flag(p)) {

@@ -1525,6 +1525,7 @@ SUBDIRS = $(DIRS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1732,6 +1733,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 FILES = AUTHORS CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 =======
@@ -2146,6 +2149,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html contributors.csv contributors_extra.csv translators.csv
@@ -2330,6 +2335,7 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2386,6 +2392,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 =======
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -2425,11 +2433,14 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html contributors.csv contributors_extra.csv translators.csv
 =======
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2469,6 +2480,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 >>>>>>> 2797eab292 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b345bcbe37 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2854,7 +2867,12 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> d365e50fab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 FILES_DST = $(patsubst %,$(ARCH_DISTDIR)/%,$(FILES))
 
 default:
