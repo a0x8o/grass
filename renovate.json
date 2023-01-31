@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "config:base",
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
         "config:best-practices",
 =======
         "config:base",
@@ -290,7 +293,16 @@
         "config:base",
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+        "config:best-practices",
+=======
+        "config:base",
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
         ":semanticCommitTypeAll(CI)"
     ]
 }

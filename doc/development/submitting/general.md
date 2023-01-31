@@ -174,6 +174,7 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -237,10 +238,17 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 Often there is more than one active release branch. You can also choose to backport
 only to the closest branch. If you are backporting to other release branches than
 just the closets one, make sure you always backport to all the branches between
@@ -270,10 +278,13 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -386,7 +397,12 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 Often there is more than one active release branch, if you are backporting, make
 sure you always backport to all the branches between "main" and the furthest
 branch you are backporting to. For example, let's say we have "main" and branches
@@ -419,6 +435,7 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -545,6 +562,8 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -569,7 +588,13 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 
 Backport only complete fixes. When you are not sure if the fix is complete or if
 there is an possibility that some details such as wording will change, wait with
@@ -638,6 +663,7 @@ should first seek consent in the grass-dev mailing list (see below), then you ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 <<<<<<< HEAD
@@ -702,10 +728,17 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 to expand 'configure.ac' and subsequently run `autoconf-2.71` (later versions
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
@@ -732,10 +765,13 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -870,7 +906,12 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 will not work) to re-generate 'configure'.
 
 ## Naming Conventions

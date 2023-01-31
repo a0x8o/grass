@@ -111,6 +111,7 @@ UPDATE str3ds_metadata SET tbres_max =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -237,6 +238,8 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -261,4 +264,10 @@ UPDATE str3ds_metadata SET tbres_max =
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)

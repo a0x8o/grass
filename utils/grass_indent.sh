@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -167,6 +168,8 @@ case "$(uname)" in
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -323,7 +326,13 @@ case "$(uname)" in
 =======
 case "$(uname)" in 
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5e648d6847 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+case "$(uname)" in
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> cb2a3a877f (Merge branch 'a0x8o' into stag0)
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;
