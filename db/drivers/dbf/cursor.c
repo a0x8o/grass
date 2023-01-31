@@ -173,6 +173,7 @@ int db__driver_close_cursor(dbCursor *dbc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -417,9 +418,12 @@ cursor *alloc_cursor(void)
 =======
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -522,6 +526,10 @@ cursor *alloc_cursor(void)
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 cursor *alloc_cursor(void)
 =======
 <<<<<<< HEAD
@@ -665,6 +673,7 @@ cursor *alloc_cursor(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -751,6 +760,8 @@ cursor *alloc_cursor()
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 cursor *alloc_cursor(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -1607,7 +1618,12 @@ cursor *alloc_cursor()
 cursor *alloc_cursor(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 {
     cursor *c;
 

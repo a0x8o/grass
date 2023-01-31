@@ -1510,6 +1510,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1732,6 +1733,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1789,6 +1792,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -2214,6 +2218,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -2375,6 +2383,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2429,16 +2438,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2525,6 +2539,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2958,6 +2974,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -3529,6 +3546,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf1, cell1);
@@ -3683,6 +3704,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3905,6 +3927,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3962,6 +3986,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -4387,6 +4412,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -4548,6 +4577,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4602,16 +4632,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4698,6 +4733,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5131,6 +5168,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -5702,6 +5740,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf2, cell1);
@@ -5856,6 +5898,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6078,6 +6121,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -6135,6 +6180,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -6560,6 +6606,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -6721,6 +6771,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -6775,16 +6826,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6871,6 +6927,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7304,6 +7362,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -7875,6 +7934,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf3, cell1);
@@ -8029,6 +8092,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8251,6 +8315,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -8308,6 +8374,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -8733,6 +8800,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -8894,6 +8965,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -8948,16 +9020,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9044,6 +9121,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9477,6 +9556,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -10048,6 +10128,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf4, cell1);
@@ -10202,6 +10286,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10424,6 +10509,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10481,6 +10568,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -10906,6 +10994,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -11067,6 +11159,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -11121,16 +11214,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11217,6 +11315,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11650,6 +11750,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -12221,6 +12322,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf5, cell1);
@@ -12375,6 +12480,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12597,6 +12703,8 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -12654,6 +12762,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -13079,6 +13188,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 =======
 <<<<<<< HEAD
@@ -13240,6 +13353,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -13294,16 +13408,21 @@ int IL_resample_output_2d(
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13390,6 +13509,8 @@ int IL_resample_output_2d(
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13823,6 +13944,7 @@ int IL_resample_output_2d(
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
@@ -14394,6 +14516,10 @@ int IL_resample_output_2d(
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf6, cell1);

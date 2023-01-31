@@ -330,6 +330,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -754,6 +755,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -800,7 +803,12 @@ class TestNeighbors(TestCase):
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -2016,6 +2024,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
@@ -2025,6 +2034,7 @@ class TestNeighbors(TestCase):
                    1 1 1 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2040,6 +2050,8 @@ class TestNeighbors(TestCase):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -2927,12 +2939,24 @@ class TestNeighbors(TestCase):
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
+<<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }

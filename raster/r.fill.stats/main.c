@@ -1382,6 +1382,7 @@ void print_weights_matrix(long int rows, long int cols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     size_t weight_matrix_line_length = 80;
@@ -1981,6 +1982,8 @@ void print_weights_matrix(long int rows, long int cols)
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
@@ -2014,7 +2017,12 @@ void print_weights_matrix(long int rows, long int cols)
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
     char weight_matrix_line_buf[WEIGHT_MATRIX_LINE_LENGTH + 1];
     char weight_matrix_weight_buf[WEIGHT_MATRIX_LINE_LENGTH + 1];
 =======
@@ -2298,6 +2306,7 @@ void print_weights_matrix(long int rows, long int cols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
@@ -2431,6 +2440,8 @@ void print_weights_matrix(long int rows, long int cols)
 =======
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2521,6 +2532,7 @@ void print_weights_matrix(long int rows, long int cols)
     size_t weight_matrix_line_length = 80;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
@@ -2941,6 +2953,10 @@ void print_weights_matrix(long int rows, long int cols)
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
     char weight_matrix_line_buf[weight_matrix_line_length + 1];
     char weight_matrix_weight_buf[weight_matrix_line_length + 1];
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

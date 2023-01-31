@@ -102,6 +102,7 @@ You are right that there is a problem with normals for surfaces with values
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 the surface to disapear for larger values of z for higher resolution/higher
 =======
 <<<<<<< HEAD
@@ -514,6 +515,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
@@ -532,7 +535,12 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 the surface to disappear for larger values of z for higher resolution/higher
 =======
 the surface to disapear for larger values of z for higher resolution/higher
@@ -606,6 +614,7 @@ the surface to disapear for larger values of z for higher resolution/higher
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -714,6 +723,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -875,13 +886,17 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 =======
 the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
 =======
@@ -1188,6 +1203,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 zscale case. Bill fixed it for the SGI-GL version - if the GL version
 is available it would be good to compare them. I will check with Bill,
 but I would like him to finish the legends first.

@@ -4285,6 +4285,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4449,9 +4450,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -4629,6 +4633,10 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)region->cols; i++) {
 =======
 <<<<<<< HEAD
@@ -4937,6 +4945,9 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
@@ -5999,7 +6010,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->cols; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
         c = region->west + i * region->ew_res + 0.5 * region->ew_res;
         nc_put_var1_float(ncid, lon_varid, &i, &c);
     }
@@ -6110,6 +6126,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6272,9 +6289,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -6444,6 +6464,10 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)region->rows; i++) {
 =======
 <<<<<<< HEAD
@@ -6746,6 +6770,9 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
@@ -7823,7 +7850,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->rows; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
         /* c = region->south + i * region->ns_res + 0.5 * region->ns_res; */
         c = region->north - i * region->ns_res - 0.5 * region->ns_res;
         nc_put_var1_float(ncid, lat_varid, &i, &c);
@@ -7935,6 +7967,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8099,9 +8132,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -8279,6 +8315,10 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)region->depths; i++) {
 =======
 <<<<<<< HEAD
@@ -8587,6 +8627,9 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
@@ -9649,7 +9692,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->depths; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
         if (is_time) {
             c = i * region->tb_res;
             time = (int)c;
