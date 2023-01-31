@@ -21,10 +21,13 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 29302c9ef8 (pythonlib: Remove star imports (#1546))
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 <<<<<<< HEAD
@@ -70,6 +73,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -96,6 +100,8 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 29302c9ef8 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 import grass.lib.gis as libgis
 import grass.lib.raster as libraster
