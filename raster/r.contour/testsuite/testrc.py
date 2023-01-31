@@ -6,6 +6,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -22,6 +23,9 @@ Purpose:    Tests r.contour and its flags/options.
 =======
     
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
+=======
+
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public

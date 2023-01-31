@@ -26,6 +26,7 @@ r.mapcalc --o expr="elev_5 = 45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,10 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+# with different tile sizes and null data
+=======
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
 # with differen tile sizes and null data
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 r.to.rast3 --o input=elev_1,elev_2,elev_3,elev_4,elev_5 output=test_volume_6_raster tilesize=1

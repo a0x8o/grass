@@ -23,6 +23,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,8 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
@@ -105,10 +108,14 @@ void disp_matrix(double **a, double *x, double *z, int n)
                         /* Displays matrices used to solve a 
                            set of linear equations in the form 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
 =======
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 
                            _                        _      _  _      _  _
 >>>>>>> osgeo-main
@@ -204,6 +211,10 @@ void disp_matrix(double **a, double *x, double *z, int n)
 
                            _                        _      _  _      _  _ 
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+                           _                        _      _  _      _  _
+>>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |
