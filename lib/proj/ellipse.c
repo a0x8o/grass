@@ -371,6 +371,7 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -800,6 +801,8 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1066,6 +1069,8 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
             count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1346,6 +1351,7 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -1429,6 +1435,8 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -2743,7 +2751,12 @@ struct ellps_list *read_ellipsoid_table(int fatal)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         }
         else {
             err++;

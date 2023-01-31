@@ -7306,6 +7306,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7489,6 +7490,8 @@ int main(int argc, char *argv[])
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -7706,7 +7709,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     zone_info.min = 0.0 / 0.0; /* set to nan as default */
     zone_info.max = 0.0 / 0.0; /* set to nan as default */
 =======
@@ -7747,6 +7755,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
@@ -8163,6 +8174,7 @@ int main(int argc, char *argv[])
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -8348,6 +8360,10 @@ int main(int argc, char *argv[])
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     zone_info.n_zones = 0;
 
     fdz = NULL;

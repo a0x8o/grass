@@ -5971,6 +5971,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6218,6 +6219,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -6517,7 +6520,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     for (i = 0; i < (unsigned int)region->cols; i++) {
 =======
 <<<<<<< HEAD
@@ -6667,6 +6675,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -6743,6 +6752,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -6850,11 +6861,14 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
     for (i = 0; i < region->cols; i++) {
 =======
     for (i = 0; i < (unsigned int)region->cols; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6939,6 +6953,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -8507,7 +8523,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->cols; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         c = region->west + i * region->ew_res + 0.5 * region->ew_res;
         nc_put_var1_float(ncid, lon_varid, &i, &c);
     }
@@ -8660,6 +8681,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8905,6 +8927,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -9196,7 +9220,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     for (i = 0; i < (unsigned int)region->rows; i++) {
 =======
 <<<<<<< HEAD
@@ -9344,6 +9373,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -9416,6 +9446,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9523,11 +9555,14 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
     for (i = 0; i < region->rows; i++) {
 =======
     for (i = 0; i < (unsigned int)region->rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9612,6 +9647,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -11195,7 +11232,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->rows; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         /* c = region->south + i * region->ns_res + 0.5 * region->ns_res; */
         c = region->north - i * region->ns_res - 0.5 * region->ns_res;
         nc_put_var1_float(ncid, lat_varid, &i, &c);
@@ -11349,6 +11391,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11596,6 +11639,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -11895,7 +11940,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     for (i = 0; i < (unsigned int)region->depths; i++) {
 =======
 <<<<<<< HEAD
@@ -12045,6 +12095,7 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -12121,6 +12172,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -12228,11 +12281,14 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
     for (i = 0; i < region->depths; i++) {
 =======
     for (i = 0; i < (unsigned int)region->depths; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12317,6 +12373,8 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -13885,7 +13943,12 @@ static void write_netcdf_header(int ncid, RASTER3D_Region *region, int *varid,
     for (i = 0; i < (unsigned int)region->depths; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         if (is_time) {
             c = i * region->tb_res;
             time = (int)c;

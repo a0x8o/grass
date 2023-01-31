@@ -1621,6 +1621,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1817,6 +1818,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2041,6 +2044,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
@@ -2276,6 +2280,10 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         # read history file
         self._loadHistory()
         if giface:
@@ -2452,6 +2460,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2573,6 +2582,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> b920cd0c09 (Fix missing function prototypes (#2727))
 >>>>>>> 418440c09e (Fix missing function prototypes (#2727))
@@ -2943,12 +2954,16 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
@@ -3174,6 +3189,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         #
         # bindings
         #
@@ -3402,6 +3419,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._showHint()
 =======
 <<<<<<< HEAD
@@ -3866,6 +3884,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -4059,7 +4079,12 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
             wx.CallAfter(self._showHint)
 =======
             self._showHint()
@@ -4160,6 +4185,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -4293,6 +4319,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -4774,13 +4802,17 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
             self._showHint()
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
@@ -4980,6 +5012,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         event.Skip()
 
     def OnSetFocus(self, event):

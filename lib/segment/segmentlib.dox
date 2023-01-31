@@ -335,6 +335,7 @@ memory:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -522,6 +523,8 @@ memory:
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -640,6 +643,7 @@ memory:
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
@@ -773,10 +777,15 @@ memory:
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
   allocated memory. No further cleaning up is required.
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,6 +870,8 @@ memory:
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -1286,6 +1297,7 @@ memory:
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1501,6 +1513,10 @@ memory:
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
   allocated memory. No further cleaing up is required.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 

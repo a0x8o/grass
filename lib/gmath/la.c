@@ -4668,6 +4668,7 @@ double G_vector_norm1(vec_struct *vc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5002,6 +5003,8 @@ double G_vector_norm1(vec_struct *vc)
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -5205,6 +5208,8 @@ double G_vector_norm1(vec_struct *vc)
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
         return NAN;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5894,6 +5899,7 @@ double G_vector_norm1(vec_struct *vc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6034,11 +6040,14 @@ double G_vector_norm1(vec_struct *vc)
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
         return 0.0 / 0.0; /* NaN */
 =======
         return NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6160,6 +6169,8 @@ double G_vector_norm1(vec_struct *vc)
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -7077,6 +7088,7 @@ double G_vector_norm1(vec_struct *vc)
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
@@ -7534,6 +7546,10 @@ double G_vector_norm1(vec_struct *vc)
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     }
 
     idx = (vc->v_indx > 0) ? vc->v_indx : 0;

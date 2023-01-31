@@ -100,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  This GRASS module calculates the  spectral resonse
 =======
 <<<<<<< HEAD
@@ -567,6 +568,8 @@
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -759,7 +762,12 @@
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
  This GRASS module calculates the  spectral response
 =======
  This GRASS module calculates the  spectral resonse
@@ -861,6 +869,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -994,6 +1003,8 @@
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1475,13 +1486,17 @@
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
  This GRASS module calculates the  spectral resonse
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
@@ -1683,6 +1698,8 @@
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
  for raster images at a user specified point (by mouse).
 
  Requirement:

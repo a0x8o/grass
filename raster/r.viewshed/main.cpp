@@ -2162,6 +2162,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2495,6 +2496,8 @@ int main(int argc, char *argv[])
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3276,7 +3279,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
             snprintf(buf, sizeof(buf), "%s=%s", STREAM_TMPDIR,
                      viewOptions.streamdir);
 =======
@@ -3367,6 +3375,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -3416,12 +3425,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
             sprintf(buf, "%s=%s", STREAM_TMPDIR, viewOptions.streamdir);
 =======
             snprintf(buf, sizeof(buf), "%s=%s", STREAM_TMPDIR,
                      viewOptions.streamdir);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4631,6 +4643,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
@@ -5162,6 +5175,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
             G_debug(1, "setting %s ", buf);
             putenv(buf);
             if (getenv(STREAM_TMPDIR) == NULL) {

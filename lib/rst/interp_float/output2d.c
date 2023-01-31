@@ -2028,6 +2028,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2362,6 +2363,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2565,6 +2568,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3254,6 +3259,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3394,11 +3400,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3522,6 +3531,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -4440,6 +4451,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -4902,6 +4914,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf1, cell1);
@@ -5112,6 +5128,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5446,6 +5463,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -5649,6 +5668,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6338,6 +6359,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6478,11 +6500,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6606,6 +6631,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -7524,6 +7551,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -7986,6 +8014,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf2, cell1);
@@ -8196,6 +8228,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8530,6 +8563,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -8733,6 +8768,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9422,6 +9459,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9562,11 +9600,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9690,6 +9731,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -10608,6 +10651,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -11070,6 +11114,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf3, cell1);
@@ -11280,6 +11328,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11614,6 +11663,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -11817,6 +11868,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12506,6 +12559,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12646,11 +12700,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12774,6 +12831,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -13692,6 +13751,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -14154,6 +14214,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf4, cell1);
@@ -14364,6 +14428,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14698,6 +14763,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -14901,6 +14968,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15590,6 +15659,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15730,11 +15800,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15858,6 +15931,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -16776,6 +16851,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -17238,6 +17314,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf5, cell1);
@@ -17448,6 +17528,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -17782,6 +17863,8 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -17985,6 +18068,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
                 (size_t)params->nsizc)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18674,6 +18759,7 @@ int IL_output_2d(struct interp_params *params,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18814,11 +18900,14 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
                 params->nsizc)
 =======
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18942,6 +19031,8 @@ int IL_output_2d(struct interp_params *params,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -19860,6 +19951,7 @@ int IL_output_2d(struct interp_params *params,
 =======
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
@@ -20322,6 +20414,10 @@ int IL_output_2d(struct interp_params *params,
 =======
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
                 G_fatal_error(_("RST library temporary file reading error: %s"),
                               strerror(errno));
             Rast_put_f_row(cf6, cell1);

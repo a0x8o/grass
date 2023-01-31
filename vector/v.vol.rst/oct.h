@@ -104,6 +104,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -450,6 +451,8 @@ struct octfunc {
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -631,6 +634,8 @@ struct octfunc {
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
@@ -1840,6 +1845,7 @@ struct octtree {
 <<<<<<< HEAD
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4018,7 +4024,10 @@ struct octtree {
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
     int (*compare)();
@@ -5184,6 +5193,7 @@ struct octtree {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
@@ -5192,13 +5202,34 @@ struct octtree {
 =======
 =======
 =======
+=======
+=======
+    int (*compare)(struct quadruple *, struct octdata *);
+    struct octdata **(*divide_data)(struct octdata *);
+    int (*add_data)(struct quadruple *, struct octdata *);
+    int (*intersect)(double, double, double, double, double, double,
+                     struct octdata *);
+    int (*division_check)(struct octdata *);
+    int (*get_points)(struct quadruple *, struct octdata *, double, double,
+                      double, double, double, double, int);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 };
 
 struct octtree {
     struct octdata *data;
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     struct octtree **leafs;
     struct octtree *parent;
     struct octfunc *functions;

@@ -250,6 +250,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -579,6 +580,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -710,6 +713,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -800,6 +804,10 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     int merged = 0;
 =======
 <<<<<<< HEAD
@@ -957,6 +965,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1043,6 +1052,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2374,7 +2385,12 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
     int merged = 0;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
     int next_node, direction, node_n_lines, type, ltype, lines_type;
     static struct ilist *List = NULL;
     static struct line_pnts *Points = NULL;

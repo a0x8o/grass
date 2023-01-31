@@ -257,6 +257,9 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
 =======
@@ -1121,6 +1124,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d64857ac67 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1556,6 +1560,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         off_t size;
 
         size = 145; /* max header size, see below */
@@ -1997,6 +2005,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2107,6 +2116,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
         off_t size;
 
@@ -2388,6 +2399,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 =======
@@ -2468,6 +2480,10 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 48b1950515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         size = 145; /* max header size, see below */
         size += (off_t)ptr->Node_spidx->n_nodes * ptr->Node_spidx->nodesize;
         size += (off_t)ptr->Line_spidx->n_nodes * ptr->Line_spidx->nodesize;
@@ -2476,6 +2492,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2567,6 +2584,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
@@ -2612,6 +2630,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2659,6 +2679,7 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
@@ -2690,6 +2711,8 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> cb77e7994f (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4243,7 +4266,12 @@ int dig_Wr_spidx_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         if (size < PORT_INT_MAX)
             ptr->spidx_port.off_t_size = 4;
         else
@@ -9228,6 +9256,7 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9593,6 +9622,8 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 >>>>>>> 3ebc3e326d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -10522,7 +10553,12 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
@@ -13020,9 +13056,15 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
 =======
+        return rtree_load_to_file(fp, rootpos, t, off_t_size);
+    else
+        return rtree_load_to_memory(fp, rootpos, t, off_t_size);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
         rtree_load_to_file(fp, rootpos, t, off_t_size);
     else
         rtree_load_to_memory(fp, rootpos, t, off_t_size);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13417,7 +13459,16 @@ static void rtree_load_from_sidx(struct gvfile *fp, off_t rootpos,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3aaa8eeeda (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 }
 
 /*!
