@@ -106,6 +106,7 @@ Be sure to check your code against these rules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -296,6 +297,8 @@ Be sure to check your code against these rules:
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -502,6 +505,7 @@ Be sure to check your code against these rules:
 =======
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -742,6 +746,10 @@ Be sure to check your code against these rules:
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 ### Use pre-commit
 
 It is highly recommended to install and use [pre-commit](https://pre-commit.com)
@@ -899,6 +907,7 @@ pre-commit install
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1028,6 +1037,8 @@ pre-commit install
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -1436,6 +1447,7 @@ pre-commit install
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1657,6 +1669,10 @@ pre-commit install
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 99ec0a9e3c (r.horizon manual - fix typo (#2794))
 ## GRASS GIS programming best practice
 
 There are many unwritten rules how GRASS modules should work, what they should
