@@ -122,6 +122,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -149,6 +150,10 @@ int input_wkt(char *wktfile)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -167,6 +172,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -178,12 +184,15 @@ int input_wkt(char *wktfile)
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 398a3c2388 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> b845e8d135 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -199,6 +208,9 @@ int input_wkt(char *wktfile)
 	G_squeeze(buff);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 =======
         size_t wktlen;
@@ -238,6 +250,7 @@ int input_wkt(char *wktfile)
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -254,6 +267,8 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);
