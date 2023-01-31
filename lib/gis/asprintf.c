@@ -147,6 +147,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -169,6 +170,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         if (count >= 0 && (size_t)count < osize)
 =======
 <<<<<<< HEAD
@@ -369,6 +372,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
         if (count >= 0 && count < osize)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -459,6 +463,11 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
         if (count >= 0 && count < osize)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (count >= 0 && (size_t)count < osize)
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
             break;
         if (count > -1)
             osize = count + 1;

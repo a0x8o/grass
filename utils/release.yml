@@ -1929,6 +1929,7 @@ notes:
       regexp: '[Ss]ingularity: '
 
     - title: Continuous Integration, Tests, Code Quality, and Checks
+<<<<<<< HEAD
       regexp: '(CI|ci|[Tt]ests|[Cc]hecks|pytest): '
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1937,7 +1938,13 @@ notes:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+      regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
     - title: Contributing and Management
 <<<<<<< HEAD

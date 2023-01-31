@@ -1757,6 +1757,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1810,6 +1811,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Spatial extent dict and projection information
             e.g. from g.region -ug3 with GRASS GIS region keys
             "n", "s", "e", "w", "b", "t", and  "projection".
@@ -1844,6 +1847,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1931,6 +1935,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Return only maps with the provided spatial
                      relation to the given spatial extent (requires
                      spatial_relation parameter)
@@ -1960,6 +1968,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -2079,6 +2088,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
         :return: ordered object list, in case nothing found None is returned
         """
@@ -2168,6 +2184,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2221,6 +2238,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Spatial extent dict and projection information
             e.g. from g.region -ug3 with GRASS GIS region keys
             "n", "s", "e", "w", "b", "t", and  "projection".
@@ -2255,6 +2274,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2342,6 +2362,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Return only maps with the provided spatial
                      relation to the given spatial extent (requires
                      spatial_relation parameter)
@@ -2371,6 +2395,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -2490,6 +2515,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
         :return: The ordered map object list,
                 In case nothing found None is returned
@@ -2558,6 +2590,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2611,6 +2644,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Spatial extent dict and projection information
             e.g. from g.region -ug3 with GRASS GIS region keys
             "n", "s", "e", "w", "b", "t", and  "projection".
@@ -2645,6 +2680,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2732,6 +2768,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Return only maps with the provided spatial
                      relation to the given spatial extent (requires
                      spatial_relation parameter)
@@ -2761,6 +2801,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -2880,6 +2921,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
         :return: The ordered map object list,
                 In case nothing is found, an empty list is returned
@@ -3280,6 +3328,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
         # use all columns
+<<<<<<< HEAD
         rows = self.get_registered_maps(None, where, order, dbif)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3289,7 +3338,15 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         # use all columns
         rows = self.get_registered_maps(None, where, order, dbif)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        rows = self.get_registered_maps(
+            None, where, order, dbif, spatial_extent, spatial_relation
+        )
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
         if rows is not None:
             has_bt_columns = False
@@ -3577,6 +3634,119 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         self, where, spatial_extent, spatial_relation
     ):
         """Update given SQL WHERE statement by spatial extent where clause
+<<<<<<< HEAD
+=======
+
+        Code is lend from wind_overlap.c in lib/gis and
+        temporal.SpatialExtent
+
+        Call this method only when spatial extent is given as a dict
+        with GRASS region keys "n", "s", "e", "w", "b", "t", and
+        "projection", where projection value "3" refers to latlong.
+        It can be created with gs.parse_command("g.region", flags="ug3")
+        {n: '80', "s": '20', "e": '60', "w": '10', "b": '-50', "t": '50',
+        "projection": '1'}
+
+        :param str where: SQL WHERE statement to be updated
+        :param dict spatial_extent: Spatial extent dict and projection information
+            e.g. from g.region -ug3
+        :param dict spatial_relation: Spatial relation to the provided
+            spatial extent as a string with one of the following values:
+            "overlaps": maps that spatially overlap ("intersect")
+                        within the provided spatial extent
+            "is_contained": maps that are fully within the provided spatial extent
+            "contains": maps that contain (fully cover) the provided spatial extent
+
+        :return: updated SQL WHERE statement
+
+        .. code-block:: python
+             >>> import grass.script as gs
+             >>> where = None
+             >>> spatial_extent = gs.parse_command("g.region", flags="ug3")
+             >>> _update_where_statement_by_spatial_extent(where, spatial_extent, "overlaps")
+             ((north > 0 AND south < 1 AND east > 0 AND west < 1))
+        """
+
+        # initialized WHERE statement
+        if where:
+            where += " AND ("
+        else:
+            where = "("
+
+        if not spatial_relation:
+            spatial_relation = "overlaps"
+        elif spatial_relation not in ["overlaps", "is_contained", "contains"]:
+            self.msgr.error(
+                _(
+                    "Invalid spatial relation <{}> requested."
+                    "Only values 'overlaps', 'is_contained', and 'contains' are allowed."
+                ).format(spatial_relation)
+            )
+            raise
+        # SQL implementation of overlap, is_contained, and contains
+        where += ""
+
+        if spatial_relation == "overlaps":
+            spatial_where_template = (
+                "(north > {s}" " AND south < {n}" " AND east > {w}" " AND west < {e}"
+            )
+        elif spatial_relation == "is_contained":
+            spatial_where_template = (
+                "(north <= {n}"
+                " AND south >= {s}"
+                " AND east <= {e}"
+                " AND west >= {w}"
+            )
+        elif spatial_relation == "contains":
+            spatial_where_template = (
+                "(north >= {n}"
+                " AND south <= {s}"
+                " AND east >= {e}"
+                " AND west <= {w}"
+            )
+
+        if self.get_type() == "str3ds":
+            if spatial_relation == "overlaps":
+                spatial_where_template += " AND top > {b}" " AND bottom < {t}"
+        elif spatial_relation == "is_contained":
+            spatial_where_template += " AND top <= {t}" " AND bottom >= {b}"
+        elif spatial_relation == "contains":
+            spatial_where_template += " AND top >= {t}" " AND bottom <= {b}"
+        spatial_where_template += ")"
+
+        spatial_where_list = [spatial_where_template.format(**spatial_extent)]
+
+        # Adjust the east and west in case of LL projection
+        if spatial_extent["projection"] == "3":
+            for coord_shift in [-360, 360]:
+                spatial_extent_shift = spatial_extent.copy()
+                spatial_extent_shift["e"] = str(
+                    float(spatial_extent_shift["e"]) + coord_shift
+                )
+                spatial_extent_shift["w"] = str(
+                    float(spatial_extent_shift["w"]) + coord_shift
+                )
+                spatial_where_list.append(
+                    spatial_where_template.format(**spatial_extent_shift)
+                )
+        where += " OR ".join(spatial_where_list)
+
+        # close WHERE statement
+        where += ")"
+
+        return where
+
+    def get_registered_maps(
+        self,
+        columns=None,
+        where=None,
+        order=None,
+        dbif=None,
+        spatial_extent=None,
+        spatial_relation=None,
+    ):
+        """Return SQL rows of all registered maps.
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 
         Code is lend from wind_overlap.c in lib/gis and
         temporal.SpatialExtent
@@ -4935,6 +5105,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         :param dbif: The database interface to be used
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5102,6 +5273,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -5111,12 +5283,17 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         :param spatial_extent: Return only maps with the provided spatial
                      relation to the given spatial extent (requires
                      spatial_relation parameter)
         :param spatial_relation: Return only maps with the given spatial
                      relation to the provided spatial extent (requires
                      spatial_extent parameter)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5266,6 +5443,8 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
@@ -5356,6 +5535,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
@@ -5429,6 +5609,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 
         :return: SQL rows of all registered maps grouped by the columns given in
                 the group option, in case no maps are found, None is returned
@@ -5986,6 +6170,12 @@ class AbstractSpaceTimeDataset(AbstractDataset):
                 where = self._update_where_statement_by_semantic_label(where)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+
+            # filter by semantic label identifier
+            if spatial_extent:
+                where = self._update_where_statement_by_spatial_extent(
+                    where, spatial_extent, spatial_relation
+                )
 
             if where is not None and where != "":
                 sql += " AND (%s)" % (where.split(";")[0])

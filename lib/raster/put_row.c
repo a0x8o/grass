@@ -1162,6 +1162,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1225,6 +1226,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
     if (nwrite > 0 && (size_t)nwrite < size) {
         if ((res = write(fcb->null_fd, compressed_buf, nwrite)) < 0 ||
             (unsigned int)res != nwrite)
@@ -1948,11 +1951,17 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> 6837d544f9 (lib/raster: add strerror(errno) to write failures (#1722))
 =======
         if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
+=======
+    if (nwrite > 0 && (size_t)nwrite < size) {
+        if ((res = write(fcb->null_fd, compressed_buf, nwrite)) < 0 ||
+            (unsigned int)res != nwrite)
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
     }
     else {
+<<<<<<< HEAD
 =======
         if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
             G_fatal_error(
@@ -1962,6 +1971,10 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
     else {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         if (write(fcb->null_fd, flags, size) != size)
+=======
+        if ((res = write(fcb->null_fd, flags, size)) < 0 ||
+            (unsigned int)res != size)
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
@@ -2050,6 +2063,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2060,6 +2074,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
     if ((res = write(fcb->null_fd, flags, size)) < 0 ||
         (unsigned int)res != size)
 =======
@@ -2191,6 +2207,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2232,9 +2249,12 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
     if ((res = write(fcb->null_fd, flags, size)) < 0 ||
         (unsigned int)res != size)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2322,6 +2342,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
                       fcb->name, strerror(errno));
 =======

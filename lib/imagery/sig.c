@@ -7089,6 +7089,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7141,6 +7142,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
@@ -7284,6 +7287,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7330,6 +7334,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         if (!match1[i]) {
             if (S->semantic_labels[i])
                 total = total + strlen(S->semantic_labels[i]);
@@ -8118,6 +8127,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8170,6 +8180,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
@@ -8313,6 +8325,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8359,6 +8372,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         if (!match2[j]) {
             if (group_semantic_labels[j])
                 total = total + strlen(group_semantic_labels[j]);
@@ -9150,6 +9168,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9202,6 +9221,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> e74e6d91fb (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
@@ -9345,6 +9366,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -9391,6 +9413,11 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+            for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 new_means[c][new_order[b1]] = S->sig[c].mean[b1];
                 for (unsigned int b2 = 0; b2 <= b1; b2++) {
                     if (new_order[b1] > new_order[b2]) {

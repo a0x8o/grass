@@ -1219,6 +1219,15 @@ equivalent.
 This routine remove trailing zeros from decimal number for example:
 23.45000 would come back as 23.45.
 
+<<<<<<< HEAD
+=======
+ - G_index()
+
+ - G_rindex()
+
+Get position of delimiter.
+
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
  - G_strcasecmp()
 
  - G_strncasecmp()

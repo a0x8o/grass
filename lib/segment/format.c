@@ -488,6 +488,7 @@ static int zero_fill(int fd, off_t nbytes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -510,6 +511,8 @@ static int zero_fill(int fd, off_t nbytes)
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
 =======
 <<<<<<< HEAD
@@ -710,6 +713,7 @@ static int zero_fill(int fd, off_t nbytes)
 =======
         n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -800,6 +804,11 @@ static int zero_fill(int fd, off_t nbytes)
         n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
         errno = 0;
         if (write(fd, buf, n) != n) {
             int err = errno;

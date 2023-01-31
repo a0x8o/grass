@@ -200,4 +200,8 @@ Multiple GRASS modules can be joined into one object by
 :class:`~pygrass.modules.interface.module.MultiModule`.
 
 
+<<<<<<< HEAD
 .. _Popen: https://docs.python.org/library/subprocess.html#Popen
+=======
+.. _Popen: http://docs.python.org/library/subprocess.html#Popen
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))

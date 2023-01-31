@@ -552,6 +552,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -574,6 +575,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 =======
 <<<<<<< HEAD
@@ -774,6 +777,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -864,6 +868,11 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                     G_free(rast_pixs);
                     G_free(belongs_pix);
                     G_warning(

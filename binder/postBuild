@@ -97,9 +97,12 @@ mkdir -p data/grassdata \
   && rm nc_basic_spm_grass7.zip
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
 =======
   
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))

@@ -197,6 +197,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -219,6 +220,8 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -419,6 +422,7 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
 =======
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -509,6 +513,11 @@ static void G_fpcompress_rearrangeEncodeFloats(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (8 - nBits < (unsigned int)precision) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 cp1++;
 
                 /*printf ("%d %d\n", *cp1, (*src & mask) << (8 - nBits)); */
@@ -716,6 +725,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -738,6 +748,8 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -938,6 +950,7 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
 =======
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -1028,6 +1041,11 @@ static void G_fpcompress_rearrangeEncodeDoubles(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (8 - nBits < (unsigned int)precision) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *cp1 = (unsigned char)(((unsigned char)(*src & mask))
                                        << (8 - nBits));
@@ -1215,6 +1233,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1237,6 +1256,8 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -1437,6 +1458,7 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
 =======
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -1527,6 +1549,11 @@ static void G_fpcompress_rearrangeDecodeFloats(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (8 - nBits < (unsigned int)precision) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;
@@ -1727,6 +1754,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1749,6 +1777,8 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
             if (8 - nBits < (unsigned int)precision) {
 =======
 <<<<<<< HEAD
@@ -1949,6 +1979,7 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
 =======
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -2039,6 +2070,11 @@ static void G_fpcompress_rearrangeDecodeDoubles(unsigned char *src, int size,
             if (8 - nBits < precision) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (8 - nBits < (unsigned int)precision) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
                 cp1++;
                 *dst |= (unsigned char)((*cp1 >> (8 - nBits)) & mask);
                 nBits += precision - 8;

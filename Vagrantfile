@@ -13,7 +13,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   vm_ram = ENV['VAGRANT_VM_RAM'] || 1024
   vm_cpu = ENV['VAGRANT_VM_CPU'] || 1
 
+<<<<<<< HEAD
   config.vm.box = "noble64"
+=======
+  config.vm.box = "bionic64"
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 
   config.vm.hostname = "grass-gis-vagrant"
   config.vm.box = "alvistack/ubuntu-24.04"
@@ -95,7 +99,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     if Dir.glob("#{File.dirname(__FILE__)}/.vagrant/machines/grass-gis-vagrant/*/id").empty?
       pkg_cmd = "sed -i 's#deb http://archive.ubuntu.com/ubuntu#deb mirror://mirrors.ubuntu.com/mirrors.txt#' /etc/apt/sources.list; "
+<<<<<<< HEAD
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
+=======
+      pkg_cmd << "apt-get update -qq; apt-get install -q -y python-software-properties; "
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 
       if ppaRepos.length > 0
 	ppaRepos.each { |repo| pkg_cmd << "add-apt-repository -y " << repo << " ; " }
