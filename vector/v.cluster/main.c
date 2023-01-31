@@ -259,6 +259,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             min = INFINITY;
 =======
             min = 1.0 / 0.0;
@@ -269,6 +270,12 @@ int main(int argc, char *argv[])
 =======
             min = INFINITY;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+            min = 1.0 / 0.0;
+=======
+            min = INFINITY;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));
@@ -477,6 +484,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             min = INFINITY;
 =======
             min = 1.0 / 0.0;
@@ -487,6 +495,12 @@ int main(int argc, char *argv[])
 =======
             min = INFINITY;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+            min = 1.0 / 0.0;
+=======
+            min = INFINITY;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));
