@@ -587,6 +587,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -746,6 +747,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1084,7 +1087,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (fwrite(out_buf, bytes, ncols, fp) != (size_t)ncols)
 =======
 <<<<<<< HEAD
@@ -1456,6 +1464,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1517,6 +1526,8 @@ int main(int argc, char *argv[])
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2055,7 +2066,12 @@ int main(int argc, char *argv[])
         if (fwrite(out_buf, bytes, ncols, fp) != ncols)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             G_fatal_error(_("Error writing data"));
     }
 

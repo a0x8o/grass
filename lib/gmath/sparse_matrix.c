@@ -1138,6 +1138,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1297,6 +1298,8 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1635,7 +1638,12 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                 if (Asp[i]->index[k] == (unsigned int)j) {
 =======
 <<<<<<< HEAD
@@ -2007,6 +2015,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2068,6 +2077,8 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2606,7 +2617,12 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
                 if (Asp[i]->index[k] == j) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                     fprintf(stdout, "%4.5f ", Asp[i]->values[k]);
                     out = 1;
                 }
@@ -2764,6 +2780,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2885,6 +2902,8 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -3463,6 +3482,8 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)rows; i++) {
 =======
     for (i = 0; i < rows; i++) {
@@ -3476,6 +3497,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4014,7 +4036,15 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; i < (unsigned int)rows; i++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         for (j = 0; j < Asp[i]->cols; j++) {
             if (Asp[i]->index[j] == i) {
                 A[i][0] = Asp[i]->values[j];

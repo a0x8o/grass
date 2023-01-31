@@ -2092,6 +2092,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2251,6 +2252,8 @@ static int xdr_put(const void *src)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2589,7 +2592,12 @@ static int xdr_put(const void *src)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > (size_t)xdrLength)
 =======
 <<<<<<< HEAD
@@ -2961,6 +2969,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3022,6 +3031,8 @@ static int xdr_put(const void *src)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -3560,7 +3571,12 @@ static int xdr_put(const void *src)
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_put_float((char *)xdr + xdr_off, src);
         xdr_off += RASTER3D_XDR_FLOAT_LENGTH;
@@ -3668,6 +3684,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3827,6 +3844,8 @@ static int xdr_put(const void *src)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4165,7 +4184,12 @@ static int xdr_put(const void *src)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > (size_t)xdrLength)
 =======
 <<<<<<< HEAD
@@ -4537,6 +4561,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -4598,6 +4623,8 @@ static int xdr_put(const void *src)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -5136,7 +5163,12 @@ static int xdr_put(const void *src)
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_put_double((char *)xdr + xdr_off, src);
         xdr_off += RASTER3D_XDR_DOUBLE_LENGTH;
@@ -5314,6 +5346,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5473,6 +5506,8 @@ static int xdr_get(void *src)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5811,7 +5846,12 @@ static int xdr_get(void *src)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > (size_t)xdrLength)
 =======
 <<<<<<< HEAD
@@ -6183,6 +6223,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -6244,6 +6285,8 @@ static int xdr_get(void *src)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -6782,7 +6825,12 @@ static int xdr_get(void *src)
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_get_float(src, (char *)xdr + xdr_off);
         xdr_off += RASTER3D_XDR_FLOAT_LENGTH;
@@ -6890,6 +6938,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7049,6 +7098,8 @@ static int xdr_get(void *src)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7387,7 +7438,12 @@ static int xdr_get(void *src)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > (size_t)xdrLength)
 =======
 <<<<<<< HEAD
@@ -7759,6 +7815,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -7820,6 +7877,8 @@ static int xdr_get(void *src)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -8358,7 +8417,12 @@ static int xdr_get(void *src)
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_get_double(src, (char *)xdr + xdr_off);
         xdr_off += RASTER3D_XDR_DOUBLE_LENGTH;

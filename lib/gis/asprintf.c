@@ -215,6 +215,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -374,6 +375,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -712,7 +715,12 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
         if (count >= 0 && (size_t)count < osize)
 =======
 <<<<<<< HEAD
@@ -1084,6 +1092,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1145,6 +1154,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1683,7 +1694,12 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
         if (count >= 0 && count < osize)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
             break;
         if (count > -1)
             osize = count + 1;

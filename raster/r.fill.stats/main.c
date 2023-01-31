@@ -1072,6 +1072,7 @@ void print_weights_matrix(long int rows, long int cols)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     size_t weight_matrix_line_length = 80;
@@ -1238,6 +1239,8 @@ void print_weights_matrix(long int rows, long int cols)
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -1528,11 +1531,17 @@ void print_weights_matrix(long int rows, long int cols)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
     char weight_matrix_line_buf[WEIGHT_MATRIX_LINE_LENGTH + 1];
     char weight_matrix_weight_buf[WEIGHT_MATRIX_LINE_LENGTH + 1];
 =======
     int weight_matrix_line_length = 80;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1684,6 +1693,8 @@ void print_weights_matrix(long int rows, long int cols)
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
@@ -2204,7 +2215,15 @@ void print_weights_matrix(long int rows, long int cols)
 =======
 =======
 >>>>>>> da501f639c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    size_t weight_matrix_line_length = 80;
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
     char weight_matrix_line_buf[weight_matrix_line_length + 1];
     char weight_matrix_weight_buf[weight_matrix_line_length + 1];
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

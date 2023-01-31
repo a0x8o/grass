@@ -6514,6 +6514,7 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6733,6 +6734,8 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -7122,7 +7125,12 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                     for (i = 0; (unsigned int)i < les->Asp[count]->cols; i++)
                         les->Asp[count]->values[i] = 0.0;
                     /*set the cols to zero */
@@ -8102,6 +8110,7 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -8172,6 +8181,8 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
@@ -8448,13 +8459,19 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                     for (i = 0; (unsigned int)i < les->Asp[count]->cols; i++)
                         les->Asp[count]->values[i] = 0.0;
                     /*set the cols to zero */
                     for (i = 0; i < les->rows; i++) {
                         for (j = 0; (unsigned int)j < les->Asp[i]->cols; j++) {
                             if (les->Asp[i]->index[j] == (unsigned int)count)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8602,6 +8619,8 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -9356,7 +9375,13 @@ int N_les_integrate_dirichlet_2d(N_les *les, N_geom_data *geom,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                                 les->Asp[i]->values[j] = 0.0;
                         }
                     }
@@ -9914,6 +9939,7 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10133,6 +10159,8 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -10522,7 +10550,12 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 =======
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                         for (i = 0; (unsigned int)i < les->Asp[count]->cols;
                              i++)
                             les->Asp[count]->values[i] = 0.0;
@@ -11505,6 +11538,7 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -11570,6 +11604,8 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 27b3d710a4 (r.horizon manual - fix typo (#2794))
 =======
@@ -11880,12 +11916,18 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                         for (i = 0; (unsigned int)i < les->Asp[count]->cols;
                              i++)
                             les->Asp[count]->values[i] = 0.0;
                         /*set the cols to zero */
                         for (i = 0; i < les->rows; i++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11939,10 +11981,13 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
                             for (j = 0; (unsigned int)j < les->Asp[i]->cols;
                                  j++) {
                                 if (les->Asp[i]->index[j] ==
                                     (unsigned int)count)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12105,6 +12150,8 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 >>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2aef6a7b52 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -12844,7 +12891,13 @@ int N_les_integrate_dirichlet_3d(N_les *les, N_geom_data *geom,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
                                     les->Asp[i]->values[j] = 0.0;
                             }
                         }

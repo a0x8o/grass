@@ -4596,6 +4596,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4815,6 +4816,8 @@ int main(int argc, char *argv[])
 >>>>>>> 1f07e5fd7d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2a7efc1085 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ae49d6292b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -6428,6 +6431,8 @@ int main(int argc, char *argv[])
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f5c4d35adb (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
                 char buf[72];
 
