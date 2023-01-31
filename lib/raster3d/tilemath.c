@@ -442,6 +442,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -593,6 +594,8 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -911,7 +914,12 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
         if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
 =======
 <<<<<<< HEAD
@@ -1279,6 +1287,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1336,6 +1345,8 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1846,7 +1857,12 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
         if (tileSize <= maxSize * 1024)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
             break;
 
         /* Compute weighted tile sizes. Take care that the tile size is computed

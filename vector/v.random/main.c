@@ -1755,6 +1755,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1906,6 +1907,8 @@ int main(int argc, char *argv[])
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2224,7 +2227,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
         for (i = 1; i <= (unsigned int)nareas; i++) {
 =======
 <<<<<<< HEAD
@@ -2592,6 +2600,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2649,6 +2658,8 @@ int main(int argc, char *argv[])
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -3159,7 +3170,12 @@ int main(int argc, char *argv[])
         for (i = 1; i <= nareas; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 
             if (!Vect_get_area_centroid(&In, i))
                 continue;
@@ -3379,6 +3395,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3530,6 +3547,8 @@ int main(int argc, char *argv[])
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3848,7 +3867,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
                     for (i = 0; i < (unsigned int)Cats->n_cats; i++) {
 =======
 <<<<<<< HEAD
@@ -4216,6 +4240,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -4273,6 +4298,8 @@ int main(int argc, char *argv[])
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4783,7 +4810,12 @@ int main(int argc, char *argv[])
                     for (i = 0; i < Cats->n_cats; i++) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
                         if (Cats->field[i] == field &&
                             Vect_cat_in_cat_list(Cats->cat[i], cat_list)) {
                             cat_area = Cats->cat[i];

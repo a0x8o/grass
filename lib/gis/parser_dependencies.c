@@ -5650,6 +5650,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -5718,6 +5719,8 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> fe2cfce272 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -6192,7 +6195,12 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
@@ -6573,6 +6581,7 @@ void G__describe_option_rules_xml(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
         for (j = 0; j < rule->count; j++) {
@@ -6683,6 +6692,8 @@ void G__describe_option_rules_xml(FILE *fp)
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
 =======
         fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
         for (j = 0; j < rule->count; j++) {
@@ -7036,11 +7047,14 @@ void G__describe_option_rules_xml(FILE *fp)
         for (j = 0; j < rule->count; j++) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+=======
         if (rule->count < 0)
             G_fatal_error(_("Internal error: the number of options is < 0"));
 
         fprintf(fp, "\t\t<rule type=\"%s\">\n", rule_types[rule->type]);
         for (j = 0; j < (unsigned int)rule->count; j++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7514,7 +7528,13 @@ void G__describe_option_rules_xml(FILE *fp)
 =======
 =======
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
+>>>>>>> 268b2d4dc1 (r.horizon manual - fix typo (#2794))
             void *p = rule->opts[j];
 
             if (is_flag(p)) {
