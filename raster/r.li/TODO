@@ -98,6 +98,7 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
@@ -891,6 +892,7 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
@@ -936,10 +938,15 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 =======
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,6 +995,8 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 >>>>>>> b4d79b4a7e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 1a0ac2e468 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1989,4 +1998,11 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> cf7da16d77 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 >>>>>>> eeefe6e622 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))

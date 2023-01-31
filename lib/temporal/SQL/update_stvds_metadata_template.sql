@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -281,6 +282,8 @@
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -716,7 +719,12 @@
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata
    SET
        points = new_stats.points_new,
@@ -844,6 +852,7 @@ UPDATE stvds_metadata
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -969,6 +978,8 @@ UPDATE stvds_metadata
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -1360,6 +1371,7 @@ UPDATE stvds_metadata
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1587,6 +1599,10 @@ UPDATE stvds_metadata
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 UPDATE stvds_metadata SET points =
        (SELECT sum(points) FROM vector_metadata WHERE vector_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)

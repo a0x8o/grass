@@ -401,6 +401,7 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -711,6 +712,8 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
@@ -2011,12 +2014,15 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 #include <stdio.h>
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #include <stdio.h> 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2430,7 +2436,15 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #include <stdio.h> 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+#include <stdio.h>
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 #include <$1>
 int main(void) {
  FILE *fp = fopen("conftestdata","w");
@@ -8022,6 +8036,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
@@ -9175,7 +9190,12 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 	    # TODO: add optional pthread support with any combination of:
 	    # CFLAGS="$CFLAGS -pthread"
 	    # LDFLAGS="$LDFLAGS -lpthread"
@@ -9642,6 +9662,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9799,6 +9820,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -10973,7 +10996,12 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 	    # TODO: add optional pthread support with any combination of: 
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 	    # CFLAGS="$CFLAGS -pthread"
 	    # LDFLAGS="$LDFLAGS -lpthread"
 	    # AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
@@ -17903,6 +17931,7 @@ dnl -------------------- / OpenMP ---------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
@@ -18112,6 +18141,8 @@ dnl -------------------- / OpenMP ---------------------------------------------
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -18554,7 +18585,12 @@ dnl -------------------- / OpenMP ---------------------------------------------
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 dnl -------------------- OpenMP -----------------------------------------------
 dnl OpenMP code borrowed and modified from Autoconf 2.71 (AC_OPENMP)
 dnl to enable Clang detection
@@ -18787,6 +18823,7 @@ dnl -------------------- / OpenMP ---------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -18912,6 +18949,8 @@ dnl -------------------- / OpenMP ---------------------------------------------
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -19307,6 +19346,7 @@ dnl -------------------- / OpenMP ---------------------------------------------
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -19531,6 +19571,10 @@ dnl -------------------- / OpenMP ---------------------------------------------
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 dnl XXXX Begin Stolen from cdrtools-2.01
 dnl XXXX by Joerg Schilling <schilling fokus fraunhofer de> et al. XXXXXXXXX
 

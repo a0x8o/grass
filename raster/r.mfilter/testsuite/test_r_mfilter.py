@@ -377,6 +377,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -724,6 +725,8 @@ class TestNeighbors(TestCase):
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -1226,6 +1229,7 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 =======
@@ -1400,6 +1404,10 @@ class TestNeighbors(TestCase):
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
                    1 1 1
                    1 1 1
                    1 1 1
@@ -2118,6 +2126,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                    1 1 1 
                    1 1 1 
@@ -2277,6 +2286,8 @@ class TestNeighbors(TestCase):
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
@@ -3361,6 +3372,7 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4111,6 +4123,15 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                   1 1 1
+                   1 1 1
+                   1 1 1
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }

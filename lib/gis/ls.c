@@ -369,6 +369,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -685,6 +686,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -870,6 +873,8 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
         unsigned int max_len = 0;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1479,6 +1484,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> osgeo-main
         int max_len = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2647,6 +2653,7 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
         int max_len = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -3129,6 +3136,10 @@ void G_ls_format(char **list, int num_items, int perline, FILE *stream)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 
         for (i = 0; i < num_items; i++) {
             /* Find maximum filename length */

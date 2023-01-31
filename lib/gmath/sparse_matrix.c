@@ -1974,6 +1974,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2290,6 +2291,8 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2475,6 +2478,8 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
                 if (Asp[i]->index[k] == (unsigned int)j) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3084,6 +3089,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 >>>>>>> osgeo-main
                 if (Asp[i]->index[k] == j) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4252,6 +4258,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
                 if (Asp[i]->index[k] == j) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -4734,6 +4741,10 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
                     fprintf(stdout, "%4.5f ", Asp[i]->values[k]);
                     out = 1;
                 }
@@ -4953,6 +4964,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5186,6 +5198,8 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -6883,6 +6897,8 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 >>>>>>> 00f0aa1333 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)rows; i++) {
 =======
     for (i = 0; i < rows; i++) {
@@ -6896,6 +6912,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7370,7 +7387,15 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; i < (unsigned int)rows; i++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
         for (j = 0; j < Asp[i]->cols; j++) {
             if (Asp[i]->index[j] == i) {
                 A[i][0] = Asp[i]->values[j];

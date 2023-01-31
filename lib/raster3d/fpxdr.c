@@ -3860,6 +3860,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4176,6 +4177,8 @@ static int xdr_put(const void *src)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4361,6 +4364,8 @@ static int xdr_put(const void *src)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > (size_t)xdrLength)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4970,6 +4975,7 @@ static int xdr_put(const void *src)
 >>>>>>> osgeo-main
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6138,6 +6144,7 @@ static int xdr_put(const void *src)
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -6620,6 +6627,10 @@ static int xdr_put(const void *src)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_put_float((char *)xdr + xdr_off, src);
         xdr_off += RASTER3D_XDR_FLOAT_LENGTH;
@@ -6811,6 +6822,7 @@ static int xdr_put(const void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7127,6 +7139,8 @@ static int xdr_put(const void *src)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7312,6 +7326,8 @@ static int xdr_put(const void *src)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > (size_t)xdrLength)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7921,6 +7937,7 @@ static int xdr_put(const void *src)
 >>>>>>> osgeo-main
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9089,6 +9106,7 @@ static int xdr_put(const void *src)
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -9571,6 +9589,10 @@ static int xdr_put(const void *src)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_put_double((char *)xdr + xdr_off, src);
         xdr_off += RASTER3D_XDR_DOUBLE_LENGTH;
@@ -9832,6 +9854,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10148,6 +10171,8 @@ static int xdr_get(void *src)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10333,6 +10358,8 @@ static int xdr_get(void *src)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > (size_t)xdrLength)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10942,6 +10969,7 @@ static int xdr_get(void *src)
 >>>>>>> osgeo-main
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12110,6 +12138,7 @@ static int xdr_get(void *src)
         if (xdr_off + RASTER3D_XDR_FLOAT_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -12592,6 +12621,10 @@ static int xdr_get(void *src)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_get_float(src, (char *)xdr + xdr_off);
         xdr_off += RASTER3D_XDR_FLOAT_LENGTH;
@@ -12783,6 +12816,7 @@ static int xdr_get(void *src)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13099,6 +13133,8 @@ static int xdr_get(void *src)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -13284,6 +13320,8 @@ static int xdr_get(void *src)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > (size_t)xdrLength)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13893,6 +13931,7 @@ static int xdr_get(void *src)
 >>>>>>> osgeo-main
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15061,6 +15100,7 @@ static int xdr_get(void *src)
         if (xdr_off + RASTER3D_XDR_DOUBLE_LENGTH > xdrLength)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -15543,6 +15583,10 @@ static int xdr_get(void *src)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
             return 0;
         G_xdr_get_double(src, (char *)xdr + xdr_off);
         xdr_off += RASTER3D_XDR_DOUBLE_LENGTH;

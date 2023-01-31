@@ -199,6 +199,7 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -515,6 +516,8 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -700,6 +703,8 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
             if (k > (unsigned int)threshold)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1309,6 +1314,7 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 >>>>>>> osgeo-main
             if (k > threshold)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2477,6 +2483,7 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
             if (k > threshold)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -2959,6 +2966,10 @@ void PS_Bitmap(int ncols, int nrows, int threshold, const unsigned char *buf)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
                 acc |= bit;
 
             bit >>= 1;

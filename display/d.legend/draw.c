@@ -2104,6 +2104,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2420,6 +2421,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2605,6 +2608,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= (int)b_s)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3214,6 +3219,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> osgeo-main
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4382,6 +4388,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
@@ -4864,6 +4871,10 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
                     G_fatal_error(
                         _("Failed to create format string with maxCat=%f."),
                         maxCat);

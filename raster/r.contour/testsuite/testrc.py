@@ -94,6 +94,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 97f6c15849 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
@@ -138,6 +139,8 @@ Purpose:    Tests r.contour and its flags/options.
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -593,6 +596,7 @@ Purpose:    Tests r.contour and its flags/options.
     
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1fe50e39a (Dockerfile: fix broken lib link (#1625))
 =======
 =======
@@ -842,6 +846,11 @@ Purpose:    Tests r.contour and its flags/options.
     
 >>>>>>> 7de156f16b (Dockerfile: fix broken lib link (#1625))
 >>>>>>> e494d37988 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public

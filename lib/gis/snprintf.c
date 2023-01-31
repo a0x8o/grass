@@ -192,6 +192,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -427,6 +428,8 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
@@ -1346,6 +1349,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> d3f123638e (r.horizon manual - fix typo (#2794))
 =======
@@ -1380,6 +1384,8 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
     if (count >= 0 && (unsigned int)count == size)
 =======
     if (count == size)
@@ -1396,6 +1402,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,6 +1448,8 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> cdd2375514 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -2648,7 +2657,15 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (count >= 0 && (unsigned int)count == size)
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+>>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
         str[--count] = '\0';
 
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
