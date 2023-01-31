@@ -4392,6 +4392,7 @@ def replace_shebang_win(python_file):
     os.rename(tmp_name, python_file)  # rename temp to original name
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 HTTP_STATUS_CODES = list(http.HTTPStatus)
 GIT_URL = "https://github.com/OSGeo/grass-addons"
@@ -5423,6 +5424,10 @@ def replace_shebang_win(python_file):
 
 
 >>>>>>> 176f8f72b5 (g.proj: fix reading input WKT (#1582))
+=======
+
+
+>>>>>>> c292344d39 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
