@@ -180,6 +180,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    specifies the maxiumum number of vertices that a polygon can
 =======
 <<<<<<< HEAD
@@ -652,6 +653,8 @@ that exists in a vector file will have the same HREF tag.
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -662,6 +665,8 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 	    specifies the maxiumum number of vertices that a polygon can
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -819,6 +824,7 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> 1cabd030d3 (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
@@ -860,7 +866,15 @@ that exists in a vector file will have the same HREF tag.
 =======
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+>>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+>>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 	    specifies the maximum number of vertices that a polygon can
 =======
 	    specifies the maxiumum number of vertices that a polygon can
@@ -965,6 +979,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1105,6 +1120,8 @@ that exists in a vector file will have the same HREF tag.
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
@@ -1145,6 +1162,8 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 =======
 	    specifies the maxiumum number of vertices that a polygon can
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1614,14 +1633,19 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> bf94cb15a9 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+>>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1811,6 +1835,9 @@ that exists in a vector file will have the same HREF tag.
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+>>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 	    have.  The default is 99.  Some browser can only handle
 	    image map polygons of less that 100 vertices.
 
