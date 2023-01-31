@@ -175,6 +175,7 @@ class TestNeighbors(TestCase):
                    MATRIX 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    1 1 1
                    1 1 1
                    1 1 1
@@ -188,6 +189,11 @@ class TestNeighbors(TestCase):
                    1 1 1 
                    1 1 1 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                   1 1 1
+                   1 1 1
+                   1 1 1
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
                    DIVISOR 9
                    TYPE    P""",
     }
