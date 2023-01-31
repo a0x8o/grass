@@ -115,6 +115,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    specifies the maxiumum number of vertices that a polygon can
 =======
 <<<<<<< HEAD
@@ -204,6 +205,8 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -313,7 +316,12 @@ that exists in a vector file will have the same HREF tag.
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 	    specifies the maximum number of vertices that a polygon can
 =======
 	    specifies the maxiumum number of vertices that a polygon can
@@ -354,6 +362,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -385,6 +394,8 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -643,7 +654,12 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 	    have.  The default is 99.  Some browser can only handle
 	    image map polygons of less that 100 vertices.
 

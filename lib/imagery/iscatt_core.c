@@ -588,6 +588,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -683,6 +684,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -861,7 +864,12 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 =======
 <<<<<<< HEAD
@@ -1201,6 +1209,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1230,6 +1239,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1544,7 +1555,12 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
                     G_free(rast_pixs);
                     G_free(belongs_pix);
                     G_warning(

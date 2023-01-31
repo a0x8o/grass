@@ -48,6 +48,7 @@ Changes done in GRASS:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -118,6 +119,8 @@ Changes done in GRASS:
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -429,7 +432,14 @@ Changes done in GRASS:
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+    were left because need deeper revision if may cause problems, instead of blindly init to 0/NULL
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
     were left because need deeper revision if may cause problems, insetad of blindly init to 0/NULL
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 - '//' comments -> '/* */'

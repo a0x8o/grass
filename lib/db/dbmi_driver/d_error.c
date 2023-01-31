@@ -145,6 +145,7 @@ void db_d_append_error(const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -240,6 +241,8 @@ void db_d_append_error(const char *fmt, ...)
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -418,7 +421,12 @@ void db_d_append_error(const char *fmt, ...)
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
             if (fread(work, 1, count, fp) != (size_t)count) {
 =======
 <<<<<<< HEAD
@@ -758,6 +766,7 @@ void db_d_append_error(const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -787,6 +796,8 @@ void db_d_append_error(const char *fmt, ...)
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1101,7 +1112,12 @@ void db_d_append_error(const char *fmt, ...)
             if (fread(work, 1, count, fp) != count) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
                 if (ferror(fp))
                     G_fatal_error(_("DBMI-%s driver file reading error: %s"),
                                   st->driver_name, strerror(errno));

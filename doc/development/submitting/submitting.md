@@ -54,6 +54,7 @@ Be sure to check your code against these rules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -132,6 +133,8 @@ Be sure to check your code against these rules:
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -250,7 +253,12 @@ Be sure to check your code against these rules:
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 ### Use pre-commit
 
 It is highly recommended to install and use [pre-commit](https://pre-commit.com)
@@ -350,6 +358,7 @@ pre-commit install
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -381,6 +390,8 @@ pre-commit install
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -610,7 +621,12 @@ pre-commit install
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 ## GRASS GIS programming best practice
 
 There are many unwritten rules how GRASS modules should work, what they should

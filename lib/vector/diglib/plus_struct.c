@@ -7958,6 +7958,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8031,6 +8032,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -8489,6 +8492,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 =======
     if (sizeof(off_t) < ptr->off_t_size) {
@@ -8502,6 +8507,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8784,7 +8790,15 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    if (sizeof(off_t) < (size_t)ptr->off_t_size) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
         G_warning(_("Vector exceeds supported file size limit"));
         return (-1);
     }

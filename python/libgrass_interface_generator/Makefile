@@ -107,6 +107,7 @@ imagery_HDRS    = imagery.h defs/imagery.h
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -202,6 +203,8 @@ imagery_HDRS    = imagery.h defs/imagery.h
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -380,7 +383,12 @@ imagery_HDRS    = imagery.h defs/imagery.h
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h
 =======
 <<<<<<< HEAD
@@ -720,6 +728,7 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -749,6 +758,8 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1063,7 +1074,12 @@ vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h v
 vector_HDRS     = vector.h defs/vector.h vect/dig_structs.h vect/dig_defines.h vect/dig_externs.h 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 rtree_HDRS	= rtree.h
 display_HDRS    = display.h defs/display.h
 stats_HDRS      = stats.h defs/stats.h

@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -105,6 +106,8 @@
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -416,7 +419,14 @@
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+-- the modification time and revision of a space time dataset. This script
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 -- the modifcation time and revision of a space time dataset. This script
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 -- should be called when maps inserted or deleted in a space time dataset.
@@ -682,6 +692,7 @@ UPDATE STDS_spatial_extent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -713,6 +724,8 @@ UPDATE STDS_spatial_extent
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -942,7 +955,12 @@ UPDATE STDS_spatial_extent
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 UPDATE STDS_absolute_time SET start_time =
        (SELECT min(start_time) FROM GRASS_MAP_absolute_time WHERE GRASS_MAP_absolute_time.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
@@ -1029,6 +1047,7 @@ UPDATE STDS_spatial_extent SET proj =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -1042,6 +1061,8 @@ UPDATE STDS_spatial_extent SET proj =
 =======
 =======
 =======
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -1339,4 +1360,10 @@ UPDATE STDS_spatial_extent SET proj =
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))

@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -612,7 +613,13 @@ case "$(uname)" in
 =======
 case "$(uname)" in 
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+case "$(uname)" in
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

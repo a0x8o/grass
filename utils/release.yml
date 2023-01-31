@@ -3179,6 +3179,7 @@ notes:
     - title: Continuous Integration, Tests, Code Quality, and Checks
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -3329,6 +3330,7 @@ notes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2540536681 (r.horizon manual - fix typo (#2794))
 =======
@@ -3384,6 +3386,8 @@ notes:
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3552,6 +3556,8 @@ notes:
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 
     - title: Contributing and Management
       regexp: '(contributing|CONTRIBUTING.md|contributors|contributors.csv): '

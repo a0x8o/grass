@@ -2031,6 +2031,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2104,6 +2105,8 @@ int main(int argc, char *argv[])
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -2562,6 +2565,8 @@ int main(int argc, char *argv[])
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
     for (i = 0; i < (unsigned int)n_zones; i++) {
 =======
     for (i = 0; i < n_zones; i++) {
@@ -2575,6 +2580,7 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2857,7 +2863,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; i < (unsigned int)n_zones; i++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
         unsigned int j;
 
         for (j = 0; j < stats[i].n_perc; j++) {

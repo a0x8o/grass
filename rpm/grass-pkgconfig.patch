@@ -625,6 +625,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -710,6 +711,8 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
+=======
 
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -772,7 +775,12 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
  
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +790,7 @@ Index: grass-7.8.6/grass.pc.in
 =======
 
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +896,8 @@ Index: grass-7.8.6/grass.pc.in
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1352,7 +1363,12 @@ Index: grass-7.8.6/grass.pc.in
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 -prefix=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@
 -exec_prefix=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@
 -libdir=@prefix@/grass-@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@/lib
@@ -1431,6 +1447,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1526,6 +1543,8 @@ Index: grass-7.8.6/grass.pc.in
 >>>>>>> 78361f71a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1704,7 +1723,12 @@ Index: grass-7.8.6/grass.pc.in
 =======
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 
 =======
 <<<<<<< HEAD
@@ -2044,6 +2068,7 @@ Index: grass-7.8.6/grass.pc.in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2073,6 +2098,8 @@ Index: grass-7.8.6/grass.pc.in
 >>>>>>> 75483c685f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2387,7 +2414,12 @@ Index: grass-7.8.6/grass.pc.in
  
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8a5345ecec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8f016c3797 (r.horizon manual - fix typo (#2794))
  Name: GRASS
  Description: GRASS GIS
  Version: @GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@.@GRASS_VERSION_RELEASE@
