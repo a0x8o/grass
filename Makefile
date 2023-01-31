@@ -3336,6 +3336,7 @@ SUBDIRS = $(DIRS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3825,6 +3826,7 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3880,10 +3882,16 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 FILES = AUTHORS CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
@@ -5611,6 +5619,9 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 >>>>>>> 819790960a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 233b4f3df4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5960,6 +5971,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 =======
 =======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 =======
@@ -6002,6 +6015,7 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6789,6 +6803,11 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 FILES_DST = $(patsubst %,$(ARCH_DISTDIR)/%,$(FILES))
 
 default:

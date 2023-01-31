@@ -2252,6 +2252,7 @@ static int zero_fill(int fd, off_t nbytes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2447,6 +2448,8 @@ static int zero_fill(int fd, off_t nbytes)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2842,6 +2845,8 @@ static int zero_fill(int fd, off_t nbytes)
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
         n = nbytes > (int)sizeof(buf) ? (int)sizeof(buf) : nbytes;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3483,6 +3488,7 @@ static int zero_fill(int fd, off_t nbytes)
 >>>>>>> osgeo-main
         n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5293,7 +5299,12 @@ static int zero_fill(int fd, off_t nbytes)
         n = nbytes > sizeof(buf) ? sizeof(buf) : nbytes;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
         errno = 0;
         if (write(fd, buf, n) != n) {
             int err = errno;

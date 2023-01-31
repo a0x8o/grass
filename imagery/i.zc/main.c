@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1265,12 +1266,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
 =======
@@ -1575,11 +1580,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
     size_t i, j;         /* Loop control variables */
     unsigned int or, oc; /* Original dimensions of image */
     int rows, cols;      /* Smallest powers of 2 >= number of rows & columns */
     size_t size;         /* the length of one side */
     size_t totsize;      /* the Total number of data points */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2007,6 +2015,8 @@ int main(int argc, char *argv[])
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3918,6 +3928,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4102,6 +4113,8 @@ int main(int argc, char *argv[])
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -5718,7 +5731,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
     double
         *data[2]; /* Data structure containing real & complex values of FFT */
     struct GModule *module;

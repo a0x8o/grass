@@ -230,6 +230,7 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -425,6 +426,8 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -820,6 +823,8 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
         if ((int)strlen(buf) <= *n)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1461,6 +1466,7 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
 >>>>>>> osgeo-main
         if (strlen(buf) <= *n)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,7 +3277,12 @@ int format_parms(double v, int *n, int *dp, int *eformat, int e_option)
         if (strlen(buf) <= *n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
             break;
 
         if (*dp) {

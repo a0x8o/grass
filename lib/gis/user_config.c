@@ -336,6 +336,7 @@ static int _elem_count_split(char *elems)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -488,6 +489,8 @@ static int _elem_count_split(char *elems)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2395,6 +2398,8 @@ static int _elem_count_split(char *elems)
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
     for (i = 0; begin != NULL && (ptrdiff_t)len > begin - elems; i++) {
 =======
     for (i = 0; begin != NULL && len > begin - elems; i++) {
@@ -2408,6 +2413,7 @@ static int _elem_count_split(char *elems)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3052,7 +3058,15 @@ static int _elem_count_split(char *elems)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    for (i = 0; begin != NULL && (ptrdiff_t)len > begin - elems; i++) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
         /* check '.' condition */
         if (*begin == '.')
             return 0;

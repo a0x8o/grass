@@ -102,6 +102,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "config:base",
 =======
 <<<<<<< HEAD
@@ -322,6 +323,8 @@
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
@@ -652,6 +655,9 @@
         "config:best-practices",
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
+=======
+        "config:best-practices",
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
         ":semanticCommits",
 =======
@@ -753,6 +759,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -930,6 +937,8 @@
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
@@ -1704,6 +1713,7 @@
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1957,6 +1967,11 @@
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
         ":semanticCommitTypeAll(CI)"
     ]
 }

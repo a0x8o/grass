@@ -255,6 +255,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -450,6 +451,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -845,6 +848,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
         if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1486,6 +1491,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> osgeo-main
         if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3296,7 +3302,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
         if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
             Rast3d_fatal_error("Rast3d_long_decode: decoded long too long");
         dest--;
     }
@@ -3514,6 +3525,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3709,6 +3721,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -4104,6 +4118,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
             if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4745,6 +4761,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> osgeo-main
             if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6555,7 +6572,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
             if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
                 Rast3d_fatal_error("Rast3d_long_decode: decoded long too long");
             dest--;
         }

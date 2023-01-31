@@ -112,6 +112,7 @@ r.mapcalc --o expr="elev_5 = 45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -304,6 +305,8 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
@@ -1162,12 +1165,16 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 # with different tile sizes and null data
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2727f115f1 (r.horizon manual - fix typo (#2794))
 =======
@@ -1357,6 +1364,8 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 # with differen tile sizes and null data
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 r.to.rast3 --o input=elev_1,elev_2,elev_3,elev_4,elev_5 output=test_volume_6_raster tilesize=1

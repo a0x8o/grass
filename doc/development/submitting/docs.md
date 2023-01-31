@@ -284,6 +284,7 @@ with a width of 600 pixel but it is clickable in the manual page). If a larger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 <<<<<<< HEAD
@@ -425,6 +426,8 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -655,6 +658,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
@@ -990,6 +994,10 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 image is displayed as shrunk, both **width** and **height** HTML parameters
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters
@@ -1096,6 +1104,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1239,6 +1248,8 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1784,6 +1795,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1965,6 +1977,10 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 (values must be calculated according to the picture size!) should be set:
 
 ```html

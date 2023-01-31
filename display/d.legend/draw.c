@@ -2309,6 +2309,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2504,6 +2505,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -2899,6 +2902,8 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> 3339528038 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= (int)b_s)
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3540,6 +3545,7 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
 >>>>>>> osgeo-main
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5350,7 +5356,12 @@ void draw(const char *map_name, int maptype, int color, int thin, int lines,
                 if (snprintf(DispFormat, b_s, "%%%dd", log_maxCat) >= b_s)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
                     G_fatal_error(
                         _("Failed to create format string with maxCat=%f."),
                         maxCat);

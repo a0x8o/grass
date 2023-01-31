@@ -269,6 +269,7 @@ Use function names which fulfill the official GNU naming convention:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Instead of naming a function like: MyNewFunction() use underscores for seperation
 =======
 <<<<<<< HEAD
@@ -410,6 +411,8 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -640,6 +643,7 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
@@ -975,6 +979,10 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 Instead of naming a function like: MyNewFunction() use underscores for separation
 =======
 Instead of naming a function like: MyNewFunction() use underscores for seperation
@@ -1081,6 +1089,7 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1224,6 +1233,8 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1769,6 +1780,7 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1950,6 +1962,10 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 and lower case letters: my_new_function()`.
 
 ### Comments
@@ -2155,6 +2171,7 @@ G_message() output is not expected to be sent to pipe or file.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Always use the gettext macros with _("") for user messages, example:
 =======
 <<<<<<< HEAD
@@ -2296,6 +2313,8 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -2526,6 +2545,7 @@ Always use the gettext macros with _("") for user messages, example:
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
@@ -2861,6 +2881,10 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 Messages aiming at the user should be marked for translation. Output meant for
 automatic parsing by other software should not be marked for translation.
 Generally all modules producing output should include localisation header:
@@ -2975,6 +2999,7 @@ Always use the gettext macros with _("") for user messages, example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -3120,6 +3145,8 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -3664,6 +3691,7 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -3846,6 +3874,10 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 
 ```c
 G_fatal_error(_("Vector map <%s> not found"), name);
@@ -3960,6 +3992,7 @@ hint to translators about meaning or use of cumbersome or obscure message. First
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 word in the comment must be GTC - GRASS translation comment,
 =======
 <<<<<<< HEAD
@@ -4101,6 +4134,8 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -4331,6 +4366,7 @@ word in the comment must be GTC - GRASS translation comment,
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
@@ -4666,6 +4702,10 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 word in the comment must be GTC: GRASS translation comment,
 =======
 word in the comment must be GTC - GRASS translation comment,
@@ -4772,6 +4812,7 @@ word in the comment must be GTC - GRASS translation comment,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -4915,6 +4956,8 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -5460,6 +5503,7 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -5641,6 +5685,10 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 
 Example:
 
@@ -5752,6 +5800,7 @@ Example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* GTC A name of a projection */
 =======
 <<<<<<< HEAD
@@ -5893,6 +5942,8 @@ Example:
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -6123,6 +6174,7 @@ Example:
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
@@ -6458,6 +6510,10 @@ Example:
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 /* GTC: Name of a projection */
 =======
 /* GTC A name of a projection */
@@ -6564,6 +6620,7 @@ Example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -6707,6 +6764,8 @@ Example:
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -7252,6 +7311,7 @@ Example:
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -7433,6 +7493,10 @@ Example:
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 G_message(_("State Plane"));
 ```
 
@@ -7530,6 +7594,7 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7732,6 +7797,8 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 >>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
@@ -8011,6 +8078,7 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -8233,6 +8301,10 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 English language is not required! The syntax is
 `n_("English singular", "English plural", count)`
 
@@ -8357,6 +8429,7 @@ G_message( n_("Remove map", "Remove maps", count));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -8502,6 +8575,8 @@ G_message( n_("Remove map", "Remove maps", count));
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -8981,6 +9056,7 @@ G_message( n_("Remove map", "Remove maps", count));
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -9188,6 +9264,10 @@ G_message( n_("Remove map", "Remove maps", count));
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 English language it is not required!
 
 ```c
@@ -9305,6 +9385,7 @@ See [locale/README](../../../locale/README) for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -9368,6 +9449,8 @@ See [locale/README](../../../locale/README) for details.
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -10046,6 +10129,7 @@ See [locale/README](../../../locale/README) for details.
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -10222,6 +10306,11 @@ See [locale/README](../../../locale/README) for details.
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 Pipe/file data output: For data output redirected to pipe or file, please use
 fprintf() and specify the stdout stream as follows:
 
@@ -10372,6 +10461,7 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10574,6 +10664,8 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 >>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3175e513d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
@@ -10853,6 +10945,7 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -11075,6 +11168,10 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 ## Source Code Formatting
 
 C and C++ code is formatted with [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html).
@@ -11213,6 +11310,7 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -11358,6 +11456,8 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
@@ -11837,6 +11937,7 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -12044,6 +12145,10 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 ## Indentation
 
 To promote a consistent coding style for whitespace (spaces, tabs, newlines),
@@ -12179,6 +12284,7 @@ or `man indent` for explanation of individual switches.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -12242,6 +12348,8 @@ or `man indent` for explanation of individual switches.
 >>>>>>> d8b2703006 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -12920,6 +13028,7 @@ or `man indent` for explanation of individual switches.
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -13096,6 +13205,11 @@ or `man indent` for explanation of individual switches.
 >>>>>>> f063811cb8 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
+>>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 
 ## Compilation
 
