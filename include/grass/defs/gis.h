@@ -186,6 +186,7 @@ size_t G_get_num_decimals(const char *);
 char *G_double_to_basename_format(double, size_t, size_t);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 char *G_get_basename_separator(void);
 =======
 char *G_get_basename_separator();
@@ -196,6 +197,12 @@ char *G_get_basename_separator();
 =======
 char *G_get_basename_separator(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+char *G_get_basename_separator();
+=======
+char *G_get_basename_separator(void);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 char *G_join_basename_strings(const char **, size_t);
 char *G_generate_basename(const char *, double, size_t, size_t);
 
@@ -441,6 +448,7 @@ void G_free_ilist(struct ilist *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 struct ilist *G_new_ilist(void);
 =======
 struct ilist *G_new_ilist();
@@ -451,6 +459,12 @@ struct ilist *G_new_ilist();
 =======
 struct ilist *G_new_ilist(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+struct ilist *G_new_ilist();
+=======
+struct ilist *G_new_ilist(void);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 void G_ilist_add(struct ilist *, int);
 
 /* intersect.c */
@@ -495,6 +509,7 @@ void G_list_element(const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     int (*)(const char *, const char *, char *));
 =======
                     int (*)(const char *, const char *, const char *));
@@ -505,6 +520,12 @@ void G_list_element(const char *, const char *, const char *,
 =======
                     int (*)(const char *, const char *, char *));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+                    int (*)(const char *, const char *, const char *));
+=======
+                    int (*)(const char *, const char *, char *));
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 char **G_list(int, const char *, const char *, const char *);
 void G_free_list(char **);
 

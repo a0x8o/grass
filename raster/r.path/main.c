@@ -390,6 +390,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ncols * (int)sizeof(DCELL)) {
 =======
                 ncols * sizeof(DCELL)) {
@@ -400,6 +401,12 @@ int main(int argc, char **argv)
 =======
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                ncols * sizeof(DCELL)) {
+=======
+                ncols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -473,6 +480,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ncols * (int)sizeof(CELL)) {
 =======
                 ncols * sizeof(CELL)) {
@@ -483,6 +491,12 @@ int main(int argc, char **argv)
 =======
                 ncols * (int)sizeof(CELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                ncols * sizeof(CELL)) {
+=======
+                ncols * (int)sizeof(CELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -502,6 +516,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ncols * (int)sizeof(DCELL)) {
 =======
                 ncols * sizeof(DCELL)) {
@@ -512,6 +527,12 @@ int main(int argc, char **argv)
 =======
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                ncols * sizeof(DCELL)) {
+=======
+                ncols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -793,6 +814,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     window->cols * (int)sizeof(DCELL)) {
 =======
                     window->cols * sizeof(DCELL)) {
@@ -803,6 +825,12 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                    window->cols * sizeof(DCELL)) {
+=======
+                    window->cols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 val_row = stackp->row;
@@ -836,6 +864,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     window->cols * (int)sizeof(CELL)) {
 =======
                     window->cols * sizeof(CELL)) {
@@ -846,6 +875,12 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
                     window->cols * (int)sizeof(CELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                    window->cols * sizeof(CELL)) {
+=======
+                    window->cols * (int)sizeof(CELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 dir_row = next_row;
@@ -977,6 +1012,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 window->cols * (int)sizeof(DCELL)) {
 =======
                                 window->cols * sizeof(DCELL)) {
@@ -987,6 +1023,12 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
                                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                                window->cols * sizeof(DCELL)) {
+=======
+                                window->cols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                                 G_fatal_error(
                                     _("Unable to read from temp file"));
                             }
@@ -1100,6 +1142,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     window->cols * (int)sizeof(DCELL)) {
 =======
                     window->cols * sizeof(DCELL)) {
@@ -1110,6 +1153,12 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                    window->cols * sizeof(DCELL)) {
+=======
+                    window->cols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 val_row = next_row;
@@ -1138,6 +1187,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 window->cols * (int)sizeof(DCELL)) {
 =======
                 window->cols * sizeof(DCELL)) {
@@ -1148,6 +1198,12 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                window->cols * sizeof(DCELL)) {
+=======
+                window->cols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to read from temp file"));
             }
             dir_row = next_row;
@@ -1249,6 +1305,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             window->cols * (int)sizeof(DCELL)) {
 =======
                             window->cols * sizeof(DCELL)) {
@@ -1259,6 +1316,12 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
                             window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+                            window->cols * sizeof(DCELL)) {
+=======
+                            window->cols * (int)sizeof(DCELL)) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
                             G_fatal_error(_("Unable to read from temp file"));
                         }
                         val_row = next_row;

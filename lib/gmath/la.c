@@ -1290,6 +1290,7 @@ double G_vector_norm1(vec_struct *vc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return NAN;
 =======
         return 0.0 / 0.0; /* NaN */
@@ -1300,6 +1301,12 @@ double G_vector_norm1(vec_struct *vc)
 =======
         return NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+        return 0.0 / 0.0; /* NaN */
+=======
+        return NAN;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     }
 
     idx = (vc->v_indx > 0) ? vc->v_indx : 0;
