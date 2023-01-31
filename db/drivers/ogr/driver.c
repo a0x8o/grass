@@ -1298,6 +1298,7 @@ int db__driver_init(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1571,6 +1572,8 @@ int db__driver_finish(void)
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1659,6 +1662,7 @@ int db__driver_finish(void)
 =======
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 93f0f0bbbc (r.horizon manual - fix typo (#2794))
 =======
@@ -1757,6 +1761,10 @@ int db__driver_finish(void)
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 int db__driver_finish(void)
 =======
 <<<<<<< HEAD
@@ -1907,6 +1915,7 @@ int db__driver_finish(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1979,6 +1988,8 @@ int db__driver_finish()
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -3107,7 +3118,12 @@ int db__driver_finish()
 int db__driver_finish(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 {
     return DB_OK;
 }

@@ -259,6 +259,9 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
@@ -713,6 +716,8 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
         snprintf(buf, BUFSIZ, "allocated large memory: %s 0x%lX",
                  formatNumber(buf2, leng), (unsigned long)p);
 =======
@@ -1716,6 +1721,7 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1841,6 +1847,8 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1917,6 +1925,7 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
@@ -1949,6 +1958,10 @@ void *LargeMemory::alloc(size_t leng)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
         sprintf(buf, "allocated large memory: %s 0x%lX",
                 formatNumber(buf2, leng), (unsigned long)p);
 =======
@@ -1988,12 +2001,15 @@ void *LargeMemory::alloc(size_t leng)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2303,6 +2319,7 @@ void *LargeMemory::alloc(size_t leng)
 =======
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
@@ -2859,6 +2876,10 @@ void *LargeMemory::alloc(size_t leng)
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
         stats->comment(buf);
     }
     return p;
@@ -3051,6 +3072,9 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
@@ -3505,6 +3529,8 @@ void LargeMemory::free(void *p)
 >>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
         snprintf(buf, BUFSIZ, "freed large memory: %s 0x%lX",
                  formatNumber(buf2, len[i]), (unsigned long)p);
 =======
@@ -4508,6 +4534,7 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -4633,6 +4660,8 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4709,6 +4738,7 @@ void LargeMemory::free(void *p)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 4763de2e0e (r.horizon manual - fix typo (#2794))
@@ -4741,6 +4771,10 @@ void LargeMemory::free(void *p)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
         sprintf(buf, "freed large memory: %s 0x%lX", formatNumber(buf2, len[i]),
                 (unsigned long)p);
 =======
@@ -4780,12 +4814,15 @@ void LargeMemory::free(void *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -5095,6 +5132,7 @@ void LargeMemory::free(void *p)
 =======
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
@@ -5651,6 +5689,10 @@ void LargeMemory::free(void *p)
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
         stats->comment(buf);
     }
 

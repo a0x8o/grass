@@ -77,6 +77,7 @@ Status: Motion passed, 29 March 2021
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -400,6 +401,8 @@ Status: Motion passed, 29 March 2021
 >>>>>>> bd2fc8fa00 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -904,13 +907,17 @@ The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (c
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 =======
 The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these languages have evolved significantly in the last 10–20 years. There is, however, no clearly stated policy of supported language standard(s), nor mechanism to update this policy when needed or wanted. This result in uncertainty for contributors for what may be allowed and solutions that may not be optimal.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
 =======
@@ -1379,6 +1386,8 @@ The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (c
 =======
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 
 The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code
 (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these
@@ -1966,6 +1975,7 @@ See also the discussion leading to this RFC on the mailing list
 ## Discussion
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3282,7 +3292,10 @@ It should be emphasized that existing GRASS GIS C and C++ code compiles also wit
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 The advantage of having clearly stated policy on language standard
 requirements/support is important not only for contributors, but also sets the
@@ -5524,7 +5537,15 @@ done to C in the 2000’s. Nevertheless, conforming to newer standards may
 provide better cross platform support and possibly safer code.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 
 Regarding C, there are three standards that may be considered: C99, C11 and
 C17. C99 never really reached full support on key platforms, this is
@@ -5615,6 +5636,7 @@ good for C17.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5905,6 +5927,8 @@ good for C17.
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -6072,6 +6096,8 @@ good for C17.
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
@@ -7440,6 +7466,7 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -7477,6 +7504,8 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 >>>>>>> ef2654d3c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -8261,6 +8290,9 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to consider. The platform and compiler support for all of these are significantly better. However, C++11 is at this date in general considered the standard and until compelling reasons argue otherwise, the C++11 standard should be policy of the GRASS GIS project.
 =======
 Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to
@@ -8270,6 +8302,7 @@ until compelling reasons argue otherwise, the C++11 standard should be policy of
 the GRASS GIS project.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8556,7 +8589,12 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 
 ## Proposed Language Standards Support
 
@@ -8727,6 +8765,7 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9276,6 +9315,8 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9729,7 +9770,15 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 C11 with core (mandatory) features [brief summary](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
 
 Optional features may be used if availability is tested with macro, and if not
@@ -9737,6 +9786,7 @@ supported, alternative fallback code must be provided.
 
 ### C++ Language
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9775,6 +9825,8 @@ supported, alternative fallback code must be provided.
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -9790,6 +9842,7 @@ supported, alternative fallback code must be provided.
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
@@ -9835,6 +9888,10 @@ supported, alternative fallback code must be provided.
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 <<<<<<< HEAD
@@ -10454,6 +10511,7 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
 =======
 =======
@@ -10470,6 +10528,8 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a2c0a963b1 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 =======
 =======
@@ -10487,9 +10547,12 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+=======
 =======
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12455,6 +12518,8 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 C11 with core (mandatory) features [brief summary](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
 
 Optional features may be used if availability is tested with macro, and if not
@@ -12462,6 +12527,7 @@ supported, alternative fallback code must be provided.
 
 ### C++ Language
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -12482,6 +12548,7 @@ supported, alternative fallback code must be provided.
 =======
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 9f0d2f42c1 (Fix missing function prototypes (#2727))
@@ -12526,4 +12593,13 @@ supported, alternative fallback code must be provided.
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 285ce8b9cb (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+>>>>>>> 770600e1cd (r.horizon manual - fix typo (#2794))
