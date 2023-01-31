@@ -167,6 +167,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2ac90a444 (g.proj: fix reading input WKT (#1582))
 =======
@@ -803,7 +804,14 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> a3706b16a1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -913,6 +921,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,6 +958,8 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 82881aaaec (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> a3706b16a1 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
@@ -978,6 +989,9 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 1306fa28a0 (g.proj: fix reading input WKT (#1582))
 =======
@@ -1345,7 +1359,12 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 17c5b80c11 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 38fcad4cdf (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a3706b16a1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -1406,6 +1425,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 250c6900d1 (g.proj: fix reading input WKT (#1582))
 =======
@@ -1498,6 +1518,8 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 2f9b4a6e73 (g.proj: fix reading input WKT (#1582))
 =======
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> e56c7523eb (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a61698b913 (g.proj: fix reading input WKT (#1582))
@@ -1575,7 +1597,12 @@ int input_wkt(char *wktfile)
 =======
 =======
 >>>>>>> 82881aaaec (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 >>>>>>> 1306fa28a0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> a3706b16a1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 =======
         size_t wktlen;
@@ -2231,6 +2258,7 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2269,6 +2297,8 @@ int input_wkt(char *wktfile)
 >>>>>>> e70434a447 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 1306fa28a0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
 =======
 =======
 >>>>>>> eec6e0dfee (g.proj: fix reading input WKT (#1582))
@@ -2724,7 +2754,12 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a3706b16a1 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 3ef949b911 (g.proj: fix reading input WKT (#1582))
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);
