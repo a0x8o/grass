@@ -330,6 +330,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1186,6 +1187,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -1942,10 +1945,15 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6fabde9f92 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+>>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -2014,6 +2022,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
         int conflicts = 0;
 
 =======
@@ -2255,6 +2264,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
         int conflicts = 0;
 
         G_percent(iter, iterations, 1);
@@ -2394,6 +2405,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 
@@ -2739,6 +2751,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
         matrix_mult(&kinv, &fx, &dx);
         matrix_mult(&kinv, &fy, &dy);
 
