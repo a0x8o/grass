@@ -3669,6 +3669,7 @@ USE_OPENMP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3680,6 +3681,8 @@ USE_OPENMP
 <<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3758,6 +3761,7 @@ OPENMP_CFLAGS
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3774,6 +3778,10 @@ OPENMP_CFLAGS
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 OMPCFLAGS
 OMPLIB
 OMPLIBPATH
@@ -3787,12 +3795,15 @@ OMPINCPATH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3803,12 +3814,15 @@ OMPINCPATH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 =======
 OPENMP_LIB
@@ -3817,6 +3831,7 @@ OPENMP_INCPATH
 OPENMP_CFLAGS
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3853,6 +3868,8 @@ OPENMP_CFLAGS
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 USE_PTHREAD
 PTHREADLIB
 PTHREADLIBPATH
@@ -4599,8 +4616,11 @@ with_x
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 enable_openmp
 =======
 <<<<<<< HEAD
@@ -4641,6 +4661,7 @@ enable_openmp
 enable_openmp
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4697,6 +4718,8 @@ enable_openmp
 enable_openmp
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 enable_largefile
 '
       ac_precious_vars='build_alias
@@ -6128,8 +6151,11 @@ Optional Features:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
   --disable-openmp        do not use OpenMP
 =======
 <<<<<<< HEAD
@@ -6170,6 +6196,7 @@ Optional Features:
   --disable-openmp        do not use OpenMP
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6226,6 +6253,8 @@ Optional Features:
   --disable-openmp        do not use OpenMP
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
   --disable-largefile     omit support for large files (LFS)
 
 Optional Packages:
@@ -61042,6 +61071,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -61061,6 +61091,8 @@ fi
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -61073,6 +61105,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -61080,10 +61113,13 @@ fi
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
   CPPFLAGS="$CPPFLAGS $PDAL_CPPFLAGS $PDAL_INC"
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61126,6 +61162,8 @@ fi
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
@@ -100699,6 +100737,7 @@ fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -100748,10 +100787,14 @@ $as_echo_n "checking for location of OpenMP library... " >&6; }
 =======
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for location of OpenMP library" >&5
 printf %s "checking for location of OpenMP library... " >&6; }
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for location of OpenMP library" >&5
 $as_echo_n "checking for location of OpenMP library... " >&6; }
 case "$with_openmp_libs" in
@@ -100772,10 +100815,20 @@ if test -n "$with_openmp_libs"; then
     done
 fi
 
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
 ac_save_cppflags="$CPPFLAGS"
 CPPFLAGS="$OPENMP_INCPATH $CPPFLAGS"
+=======
+
+ac_save_cppflags="$CPPFLAGS"
+<<<<<<< HEAD
+CPPFLAGS="$OMPINCPATH $CPPFLAGS"
+=======
+CPPFLAGS="$OPENMP_INCPATH $CPPFLAGS"
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 for ac_header in omp.h
 do :
   ac_fn_c_check_header_mongrel "$LINENO" "omp.h" "ac_cv_header_omp_h" "$ac_includes_default"
@@ -101213,6 +101266,7 @@ GOMP_parallel_start();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -101229,11 +101283,14 @@ GOMP_parallel_start();
 =======
 
 >>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 ; return 0; }
 EOF
 if { (eval echo configure:13281: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
   rm -rf conftest*
   eval "ac_cv_func_GOMP_parallel_start=yes"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101245,6 +101302,8 @@ if { (eval echo configure:13281: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && 
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 =======
 ac_save_ldflags="$LDFLAGS"
@@ -101270,6 +101329,7 @@ extern "C"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -101281,6 +101341,8 @@ extern "C"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 char omp_get_num_threads ();
 int
 main ()
@@ -101292,6 +101354,7 @@ return omp_get_num_threads ();
 _ACEOF
 if ac_fn_c_try_link "$LINENO"; then :
   ac_cv_lib_omp_omp_get_num_threads=yes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101321,6 +101384,8 @@ else
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 else
   ac_cv_lib_omp_omp_get_num_threads=no
 fi
@@ -101336,6 +101401,7 @@ if test "x$ac_cv_lib_omp_omp_get_num_threads" = xyes; then :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e24da816f (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -101346,6 +101412,8 @@ if test "x$ac_cv_lib_omp_omp_get_num_threads" = xyes; then :
 >>>>>>> osgeo-main
 =======
 >>>>>>> e17ab3c1a1 (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 else
   echo "configure: failed program was:" >&5
   cat conftest.$ac_ext >&5
@@ -101522,6 +101590,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -101553,6 +101622,10 @@ else
 >>>>>>> osgeo-main
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 LDFLAGS=${ac_save_ldflags}
 
 ac_save_ldflags="$LDFLAGS"
@@ -101921,6 +101994,7 @@ if test "x$ac_cv_lib_gomp_GOMP_parallel_start" = xyes; then :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101942,12 +102016,16 @@ else
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 >>>>>>> osgeo-main
 =======
+  OPENMP_LIB="$OPENMP_LIB -lgomp "
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
 <<<<<<< HEAD
   OMPLIB="$OMPLIB -lgomp "
 =======
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101963,6 +102041,8 @@ else
 =======
   OPENMP_LIB="$OPENMP_LIB -lgomp "
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 else
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -102033,6 +102113,7 @@ CFLAGS="${CFLAGS} ${OPENMP_INCPATH} ${OPENMP_LIBPATH} ${OPENMP_LIB}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -102050,6 +102131,8 @@ CFLAGS="${CFLAGS} ${OPENMP_INCPATH} ${OPENMP_LIBPATH} ${OPENMP_LIB}"
 >>>>>>> osgeo-main
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 if test -e penmp || test -e mp; then
   as_fn_error $? "AC_OPENMP clobbers files named 'mp' and 'penmp'. Aborting configure because one of these files already exists." "$LINENO" 5
 fi
@@ -102062,6 +102145,7 @@ then :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -102073,6 +102157,8 @@ then :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 
   OPENMP_CFLAGS=
   # Check whether --enable-openmp was given.
@@ -102083,6 +102169,7 @@ if test "${enable_openmp+set}" = set; then :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -102092,9 +102179,13 @@ if test "${enable_openmp+set}" = set; then :
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
   enableval=$enable_openmp;
 fi
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102133,6 +102224,8 @@ fi
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
   OPENMP_CFLAGS=
   if test "$enable_openmp" != no; then
     { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for $CC option to support OpenMP" >&5
@@ -102143,6 +102236,7 @@ printf %s "checking for $CC option to support OpenMP... " >&6; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -102161,6 +102255,10 @@ printf %s "checking for $CC option to support OpenMP... " >&6; }
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 # try to build a test program with "$CC $OMPCLFAGS" to confirm it works
 #...how?
 #echo "int main() {return 0;}" > test.c
@@ -102171,6 +102269,7 @@ printf %s "checking for $CC option to support OpenMP... " >&6; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -102181,6 +102280,8 @@ printf %s "checking for $CC option to support OpenMP... " >&6; }
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 ac_cv_prog_c_openmp='not found'
@@ -102256,12 +102357,15 @@ $as_echo_n "checking for $CC option to support OpenMP... " >&6; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 =======
   if test "$enable_openmp" != no; then
@@ -102270,6 +102374,7 @@ $as_echo_n "checking for $CC option to support OpenMP... " >&6; }
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102290,6 +102395,8 @@ $as_echo_n "checking for $CC option to support OpenMP... " >&6; }
 >>>>>>> osgeo-main
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -102347,6 +102454,7 @@ $as_echo "$ac_cv_prog_c_openmp" >&6; }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -102384,6 +102492,11 @@ $as_echo "$ac_cv_prog_c_openmp" >&6; }
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
   fi
 
 

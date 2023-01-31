@@ -83,6 +83,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    specifies the maxiumum number of vertices that a polygon can
 =======
 <<<<<<< HEAD
@@ -101,6 +102,8 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> osgeo-main
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 	    specifies the maximum number of vertices that a polygon can
 =======
 	    specifies the maxiumum number of vertices that a polygon can
@@ -110,6 +113,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	    specifies the maxiumum number of vertices that a polygon can
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -139,6 +143,11 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> osgeo-main
 =======
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
+=======
+=======
+	    specifies the maxiumum number of vertices that a polygon can
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 	    have.  The default is 99.  Some browser can only handle
 	    image map polygons of less that 100 vertices.
 

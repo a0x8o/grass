@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
@@ -34,6 +35,8 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
 >>>>>>> osgeo-main
@@ -58,6 +61,7 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -65,11 +69,14 @@ extern void *Rast3d_cache_hash_new(int /* nofElts */);
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
 extern void *Rast3d_cache_hash_new(/* nofElts */);
 =======
 extern void *Rast3d_cache_hash_new(int /* nofElts */);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,3 +125,5 @@ extern void *Rast3d_cache_hash_new(/* nofElts */);
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
