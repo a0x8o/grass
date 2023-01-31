@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "config:base",
 =======
 <<<<<<< HEAD
@@ -310,6 +311,8 @@
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
@@ -617,6 +620,9 @@
 =======
         "config:best-practices",
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
+=======
+        "config:best-practices",
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
         ":semanticCommits",
 =======
@@ -714,6 +720,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -883,6 +890,8 @@
 >>>>>>> 8f6808ee3d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
@@ -1586,6 +1595,7 @@
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> adc9a513d7 (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1853,6 +1863,11 @@
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
 >>>>>>> ae1809f882 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+>>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
         ":semanticCommitTypeAll(CI)"
     ]
 }

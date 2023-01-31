@@ -196,6 +196,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -530,6 +531,8 @@
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -700,6 +703,8 @@
 >>>>>>> 580af7cb72 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
 PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
 >>>>>>> f345ab419f (r.horizon manual - fix typo (#2794))
 =======
@@ -941,6 +946,7 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 =======
 PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",609601.22],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-79.0],PARAMETER["Standard_Parallel_1",36.1666666666667],PARAMETER["Standard_Parallel_2",34.3333333333333],PARAMETER["Latitude_Of_Origin",33.75],UNIT["Meter",1.0]]
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2422,6 +2428,7 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -3016,3 +3023,7 @@ PROJCS["NAD_1983_HARN_StatePlane_North_Carolina_FIPS_3200",GEOGCS["GCS_North_Ame
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+>>>>>>> 67806956ee (r.horizon manual - fix typo (#2794))
