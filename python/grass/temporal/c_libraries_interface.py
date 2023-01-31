@@ -94,6 +94,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -727,6 +728,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> d56ffd79c6 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1493fa586e (pythonlib: Remove star imports (#1546))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -804,6 +807,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> aa15e7c6e3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3c9b290870 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -1199,6 +1204,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> af1011ff1e (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -1208,6 +1215,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
@@ -1240,8 +1249,20 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
+=======
+from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
+>>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
