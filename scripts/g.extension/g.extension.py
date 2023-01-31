@@ -2007,6 +2007,7 @@ GIT_URL = "https://github.com/OSGeo/grass-addons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def replace_shebang_win(python_file):
     """
     Replaces "python" with "python3" in python files
@@ -2097,6 +2098,8 @@ else:
 >>>>>>> 396b5cfa4f (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 174adf65f4 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 16e0f7fc96 (g.proj: fix reading input WKT (#1582))
 def replace_shebang_win(python_file):
     """
     Replaces "python" with "python3" in python files
@@ -2120,6 +2123,7 @@ def replace_shebang_win(python_file):
     os.rename(tmp_name, python_file)  # rename temp to original name
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2564,6 +2568,8 @@ def replace_shebang_win(python_file):
 
 
 >>>>>>> c3b982c5a4 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 16e0f7fc96 (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
