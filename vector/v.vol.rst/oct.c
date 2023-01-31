@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -399,6 +400,8 @@
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
@@ -1693,6 +1696,7 @@ struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
                                  int (*add_data)(), int (*intersect)(),
                                  int (*division_check)(), int (*get_points)())
@@ -1934,6 +1938,8 @@ struct octfunc *OT_functions_new(int (*compare)(), VOID_T **(*divide_data)(),
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 struct octfunc *
 OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
                  struct octdata **(*divide_data)(struct octdata *),
@@ -1945,6 +1951,7 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
                                    double, double, double, double, double, int))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,6 +2474,8 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 /* Initializes FUNCTIONS structure with given arguments */
 {
     struct octfunc *functions;
@@ -2605,6 +2614,7 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3232,6 +3242,8 @@ OT_functions_new(int (*compare)(struct quadruple *, struct octdata *),
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 =======
 <<<<<<< HEAD
@@ -3373,6 +3385,7 @@ struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3418,11 +3431,14 @@ struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 struct octtree *OT_tree_new(VOID_T *data, struct octtree **leafs,
 =======
 struct octtree *OT_tree_new(struct octdata *data, struct octtree **leafs,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4401,6 +4417,8 @@ struct octtree *OT_tree_new(VOID_T *data, struct octtree **leafs,
 struct octtree *OT_tree_new(VOID_T *data, struct octtree **leafs,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                             struct octtree *parent, struct octfunc *functions,
                             int octant)
 /*Initializes TREE using given arguments */

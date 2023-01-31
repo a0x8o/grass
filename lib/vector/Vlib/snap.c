@@ -1090,6 +1090,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1850,6 +1851,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -2114,6 +2117,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
@@ -2551,6 +2555,10 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point; /* index in points array */
     int nanchors,
         ntosnap; /* number of anchors and number of points to be snapped */
@@ -2656,6 +2664,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2974,10 +2983,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3298,6 +3310,10 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -3570,6 +3586,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3831,10 +3848,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4621,6 +4641,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     struct ilist *List;
     int *Index = NULL; /* indexes of anchors for vertices */
     int aindex = 0;    /* allocated Index */
@@ -4686,6 +4708,9 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
@@ -5019,6 +5044,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -5142,10 +5168,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5937,6 +5966,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     XPnts = NULL;
 
     G_important_message(_("Snap vertices Pass 1: select points"));
@@ -5996,6 +6027,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6436,6 +6468,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6715,6 +6749,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7460,6 +7495,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
             /* coords */
             c[0] = Points->x[v];
@@ -7539,6 +7576,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7979,6 +8017,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         nanchors++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8258,6 +8298,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9003,6 +9044,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         /* Find points in threshold */
         c[0] = XPnts[point].x;
@@ -9070,6 +9113,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9510,6 +9554,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
                 ntosnap++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9789,6 +9835,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10534,6 +10581,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             }
             else if (XPnts[pointb].anchor >
                      0) { /* check distance to previously assigned anchor */
@@ -10894,6 +10943,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11654,6 +11704,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -11918,6 +11970,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
@@ -12355,6 +12408,10 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point; /* index in points array */
     int nanchors,
         ntosnap; /* number of anchors and number of points to be snapped */
@@ -12460,6 +12517,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12778,10 +12836,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13102,6 +13163,10 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -13374,6 +13439,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -13635,10 +13701,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14425,6 +14494,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     struct ilist *List;
     int *Index = NULL; /* indexes of anchors for vertices */
     int aindex = 0;    /* allocated Index */
@@ -14500,6 +14571,9 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
@@ -14833,6 +14907,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -14956,10 +15031,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15751,6 +15829,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     XPnts = NULL;
 
     G_important_message(_("Snap vertices Pass 1: select points"));
@@ -15809,6 +15889,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16249,6 +16330,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16528,6 +16611,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17273,6 +17357,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
             /* Box */
             rect.boundary[0] = Points->x[v];
@@ -17362,6 +17448,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17802,6 +17889,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         nanchors++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18081,6 +18170,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18826,6 +18916,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         /* Find points in threshold */
         rect.boundary[0] = XPnts[point].x - thresh;
@@ -18897,6 +18989,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19337,6 +19430,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
                 ntosnap++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19616,6 +19711,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20361,6 +20457,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             }
             else if (XPnts[pointb].anchor >
                      0) { /* check distance to previously assigned anchor */
@@ -20697,6 +20795,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -21137,6 +21236,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     int nvertices;      /* number of vertices */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21416,6 +21517,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22161,6 +22263,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     char *XSegs = NULL; /* Array of segments */
     NEW2 *New = NULL;   /* Array of new points */
     int anew = 0, nnew; /* allocated new points , number of new points */
@@ -22246,6 +22350,9 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
@@ -22579,6 +22686,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -22702,10 +22810,13 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23497,6 +23608,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     asegments = 0;
 
     /* Add all vertices and all segments of all reference lines
@@ -23555,6 +23668,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23995,6 +24109,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24274,6 +24390,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25019,6 +25136,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
             /* Box */
             rect.boundary[0] = LPoints->x[v];

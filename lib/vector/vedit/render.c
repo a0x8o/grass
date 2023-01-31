@@ -127,6 +127,7 @@ static struct robject *draw_line(struct Map_info *, int, int);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -443,6 +444,8 @@ static struct robject *draw_line(struct Map_info *, int, int);
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 static struct robject *draw_line_vertices(void);
 =======
 <<<<<<< HEAD
@@ -527,6 +530,7 @@ static struct robject *draw_line_vertices();
 =======
 static struct robject *draw_line_vertices(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -692,11 +696,14 @@ static struct robject *draw_line_vertices(void);
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 static struct robject *draw_line_vertices();
 =======
 static struct robject *draw_line_vertices(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1669,6 +1676,8 @@ static struct robject *draw_line_vertices();
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 static void draw_line_nodes(struct Map_info *, int, int, struct robject_list *);
 static int draw_line_dir(struct robject_list *, int);
 static void list_append(struct robject_list *, struct robject *);

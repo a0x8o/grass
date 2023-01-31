@@ -183,6 +183,7 @@ int do_grid_cross(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -562,6 +563,8 @@ int do_grid_cross(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     for (; g_north >= PS.w.south; g_north -= PS.grid) {
         for (; g_east > PS.w.west; g_east -= PS.grid) {
 =======
@@ -720,6 +723,7 @@ int do_grid_cross(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -755,9 +759,12 @@ int do_grid_cross(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     for (j = 0; g_north >= PS.w.south; j++, g_north -= PS.grid) {
         for (k = 0; g_east > PS.w.west; k++, g_east -= PS.grid) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1771,6 +1778,12 @@ int do_grid_cross(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+    for (; g_north >= PS.w.south; g_north -= PS.grid) {
+        for (; g_east > PS.w.west; g_east -= PS.grid) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
             if (g_north == PS.w.north || g_north == PS.w.south)
                 continue;

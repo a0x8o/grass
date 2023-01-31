@@ -145,6 +145,7 @@ int M__hold_signals(int hold)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -772,6 +773,8 @@ int M__hold_signals(int hold)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
 =======
 <<<<<<< HEAD
@@ -913,6 +916,7 @@ int M__hold_signals(int hold)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -958,11 +962,14 @@ int M__hold_signals(int hold)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     void (*sig)() = hold ? SIG_IGN : SIG_DFL;
 =======
     void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,6 +1948,8 @@ int M__hold_signals(int hold)
     void (*sig)() = hold ? SIG_IGN : SIG_DFL;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
     signal(SIGINT, sig);
 

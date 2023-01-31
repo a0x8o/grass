@@ -124,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -441,6 +442,8 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 =======
@@ -553,6 +556,7 @@ FILE *I_fopen_group_init_new(char *);
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1520,10 +1524,13 @@ FILE *I_fopen_group_init_new();
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
 =======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
@@ -1538,6 +1545,8 @@ FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 #define INITIAL_FILE "INIT_EXP"
 

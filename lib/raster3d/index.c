@@ -169,6 +169,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -796,6 +797,8 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             if (indexLength > (int)sizeof(long) * map->nTiles) {
 =======
 <<<<<<< HEAD
@@ -937,6 +940,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -982,11 +986,14 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             if (indexLength > sizeof(long) * map->nTiles) {
 =======
             if (indexLength > (int)sizeof(long) * map->nTiles) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1973,6 +1980,8 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
             if (indexLength > (int)sizeof(long) * map->nTiles) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
                 /*->index large enough? */
                 tmp2 = Rast3d_malloc(indexLength);
@@ -2116,6 +2125,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2743,6 +2753,8 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             if (indexLength > (int)sizeof(long) * map->nTiles)
 =======
 <<<<<<< HEAD
@@ -2884,6 +2896,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2929,11 +2942,14 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             if (indexLength > sizeof(long) * map->nTiles)
 =======
             if (indexLength > (int)sizeof(long) * map->nTiles)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3920,6 +3936,8 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
             if (indexLength > (int)sizeof(long) * map->nTiles)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                 Rast3d_free(tmp2);
         } /* END RLE */
 

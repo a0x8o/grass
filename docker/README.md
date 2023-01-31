@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -56,6 +57,8 @@
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 ## GRASS GIS docker matrix
 <<<<<<< HEAD
@@ -1737,6 +1740,7 @@ the table above):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1945,6 +1949,8 @@ the table above):
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 
 ## GRASS GIS docker matrix
 
@@ -1975,6 +1981,7 @@ To install a docker image, run (replace `<tag>` with the desired Docker tag from
 the table above):
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2293,6 +2300,8 @@ the table above):
 To install a docker image, run (replace `<tag>` with the desired Docker tag from the table above):
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 ```bash
 docker pull mundialis/grass-py3-pdal:<tag>
 ```

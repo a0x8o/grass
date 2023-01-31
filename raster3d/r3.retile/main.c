@@ -157,6 +157,7 @@ static void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -784,6 +785,8 @@ static void fatal_error(void *map, int *fd, int depths,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 static void set_params(void);            /*Fill the paramType structure */
 =======
 <<<<<<< HEAD
@@ -925,6 +928,7 @@ static void set_params(void);            /*Fill the paramType structure */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -970,11 +974,14 @@ static void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 static void set_params();                /*Fill the paramType structure */
 =======
 static void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1953,6 +1960,8 @@ static void set_params();                /*Fill the paramType structure */
 static void set_params();                /*Fill the paramType structure */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 /* ************************************************************************* */
 /* Error handling ********************************************************** */

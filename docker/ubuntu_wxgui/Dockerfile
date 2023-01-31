@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -223,6 +224,10 @@ FROM ubuntu:22.04
 >>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 =======
 =======
+FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +240,7 @@ FROM ubuntu:22.04@sha256:58b87898e82351c6cf9cf5b9f3c20257bb9e2dcf33af051e12ce532
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +341,8 @@ FROM ubuntu:22.04@sha256:58b87898e82351c6cf9cf5b9f3c20257bb9e2dcf33af051e12ce532
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 FROM ubuntu:22.04@sha256:adbb90115a21969d2fe6fa7f9af4253e16d45f8d4c1e930182610c4731962658
 =======
@@ -343,6 +351,8 @@ FROM ubuntu:22.04@sha256:adbb90115a21969d2fe6fa7f9af4253e16d45f8d4c1e930182610c4
 <<<<<<< HEAD
 FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
 =======
+=======
+>>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,6 +846,8 @@ FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021d
 <<<<<<< HEAD
 FROM ubuntu:22.04@sha256:19478ce7fc2ffbce89df29fea5725a8d12e57de52eb9ea570890dc5852aac1ac
 =======
+=======
+>>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 08a1f16710 (Fix missing function prototypes (#2727))
 =======
@@ -2314,16 +2326,20 @@ FROM ubuntu:22.04
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b3e4b27026 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 0014ad4c7c (Fix missing function prototypes (#2727))
 =======
 =======
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
@@ -2333,10 +2349,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 738af27d93 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> dc25ab2280 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2540,6 +2559,8 @@ ENV DEBIAN_FRONTEND noninteractive
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 <<<<<<< HEAD
@@ -2862,6 +2883,7 @@ ARG PDAL_VERSION=2.4.3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -3046,12 +3068,16 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 =======
+>>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 =======
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4051,6 +4077,8 @@ ARG PDAL_VERSION=2.7.1
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 SHELL ["/bin/bash", "-c"]
 
@@ -4112,6 +4140,7 @@ RUN apt-get update && apt-get upgrade -y && \
     libjpeg-dev \
     libjsoncpp-dev \
     libncurses5-dev \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4239,12 +4268,15 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     libnetcdf-dev \
 =======
 =======
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
@@ -4623,6 +4655,8 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD
 >>>>>>> 73cc5e30fa (Dockerfile: fix broken lib link (#1625))
@@ -4643,6 +4677,7 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
     libnotify4 \
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5671,6 +5706,11 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 >>>>>>> dc25ab2280 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+    libnotify4 \
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -5805,6 +5845,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     zlib1g-dev
 =======
 <<<<<<< HEAD
@@ -6197,6 +6238,8 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     zlib1g-dev \
     && apt-get clean all && rm -rf /var/lib/apt/lists/*
 =======
@@ -6264,6 +6307,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -6786,6 +6830,11 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+=======
+    zlib1g-dev
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 # wxGUI
 RUN pip install -U \
@@ -6800,6 +6849,7 @@ ENV NO_AT_BRIDGE=1
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7219,6 +7269,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -9374,6 +9426,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -10321,6 +10374,10 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> dc25ab2280 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
@@ -10340,6 +10397,7 @@ RUN mkdir vdatum && \
     cd .. && \
     rm -rf vdatum
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11026,6 +11084,8 @@ RUN mkdir vdatum && \
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 =======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 =======
 ## install pdal
@@ -11044,6 +11104,7 @@ RUN mkdir vdatum && \
 =======
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -11427,6 +11488,11 @@ RUN mkdir vdatum && \
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -11486,6 +11552,7 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11591,6 +11658,8 @@ RUN wget -q \
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_NITF=OFF \
 =======
 <<<<<<< HEAD
@@ -11603,6 +11672,7 @@ RUN wget -q \
 =======
 <<<<<<< HEAD
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
@@ -11663,10 +11733,13 @@ RUN wget -q \
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11721,6 +11794,8 @@ RUN wget -q \
 <<<<<<< HEAD
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PLUGIN_PYTHON=ON \
       -DBUILD_PLUGIN_SQLITE=ON \
@@ -11752,6 +11827,9 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
@@ -12740,6 +12818,7 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
@@ -13127,6 +13206,10 @@ RUN wget -q \
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -13290,6 +13373,7 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -13365,6 +13449,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -15373,17 +15459,21 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 97e83bc298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> c686f71e17 (Fix missing function prototypes (#2727))
 =======
 =======
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 =======
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
@@ -16062,6 +16152,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> dc25ab2280 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -17301,6 +17393,7 @@ RUN rm -rf /tmp/grasstest_epsg_25832
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
@@ -17694,16 +17787,20 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 =======
 # test LAZ file
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
@@ -18014,6 +18111,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> dc25ab2280 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 WORKDIR /grassdb
 VOLUME /grassdb

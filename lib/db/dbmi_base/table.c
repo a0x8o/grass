@@ -262,6 +262,7 @@ int db_get_table_number_of_columns(dbTable *table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -889,6 +890,8 @@ int db_get_table_number_of_columns(dbTable *table)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 =======
@@ -1027,6 +1030,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1456,12 +1460,15 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 static void set_all_column_privs(dbTable *table,
                                  void (*set_column_priv)(dbColumn *))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2053,6 +2060,8 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     int col, ncols;
     dbColumn *column;
@@ -2186,6 +2195,7 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2813,6 +2823,8 @@ static void set_all_column_privs(dbTable *table, void (*set_column_priv)())
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 =======
@@ -2951,6 +2963,7 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3380,12 +3393,15 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 =======
 static int get_all_column_privs(dbTable *table,
                                 int (*get_column_priv)(dbColumn *))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3977,6 +3993,8 @@ static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 static int get_all_column_privs(dbTable *table, int (*get_column_priv)())
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     int priv, col, ncols;
     dbColumn *column;

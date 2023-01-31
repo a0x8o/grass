@@ -1790,6 +1790,7 @@ which have to be installed before installing/compiling GRASS:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2757,6 +2758,8 @@ directory:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 For links to the software, see [REQUIREMENTS.md](REQUIREMENTS.md) in this
 directory.
 =======
@@ -2847,6 +2850,7 @@ directory:
 For links to the software, see [REQUIREMENTS.md](REQUIREMENTS.md) in this
 directory.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3055,6 +3059,8 @@ directory.
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 For links to the software, see ./REQUIREMENTS.html in this
 directory:
 =======
@@ -3062,6 +3068,7 @@ For links to the software, see [REQUIREMENTS.md](REQUIREMENTS.md) in this
 directory.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3614,6 +3621,8 @@ directory:
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 Installation order:
 
@@ -4540,6 +4549,7 @@ explains the options used to disable the compilation of non-mandatory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5167,6 +5177,8 @@ explains the options used to disable the compilation of non-mandatory
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencies.
 =======
 <<<<<<< HEAD
@@ -5308,6 +5320,7 @@ GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencie
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5353,11 +5366,14 @@ GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencie
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 GRASS modules. See REQUIREMENTS.html for details on dependencies.
 =======
 GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencies.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6344,6 +6360,8 @@ GRASS modules. See REQUIREMENTS.html for details on dependencies.
 GRASS modules. See [REQUIREMENTS.md](REQUIREMENTS.md) for details on dependencies.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux
 distributions, FreeBSD, AIX, etc) are available at:
 <https://grasswiki.osgeo.org/wiki/Compile_and_Install>
@@ -7941,6 +7959,7 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8568,6 +8587,8 @@ CFLAGS="-mcpu=pentium4" # Intel Pentium4 processor
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 =======
@@ -8706,6 +8727,7 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9069,12 +9091,15 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit processor
 =======
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse \
         -minline-all-stringops" # Intel XEON 64bit processor
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9209,6 +9234,8 @@ CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit
 CFLAGS="-O2 -msse -msse2 -mfpmath=sse -minline-all-stringops" # Intel XEON 64bit processor
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 CFLAGS="-mtune=nocona -m64 -minline-all-stringops" # Intel Pentium 64bit processor
 ```
 

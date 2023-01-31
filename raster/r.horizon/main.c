@@ -31282,6 +31282,7 @@ void calculate_point_mode(const Settings *settings, const Geometry *geometry,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -31942,6 +31943,8 @@ void calculate_point_mode(const Settings *settings, const Geometry *geometry,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     origin_point.z_orig = z[yindex][xindex];
     G_debug(1, "yindex: %d, xindex %d, z_orig %.2f", yindex, xindex,
             origin_point.z_orig);
@@ -32269,6 +32272,7 @@ void calculate_point_mode(const Settings *settings, const Geometry *geometry,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -32448,11 +32452,14 @@ void calculate_point_mode(const Settings *settings, const Geometry *geometry,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     tanh0 = -1.0 / 0.0; /* -inf */
 =======
     tanh0 = -INFINITY;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33017,6 +33024,8 @@ void calculate_point_mode(const Settings *settings, const Geometry *geometry,
 =======
     tanh0 = -1.0 / 0.0; /* -inf */
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     length = 0;
 
     height = searching();
@@ -33100,6 +33109,7 @@ double calculate_shadow_onedirection(double shadow_angle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -33490,10 +33500,16 @@ void calculate_shadow(void)
 <<<<<<< HEAD
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+void calculate_shadow(void)
+=======
+<<<<<<< HEAD
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 void calculate_shadow()
 =======
 void calculate_shadow(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34050,6 +34066,9 @@ void calculate_shadow(void)
 =======
 void calculate_shadow()
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     double dfr_rad;
 
@@ -37166,6 +37185,7 @@ void calculate_shadow()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -37826,6 +37846,8 @@ int new_point(void)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 int new_point(const Geometry *geometry, const OriginPoint *origin_point,
               const OriginAngle *origin_angle, SearchPoint *search_point,
               HorizonProperties *horizon)
@@ -38149,6 +38171,7 @@ int new_point(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -38328,11 +38351,14 @@ int new_point(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 int new_point()
 =======
 int new_point(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38911,6 +38937,8 @@ int new_point()
 int new_point()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     int iold = search_point->ip;
     int jold = search_point->jp;
@@ -39685,6 +39713,7 @@ int new_point()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -40345,6 +40374,8 @@ int test_low_res(void)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 int test_low_res(const Geometry *geometry, const OriginPoint *origin_point,
                  const OriginAngle *origin_angle, SearchPoint *search_point,
                  const HorizonProperties *horizon)
@@ -40668,6 +40699,7 @@ int test_low_res(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -40847,11 +40879,14 @@ int test_low_res(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 int test_low_res()
 =======
 int test_low_res(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41430,6 +41465,8 @@ int test_low_res()
 int test_low_res()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     int iold100 = search_point->ip100;
     int jold100 = search_point->jp100;
@@ -43640,6 +43677,7 @@ int test_low_res()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -44300,6 +44338,8 @@ double searching(void)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 HorizonProperties horizon_height(const Geometry *geometry,
                                  const OriginPoint *origin_point,
                                  const OriginAngle *origin_angle)
@@ -44623,6 +44663,7 @@ double searching(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -44802,11 +44843,14 @@ double searching(void)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 double searching()
 =======
 double searching(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45385,6 +45429,8 @@ double searching()
 double searching()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     SearchPoint search_point;
     HorizonProperties horizon;

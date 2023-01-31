@@ -191,6 +191,7 @@ static void read_hersh(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1164,6 +1165,8 @@ static void read_hersh(const char *filename)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         unsigned int i, idx, count;
         int c;
 =======
@@ -1241,6 +1244,7 @@ static void read_hersh(const char *filename)
         unsigned int i, idx, count;
         int c;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1448,6 +1452,8 @@ static void read_hersh(const char *filename)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         unsigned int idx, count;
         int c, i;
 =======
@@ -1455,6 +1461,7 @@ static void read_hersh(const char *filename)
         int c;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2011,6 +2018,8 @@ static void read_hersh(const char *filename)
         int c;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         switch (c = fgetc(fp)) {
         case '\r':

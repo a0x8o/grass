@@ -215,6 +215,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1186,6 +1187,8 @@ public:
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 =======
@@ -1263,6 +1266,7 @@ public:
         snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
                  (long)((size + 1) * sizeof(T)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1470,6 +1474,8 @@ public:
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
                 (long)((size + 1) * sizeof(T)));
 =======
@@ -1477,6 +1483,7 @@ public:
                  (long)((size + 1) * sizeof(T)));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2026,6 +2033,8 @@ public:
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         // MEMORY_LOG(str);
 
         lastindex = 0;

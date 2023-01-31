@@ -27728,6 +27728,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     PDAL_INC=`"$PDAL_CONFIG" --includes`
@@ -27981,11 +27982,14 @@ else
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 <<<<<<< HEAD
     PDAL_CPPFLAGS=`"$PDAL_CONFIG" --cxxflags`
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28364,6 +28368,8 @@ else
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     PDAL_INC=`"$PDAL_CONFIG" --includes`
     USE_PDAL=1
   fi
@@ -28955,6 +28961,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -29095,6 +29102,11 @@ else
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+  ac_save_cppflags="$CPPFLAGS"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
   LIBS="$LIBS $PDAL_LIBS"
   CFLAGS="$CFLAGS $PDAL_CFLAGS"
 <<<<<<< HEAD:configure.ac
@@ -29923,6 +29935,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:configure.ac
 =======
 =======
@@ -29984,6 +29997,8 @@ else
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
   AC_TRY_LINK([#include <pdal/PointTable.hpp>
   #include <pdal/Streamable.hpp>
   class St:public pdal::Streamable {};],[pdal::PointTable table;],,[
@@ -32189,6 +32204,7 @@ else
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -32354,11 +32370,14 @@ else
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 <<<<<<< HEAD
   CPPFLAGS=${ac_save_cppflags}
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32648,6 +32667,8 @@ else
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
   AC_DEFINE(HAVE_PDAL, 1, [define if PDAL exists])
 <<<<<<< HEAD
@@ -51743,6 +51764,7 @@ LOC_CHECK_USE(openmp,OpenMP,USE_OPENMP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -52503,6 +52525,8 @@ LOC_CHECK_USE(openmp,OpenMP,USE_OPENMP)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 if test "$enable_openmp" != no; then
 
 if test -n "${USE_OPENMP}"; then
@@ -52797,6 +52821,7 @@ fi  # enable_openmp
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
@@ -53234,6 +53259,10 @@ fi  # enable_openmp
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 OMPINCPATH=
 OMPLIBPATH=
 OMPLIB=
@@ -55049,6 +55078,7 @@ AC_SUBST(OMPCFLAGS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -55367,11 +55397,14 @@ AC_SUBST(OMPCFLAGS)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55652,6 +55685,10 @@ AC_SUBST(OMPCFLAGS)
 =======
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 if test "$enable_openmp" != no; then
 
 if test -n "${USE_OPENMP}"; then
@@ -55690,6 +55727,7 @@ USE_OPENMP=
 fi  # enable_openmp
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56446,6 +56484,9 @@ fi  # enable_openmp
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 AC_SUBST(USE_OPENMP)
 
 # Done checking OpenMP

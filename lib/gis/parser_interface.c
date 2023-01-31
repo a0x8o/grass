@@ -121,6 +121,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -734,6 +735,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (enc) {
         G_freea(enc);
     }
@@ -891,6 +894,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,10 +1160,13 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (enc)
         G_freea(enc);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1296,15 +1303,21 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 <<<<<<< HEAD
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (enc) {
         G_freea(enc);
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2366,6 +2379,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
     if (conv != (iconv_t)-1)
         iconv_close(conv);

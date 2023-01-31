@@ -1996,6 +1996,7 @@ visualization.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2510,10 +2511,13 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2836,12 +2840,15 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
 =======
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3093,6 +3100,8 @@ Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OSGeo/grass/main?labpath=doc%2Fnotebooks%2Fjupyter_example.ipynb)
 
@@ -4503,6 +4512,7 @@ Want to become a core developer? See
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5257,6 +5267,8 @@ Want to become a core developer? See
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
@@ -5392,6 +5404,7 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
@@ -5487,9 +5500,12 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5557,10 +5573,13 @@ in the Wiki.
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6656,12 +6675,15 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 ## Docker
 
 Build a docker image using the downloaded source code (run this in the directory
 containing the source code):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7600,10 +7622,13 @@ docker build -t grassgis .
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 A. Docker image **without graphical user interface - wxGUI**.
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7648,9 +7673,12 @@ A. Docker image **without graphical user interface - wxGUI**.
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 A. Docker image **without graphical user interface - wxGUI**.
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7699,6 +7727,8 @@ A. Docker image **without graphical user interface - wxGUI**.
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 ```bash
 docker build -t grassgis .

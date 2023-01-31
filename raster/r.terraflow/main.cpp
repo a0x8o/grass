@@ -1264,6 +1264,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1891,6 +1892,8 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
 =======
 <<<<<<< HEAD
@@ -2032,6 +2035,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2077,11 +2081,14 @@ void record_args(int argc, char **argv)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(buf, "D8CUT=%f", opt->d8cut);
 =======
     snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3060,6 +3067,8 @@ void record_args(int argc, char **argv)
     sprintf(buf, "D8CUT=%f", opt->d8cut);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     stats->comment(buf);
 
     size_t mm_size = (size_t)opt->mem << 20; /* (in bytes) */
@@ -3187,6 +3196,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3814,6 +3824,8 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
 =======
 <<<<<<< HEAD
@@ -3955,6 +3967,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4000,11 +4013,14 @@ void record_args(int argc, char **argv)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(buf, "Memory size: %s bytes", tmp);
 =======
     snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4983,6 +4999,8 @@ void record_args(int argc, char **argv)
     sprintf(buf, "Memory size: %s bytes", tmp);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     stats->comment(buf);
 }
 
@@ -6901,6 +6919,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7528,6 +7547,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 =======
 <<<<<<< HEAD
@@ -7669,6 +7690,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7714,11 +7736,14 @@ int main(int argc, char *argv[])
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(buf, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 =======
     snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8697,6 +8722,8 @@ int main(int argc, char *argv[])
     sprintf(buf, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     /* don't pass an automatic variable; putenv() isn't guaranteed to make a
      * copy */
     putenv(G_store(buf));
@@ -8914,6 +8941,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9541,6 +9569,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
 =======
 <<<<<<< HEAD
@@ -9682,6 +9712,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9727,11 +9758,14 @@ int main(int argc, char *argv[])
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(path, "%s/flowStream", streamdir->answer);
 =======
     snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10710,6 +10744,8 @@ int main(int argc, char *argv[])
     sprintf(path, "%s/flowStream", streamdir->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     flowStream = new AMI_STREAM<waterWindowBaseType>(path);
   G_verbose_message(_("flowStream opened: len=%lld\n", flowStream->stream_len());
   G_verbose_message(_("jumping to flow accumulation computation\n");

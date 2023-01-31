@@ -174,6 +174,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -485,6 +486,8 @@ extern void *dglTreeGetAllocator(void);
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 extern void *dglTreeGetAllocator(void);
 =======
 <<<<<<< HEAD
@@ -579,6 +582,7 @@ extern void *dglTreeGetAllocator();
 extern void *dglTreeGetAllocator(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,6 +1467,8 @@ extern void *dglTreeGetAllocator(void);
 extern void *dglTreeGetAllocator();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 /*
  * Define a node as it is hosted in pNodeTree

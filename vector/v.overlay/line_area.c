@@ -178,6 +178,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -489,6 +490,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int merged = 0;
 =======
 <<<<<<< HEAD
@@ -583,6 +586,7 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
     int merged = 0;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1467,6 +1471,8 @@ static int merge_line(struct Map_info *Map, int line, struct line_pnts *MPoints,
     int merged = 0, newl = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int next_node, direction, node_n_lines, type, ltype, lines_type;
     static struct ilist *List = NULL;
     static struct line_pnts *Points = NULL;

@@ -140,6 +140,7 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -767,6 +768,8 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             G_list_element(element, desc, mapset, NULL);
 =======
 <<<<<<< HEAD
@@ -908,6 +911,7 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -953,11 +957,14 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             G_list_element(element, desc, mapset, (int (*)())NULL);
 =======
             G_list_element(element, desc, mapset, NULL);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1936,6 +1943,8 @@ int scan_gis(char *element, char *desc, char *key, char *data, char *name,
             G_list_element(element, desc, mapset, (int (*)())NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         reject();
         return 0;
     }

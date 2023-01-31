@@ -2229,6 +2229,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2924,12 +2925,15 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return NAN;
 
     case GDT_Float64:
     case GDT_CFloat64:
         return NAN;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3250,11 +3254,16 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return 0.0 / 0.0;
 
     case GDT_Float64:
     case GDT_CFloat64:
         return 0.0 / 0.0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3527,6 +3536,8 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -4907,6 +4918,7 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5322,6 +5334,20 @@ double set_default_nodata_value(GDALDataType datatype, double min, double max)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        return NAN;
+
+    case GDT_Float64:
+    case GDT_CFloat64:
+        return NAN;
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
     default:
         return 0;

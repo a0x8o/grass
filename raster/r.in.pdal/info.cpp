@@ -1459,6 +1459,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1532,6 +1533,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 #include <cmath>
 =======
 =======
@@ -1542,6 +1545,7 @@
 #include <cmath>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1868,6 +1872,8 @@
 #include <cmath>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -2951,6 +2957,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3578,6 +3585,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = NAN;
 =======
 <<<<<<< HEAD
@@ -3719,6 +3728,7 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3764,11 +3774,14 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
 =======
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4741,6 +4754,8 @@ void get_extent(struct StringList *infiles, double *min_x, double *max_x,
     *min_x = *max_x = *min_y = *max_y = *min_z = *max_z = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
     for (int i = 0; i < infiles->num_items; i++) {
         const char *infile = infiles->items[i];

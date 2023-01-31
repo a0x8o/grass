@@ -135,6 +135,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -897,6 +898,8 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
@@ -923,6 +926,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> main
@@ -1107,10 +1111,15 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                         /* Displays matrices used to solve a 
                            set of linear equations in the form 
 
                            _                        _      _  _      _  _ 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1220,6 +1229,9 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 =======
                         /* Displays matrices used to solve a
                            set of linear equations in the form
@@ -1227,6 +1239,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
                            _                        _      _  _      _  _
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2295,6 +2308,8 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |

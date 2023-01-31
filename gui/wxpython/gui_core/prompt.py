@@ -1155,6 +1155,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1545,6 +1546,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         # read history file
         self._loadHistory()
         if giface:
@@ -1667,6 +1670,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2092,6 +2096,10 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         #
         # bindings
         #
@@ -2285,6 +2293,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._showHint()
 =======
 <<<<<<< HEAD
@@ -2677,6 +2686,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             wx.CallAfter(self._showHint)
 =======
             self._showHint()
@@ -2743,6 +2754,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -3265,6 +3277,11 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+=======
+            self._showHint()
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         event.Skip()
 
     def OnSetFocus(self, event):

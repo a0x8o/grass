@@ -228,6 +228,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -855,6 +856,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long npatch;
 =======
 <<<<<<< HEAD
@@ -996,6 +999,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1041,11 +1045,14 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     long npatch, area;
 =======
     long npatch;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2024,6 +2031,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -2241,6 +2250,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2537,11 +2547,14 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             area++;
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2864,6 +2877,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_c_null_value(&supCell, 1);
@@ -2921,6 +2936,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
             }
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3028,10 +3044,13 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             area++;
 
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3076,6 +3095,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_c_null_value(&supCell, 1);
@@ -3125,11 +3146,14 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
             area++;
 
@@ -3447,6 +3471,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
@@ -3474,6 +3499,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                         if (old_pid == pid)
                             pid--;
                     }
@@ -3484,6 +3511,7 @@ int calculate(int fd, struct area_entry *ad, double *result)
                 connected = 1;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5260,12 +5288,15 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6237,6 +6268,8 @@ int calculate(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             if (!connected) {
                 /* start new patch */
                 npatch++;
@@ -6402,6 +6435,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7029,6 +7063,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long npatch;
 =======
 <<<<<<< HEAD
@@ -7170,6 +7206,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -7215,11 +7252,14 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     long npatch, area;
 =======
     long npatch;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8198,6 +8238,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -8415,6 +8457,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8707,11 +8750,14 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             area++;
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9034,6 +9080,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_d_null_value(&supCell, 1);
@@ -9081,6 +9129,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
                         pst[old_pid].count = 0;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9857,8 +9906,12 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             area++;
 
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_d_null_value(&supCell, 1);
@@ -9887,6 +9940,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
                         }
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -9900,6 +9954,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             area++;
 
             supCell = buf_sup[j + ad->x];
@@ -9931,7 +9987,12 @@ int calculateD(int fd, struct area_entry *ad, double *result)
                     }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                     old_pid = pid_corr[j];
                     new_pid = pid_sup[j];
                     pid_corr[j] = new_pid;
@@ -9950,6 +10011,7 @@ int calculateD(int fd, struct area_entry *ad, double *result)
                         pst[new_pid].count += pst[old_pid].count;
                         pst[old_pid].count = 0;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11198,12 +11260,15 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12090,6 +12155,8 @@ int calculateD(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                         if (old_pid == pid)
                             pid--;
                     }
@@ -12265,6 +12332,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -12892,6 +12960,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long npatch;
 =======
 <<<<<<< HEAD
@@ -13033,6 +13103,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -13078,11 +13149,14 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     long npatch, area;
 =======
     long npatch;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14061,6 +14135,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
     long npatch, area;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     long pid, old_pid, new_pid, *pid_corr, *pid_sup, *ltmp;
     struct pst *pst;
     long nalloc, incr;
@@ -14278,6 +14354,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -14570,11 +14647,14 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             area++;
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14897,6 +14977,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_f_null_value(&supCell, 1);
@@ -14944,6 +15026,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
                         pst[old_pid].count = 0;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15720,8 +15803,12 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             area++;
 
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             supCell = buf_sup[j + ad->x];
             if (masked && (mask_sup[j] == 0)) {
                 Rast_set_f_null_value(&supCell, 1);
@@ -15750,6 +15837,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
                         }
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -15763,6 +15851,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             area++;
 
             supCell = buf_sup[j + ad->x];
@@ -15794,7 +15884,12 @@ int calculateF(int fd, struct area_entry *ad, double *result)
                     }
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                     old_pid = pid_corr[j];
                     new_pid = pid_sup[j];
                     pid_corr[j] = new_pid;
@@ -15813,6 +15908,7 @@ int calculateF(int fd, struct area_entry *ad, double *result)
                         pst[new_pid].count += pst[old_pid].count;
                         pst[old_pid].count = 0;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17061,12 +17157,15 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17953,6 +18052,8 @@ int calculateF(int fd, struct area_entry *ad, double *result)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                         if (old_pid == pid)
                             pid--;
                     }

@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -462,10 +463,16 @@ case "$(uname)" in
 <<<<<<< HEAD
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+case "$(uname)" in
+=======
+<<<<<<< HEAD
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 case "$(uname)" in 
 =======
 case "$(uname)" in
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1037,6 +1044,9 @@ case "$(uname)" in
 =======
 case "$(uname)" in
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

@@ -193,6 +193,7 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -572,6 +573,8 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if ((res = read(map->data_fd, xdr, nofBytes)) < 0 ||
         (size_t)res != nofBytes) {
 =======
@@ -709,6 +712,7 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
     if ((res = read(map->data_fd, xdr, nofBytes)) < 0 ||
         (size_t)res != nofBytes) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -972,12 +976,15 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     if (read(map->data_fd, xdr, nofBytes) != nofBytes) {
 =======
     if ((res = read(map->data_fd, xdr, nofBytes)) < 0 ||
         (size_t)res != nofBytes) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1715,6 +1722,8 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         Rast3d_error("Rast3d_readTileUncompressed: can't read file");
         return 0;
     }

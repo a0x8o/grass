@@ -1209,6 +1209,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1969,6 +1970,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -2836,6 +2839,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
         cont++;
 
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
@@ -2870,6 +2875,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
         if (!(ltype & GV_POINT))
             continue;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3395,6 +3401,11 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -3421,6 +3432,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
         if (!(ltype & GV_POINT))
             continue;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4195,6 +4207,10 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         point->z[0] = quotaZ;
         Vect_write_line(Out, ltype, point, cat);
     }

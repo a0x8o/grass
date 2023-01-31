@@ -154,6 +154,7 @@ void M_do_list(int n, const char *mapset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -914,6 +915,8 @@ void M_do_list(int n, const char *mapset)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             G_list_element(list[i].element[0], list[i].desc[0], mapset, NULL);
         }
     }
@@ -1718,6 +1721,8 @@ void M_do_list(int n, const char *mapset)
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             G_list_element(list[i].element[0], list[i].desc[0], mapset,
                            (int (*)())0);
         }
@@ -1725,6 +1730,7 @@ void M_do_list(int n, const char *mapset)
     else {
         G_list_element(list[n].element[0], list[n].desc[0], mapset,
                        (int (*)())0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1950,6 +1956,8 @@ void M_do_list(int n, const char *mapset)
         G_list_element(list[n].element[0], list[n].desc[0], mapset,
                        (int (*)())0);
 <<<<<<< HEAD
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2887,11 +2895,14 @@ void M_do_list(int n, const char *mapset)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
             G_list_element(list[i].element[0], list[i].desc[0], mapset, NULL);
         }
     }
     else {
         G_list_element(list[n].element[0], list[n].desc[0], mapset, NULL);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2980,5 +2991,11 @@ void M_do_list(int n, const char *mapset)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     }
 }

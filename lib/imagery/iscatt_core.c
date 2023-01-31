@@ -641,6 +641,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1268,6 +1269,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 =======
 <<<<<<< HEAD
@@ -1409,6 +1412,7 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1454,11 +1458,14 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
                 if (n_pixs != (row_size) / sizeof(unsigned char)) {
 =======
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2445,6 +2452,8 @@ static int compute_scatts_from_chunk_row(struct scCats *scatt_conds,
                 if (n_pixs != (row_size) / (int)sizeof(unsigned char)) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                     G_free(rast_pixs);
                     G_free(belongs_pix);
                     G_warning(

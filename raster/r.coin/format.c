@@ -122,6 +122,7 @@ int format_double(double v, char *buf, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -438,6 +439,8 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 =======
 <<<<<<< HEAD
@@ -522,6 +525,7 @@ int format_double(double v, char *buf, int n)
 =======
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,11 +691,14 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     for (k = n; strlen(buf) > n; k--) {
 =======
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1672,6 +1679,8 @@ int format_double(double v, char *buf, int n)
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         sprintf(fmt, "%%%d.%dg", n, k);
         sprintf(buf, fmt, v);
     }

@@ -130,6 +130,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -425,6 +426,11 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+        snprintf(input->com_line_ram, (400 * sizeof(char)),
+                 "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         sprintf(input->com_line_ram, "\"%s/etc/water/%s\"", G_gisbase(),
                 RAM_NAME);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -458,6 +464,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 <<<<<<< HEAD
             sprintf(input->com_line_seg, "\"%s/etc/water/%s\"", G_gisbase(),
                     SEG_NAME);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +519,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -521,6 +530,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,6 +1173,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         snprintf(input->com_line_ram, (400 * sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), RAM_NAME);
         fprintf(stderr,
@@ -1175,6 +1187,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
             input->com_line_seg = (char *)G_calloc(400, sizeof(char));
             snprintf(input->com_line_seg, (400, sizeof(char)),
                      "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2780,12 +2793,17 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         }
     }
     else {
         input->slow = 1;
         prog_name = G_store(SEG_NAME);
         input->com_line_seg = (char *)G_calloc(400, sizeof(char));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3879,6 +3897,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         snprintf(input->com_line_seg, (400, sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
 =======
@@ -3956,6 +3976,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
         snprintf(input->com_line_seg, (400, sizeof(char)),
                  "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4163,6 +4184,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         sprintf(input->com_line_seg, "\"%s/etc/water/%s\"", G_gisbase(),
                 SEG_NAME);
 =======
@@ -4170,6 +4193,7 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
                  "\"%s/etc/water/%s\"", G_gisbase(), SEG_NAME);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4719,6 +4743,8 @@ int com_line_Gwater(INPUT *input, OUTPUT *output)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     }
 
     G_message(_("\nIf you hit <return> by itself for the next question, this"));
@@ -6310,6 +6336,7 @@ int basin_com_add(char **com_line, double d, double modifier,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6621,6 +6648,8 @@ int basin_com_add(char **com_line, double d, double modifier,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, sizeof(buf), " t=%d", i);
 =======
 <<<<<<< HEAD
@@ -6715,6 +6744,7 @@ int basin_com_add(char **com_line, double d, double modifier,
     snprintf(buf, sizeof(buf), " t=%d", i);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7599,6 +7629,8 @@ int basin_com_add(char **com_line, double d, double modifier,
     sprintf(buf, " t=%d", i);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     strcat(*com_line, buf);
 
     return 0;

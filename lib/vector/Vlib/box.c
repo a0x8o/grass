@@ -1359,6 +1359,7 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1986,6 +1987,8 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -2127,6 +2130,7 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2172,11 +2176,14 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 =======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3155,6 +3162,8 @@ int Vect_get_line_box(const struct Map_info *Map, int line,
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return 0;
     }
 
@@ -4330,6 +4339,7 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4957,6 +4967,8 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -5098,6 +5110,7 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5143,11 +5156,14 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 =======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6126,6 +6142,8 @@ int Vect_get_area_box(const struct Map_info *Map, int area,
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return 0;
     }
 
@@ -7283,6 +7301,7 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7910,6 +7929,8 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -8051,6 +8072,7 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -8096,11 +8118,14 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 =======
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9079,6 +9104,8 @@ int Vect_get_isle_box(const struct Map_info *Map, int isle,
         Box->N = Box->S = Box->E = Box->W = Box->T = Box->B = 0. / 0.;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return 0;
     }
 

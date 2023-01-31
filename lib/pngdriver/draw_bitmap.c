@@ -172,6 +172,7 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -799,6 +800,8 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                 if (k > (unsigned int)threshold)
 =======
 <<<<<<< HEAD
@@ -940,6 +943,7 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -985,11 +989,14 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
                 if (k > threshold)
 =======
                 if (k > (unsigned int)threshold)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1976,6 +1983,8 @@ void PNG_draw_bitmap(int ncols, int nrows, int threshold,
                 if (k > (unsigned int)threshold)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                     *p = png.current_color;
             }
         }

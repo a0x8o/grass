@@ -182,6 +182,7 @@ source repository:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -936,6 +937,8 @@ source repository:
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
  must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC)
  before copyright messages are removed. If license terms are changed, it has to
  be by agreement (written in email is ok) of the copyright holders.
@@ -1834,9 +1837,15 @@ source repository:
  (written in email is ok) of the copyright holders.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+ must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC) before copyright messages
+ are removed. If license terms are changed, it has to be by agreement
+ (written in email is ok) of the copyright holders.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
  must do so in writing to the GRASS [PSC](https://trac.osgeo.org/grass/wiki/PSC)
  before copyright messages are removed. If license terms are changed, it has to
  be by agreement (written in email is ok) of the copyright holders.
+<<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
@@ -2733,6 +2742,13 @@ source repository:
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 * When substantial contributions are added to a file (such as
  substantial patches) the author/contributor should be added to the
  list of copyright holders for the file in the file header.
@@ -2785,6 +2801,7 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3225,6 +3242,8 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3504,6 +3523,7 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4249,3 +4269,5 @@ Internet: <http://grass.osgeo.org/home/contact-us/>
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))

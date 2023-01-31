@@ -138,6 +138,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -765,6 +766,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
 <<<<<<< HEAD
@@ -906,6 +909,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -951,11 +955,14 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         if (write(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 =======
         if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1942,6 +1949,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
         if (write(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             Rast3d_error("Rast3d_write_ints: writing to file failed");
             return 0;
         }
@@ -2074,6 +2083,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2701,6 +2711,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -2842,6 +2854,7 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2887,11 +2900,14 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         int j;
 =======
         unsigned int j;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3878,6 +3894,8 @@ int Rast3d_write_ints(int fd, int useXdr, const int *i, int nofNum)
         unsigned int j;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         n = nofNum % 1024;
         if (n == 0)
@@ -4033,6 +4051,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4660,6 +4679,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 =======
 <<<<<<< HEAD
@@ -4801,6 +4822,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -4846,11 +4868,14 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         if (read(fd, i, sizeof(int) * nofNum) != sizeof(int) * nofNum) {
 =======
         if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5837,6 +5862,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
         if (read(fd, i, sizeof(int) * nofNum) != (int)sizeof(int) * nofNum) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             Rast3d_error("Rast3d_read_ints: reading from file failed");
             return 0;
         }
@@ -5969,6 +5996,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6596,6 +6624,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         unsigned int j;
 =======
 <<<<<<< HEAD
@@ -6737,6 +6767,7 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -6782,11 +6813,14 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         int j;
 =======
         unsigned int j;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7773,6 +7807,8 @@ int Rast3d_read_ints(int fd, int useXdr, int *i, int nofNum)
         unsigned int j;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         n = nofNum % 1024;
         if (n == 0)

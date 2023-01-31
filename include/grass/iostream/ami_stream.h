@@ -774,6 +774,7 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1401,6 +1402,8 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 =======
@@ -1539,6 +1542,7 @@ char *AMI_STREAM<T>::sprint()
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1968,12 +1972,15 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 =======
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2565,6 +2572,8 @@ char *AMI_STREAM<T>::sprint()
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     return desc;
 }
 

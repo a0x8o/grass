@@ -159,6 +159,7 @@ flake8 --config lib/python/.flake8 lib/python/temporal/register.py
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -551,6 +552,8 @@ flake8 --config lib/python/.flake8 lib/python/temporal/register.py
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 :exclamation:
 It is very convenient and recommended to [use pre-commit](./submitting.md#use-pre-commit)
 to do both Black formatting and Flake8 file validation.
@@ -620,6 +623,7 @@ to do both Black formatting and Flake8 file validation.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -1102,6 +1106,10 @@ to do both Black formatting and Flake8 file validation.
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 ### Editor settings for 4-space indentation
 
 The correct editor settings for Python indentation
@@ -1174,6 +1182,7 @@ The correct editor settings for Python indentation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
 =======
 <<<<<<< HEAD
@@ -1568,6 +1577,8 @@ The correct editor settings for Python indentation
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
   - Edit > Preferences > Editor > Indentation tab > Type: Spaces
 =======
   - Edit > Preferences > Editor > Intentation tab > Type: Spaces
@@ -1635,6 +1646,7 @@ The correct editor settings for Python indentation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -2159,6 +2171,11 @@ The correct editor settings for Python indentation
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+  - Edit > Preferences > Editor > Intentation tab > Type: Spaces
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 - [​PyCharm](https://www.jetbrains.com/pycharm/) IDE:
   - already fine and includes code-linting
 - [​atom](https://atom.io/) IDE:
@@ -2418,6 +2435,7 @@ To enable translating of messages to other languages (than English), use full
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 strings, e.g.
 =======
 <<<<<<< HEAD
@@ -2812,6 +2830,8 @@ strings, e.g.
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 strings, e.g. (good example):
 =======
 strings, e.g.
@@ -2879,6 +2899,7 @@ strings, e.g.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -3403,6 +3424,11 @@ strings, e.g.
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+strings, e.g.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 ```py
 if ...:
@@ -3478,6 +3504,7 @@ else:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 instead of constructing string from several parts:
 =======
 <<<<<<< HEAD
@@ -3872,6 +3899,8 @@ instead of constructing string from several parts:
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 instead of constructing string from several parts (bad example):
 =======
 instead of constructing string from several parts:
@@ -3939,6 +3968,7 @@ instead of constructing string from several parts:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -4463,6 +4493,11 @@ instead of constructing string from several parts:
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+=======
+instead of constructing string from several parts:
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
 ```py
 if ...:

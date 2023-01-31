@@ -8014,6 +8014,7 @@ int error_Output(int out, msg m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8641,6 +8642,8 @@ int error_Output(int out, msg m)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 =======
 <<<<<<< HEAD
@@ -8782,6 +8785,7 @@ int error_Output(int out, msg m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -8827,11 +8831,14 @@ int error_Output(int out, msg m)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         if (write(out, s, strlen(s)) == strlen(s))
 =======
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9818,6 +9825,8 @@ int error_Output(int out, msg m)
         if (write(out, s, strlen(s)) == (ssize_t)strlen(s))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             return 1;
         else
             return 0;

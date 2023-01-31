@@ -1777,6 +1777,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2404,6 +2405,8 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int (*lower)(double, double);
 =======
 <<<<<<< HEAD
@@ -2545,6 +2548,7 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -2590,11 +2594,14 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     int (*lower)();
 =======
     int (*lower)(double, double);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3573,6 +3580,8 @@ CELL Rast_quant_get_cell_value(struct Quant *q, DCELL dcellVal)
     int (*lower)();
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
     dtmp = dcellVal;
     /* I know the functions which call me already check for null values,

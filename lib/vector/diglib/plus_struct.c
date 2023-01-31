@@ -13374,6 +13374,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13690,6 +13691,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 =======
 <<<<<<< HEAD
@@ -13774,6 +13777,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13939,11 +13943,14 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     if (sizeof(off_t) < ptr->off_t_size) {
 =======
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14924,6 +14931,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         G_warning(_("Vector exceeds supported file size limit"));
         return (-1);
     }

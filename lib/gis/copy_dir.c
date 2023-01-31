@@ -201,6 +201,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -828,6 +829,8 @@ int G_recursive_copy(const char *src, const char *dst)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         ssize_t len, len2;
 =======
 <<<<<<< HEAD
@@ -969,6 +972,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1014,11 +1018,14 @@ int G_recursive_copy(const char *src, const char *dst)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         size_t len, len2;
 =======
         ssize_t len, len2;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1997,6 +2004,8 @@ int G_recursive_copy(const char *src, const char *dst)
         size_t len, len2;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 
         if (G_lstat(dst, &sb) == 0 && S_ISDIR(sb.st_mode)) {
             char path[GPATH_MAX];

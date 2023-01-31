@@ -230,6 +230,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -857,6 +858,8 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         n = ((unsigned int)nrows + 1) * sizeof(off_t);
 =======
 <<<<<<< HEAD
@@ -998,6 +1001,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1043,11 +1047,14 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         n = (nrows + 1) * sizeof(off_t);
 =======
         n = ((unsigned int)nrows + 1) * sizeof(off_t);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2034,6 +2041,8 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
         n = ((unsigned int)nrows + 1) * sizeof(off_t);
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         if (read(fd, row_ptr, n) != n)
             goto badread;
         return 1;
@@ -2090,6 +2099,7 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2224,11 +2234,14 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     for (row = 0, b = buf; row <= (unsigned int)nrows; row++) {
         off_t v = 0;
 
         for (n = 0; n < nbytes; n++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2336,10 +2349,15 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     for (row = 0, b = buf; row <= nrows; row++) {
         off_t v = 0;
 
         for (n = 0; n < (int)nbytes; n++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2409,10 +2427,13 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2520,10 +2541,15 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     for (row = 0, b = buf; row <= (unsigned int)nrows; row++) {
         off_t v = 0;
 
         for (n = 0; n < nbytes; n++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2584,10 +2610,13 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2701,6 +2730,8 @@ static int read_row_ptrs(int nrows, int old, off_t *row_ptr, int fd)
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             unsigned char c = *b++;
 
             if (nbytes > sizeof(off_t) && n < nbytes - sizeof(off_t) && c != 0)

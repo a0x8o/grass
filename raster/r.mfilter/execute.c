@@ -270,6 +270,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -897,6 +898,8 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 =======
@@ -1035,6 +1038,7 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1464,12 +1468,15 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
             write(out[id], cellp, buflen);
 =======
             if (write(out[id], cellp, buflen) < 0)
                 G_fatal_error("Error writing temporary file");
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2061,6 +2068,8 @@ int execute_filter(ROWIO *r, int *out, FILTER *filter, DCELL **cell)
             write(out[id], cellp, buflen);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 #pragma omp atomic update
             work++;
         }

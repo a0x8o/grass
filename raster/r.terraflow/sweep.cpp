@@ -1075,6 +1075,7 @@ FLOW_DATASTR *initializePQ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1702,6 +1703,8 @@ FLOW_DATASTR *initializePQ()
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 =======
@@ -1840,6 +1843,7 @@ FLOW_DATASTR *initializePQ()
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2269,12 +2273,15 @@ FLOW_DATASTR *initializePQ()
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(buf, "initialized to %.2fMB\n", (float)PQ_SIZE / (1 << 20));
 =======
     snprintf(buf, sizeof(buf), "initialized to %.2fMB\n",
              (float)PQ_SIZE / (1 << 20));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2866,6 +2873,8 @@ FLOW_DATASTR *initializePQ()
     sprintf(buf, "initialized to %.2fMB\n", (float)PQ_SIZE / (1 << 20));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (stats)
         *stats << buf;
 
@@ -4256,6 +4265,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4883,6 +4893,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     snprintf(buf, sizeof(buf), "pqsize = %ld \n", (long)flowpq->size());
 =======
 <<<<<<< HEAD
@@ -5024,6 +5036,7 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5069,11 +5082,14 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
     sprintf(buf, "pqsize = %ld \n", (long)flowpq->size());
 =======
     snprintf(buf, sizeof(buf), "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6052,6 +6068,8 @@ AMI_STREAM<sweepOutput> *sweep(AMI_STREAM<sweepItem> *sweepstr,
     sprintf(buf, "pqsize = %ld \n", (long)flowpq->size());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     if (stats)
         *stats << buf;
 

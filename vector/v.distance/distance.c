@@ -133,6 +133,7 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -760,6 +761,8 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         box->E = box->W = box->N = box->S = box->T = box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -901,6 +904,7 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -946,11 +950,14 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         box->E = box->W = box->N = box->S = box->T = box->B = 0.0 / 0.0;
 =======
         box->E = box->W = box->N = box->S = box->T = box->B = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1929,6 +1936,8 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
         box->E = box->W = box->N = box->S = box->T = box->B = 0.0 / 0.0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         return 0;
     }
 

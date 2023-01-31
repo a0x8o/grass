@@ -44,6 +44,7 @@ struct octfunc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -368,6 +369,8 @@ struct octfunc {
 >>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -2013,6 +2016,8 @@ struct octtree {
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     int (*compare)();
     VOID_T **(*divide_data)();
     int (*add_data)();
@@ -2163,6 +2168,7 @@ struct octtree {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
     VOID_T *data;
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2170,8 +2176,11 @@ struct octtree {
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     int (*compare)(struct quadruple *, struct octdata *);
     struct octdata **(*divide_data)(struct octdata *);
     int (*add_data)(struct quadruple *, struct octdata *);
@@ -2187,6 +2196,7 @@ struct octtree {
     struct octdata *data;
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3246,6 +3256,11 @@ struct octtree {
     VOID_T *data;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
     struct octtree **leafs;
     struct octtree *parent;
     struct octfunc *functions;

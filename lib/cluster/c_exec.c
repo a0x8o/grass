@@ -153,6 +153,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -780,6 +781,8 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 =======
 <<<<<<< HEAD
@@ -921,6 +924,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -966,11 +970,14 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
                    int (*checkpoint)(), int *interrupted)
 =======
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1949,6 +1956,8 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
                    int (*checkpoint)(), int *interrupted)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 2b0d6b05cd (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
 {
     int changes;
 

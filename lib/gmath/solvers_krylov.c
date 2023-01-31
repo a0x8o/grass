@@ -3002,6 +3002,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3629,6 +3630,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         for (i = 0; i < (unsigned int)rows; i++) {
 =======
 <<<<<<< HEAD
@@ -3770,6 +3773,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -3815,11 +3819,14 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         for (i = 0; i < rows; i++) {
 =======
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4806,6 +4813,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             G_math_spvector *spvect = G_math_alloc_spvector(1);
 
             switch (prec) {
@@ -4959,6 +4968,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5586,6 +5596,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 =======
 >>>>>>> 3bbe136a0b (r.horizon manual - fix typo (#2794))
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
         for (i = 0; i < (unsigned int)rows; i++) {
 =======
 <<<<<<< HEAD
@@ -5727,6 +5739,7 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5772,11 +5785,14 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
+=======
         for (i = 0; i < rows; i++) {
 =======
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6763,6 +6779,8 @@ G_math_spvector **create_diag_precond_matrix(double **A, G_math_spvector **Asp,
         for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d742feb5c4 (r.horizon manual - fix typo (#2794))
             G_math_spvector *spvect = G_math_alloc_spvector(1);
 
             switch (prec) {
