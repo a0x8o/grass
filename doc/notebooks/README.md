@@ -158,6 +158,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -444,6 +445,8 @@
 =======
 >>>>>>> c99e518a1a (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -460,6 +463,8 @@
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -1498,7 +1503,12 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 =======
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
@@ -2979,6 +2989,10 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
+Clone this repository with `git clone` first. Then, locally start the Jupyter notebook
+server from the command line in the `doc/notebooks/` directory containing the `*.ipynb` files with:
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
 Clone this repository with `git clone` first. Then, locally start the Jupyter
 notebook server from the command line in the `doc/notebooks/` directory containing
 the `*.ipynb` files with:
@@ -2988,10 +3002,15 @@ the `*.ipynb` files with:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3021,6 +3040,12 @@ the `*.ipynb` files with:
 >>>>>>> d7db4d7708 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -3031,6 +3056,7 @@ the `*.ipynb` files with:
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3079,8 +3105,16 @@ server from the command line in the `doc/notebooks/` directory containing the `*
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> c99e518a1a (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 `jupyter notebook`
 
 This will open a new browser tab or window with a list of the contents of the current
@@ -3525,6 +3559,10 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> d54647dc67 (r.horizon manual - fix typo (#2794))
 =======
 =======
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 =======
@@ -3710,6 +3748,8 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4124,6 +4164,7 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
@@ -4282,6 +4323,10 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> eeb3562b85 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
@@ -5025,5 +5070,13 @@ See also the official documentation for [The Jupyter Notebook](https://jupyter-n
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> cf8c11a1bc (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> c99e518a1a (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+>>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+>>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
