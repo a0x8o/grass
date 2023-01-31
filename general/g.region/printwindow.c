@@ -920,6 +920,7 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             convergence = NAN;
 =======
             convergence = 0. / 0.;
@@ -930,6 +931,12 @@ void print_window(struct Cell_head *window, int print_flag, int flat_flag,
 =======
             convergence = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+            convergence = 0. / 0.;
+=======
+            convergence = NAN;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
         else if (G_projection() == PROJECTION_LL)
             convergence = 0.0;
         else {
