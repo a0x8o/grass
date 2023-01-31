@@ -623,6 +623,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -734,6 +735,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -952,7 +955,12 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
             (size_t)nsizc) {
 =======
@@ -1320,6 +1328,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1358,6 +1367,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1717,7 +1728,12 @@ static FILE *create_temp_file(const char *name, char **tmpname)
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

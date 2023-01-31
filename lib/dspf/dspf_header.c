@@ -102,6 +102,7 @@ int dfwrite_header(file_info *headp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -179,6 +180,8 @@ int dfwrite_header(file_info *headp)
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -756,6 +759,8 @@ int dfwrite_header(file_info *headp)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5952770ec6 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
     if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) !=
         (size_t)linep->nthres) {
 =======
@@ -773,6 +778,7 @@ int dfwrite_header(file_info *headp)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,9 +814,12 @@ int dfwrite_header(file_info *headp)
 =======
 >>>>>>> 5952770ec6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+=======
     if ((fwrite(linep->tvalue, flsize, linep->nthres, fp)) !=
         (size_t)linep->nthres) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,7 +1033,12 @@ int dfwrite_header(file_info *headp)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
         fprintf(stderr, "ERROR: fwrite in dspf_header.c\n");
         return (-1);
     }

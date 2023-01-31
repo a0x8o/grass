@@ -42,6 +42,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -153,6 +154,8 @@ Purpose:    Tests r.contour and its flags/options.
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2ef24fe08c (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a3ae8c6790 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -313,7 +316,13 @@ Purpose:    Tests r.contour and its flags/options.
 =======
     
 >>>>>>> c820dbdc0b (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 >>>>>>> 2ef24fe08c (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 Author:     Sunveer Singh, Google Code-in 2018
 Copyright:  (C) 2018 by Sunveer Singh and the GRASS Development Team
 Licence:    This program is free software under the GNU General Public

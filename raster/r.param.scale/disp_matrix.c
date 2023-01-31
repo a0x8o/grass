@@ -90,6 +90,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -261,6 +262,8 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -530,7 +533,12 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
@@ -1156,6 +1164,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
 =======
@@ -1183,9 +1192,12 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 >>>>>>> 5952770ec6 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+=======
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1615,7 +1627,14 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+                           _                        _      _  _      _  _
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |

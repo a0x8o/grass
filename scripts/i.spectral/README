@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  This GRASS module calculates the  spectral resonse
 =======
 <<<<<<< HEAD
@@ -139,6 +140,8 @@
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -268,7 +271,12 @@
 =======
 =======
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
  This GRASS module calculates the  spectral response
 =======
  This GRASS module calculates the  spectral resonse
@@ -313,6 +321,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d0f35a9c (r.horizon manual - fix typo (#2794))
 =======
@@ -352,6 +361,8 @@
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -636,7 +647,12 @@
  This GRASS module calculates the  spectral resonse
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> b92dc799e4 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
  for raster images at a user specified point (by mouse).
 
  Requirement:

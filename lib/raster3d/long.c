@@ -127,6 +127,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -238,6 +239,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -456,7 +459,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
         if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
 <<<<<<< HEAD
@@ -804,6 +812,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -841,6 +850,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -1211,7 +1222,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
         if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
             Rast3d_fatal_error("Rast3d_long_decode: decoded long too long");
         dest--;
     }
@@ -1301,6 +1317,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1412,6 +1429,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> 90b36a3841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1630,7 +1649,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
             if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
 <<<<<<< HEAD
@@ -1978,6 +2002,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2015,6 +2040,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 >>>>>>> d01c2a12f1 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3b16f7b005 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2385,7 +2412,12 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
             if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 3ee8648585 (r.horizon manual - fix typo (#2794))
+>>>>>>> 4130b8db48 (r.horizon manual - fix typo (#2794))
                 Rast3d_fatal_error("Rast3d_long_decode: decoded long too long");
             dest--;
         }
