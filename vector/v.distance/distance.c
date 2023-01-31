@@ -17,8 +17,11 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         box->E = box->W = box->N = box->S = box->T = box->B = NAN;
 =======
 <<<<<<< HEAD
@@ -49,12 +52,16 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
         box->E = box->W = box->N = box->S = box->T = box->B = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
         box->E = box->W = box->N = box->S = box->T = box->B = 0.0 / 0.0;
 =======
         box->E = box->W = box->N = box->S = box->T = box->B = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -78,6 +85,8 @@ int get_line_box(const struct line_pnts *Points, struct bound_box *box)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         return 0;
     }
 
