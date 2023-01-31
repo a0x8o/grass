@@ -194,6 +194,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -530,6 +531,8 @@ ignore =
 =======
 >>>>>>> 8093d48be8 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> a9a25aa0c7 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> e56c7523eb (g.proj: fix reading input WKT (#1582))
 >>>>>>> 89f6fd2f96 (g.proj: fix reading input WKT (#1582))
 =======
@@ -560,6 +563,8 @@ ignore =
 >>>>>>> 284a65cbb8 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> a61698b913 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 5b2a09c6ef (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
@@ -1071,6 +1076,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1215,6 +1221,8 @@ ignore =
 =======
 <<<<<<< HEAD
 >>>>>>> fab41f991b (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> a9a25aa0c7 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
@@ -1601,6 +1609,7 @@ ignore =
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c248909064 (pythonlib: Remove star imports (#1546))
 =======
@@ -2498,6 +2507,10 @@ ignore =
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e83b17a18 (pythonlib: Remove star imports (#1546))
 >>>>>>> 8093d48be8 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 5b2a09c6ef (g.proj: fix reading input WKT (#1582))
+>>>>>>> a9a25aa0c7 (g.proj: fix reading input WKT (#1582))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
