@@ -114,6 +114,7 @@ Status: Adopted (6 Oct 2014)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -239,6 +240,8 @@ Status: Adopted (6 Oct 2014)
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 =======
@@ -3003,9 +3006,25 @@ In brief, the PSC members vote on proposals on the dedicated
 In brief, the PSC members vote on proposals on the dedicated
 [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 439687cd76 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+In brief, the PSC members vote on proposals on the dedicated [GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
+=======
+In brief, the PSC members vote on proposals on the dedicated
+[GRASS-PSC mailing list](http://lists.osgeo.org/mailman/listinfo/grass-psc).
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 Proposals are available for review for at least seven calendar days, and a
 single veto is sufficient to delay progress although ultimately a majority
 of committee members can pass a proposal.
@@ -3013,6 +3032,7 @@ of committee members can pass a proposal.
 ## Detailed Process
 
 Proposals:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3765,6 +3785,8 @@ Proposals:
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4807,6 +4829,7 @@ Voting:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4817,6 +4840,8 @@ Voting:
 >>>>>>> ca49da7f4d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 57b656d91d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4919,6 +4944,7 @@ Voting:
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c667b6bfad (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -5001,6 +5027,10 @@ Voting:
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
  1. Proposals are written up and submitted on the PSC mailing list for discussion. Any committee member may call a vote on any proposal, although it is normal practice for the proposer to call the vote. Any interested  party may subscribe to the list and join the discussion, but only [PSC committee members](https://trac.osgeo.org/grass/wiki/PSC) including the PSC Chair get a vote ("eligible voters").
  1. Proposals are available for review for at least seven calendar days before a vote can be closed. It is acknowledged that some more complex issues may require more time for discussion and deliberation: a vote should only be closed after the minimum time period (see above) has passed and sufficient discussion has taken place, or no more progress is being made. The PSC Chair may override this and prolong the discussion period or close a vote straight away if necessary (although the minimum time period for discussion/voting always applies).
 
@@ -5013,6 +5043,7 @@ Voting:
  1. The committee member who called the vote (normally the proposer) is responsible for collating votes and presenting the result to the PSC after closing the vote.
  1. The Chair adjudicates in cases of disputes over voting.
  1. If a proposal is vetoed, and it cannot be revised to satisfy all parties, then it can be resubmitted for an override vote in which a majority of all eligible voters indicating +1 is sufficient to pass it. Note that this is a majority of all eligible voters, not just those who actively vote.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5095,6 +5126,8 @@ Voting:
 =======
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
@@ -5114,6 +5147,7 @@ Voting:
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -5154,6 +5188,10 @@ Voting:
 >>>>>>> f342172848 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5177,11 +5215,14 @@ Voting:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 711671af6b (Fix missing function prototypes (#2727))
 >>>>>>> 4f0c0751b4 (Fix missing function prototypes (#2727))
@@ -5585,6 +5626,8 @@ Voting:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+=======
 =======
 
  1. Proposals are written up and submitted on the PSC mailing list for discussion.
@@ -5603,6 +5646,7 @@ Voting:
     applies).
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5657,6 +5701,8 @@ Voting:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 Voting:
 
  1. A voting procedure is started by the proposer. For a more visible communication,
@@ -5679,6 +5725,7 @@ Voting:
     it can be resubmitted for an override vote in which a majority of all eligible
     voters indicating +1 is sufficient to pass it. Note that this is a majority of
     all eligible voters, not just those who actively vote.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5731,6 +5778,8 @@ Voting:
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5749,6 +5798,12 @@ Voting:
 <<<<<<< HEAD
 >>>>>>> main
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9385,4 +9440,9 @@ Voting:
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 3c6ff8d9ea (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 7131152b5c (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> d924e21742 (r.horizon manual - fix typo (#2794))
+>>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
