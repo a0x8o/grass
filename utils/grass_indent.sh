@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -96,6 +97,9 @@ case "$(uname)" in
 =======
 case "$(uname)" in 
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+case "$(uname)" in
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;
