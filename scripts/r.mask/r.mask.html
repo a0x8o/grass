@@ -41,6 +41,7 @@ The MASK is applied when <em>reading</em> an existing GRASS raster map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3864,10 +3865,15 @@ like other GRASS raster map layers.
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 for example when used as an input map in a module. The MASK will block out
 certain areas of a raster map from analysis and/or display, by "hiding" them
 from sight of other GRASS modules. Data falling within the boundaries of the
 MASK can be modified and operated upon by other GRASS raster modules; data
+<<<<<<< HEAD
 falling outside the MASK is treated as if it were NULL.
 <p>
 By default, <em>r.mask</em> converts any non-NULL value in the input map,
@@ -3910,6 +3916,7 @@ for example when used as an input map in a module. The MASK will block out
 certain areas of a raster map from analysis and/or display, by "hiding" them 
 from sight of other GRASS modules. Data falling within the boundaries of the 
 MASK can be modified and operated upon by other GRASS raster modules; data 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4129,6 +4136,8 @@ MASK can be modified and operated upon by other GRASS raster modules; data
 >>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> dfb114d4e3 (r.horizon manual - fix typo (#2794))
 >>>>>>> 51c6907b22 (r.horizon manual - fix typo (#2794))
@@ -5424,16 +5433,20 @@ like other GRASS raster map layers.
 >>>>>>> 7bd5a01c1d (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 falling outside the MASK is treated as if it were NULL.
 <p>
-By default, <em>r.mask</em> converts any non-NULL value in the input map, 
-including zero, to 1. All these areas will be part of the MASK (see the notes 
-for more details). To only convert specific values (or range of values) to 1 
-and the rest to NULL, use the <em>maskcats</em> parameter. 
+By default, <em>r.mask</em> converts any non-NULL value in the input map,
+including zero, to 1. All these areas will be part of the MASK (see the notes
+for more details). To only convert specific values (or range of values) to 1
+and the rest to NULL, use the <em>maskcats</em> parameter.
 <p>
-Because the MASK created with <em>r.mask</em> is actually only a reclass map 
-named "MASK", it can be copied, renamed, removed, and used in analyses, just 
-like other GRASS raster map layers.  
+Because the MASK created with <em>r.mask</em> is actually only a reclass map
+named "MASK", it can be copied, renamed, removed, and used in analyses, just
+like other GRASS raster map layers.
 <p>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
@@ -5652,6 +5665,7 @@ MASK by setting the <b>-r</b> remove MASK flag (<tt>r.mask -r</tt>).
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5855,6 +5869,8 @@ MASK by setting the <b>-r</b> remove MASK flag (<tt>r.mask -r</tt>).
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -6258,6 +6274,8 @@ MASK by setting the <b>-r</b> remove MASK flag (<tt>r.mask -r</tt>).
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 Alternatively, a mask can be removed using <em>g.remove</em> or by renaming it
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6907,6 +6925,7 @@ Alternatively, a mask can be removed using <em>g.remove</em> or by renaming it
 >>>>>>> osgeo-main
 Alternatively, a mask can be removed using <em>g.remove</em> or by renaming it 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8747,7 +8766,12 @@ Alternatively, a mask can be removed using <em>g.remove</em> or by renaming it
 Alternatively, a mask can be removed using <em>g.remove</em> or by renaming it 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 to any other name with <em>g.rename</em>.
 
 <h2>NOTES</h2>
@@ -8962,6 +8986,7 @@ to any other name with <em>g.rename</em>.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -8978,6 +9003,8 @@ to any other name with <em>g.rename</em>.
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -9584,6 +9611,8 @@ to any other name with <em>g.rename</em>.
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 The above method for specifying a "mask" may seem counterintuitive. Areas
 inside the MASK are not hidden; areas outside the MASK will be ignored until
 the MASK file is removed.
@@ -9639,7 +9668,11 @@ inside the MASK are not hidden; areas outside the MASK will be ignored until
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 57e3ae6310 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 <<<<<<< HEAD
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
@@ -9778,9 +9811,12 @@ inside the MASK are not hidden; areas outside the MASK will be ignored until
 =======
 >>>>>>> 2656f886ff (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+=======
 The above method for specifying a "mask" may seem counterintuitive. Areas
 inside the MASK are not hidden; areas outside the MASK will be ignored until
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14118,14 +14154,17 @@ The above method for specifying a "mask" may seem counterintuitive. Areas
 inside the MASK are not hidden; areas outside the MASK will be ignored until 
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 the MASK file is removed.
 <p>
 <em>r.mask</em> uses <em>r.reclass</em> to create a reclassification of an
-existing raster map and name it <tt>MASK</tt>. A reclass map takes up less 
-space, but is affected by any changes to the underlying map from which it was 
+existing raster map and name it <tt>MASK</tt>. A reclass map takes up less
+space, but is affected by any changes to the underlying map from which it was
 created. The user can select category values from the input raster to use in the
 MASK with the <em>maskcats</em> parameter; if <em>r.mask</em> is run from the
 command line, the category values listed in <em>maskcats</em> must be quoted
+<<<<<<< HEAD
 (see example below). Note that the <em>maskcats</em> can only be used if the 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14185,8 +14224,17 @@ MASK with the <em>maskcats</em> parameter; if <em>r.mask</em> is run from the
 command line, the category values listed in <em>maskcats</em> must be quoted
 (see example below). Note that the <em>maskcats</em> can only be used if the 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+(see example below). Note that the <em>maskcats</em> can only be used if the
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 input map is an integer map.
 
 <h3>Different ways to create a MASK</h3>
@@ -14264,6 +14312,7 @@ input map is an integer map.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 =======
@@ -15812,6 +15861,7 @@ raster cells with 0 and 1 will be part of the MASK. This is because
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -16256,6 +16306,10 @@ raster cells with 0 and 1 will be part of the MASK. This is because
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 The <em>r.mask</em> function creates a MASK with values 1 and NULL. But note
 that a MASK can also be created using other functions that have a raster as
 output, by naming the output raster 'MASK'. Such layers could have other
@@ -19061,12 +19115,17 @@ raster cells with 0 and 1 will be part of the MASK. This is because
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 The <em>r.mask</em> function creates a MASK with values 1 and NULL. But note 
 that a MASK can also be created using other functions that have a raster as 
+=======
+The <em>r.mask</em> function creates a MASK with values 1 and NULL. But note
+that a MASK can also be created using other functions that have a raster as
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 output, by naming the output raster 'MASK'. Such layers could have other
-values than 1 and NULL. The user should therefore be aware that grid cells 
+values than 1 and NULL. The user should therefore be aware that grid cells
 in the MASK map containing <tt>NULL</tt> or <tt>0</tt> will replace data with
-NULL, while cells containing other values will allow data to pass through 
+NULL, while cells containing other values will allow data to pass through
 unaltered. This means that:
 <p>
+<<<<<<< HEAD
 If a binary map with [0,1] values is used as input in <em>r.mask</em>, all 
 raster cells with 0 and 1 will be part of the MASK. This is because 
 <<<<<<< HEAD
@@ -19079,8 +19138,18 @@ raster cells with 0 and 1 will be part of the MASK. This is because
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+If a binary map with [0,1] values is used as input in <em>r.mask</em>, all
+raster cells with 0 and 1 will be part of the MASK. This is because
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 <em>r.mask</em> converts all non-NULL cells to 1.
 
 <div class="code"><pre>
@@ -19298,6 +19367,7 @@ r.mask raster=map1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19501,6 +19571,8 @@ r.mask raster=map1
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -19904,6 +19976,8 @@ r.mask raster=map1
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 On the other hand, if a binary map is used as an input in <em>g.copy</em> to create a MASK,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20553,6 +20627,7 @@ On the other hand, if a binary map is used as an input in <em>g.copy</em> to cre
 >>>>>>> osgeo-main
 On the other hand, if a binary map is used as an input in <em>g.copy</em> to create a MASK,  
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22393,7 +22468,12 @@ On the other hand, if a binary map is used as an input in <em>g.copy</em> to cre
 On the other hand, if a binary map is used as an input in <em>g.copy</em> to create a MASK,  
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 only the raster cells with value 1 will be part of the MASK.
 
 <div class="code"><pre>
@@ -22614,6 +22694,7 @@ g.copy raster=map2,MASK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22871,6 +22952,8 @@ g.copy raster=map2,MASK
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -25858,6 +25941,8 @@ are thus part of the MASK. In the example below, all raster cells are part of
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 floating maps are not allowed in combination with the <em>maskcats</em>
 parameter); all non-NULL values of the input raster map are converted to 1 and
 are thus part of the MASK. In the example below, all raster cells are part of
@@ -26349,6 +26434,7 @@ are thus part of the MASK. In the example below, all raster cells are part of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26739,9 +26825,12 @@ parameter); all non-NULL values of the input raster map are converted to 1 and
 are thus part of the MASK. In the example below, all raster cells are part of 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+=======
 floating maps are not allowed in combination with the <em>maskcats</em>
 parameter); all non-NULL values of the input raster map are converted to 1 and
 are thus part of the MASK. In the example below, all raster cells are part of
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27295,7 +27384,13 @@ are thus part of the MASK. In the example below, all raster cells are part of
 =======
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 the MASK, i.e., nothing is blocked out from analysis and/or display.
 
 <div class="code"><pre>
@@ -27517,6 +27612,7 @@ the map's quantisation rules (this defaults to round-to-nearest, but can be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -27720,6 +27816,8 @@ the map's quantisation rules (this defaults to round-to-nearest, but can be
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -28123,6 +28221,8 @@ the map's quantisation rules (this defaults to round-to-nearest, but can be
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 changed with r.quant).
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -28772,6 +28872,7 @@ changed with r.quant).
 >>>>>>> osgeo-main
 changed with r.quant). 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30612,7 +30713,12 @@ changed with r.quant).
 changed with r.quant). 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 
 <div class="code"><pre>
 r.mapcalc -s "map4 = rand(0.0,1.0)"
@@ -30829,6 +30935,7 @@ g.copy raster=map4,MASK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -30845,6 +30952,8 @@ g.copy raster=map4,MASK
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5c0a5aef3c (r.horizon manual - fix typo (#2794))
@@ -31464,6 +31573,8 @@ g.copy raster=map4,MASK
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
 In the example above, raster cells with a rounded value of 1 are part of
 the MASK, while raster cells with a rounded value of 0 are converted to NULL
 =======
@@ -32640,6 +32751,7 @@ the MASK, while raster cells with a rounded value of 0 are converted to NULL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -32806,6 +32918,8 @@ the MASK, while raster cells with a rounded value of 0 are converted to NULL
 >>>>>>> 558d40de40 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6f3e89dc82 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -34163,7 +34277,12 @@ the MASK, while raster cells with a rounded value of 0 are converted to NULL
 =======
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 and consequently blocked out from analysis and/or display.
 
 <h2>EXAMPLES</h2>

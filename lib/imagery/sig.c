@@ -53629,6 +53629,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -53865,6 +53866,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -54295,6 +54298,10 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -61349,6 +61356,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -61585,6 +61593,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -62015,6 +62025,10 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -69072,6 +69086,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69308,6 +69323,8 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> fde75d3dd6 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2940bcf2c1 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> e8a65191df (r.horizon manual - fix typo (#2794))
 >>>>>>> 5a9f81a6c5 (r.horizon manual - fix typo (#2794))
@@ -69738,6 +69755,10 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 >>>>>>> 619ae34f9c (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 1a771fd4a9 (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 >>>>>>> 998dac8c79 (ci: Ignore paths in CodeQL (#1778))
 =======
