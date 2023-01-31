@@ -125,6 +125,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -284,6 +285,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> f1ae4cefc3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d7915bf932 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
 =======
@@ -907,7 +910,12 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
 =======
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
+>>>>>>> d7915bf932 (pythonlib: Remove star imports (#1546))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -917,6 +925,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 =======
 >>>>>>> 2bf163e4b3 (libpython: Save and load benchmark results (#1711))
@@ -1153,12 +1163,15 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d7d1827cf8 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 2f523f7cda (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 694dd243d2 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
@@ -1175,6 +1188,7 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2b9c47dad2 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
@@ -1187,6 +1201,8 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> abaa36c727 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4d9f88c17a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> d7915bf932 (pythonlib: Remove star imports (#1546))
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -1607,7 +1623,12 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 82b75069a1 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 6a641f7e2e (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
+>>>>>>> d7915bf932 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING
