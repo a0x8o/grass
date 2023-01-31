@@ -177,6 +177,9 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
 =======
@@ -529,6 +532,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -1476,6 +1481,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1580,6 +1586,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 0d9b51afc4 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2277,6 +2285,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
         stats[i].min = 0.0 / 0.0; /* set to nan as default */
         stats[i].max = 0.0 / 0.0; /* set to nan as default */
 =======
@@ -2284,6 +2294,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
         stats[i].max = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2393,7 +2404,12 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -6778,6 +6794,7 @@ int print_stats(univar_stat *stats)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 =======
+<<<<<<< HEAD
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
@@ -7469,16 +7486,99 @@ int print_stats(univar_stat *stats)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 =======
+        /* all these calculations get promoted to doubles, so any DIV0 becomes
+         * nan */
+        mean = stats[z].sum / stats[z].n;
+        variance = (stats[z].sumsq - stats[z].sum * stats[z].sum / stats[z].n) /
+                   stats[z].n;
+        if (variance < GRASS_EPSILON)
+            variance = 0.0;
+        stdev = sqrt(variance);
+        var_coef = (stdev / mean) * 100.; /* perhaps stdev/fabs(mean) ? */
+
+        if (stats[z].n == 0)
+<<<<<<< HEAD
+            stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+        sprintf(sum_str, "%.15g", stats[z].sum);
+        G_trim_decimal(sum_str);
+
+        if (!param.shell_style->answer) {
+            if (zone_info.n_zones) {
+                int z_cat = z + zone_info.min;
+
+                fprintf(stdout, "\nzone %d %s\n\n", z_cat,
+                        Rast_get_c_cat(&z_cat, &(zone_info.cats)));
+            }
+            fprintf(stdout, "total null and non-null cells: %lu\n",
+                    stats[z].size);
+            fprintf(stdout, "total null cells: %lu\n\n",
+                    stats[z].size - stats[z].n);
+            fprintf(stdout, "Of the non-null cells:\n----------------------\n");
+        }
+
+        if (param.shell_style->answer) {
+            if (zone_info.n_zones) {
+                int z_cat = z + zone_info.min;
+
+                fprintf(stdout, "zone=%d;%s\n", z_cat,
+                        Rast_get_c_cat(&z_cat, &(zone_info.cats)));
+            }
+            fprintf(stdout, "n=%lu\n", stats[z].n);
+            fprintf(stdout, "null_cells=%lu\n", stats[z].size - stats[z].n);
+            fprintf(stdout, "cells=%lu\n", stats->size);
+            fprintf(stdout, "min=%.15g\n", stats[z].min);
+            fprintf(stdout, "max=%.15g\n", stats[z].max);
+            fprintf(stdout, "range=%.15g\n", stats[z].max - stats[z].min);
+            fprintf(stdout, "mean=%.15g\n", mean);
+            fprintf(stdout, "mean_of_abs=%.15g\n",
+                    stats[z].sum_abs / stats[z].n);
+            fprintf(stdout, "stddev=%.15g\n", stdev);
+            fprintf(stdout, "variance=%.15g\n", variance);
+            fprintf(stdout, "coeff_var=%.15g\n", var_coef);
+            fprintf(stdout, "sum=%s\n", sum_str);
+        }
+        else {
+            fprintf(stdout, "n: %lu\n", stats[z].n);
+            fprintf(stdout, "minimum: %g\n", stats[z].min);
+            fprintf(stdout, "maximum: %g\n", stats[z].max);
+            fprintf(stdout, "range: %g\n", stats[z].max - stats[z].min);
+            fprintf(stdout, "mean: %g\n", mean);
+            fprintf(stdout, "mean of absolute values: %g\n",
+                    stats[z].sum_abs / stats[z].n);
+            fprintf(stdout, "standard deviation: %g\n", stdev);
+            fprintf(stdout, "variance: %g\n", variance);
+            fprintf(stdout, "variation coefficient: %g %%\n", var_coef);
+            fprintf(stdout, "sum: %s\n", sum_str);
+        }
+
+        /* TODO: mode, skewness, kurtosis */
+        if (param.extended->answer) {
+            qpos_perc = (size_t *)G_calloc(stats[z].n_perc, sizeof(size_t));
+            quartile_perc = (double *)G_calloc(stats[z].n_perc, sizeof(double));
+
+            if (stats[z].n == 0) {
+<<<<<<< HEAD
+                quartile_25 = median = quartile_75 = 0.0 / 0.0;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = 0.0 / 0.0;
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             }
@@ -12836,6 +12936,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13074,6 +13175,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -13161,6 +13264,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13746,6 +13851,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13854,11 +13960,14 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13946,6 +14055,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 515a872888 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14469,6 +14580,7 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
 =======
@@ -15009,6 +15121,10 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
 
         if (zone_info.n_zones) {
             int z_cat = z + zone_info.min;
@@ -15202,6 +15318,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15472,6 +15589,8 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
 =======
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15614,6 +15733,7 @@ int print_stats_table(univar_stat *stats)
 =======
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa7fb2854a (Fix missing function prototypes (#2727))
 =======
@@ -16119,6 +16239,10 @@ int print_stats_table(univar_stat *stats)
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -18254,12 +18378,27 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+                quartile_25 = median = quartile_75 = 0.0 / 0.0;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = 0.0 / 0.0;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 7733cc06c4 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> e9b4321267 (r.horizon manual - fix typo (#2794))
             }
             else {
                 for (i = 0; i < stats[z].n_perc; i++) {
