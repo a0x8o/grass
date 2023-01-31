@@ -253,6 +253,7 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -568,6 +569,8 @@ ignore =
 >>>>>>> bdb772eadd (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> df45292278 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 59365f34ef (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> a2285639e2 (g.proj: fix reading input WKT (#1582))
 >>>>>>> e8925c7df7 (g.proj: fix reading input WKT (#1582))
@@ -1710,6 +1713,7 @@ ignore =
 >>>>>>> 694dd243d2 (pythonlib: Remove star imports (#1546))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> c5d3b09cb4 (pythonlib: Remove star imports (#1546))
@@ -1756,12 +1760,17 @@ ignore =
 >>>>>>> dcaba0e0c3 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5cb99178e5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 59365f34ef (pythonlib: Remove star imports (#1546))
     E722, # do not use bare 'except'
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1807,6 +1816,8 @@ ignore =
 >>>>>>> dcaba0e0c3 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5cb99178e5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 59365f34ef (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 <<<<<<< HEAD
 >>>>>>> cdb769bc1e (g.proj: fix reading input WKT (#1582))
@@ -1881,9 +1892,12 @@ ignore =
 =======
 >>>>>>> 694dd243d2 (pythonlib: Remove star imports (#1546))
 =======
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
+=======
 =======
     E722, # do not use bare 'except'
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1930,6 +1944,8 @@ ignore =
 >>>>>>> dcaba0e0c3 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5cb99178e5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 59365f34ef (pythonlib: Remove star imports (#1546))
 >>>>>>> 9441e85caa (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2595,6 +2611,7 @@ ignore =
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 17c5b80c11 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 38fcad4cdf (g.proj: fix reading input WKT (#1582))
@@ -3361,6 +3378,11 @@ ignore =
 >>>>>>> bdb772eadd (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> df45292278 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> 655dd6fc15 (pythonlib: Remove star imports (#1546))
+>>>>>>> 59365f34ef (pythonlib: Remove star imports (#1546))
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
