@@ -99,6 +99,9 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
@@ -606,6 +609,7 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 58f3ce8d6f (r.horizon manual - fix typo (#2794))
 =======
@@ -682,6 +686,8 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2005,4 +2011,11 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))

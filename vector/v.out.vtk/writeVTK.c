@@ -5700,6 +5700,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6113,6 +6114,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -6367,6 +6370,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
                 progress++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6633,6 +6638,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -6712,6 +6718,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -7976,7 +7984,12 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
                 /*For every available vector type */
                 for (k = 0; k < typenum; k++) {

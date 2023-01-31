@@ -732,6 +732,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1049,6 +1050,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1790,7 +1793,12 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
             (size_t)nsizc) {
 =======
@@ -1873,6 +1881,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -1918,12 +1927,15 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) != nsizc) {
 =======
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
             (size_t)nsizc) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3077,6 +3089,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -3628,6 +3641,10 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

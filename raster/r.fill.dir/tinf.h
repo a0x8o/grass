@@ -251,6 +251,9 @@ extern int (*is_null)(void *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
@@ -1054,6 +1057,7 @@ extern int (*is_null)(void *);
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
 =======
@@ -1494,6 +1498,10 @@ extern int (*is_null)(void *);
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 extern size_t (*bpe)(void);
 extern void *(*get_max)(void *, void *);
 extern void *(*get_min)(void *, void *);
@@ -1715,6 +1723,7 @@ extern void *(*get_buf)(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1875,6 +1884,8 @@ extern void *(*get_buf)(void);
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2236,6 +2247,7 @@ extern void *(*get_buf)(void);
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2590,6 +2602,10 @@ extern void *(*get_buf)(void);
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 extern size_t (*bpe)();
 extern void *(*get_max)(void *, void *);
 extern void *(*get_min)(void *, void *);
@@ -2738,6 +2754,7 @@ extern void *(*get_buf)();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2998,6 +3015,8 @@ extern void *(*get_buf)();
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -3099,10 +3118,13 @@ extern void *(*get_buf)();
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3229,11 +3251,16 @@ extern void *(*get_buf)();
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 extern size_t (*bpe)(void);
 extern void *(*get_max)(void *, void *);
 extern void *(*get_min)(void *, void *);
 extern void (*get_row)(int, void *, int);
 extern void *(*get_buf)(void);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3302,10 +3329,13 @@ extern void *(*get_buf)(void);
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5293,6 +5323,7 @@ extern void *(*get_buf)(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
 =======
@@ -5736,6 +5767,10 @@ extern void *(*get_buf)(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 extern void (*put_row)(int, void *);
 extern double (*slope)(void *, void *, double);
 extern void (*set_min)(void *);

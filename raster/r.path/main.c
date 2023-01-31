@@ -601,6 +601,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -919,6 +920,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -1106,6 +1109,8 @@ int main(int argc, char **argv)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1775,6 +1780,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1911,11 +1917,14 @@ int main(int argc, char **argv)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                 ncols * sizeof(DCELL)) {
 =======
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2033,6 +2042,8 @@ int main(int argc, char **argv)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2891,6 +2902,7 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -3371,6 +3383,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -3628,6 +3644,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3946,6 +3963,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -4133,6 +4152,8 @@ int main(int argc, char **argv)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 ncols * (int)sizeof(CELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4802,6 +4823,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4938,11 +4960,14 @@ int main(int argc, char **argv)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                 ncols * sizeof(CELL)) {
 =======
                 ncols * (int)sizeof(CELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5060,6 +5085,8 @@ int main(int argc, char **argv)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -5918,6 +5945,7 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -6398,6 +6426,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -6601,6 +6633,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6919,6 +6952,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -7106,6 +7141,8 @@ int main(int argc, char **argv)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7775,6 +7812,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7911,11 +7949,14 @@ int main(int argc, char **argv)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                 ncols * sizeof(DCELL)) {
 =======
                 ncols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8033,6 +8074,8 @@ int main(int argc, char **argv)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -8891,6 +8934,7 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -9371,6 +9415,10 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to write to tempfile"));
             }
         }
@@ -9836,6 +9884,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10154,6 +10203,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -10341,6 +10392,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11010,6 +11063,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11146,11 +11200,14 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                     window->cols * sizeof(DCELL)) {
 =======
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11268,6 +11325,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -12126,6 +12185,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -12606,6 +12666,10 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 val_row = stackp->row;
@@ -12823,6 +12887,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -13141,6 +13206,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -13328,6 +13395,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                     window->cols * (int)sizeof(CELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13997,6 +14066,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14133,11 +14203,14 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                     window->cols * sizeof(CELL)) {
 =======
                     window->cols * (int)sizeof(CELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14255,6 +14328,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -15113,6 +15188,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -15593,6 +15669,10 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 dir_row = next_row;
@@ -15908,6 +15988,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -16226,6 +16307,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -16413,6 +16496,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17082,6 +17167,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17218,11 +17304,14 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                                 window->cols * sizeof(DCELL)) {
 =======
                                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17340,6 +17429,8 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -18198,6 +18289,7 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -18678,6 +18770,10 @@ int dir_bitmask(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                                 G_fatal_error(
                                     _("Unable to read from temp file"));
                             }
@@ -18975,6 +19071,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -19293,6 +19390,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -19480,6 +19579,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20149,6 +20250,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -20285,11 +20387,14 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                     window->cols * sizeof(DCELL)) {
 =======
                     window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20407,6 +20512,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -21265,6 +21372,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -21745,6 +21853,10 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                     G_fatal_error(_("Unable to read from temp file"));
                 }
                 val_row = next_row;
@@ -21957,6 +22069,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -22275,6 +22388,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -22462,6 +22577,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23131,6 +23248,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23267,11 +23385,14 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                 window->cols * sizeof(DCELL)) {
 =======
                 window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23389,6 +23510,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -24247,6 +24370,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -24727,6 +24851,10 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                 G_fatal_error(_("Unable to read from temp file"));
             }
             dir_row = next_row;
@@ -25012,6 +25140,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -25330,6 +25459,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -25517,6 +25648,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                             window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26186,6 +26319,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26322,11 +26456,14 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
                             window->cols * sizeof(DCELL)) {
 =======
                             window->cols * (int)sizeof(DCELL)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26444,6 +26581,8 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -27302,6 +27441,7 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -27782,6 +27922,10 @@ int dir_degree(int dir_fd, int val_fd, struct point *startp,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                             G_fatal_error(_("Unable to read from temp file"));
                         }
                         val_row = next_row;

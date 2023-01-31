@@ -259,6 +259,7 @@ int db__driver_open_database(dbHandle *handle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -572,6 +573,8 @@ int db__driver_close_database(void)
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -691,6 +694,7 @@ int db__driver_close_database(void)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -783,6 +787,10 @@ int db__driver_close_database(void)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 int db__driver_close_database(void)
 =======
 <<<<<<< HEAD
@@ -938,6 +946,7 @@ int db__driver_close_database(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1020,6 +1029,8 @@ int db__driver_close_database()
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2293,7 +2304,12 @@ int db__driver_close_database()
 int db__driver_close_database(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 {
     G_debug(3, "db_driver_close_database()");
 

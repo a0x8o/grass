@@ -15039,6 +15039,7 @@ int delete_face(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -15357,6 +15358,8 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -15544,6 +15547,8 @@ int delete_face(const struct Map_info *Map, int area)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
    next left  edge: -edge
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16213,6 +16218,7 @@ int delete_face(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16349,11 +16355,14 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
    next left  edge: -edge 
 =======
    next left  edge: -edge
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16471,6 +16480,8 @@ int delete_face(const struct Map_info *Map, int area)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -17329,6 +17340,7 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -17809,6 +17821,10 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
    next right edge:  edge
 
    - connected edges
@@ -18003,6 +18019,7 @@ int delete_face(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -18321,6 +18338,8 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -18508,6 +18527,8 @@ int delete_face(const struct Map_info *Map, int area)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
    \param line feature id
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19177,6 +19198,7 @@ int delete_face(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19313,11 +19335,14 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
    \param line feature id 
 =======
    \param line feature id
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19435,6 +19460,8 @@ int delete_face(const struct Map_info *Map, int area)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -20293,6 +20320,7 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -20773,6 +20801,10 @@ int delete_face(const struct Map_info *Map, int area)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
    \return 0  on success
    \return -1 on error

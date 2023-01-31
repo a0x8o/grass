@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a7fe10f0c4 (r.horizon manual - fix typo (#2794))
@@ -556,13 +557,17 @@ case "$(uname)" in
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 case "$(uname)" in
 =======
 <<<<<<< HEAD
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -667,10 +672,13 @@ case "$(uname)" in
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 case "$(uname)" in 
 =======
 case "$(uname)" in
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +741,8 @@ case "$(uname)" in
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 =======
@@ -1232,6 +1242,7 @@ case "$(uname)" in
 case "$(uname)" in
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1607,6 +1618,11 @@ case "$(uname)" in
 case "$(uname)" in
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

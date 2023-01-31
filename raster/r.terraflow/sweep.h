@@ -280,6 +280,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -598,6 +599,8 @@ public:
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -785,6 +788,8 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
         snprintf(buf, sizeof(buf), "%7.3f", p.accu);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1454,6 +1459,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1590,11 +1596,14 @@ public:
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
         sprintf(buf, "%7.3f", p.accu);
 =======
         snprintf(buf, sizeof(buf), "%7.3f", p.accu);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1710,6 +1719,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2567,6 +2578,7 @@ public:
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -3042,6 +3054,10 @@ public:
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         return buf;
     }
 };
@@ -3244,6 +3260,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3562,6 +3579,8 @@ public:
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -3749,6 +3768,8 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
         snprintf(buf, sizeof(buf), "%7.3f", p.tci);
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4418,6 +4439,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4554,11 +4576,14 @@ public:
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
         sprintf(buf, "%7.3f", p.tci);
 =======
         snprintf(buf, sizeof(buf), "%7.3f", p.tci);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4674,6 +4699,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -5531,6 +5558,7 @@ public:
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -6006,6 +6034,10 @@ public:
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         return buf;
     }
 };
@@ -6240,6 +6272,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -6774,6 +6809,8 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
     elevation_type h{0.0};
     toporank_type toporank{0};
 =======
@@ -7861,6 +7898,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43cc51eca7 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -8006,6 +8044,8 @@ public:
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8096,6 +8136,7 @@ public:
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
@@ -8135,6 +8176,10 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     elevation_type h;
     toporank_type toporank;
 =======
@@ -8179,6 +8224,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -8195,6 +8241,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -8624,6 +8672,7 @@ public:
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -9160,6 +9209,10 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     /* points at same heights are processed in increasing order of their
        topological rank; overall, this gives topological order and
        guarantees that flow is never puhsed backwards. Note: of course,
@@ -9350,6 +9403,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -10162,6 +10218,7 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -10594,6 +10651,10 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     dimension_type i{0}, j{0};
 
 public:
@@ -13477,6 +13538,8 @@ public:
 =======
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     dimension_type i, j;
 
 public:
@@ -13521,6 +13584,7 @@ public:
         if (a.toporank > b.toporank)
             return 1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13924,6 +13988,8 @@ public:
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -14175,12 +14241,18 @@ public:
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14233,6 +14305,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -14267,6 +14341,7 @@ public:
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
@@ -14318,6 +14393,10 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     dimension_type i{0}, j{0};
 
 public:
@@ -14392,6 +14471,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
 =======
@@ -14416,6 +14496,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15005,6 +15087,7 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -15350,6 +15433,11 @@ public:
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         if (a.i < b.i)
             return -1;
         if (a.i > b.i)
@@ -15642,6 +15730,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -15767,6 +15856,8 @@ public:
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
@@ -16121,7 +16212,12 @@ public:
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -17354,6 +17450,8 @@ public:
 =======
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     ~sweepItemBaseType() {}
 
     /***************************************************************/
@@ -17374,6 +17472,7 @@ public:
     dimension_type getJ() const { return j; }
 
     /***************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17480,6 +17579,8 @@ public:
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -17671,6 +17772,11 @@ public:
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
     /* return the elevation window */
     genericWindow<elevation_type> getElevWindow() const { return elevwin; }
 
@@ -17686,6 +17792,7 @@ public:
     dimension_type getJ() const { return j; }
 
     /***************************************************************/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19926,12 +20033,16 @@ public:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -20339,6 +20450,8 @@ public:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     /* return the elevation of the item */
     elevation_type getElev() const { return elevwin.get(); }
 
@@ -20607,6 +20720,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -21422,6 +21538,7 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -21851,6 +21968,10 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowaccumulation_type value{0};
 
 public:
@@ -22196,6 +22317,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22291,6 +22413,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 =======
@@ -23103,6 +23227,7 @@ public:
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6b3f525ed2 (wxpyimgview: explicit conversion to int (#2704))
@@ -23179,6 +23304,8 @@ public:
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowaccumulation_type value;
 
 public:
@@ -23186,6 +23313,7 @@ public:
 
     ~flowValue() {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23255,12 +23383,17 @@ public:
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -23297,6 +23430,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
@@ -24250,7 +24386,12 @@ public:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowaccumulation_type get() const { return value; }
     friend ostream &operator<<(ostream &s, const flowValue &elt)
     {
@@ -24315,6 +24456,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -24771,10 +24913,13 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24822,6 +24967,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25398,6 +25545,7 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e838855e2 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -25748,6 +25896,10 @@ public:
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowValue operator=(const flowValue &elt)
     {
         value = elt.value;
@@ -25896,6 +26048,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -26156,6 +26309,8 @@ public:
 =======
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
@@ -26374,12 +26529,18 @@ public:
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26636,6 +26797,8 @@ public:
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
 =======
@@ -26729,9 +26892,12 @@ public:
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26860,6 +27026,8 @@ public:
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
@@ -27503,6 +27671,7 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
 =======
@@ -27977,6 +28146,10 @@ public:
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowValue operator!=(const flowValue &elt) { return value != elt.value; }
     flowValue operator==(const flowValue &elt) { return value == elt.value; }
 
@@ -28187,6 +28360,7 @@ private:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -28542,6 +28716,8 @@ private:
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
@@ -30317,6 +30493,8 @@ public:
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
     flowPriority prio{};
     flowValue val{};
 
@@ -33013,6 +33191,8 @@ public:
 =======
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     flowPriority prio;
     flowValue val;
 
@@ -33036,6 +33216,7 @@ public:
     flowPriority getPriority() const { return prio; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
@@ -33045,8 +33226,29 @@ public:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+    flowPriority prio{};
+    flowValue val{};
+
+public:
+    flowStructure() {}
+    flowStructure(const flowPriority &p, const flowValue &e) : prio{p}, val{e}
+    {
+    }
+
+    flowPriority getPriority() const { return prio; }
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     flowValue getValue() const { return val; }
 
     friend ostream &operator<<(ostream &s, const flowStructure &fl)

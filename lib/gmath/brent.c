@@ -230,6 +230,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -548,6 +549,8 @@ typedef struct {
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -735,6 +738,8 @@ typedef struct {
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 static int brent(void *vstate, double (*f)(double), double *x_minimum,
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1404,6 +1409,7 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1540,11 +1546,14 @@ static int brent(void *vstate, double (*f)(double), double *x_minimum,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
 static int brent(void *vstate, double (*f)(), double *x_minimum,
 =======
 static int brent(void *vstate, double (*f)(double), double *x_minimum,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1660,6 +1669,8 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2517,6 +2528,7 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -2992,6 +3004,10 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                  double *f_minimum, double *x_lower, double *f_lower,
                  double *x_upper, double *f_upper)
 {
@@ -3303,6 +3319,7 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3620,6 +3637,8 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4361,7 +4380,12 @@ static int brent(void *vstate, double (*f)(), double *x_minimum,
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
                      int maxiter)
 =======
@@ -4444,6 +4468,7 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -4489,12 +4514,15 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
 double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 =======
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
                      int maxiter)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5642,6 +5670,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -6191,6 +6220,10 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper, int maxiter)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 {
     int i;
     double x_minimum = (x_upper + x_lower) / 2.;

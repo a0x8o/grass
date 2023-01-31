@@ -20238,6 +20238,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -20473,6 +20474,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -20762,7 +20765,12 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 =======
 <<<<<<< HEAD
@@ -20910,6 +20918,7 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -20982,6 +20991,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -21085,11 +21096,14 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
     if (sizeof(off_t) < ptr->off_t_size) {
 =======
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21168,6 +21182,8 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -22668,7 +22684,12 @@ int dig_Rd_Plus_head(struct gvfile *fp, struct Plus_head *ptr)
     if (sizeof(off_t) < (size_t)ptr->off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         G_warning(_("Vector exceeds supported file size limit"));
         return (-1);
     }

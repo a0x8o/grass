@@ -265,6 +265,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -583,6 +584,8 @@ int G_recursive_copy(const char *src, const char *dst)
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -770,6 +773,8 @@ int G_recursive_copy(const char *src, const char *dst)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
         ssize_t len, len2;
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1439,6 +1444,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1575,11 +1581,14 @@ int G_recursive_copy(const char *src, const char *dst)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
         size_t len, len2;
 =======
         ssize_t len, len2;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1695,6 +1704,8 @@ int G_recursive_copy(const char *src, const char *dst)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2552,6 +2563,7 @@ int G_recursive_copy(const char *src, const char *dst)
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -3027,6 +3039,10 @@ int G_recursive_copy(const char *src, const char *dst)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
         if (G_lstat(dst, &sb) == 0 && S_ISDIR(sb.st_mode)) {
             char path[GPATH_MAX];

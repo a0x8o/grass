@@ -449,6 +449,9 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
@@ -983,6 +986,8 @@ void N_print_les(N_les *les)
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 for (k = 0; (unsigned int)k < les->Asp[i]->cols; k++) {
                     if (les->Asp[i]->index[k] == (unsigned int)j) {
 =======
@@ -2072,6 +2077,7 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2217,6 +2223,8 @@ void N_print_les(N_les *les)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2307,6 +2315,7 @@ void N_print_les(N_les *les)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
@@ -2346,6 +2355,10 @@ void N_print_les(N_les *les)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                 for (k = 0; k < les->Asp[i]->cols; k++) {
                     if (les->Asp[i]->index[k] == j) {
 =======
@@ -2390,6 +2403,7 @@ void N_print_les(N_les *les)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -2406,6 +2420,8 @@ void N_print_les(N_les *les)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2836,6 +2852,7 @@ void N_print_les(N_les *les)
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
@@ -3377,6 +3394,10 @@ void N_print_les(N_les *les)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
                         fprintf(stdout, "%4.5f ", les->Asp[i]->values[k]);
                         out = 1;
                     }

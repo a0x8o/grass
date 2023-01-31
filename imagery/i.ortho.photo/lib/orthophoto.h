@@ -303,6 +303,9 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
@@ -837,6 +840,8 @@ int I_convert_con_points(char *, struct Ortho_Control_Points *,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
                             double[3], double[3]);
 =======
@@ -1924,6 +1929,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2069,6 +2075,8 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2159,6 +2167,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
@@ -2198,6 +2207,10 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
                             double *, double *);
 =======
@@ -2242,6 +2255,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
 =======
@@ -2258,6 +2272,8 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double[3], double[3],
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2687,6 +2703,7 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -3223,6 +3240,10 @@ int I_compute_ref_equations(struct Ortho_Photo_Points *, double *, double *,
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 /* orthoref.c */
 int I_compute_ortho_equations(struct Ortho_Control_Points *,
                               struct Ortho_Camera_File_Ref *,

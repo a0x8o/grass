@@ -238,6 +238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -551,6 +552,8 @@ extern void *dglTreeGetAllocator(void);
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -670,6 +673,7 @@ extern void *dglTreeGetAllocator(void);
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -762,6 +766,10 @@ extern void *dglTreeGetAllocator(void);
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 extern void *dglTreeGetAllocator(void);
 =======
 <<<<<<< HEAD
@@ -917,6 +925,7 @@ extern void *dglTreeGetAllocator(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -999,6 +1008,8 @@ extern void *dglTreeGetAllocator();
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2272,7 +2283,12 @@ extern void *dglTreeGetAllocator();
 extern void *dglTreeGetAllocator(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
 /*
  * Define a node as it is hosted in pNodeTree

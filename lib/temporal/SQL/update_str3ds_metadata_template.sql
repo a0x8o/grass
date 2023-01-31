@@ -184,6 +184,7 @@ UPDATE str3ds_metadata SET tbres_max =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c73c65622b (r.horizon manual - fix typo (#2794))
@@ -279,6 +280,8 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -803,13 +806,17 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -1021,3 +1028,5 @@ UPDATE str3ds_metadata SET tbres_max =
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))

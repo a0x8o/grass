@@ -3637,6 +3637,7 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4050,6 +4051,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4304,6 +4307,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
         points_in_box++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4570,6 +4575,7 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be9bc80f0c (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -4649,6 +4655,8 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -5913,7 +5921,12 @@ int P_Sparse_Raster_Points(SEGMENT *out_seg, struct Cell_head *Elaboration,
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
         G_debug(3, "P_Sparse_Raster_Points: interpolate point %d...", i);
         if (bilin)

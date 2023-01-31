@@ -838,6 +838,7 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1155,6 +1156,8 @@ char *AMI_STREAM<T>::sprint()
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1896,7 +1899,12 @@ char *AMI_STREAM<T>::sprint()
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 =======
@@ -1979,6 +1987,7 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -2024,12 +2033,15 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 =======
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3177,6 +3189,7 @@ char *AMI_STREAM<T>::sprint()
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
@@ -3726,6 +3739,10 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     return desc;
 }
 

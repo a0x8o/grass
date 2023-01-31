@@ -40,6 +40,7 @@ PGM = r.resamp.filter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1b1f0f4b5e (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -695,12 +696,16 @@ PGM = r.resamp.filter
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -1013,6 +1018,8 @@ PGM = r.resamp.filter
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB) $(OPENMP_LIBPATH) $(OPENMP_LIB)
 DEPENDENCIES = $(RASTERDEP) $(GISDEP)
 EXTRA_CFLAGS = $(OPENMP_CFLAGS)
@@ -1042,6 +1049,9 @@ EXTRA_INC = $(OPENMP_INCPATH)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
@@ -1966,6 +1976,7 @@ EXTRA_INC = $(OPENMP_INCPATH)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2088,6 +2099,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2648,12 +2661,16 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -2981,6 +2998,8 @@ EXTRA_INC = $(OPENMP_INCPATH)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
 include $(MODULE_TOPDIR)/include/Make/Module.make
 

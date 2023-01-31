@@ -124,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int clo_dummy(struct Map_info *map)
 =======
 <<<<<<< HEAD
@@ -580,6 +581,8 @@ static int clo_dummy(struct Map_info *map)
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -753,7 +756,12 @@ static int clo_dummy(struct Map_info *map)
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 static int clo_dummy(struct Map_info *map UNUSED)
 =======
 static int clo_dummy(struct Map_info *map)
@@ -850,6 +858,7 @@ static int clo_dummy(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -975,6 +984,8 @@ static int clo_dummy(struct Map_info *map)
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1420,13 +1431,17 @@ static int clo_dummy(struct Map_info *map)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 static int clo_dummy(struct Map_info *map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -1640,6 +1655,8 @@ static int clo_dummy(struct Map_info *map)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 {
     return -1;
 }
@@ -1742,6 +1759,7 @@ static int clo_dummy(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format(struct Map_info *map)
 =======
 <<<<<<< HEAD
@@ -2198,6 +2216,8 @@ static int format(struct Map_info *map)
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -2371,7 +2391,12 @@ static int format(struct Map_info *map)
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 static int format(struct Map_info *map UNUSED)
 =======
 static int format(struct Map_info *map)
@@ -2468,6 +2493,7 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
@@ -2593,6 +2619,8 @@ static int format(struct Map_info *map)
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -3038,13 +3066,17 @@ static int format(struct Map_info *map)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 static int format(struct Map_info *map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -3258,6 +3290,8 @@ static int format(struct Map_info *map)
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 {
     G_fatal_error(_("Requested format is not compiled in this version"));
     return 0;
@@ -3450,6 +3484,9 @@ static int format(struct Map_info *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
@@ -6362,6 +6399,8 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                                      ,
@@ -6487,6 +6526,7 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6743,6 +6783,8 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 #ifdef HAVE_OGR
                                     ,
@@ -6774,6 +6816,7 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -6786,6 +6829,8 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 70f3ad40b7 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6849,6 +6894,7 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f103e53694 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
@@ -6857,6 +6903,8 @@ static int (*Close_array[][2])() = {{clo_dummy, V1_close_nat}
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 898e6d54a6 (r.horizon manual - fix typo (#2794))
@@ -6899,10 +6947,13 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
@@ -8231,7 +8282,12 @@ static int (*Close_array[][2])(struct Map_info *) = {{clo_dummy, V1_close_nat}
 =======
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 #endif
 };
 

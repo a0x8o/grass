@@ -141,6 +141,7 @@ from gui_core.prompt import GPromptSTC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 <<<<<<< HEAD
@@ -597,6 +598,8 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 =======
@@ -770,7 +773,12 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 from gui_core.wrap import Button, ClearButton, StaticText
 =======
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
@@ -867,6 +875,7 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -992,6 +1001,8 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
@@ -1437,13 +1448,17 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -1657,6 +1672,8 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 from core.settings import UserSettings
 
 
@@ -1841,6 +1858,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2029,6 +2047,8 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
@@ -2229,6 +2249,7 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -2468,6 +2489,10 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
         self.btnClear.Bind(wx.EVT_BUTTON, self.OnClear)
         self.btnOutputSave.Bind(wx.EVT_BUTTON, self.OnOutputSave)
@@ -2565,6 +2590,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55f5df1296 (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -2692,6 +2718,8 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 9e866bbf71 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> c722182c26 (Merge branch 'a0x8o' into stag0)
@@ -3089,12 +3117,16 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -3313,6 +3345,8 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         self.btnCmdExportHistory = Button(parent=self.panelOutput, id=wx.ID_ANY)
         self.btnCmdExportHistory.SetLabel(_("&Export history"))
         self.btnCmdExportHistory.SetToolTip(
@@ -3427,6 +3461,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 936c2c0116 (r.terrafow: explicit use of default constructors (#2660))
@@ -3522,6 +3557,8 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -4046,13 +4083,17 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -4261,6 +4302,8 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 
         self._layout()
 
@@ -4572,6 +4615,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5140,13 +5184,17 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd3cfb9175 (r.terrafow: explicit use of default constructors (#2660))
 =======
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 182ddbdeda (r.horizon manual - fix typo (#2794))
 =======
@@ -5355,6 +5403,8 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> 27caa3526a (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> 243520680f (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     def OnCmdExportHistory(self, event):
         """Export the history of executed commands stored
         in a .wxgui_history file to a selected file."""

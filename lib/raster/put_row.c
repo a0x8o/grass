@@ -4393,6 +4393,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4625,6 +4626,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 56185653ee (wxpyimgview: explicit conversion to int (#2704))
@@ -4888,7 +4891,12 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (nwrite > 0 && (size_t)nwrite < size) {
         if ((res = write(fcb->null_fd, compressed_buf, nwrite)) < 0 ||
             (unsigned int)res != nwrite)
@@ -5634,6 +5642,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -5809,6 +5818,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -6039,11 +6050,17 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (nwrite > 0 && nwrite < size) {
         if (write(fcb->null_fd, compressed_buf, nwrite) != nwrite)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6180,6 +6197,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 >>>>>>> e988674846 (r.horizon manual - fix typo (#2794))
@@ -7819,12 +7838,24 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
     if (nwrite > 0 && (size_t)nwrite < size) {
         if ((res = write(fcb->null_fd, compressed_buf, nwrite)) < 0 ||
             (unsigned int)res != nwrite)
+<<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
@@ -8007,6 +8038,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8312,6 +8344,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9031,7 +9065,12 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         if ((res = write(fcb->null_fd, flags, size)) < 0 ||
             (unsigned int)res != size)
 =======
@@ -9327,6 +9366,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -9489,6 +9529,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 33ce576706 (r.horizon manual - fix typo (#2794))
 >>>>>>> 838760f612 (r.horizon manual - fix typo (#2794))
 =======
@@ -9578,6 +9620,8 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
         if (write(fcb->null_fd, flags, size) != size)
 =======
         if ((res = write(fcb->null_fd, flags, size)) < 0 ||
@@ -9632,6 +9676,9 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
@@ -10149,6 +10196,7 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -10443,6 +10491,10 @@ static void write_null_bits_compressed(const unsigned char *flags, int row,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
             G_fatal_error(
                 _("Error writing compressed null data for row %d of <%s>: %s"),
                 row, fcb->name, strerror(errno));
@@ -11145,6 +11197,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11376,6 +11429,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11783,7 +11838,12 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if ((res = write(fcb->null_fd, flags, size)) < 0 ||
         (unsigned int)res != size)
 =======
@@ -12046,6 +12106,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9eb4ab8390 (r.horizon manual - fix typo (#2794))
 =======
@@ -12074,6 +12135,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
     if (write(fcb->null_fd, flags, size) != size)
 =======
@@ -12310,6 +12373,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
@@ -12346,6 +12410,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (write(fcb->null_fd, flags, size) != size)
 =======
     if (write(fcb->null_fd, flags, size) != size)
@@ -12356,6 +12422,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12411,6 +12478,8 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -13153,6 +13222,7 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -13710,6 +13780,10 @@ void Rast__write_null_bits(int fd, const unsigned char *flags)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         G_fatal_error(_("Error writing null row %d of <%s>: %s"), row,
                       fcb->name, strerror(errno));
 =======

@@ -105,6 +105,7 @@ r.mapcalc --o expr="elev_5 = 45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -284,6 +285,8 @@ r.mapcalc --o expr="elev_5 = 45"
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -390,6 +393,7 @@ r.mapcalc --o expr="elev_5 = 45"
 =======
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8d807f37dd (r.horizon manual - fix typo (#2794))
 =======
@@ -525,10 +529,15 @@ r.mapcalc --o expr="elev_5 = 45"
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 # with different tile sizes and null data
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +616,8 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 =======
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -998,6 +1009,7 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -1225,6 +1237,10 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 # with differen tile sizes and null data
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 r.to.rast3 --o input=elev_1,elev_2,elev_3,elev_4,elev_5 output=test_volume_6_raster tilesize=1

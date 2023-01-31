@@ -155,6 +155,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -387,6 +388,8 @@ int I_cluster_distinct(struct Cluster *, double);
 =======
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 68ce655dce (Fix missing function prototypes (#2727))
@@ -503,6 +506,8 @@ int I_cluster_distinct(struct Cluster *, double);
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 >>>>>>> 63be8a6dfa (Fix missing function prototypes (#2727))
@@ -991,6 +996,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d5a6951b7c (Fix missing function prototypes (#2727))
 =======
@@ -1015,6 +1021,8 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -1044,9 +1052,12 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
 int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
                    int *);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,6 +1087,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
@@ -1153,11 +1165,14 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1192,6 +1207,8 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -2265,6 +2282,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e4f002b9aa (Fix missing function prototypes (#2727))
 =======
 =======
@@ -2814,6 +2832,10 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> 1fbe91036a (Fix missing function prototypes (#2727))
 >>>>>>> d0c8a37cfc (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 /* c_execmem.c */
 int I_cluster_exec_allocate(struct Cluster *);
 int I_cluster_exec_free(struct Cluster *);

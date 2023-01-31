@@ -3091,6 +3091,7 @@ SUBDIRS = $(DIRS)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4912,6 +4913,8 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contri
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 FILES = AUTHORS CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 =======
@@ -5968,12 +5971,16 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 FILES = AUTHORS CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 =======
@@ -6003,9 +6010,24 @@ FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html cont
 =======
 FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+=======
+FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.html contributors.csv contributors_extra.csv translators.csv
+=======
+FILES = AUTHORS CHANGES CITING COPYING GPL.TXT INSTALL.md REQUIREMENTS.md contributors.csv contributors_extra.csv translators.csv
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 FILES_DST = $(patsubst %,$(ARCH_DISTDIR)/%,$(FILES))
 
 default:

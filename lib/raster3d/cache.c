@@ -226,6 +226,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -457,6 +458,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -868,7 +871,12 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if ((res = read(map->cacheFD, tileBuf, nBytes)) < 0 ||
         (size_t)res != nBytes) {
 =======
@@ -1119,6 +1127,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9eb4ab8390 (r.horizon manual - fix typo (#2794))
 =======
@@ -1147,6 +1156,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
     if (read(map->cacheFD, tileBuf, nBytes) != nBytes) {
 =======
@@ -1395,6 +1406,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
@@ -1431,6 +1443,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (read(map->cacheFD, tileBuf, nBytes) != nBytes) {
 =======
     if (read(map->cacheFD, tileBuf, nBytes) != nBytes) {
@@ -1441,6 +1455,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,6 +1511,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -2237,6 +2254,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -2804,6 +2822,10 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         Rast3d_error("cacheWrite_readFun: can't read file");
         return 0;
     }
@@ -2971,6 +2993,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3202,6 +3225,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3613,7 +3638,12 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if ((res = read(map->cacheFD, xdr, nBytes + sizeof(int))) < 0 ||
         (size_t)res != nBytes + sizeof(int)) {
 =======
@@ -3864,6 +3894,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9eb4ab8390 (r.horizon manual - fix typo (#2794))
 =======
@@ -3892,6 +3923,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
     if (read(map->cacheFD, xdr, nBytes + sizeof(int)) != nBytes + sizeof(int)) {
 =======
@@ -4140,6 +4173,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
@@ -4176,6 +4210,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (read(map->cacheFD, xdr, nBytes + sizeof(int)) != nBytes + sizeof(int)) {
 =======
     if (read(map->cacheFD, xdr, nBytes + sizeof(int)) != nBytes + sizeof(int)) {
@@ -4186,6 +4222,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4241,6 +4278,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -4982,6 +5021,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -5549,6 +5589,10 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         Rast3d_error("cacheWrite_readFun: can't read file");
         return 0;
     }
@@ -5699,6 +5743,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5931,6 +5976,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e77ca8abf8 (r.horizon manual - fix typo (#2794))
@@ -6047,6 +6094,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
     if ((res = write(map->cacheFD, xdr, nBytes + sizeof(int))) < 0 ||
         (size_t)res != nBytes + sizeof(int)) {
 >>>>>>> 70e2d172cf (r.horizon manual - fix typo (#2794))
@@ -6535,6 +6584,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 576b696e91 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
@@ -6559,6 +6609,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
@@ -6588,9 +6640,12 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+=======
     if (write(map->cacheFD, xdr, nBytes + sizeof(int)) !=
         nBytes + sizeof(int)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6620,6 +6675,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
@@ -6697,11 +6753,14 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if ((res = write(map->cacheFD, xdr, nBytes + sizeof(int))) < 0 ||
         (size_t)res != nBytes + sizeof(int)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6736,6 +6795,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -7815,6 +7876,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -8366,6 +8428,10 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         Rast3d_error("cacheWrite_readFun: can't write file");
         return 0;
     }
@@ -8541,6 +8607,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8772,6 +8839,8 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9183,7 +9252,12 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 =======
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if ((res = write(map->cacheFD, tileBuf, nBytes)) < 0 ||
         (size_t)res != nBytes) {
 =======
@@ -9434,6 +9508,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9eb4ab8390 (r.horizon manual - fix typo (#2794))
 =======
@@ -9462,6 +9537,8 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
     if (write(map->cacheFD, tileBuf, nBytes) != nBytes) {
 =======
@@ -9710,6 +9787,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 =======
 >>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 40eab5b4ef (r.horizon manual - fix typo (#2794))
@@ -9746,6 +9824,8 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
     if (write(map->cacheFD, tileBuf, nBytes) != nBytes) {
 =======
     if (write(map->cacheFD, tileBuf, nBytes) != nBytes) {
@@ -9756,6 +9836,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9811,6 +9892,8 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 >>>>>>> 67e8f1691f (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 460fa595c4 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> a56a27343d (r.horizon manual - fix typo (#2794))
@@ -10552,6 +10635,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dc8416910a (r.horizon manual - fix typo (#2794))
 =======
 =======
@@ -11119,6 +11203,10 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 =======
 >>>>>>> 24ce20f07c (r.horizon manual - fix typo (#2794))
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         Rast3d_error("cacheWrite_writeFun: can't write file");
         return 0;
     }

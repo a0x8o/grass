@@ -8397,6 +8397,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> b339c662ab (r.horizon manual - fix typo (#2794))
 =======
@@ -9113,6 +9116,7 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c5cb5c01a5 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -9448,6 +9452,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 86898e3f4d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
                 char buf[72];
 
@@ -12639,6 +12647,8 @@ int main(int argc, char *argv[])
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
             int i;
 
             for (i = 0; i < strlen(history_opt->answer); i += 71) {
@@ -12654,6 +12664,7 @@ int main(int argc, char *argv[])
         else
             Rast_append_history(&hist, history_opt->answer);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12713,6 +12724,12 @@ int main(int argc, char *argv[])
 =======
             for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (unsigned int i = 0; i < strlen(history_opt->answer); i += 71) {
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
                 char buf[72];
 
                 strncpy(buf, &history_opt->answer[i], sizeof(buf) - 1);
@@ -12724,6 +12741,7 @@ int main(int argc, char *argv[])
         else
             Rast_append_history(&hist, history_opt->answer);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12834,7 +12852,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b41fbbe432 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> c51212e49e (r.horizon manual - fix typo (#2794))
+>>>>>>> 7ed89f83a7 (r.horizon manual - fix typo (#2794))
         Rast_write_history(raster->answer, &hist);
     }
 
