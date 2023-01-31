@@ -117,6 +117,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -182,6 +183,8 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     if (enc) {
         G_freea(enc);
     }
@@ -335,6 +338,7 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -366,9 +370,16 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    if (enc)
+        G_freea(enc);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     if (enc) {
         G_freea(enc);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -546,7 +557,13 @@ static void print_escaped_for_xml(FILE *fp, const char *str)
         G_freea(enc);
     }
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
     if (conv != (iconv_t)-1)
         iconv_close(conv);

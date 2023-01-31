@@ -52,6 +52,7 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -76,6 +77,8 @@ r.mapcalc expr="prec_6 = rand(0, 650)" -s
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 n1=`g.tempfile pid=1 -d`
 =======
 <<<<<<< HEAD
@@ -371,7 +374,16 @@ n1=`g.tempfile pid=1 -d`
 =======
 n1=`g.tempfile pid=1 -d`
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+n1=`g.tempfile pid=1 -d` 
+=======
+n1=`g.tempfile pid=1 -d`
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 n2=`g.tempfile pid=2 -d`
 n3=`g.tempfile pid=3 -d`
 n4=`g.tempfile pid=4 -d`

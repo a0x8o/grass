@@ -57,6 +57,7 @@ static CELL *cell;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -81,6 +82,8 @@ static CELL *cell;
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 static int (*dot)(int, int);
 =======
 <<<<<<< HEAD
@@ -376,7 +379,16 @@ static int (*dot)();
 =======
 static int (*dot)(int, int);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+static int (*dot)();
+=======
+static int (*dot)(int, int);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 static int cell_dot(int, int);
 static int fcell_dot(int, int);
 static int dcell_dot(int, int);

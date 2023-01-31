@@ -7090,6 +7090,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7145,9 +7146,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7263,10 +7267,15 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     for (unsigned int i = 0; i < S->nbands; i++) {
 =======
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7338,7 +7347,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
     for (unsigned int i = 0; i < (unsigned int)S->nbands; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
         if (!match1[i]) {
             if (S->semantic_labels[i])
                 total = total + strlen(S->semantic_labels[i]);
@@ -8128,6 +8142,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -8183,9 +8198,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8301,10 +8319,15 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     for (unsigned int j = 0; j < R->nfiles; j++) {
 =======
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8376,7 +8399,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
     for (unsigned int j = 0; j < (unsigned int)R->nfiles; j++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
         if (!match2[j]) {
             if (group_semantic_labels[j])
                 total = total + strlen(group_semantic_labels[j]);
@@ -9169,6 +9197,7 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -9224,9 +9253,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
 =======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9342,10 +9374,15 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
             for (unsigned int b1 = 0; b1 < S->nbands; b1++) {
 =======
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9417,7 +9454,12 @@ char **I_sort_signatures_by_semantic_label(struct Signature *S,
 =======
             for (unsigned int b1 = 0; b1 < (unsigned int)S->nbands; b1++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
                 new_means[c][new_order[b1]] = S->sig[c].mean[b1];
                 for (unsigned int b2 = 0; b2 <= b1; b2++) {
                     if (new_order[b1] > new_order[b2]) {

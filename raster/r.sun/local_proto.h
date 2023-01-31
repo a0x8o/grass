@@ -53,6 +53,7 @@ int searching_parallel(double *length, double *sunVarGeom_z_orig,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69,6 +70,8 @@ int searching_parallel(double *length, double *sunVarGeom_z_orig,
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 int useCivilTime(void);
 =======
 <<<<<<< HEAD
@@ -217,6 +220,7 @@ int useCivilTime();
 =======
 int useCivilTime(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -306,6 +310,14 @@ int useCivilTime(void);
 int useCivilTime(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+int useCivilTime();
+=======
+int useCivilTime(void);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 void setUseCivilTime(int val);
 int useShadow(void);
 void setUseShadow(int val);
@@ -346,6 +358,7 @@ void setHorizonInterval(double val);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -366,6 +379,8 @@ void setHorizonInterval(double val);
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 void setAngularLossDenominator(void);
 =======
 <<<<<<< HEAD
@@ -650,7 +665,16 @@ void setAngularLossDenominator();
 =======
 void setAngularLossDenominator(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+void setAngularLossDenominator();
+=======
+void setAngularLossDenominator(void);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 /* void cube(int, int); */
 

@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 FROM ubuntu:22.04
@@ -60,6 +61,8 @@ FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
 =======
 =======
@@ -664,11 +667,20 @@ FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+FROM ubuntu:22.04
+
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +778,8 @@ ENV DEBIAN_FRONTEND noninteractive
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 <<<<<<< HEAD
@@ -1140,7 +1154,15 @@ ARG PDAL_VERSION=2.7.1
 # https://github.com/PDAL/PDAL/releases
 ARG PDAL_VERSION=2.4.3
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+# define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+ARG PDAL_VERSION=2.4.3
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 SHELL ["/bin/bash", "-c"]
 
@@ -1162,12 +1184,17 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends --no-install-suggests \
     adwaita-icon-theme-full \
 <<<<<<< HEAD
+<<<<<<< HEAD
     bison \
     build-essential \
 =======
     build-essential \
     bison \
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+    build-essential \
+    bison \
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     bzip2 \
     cmake \
     curl \
@@ -1185,6 +1212,7 @@ RUN apt-get update && apt-get upgrade -y && \
     libfftw3-bin \
     libfftw3-dev \
     libfreetype6-dev \
+<<<<<<< HEAD
 <<<<<<< HEAD
     libgdal-dev \
     libgeos-dev \
@@ -1569,6 +1597,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     libgl1-mesa-dev \
     libgdal-dev \
     libgeos-dev \
@@ -1580,8 +1610,14 @@ RUN apt-get update && apt-get upgrade -y && \
     libnetcdf-dev \
     libncurses5-dev \
     libnotify4 \
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     libopenblas-base \
     libopenblas-dev \
     libopenjp2-7 \
@@ -1591,12 +1627,17 @@ RUN apt-get update && apt-get upgrade -y && \
     libproj-dev \
     libpython3-all-dev \
 <<<<<<< HEAD
+<<<<<<< HEAD
     libreadline-dev \
     librsvg2-common \
 =======
     librsvg2-common \
     libreadline-dev \
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+    librsvg2-common \
+    libreadline-dev \
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     libsdl2-2.0-0 \
     libsqlite3-dev \
     libtiff-dev \
@@ -1611,9 +1652,12 @@ RUN apt-get update && apt-get upgrade -y && \
     proj-bin \
     proj-data \
 <<<<<<< HEAD
+<<<<<<< HEAD
     python-is-python3 \
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     python3 \
     python3-dateutil \
     python3-dev \
@@ -1625,9 +1669,12 @@ RUN apt-get update && apt-get upgrade -y && \
     python3-setuptools \
     python3-venv \
 <<<<<<< HEAD
+<<<<<<< HEAD
     python3-wxgtk4.0 \
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     software-properties-common \
     sqlite3 \
     subversion \
@@ -1635,6 +1682,7 @@ RUN apt-get update && apt-get upgrade -y && \
     vim \
     wget \
     zip \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1715,6 +1763,8 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
     zlib1g-dev \
     && apt-get clean all && rm -rf /var/lib/apt/lists/*
 =======
@@ -1855,7 +1905,13 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
     zlib1g-dev
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+    zlib1g-dev
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 # wxGUI
 RUN pip install -U \
@@ -1870,6 +1926,7 @@ ENV NO_AT_BRIDGE=1
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1978,6 +2035,8 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -2573,11 +2632,17 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 =======
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 ## fetch vertical datums for PDAL and store into PROJ dir
 WORKDIR /src
 RUN mkdir vdatum && \
     cd vdatum && \
+<<<<<<< HEAD
 <<<<<<< HEAD
     wget -q http://download.osgeo.org/proj/vdatum/egm08_25/egm08_25.gtx && mv egm08_25.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/egm96_15/egm96_15.gtx && mv egm96_15.gtx /usr/share/proj; \
@@ -2835,6 +2900,8 @@ RUN mkdir vdatum && \
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2012.zip && unzip -j -u usa_geoid2012.zip -d /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2009.zip && unzip -j -u usa_geoid2009.zip -d /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2003.zip && unzip -j -u usa_geoid2003.zip -d /usr/share/proj; \
@@ -2848,6 +2915,7 @@ RUN mkdir vdatum && \
     rm -rf vdatum
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## install pdal
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -2856,7 +2924,13 @@ RUN mkdir vdatum && \
 =======
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 ENV NUMTHREADS=4
 WORKDIR /src
 RUN wget -q \
@@ -2872,6 +2946,7 @@ RUN wget -q \
       -DCMAKE_C_COMPILER=gcc \
       -DCMAKE_CXX_COMPILER=g++ \
       -DCMAKE_MAKE_PROGRAM=make \
+<<<<<<< HEAD
 <<<<<<< HEAD
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_CPD=OFF \
@@ -3154,6 +3229,8 @@ RUN wget -q \
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PYTHON=ON \
       -DBUILD_PLUGIN_CPD=OFF \
       -DBUILD_PLUGIN_GREYHOUND=ON \
@@ -3161,6 +3238,7 @@ RUN wget -q \
       -DHEXER_INCLUDE_DIR=/usr/include/ \
       -DBUILD_PLUGIN_NITF=OFF \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
@@ -3229,10 +3307,13 @@ RUN wget -q \
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
+<<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3366,7 +3447,12 @@ RUN wget -q \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -3392,6 +3478,7 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 
 # Configure compile and install GRASS GIS
 # wxGUI require
+<<<<<<< HEAD
 <<<<<<< HEAD
 # --with-nls
 # --with-x
@@ -3419,6 +3506,8 @@ RUN /src/grass_build/configure \
   --without-odbc \
   --without-openmp \
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 # --with-x
 # --with-nls
 ENV GRASS_PYTHON=/usr/bin/python3
@@ -3445,7 +3534,10 @@ RUN /src/grass_build/configure \
   --with-x \
   --with-nls \
   --with-readline \
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     && make -j $NUMTHREADS \
     && make install && ldconfig
 
@@ -3464,6 +3556,7 @@ ENV SHELL /bin/bash
 ENV LC_ALL "en_US.UTF-8"
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK 1
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3562,6 +3655,8 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
@@ -4282,6 +4377,8 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
     pdal --version && \
     python --version
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
 
@@ -4289,7 +4386,10 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
     pdal --version && \
     python3 --version
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -4299,6 +4399,7 @@ RUN rm -r /src/grass_build/.git
 WORKDIR /scripts
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # enable GRASS GIS Python session support
 ## grass --config python-path
 ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
@@ -4306,6 +4407,8 @@ ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
 ## grass --config path
 ENV LD_LIBRARY_PATH "/usr/local/grass/lib:$LD_LIBRARY_PATH"
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 # install external GRASS GIS session Python API
 RUN pip3 install grass-session
 
@@ -4314,12 +4417,16 @@ ENV GISBASE "/usr/local/grass/"
 ENV GRASSBIN "/usr/local/bin/grass"
 ENV PYTHONPATH "${PYTHONPATH}:$GISBASE/etc/python/"
 ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:$GISBASE/lib"
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 WORKDIR /tmp
 COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4379,6 +4486,8 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
@@ -4870,6 +4979,8 @@ WORKDIR /grassdb
 VOLUME /grassdb
 CMD ["$GRASSBIN", "--version"]
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 ## just scan the LAZ file
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
@@ -4878,4 +4989,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 
 WORKDIR /grassdb
 VOLUME /grassdb
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

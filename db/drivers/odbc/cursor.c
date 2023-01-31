@@ -56,6 +56,7 @@ int db__driver_close_cursor(dbCursor *dbc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -72,6 +73,8 @@ int db__driver_close_cursor(dbCursor *dbc)
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 cursor *alloc_cursor(void)
 =======
 <<<<<<< HEAD
@@ -220,6 +223,7 @@ cursor *alloc_cursor()
 =======
 cursor *alloc_cursor(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
@@ -309,6 +313,14 @@ cursor *alloc_cursor(void)
 cursor *alloc_cursor(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+cursor *alloc_cursor()
+=======
+cursor *alloc_cursor(void)
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 {
     cursor *c;
     SQLRETURN ret;

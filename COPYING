@@ -33,10 +33,14 @@ GRASS Development Team at the following address:
  c/o Markus Neteler
  mundialis GmbH & Co. KG
 <<<<<<< HEAD
+<<<<<<< HEAD
  Koelnstrasse 99
 =======
  Kölnstrasse 99
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+ Kölnstrasse 99
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
  53111 Bonn, Germany
  neteler AT osgeo.org
 

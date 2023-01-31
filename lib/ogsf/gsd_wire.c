@@ -474,6 +474,7 @@ int gsd_wire_surf_const(geosurf *surf, float k)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
@@ -555,6 +556,8 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 int gsd_wire_surf_func(geosurf *gs UNUSED, int (*user_func)(void) UNUSED)
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
@@ -798,7 +801,16 @@ int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
 =======
 int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+int gsd_wire_surf_func(geosurf *gs, int (*user_func)())
+=======
+int gsd_wire_surf_func(geosurf *gs, int (*user_func)(void))
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 {
     return (1);
 }

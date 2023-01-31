@@ -18,10 +18,14 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
     struct Popen stats_child, reclass_child;
     FILE *stats, *reclass;
 <<<<<<< HEAD
+<<<<<<< HEAD
     int first, i, count = 0;
 =======
     int first, i, count;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+    int first, i, count;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     size_t mem;
     long basecat, covercat, catb, catc;
     double value, vari, x;

@@ -52,10 +52,13 @@ int maskfd;
 CELL *mask;
 CELL NULL_CELL;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 enum OutputFormat format;
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 char fs[2];
 struct Categories *labels;

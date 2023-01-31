@@ -1705,7 +1705,12 @@ Modify the VERSION file use the dedicated script, for RC1, e.g.:
 ./utils/update_version.py rc 1
 ```
 
+<<<<<<< HEAD
 The script will compute the correct version string and print a message containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
+=======
+The script will compute the correct version string and print a message
+containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 
 Commit with a commit message suggested by the script, e.g.:
 
@@ -1714,7 +1719,12 @@ git diff
 git commit include/VERSION -m "version: GRASS GIS 8.2.0RC1"
 ```
 
+<<<<<<< HEAD
 Check that there is exactly one commit on your local branch and that it is the version change:
+=======
+Check that there is exactly one commit on your local branch and that it is the
+version change:
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 
 ```bash
 git status
@@ -2671,6 +2681,7 @@ run from the top directory and will expect its configuration files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2715,9 +2726,13 @@ run from the top directory and will expect its configuration files
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 to be in the *utils* directory.
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 to be in the _utils_ directory.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -3298,6 +3313,7 @@ release candidate because it contains contributor handles and can identify
 <<<<<<< HEAD
 new contributors, so use with the _api_ backend, e.g.:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -3310,7 +3326,19 @@ new contributors, so use with the _api_ backend, e.g.:
 =======
 new contributors, so use with the *api* backend, e.g.:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+to be in the *utils* directory.
+
+For major and minor releases, GitHub API gives good results for the first
+release candidate because it contains contributor handles and can identify
+new contributors, so use with the *api* backend, e.g.:
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 ```bash
 python ./generate_release_notes.py api releasebranch_8_2 8.0.0 $VERSION
@@ -3318,6 +3346,7 @@ python ./generate_release_notes.py api releasebranch_8_2 8.0.0 $VERSION
 
 For micro releases, GitHub API does not give good results because it uses PRs
 while the backports are usually direct commits without PRs.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3456,10 +3485,18 @@ The *git log* command operates on commits, so use use the *log* backend:
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+The *git log* command operates on commits, so use use the *log* backend:
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 The _git log_ command operates on commits, so use use the _log_ backend:
 =======
 The *git log* command operates on commits, so use use the *log* backend:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3567,12 +3604,18 @@ The _git log_ command operates on commits, so use use the _log_ backend:
 =======
 The *git log* command operates on commits, so use use the *log* backend:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 ```bash
 python ./generate_release_notes.py log releasebranch_8_2 8.2.0 $VERSION
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3626,6 +3669,8 @@ added manually to the result from the *api* backend.
 <<<<<<< HEAD
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4488,6 +4533,12 @@ In between RCs and between last RC and final release, the _log_ backend is usefu
 =======
 In between RCs and between last RC and final release, the *log* backend is useful
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+In between RCs and between last RC and final release, the _log_ backend is useful
+=======
+In between RCs and between last RC and final release, the *log* backend is useful
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 for showing updates since the last RC:
 
 ```bash
@@ -4495,7 +4546,12 @@ python ./generate_release_notes.py log releasebranch_8_2 8.2.0RC1 $VERSION
 ```
 
 For the final release, the changes accumulated since the first RC need to be
+<<<<<<< HEAD
 added manually to the result from the *api* backend.
+=======
+<<<<<<< HEAD
+added manually to the result from the _api_ backend.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
 The script sorts them into categories defined in _utils/release.yml_.
@@ -4516,6 +4572,7 @@ may need to be added showing critical fixes or breaking changes if there are any
 
 After the automated release job completes, a new release draft will be available in the GitHub
 web interface. You can copy-paste the created release notes to GitHub and further modify as needed.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4589,6 +4646,8 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4675,6 +4734,7 @@ added manually to the result from the *api* backend.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4729,6 +4789,13 @@ added manually to the result from the *api* backend.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+added manually to the result from the *api* backend.
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 The script sorts them into categories defined in *utils/release.yml*.
 However, these notes need to be manually edited to collapse related items into
 one. Additionally, a *Highlights* section needs to be added with manually
@@ -4741,6 +4808,7 @@ if there are any.
 After the automated release job completes, a new release draft will be available
 in the GitHub web interface. You can copy-paste the created release notes to
 GitHub and further modify as needed.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4808,6 +4876,8 @@ GitHub and further modify as needed.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -4947,7 +5017,13 @@ After the automated release job completes, a new release draft will be available
 in the GitHub web interface. You can copy-paste the created release notes to
 GitHub and further modify as needed.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 Older release description may or may not be a good inspiration:
 <https://github.com/OSGeo/grass/releases>.
@@ -5372,6 +5448,7 @@ After an RC, switch to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 After a final release, switch to development version for the next micro, minor,
@@ -5454,6 +5531,8 @@ or major version, e.g., for micro version, use:
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 After a final release, update to the next micro (x.y.Z), minor (x.Y.z),
 or major (X.y.y) version. E.g., for micro version, use:
 =======
@@ -5646,9 +5725,14 @@ or major version, e.g., for micro version, use:
 After a final release, switch to development version for the next micro, minor, or major
 version, e.g., for micro version, use:
 =======
+After a final release, switch to development version for the next micro, minor, or major
+version, e.g., for micro version, use:
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
 After a final release, switch to development version for the next micro, minor,
 or major version, e.g., for micro version, use:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5759,12 +5843,18 @@ version, e.g., for micro version, use:
 After a final release, switch to development version for the next micro, minor,
 or major version, e.g., for micro version, use:
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 ```bash
 ./utils/update_version.py micro
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5949,6 +6039,8 @@ Use `--help` for details about the options.
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 Use *major* and *minor* operations for the other version updates.
 =======
 <<<<<<< HEAD
@@ -6187,7 +6279,12 @@ Use `--help` for details about the options.
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 Use _major_ and _minor_ operations for the other version updates.
+=======
+Use *major* and *minor* operations for the other version updates.
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 Use `--help` for details about the options.
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6202,6 +6299,7 @@ git push upstream
 
 ## Upload to OSGeo servers
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6280,6 +6378,8 @@ development coordinators.
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 This part requires extra permissions and needs to be done by one of the development coordinators.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6350,9 +6450,13 @@ development coordinators.
 >>>>>>> osgeo-main
 =======
 =======
+This part requires extra permissions and needs to be done by one of the development coordinators.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
 This part requires extra permissions and needs to be done by one of the
 development coordinators.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6485,7 +6589,12 @@ This part requires extra permissions and needs to be done by one of the developm
 This part requires extra permissions and needs to be done by one of the
 development coordinators.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 ### Get the tagged version
 
@@ -6922,6 +7031,7 @@ linked to the tag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6946,6 +7056,8 @@ linked to the tag:
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 =======
@@ -7111,9 +7223,13 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
 =======
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
 =======
+wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7266,7 +7382,12 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 ```
 
 ### Get the source code tarball
@@ -7560,6 +7681,7 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7644,6 +7766,8 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e632f0f0bb (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 
 ssh $USER@$SERVER2 "mkdir -p $SERVER2DIR"
@@ -7804,10 +7928,13 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
   INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 
 scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
   INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7881,6 +8008,9 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 =======
 <<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7962,6 +8092,14 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 =======
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+=======
+=======
+  INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+
+scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
+  INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
@@ -8461,6 +8599,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8511,6 +8650,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
 <<<<<<< HEAD
@@ -8634,11 +8775,20 @@ Add the new version to repos which build or test addons:
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+- <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
+- <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml>
   (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh>
   (add new release related line for new branches and final releases)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8709,6 +8859,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> osgeo-main
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -8852,7 +9004,13 @@ Add the new version to repos which build or test addons:
 =======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 ## Close milestone
 
@@ -9297,6 +9455,7 @@ which Zenodo creates with a DOI for the published released.
 For final releases only, go to Zenodo a get a Markdown badge for the release
 which Zenodo creates with a DOI for the published released.
 
+<<<<<<< HEAD
 For all releases, click the Binder badge to get Binder to build. Use it to test
 it and to cache the built image. Add more links to (or badges for) more notebooks
 if there are any which show well specific features added or updated in the release.
@@ -9322,10 +9481,17 @@ Software pages:
 - Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 For all releases, click the Binder badge to get Binder to build. Use it to test it and
 to cache the built image. Add more links to (or badges for) more notebooks if there
 are any which show well specific features added or updated in the release.
+=======
+For all releases, click the Binder badge to get Binder to build. Use it to test
+it and to cache the built image. Add more links to (or badges for) more notebooks
+if there are any which show well specific features added or updated in the release.
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
 ## Create entries for the new release
@@ -9337,6 +9503,7 @@ Add entry in <https://trac.osgeo.org/grass/wiki/Release>
 ### Update Hugo web site to show new version
 
 For a (final) release (not release candidate), write announcement and publish it:
+<<<<<<< HEAD
 - News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
 
 Software pages:
@@ -9345,6 +9512,7 @@ Software pages:
 - Mac: <https://github.com/OSGeo/grass-website/blob/master/content/download/mac.en.md>
 - Releases: <https://github.com/OSGeo/grass-website/blob/master/content/about/history/releases.md>
 - Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 <<<<<<< HEAD
@@ -9381,6 +9549,7 @@ it and to cache the built image. Add more links to (or badges for) more notebook
 if there are any which show well specific features added or updated in the release.
 =======
 =======
+<<<<<<< HEAD
 =======
 For final releases only, go to Zenodo a get a Markdown badge for the release
 which Zenodo creates with a DOI for the published released.
@@ -9512,6 +9681,20 @@ For all releases, click the Binder badge to get Binder to build. Use it to test
 it and to cache the built image. Add more links to (or badges for) more notebooks
 if there are any which show well specific features added or updated in the release.
 >>>>>>> osgeo-main
+=======
+
+- News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
+
+Software pages:
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+
+- Linux: <https://github.com/OSGeo/grass-website/blob/master/content/download/linux.en.md>
+- Windows: <https://github.com/OSGeo/grass-website/blob/master/content/download/windows.en.md>
+- Mac: <https://github.com/OSGeo/grass-website/blob/master/content/download/mac.en.md>
+- Releases: <https://github.com/OSGeo/grass-website/blob/master/content/about/history/releases.md>
+- Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
 ## Create entries for the new release
@@ -10086,6 +10269,7 @@ Write announcement and publish it:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -10134,6 +10318,8 @@ Write announcement and publish it:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 =======
 ### Only in case of new major release
 
@@ -10318,7 +10504,18 @@ Write announcement and publish it:
 - update cronjob '[cron_grass8_main_src_snapshot.sh](https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/)'
   on grass.osgeo.org to next but one release tag for the differences
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+- update cronjob '[cron_grass8_main_src_snapshot.sh](https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/)' on grass.osgeo.org to next
+  but one release tag for the differences
+=======
+- update cronjob '[cron_grass8_main_src_snapshot.sh](https://github.com/OSGeo/grass-addons/tree/grass8/utils/cronjobs_osgeo_lxd/)'
+  on grass.osgeo.org to next but one release tag for the differences
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 - wiki updates, only when new major release:
   - {{cmd|xxxx}} macro: <https://grasswiki.osgeo.org/wiki/Template:Cmd>
   - update last version on main page

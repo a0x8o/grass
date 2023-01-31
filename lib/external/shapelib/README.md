@@ -1,10 +1,14 @@
 # Update history of SHAPELIB copy
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * files `shpopen.c`, `shapefil.h`, `dbfopen.c`, `shapefil_private.h`
 =======
 * files `shpopen.c`, `shapefil.h`, `dbfopen.c`
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+* files `shpopen.c`, `shapefil.h`, `dbfopen.c`
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
    from GDAL [ogr/ogrsf_frmts/shape/](https://github.com/OSGeo/gdal/tree/master/ogr/ogrsf_frmts/shape)
 * file `safileio.c`
    from [SHAPELIB](http://download.osgeo.org/shapelib/)
@@ -12,9 +16,12 @@
 ## Last update
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * taken from GDAL 3.9.2 and SHAPELIB 1.6.0 (Sep 2024)
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 * taken from GDAL 3.5.3 and SHAPELIB 1.5.0 (Dec 2022)
 * taken from GDAL 2.1.2 and SHAPELIB 1.3.0 (Thu Nov 24 10:45:41 CET 2016)
 * taken from GDAL 1.5.1-SVN (Sun Mar 30 11:20:43 CEST 2008)
@@ -24,9 +31,12 @@
 ## Summary of fixes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * safileio.c
    [shapelib commit 316ff87](https://github.com/OSGeo/shapelib/commit/316ff872566ea0d91d6b62fe01bfe39931db39aa#diff-f068bc465ca1a32e1b9c214d4eb9504ef9e0f3c4cabc1aa4bab8aa41e2248cc6R153)
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 * dbfopen.c
    around line 1229: GDAL bug [ticket-#809](http://trac.osgeo.org/gdal/ticket/809)
 
@@ -68,4 +78,7 @@ index 289d347eaf..7a614a5806 100644
  #   ifdef SHPAPI_WINDOWS
 
 ```
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

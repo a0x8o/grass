@@ -60,6 +60,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -84,6 +85,8 @@ double gaussian2dByTerms(double d, double term1, double term2);
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 <<<<<<< HEAD
@@ -379,7 +382,16 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
+=======
+=======
+double brent_iterate(double (*f)(), double x_lower, double x_upper,
+=======
+double brent_iterate(double (*f)(double), double x_lower, double x_upper,
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

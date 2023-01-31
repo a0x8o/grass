@@ -2,10 +2,14 @@ MODULE_TOPDIR = ../..
 
 EXTRA_LIBS = $(OPENMP_LIBPATH) $(OPENMP_LIB)
 <<<<<<< HEAD
+<<<<<<< HEAD
 EXTRA_INC = $(OPENMP_INCPATH) $(BLASINC) $(LAPACKINC)
 =======
 EXTRA_INC = $(OPENMP_INCPATH)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+EXTRA_INC = $(OPENMP_INCPATH)
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 EXTRA_CFLAGS = $(FFTWINC) $(OPENMP_CFLAGS)
 
 LIB = GMATH

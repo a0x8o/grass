@@ -98,6 +98,7 @@ mkdir -p data/grassdata \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
@@ -106,3 +107,5 @@ mkdir -p data/grassdata \
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
