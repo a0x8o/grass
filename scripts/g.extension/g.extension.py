@@ -1807,6 +1807,9 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3b2c5a2ad2 (Merge branch 'a0x8o' into stag0)
 def replace_shebang_win(python_file):
     """
     Replaces "python" with "python3" in python files
@@ -1830,6 +1833,7 @@ def replace_shebang_win(python_file):
     os.rename(tmp_name, python_file)  # rename temp to original name
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1870,6 +1874,8 @@ def replace_shebang_win(python_file):
 >>>>>>> ffbd80b751 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 174adf65f4 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 3b2c5a2ad2 (Merge branch 'a0x8o' into stag0)
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
