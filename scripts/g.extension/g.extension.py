@@ -5120,6 +5120,7 @@ def replace_shebang_win(python_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53865df964 (g.proj: fix reading input WKT (#1582))
 =======
 def replace_shebang_win(python_file):
@@ -5593,6 +5594,8 @@ def replace_shebang_win(python_file):
 >>>>>>> a3a6bf21f5 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7f1d07f096 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> a2e12a65ef (g.proj: fix reading input WKT (#1582))
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
