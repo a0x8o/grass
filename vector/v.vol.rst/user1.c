@@ -593,6 +593,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1226,6 +1227,8 @@ int OUTGR(void)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
             if (read_val != (size_t)nsizc) {
 =======
 <<<<<<< HEAD
@@ -1483,6 +1486,7 @@ int OUTGR(void)
 =======
             if (read_val != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2421,6 +2425,11 @@ int OUTGR(void)
             if (read_val != nsizc) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (read_val != (size_t)nsizc) {
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
                 clean();
                 G_fatal_error(_("Unable to read data from temp file"));
             }

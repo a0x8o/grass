@@ -71,10 +71,15 @@ C Code debugging Software:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       https://www.gnu.org/software/ddd/
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+      https://www.gnu.org/software/ddd/
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
       http://www.gnu.org/software/ddd/
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
        (GNU DDD is a graphical front-end for command-line debuggers such as

@@ -202,9 +202,14 @@ Multiple GRASS modules can be joined into one object by
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .. _Popen: https://docs.python.org/library/subprocess.html#Popen
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+.. _Popen: https://docs.python.org/library/subprocess.html#Popen
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 .. _Popen: http://docs.python.org/library/subprocess.html#Popen
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))

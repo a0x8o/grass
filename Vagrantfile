@@ -16,16 +16,22 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
   config.vm.box = "noble64"
 =======
   config.vm.box = "bionic64"
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
   config.vm.box = "bionic64"
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
   config.vm.box = "noble64"
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 
   config.vm.hostname = "grass-gis-vagrant"
   config.vm.box = "alvistack/ubuntu-24.04"
@@ -125,6 +131,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       pkg_cmd = "sed -i 's#deb http://archive.ubuntu.com/ubuntu#deb mirror://mirrors.ubuntu.com/mirrors.txt#' /etc/apt/sources.list; "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
 =======
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python-software-properties; "
@@ -135,6 +142,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 =======
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+      pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
+=======
+      pkg_cmd << "apt-get update -qq; apt-get install -q -y python-software-properties; "
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 
       if ppaRepos.length > 0
 	ppaRepos.each { |repo| pkg_cmd << "add-apt-repository -y " << repo << " ; " }

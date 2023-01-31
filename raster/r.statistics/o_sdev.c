@@ -19,13 +19,19 @@ int o_sdev(const char *basemap, const char *covermap, const char *outputmap,
     FILE *stats, *reclass;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
     int first, i, count = 0;
 =======
     int first, i, count;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
     int first, i, count;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
     size_t mem;
     long basecat, covercat, catb, catc;
     double value, sdev, x;

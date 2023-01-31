@@ -2302,6 +2302,9 @@ SR_WL,SR_AV_B1,SR_AV_B2,SR_AV_B3,SR_AV_B4,SR_AV_B5,SR_AV_B6,SR_AV_B7,SR_AV_B8,SR
 2600,0,0,0,0,0,0,0,0,0,0,0,0,0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 SR_WL,SR_AV_B1,SR_AV_B2,SR_AV_B3,SR_AV_B4,SR_AV_B5,SR_AV_B6,SR_AV_B7,SR_AV_B8,SR_AV_B8A,SR_AV_B9,SR_AV_B10,SR_AV_B11,SR_AV_B12
 300,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -4606,8 +4609,12 @@ SR_WL,SR_AV_B1,SR_AV_B2,SR_AV_B3,SR_AV_B4,SR_AV_B5,SR_AV_B6,SR_AV_B7,SR_AV_B8,SR
 2599,0,0,0,0,0,0,0,0,0,0,0,0,0
 2600,0,0,0,0,0,0,0,0,0,0,0,0,0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 45518d12eb (i.atcorr: fix sentinel_2B parsing with create_iwave (#3806))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+>>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
