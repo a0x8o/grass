@@ -57,6 +57,13 @@ class Popen(subprocess.Popen):
             if ext.lower() not in self._builtin_exts:
                 kwargs["shell"] = True
                 args = [self._escape_for_shell(arg) for arg in args]
+
+            # hides the window on MS Windows - another window will be activated
+            si = subprocess.STARTUPINFO()
+            si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            si.wShowWindow = subprocess.SW_HIDE
+            kwargs["startupinfo"] = si
+
         subprocess.Popen.__init__(self, args, **kwargs)
 
 
@@ -1714,16 +1721,11 @@ def create_location(
     # create dbase if not exists
     if not os.path.exists(dbase):
         os.mkdir(dbase)
-    if epsg or proj4 or filename or wkt:
-        # here the location shouldn't really matter
-        tmp_gisrc, env = create_environment(
-            dbase, gisenv()["LOCATION_NAME"], "PERMANENT"
-        )
+
     # check if location already exists
     if os.path.exists(os.path.join(dbase, location)):
         if not overwrite:
             warning(_("Location <%s> already exists. Operation canceled.") % location)
-            try_remove(tmp_gisrc)
             return
         else:
             warning(
@@ -1737,6 +1739,22 @@ def create_location(
         kwargs["datum"] = datum
     if datum_trans:
         kwargs["datum_trans"] = datum_trans
+
+    # Lazy-importing to avoid circular dependencies.
+    # pylint: disable=import-outside-toplevel
+    if os.environ.get("GISBASE"):
+        env = os.environ
+    else:
+        from grass.script.setup import setup_runtime_env
+
+        env = os.environ.copy()
+        setup_runtime_env(env=env)
+
+    if epsg or proj4 or filename or wkt:
+        # The names don't really matter here.
+        tmp_gisrc, env = create_environment(
+            dbase, "<placeholder>", "<placeholder>", env=env
+        )
 
     if epsg:
         ps = pipe_command(
