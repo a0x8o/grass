@@ -11978,10 +11978,13 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a80c8300ee (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> de3e0fe992 (grass.jupyter: update r.proj call to use project instead of location (#3766))
         project=location,
         dbase=dbase,
         env=env,
