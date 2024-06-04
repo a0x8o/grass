@@ -3560,6 +3560,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
         mapset=mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         project=location,
         dbase=dbase,
         env=env,
@@ -3837,6 +3838,9 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
         location=location,
+=======
+        project=location,
+>>>>>>> 9433d9cba8 (grass.jupyter: update r.proj call to use project instead of location (#3766))
         dbase=dbase,
         env=env,
 <<<<<<< HEAD
