@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -78,6 +79,8 @@
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -264,6 +267,7 @@ timestamp='2022-01-03'
 #   Copyright 1992-2021 Free Software Foundation, Inc.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
@@ -299,6 +303,8 @@ timestamp='2022-01-03'
 >>>>>>> 4bd82c1c83 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 97d007c3ed (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 
@@ -355,6 +361,7 @@ timestamp='2024-01-01'
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 timestamp='2024-01-01'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
@@ -512,6 +519,7 @@ timestamp='2022-01-03'
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -794,6 +802,8 @@ timestamp='2021-04-30'
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -927,6 +937,7 @@ GNU config.sub ($timestamp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -952,6 +963,8 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1159,6 +1172,7 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Copyright 1992-2024 Free Software Foundation, Inc.
@@ -1411,6 +1425,11 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Copyright 1992-2024 Free Software Foundation, Inc.
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -2774,10 +2793,13 @@ case $cpu-$vendor in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
 =======
 >>>>>>> f1abdb8da2 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 			| loongarch32 \
 			| loongarch64 \
 			| m32c \
@@ -2815,9 +2837,12 @@ case $cpu-$vendor in
 =======
 			| loongarch32 | loongarch64 \
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 			| loongarch32 | loongarch64 | loongarchx32 \
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 			| m32c | m32r | m32rle \
 			| m5200 | m68000 | m680[012346]0 | m68360 | m683?2 | m68k \
 			| m6811 | m68hc11 | m6812 | m68hc12 | m68hcs12x \
@@ -2825,8 +2850,11 @@ case $cpu-$vendor in
 			| microblaze | microblazeel \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 			| mips | mipsbe | mipseb | mipsel | mipsle \
 			| mips16 \
 			| mips64 | mips64eb | mips64el \
@@ -2854,11 +2882,17 @@ case $cpu-$vendor in
 			| mipstx39 | mipstx39el \
 >>>>>>> 2d7cc8f3e1 (configure, config.sub, config.guess: updated (#1585))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			| mips* \
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+=======
+			| mips* \
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 			| mmix \
 			| mn10200 \
 			| mn10300 \
@@ -3113,6 +3147,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3147,6 +3182,8 @@ EOF
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -3163,6 +3200,7 @@ EOF
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -3294,6 +3332,8 @@ EOF
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	managarm*)
 		kernel=managarm
@@ -3320,9 +3360,12 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3400,6 +3443,7 @@ EOF
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
@@ -3607,6 +3651,10 @@ EOF
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	*)
 		kernel=
@@ -4109,6 +4157,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4134,6 +4183,8 @@ case $os in
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4342,6 +4393,7 @@ case $os in
 	musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	llvm* | musl* | newlib* | relibc* | uclibc*)
@@ -4591,6 +4643,11 @@ case $os in
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	llvm* | musl* | newlib* | relibc* | uclibc*)
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	# Likewise for "kernel-abi"
 	eabi* | gnueabi*)
@@ -4602,10 +4659,13 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
 =======
 >>>>>>> f1abdb8da2 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	# See `case $cpu-$os` validation below
 	ghcjs)
@@ -4620,12 +4680,15 @@ case $os in
 	# See `case $cpu-$os` validation below
 	ghcjs)
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
 =======
 =======
 >>>>>>> e4db87e04f (configure, config.sub, config.guess: updated (#1585))
 >>>>>>> f1abdb8da2 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	# Now accept the basic system types.
 	# Each alternative MUST end in a * to match a version number.
@@ -4876,6 +4939,9 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 	     | cygwin* | msys* | moss* | proelf* | rtems* \
 =======
 =======
@@ -4885,6 +4951,7 @@ case $os in
 =======
 	     | cygwin* | msys* | moss* | proelf* | rtems* \
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 	     | cygwin* | msys* | moss* | proelf* | rtems* \
 >>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
@@ -4925,6 +4992,8 @@ case $os in
 	     | cygwin* | msys* | pe* | moss* | proelf* | rtems* \
 >>>>>>> 2d7cc8f3e1 (configure, config.sub, config.guess: updated (#1585))
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 	     | midipix* | mingw32* | mingw64* | mint* \
 	     | uxpv* | beos* | mpeix* | udk* | moxiebox* \
 	     | interix* | uwin* | mks* | rhapsody* | darwin* \
@@ -4993,6 +5062,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5018,6 +5088,8 @@ case $os in
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5238,6 +5310,7 @@ case $os in
 	     | fiwix* )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
@@ -5489,6 +5562,11 @@ case $os in
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
@@ -5546,7 +5624,6 @@ esac
 
 # As a final step for OS-related things, validate the OS-kernel combination
 # (given a valid OS), if there is a kernel.
-<<<<<<< HEAD
 case $kernel-$os-$obj in
 	linux-gnu*- | linux-android*- | linux-dietlibc*- | linux-llvm*- \
 		    | linux-mlibc*- | linux-musl*- | linux-newlib*- \
@@ -5576,6 +5653,7 @@ case $kernel-$os-$obj in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		;;
 	uclinux-uclibc*- )
@@ -5621,6 +5699,8 @@ case $kernel-$os-$obj in
 =======
 		    | linux-relibc*- | linux-uclibc*- )
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 case $kernel-$os in
 	linux-gnu* | linux-dietlibc* | linux-android* | linux-newlib* \
@@ -5738,6 +5818,7 @@ case $kernel-$os in
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
@@ -5933,9 +6014,14 @@ case $kernel-$os in
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	uclinux-uclibc*- | uclinux-gnu*- )
 		;;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5992,6 +6078,8 @@ case $kernel-$os in
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+=======
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -6008,6 +6096,7 @@ case $kernel-$os in
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -6232,6 +6321,8 @@ case $kernel-$os in
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 	managarm-mlibc*- | managarm-kernel*- )
 		;;
 	windows*-msvc*-)
@@ -6260,9 +6351,12 @@ case $kernel-$os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 =======
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6355,6 +6449,7 @@ case $kernel-$os in
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 =======
@@ -6596,6 +6691,8 @@ case $kernel-$os in
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		# These are just libc implementations, not actual OSes, and thus
 		# require a kernel.
 		echo "Invalid configuration '$1': libc '$os' needs explicit kernel." 1>&2
@@ -6608,8 +6705,11 @@ case $kernel-$os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 	*-kernel*- )
 		echo "Invalid configuration '$1': '$kernel' does not support '$os'." 1>&2
 		exit 1
@@ -6629,10 +6729,13 @@ case $kernel-$os in
 		echo "Invalid configuration '$1': '$kernel' does not support '$os'." 1>&2
 		exit 1
 >>>>>>> 9170adfa10 (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
+<<<<<<< HEAD
 =======
 	nto-qnx*)
 >>>>>>> 2d7cc8f3e1 (configure, config.sub, config.guess: updated (#1585))
 >>>>>>> 7b50fcdc40 (configure, config.sub, config.guess: updated (#1585))
+=======
+>>>>>>> 6b434a411a (config.guess + config.sub: updated from http://git.savannah.gnu.org/cgit/config.git/plain/)
 		;;
 	*-msvc*- )
 		echo "Invalid configuration '$1': '$os' needs 'windows'." 1>&2
