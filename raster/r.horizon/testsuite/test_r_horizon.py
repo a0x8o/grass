@@ -226,13 +226,17 @@ class TestHorizon(TestCase):
         self.assertModule(module)
         stdout = json.loads(module.outputs.stdout)
         horizons = []
+        distances = []
         reference = {}
         for line in ref6.splitlines()[1:]:
             azimuth, horizon, distance = line.split(",")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+=======
+>>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
             horizons.append(
                 {
                     "azimuth": float(azimuth),
@@ -254,11 +258,14 @@ class TestHorizon(TestCase):
         reference["horizon_height"] = horizons
         reference["horizon_distance"] = distances
 >>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
+<<<<<<< HEAD
 =======
         reference["x"] = 634720.0
         reference["y"] = 216180.0
         reference["horizons"] = horizons
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+=======
+>>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
 
         self.assertListEqual([reference], stdout)
 
@@ -276,13 +283,17 @@ class TestHorizon(TestCase):
         self.assertModule(module)
         stdout = json.loads(module.outputs.stdout)
         horizons = []
+        distances = []
         reference = {}
         for line in ref6.splitlines()[1:]:
             azimuth, horizon, distance = line.split(",")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+=======
+>>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
             horizons.append(
                 {
                     "azimuth": float(azimuth),
@@ -304,11 +315,14 @@ class TestHorizon(TestCase):
         reference["horizon_height"] = horizons
         reference["horizon_distance"] = distances
 >>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
+<<<<<<< HEAD
 =======
         reference["x"] = 634720.0
         reference["y"] = 216180.0
         reference["horizons"] = horizons
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+=======
+>>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
 
         self.assertListEqual([reference, reference], stdout)
 
