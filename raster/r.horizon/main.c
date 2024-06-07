@@ -12439,10 +12439,16 @@ void calculate_shadow(void)
                 fprintf(fp, "\n");
                 break;
             case JSON:
+<<<<<<< HEAD
                 json_object_set_number(object, "azimuth", tmpangle);
                 json_object_set_number(object, "angle", shadow_angle);
                 json_object_set_number(object, "distance", horizon.length);
                 json_array_append_value(horizons, value);
+=======
+                json_array_append_number(azimuths, tmpangle);
+                json_array_append_number(horizons, shadow_angle);
+                json_array_append_number(distances, horizon.length);
+>>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
                 break;
             }
         }
@@ -12455,10 +12461,16 @@ void calculate_shadow(void)
                 fprintf(fp, "\n");
                 break;
             case JSON:
+<<<<<<< HEAD
                 json_object_set_number(object, "azimuth", printangle);
                 json_object_set_number(object, "angle", shadow_angle);
                 json_object_set_number(object, "distance", horizon.length);
                 json_array_append_value(horizons, value);
+=======
+                json_array_append_number(azimuths, printangle);
+                json_array_append_number(horizons, shadow_angle);
+                json_array_append_number(distances, horizon.length);
+>>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
                 break;
             }
         }
@@ -12478,7 +12490,13 @@ void calculate_shadow(void)
     } /* end of for loop over angles */
 
     if (format == JSON) {
+<<<<<<< HEAD
         json_object_set_value(json_origin, "horizons", horizons_value);
+=======
+        json_object_set_value(json_origin, "azimuth", azimuths_value);
+        json_object_set_value(json_origin, "horizon_height", horizons_value);
+        json_object_set_value(json_origin, "horizon_distance", distances_value);
+>>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
     }
 =======
         ip = jp = 0;

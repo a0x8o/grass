@@ -226,9 +226,11 @@ class TestHorizon(TestCase):
         self.assertModule(module)
         stdout = json.loads(module.outputs.stdout)
         horizons = []
+        distances = []
         reference = {}
         for line in ref6.splitlines()[1:]:
             azimuth, horizon, distance = line.split(",")
+<<<<<<< HEAD
             horizons.append(
                 {
                     "azimuth": float(azimuth),
@@ -239,6 +241,16 @@ class TestHorizon(TestCase):
         reference["x"] = 634720.0
         reference["y"] = 216180.0
         reference["horizons"] = horizons
+=======
+            azimuths.append(float(azimuth))
+            horizons.append(float(horizon))
+            distances.append(float(distance))
+        reference["x"] = 634720.0
+        reference["y"] = 216180.0
+        reference["azimuth"] = azimuths
+        reference["horizon_height"] = horizons
+        reference["horizon_distance"] = distances
+>>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
 
         self.assertListEqual([reference], stdout)
 
@@ -256,9 +268,11 @@ class TestHorizon(TestCase):
         self.assertModule(module)
         stdout = json.loads(module.outputs.stdout)
         horizons = []
+        distances = []
         reference = {}
         for line in ref6.splitlines()[1:]:
             azimuth, horizon, distance = line.split(",")
+<<<<<<< HEAD
             horizons.append(
                 {
                     "azimuth": float(azimuth),
@@ -269,6 +283,16 @@ class TestHorizon(TestCase):
         reference["x"] = 634720.0
         reference["y"] = 216180.0
         reference["horizons"] = horizons
+=======
+            azimuths.append(float(azimuth))
+            horizons.append(float(horizon))
+            distances.append(float(distance))
+        reference["x"] = 634720.0
+        reference["y"] = 216180.0
+        reference["azimuth"] = azimuths
+        reference["horizon_height"] = horizons
+        reference["horizon_distance"] = distances
+>>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
 
         self.assertListEqual([reference, reference], stdout)
 
