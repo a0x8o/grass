@@ -613,7 +613,7 @@ int main(int argc, char *argv[])
     flag.horizonDistance = G_define_flag();
     flag.horizonDistance->key = 'l';
     flag.horizonDistance->description =
-        _("Include horizon distance in the output");
+        _("Include horizon distance in the plain output");
     flag.horizonDistance->guisection = _("Point mode");
 
     flag.degreeOutput = G_define_flag();
@@ -2231,8 +2231,7 @@ void calculate_shadow(void)
             case JSON:
                 json_array_append_number(azimuths, tmpangle);
                 json_array_append_number(horizons, shadow_angle);
-                if (settings->horizonDistance)
-                    json_array_append_number(distances, horizon.length);
+                json_array_append_number(distances, horizon.length);
                 break;
             }
         }
@@ -2247,8 +2246,7 @@ void calculate_shadow(void)
             case JSON:
                 json_array_append_number(azimuths, printangle);
                 json_array_append_number(horizons, shadow_angle);
-                if (settings->horizonDistance)
-                    json_array_append_number(distances, horizon.length);
+                json_array_append_number(distances, horizon.length);
                 break;
             }
         }
@@ -2270,9 +2268,7 @@ void calculate_shadow(void)
     if (format == JSON) {
         json_object_set_value(json_origin, "azimuth", azimuths_value);
         json_object_set_value(json_origin, "horizon_height", horizons_value);
-        if (settings->horizonDistance)
-            json_object_set_value(json_origin, "horizon_distance",
-                                  distances_value);
+        json_object_set_value(json_origin, "horizon_distance", distances_value);
     }
 =======
         ip = jp = 0;
