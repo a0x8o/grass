@@ -1557,6 +1557,7 @@ max-args=12
 # We tend to have classes with more attributes than the default 7.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 max-attributes=15
 =======
 max-attributes=12
@@ -1564,6 +1565,9 @@ max-attributes=12
 =======
 max-attributes=12
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+max-attributes=15
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 # Maximum number of boolean expressions in an if statement (see R0916).
 max-bool-expr=5

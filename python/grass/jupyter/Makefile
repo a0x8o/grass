@@ -375,9 +375,12 @@ MODULES = \
 	reprojection_renderer \
 	utils \
 <<<<<<< HEAD
+<<<<<<< HEAD
 	timeseriesmap \
 	baseseriesmap
 =======
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 	timeseriesmap
 =======
 <<<<<<< HEAD
@@ -1315,6 +1318,7 @@ MODULES = \
 >>>>>>> a09cd63835 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 =======
+<<<<<<< HEAD
 =======
 MODULES = setup
 >>>>>>> 847046a031 (Add session initiations functions for Jupyter Notebooks (#1629))
@@ -1454,7 +1458,17 @@ MODULES = setup
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+>>>>>>> 2653d7b383 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+>>>>>>> 970ccb74c1 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # AUTHOR(S): Riya Saxena <29riyasaxena AT gmail>
 #
@@ -21,11 +22,22 @@ import tempfile
 import weakref
 import shutil
 import multiprocessing
+=======
+"""Base class for SeriesMap and TimeSeriesMap"""
+
+import os
+import tempfile
+import weakref
+import shutil
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 import grass.script as gs
 
 from .map import Map
+<<<<<<< HEAD
 from .utils import get_number_of_cores, save_gif
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 
 class BaseSeriesMap:
@@ -91,11 +103,20 @@ class BaseSeriesMap:
         def wrapper(**kwargs):
             if not self._baseseries_added:
                 self._base_layer_calls.append((grass_module, kwargs))
+<<<<<<< HEAD
             elif self._base_calls is not None:
                 for row in self._base_calls:
                     row.append((grass_module, kwargs))
             else:
                 self._base_calls.append((grass_module, kwargs))
+=======
+            else:
+                if self._base_calls is not None:
+                    for row in self._base_calls:
+                        row.append((grass_module, kwargs))
+                else:
+                    self._base_calls.append((grass_module, kwargs))
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
         return wrapper
 
@@ -104,7 +125,11 @@ class BaseSeriesMap:
         for grass_module, kwargs in self._base_layer_calls:
             img.run(grass_module, **kwargs)
 
+<<<<<<< HEAD
     def _render(self, tasks):
+=======
+    def _render(self):
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         """
         Renders the base image for the dataset.
 
@@ -138,6 +163,7 @@ class BaseSeriesMap:
         self._render_baselayers(img)
 
         # Render layers in respective classes
+<<<<<<< HEAD
         cores = get_number_of_cores(len(tasks), env=self._env)
         with multiprocessing.Pool(processes=cores) as pool:
             results = pool.starmap(self._render_worker, tasks)
@@ -146,6 +172,8 @@ class BaseSeriesMap:
             self._base_filename_dict[i] = filename
 
         self._layers_rendered = True
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
     def show(self, slider_width=None):
         """Create interactive timeline slider.
@@ -202,7 +230,12 @@ class BaseSeriesMap:
         # Display image associated with datetime
         def change_image(index):
             filename = self._base_filename_dict[index]
+<<<<<<< HEAD
             out_img.value = Path(filename).read_bytes()
+=======
+            with open(filename, "rb") as rfile:
+                out_img.value = rfile.read()
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
         widgets.interactive_output(change_image, {"index": slider})
 
@@ -210,6 +243,7 @@ class BaseSeriesMap:
             width="100%", display="inline-flex", flex_flow="row wrap"
         )
         return widgets.HBox([play, slider, out_img], layout=layout)
+<<<<<<< HEAD
 
     def save(
         self,
@@ -256,3 +290,5 @@ class BaseSeriesMap:
 
         # Display the GIF
         return filename
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))

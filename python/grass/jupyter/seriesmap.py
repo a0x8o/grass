@@ -20,6 +20,10 @@ from grass.grassdb.data import map_exists
 
 from .map import Map
 from .region import RegionManagerForSeries
+<<<<<<< HEAD
+=======
+from .utils import save_gif
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 from .baseseriesmap import BaseSeriesMap
 
 
@@ -134,6 +138,7 @@ class SeriesMap(BaseSeriesMap):
         )
         self._labels = names
         self._indices = list(range(len(self._labels)))
+<<<<<<< HEAD
 
     def _render_worker(self, i):
         """Function to render a single layer."""
@@ -150,6 +155,8 @@ class SeriesMap(BaseSeriesMap):
         for grass_module, kwargs in self._base_calls[i]:
             img.run(grass_module, **kwargs)
         return i, filename
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
     def render(self):
         """Renders image for each raster in series.
@@ -157,10 +164,84 @@ class SeriesMap(BaseSeriesMap):
         Save PNGs to temporary directory. Must be run before creating a visualization
         (i.e. show or save).
         """
+<<<<<<< HEAD
+=======
+        self._render()
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         if not self._baseseries_added:
             raise RuntimeError(
                 "Cannot render series since none has been added."
                 "Use SeriesMap.add_rasters() or SeriesMap.add_vectors()"
             )
+<<<<<<< HEAD
         tasks = [(i,) for i in range(self.baseseries)]
         self._render(tasks)
+=======
+
+        # Render each layer
+        for i in range(self.baseseries):
+            # Create file
+            filename = os.path.join(self._tmpdir.name, f"{i}.png")
+            # Copying the base_file ensures that previous results are overwritten
+            shutil.copyfile(self.base_file, filename)
+            self._base_filename_dict[i] = filename
+            # Render image
+            img = Map(
+                width=self._width,
+                height=self._height,
+                filename=filename,
+                use_region=True,
+                env=self._env,
+                read_file=True,
+            )
+            for grass_module, kwargs in self._base_calls[i]:
+                img.run(grass_module, **kwargs)
+
+        self._layers_rendered = True
+
+    def save(
+        self,
+        filename,
+        duration=500,
+        label=True,
+        font=None,
+        text_size=12,
+        text_color="gray",
+    ):
+        """
+        Creates a GIF animation of rendered layers.
+
+        Text color must be in a format accepted by PIL ImageColor module. For supported
+        formats, visit:
+        https://pillow.readthedocs.io/en/stable/reference/ImageColor.html#color-names
+
+        param str filename: name of output GIF file
+        param int duration: time to display each frame; milliseconds
+        param bool label: include label on each frame
+        param str font: font file
+        param int text_size: size of label text
+        param str text_color: color to use for the text
+        """
+
+        # Render images if they have not been already
+        if not self._layers_rendered:
+            self.render()
+
+        tmp_files = []
+        for _, file in self._base_filename_dict.items():
+            tmp_files.append(file)
+
+        save_gif(
+            tmp_files,
+            filename,
+            duration=duration,
+            label=label,
+            labels=self._labels,
+            font=font,
+            text_size=text_size,
+            text_color=text_color,
+        )
+
+        # Display the GIF
+        return filename
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))

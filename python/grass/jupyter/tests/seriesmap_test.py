@@ -35,7 +35,11 @@ def test_render_layers(space_time_raster_dataset):
     # check files exist
     # We need to check values which are only in protected attributes
     # pylint: disable=protected-access
+<<<<<<< HEAD
     for filename in img._base_filename_dict.values():
+=======
+    for unused_layer, filename in img._base_filename_dict.items():
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         assert Path(filename).is_file()
 
 
