@@ -48,6 +48,7 @@ MODULES = \
 	seriesmap \
 	reprojection_renderer \
 	utils \
+<<<<<<< HEAD
 	timeseriesmap
 =======
 MODULES = setup
@@ -91,6 +92,10 @@ MODULES = \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+	timeseriesmap \
+	baseseriesmap
+>>>>>>> 2653d7b383 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)
