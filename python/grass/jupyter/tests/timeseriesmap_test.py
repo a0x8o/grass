@@ -868,10 +868,13 @@ def test_default_init(space_time_raster_dataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     assert img.baseseries == space_time_raster_dataset.name
 
 
@@ -930,10 +933,13 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     for filename in img._base_filename_dict.values():
         assert Path(filename).is_file()
 
@@ -1955,6 +1961,9 @@ def test_save(space_time_raster_dataset, tmp_path):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     for unused_date, filename in img._date_filename_dict.items():
+=======
+    for unused_date, filename in img._base_filename_dict.items():
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         assert Path(filename).is_file()
 
 

@@ -59,10 +59,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 import os
 import shutil
 <<<<<<< HEAD
@@ -844,8 +847,9 @@ import shutil
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import tempfile
+=======
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 import os
-import weakref
 import shutil
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1993,6 +1997,7 @@ from .utils import save_gif
 =======
 =======
 from .utils import save_gif
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2004,6 +2009,7 @@ from .utils import save_gif
 =======
 from .utils import save_gif
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2034,7 +2040,16 @@ from .utils import save_gif
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+from .baseseriesmap import BaseSeriesMap
+>>>>>>> 2653d7b383 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+>>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
 
 def fill_none_values(names):
@@ -2132,10 +2147,13 @@ def check_timeseries_exists(timeseries, element_type):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 class TimeSeriesMap(BaseSeriesMap):
 =======
 class TimeSeriesMap:
@@ -2148,6 +2166,7 @@ class TimeSeriesMap:
 =======
 class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -2155,6 +2174,8 @@ class TimeSeriesMap(BaseSeriesMap):
 class TimeSeriesMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     """Creates visualizations of time-space raster and vector datasets in Jupyter
     Notebooks.
 
@@ -3097,10 +3118,13 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         super().__init__(width, height, env)
 
         self._element_type = None
@@ -3117,6 +3141,7 @@ class TimeSeriesMap:
 =======
         super().__init__(width, height, env)
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 
         self._element_type = None
         self._fill_gaps = None
@@ -3129,25 +3154,19 @@ class TimeSeriesMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
-        # Copy Environment
-        if env:
-            self._env = env.copy()
-        else:
-            self._env = os.environ.copy()
-
-        self.timeseries = None
         self._element_type = None
         self._fill_gaps = None
         self._legend = None
-        self._base_layer_calls = []
-        self._overlay_calls = []
-        self._timeseries_added = False
-        self._layers_rendered = False
         self._layers = None
-        self._dates = None
         self._date_layer_dict = {}
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+<<<<<<< HEAD
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         self._date_filename_dict = {}
         self._width = width
         self._height = height
@@ -3172,6 +3191,7 @@ class TimeSeriesMap:
 =======
         self._slider_description = _("Date/Time")
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -3180,6 +3200,8 @@ class TimeSeriesMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
         # Handle Regions
         self._region_manager = RegionManagerForTimeSeries(
@@ -3191,10 +3213,13 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     def add_raster_series(self, baseseries, fill_gaps=False):
         """
         :param str baseseries: name of space-time dataset
@@ -3249,6 +3274,7 @@ class TimeSeriesMap:
 =======
     def add_raster_series(self, baseseries, fill_gaps=False):
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
         """
         :param str baseseries: name of space-time dataset
         :param bool fill_gaps: fill empty time steps with data from previous step
@@ -3298,48 +3324,55 @@ class TimeSeriesMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     def add_raster_series(self, timeseries, fill_gaps=False):
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         """
-        :param str timeseries: name of space-time dataset
+        :param str baseseries: name of space-time dataset
         :param bool fill_gaps: fill empty time steps with data from previous step
         """
-        if self._timeseries_added and self.timeseries != timeseries:
+        if self._baseseries_added and self.baseseries != baseseries:
             raise AttributeError("Cannot add more than one space time dataset")
         self._element_type = "strds"
-        check_timeseries_exists(timeseries, self._element_type)
-        self.timeseries = timeseries
+        check_timeseries_exists(baseseries, self._element_type)
+        self.baseseries = baseseries
         self._fill_gaps = fill_gaps
-        self._timeseries_added = True
+        self._baseseries_added = True
         # create list of layers to render and date/times
-        self._layers, self._dates = collect_layers(
-            self.timeseries, self._element_type, self._fill_gaps
+        self._layers, self._labels = collect_layers(
+            self.baseseries, self._element_type, self._fill_gaps
         )
         self._date_layer_dict = {
-            self._dates[i]: self._layers[i] for i in range(len(self._dates))
+            self._labels[i]: self._layers[i] for i in range(len(self._labels))
         }
         # Update Region
-        self._region_manager.set_region_from_timeseries(self.timeseries)
+        self._region_manager.set_region_from_timeseries(self.baseseries)
+        self._indices = self._labels
 
-    def add_vector_series(self, timeseries, fill_gaps=False):
+    def add_vector_series(self, baseseries, fill_gaps=False):
         """
-        :param str timeseries: name of space-time dataset
+        :param str baseseries: name of space-time dataset
         :param bool fill_gaps: fill empty time steps with data from previous step
         """
-        if self._timeseries_added and self.timeseries != timeseries:
+        if self._baseseries_added and self.baseseries != baseseries:
             raise AttributeError("Cannot add more than one space time dataset")
         self._element_type = "stvds"
-        check_timeseries_exists(timeseries, self._element_type)
-        self.timeseries = timeseries
+        check_timeseries_exists(baseseries, self._element_type)
+        self.baseseries = baseseries
         self._fill_gaps = fill_gaps
-        self._timeseries_added = True
+        self._baseseries_added = True
         # create list of layers to render and date/times
-        self._layers, self._dates = collect_layers(
-            self.timeseries, self._element_type, self._fill_gaps
+        self._layers, self._labels = collect_layers(
+            self.baseseries, self._element_type, self._fill_gaps
         )
         self._date_layer_dict = {
-            self._dates[i]: self._layers[i] for i in range(len(self._dates))
+            self._labels[i]: self._layers[i] for i in range(len(self._labels))
         }
         # Update Region
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+<<<<<<< HEAD
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         self._region_manager.set_region_from_timeseries(self.timeseries)
 
     def __getattr__(self, name):
@@ -3372,6 +3405,7 @@ class TimeSeriesMap:
         self._region_manager.set_region_from_timeseries(self.baseseries)
         self._indices = self._labels
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -3380,6 +3414,8 @@ class TimeSeriesMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
 
     def d_legend(self, **kwargs):
         """Display legend.
@@ -3391,10 +3427,13 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         if "raster" in kwargs and not self._baseseries_added:
             self._base_layer_calls.append(("d.legend", kwargs))
         if "raster" in kwargs and self._baseseries_added:
@@ -3426,6 +3465,7 @@ class TimeSeriesMap:
         if "raster" in kwargs and self._baseseries_added:
             self._base_calls.append(("d.legend", kwargs))
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -3434,6 +3474,8 @@ class TimeSeriesMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         else:
             self._legend = kwargs
             # If d_legend has been called, we need to re-render layers
@@ -3444,10 +3486,13 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     def _render_legend(self, img):
         """Add legend to Map instance"""
         info = gs.parse_command(
@@ -3484,6 +3529,7 @@ class TimeSeriesMap:
         info = gs.parse_command(
             "t.info", input=self.baseseries, flags="g", env=self._env
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -3492,6 +3538,8 @@ class TimeSeriesMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         )
         min_min = info["min_min"]
         max_max = info["max_max"]
@@ -3508,10 +3556,13 @@ class TimeSeriesMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         for grass_module, kwargs in self._base_calls:
 =======
         for grass_module, kwargs in self._overlay_calls:
@@ -3524,6 +3575,7 @@ class TimeSeriesMap:
 =======
         for grass_module, kwargs in self._base_calls:
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -3531,6 +3583,8 @@ class TimeSeriesMap:
         for grass_module, kwargs in self._overlay_calls:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
             img.run(grass_module, **kwargs)
 
     def _render_blank_layer(self, filename):
@@ -3637,30 +3691,13 @@ class TimeSeriesMap:
         space-time datasets.
         """
 
-        if not self._timeseries_added:
+        self._render()
+        if not self._baseseries_added:
             raise RuntimeError(
                 "Cannot render space time dataset since none has been added."
                 "Use TimeSeriesMap.add_raster_series() or "
                 "TimeSeriesMap.add_vector_series() to add dataset"
             )
-
-        # Make base image (background and baselayers)
-        # Random name needed to avoid potential conflict with layer names
-        random_name_base = gs.append_random("base", 8) + ".png"
-        base_file = os.path.join(self._tmpdir.name, random_name_base)
-        img = Map(
-            width=self._width,
-            height=self._height,
-            filename=base_file,
-            use_region=True,
-            env=self._env,
-            read_file=True,
-        )
-        # We have to call d_erase to ensure the file is created. If there are no
-        # base layers, then there is nothing to render in random_base_name
-        img.d_erase()
-        # Add baselayers
-        self._render_baselayers(img)
 
         # Create name for empty layers
         # Random name needed to avoid potential conflict with layer names
@@ -3673,21 +3710,23 @@ class TimeSeriesMap:
             if layer == "None":
                 # Create file
                 filename = os.path.join(self._tmpdir.name, random_name_none)
-                self._date_filename_dict[date] = filename
+                self._base_filename_dict[date] = filename
                 # Render blank layer if it hasn't been done already
                 if not os.path.exists(filename):
-                    shutil.copyfile(base_file, filename)
+                    shutil.copyfile(self.base_file, filename)
                     self._render_blank_layer(filename)
             else:
                 # Create file
                 filename = os.path.join(self._tmpdir.name, f"{layer}.png")
                 # Copying the base_file ensures that previous results are overwritten
-                shutil.copyfile(base_file, filename)
-                self._date_filename_dict[date] = filename
+                shutil.copyfile(self.base_file, filename)
+                self._base_filename_dict[date] = filename
                 # Render image
                 self._render_layer(layer, filename)
+
         self._layers_rendered = True
 
+<<<<<<< HEAD
     def show(self, slider_width=None):
         """Create interactive timeline slider.
 
@@ -3869,6 +3908,7 @@ class TimeSeriesMap:
 
 =======
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0fd6a771d8 (wxpyimgview: explicit conversion to int (#2704))
@@ -3890,6 +3930,8 @@ class TimeSeriesMap:
 =======
 
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     def save(
         self,
         filename,

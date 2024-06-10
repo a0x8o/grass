@@ -40,13 +40,19 @@ def test_render_layers(space_time_raster_dataset):
     # pylint: disable=protected-access
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
     for filename in img._base_filename_dict.values():
 =======
     for unused_layer, filename in img._base_filename_dict.items():
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+<<<<<<< HEAD
 =======
     for filename in img._base_filename_dict.values():
 >>>>>>> 49624bb6eb (style: Fix incorrect-dict-iterator (PERF102) (#4007))
+=======
+>>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
         assert Path(filename).is_file()
 
 
