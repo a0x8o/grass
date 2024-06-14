@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM alpine:3.15 as common
 =======
 <<<<<<< HEAD
@@ -77,7 +78,12 @@ FROM alpine:3.15 as common
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d3ab2406d5 (Update alpine Docker tag to v3.20 (#3728))
 FROM alpine:3.20@sha256:1e42bbe2508154c9126d48c2b8a75420c3544343bf86fd041fb7527e017a4b4a as common
+=======
+FROM alpine:3.15 as common
+>>>>>>> 063ecd5123 (Update alpine Docker tag to v3.20 (#3728))
 =======
 =======
 >>>>>>> 6642b650bd (wxpyimgview: explicit conversion to int (#2704))
@@ -528,6 +534,7 @@ FROM alpine:3.15 as common
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 FROM alpine:3.15 as common
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -558,7 +565,16 @@ FROM alpine:3.15 as common
 FROM alpine:3.15 as common
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+FROM alpine:3.20@sha256:77726ef6b57ddf65bb551896826ec38bc3e53f75cdde31354fbffb4f25238ebd as common
+>>>>>>> a72df27d37 (Update alpine Docker tag to v3.20 (#3728))
+>>>>>>> 063ecd5123 (Update alpine Docker tag to v3.20 (#3728))
+>>>>>>> d3ab2406d5 (Update alpine Docker tag to v3.20 (#3728))
 
 # Based on:
 # https://github.com/mundialis/docker-grass-gis/blob/master/Dockerfile
