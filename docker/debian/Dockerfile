@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -256,6 +257,8 @@ FROM debian:stable@sha256:82f8da149d6d567c74564cccd6f355fb5ade42a958e4cde10a1100
 >>>>>>> 15e753e748 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6c1a496d12 (docker: Use debian:bookworm-slim image, with date suffix instead of debian:stable (#3807))
 FROM debian:bookworm-20240612-slim@sha256:67f3931ad8cb1967beec602d8c0506af1e37e8d73c2a0b38b181ec5d8560d395
 =======
 =======
@@ -265,6 +268,8 @@ FROM debian:bookworm-20240612-slim@sha256:67f3931ad8cb1967beec602d8c0506af1e37e8
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+=======
+>>>>>>> a49c9a0c0c (docker: Use debian:bookworm-slim image, with date suffix instead of debian:stable (#3807))
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -410,7 +415,9 @@ FROM debian:stable@sha256:82f8da149d6d567c74564cccd6f355fb5ade42a958e4cde10a1100
 FROM debian:stable@sha256:84725fb1debbf461f54a23030be0bcde8449f2fa4eba8adf857b1a4c707fec8d
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
 # currently Debian 12
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,6 +477,13 @@ FROM debian:stable@sha256:84725fb1debbf461f54a23030be0bcde8449f2fa4eba8adf857b1a
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+FROM debian:bookworm-20240612-slim@sha256:67f3931ad8cb1967beec602d8c0506af1e37e8d73c2a0b38b181ec5d8560d395
+>>>>>>> ec8044a7f2 (docker: Use debian:bookworm-slim image, with date suffix instead of debian:stable (#3807))
+>>>>>>> a49c9a0c0c (docker: Use debian:bookworm-slim image, with date suffix instead of debian:stable (#3807))
+>>>>>>> 6c1a496d12 (docker: Use debian:bookworm-slim image, with date suffix instead of debian:stable (#3807))
 
 # apt-get update && apt-get install lsb-release -y && lsb_release -a
 =======
