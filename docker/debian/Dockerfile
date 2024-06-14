@@ -701,6 +701,7 @@ ENV PROJ_NETWORK=ON
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610)):docker/ubuntu/Dockerfile_ubuntu_pdal
 # Create generic GRASS GIS lib name regardless of version number
+<<<<<<< HEAD
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
@@ -733,6 +734,9 @@ RUN ln -sf /usr/local/grass83 /usr/local/grass
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+>>>>>>> fc69e766a8 (version: Start 8.5.0dev (#3789))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
