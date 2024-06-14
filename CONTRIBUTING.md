@@ -574,6 +574,7 @@ You can use your favorite tools to change source code or other files
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
@@ -630,6 +631,8 @@ in the local copy of the code. When making changes, please follow the
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a9d4e438ad (contributing: fix link to style guide (#3790))
 
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 ### Testing changes
@@ -1205,6 +1208,7 @@ also run linter tools such as Pylint which will suggest different improvements
 to your code.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Testing changes
 
@@ -1764,6 +1768,10 @@ Note that there are some steps you can do locally to improve your code.
 For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
+=======
+=======
+>>>>>>> f3608178b9 (contributing: fix link to style guide (#3790))
+>>>>>>> a9d4e438ad (contributing: fix link to style guide (#3790))
 
 ### Testing changes
 
