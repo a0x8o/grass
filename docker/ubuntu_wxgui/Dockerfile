@@ -4950,6 +4950,7 @@ ENV PROJ_NETWORK=ON
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD
@@ -5135,6 +5136,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -5691,6 +5694,7 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
     python --version
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 # Create generic GRASS GIS lib name regardless of version number
 RUN ln -sf /usr/local/grass83 /usr/local/grass
@@ -5757,6 +5761,12 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+>>>>>>> fc69e766a8 (version: Start 8.5.0dev (#3789))
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
