@@ -91,9 +91,16 @@ jobs:
       # renovate: datasource=pypi depName=pylint
       PYLINT_VERSION: "2.12.2"
       # renovate: datasource=pypi depName=bandit
+<<<<<<< HEAD
       BANDIT_VERSION: "1.7.8"
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+<<<<<<< HEAD
 >>>>>>> fbd7bb8b11 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+=======
+      BANDIT_VERSION: "1.7.9"
+>>>>>>> 624d1f632d (CI(deps): Update dependency bandit to v1.7.9 (#3808))
+>>>>>>> 11d06352a1 (CI(deps): Update dependency bandit to v1.7.9 (#3808))
 
     runs-on: ${{ matrix.os }}
     permissions:
