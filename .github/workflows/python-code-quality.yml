@@ -31,8 +31,11 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+>>>>>>> 67060aebb0 (CI(deps): Update dependency black to v24.4.2 (#3809))
       BLACK_VERSION: "24.10.0"
       # renovate: datasource=pypi depName=flake8
       FLAKE8_VERSION: "7.1.1"
@@ -174,6 +177,9 @@ jobs:
       RUFF_VERSION: "0.7.3"
 =======
       BLACK_VERSION: "24.4.0"
+=======
+      BLACK_VERSION: "24.4.2"
+>>>>>>> c7298a361f (CI(deps): Update dependency black to v24.4.2 (#3809))
       # renovate: datasource=pypi depName=flake8
       FLAKE8_VERSION: "3.9.2"
       # renovate: datasource=pypi depName=pylint
