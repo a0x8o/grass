@@ -28,6 +28,7 @@ jobs:
       PYTHON_VERSION: "3.10"
       MIN_PYTHON_VERSION: "3.8"
       # renovate: datasource=pypi depName=black
+<<<<<<< HEAD
       BLACK_VERSION: "24.10.0"
       # renovate: datasource=pypi depName=flake8
       FLAKE8_VERSION: "7.1.1"
@@ -76,7 +77,19 @@ jobs:
 >>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
 =======
       RUFF_VERSION: "0.7.3"
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+      BLACK_VERSION: "24.4.0"
+      # renovate: datasource=pypi depName=flake8
+      FLAKE8_VERSION: "3.9.2"
+      # renovate: datasource=pypi depName=pylint
+      PYLINT_VERSION: "2.12.2"
+      # renovate: datasource=pypi depName=bandit
+      BANDIT_VERSION: "1.7.8"
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+>>>>>>> fbd7bb8b11 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
     runs-on: ${{ matrix.os }}
     permissions:
@@ -92,7 +105,10 @@ jobs:
           echo Flake8: ${{ env.FLAKE8_VERSION }}
           echo Pylint: ${{ env.PYLINT_VERSION }}
           echo Bandit: ${{ env.BANDIT_VERSION }}
+<<<<<<< HEAD
           echo Ruff: ${{ env.RUFF_VERSION }}
+=======
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
 <<<<<<< HEAD
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -152,6 +168,7 @@ jobs:
         run: |
           pip install -r .github/workflows/python_requirements.txt
           pip install -r .github/workflows/optional_requirements.txt
+<<<<<<< HEAD
           pip install --user pipx
           pipx ensurepath
           pipx install flake8==${{ env.FLAKE8_VERSION }}
@@ -159,6 +176,11 @@ jobs:
           pipx inject pylint -r .github/workflows/python_requirements.txt -r .github/workflows/optional_requirements.txt
           # The extra toml is only needed before Python 3.11
           pipx install bandit[sarif,toml]==${{ env.BANDIT_VERSION }}
+=======
+          pip install flake8==${{ env.FLAKE8_VERSION }}
+          pip install pylint==${{ env.PYLINT_VERSION }} pytest-github-actions-annotate-failures
+          pip install bandit[sarif]==${{ env.BANDIT_VERSION }}
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
       - name: Run Flake8
         run: |
@@ -223,8 +245,12 @@ jobs:
 
       - name: Run Pylint on other files using pytest
         run: |
+<<<<<<< HEAD
           pipx inject --include-apps pylint pytest==7.4.4
           pipx inject pylint pytest-pylint==0.19 pytest-github-actions-annotate-failures
+=======
+          pip install pytest==7.4.4 pytest-pylint==0.19
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
           echo "::warning file=.github/workflows/python-code-quality.yml,line=149,col=42,endColumn=48::\
             Temporarily downgraded pytest-pylint and pytest to allow merging other PRs.\
             The errors reported with a newer version seem legitimite and should be fixed \
