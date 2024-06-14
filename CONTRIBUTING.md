@@ -257,6 +257,7 @@ You can use your favorite tools to change source code or other files
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 in the local copy of the code. When making changes, please follow the
 [Programming Style Guide](./doc/development/style_guide.md).
+<<<<<<< HEAD
 
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 ### Testing changes
@@ -616,6 +617,8 @@ Note that there are some steps you can do locally to improve your code.
 For Python, run `black .` to apply standardized formatting. You can
 also run linter tools such as Pylint which will suggest different improvements
 to your code.
+=======
+>>>>>>> f3608178b9 (contributing: fix link to style guide (#3790))
 
 ### Testing changes
 
