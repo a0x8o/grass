@@ -25104,6 +25104,9 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
     apk del --no-cache gettext pdal-dev; \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a72352b5f4 (docker: replace --tmp-location with --tmp-project (#3822))
 =======
     # show installed version
 >>>>>>> 9d79da7e3e (docker: replace --tmp-location with --tmp-project (#3822))
