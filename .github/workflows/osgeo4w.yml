@@ -34,6 +34,7 @@ jobs:
 <<<<<<< HEAD
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: msys2/setup-msys2@ddf331adaebd714795f1042345e6ca57bd66cea8 # v2.24.1
 =======
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
@@ -42,6 +43,16 @@ jobs:
 =======
       - uses: msys2/setup-msys2@c52d1fa9c7492275e60fe763540fb601f5f232a1 # v2.25.0
 >>>>>>> 6731a3530d (CI(deps): Update msys2/setup-msys2 action to v2.25.0 (#4711))
+=======
+      - uses: msys2/setup-msys2@c52d1fa9c7492275e60fe763540fb601f5f232a1 # v2.25.0
+=======
+      - uses: msys2/setup-msys2@ddf331adaebd714795f1042345e6ca57bd66cea8 # v2.24.1
+=======
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - uses: msys2/setup-msys2@d0e80f58dffbc64f6a3a1f43527d469b4fc7b6c8 # v2.23.0
+>>>>>>> d4a11a7eae (CI(deps): Update actions/checkout action to v4.1.7 (#3801))
+>>>>>>> 9dae335815 (CI(deps): Update actions/checkout action to v4.1.7 (#3801))
+>>>>>>> 04e6857dc2 (CI(deps): Update actions/checkout action to v4.1.7 (#3801))
         with:
           path-type: inherit
           location: D:\
