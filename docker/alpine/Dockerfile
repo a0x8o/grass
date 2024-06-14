@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM alpine:3.15 as common
 =======
 <<<<<<< HEAD
@@ -23,6 +24,9 @@ FROM alpine:3.15 as common
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+FROM alpine:3.20@sha256:77726ef6b57ddf65bb551896826ec38bc3e53f75cdde31354fbffb4f25238ebd as common
+>>>>>>> a72df27d37 (Update alpine Docker tag to v3.20 (#3728))
 
 # Based on:
 # https://github.com/mundialis/docker-grass-gis/blob/master/Dockerfile
