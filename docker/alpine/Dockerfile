@@ -7446,6 +7446,10 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
     grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g \
     && rm -f /scripts/grass_tests.sh /tmp/simple.laz /scripts/test_grass_python.py; \
     apk del --no-cache gettext pdal-dev; \
+<<<<<<< HEAD
+=======
+    # show installed version
+>>>>>>> 9d79da7e3e (docker: replace --tmp-location with --tmp-project (#3822))
     grass --tmp-project XY --exec g.version -rge \
     && pdal --version \
 <<<<<<< HEAD
