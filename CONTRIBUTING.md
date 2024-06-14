@@ -132,7 +132,7 @@ You can use your favorite tools to change source code or other files
 =======
 >>>>>>> osgeo-main
 in the local copy of the code. When making changes, please follow the
-[Submitting Guidelines](./doc/development/submitting/submitting.md).
+[Programming Style Guide](./doc/development/style_guide.md).
 
 ### Testing changes
 
