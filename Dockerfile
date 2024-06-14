@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -91,7 +92,14 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 71a0ea5620 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d84037d8e2 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
 # syntax=docker/dockerfile:1.11@sha256:10c699f1b6c8bdc8f6b4ce8974855dd8542f1768c26eb240237b8f1c9c6c9976
+=======
+FROM ubuntu:22.04
+
+LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
+>>>>>>> 53e8a80f56 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
@@ -352,6 +360,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 # syntax=docker/dockerfile:1.7@sha256:a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -359,11 +368,19 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+# syntax=docker/dockerfile:1.8@sha256:d6d396f3780b1dd56a3acbc975f57bd2fc501989b50164c41387c42d04e780d0
+>>>>>>> fe91344e46 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
+>>>>>>> 53e8a80f56 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
+>>>>>>> d84037d8e2 (CI(deps): Update docker/dockerfile Docker tag to v1.8 (#3797))
 
 # Note: This file must be kept in sync in ./Dockerfile and ./docker/ubuntu/Dockerfile.
 #       Changes to this file must be copied over to the other file.
