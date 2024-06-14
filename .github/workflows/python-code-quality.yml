@@ -30,6 +30,9 @@ jobs:
       # renovate: datasource=pypi depName=black
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
       BLACK_VERSION: "24.10.0"
       # renovate: datasource=pypi depName=flake8
       FLAKE8_VERSION: "7.1.1"
@@ -38,6 +41,7 @@ jobs:
       # renovate: datasource=pypi depName=bandit
       BANDIT_VERSION: "1.7.10"
       # renovate: datasource=pypi depName=ruff
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +168,21 @@ jobs:
 =======
       RUFF_VERSION: "0.8.0"
 >>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
+=======
+      RUFF_VERSION: "0.8.0"
+=======
+      RUFF_VERSION: "0.7.3"
+=======
+      BLACK_VERSION: "24.4.0"
+      # renovate: datasource=pypi depName=flake8
+      FLAKE8_VERSION: "3.9.2"
+      # renovate: datasource=pypi depName=pylint
+      PYLINT_VERSION: "2.12.2"
+      # renovate: datasource=pypi depName=bandit
+      BANDIT_VERSION: "1.7.8"
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+>>>>>>> fbd7bb8b11 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+>>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
     runs-on: ${{ matrix.os }}
     permissions:
@@ -181,12 +200,18 @@ jobs:
           echo Bandit: ${{ env.BANDIT_VERSION }}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           echo Ruff: ${{ env.RUFF_VERSION }}
 =======
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 =======
           echo Ruff: ${{ env.RUFF_VERSION }}
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+          echo Ruff: ${{ env.RUFF_VERSION }}
+=======
+>>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+>>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
 <<<<<<< HEAD
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2

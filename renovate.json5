@@ -6,6 +6,9 @@
         ":semanticCommitTypeAll(CI)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
@@ -59,6 +62,7 @@
  
         // allows to use comments starting with 
         // "# renovate: " to update _VERSION 
+<<<<<<< HEAD
 =======
 
         // allows to use comments starting with
@@ -75,6 +79,13 @@
         ":separateMultipleMajorReleases",
 =======
 >>>>>>> ab6dbd973d (CI: Enable pre-commit updates by Renovate (#3840))
+=======
+        // environment variables in GitHub Action files.
+        "customManagers:githubActionsVersions",
+        
+        // when a dependency is really out of date, this will prevent to skip directly to the latest version.
+        ":separateMultipleMajorReleases",
+>>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
     ]
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 }
