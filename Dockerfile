@@ -8940,14 +8940,20 @@ COPY --link --from=build /usr/lib/gdalplugins /usr/lib/gdalplugins
 # Create generic GRASS GIS lib name regardless of version number
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass \
     && ldconfig /etc/ld.so.conf.d
 >>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
+<<<<<<< HEAD
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \

@@ -15574,6 +15574,7 @@ ENV PROJ_NETWORK=ON
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -15666,6 +15667,8 @@ ENV PROJ_NETWORK=ON
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD
@@ -15701,6 +15704,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
@@ -18359,6 +18364,7 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
     python --version
@@ -18433,6 +18439,12 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> 95125e7509 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+>>>>>>> fc69e766a8 (version: Start 8.5.0dev (#3789))
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \

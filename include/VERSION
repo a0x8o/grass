@@ -140,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -640,7 +641,14 @@ dev
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 5
+=======
+3
+dev
+2023
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 =======
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -674,7 +682,13 @@ dev
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 4
+<<<<<<< HEAD
 >>>>>>> 9fa78e6a12 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+5
+>>>>>>> fc69e766a8 (version: Start 8.5.0dev (#3789))
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 0dev
 2024
 =======

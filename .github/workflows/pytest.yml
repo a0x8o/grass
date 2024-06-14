@@ -86,6 +86,9 @@ jobs:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 =======
       - name: Test executing of the grass command
         run: .github/workflows/test_simple.sh
@@ -97,8 +100,11 @@ jobs:
           pytest --verbose --color=yes --durations=0 --durations-min=0.5 --numprocesses auto -ra .
 
 >>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
+<<<<<<< HEAD
 =======
 >>>>>>> d0300d79d5 (CI: Initial code coverage configuration with Codecov (#3905))
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
       - name: Print installed versions
         if: always()
         run: .github/workflows/print_versions.sh

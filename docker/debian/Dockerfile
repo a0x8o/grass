@@ -26518,6 +26518,7 @@ ENV PROJ_NETWORK=ON
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a74ea9a4bf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -26610,6 +26611,8 @@ ENV PROJ_NETWORK=ON
 >>>>>>> 7ab61fcb65 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 32d48f992d (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 <<<<<<< HEAD
@@ -26645,6 +26648,8 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 <<<<<<< HEAD:docker/debian/Dockerfile
 =======
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
 <<<<<<< HEAD:docker/debian/Dockerfile
@@ -29311,6 +29316,7 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     python --version
@@ -29385,6 +29391,12 @@ RUN ln -sf /usr/local/grass80 /usr/local/grass
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+>>>>>>> fc69e766a8 (version: Start 8.5.0dev (#3789))
+>>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-location EPSG:4326 --exec g.version -rge && \
