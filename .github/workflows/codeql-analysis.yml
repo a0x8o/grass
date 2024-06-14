@@ -57,10 +57,14 @@ jobs:
 
       - name: Initialize CodeQL
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: github/codeql-action/init@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
         uses: github/codeql-action/init@2e230e8fe0ad3a14a340ad0815ddb96d599d2aff # v3.25.8
 >>>>>>> 7c5b548392 (CI(deps): Update github/codeql-action action to v3.25.8 (#3769))
+=======
+        uses: github/codeql-action/init@23acc5c183826b7a8a97bce3cecc52db901f8251 # v3.25.10
+>>>>>>> 9538b35e65 (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
         with:
           languages: ${{ matrix.language }}
           config-file: ./.github/codeql/codeql-config.yml
@@ -86,9 +90,13 @@ jobs:
 
       - name: Perform CodeQL Analysis
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: github/codeql-action/analyze@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
         uses: github/codeql-action/analyze@2e230e8fe0ad3a14a340ad0815ddb96d599d2aff # v3.25.8
 >>>>>>> 7c5b548392 (CI(deps): Update github/codeql-action action to v3.25.8 (#3769))
+=======
+        uses: github/codeql-action/analyze@23acc5c183826b7a8a97bce3cecc52db901f8251 # v3.25.10
+>>>>>>> 9538b35e65 (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
         with:
           category: "/language:${{matrix.language}}"
