@@ -210,6 +210,7 @@ RUN apt-get update && apt-get upgrade -y && \
     ncurses-bin \
     pdal \
     proj-data \
+    python-is-python3 \
     python3 \
     python3-dev \
     python3-venv \
@@ -307,6 +308,7 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
     zlib1g \
     "
+ENV GRASS_RUN_PACKAGES=${GRASS_RUN_PACKAGES}
 
 # Define build packages
 ARG GRASS_BUILD_PACKAGES="cmake \
@@ -326,6 +328,7 @@ ARG GRASS_BUILD_PACKAGES="cmake \
     mesa-common-dev \
     zlib1g-dev \
     "
+ENV GRASS_BUILD_PACKAGES=${GRASS_BUILD_PACKAGES}
 
 ARG GRASS_CONFIG="--with-cxx \
   --enable-largefile \
@@ -351,7 +354,6 @@ ARG GRASS_CONFIG="--with-cxx \
 
 ARG GRASS_PYTHON_PACKAGES="pip \
     setuptools \
-    grass-session \
     python-dateutil \
     python-magic \
     numpy \
@@ -360,12 +362,13 @@ ARG GRASS_PYTHON_PACKAGES="pip \
     matplotlib \
     psycopg2 \
   "
+ENV GRASS_PYTHON_PACKAGES=${GRASS_PYTHON_PACKAGES}
 
 
 FROM common_start as grass_without_gui
 
 ARG GRASS_CONFIG="${GRASS_CONFIG} --without-opengl"
-
+ENV GRASS_CONFIG=${GRASS_CONFIG}
 
 FROM common_start as grass_with_gui
 
@@ -469,12 +472,12 @@ RUN apt-get update \
 RUN (echo "Install Python" \
     && wget https://bootstrap.pypa.io/pip/get-pip.py \
     # && apt-get install -y python3-ensurepip \
-    && python3 get-pip.py \
+    && python get-pip.py \
     # && python3 -m ensurepip --upgrade \
     && rm -r get-pip.py \
     && mkdir -p /src/site-packages \
     && cd /src \
-    && python3 -m pip install --no-cache-dir -t /src/site-packages --upgrade \
+    && python -m pip install --no-cache-dir -t /src/site-packages --upgrade \
     $GRASS_PYTHON_PACKAGES \
     && rm -r /root/.cache \
     && rm -rf /tmp/pip-* \
@@ -678,6 +681,7 @@ ENV MYLDFLAGS "-s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ENV LD_LIBRARY_PATH "/usr/local/lib"
 =======
 <<<<<<< HEAD
@@ -700,12 +704,14 @@ ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ENV LD_LIBRARY_PATH "/usr/local/lib"
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
 ENV LDFLAGS "$MYLDFLAGS"
 ENV CFLAGS "$MYCFLAGS"
 ENV CXXFLAGS "$MYCXXFLAGS"
 
 # Configure compile and install GRASS GIS
-ENV GRASS_PYTHON=/usr/bin/python3
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 <<<<<<< HEAD
@@ -745,18 +751,13 @@ FROM grass_gis as grass_gis_final
 
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
-# add GRASS GIS envs for python usage
-ENV GRASSBIN="/usr/local/bin/grass" \
-    GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
     SHELL="/bin/bash" \
     # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
     PROJ_NETWORK=ON \
-    # GRASSBIN=grass \
     LC_ALL="en_US.UTF-8" \
-    GISBASE="/usr/local/grass/" \
-    GRASSBIN="/usr/local/bin/grass" \
-    PYTHONPATH="${PYTHONPATH}:/usr/local/grass/etc/python/" \
-    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/grass/lib" \
+    PYTHONPATH="/usr/local/grass/etc/python/:${PYTHONPATH}" \
+    LD_LIBRARY_PATH="/usr/local/grass/lib:$LD_LIBRARY_PATH" \
     GDAL_DRIVER_PATH="/usr/lib/gdalplugins"
 
 # Copy GRASS GIS from build image
@@ -767,13 +768,40 @@ COPY --link --from=build /usr/lib/gdalplugins /usr/lib/gdalplugins
 # COPY --link --from=datum_grids /tmp/cdn.proj.org/*.tif /usr/share/proj/
 
 # Create generic GRASS GIS lib name regardless of version number
-RUN ln -sf /usr/local/grass85 /usr/local/grass \
-    && ldconfig /etc/ld.so.conf.d
+RUN ln -sf /usr/local/grass85 /usr/local/grass
 
-# Data workdir
+# show GRASS GIS, PROJ, GDAL etc versions
+RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
+    pdal --version && \
+    python --version
+
+# Reduce the image size
+RUN apt-get autoremove -y
+RUN apt-get clean -y
+RUN rm -r /src/grass_build/.git
+
+WORKDIR /scripts
+
+# enable GRASS GIS Python session support
+## grass --config python-path
+ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
+# enable GRASS GIS ctypes imports
+## grass --config path
+ENV LD_LIBRARY_PATH "/usr/local/grass/lib:$LD_LIBRARY_PATH"
+
+WORKDIR /tmp
+COPY docker/testdata/simple.laz .
+WORKDIR /scripts
+COPY docker/testdata/test_grass_session.py .
+## run GRASS GIS python session and scan the test LAZ file
+RUN python /scripts/test_grass_session.py
+RUN rm -rf /tmp/grasstest_epsg_25832
+# test LAZ file
+RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 WORKDIR /grassdb
 VOLUME /grassdb
 
+<<<<<<< HEAD
 CMD ["bash", "-c", "$GRASSBIN", "--version"]
 =======
 =======
@@ -915,3 +943,6 @@ VOLUME /grassdb
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+CMD ["$GRASSBIN", "--version"]
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))

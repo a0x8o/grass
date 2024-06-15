@@ -760,6 +760,7 @@ FROM grass as final
 >>>>>>> osgeo-main
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
+<<<<<<< HEAD
 ENV GRASSBIN="/usr/local/bin/grass" \
     GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 <<<<<<< HEAD
@@ -775,10 +776,12 @@ ENV PROJ_NETWORK="ON"
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
     SHELL="/bin/bash" \
     # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
     PROJ_NETWORK=ON \
-    GRASSBIN=grass \
     LC_ALL="en_US.UTF-8" \
     PYTHONPATH="/usr/local/grass/etc/python:$PYTHONPATH"
 
@@ -788,25 +791,29 @@ COPY --from=build /usr/local/grass* /usr/local/grass/
 COPY --from=build /usr/lib/gdalplugins/*_GRASS.so /usr/lib/gdalplugins/
 # run simple LAZ test
 COPY docker/testdata/simple.laz /tmp/
-COPY docker/testdata/test_grass_python.py docker/alpine/grass_tests.sh /scripts/
-COPY docker/testdata/test_grass_python.py /scripts/
+COPY docker/testdata/test_grass_python.py docker/testdata/test_grass_session.py docker/alpine/grass_tests.sh /scripts/
 
-# install external Python API
+# run GRASS GIS python session and scan the test LAZ file; some cleanup
+# also show installed version
 RUN ln -sf /usr/local/grass $(grass --config path); \
-    # run some tests and cleanup
-    $SHELL /scripts/grass_tests.sh \
+    rm -rf /tmp/grasstest_epsg_25832; \
+    $SHELL /scripts/grass_tests.sh; \
+    python /scripts/test_grass_session.py && rm -rf /tmp/grasstest_epsg_25832; \
+    grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g \
     && rm -f /scripts/grass_tests.sh /tmp/simple.laz /scripts/test_grass_python.py; \
-    # delete unused packages
     apk del --no-cache gettext pdal-dev; \
-    # show installed version
     grass --tmp-project XY --exec g.version -rge \
     && pdal --version \
+<<<<<<< HEAD
     && python3 --version
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     SHELL="/bin/bash"
 ENV PROJ_NETWORK="ON"
+=======
+    && python --version
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
 
 <<<<<<< HEAD
 =======

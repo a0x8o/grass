@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Import GRASS Python bindings
 # https://github.com/zarch/grass-session
 <<<<<<< HEAD
@@ -22,18 +23,21 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+# Import GRASS GIS Python bindings (requires 8.4+) and test r.in.pdal
 
-from grass_session import Session
+# PYTHONPATH=$(grass --config python-path) python
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+
 import grass.script as gs
 
+# full path to new project
+project = "/tmp/grasstest_epsg_25832"
+gs.create_project(project, epsg="25832")
+
 # hint: do not use ~ as an alias for HOME
-with Session(
-    # run in PERMANENT mapset after creation of location "test"
-    gisdb="/grassdata/",
-    location="test",
-    create_opts="EPSG:25832",
-):
-    print("grass-session: tests for PROJ, GDAL, PDAL, GRASS GIS")
+with gs.setup.init(project):
+    print("GRASS GIS session: tests for PROJ, GDAL, PDAL, GRASS GIS")
     print(gs.parse_command("g.gisenv", flags="s"))
 
     # simple test: just scan the LAZ file
