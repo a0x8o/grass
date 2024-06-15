@@ -2561,6 +2561,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 # renovate: datasource=github-tags depName=PDAL/PDAL
+<<<<<<< HEAD
 ARG PDAL_VERSION=2.4.3
 =======
 >>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
@@ -3649,7 +3650,10 @@ ARG LAZ_PERF_VERSION=3.2.0
 >>>>>>> d1484cdb51 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 421ae9ed65 (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
 <<<<<<< HEAD
 >>>>>>> 28bb012175 (r.horizon manual - fix typo (#2794))
 =======
@@ -4075,6 +4079,7 @@ ARG PDAL_VERSION=2.4.3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -4481,6 +4486,14 @@ ARG PDAL_VERSION=2.7.1
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ARG PDAL_VERSION=2.7.1
+>>>>>>> ce1a74a04e (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
+>>>>>>> 608e23ad1f (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
+>>>>>>> 421ae9ed65 (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
 
 SHELL ["/bin/bash", "-c"]
 
