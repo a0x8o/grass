@@ -1131,13 +1131,19 @@ ARG GUI=without
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f675c45fa (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97 as common_start
 =======
 FROM ubuntu:22.04@sha256:19478ce7fc2ffbce89df29fea5725a8d12e57de52eb9ea570890dc5852aac1ac as common_start
 >>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
+<<<<<<< HEAD
 =======
 FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221 as common_start
 >>>>>>> 60821dd537 (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
+=======
+>>>>>>> 9f675c45fa (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Stefan Blumentrath"
 =======

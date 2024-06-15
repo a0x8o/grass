@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -591,7 +592,12 @@ FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b
 >>>>>>> 1bc99d2b79 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 9f675c45fa (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
+=======
+FROM ubuntu:22.04
+>>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 =======
 =======
 >>>>>>> 981b1a43cf (r.horizon manual - fix typo (#2794))
@@ -1067,9 +1073,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7bd5a1f590 (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
+=======
+=======
+>>>>>>> 9f675c45fa (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,6 +1099,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
@@ -1121,6 +1132,9 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 =======
 >>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 >>>>>>> 7bd5a1f590 (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
+=======
+>>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
+>>>>>>> 9f675c45fa (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625)):docker/debian/Dockerfile_debian_pdal
 =======
