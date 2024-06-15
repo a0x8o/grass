@@ -99,6 +99,7 @@ ARG PDAL_VERSION=2.4.3
 <<<<<<< HEAD
 # define versions to be used (PDAL is not available on Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
+# renovate: datasource=github-tags depName=PDAL/PDAL
 ARG PDAL_VERSION=2.5.5
 =======
 =======
