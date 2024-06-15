@@ -9,6 +9,9 @@ import argparse
 import csv
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fe7a666fb6 (contributing: Hide bots from release notes (#3829))
 import itertools
 import json
 import random
@@ -803,6 +806,7 @@ def print_category(category, changes, file=None):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
     print_section_heading_3(category, file=file)
+<<<<<<< HEAD
 =======
     print(f"### {category}", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -818,6 +822,7 @@ def print_category(category, changes, file=None):
 =======
     print_section_heading_3(category, file=file)
 =======
+<<<<<<< HEAD
     print(f"### {category}", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -837,8 +842,33 @@ def print_category(category, changes, file=None):
     print(f"### {category}", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+    bot_file = Path("utils") / "known_bot_names.txt"
+    known_bot_names = bot_file.read_text().splitlines()
+    visible = []
+    hidden = []
+    overflow = []
+    max_section_length = 25
+>>>>>>> eb39403b39 (contributing: Hide bots from release notes (#3829))
+>>>>>>> fe7a666fb6 (contributing: Hide bots from release notes (#3829))
     for item in sorted(items):
+        author = item.rsplit(" by ", maxsplit=1)[-1]
+        if author in known_bot_names or author.endswith("[bot]"):
+            hidden.append(item)
+        elif len(visible) > max_section_length:
+            overflow.append(item)
+        else:
+            visible.append(item)
+    for item in visible:
         print(f"* {item}", file=file)
+    if hidden:
+        print("\n<details>")
+        print(" <summary>Show more</summary>\n")
+        for item in itertools.chain(overflow, hidden):
+            print(f"  * {item}", file=file)
+        print("\n</details>")
     print("")
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

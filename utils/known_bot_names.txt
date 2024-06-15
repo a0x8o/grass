@@ -1,3 +1,6 @@
 osgeoweblate
+<<<<<<< HEAD
 renovate
 github-actions
+=======
+>>>>>>> fe7a666fb6 (contributing: Hide bots from release notes (#3829))
