@@ -4841,10 +4841,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b205e8fd82 (contributing: Add API to check PR titles (#3824))
         "backend",
         choices=["log", "api", "check"],
         help="use git log or GitHub API (or check a PR title)",
@@ -4882,6 +4885,7 @@ def main():
         "branch",
         help="needed for the GitHub API when tag does not exist (or a PR title)",
 >>>>>>> 54c32362fe (contributing: Add API to check PR titles (#3824))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -4890,6 +4894,8 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b205e8fd82 (contributing: Add API to check PR titles (#3824))
     )
     parser.add_argument("start_tag", help="old tag to compare against")
     parser.add_argument(
@@ -4906,10 +4912,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b205e8fd82 (contributing: Add API to check PR titles (#3824))
     if args.backend == "check":
         config_file = Path("utils") / "release.yml"
         config = yaml.safe_load(Path(config_file).read_text(encoding="utf-8"))
@@ -4961,12 +4970,15 @@ def main():
                 f"the categories specified in {config_file}"
             )
 >>>>>>> 54c32362fe (contributing: Add API to check PR titles (#3824))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b205e8fd82 (contributing: Add API to check PR titles (#3824))
     try:
         create_release_notes(args)
     except subprocess.CalledProcessError as error:
