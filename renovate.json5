@@ -5,6 +5,7 @@
         ":semanticCommits",
         ":semanticCommitTypeAll(CI)",
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
@@ -57,13 +58,18 @@
  
         // allows to use comments starting with 
         // "# renovate: " to update _VERSION 
+=======
+
+        // allows to use comments starting with
+        // "# renovate: " to update _VERSION
+>>>>>>> 784e3d9032 (style: Apply missing pre-commit fixes (#3834))
         // environment variables in GitHub Action files.
         "customManagers:githubActionsVersions",
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
         // ENV or ARG in a Dockerfile.
         "customManagers:dockerfileVersions",
-        
+
         // when a dependency is really out of date, this will prevent to skip directly to the latest version.
         ":separateMultipleMajorReleases",
     ]
