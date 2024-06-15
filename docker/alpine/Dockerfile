@@ -24446,8 +24446,11 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
 <<<<<<< HEAD
+<<<<<<< HEAD
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 =======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 ENV GRASSBIN="/usr/local/bin/grass" \
     GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 <<<<<<< HEAD
@@ -25054,6 +25057,7 @@ ENV GRASSBIN="/usr/local/bin/grass" \
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> ae5ce5d9d0 (wxpyimgview: explicit conversion to int (#2704))
@@ -25075,7 +25079,16 @@ ENV GRASSBIN="/usr/local/bin/grass" \
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
     SHELL="/bin/bash" \
     # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
     PROJ_NETWORK=ON \
@@ -25105,8 +25118,11 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a72352b5f4 (docker: replace --tmp-location with --tmp-project (#3822))
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 =======
     # show installed version
 >>>>>>> 9d79da7e3e (docker: replace --tmp-location with --tmp-project (#3822))
@@ -25510,6 +25526,11 @@ ENV PROJ_NETWORK="ON"
 =======
     && python --version
 =======
+=======
+    grass --tmp-project XY --exec g.version -rge \
+    && pdal --version \
+<<<<<<< HEAD
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
     && python3 --version
 =======
 <<<<<<< HEAD
@@ -25543,6 +25564,9 @@ ENV PROJ_NETWORK="ON"
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
     SHELL="/bin/bash"
 ENV PROJ_NETWORK="ON"
+=======
+    && python --version
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
 
 <<<<<<< HEAD
 =======

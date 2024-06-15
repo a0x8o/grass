@@ -7674,12 +7674,17 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 <<<<<<< HEAD
@@ -8958,19 +8963,28 @@ COPY --link --from=build /usr/lib/gdalplugins /usr/lib/gdalplugins
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass \
     && ldconfig /etc/ld.so.conf.d
 >>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 RUN ln -sf /usr/local/grass85 /usr/local/grass
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 >>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
+=======
+=======
+RUN ln -sf /usr/local/grass85 /usr/local/grass
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
@@ -8979,6 +8993,9 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -8986,8 +9003,11 @@ RUN apt-get clean -y
 RUN rm -r /src/grass_build/.git
 
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+<<<<<<< HEAD
 =======
 >>>>>>> 1f094d934f (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 WORKDIR /scripts
 
 # enable GRASS GIS Python session support
@@ -9009,6 +9029,7 @@ RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" outp
 WORKDIR /grassdb
 VOLUME /grassdb
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9074,6 +9095,12 @@ CMD ["$GRASSBIN", "--version"]
 CMD ["$GRASSBIN", "--version"]
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+CMD ["$GRASSBIN", "--version"]
+=======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 CMD ["bash", "-c", "$GRASSBIN", "--version"]
 =======
 RUN /src/grass_build/configure \
@@ -10286,6 +10313,9 @@ VOLUME /grassdb
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 456d653ebc (wxpyimgview: explicit conversion to int (#2704))
@@ -10321,13 +10351,17 @@ VOLUME /grassdb
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 >>>>>>> osgeo-main
 =======
 CMD ["$GRASSBIN", "--version"]
 >>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
@@ -10963,3 +10997,6 @@ VOLUME /grassdb
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))

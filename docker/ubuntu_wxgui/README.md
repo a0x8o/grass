@@ -6,10 +6,13 @@ Dockerfile with an [Ubuntu Linux](https://ubuntu.com/) image with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 [GRASS GIS](https://grass.osgeo.org/), [PDAL](https://pdal.io) support.
 =======
 [GRASS GIS](https://grass.osgeo.org/), [PDAL](https://pdal.io) support and
@@ -24,6 +27,7 @@ Dockerfile with an [Ubuntu Linux](https://ubuntu.com/) image with
 [grass-session](https://github.com/zarch/grass-session/).
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [GRASS GIS](https://grass.osgeo.org/), [PDAL](https://pdal.io) support.
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
@@ -31,6 +35,11 @@ Dockerfile with an [Ubuntu Linux](https://ubuntu.com/) image with
 >>>>>>> b12b27a326 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+=======
+[GRASS GIS](https://grass.osgeo.org/), [PDAL](https://pdal.io) support.
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
 
 Download size of this image is of approximately 2.6 GB.
 
