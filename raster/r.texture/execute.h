@@ -20,4 +20,8 @@ typedef struct output_setting {
 
 int execute_texture(CELL **data, struct dimensions *dim,
                     struct menu *measure_menu, int *measure_idx,
+<<<<<<< HEAD
                     struct output_setting *out_set, int threads);
+=======
+                    struct output_setting *out_set);
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))

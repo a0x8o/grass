@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* h_measure.c */
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 /****************************************************************************
  *
  * MODULE:       r.texture
@@ -29,6 +32,9 @@
  *****************************************************************************/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 #include "matvec.h"
 
 typedef struct menu {
@@ -54,6 +60,7 @@ float f10_dvar(struct matvec *mv);
 float f11_dentropy(struct matvec *mv);
 float f12_icorr(struct matvec *mv);
 float f13_icorr(struct matvec *mv);
+<<<<<<< HEAD
 =======
 float h_measure(int);
 void alloc_vars(int);
@@ -65,3 +72,5 @@ int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))

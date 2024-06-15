@@ -30,6 +30,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "h_measure.h"
 
 float h_measure(int t_m, struct matvec *mv)
@@ -345,10 +346,16 @@ int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
 
 float h_measure(int t_m)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+#include "h_measure.h"
+
+float h_measure(int t_m, struct matvec *mv)
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 {
     switch (t_m) {
         /* Angular Second Moment */
     case 1:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f1_asm(mv));
@@ -358,10 +365,14 @@ float h_measure(int t_m)
 =======
         return (f1_asm());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f1_asm(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Contrast */
     case 2:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f2_contrast(mv));
@@ -371,10 +382,14 @@ float h_measure(int t_m)
 =======
         return (f2_contrast());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f2_contrast(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Correlation */
     case 3:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f3_corr(mv));
@@ -384,10 +399,14 @@ float h_measure(int t_m)
 =======
         return (f3_corr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f3_corr(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Variance */
     case 4:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f4_var(mv));
@@ -397,10 +416,14 @@ float h_measure(int t_m)
 =======
         return (f4_var());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f4_var(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Inverse Diff Moment */
     case 5:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f5_idm(mv));
@@ -410,10 +433,14 @@ float h_measure(int t_m)
 =======
         return (f5_idm());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f5_idm(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Average */
     case 6:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f6_savg(mv));
@@ -423,10 +450,14 @@ float h_measure(int t_m)
 =======
         return (f6_savg());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f6_savg(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Variance */
     case 7:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f7_svar(mv));
@@ -436,10 +467,14 @@ float h_measure(int t_m)
 =======
         return (f7_svar());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f7_svar(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Entropy */
     case 8:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f8_sentropy(mv));
@@ -449,10 +484,14 @@ float h_measure(int t_m)
 =======
         return (f8_sentropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f8_sentropy(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Entropy */
     case 9:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f9_entropy(mv));
@@ -462,10 +501,14 @@ float h_measure(int t_m)
 =======
         return (f9_entropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f9_entropy(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Difference Variance */
     case 10:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f10_dvar(mv));
@@ -475,10 +518,14 @@ float h_measure(int t_m)
 =======
         return (f10_dvar());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f10_dvar(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Difference Entropy */
     case 11:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f11_dentropy(mv));
@@ -488,10 +535,14 @@ float h_measure(int t_m)
 =======
         return (f11_dentropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f11_dentropy(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Measure of Correlation-1 */
     case 12:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f12_icorr(mv));
@@ -501,10 +552,14 @@ float h_measure(int t_m)
 =======
         return (f12_icorr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f12_icorr(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Measure of Correlation-2 */
     case 13:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return (f13_icorr(mv));
@@ -514,12 +569,16 @@ float h_measure(int t_m)
 =======
         return (f13_icorr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        return (f13_icorr(mv));
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         break;
     }
 
     return 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 void MatrixDealloc(float **A, int N)
@@ -533,6 +592,8 @@ void MatrixDealloc(float **A, int N)
 }
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 /* Angular Second Moment */
 /*
  * The angular second-moment feature (ASM) f1 is a measure of homogeneity
@@ -574,6 +635,7 @@ float f2_contrast(struct matvec *mv)
     float /* sum, */ bigsum = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     float **P = mv->P_matrix;
     int Ng = mv->Ng;
     int *tone = mv->tone;
@@ -582,6 +644,11 @@ float f2_contrast(struct matvec *mv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     float **P = P_matrix;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    float **P = mv->P_matrix;
+    int Ng = mv->Ng;
+    int *tone = mv->tone;
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 
     /* the three-loop version does not work
      * when gray tones that do not occur in the current window
@@ -887,6 +954,7 @@ float f13_icorr(struct matvec *mv)
     return (sqrt(fabs(1 - exp(-2.0 * (hxy2 - hxy)))));
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 float *vector(int n)
@@ -916,3 +984,5 @@ float **matrix(int nr, int nc)
     return m;
 }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
