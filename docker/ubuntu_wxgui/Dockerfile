@@ -66,6 +66,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
 # renovate: datasource=github-tags depName=PDAL/PDAL
+<<<<<<< HEAD
 ARG PDAL_VERSION=2.4.3
 =======
 <<<<<<< HEAD
@@ -104,6 +105,9 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ARG PDAL_VERSION=2.7.1
+>>>>>>> ce1a74a04e (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
 
 SHELL ["/bin/bash", "-c"]
 
