@@ -4,12 +4,17 @@ git_author,github_name
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
+>>>>>>> c6d4b61a7c (contributing: Add more known authors to release notes (#3795))
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Alessandro Frigeri <alessandro.frigeri gmail.com>,afrigeri
 Alexandre Detiste <alexandre.detiste gmail.com>,a-detiste
@@ -46,6 +51,7 @@ ymdatta <ymdatta.work gmail.com>,ymdatta
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
+<<<<<<< HEAD
 Jürgen Fischer <jef norbit.de>,jef-n
 Ken Mankoff <mankoff gmail.com>,mankoff
 Luís de Sousa <luis.de.sousa protonmail.ch>,ldesousa
@@ -77,17 +83,23 @@ ymdatta <ymdatta.work gmail.com>,ymdatta
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c6d4b61a7c (contributing: Add more known authors to release notes (#3795))
 Jürgen Fischer <jef norbit.de>,jef-n
-Owen Smith <ocsmit protonmail.com>,ocsmit
+Ken Mankoff <mankoff gmail.com>,mankoff
+Luís de Sousa <luis.de.sousa protonmail.ch>,ldesousa
+Māris Nartišs <maris.gis gmail.com>,marisn
+Markus Neteler <neteler osgeo.org>,neteler
+Maximilian Stahlberg <viech unvanquished.net>,Viech
 Nicklas Larsson <n_larsson yahoo.com>,nilason
 nilason <n_larsson yahoo.com>,nilason
-Stefan Blumentrath <stefan.blumentrath gmx.de>,ninsbl
-Anna Petrasova <kratochanna gmail.com>,petrasovaa
-Māris Nartišs <maris.gis gmail.com>,marisn
 Ondrej Pesek <pesej.ondrek gmail.com>,pesekon2
-Bas Couwenberg <sebastic xs4all.nl>,sebastic
-積丹尼 Dan Jacobson <jidanni jidanni.org>,jidanni
+Owen Smith <ocsmit protonmail.com>,ocsmit
+Paulo van Breugel <paulo ecodiv.earth>,ecodiv
+Stefan Blumentrath <stefan.blumentrath gmx.de>,ninsbl
+Yann Chemin <dr.yann.chemin gmail.com>,YannChemin
 Yann Chemin <ychemin gmail.com>,YannChemin
+<<<<<<< HEAD
 Alberto Paradís Llop <albertoparadisllop gmail.com>,albertoparadisllop
 Andrea Giudiceandrea <andreaerdna libero.it>,agiudiceandrea
 Maximilian Stahlberg <viech unvanquished.net>,Viech
@@ -98,4 +110,11 @@ Maximilian Stahlberg <viech unvanquished.net>,Viech
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ymdatta <ymdatta.work gmail.com>,ymdatta
+積丹尼 Dan Jacobson <jidanni jidanni.org>,jidanni
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
+>>>>>>> c6d4b61a7c (contributing: Add more known authors to release notes (#3795))
