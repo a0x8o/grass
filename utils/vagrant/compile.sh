@@ -19,7 +19,12 @@ cd /vagrant
 if [ ! -f "include/Make/Platform.make" ] ; then
     ./configure \
         --bindir=/usr/bin \
+<<<<<<< HEAD
         --enable-largefile \
+=======
+        --srcdir=/vagrant \
+        --prefix=/usr/lib \
+>>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --enable-shared \
         --prefix=/usr/lib \
         --srcdir=/vagrant \
@@ -31,15 +36,21 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-freetype-includes=/usr/include/freetype2 \
         --with-gdal \
         --with-geos \
+<<<<<<< HEAD
         --with-lapack \
         --with-mysql \
         --with-mysql-includes=`mysql_config --include | sed -e 's/-I//'` \
         --with-netcdf \
+=======
+        --with-freetype \
+        --with-readline \
+>>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --with-nls \
         --with-odbc \
         --with-postgres \
         --with-postgres-includes=`pg_config --includedir` \
         --with-proj-share=/usr/share/proj \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         --with-pthread \
@@ -54,6 +65,12 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-cairo \
         --with-liblas
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        --with-cairo \
+        --with-pthread \
+        --with-bzlib \
+        --without-pdal
+>>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 fi
 
 make -j $NUMTHREADS
