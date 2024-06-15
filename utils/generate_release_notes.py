@@ -1653,6 +1653,7 @@ def main():
     parser.add_argument(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "backend",
         choices=["log", "api", "check"],
         help="use git log or GitHub API (or check a PR title)",
@@ -1671,6 +1672,15 @@ def main():
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        "backend",
+        choices=["log", "api", "check"],
+        help="use git log or GitHub API (or check a PR title)",
+    )
+    parser.add_argument(
+        "branch",
+        help="needed for the GitHub API when tag does not exist (or a PR title)",
+>>>>>>> 54c32362fe (contributing: Add API to check PR titles (#3824))
     )
     parser.add_argument("start_tag", help="old tag to compare against")
     parser.add_argument(
@@ -1684,14 +1694,22 @@ def main():
     args = parser.parse_args()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if args.backend == "check":
         config_file = Path("utils") / "release.yml"
         config = yaml.safe_load(Path(config_file).read_text(encoding="utf-8"))
+=======
+    if args.backend == "check":
+        config_file = Path("utils") / "release.yml"
+        with open(config_file, encoding="utf-8") as file:
+            config = yaml.safe_load(file.read())
+>>>>>>> 54c32362fe (contributing: Add API to check PR titles (#3824))
         has_match = False
         for category in config["notes"]["categories"]:
             if re.match(category["regexp"], args.branch):
                 has_match = True
                 break
+<<<<<<< HEAD
         for item in config["notes"]["exclude"]["regexp"]:
             if re.match(item, args.branch):
                 has_match = True
@@ -1717,6 +1735,15 @@ def main():
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if has_match:
+            sys.exit(0)
+        else:
+            sys.exit(
+                f"Title '{args.branch}' does not fit into one of "
+                f"the categories specified in {config_file}"
+            )
+>>>>>>> 54c32362fe (contributing: Add API to check PR titles (#3824))
     try:
         create_release_notes(args)
     except subprocess.CalledProcessError as error:
