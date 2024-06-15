@@ -1512,12 +1512,17 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
         key="svn_name",
         value="github_name",
     )
+    github_name_by_git_author_file = config_directory / "git_author_github_name.csv"
     github_name_by_git_author = csv_to_dict(
+<<<<<<< HEAD
         config_directory / "git_author_github_name.csv",
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        github_name_by_git_author_file,
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
         key="git_author",
         value="github_name",
     )
@@ -1525,11 +1530,15 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
     lines = []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     unknow_authors = []
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    unknow_authors = []
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
     for commit in commits:
         if commit["author_email"].endswith("users.noreply.github.com"):
             github_name = commit["author_email"].split("@")[0]
@@ -1540,6 +1549,7 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
             # Emails are stored with @ replaced by a space.
             email = commit["author_email"].replace("@", " ")
             git_author = f"{commit['author_name']} <{email}>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if git_author in github_name_by_git_author:
@@ -1554,6 +1564,9 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            if git_author in github_name_by_git_author:
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
                 github_name = github_name_by_git_author[git_author]
                 github_name = f"@{github_name}"
             else:
@@ -1565,11 +1578,15 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
                     github_name = git_author
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     unknow_authors.append((git_author, commit["message"]))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    unknow_authors.append((git_author, commit["message"]))
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
         lines.append(f"{commit['message']} by {github_name}")
     lines = remove_excluded_changes(changes=lines, exclude=exclude)
     print_notes(
@@ -1584,6 +1601,9 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
     )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
     processed_authors = []
     if unknow_authors:
         print(
@@ -1594,10 +1614,13 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
                 continue
             print(f"{author} -- authored {message}")
             processed_authors.append(author)
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d1cb47465f (contributing: Add more known authors to release notes (#3795))
 
 
 def create_release_notes(args):
