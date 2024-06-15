@@ -5048,6 +5048,7 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
     python --version
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -5055,6 +5056,8 @@ RUN apt-get clean -y
 RUN rm -r /src/grass_build/.git
 
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+>>>>>>> 1f094d934f (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
 WORKDIR /scripts
 
 # enable GRASS GIS Python session support
