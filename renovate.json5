@@ -7,8 +7,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+>>>>>>> a1d554657a (style: Apply missing pre-commit fixes (#3834))
 
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
@@ -63,11 +66,15 @@
         // allows to use comments starting with 
         // "# renovate: " to update _VERSION 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1d554657a (style: Apply missing pre-commit fixes (#3834))
 =======
 
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
 >>>>>>> 784e3d9032 (style: Apply missing pre-commit fixes (#3834))
+<<<<<<< HEAD
         // environment variables in GitHub Action files.
         "customManagers:githubActionsVersions",
         // allows to use comments starting with
@@ -80,13 +87,15 @@
 =======
 >>>>>>> ab6dbd973d (CI: Enable pre-commit updates by Renovate (#3840))
 =======
+=======
+>>>>>>> a1d554657a (style: Apply missing pre-commit fixes (#3834))
         // environment variables in GitHub Action files.
         "customManagers:githubActionsVersions",
         // allows to use comments starting with
         // "# renovate: " to update _VERSION
         // ENV or ARG in a Dockerfile.
         "customManagers:dockerfileVersions",
-        
+
         // when a dependency is really out of date, this will prevent to skip directly to the latest version.
         ":separateMultipleMajorReleases",
 >>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
