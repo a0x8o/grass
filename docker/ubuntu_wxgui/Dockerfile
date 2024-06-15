@@ -871,6 +871,15 @@ ENV DEBIAN_FRONTEND noninteractive
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+# define versions to be used (PDAL is not available on Ubuntu/Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+# renovate: datasource=github-tags depName=PDAL/PDAL
+ARG PDAL_VERSION=2.4.3
+=======
+>>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD

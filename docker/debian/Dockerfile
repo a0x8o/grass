@@ -1247,6 +1247,7 @@ ARG PDAL_VERSION=2.4.3
 ARG PDAL_VERSION=2.7.1
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 ARG PDAL_VERSION=2.5.5
 =======
@@ -1291,6 +1292,20 @@ ARG PDAL_VERSION=2.7.1
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+# define versions to be used (PDAL is not available on Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+# renovate: datasource=github-tags depName=PDAL/PDAL
+>>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
+>>>>>>> dbe77d15e7 (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
 ARG PDAL_VERSION=2.5.5
 =======
 <<<<<<< HEAD
