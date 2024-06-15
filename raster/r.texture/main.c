@@ -36,10 +36,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 #include "execute.h"
 
 /* modify this table to add new measures */
@@ -77,6 +80,7 @@ static struct menu menu[] = {
 /* modify this table to add new measures */
 static struct menu measure_menu[] = {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -85,6 +89,8 @@ static struct menu measure_menu[] = {
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     {"asm", "Angular Second Moment", "_ASM", 0, 1},
     {"contrast", "Contrast", "_Contr", 0, 2},
     {"corr", "Correlation", "_Corr", 0, 3},
@@ -107,8 +113,11 @@ static int find_measure(const char *measure_name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     for (i = 0; measure_menu[i].name; i++)
         if (strcmp(measure_menu[i].name, measure_name) == 0)
 =======
@@ -124,6 +133,7 @@ static int find_measure(const char *measure_name)
     for (i = 0; measure_menu[i].name; i++)
         if (strcmp(measure_menu[i].name, measure_name) == 0)
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -132,6 +142,8 @@ static int find_measure(const char *measure_name)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
             return i;
 
     G_fatal_error(_("Unknown measure <%s>"), measure_name);
@@ -155,6 +167,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -172,10 +187,15 @@ int main(int argc, char *argv[])
     int have_px, have_py, have_pxpys, have_pxpyd;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     int infd, *outfd;
 
     RASTER_MAP_TYPE out_data_type;
@@ -216,6 +236,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     parm.size = G_define_option();
     parm.size->key = "size";
     parm.size->key_desc = "value";
@@ -264,6 +287,7 @@ int main(int argc, char *argv[])
     parm.dist->required = NO;
     parm.dist->label = _("The distance between two samples (>= 1)");
     parm.dist->description =
+<<<<<<< HEAD
         _("The distance must be smaller than the size of the moving window");
     parm.dist->answer = "1";
 
@@ -291,9 +315,12 @@ int main(int argc, char *argv[])
     opt_dist->required = NO;
     opt_dist->label = _("The distance between two samples (>= 1)");
     opt_dist->description =
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         _("The distance must be smaller than the size of the moving window");
-    opt_dist->answer = "1";
+    parm.dist->answer = "1";
 
+<<<<<<< HEAD
     for (i = 0; menu[i].name; i++) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -302,7 +329,13 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; measure_menu[i].name; i++) {
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         if (i)
             strcat(p, ",");
         else
@@ -312,10 +345,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         strcat(p, measure_menu[i].name);
 =======
         strcat(p, menu[i].name);
@@ -328,6 +364,7 @@ int main(int argc, char *argv[])
 =======
         strcat(p, measure_menu[i].name);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -335,6 +372,8 @@ int main(int argc, char *argv[])
         strcat(p, menu[i].name);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     }
     parm.measure = G_define_option();
     parm.measure->key = "method";
@@ -347,18 +386,26 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     flag.ind = G_define_flag();
     flag.ind->key = 's';
     flag.ind->label = _("Separate output for each angle (0, 45, 90, 135)");
     flag.ind->description =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
     flag_ind = G_define_flag();
     flag_ind->key = 's';
@@ -372,6 +419,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -380,6 +428,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         _("Angles are counterclockwise from east: "
           "0 is East to West, 45 is North-East to South-West");
 
@@ -390,18 +440,26 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     flag.null = G_define_flag();
     flag.null->key = 'n';
     flag.null->label = _("Allow NULL cells in a moving window");
     flag.null->description =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
     flag_null = G_define_flag();
     flag_null->key = 'n';
@@ -415,6 +473,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -423,6 +482,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         _("This will also avoid cropping along edges of the current region");
 
     if (G_parser(argc, argv))
@@ -431,10 +492,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     name = parm.input->answer;
     result = parm.output->answer;
     dim.size = atoi(parm.size->answer);
@@ -483,6 +549,7 @@ int main(int argc, char *argv[])
     size = atoi(opt_size->answer);
     if (size <= 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
         G_fatal_error(_("Size of the moving window must be > 0"));
@@ -530,40 +597,44 @@ int main(int argc, char *argv[])
         if (measure_menu[i].useme == 1) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         G_fatal_error(_("Size of the moving window must be > 0"));
-    if (size % 2 != 1)
+    if (dim.size % 2 != 1)
         G_fatal_error(_("Size of the moving window must be odd"));
-    dist = atoi(opt_dist->answer);
-    if (dist <= 0)
+    if (dim.dist <= 0)
         G_fatal_error(_("The distance between two samples must be > 0"));
-    if (dist >= size)
+    if (dim.dist >= dim.size)
         G_fatal_error(_("The distance between two samples must be smaller than "
                         "the size of the moving window"));
 
-    n_measures = 0;
-    if (flag_all->answer) {
-        for (i = 0; menu[i].name; i++) {
-            menu[i].useme = 1;
+    dim.n_measures = 0;
+    if (flag.all->answer) {
+        for (i = 0; measure_menu[i].name; i++) {
+            measure_menu[i].useme = 1;
         }
-        n_measures = i;
+        dim.n_measures = i;
     }
     else {
-        for (i = 0; opt_measure->answers[i]; i++) {
-            if (opt_measure->answers[i]) {
-                const char *measure_name = opt_measure->answers[i];
+        for (i = 0; parm.measure->answers[i]; i++) {
+            if (parm.measure->answers[i]) {
+                const char *measure_name = parm.measure->answers[i];
                 int n = find_measure(measure_name);
 
-                menu[n].useme = 1;
-                n_measures++;
+                measure_menu[n].useme = 1;
+                dim.n_measures++;
             }
         }
     }
-    if (!n_measures)
+    if (!dim.n_measures)
         G_fatal_error(
             _("Nothing to compute. Use at least one textural measure."));
 
-    measure_idx = G_malloc(n_measures * sizeof(int));
+    measure_idx = G_malloc(dim.n_measures * sizeof(int));
     j = 0;
+<<<<<<< HEAD
     for (i = 0; menu[i].name; i++) {
         if (menu[i].useme == 1) {
 <<<<<<< HEAD
@@ -573,7 +644,14 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; measure_menu[i].name; i++) {
+        if (measure_menu[i].useme == 1) {
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
             measure_idx[j] = i;
             j++;
         }
@@ -582,8 +660,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
     /* variables needed */
     if (menu[2].useme || menu[11].useme || menu[12].useme)
@@ -605,10 +686,15 @@ int main(int argc, char *argv[])
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     infd = Rast_open_old(name, "");
 
     Rast_get_cellhd(name, "", &cellhd);
@@ -618,8 +704,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     dim.n_outputs = dim.n_measures;
     if (flag.ind->answer) {
         dim.n_outputs = dim.n_measures * 4;
@@ -633,11 +722,15 @@ int main(int argc, char *argv[])
     if (flag_ind->answer) {
         n_outputs = n_measures * 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
     dim.n_outputs = dim.n_measures;
     if (flag.ind->answer) {
         dim.n_outputs = dim.n_measures * 4;
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
     }
 
     mapname = G_malloc(dim.n_outputs * sizeof(char *));
@@ -653,12 +746,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     }
 
-    fbuf = G_malloc(n_outputs * sizeof(FCELL *));
-    mapname = G_malloc(n_outputs * sizeof(char *));
-    for (i = 0; i < n_outputs; i++) {
+    mapname = G_malloc(dim.n_outputs * sizeof(char *));
+    for (i = 0; i < dim.n_outputs; i++)
         mapname[i] = G_malloc(GNAME_MAX * sizeof(char));
+<<<<<<< HEAD
         fbuf[i] = Rast_allocate_buf(out_data_type);
     }
 <<<<<<< HEAD
@@ -668,7 +763,12 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 
     overwrite = G_check_overwrite(argc, argv);
 
@@ -676,8 +776,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     outfd = G_malloc(dim.n_outputs * sizeof(int));
     for (i = 0; i < dim.n_measures; i++) {
         if (flag.ind->answer) {
@@ -705,6 +808,7 @@ int main(int argc, char *argv[])
                 sprintf(mapname[i * 4 + j], "%s%s_%d", result,
                         measure_menu[measure_idx[i]].suffix, j * 45);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -713,6 +817,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
                 if (!G_find_raster(mapname[i * 4 + j], G_mapset()) ||
                     overwrite) {
                     outfd[i * 4 + j] =
@@ -730,10 +836,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
             sprintf(mapname[i], "%s%s", result,
                     measure_menu[measure_idx[i]].suffix);
 =======
@@ -748,6 +857,7 @@ int main(int argc, char *argv[])
             sprintf(mapname[i], "%s%s", result,
                     measure_menu[measure_idx[i]].suffix);
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -755,6 +865,8 @@ int main(int argc, char *argv[])
             sprintf(mapname[i], "%s%s", result, menu[measure_idx[i]].suffix);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
             if (!G_find_raster(mapname[i], G_mapset()) || overwrite) {
                 outfd[i] = Rast_open_new(mapname[i], out_data_type);
             }
@@ -776,8 +888,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     data = (int **)G_malloc(dim.nrows * sizeof(int *));
     for (i = 0; i < dim.nrows; i++) {
         data[i] = (int *)G_malloc(dim.ncols * sizeof(int));
@@ -796,6 +911,7 @@ int main(int argc, char *argv[])
     for (i = 0; i < dim.nrows; i++) {
         data[i] = (int *)G_malloc(dim.ncols * sizeof(int));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -804,6 +920,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     }
 
     /* read input range */
@@ -825,8 +943,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     for (j = 0; j < dim.nrows; j++) {
         Rast_get_row(infd, dcell_row, j, DCELL_TYPE);
         for (i = 0; i < dim.ncols; i++) {
@@ -845,6 +966,7 @@ int main(int argc, char *argv[])
         Rast_get_row(infd, dcell_row, j, DCELL_TYPE);
         for (i = 0; i < dim.ncols; i++) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -853,6 +975,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
             if (Rast_is_d_null_value(&(dcell_row[i])))
                 data[j][i] = -1;
             else if (inscale) {
@@ -873,6 +997,7 @@ int main(int argc, char *argv[])
     out_set.flag_null = flag.null;
     out_set.flag_ind = flag.ind;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1138,8 @@ int main(int argc, char *argv[])
 >>>>>>> 88f82c3773 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     threads = G_set_omp_num_threads(parm.nproc);
 =======
 <<<<<<< HEAD
@@ -1262,6 +1389,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2424,6 +2552,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     /* *************************************************************************************************
      *
      * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
@@ -2555,7 +2687,10 @@ int main(int argc, char *argv[])
      *
      ***************************************************************************************************/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2857,10 +2992,14 @@ int main(int argc, char *argv[])
 
     for (i = 0; i < n_outputs; i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 =======
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
 >>>>>>> ef6bae8fb5 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 
     for (i = 0; i < dim.n_outputs; i++) {
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
@@ -2885,16 +3024,34 @@ int main(int argc, char *argv[])
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
         Rast_close(outfd[i]);
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 
+    for (i = 0; i < dim.n_outputs; i++) {
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+        Rast_close(outfd[i]);
         Rast_short_history(mapname[i], "raster", &history);
         Rast_command_history(&history);
         Rast_write_history(mapname[i], &history);
-        G_free(fbuf[i]);
     }
 
+<<<<<<< HEAD
     G_free(fbuf);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+    /* Free allocated memory */
+    for (i = 0; i < dim.n_outputs; i++)
+        G_free(mapname[i]);
+    for (i = 0; i < dim.nrows; i++)
+        G_free(data[i]);
+
+    G_free(measure_idx);
+    G_free(mapname);
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     G_free(data);
 
     exit(EXIT_SUCCESS);

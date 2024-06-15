@@ -33,10 +33,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 #include "h_measure.h"
 
 float h_measure(int t_m, struct matvec *mv)
@@ -362,13 +365,19 @@ int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
 float h_measure(int t_m)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 #include "h_measure.h"
 
 float h_measure(int t_m, struct matvec *mv)
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 {
     switch (t_m) {
         /* Angular Second Moment */
@@ -378,10 +387,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f1_asm(mv));
 =======
         return (f1_asm());
@@ -394,6 +406,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f1_asm(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -401,6 +414,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f1_asm());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Contrast */
@@ -410,10 +425,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f2_contrast(mv));
 =======
         return (f2_contrast());
@@ -426,6 +444,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f2_contrast(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -433,6 +452,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f2_contrast());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Correlation */
@@ -442,10 +463,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f3_corr(mv));
 =======
         return (f3_corr());
@@ -458,6 +482,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f3_corr(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -465,6 +490,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f3_corr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Variance */
@@ -474,10 +501,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f4_var(mv));
 =======
         return (f4_var());
@@ -490,6 +520,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f4_var(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -497,6 +528,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f4_var());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Inverse Diff Moment */
@@ -506,10 +539,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f5_idm(mv));
 =======
         return (f5_idm());
@@ -522,6 +558,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f5_idm(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -529,6 +566,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f5_idm());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Average */
@@ -538,10 +577,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f6_savg(mv));
 =======
         return (f6_savg());
@@ -554,6 +596,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f6_savg(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -561,6 +604,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f6_savg());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Variance */
@@ -570,10 +615,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f7_svar(mv));
 =======
         return (f7_svar());
@@ -586,6 +634,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f7_svar(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -593,6 +642,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f7_svar());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Sum Entropy */
@@ -602,10 +653,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f8_sentropy(mv));
 =======
         return (f8_sentropy());
@@ -618,6 +672,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f8_sentropy(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -625,6 +680,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f8_sentropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Entropy */
@@ -634,10 +691,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f9_entropy(mv));
 =======
         return (f9_entropy());
@@ -650,6 +710,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f9_entropy(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -657,6 +718,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f9_entropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Difference Variance */
@@ -666,10 +729,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f10_dvar(mv));
 =======
         return (f10_dvar());
@@ -682,6 +748,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f10_dvar(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -689,6 +756,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f10_dvar());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Difference Entropy */
@@ -698,10 +767,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f11_dentropy(mv));
 =======
         return (f11_dentropy());
@@ -714,6 +786,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f11_dentropy(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -721,6 +794,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f11_dentropy());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Measure of Correlation-1 */
@@ -730,10 +805,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f12_icorr(mv));
 =======
         return (f12_icorr());
@@ -746,6 +824,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f12_icorr(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -753,6 +832,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f12_icorr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
 
         /* Measure of Correlation-2 */
@@ -762,10 +843,13 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         return (f13_icorr(mv));
 =======
         return (f13_icorr());
@@ -778,6 +862,7 @@ float h_measure(int t_m, struct matvec *mv)
 =======
         return (f13_icorr(mv));
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -785,6 +870,8 @@ float h_measure(int t_m, struct matvec *mv)
         return (f13_icorr());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
         break;
     }
 
@@ -794,8 +881,11 @@ float h_measure(int t_m, struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 void MatrixDealloc(float **A, int N)
 {
@@ -809,10 +899,15 @@ void MatrixDealloc(float **A, int N)
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 /* Angular Second Moment */
 /*
  * The angular second-moment feature (ASM) f1 is a measure of homogeneity
@@ -857,10 +952,13 @@ float f2_contrast(struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
     float **P = mv->P_matrix;
     int Ng = mv->Ng;
     int *tone = mv->tone;
@@ -878,10 +976,13 @@ float f2_contrast(struct matvec *mv)
     int Ng = mv->Ng;
     int *tone = mv->tone;
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
     float **P = P_matrix;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 
     /* the three-loop version does not work
      * when gray tones that do not occur in the current window
@@ -1189,8 +1290,11 @@ float f13_icorr(struct matvec *mv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 
 float *vector(int n)
@@ -1221,7 +1325,12 @@ float **matrix(int nr, int nc)
 }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))

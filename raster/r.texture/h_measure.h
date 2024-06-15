@@ -1,12 +1,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 /* h_measure.c */
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
@@ -17,6 +21,10 @@
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 /****************************************************************************
  *
  * MODULE:       r.texture
@@ -43,10 +51,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 #include "matvec.h"
 
 typedef struct menu {
@@ -74,8 +87,11 @@ float f12_icorr(struct matvec *mv);
 float f13_icorr(struct matvec *mv);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
 =======
 float h_measure(int);
 void alloc_vars(int);
@@ -91,6 +107,7 @@ int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 84cd6c77f3 (r.texture: Refactor code, remove global variables (#3785))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -99,3 +116,5 @@ int set_angle_vars(int angle, int have_px, int have_py, int have_pxpys,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> efb5ecd6aa (r.texture: Refactor code, remove global variables (#3785))
