@@ -21,14 +21,20 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --bindir=/usr/bin \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --enable-largefile \
 =======
         --srcdir=/vagrant \
         --prefix=/usr/lib \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+<<<<<<< HEAD
 =======
         --enable-largefile \
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --enable-shared \
         --prefix=/usr/lib \
         --srcdir=/vagrant \
@@ -42,19 +48,28 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-geos \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --with-lapack \
         --with-mysql \
         --with-mysql-includes=`mysql_config --include | sed -e 's/-I//'` \
         --with-netcdf \
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 =======
         --with-freetype \
         --with-readline \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+<<<<<<< HEAD
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --with-nls \
         --with-odbc \
         --with-postgres \
@@ -66,10 +81,13 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
         --with-pthread \
         --with-readline \
         --with-sqlite \
@@ -91,6 +109,7 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-liblas
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         --with-cairo \
 =======
@@ -103,6 +122,14 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+        --with-cairo \
+        --with-pthread \
+        --with-bzlib \
+        --without-pdal
+>>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 fi
 
 make -j $NUMTHREADS

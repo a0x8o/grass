@@ -18,10 +18,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
   config.vm.box = "noble64"
 =======
   config.vm.box = "bionic64"
@@ -34,6 +37,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 =======
   config.vm.box = "noble64"
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+<<<<<<< HEAD
 =======
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
@@ -41,6 +45,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "bionic64"
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 
   config.vm.hostname = "grass-gis-vagrant"
   config.vm.box = "alvistack/ubuntu-24.04"
@@ -141,6 +147,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
 =======
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python-software-properties; "
@@ -151,6 +160,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 =======
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+<<<<<<< HEAD
 =======
       pkg_cmd << "apt-get update -qq; apt-get install -q -y python3-software-properties; "
 =======
@@ -163,6 +173,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 
       if ppaRepos.length > 0
 	ppaRepos.each { |repo| pkg_cmd << "add-apt-repository -y " << repo << " ; " }
