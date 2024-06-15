@@ -12,6 +12,7 @@
 notes:
   categories:
     - title: Modules
+<<<<<<< HEAD
       regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools): '
 =======
 =======
@@ -46,6 +47,9 @@ notes:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+      regexp: '((d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)(, (d|db|g|i|m|ps|r|r3|t|v)\.[^ ]*)?: |(modules|tools|temporal): '
+>>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
 
     - title: Graphical User Interface
       regexp: '(wxGUI.*|gui|GUI): '
@@ -106,6 +110,7 @@ notes:
       regexp: '(packaging|pkg|rpm|deb|pkg-config|configure|config|[Mm]ake|build): '
 
     - title: Docker
+<<<<<<< HEAD
       regexp: '[Dd]ocker(/[^ ]+)?: '
 =======
 =======
@@ -140,10 +145,14 @@ notes:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+      regexp: '[Dd]ocker(/[^ ]+)?(\(\w[\w.-]*\))?: '
+>>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
 
     - title: Singularity
-      regexp: '[Ss]ingularity: '
+      regexp: '[Ss]ingularity(\(\w[\w.-]*\))?: '
 
+<<<<<<< HEAD
     - title: Continuous Integration, Tests, Code Quality, and Checks
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +171,10 @@ notes:
 >>>>>>> osgeo-main
 <<<<<<< HEAD
       regexp: '(CI|ci|CI\(deps\)|ci\(deps\)|[Tt]ests|[Cc]hecks|pytest): '
+=======
+    - title: Continuous Integration, Infrastructure, Tests and Code Quality
+      regexp: '(CI|ci|[Tt]ests|[Cc]hecks|style|perf|CQ|[Rr]efactoring|utils|pytest|unittest)(\(\w[\w.-]*\))?: '
+>>>>>>> 3ed472d0a8 (contributing: Add more prefixes (#3823))
 
     - title: Contributing and Management
       regexp: '(contributing|CONTRIBUTING.md|contributors|contributors.csv): '
