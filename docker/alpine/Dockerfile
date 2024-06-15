@@ -7120,9 +7120,11 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
 <<<<<<< HEAD
+<<<<<<< HEAD
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 =======
 =======
+<<<<<<< HEAD
 # GRASS GIS specific
 # allow work with MAPSETs that are not owned by current user
 <<<<<<< HEAD
@@ -7192,6 +7194,9 @@ ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 ENV GRASSBIN="/usr/local/bin/grass" \
     GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
 <<<<<<< HEAD
@@ -7220,13 +7225,26 @@ ENV GRASSBIN="/usr/local/bin/grass" \
 <<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -7420,6 +7438,14 @@ ENV GRASSBIN="/usr/local/bin/grass" \
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ENV GRASS_SKIP_MAPSET_OWNER_CHECK=1 \
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
     SHELL="/bin/bash" \
     # https://proj.org/usage/environmentvars.html#envvar-PROJ_NETWORK
     PROJ_NETWORK=ON \
@@ -7446,6 +7472,7 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
     grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g \
     && rm -f /scripts/grass_tests.sh /tmp/simple.laz /scripts/test_grass_python.py; \
     apk del --no-cache gettext pdal-dev; \
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     # show installed version
@@ -7476,6 +7503,7 @@ RUN ln -sf /usr/local/grass $(grass --config path); \
 =======
     && python --version
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
     && python3 --version
 =======
@@ -7574,6 +7602,13 @@ ENV PROJ_NETWORK="ON"
     && python --version
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    grass --tmp-project XY --exec g.version -rge \
+    && pdal --version \
+<<<<<<< HEAD
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
     && python3 --version
 =======
 <<<<<<< HEAD
@@ -7607,6 +7642,9 @@ ENV PROJ_NETWORK="ON"
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
     SHELL="/bin/bash"
 ENV PROJ_NETWORK="ON"
+=======
+    && python --version
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
 
 <<<<<<< HEAD
 =======

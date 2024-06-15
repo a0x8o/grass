@@ -2091,11 +2091,15 @@ RUN apt-get update && apt-get upgrade -y && \
     proj-data \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     python-is-python3 \
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    python-is-python3 \
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
     python3 \
     python3-dateutil \
     python3-dev \
@@ -4655,7 +4659,6 @@ RUN /src/grass_build/configure \
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 # --with-x
 # --with-nls
-ENV GRASS_PYTHON=/usr/bin/python3
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 RUN /src/grass_build/configure \
@@ -5771,11 +5774,15 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
     pdal --version && \
+<<<<<<< HEAD
     python3 --version
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    python --version
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -5786,12 +5793,16 @@ WORKDIR /scripts
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 # enable GRASS GIS Python session support
 ## grass --config python-path
 ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
 # enable GRASS GIS ctypes imports
 ## grass --config path
 ENV LD_LIBRARY_PATH "/usr/local/grass/lib:$LD_LIBRARY_PATH"
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -5807,11 +5818,14 @@ ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:$GISBASE/lib"
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 
 WORKDIR /tmp
 COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5874,12 +5888,15 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> 171e3bec7d (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5f9feb57ee (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
 # test LAZ file
 RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6075,9 +6092,14 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 ## just scan the LAZ file
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6113,6 +6135,13 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+## run GRASS GIS python session and scan the test LAZ file
+RUN python /scripts/test_grass_session.py
+RUN rm -rf /tmp/grasstest_epsg_25832
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 # test LAZ file
 <<<<<<< HEAD
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
@@ -6488,6 +6517,10 @@ RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" outp
 WORKDIR /grassdb
 VOLUME /grassdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+CMD ["$GRASSBIN", "--version"]
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))

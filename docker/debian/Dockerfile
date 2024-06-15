@@ -3846,7 +3846,10 @@ RUN apt-get update && apt-get upgrade -y && \
     proj-bin \
     proj-data \
 <<<<<<< HEAD
+<<<<<<< HEAD
     python-is-python3 \
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 =======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4087,6 +4090,7 @@ RUN apt-get update && apt-get upgrade -y && \
     proj-bin \
     proj-data \
 =======
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4132,7 +4136,16 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 3de174a63e (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    python-is-python3 \
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
     python3 \
     python3-dateutil \
     python3-dev \
@@ -7314,6 +7327,7 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 # Configure compile and install GRASS GIS
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 RUN /src/grass_build/configure \
@@ -7339,6 +7353,8 @@ RUN /src/grass_build/configure \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 ENV GRASS_PYTHON=/usr/bin/python3
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
 RUN /src/grass_build/configure \
@@ -8452,11 +8468,15 @@ RUN ln -sf /usr/local/grass85 /usr/local/grass
 # show GRASS GIS, PROJ, GDAL etc versions
 RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
     pdal --version && \
+<<<<<<< HEAD
     python3 --version
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    python --version
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -8465,6 +8485,7 @@ RUN rm -r /src/grass_build/.git
 
 WORKDIR /scripts
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8559,6 +8580,8 @@ RUN pip3 install grass-session
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 # enable GRASS GIS Python session support
 ## grass --config python-path
 ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
@@ -8566,6 +8589,8 @@ ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
 ## grass --config path
 ENV LD_LIBRARY_PATH "/usr/local/grass/lib:$LD_LIBRARY_PATH"
 =======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 # install external GRASS GIS session Python API
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9026,6 +9051,7 @@ ENV PYTHONPATH "${PYTHONPATH}:$GISBASE/etc/python/"
 ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:$GISBASE/lib"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9092,12 +9118,26 @@ ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:$GISBASE/lib"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+# enable GRASS GIS Python session support
+## grass --config python-path
+ENV PYTHONPATH "/usr/local/grass/etc/python:${PYTHONPATH}"
+# enable GRASS GIS ctypes imports
+## grass --config path
+ENV LD_LIBRARY_PATH "/usr/local/grass/lib:$LD_LIBRARY_PATH"
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 
 WORKDIR /tmp
 COPY docker/testdata/simple.laz .
 WORKDIR /scripts
 COPY docker/testdata/test_grass_session.py .
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9160,12 +9200,15 @@ COPY docker/testdata/test_grass_session.py .
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 ## run GRASS GIS python session and scan the test LAZ file
 RUN python /scripts/test_grass_session.py
 RUN rm -rf /tmp/grasstest_epsg_25832
 # test LAZ file
 RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9411,9 +9454,14 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> 624386edf7 (docker: Use only native Python API, set only necessary variables (#3819))
 ## just scan the LAZ file
 # Not yet ready for GRASS GIS 8:
 #RUN /usr/bin/python3 /scripts/test_grass_session.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9464,6 +9512,13 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> 92e9b42dca (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 310f1e65b4 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+## run GRASS GIS python session and scan the test LAZ file
+RUN python /scripts/test_grass_session.py
+RUN rm -rf /tmp/grasstest_epsg_25832
+>>>>>>> 9f7ecdc310 (docker: Use only native Python API, set only necessary variables (#3819))
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 # test LAZ file
 <<<<<<< HEAD
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
@@ -10016,6 +10071,10 @@ RUN grass --tmp-project EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" outp
 WORKDIR /grassdb
 VOLUME /grassdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+CMD ["$GRASSBIN", "--version"]
+>>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
