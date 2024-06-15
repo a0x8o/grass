@@ -387,7 +387,11 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 
 ARG GUI=without
 
+<<<<<<< HEAD
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97 as common_start
+=======
+FROM ubuntu:22.04@sha256:19478ce7fc2ffbce89df29fea5725a8d12e57de52eb9ea570890dc5852aac1ac as common_start
+>>>>>>> 83a941f2cb (CI(deps): Update ubuntu:22.04 Docker digest to 19478ce (#3773))
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Stefan Blumentrath"
 =======
