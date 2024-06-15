@@ -15896,8 +15896,11 @@ RUN grass --tmp-project EPSG:4326 --exec g.version -rge && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+>>>>>>> f4fbd3ec63 (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
 =======
 # Reduce the image size
 RUN apt-get autoremove -y
@@ -15906,10 +15909,15 @@ RUN rm -r /src/grass_build/.git
 
 >>>>>>> dd2e07572c (docker: Use only native Python API, set only necessary variables (#3819))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1f094d934f (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
 =======
 >>>>>>> b59427ac06 (docker: Use only native Python API, set only necessary variables (#3819))
+=======
+=======
+>>>>>>> 1f094d934f (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
+>>>>>>> f4fbd3ec63 (docker: Revert failing cleaning steps in Ubuntu Dockerfile (#3830))
 WORKDIR /scripts
 
 # enable GRASS GIS Python session support
