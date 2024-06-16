@@ -358,13 +358,19 @@ def main():
         # switch to target location
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc3fc59f7c (r.import: avoid duplicated if check (#3847))
         gs.run_command("g.remove", type="vector", flags="f", name=tgtregion)
 =======
         grass.run_command("g.remove", type="vector", flags="f", name=tgtregion)
 >>>>>>> 746eb86b2e (r.import: avoid duplicated if check (#3847))
+<<<<<<< HEAD
 =======
         gs.run_command("g.remove", type="vector", flags="f", name=tgtregion)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> dc3fc59f7c (r.import: avoid duplicated if check (#3847))
 
     region = gs.region()
 
