@@ -59,6 +59,7 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -335,6 +336,8 @@ from grass.benchmark import (
 >>>>>>> f6b704e2b3 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
     benchmark_nprocs,
 =======
 <<<<<<< HEAD
@@ -357,6 +360,11 @@ from grass.benchmark import (
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    benchmark_nprocs,
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     benchmark_single,
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -977,6 +985,11 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1439,6 +1452,7 @@ class TestBenchmarksRun(TestCase):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> 86e790785c (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -1503,7 +1517,39 @@ class TestBenchmarksRun(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    def test_nprocs(self):
+        """Test that benchmark function runs for nprocs"""
+        label = "Standard output"
+        repeat = 4
+        benchmarks = [
+            dict(
+                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
+                label=label,
+                max_nprocs=4,
+            )
+        ]
+        results = []
+        for benchmark in benchmarks:
+            results.append(benchmark_nprocs(**benchmark, repeat=repeat, shuffle=True))
+        self.assertEqual(len(results), len(benchmarks))
+        for result in results:
+            self.assertTrue(hasattr(result, "times"))
+            self.assertTrue(hasattr(result, "all_times"))
+            self.assertTrue(hasattr(result, "speedup"))
+            self.assertTrue(hasattr(result, "efficiency"))
+            self.assertTrue(hasattr(result, "label"))
+            self.assertEqual(len(result.all_times), repeat)
+        self.assertEqual(results[0].label, label)
+
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""

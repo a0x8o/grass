@@ -91,6 +91,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -519,7 +520,11 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 4ff0c573d6 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 def nprocs_plot(results, filename=None, title=None, metric="time"):
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 =======
 <<<<<<< HEAD
 =======
@@ -565,10 +570,16 @@ def nprocs_plot(results, filename=None, title=None, metric="time"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 def nprocs_plot(results, filename=None, title=None):
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 =======
 def nprocs_plot(results, filename=None, title=None):
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+def nprocs_plot(results, filename=None, title=None, metric="time"):
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     """Plot results from a multiple nprocs (thread) benchmarks.
 
     *results* is a list of individual results from separate benchmarks.
@@ -828,6 +839,7 @@ def nprocs_plot(results, filename=None):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     *metric* can be "time", "speedup", or "efficiency".
     This function plots a corresponding figure based on the chosen metric.
 
@@ -835,12 +847,18 @@ def nprocs_plot(results, filename=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    *metric* can be "time", "speedup", or "efficiency".
+    This function plots a corresponding figure based on the chosen metric.
+
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     Optionally, result can have an *all_times* attribute which is a list
     of lists. One sublist is all times recorded for each value of nprocs.
 
     Each result can come with a different list of nprocs, i.e., benchmarks
     which used different values for nprocs can be combined in one plot.
     """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     ylabel = ""
@@ -854,11 +872,17 @@ def nprocs_plot(results, filename=None):
     plt = get_pyplot(to_file=bool(filename))
     axes = plt.gca()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    ylabel = ""
+    plt = get_pyplot(to_file=bool(filename))
+    _, axes = plt.subplots()
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 
     x_ticks = set()  # gather x values
     for result in results:
         x = result.nprocs
         x_ticks.update(x)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if metric == "time":
@@ -1766,9 +1790,22 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         plt.plot(x, result.times, label=result.label)
         if hasattr(result, "all_times"):
+=======
+        if metric == "time":
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
             mins = [min(i) for i in result.all_times]
             maxes = [max(i) for i in result.all_times]
+            plt.plot(x, result.times, label=result.label)
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
+            ylabel = "Time [s]"
+        elif metric in ["speedup", "efficiency"]:
+            ylabel = metric.title()
+            plt.plot(x, getattr(result, metric), label=result.label)
+        else:
+            raise ValueError(
+                f"Invalid metric '{metric}' in result, it should be:\
+                'time', 'speedup' or 'efficiency'"
+            )
     plt.legend()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,6 +1888,7 @@ def nprocs_plot(results, filename=None):
 
         axes.xaxis.set_major_locator(MaxNLocator(integer=True))
     plt.xlabel("Number of processing elements (cores, threads, processes)")
+<<<<<<< HEAD
     plt.ylabel("Time [s]")
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1861,11 +1899,19 @@ def nprocs_plot(results, filename=None):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    plt.ylabel(ylabel)
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     if title:
         plt.title(title)
-    else:
+    elif metric == "times":
         plt.title("Execution time by processing elements")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,6 +1987,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> 345367a7c1 (libpython: Save and load benchmark results (#1711))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 >>>>>>> 8219efca34 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -1966,7 +2013,17 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    elif metric in ["speedup", "efficiency"]:
+        plt.title(f"{metric.title()} by processing elements")
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
     if filename:
         plt.savefig(filename)
     else:

@@ -1309,6 +1309,9 @@ def plot_nprocs_cli(args):
         filename=args.output,
         title=args.title,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
         metric=args.metric,
     )
 
@@ -2198,6 +2201,7 @@ def add_plot_io_arguments(parser):
     """Add input and output arguments to *parser*."""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     parser.add_argument(
         "input", help="file with results (e.g. results.json)", metavar="input_file"
     )
@@ -2219,6 +2223,19 @@ def add_plot_io_arguments(parser):
     parser.add_argument(
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    parser.add_argument(
+        "input", help="file with results (e.g. results.json)", metavar="input_file"
+    )
+    parser.add_argument(
+        "output",
+        help=(
+            "output file with extension (e.g., figure.png)."
+            " If not provided, the plot will be opened in a new window."
+        ),
+        nargs="?",
+        metavar="output_file",
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     )
 
 
@@ -2233,6 +2250,11 @@ def add_plot_title_argument(parser):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2812,6 +2834,7 @@ def add_plot_metric_argument(parser):
 >>>>>>> c2d961e4a1 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> b74f907088 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -2854,7 +2877,25 @@ def add_plot_metric_argument(parser):
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+def add_plot_metric_argument(parser):
+    """Add metric argument to *parser*."""
+    parser.add_argument(
+        "--metric",
+        help="Metric for the plot (default: time)",
+        default="time",
+        choices=["time", "speedup", "efficiency"],
+    )
+
+
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -3725,6 +3766,9 @@ def add_plot_subcommand(parent_subparsers):
     add_plot_title_argument(nprocs)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     add_plot_metric_argument(nprocs)
     nprocs.set_defaults(handler=plot_nprocs_cli)
 
@@ -4076,11 +4120,15 @@ def define_arguments():
         prog=get_executable_name(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     )
     subparsers = add_subparsers(parser, dest="command")
 

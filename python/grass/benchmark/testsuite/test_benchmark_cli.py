@@ -1278,14 +1278,14 @@ class TestBenchmarkCLI(TestCase):
     """Tests that benchmarkin CLI works"""
 
     json_filename = "plot_test.json"
-    png_filename1 = "plot_test1.png"
-    png_filename2 = "plot_test2.png"
+    png_filenames = [f"plot_test1_{i}.png" for i in range(4)]
+    png_filenames.append("plot_test2.png")
 
     def tearDown(self):
         """Remove test files"""
         remove_file(self.json_filename)
-        remove_file(self.png_filename1)
-        remove_file(self.png_filename2)
+        for filename in self.png_filenames:
+            remove_file(filename)
 
     def test_plot_nprocs_workflow(self):
         """Test that plot nprocs workflow runs"""
@@ -1302,8 +1302,15 @@ class TestBenchmarkCLI(TestCase):
         except grass.exceptions.ParameterError:
             self.skipTest("r.univar without nprocs parameter")
         save_results_to_file([result], self.json_filename)
-        benchmark_main(["plot", "nprocs", self.json_filename, self.png_filename1])
-        self.assertTrue(Path(self.png_filename1).is_file())
+
+        metrics = ["time", "speedup", "efficiency"]
+        benchmark_main(["plot", "nprocs", self.json_filename, self.png_filenames[0]])
+        for png_fname, metric in zip(self.png_filenames[1:4], metrics):
+            benchmark_main(
+                ["plot", "nprocs", "--metric", metric, self.json_filename, png_fname]
+            )
+        for filename in self.png_filenames[:4]:
+            self.assertTrue(Path(filename).is_file())
 
     def test_plot_cells_workflow(self):
         """Test that plot cells workflow runs"""
@@ -2190,6 +2197,7 @@ class TestBenchmarkCLI(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -2231,8 +2239,12 @@ class TestBenchmarkCLI(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
         self.assertTrue(Path(self.png_filenames[-1]).is_file())
 =======
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
         self.assertTrue(Path(self.png_filename2).is_file())
 <<<<<<< HEAD
 =======
@@ -2686,6 +2698,7 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> c001cb7fb4 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+<<<<<<< HEAD
 >>>>>>> 9f045df12f (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
         save_results_to_file([result], self.json_filename)
@@ -2772,7 +2785,16 @@ class TestBenchmarkCLI(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        self.assertTrue(Path(self.png_filenames[-1]).is_file())
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 
 
 if __name__ == "__main__":

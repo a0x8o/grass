@@ -1892,10 +1892,14 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     min_time = None
     serial_avg = None
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     result = SimpleNamespace(times=[], all_times=[], speedup=[], efficiency=[])
     result.nprocs = list(range(1, max_nprocs + 1))
     result.label = label
     nprocs_list_shuffled = sorted(result.nprocs * repeat)
+<<<<<<< HEAD
     if shuffle:
         random.shuffle(nprocs_list_shuffled)
     times = {}
@@ -2346,6 +2350,8 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     efficiency = []
     nprocs_list = list(range(1, max_nprocs + 1))
     nprocs_list_shuffled = sorted(nprocs_list * repeat)
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     if shuffle:
         random.shuffle(nprocs_list_shuffled)
     times = {}
@@ -2360,6 +2366,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
             times[nprocs] = [module.time]
     for nprocs in sorted(times):
         avg = sum(times[nprocs]) / repeat
+<<<<<<< HEAD
         avg_times.append(avg)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2552,6 +2559,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 =======
 =======
+<<<<<<< HEAD
     *all_times* (list of lists of measured execution times), *nprocs*
     (list of *nprocs* values used), and *label* (the provided parameter as is).
 =======
@@ -2730,7 +2738,17 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        result.times.append(avg)
+        result.all_times.append(times[nprocs])
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
         if nprocs == 1:
             serial_avg = avg
         if avg < min_avg:
@@ -2776,6 +2794,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2897,6 +2916,13 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         result.efficiency.append(serial_avg / (nprocs * avg))
 =======
 >>>>>>> osgeo-main
+=======
+        result.speedup.append(serial_avg / avg)
+        result.efficiency.append(serial_avg / (nprocs * avg))
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+=======
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2947,6 +2973,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
         efficiency.append(serial_avg / (nprocs * avg))
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3703,6 +3730,12 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
         efficiency.append(serial_avg / (nprocs * avg))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        result.speedup.append(serial_avg / avg)
+        result.efficiency.append(serial_avg / (nprocs * avg))
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 
     print("\u2500" * term_size.columns)
     if serial_avg is not None:
@@ -3745,6 +3778,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
     print(f"Best average time - {min_avg}s ({min_time} threads)\n")
 
+<<<<<<< HEAD
     return SimpleNamespace(
         all_times=all_times,
         times=avg_times,
@@ -3806,13 +3840,22 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         label=label,
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 4e96c0c0e8 (libpython: Save and load benchmark results (#1711))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+    return result
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> cc3c0468f2 (Merge branch 'a0x8o' into stag0)
 
 
 def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
