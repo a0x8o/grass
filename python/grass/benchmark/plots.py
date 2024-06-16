@@ -40,6 +40,7 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60,6 +61,9 @@ def get_pyplot(to_file):
 =======
 >>>>>>> osgeo-main
 def nprocs_plot(results, filename=None, title=None):
+=======
+def nprocs_plot(results, filename=None, title=None, metric="time"):
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     """Plot results from a multiple nprocs (thread) benchmarks.
 
     *results* is a list of individual results from separate benchmarks.
@@ -98,24 +102,37 @@ def nprocs_plot(results, filename=None):
     from the *nprocs* list.
     The *label* attribute identifies the benchmark in the legend.
 
+    *metric* can be "time", "speedup", or "efficiency".
+    This function plots a corresponding figure based on the chosen metric.
+
     Optionally, result can have an *all_times* attribute which is a list
     of lists. One sublist is all times recorded for each value of nprocs.
 
     Each result can come with a different list of nprocs, i.e., benchmarks
     which used different values for nprocs can be combined in one plot.
     """
+    ylabel = ""
     plt = get_pyplot(to_file=bool(filename))
-    axes = plt.gca()
+    _, axes = plt.subplots()
 
     x_ticks = set()  # gather x values
     for result in results:
         x = result.nprocs
         x_ticks.update(x)
-        plt.plot(x, result.times, label=result.label)
-        if hasattr(result, "all_times"):
+        if metric == "time":
             mins = [min(i) for i in result.all_times]
             maxes = [max(i) for i in result.all_times]
+            plt.plot(x, result.times, label=result.label)
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
+            ylabel = "Time [s]"
+        elif metric in ["speedup", "efficiency"]:
+            ylabel = metric.title()
+            plt.plot(x, getattr(result, metric), label=result.label)
+        else:
+            raise ValueError(
+                f"Invalid metric '{metric}' in result, it should be:\
+                'time', 'speedup' or 'efficiency'"
+            )
     plt.legend()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,11 +189,12 @@ def nprocs_plot(results, filename=None):
 
         axes.xaxis.set_major_locator(MaxNLocator(integer=True))
     plt.xlabel("Number of processing elements (cores, threads, processes)")
-    plt.ylabel("Time [s]")
+    plt.ylabel(ylabel)
     if title:
         plt.title(title)
-    else:
+    elif metric == "times":
         plt.title("Execution time by processing elements")
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -208,6 +226,10 @@ def nprocs_plot(results, filename=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    elif metric in ["speedup", "efficiency"]:
+        plt.title(f"{metric.title()} by processing elements")
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     if filename:
         plt.savefig(filename)
     else:

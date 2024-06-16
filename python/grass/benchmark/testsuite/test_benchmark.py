@@ -21,6 +21,10 @@ from grass.benchmark import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    benchmark_nprocs,
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
     benchmark_single,
 =======
 <<<<<<< HEAD
@@ -140,6 +144,7 @@ class TestBenchmarksRun(TestCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +166,32 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    def test_nprocs(self):
+        """Test that benchmark function runs for nprocs"""
+        label = "Standard output"
+        repeat = 4
+        benchmarks = [
+            dict(
+                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
+                label=label,
+                max_nprocs=4,
+            )
+        ]
+        results = []
+        for benchmark in benchmarks:
+            results.append(benchmark_nprocs(**benchmark, repeat=repeat, shuffle=True))
+        self.assertEqual(len(results), len(benchmarks))
+        for result in results:
+            self.assertTrue(hasattr(result, "times"))
+            self.assertTrue(hasattr(result, "all_times"))
+            self.assertTrue(hasattr(result, "speedup"))
+            self.assertTrue(hasattr(result, "efficiency"))
+            self.assertTrue(hasattr(result, "label"))
+            self.assertEqual(len(result.all_times), repeat)
+        self.assertEqual(results[0].label, label)
+
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 
 class TestBenchmarkResults(TestCase):
     """Tests that saving results work"""

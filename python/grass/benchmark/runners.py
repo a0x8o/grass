@@ -247,11 +247,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
     min_avg = float("inf")
     min_time = None
     serial_avg = None
-    avg_times = []
-    all_times = []
-    efficiency = []
-    nprocs_list = list(range(1, max_nprocs + 1))
-    nprocs_list_shuffled = sorted(nprocs_list * repeat)
+    result = SimpleNamespace(times=[], all_times=[], speedup=[], efficiency=[])
+    result.nprocs = list(range(1, max_nprocs + 1))
+    result.label = label
+    nprocs_list_shuffled = sorted(result.nprocs * repeat)
     if shuffle:
         random.shuffle(nprocs_list_shuffled)
     times = {}
@@ -266,6 +265,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
             times[nprocs] = [module.time]
     for nprocs in sorted(times):
         avg = sum(times[nprocs]) / repeat
+<<<<<<< HEAD
         avg_times.append(avg)
         all_times.append(times[nprocs])
 <<<<<<< HEAD
@@ -330,11 +330,16 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+        result.times.append(avg)
+        result.all_times.append(times[nprocs])
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
         if nprocs == 1:
             serial_avg = avg
         if avg < min_avg:
             min_avg = avg
             min_time = nprocs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,6 +363,10 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 =======
 >>>>>>> osgeo-main
         efficiency.append(serial_avg / (nprocs * avg))
+=======
+        result.speedup.append(serial_avg / avg)
+        result.efficiency.append(serial_avg / (nprocs * avg))
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 
     print("\u2500" * term_size.columns)
     if serial_avg is not None:
@@ -393,6 +402,7 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
 >>>>>>> osgeo-main
     print(f"Best average time - {min_avg}s ({min_time} threads)\n")
 
+<<<<<<< HEAD
     return SimpleNamespace(
         all_times=all_times,
         times=avg_times,
@@ -434,6 +444,9 @@ def benchmark_nprocs(module, label, max_nprocs, repeat=5):
         nprocs=nprocs_list,
         label=label,
     )
+=======
+    return result
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 
 
 def benchmark_resolutions(module, resolutions, label, repeat=5, nprocs=None):
