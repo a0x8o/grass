@@ -328,7 +328,11 @@ def main():
         )
 
         # switch to target location
+<<<<<<< HEAD
         gs.run_command("g.remove", type="vector", flags="f", name=tgtregion)
+=======
+        grass.run_command("g.remove", type="vector", flags="f", name=tgtregion)
+>>>>>>> 746eb86b2e (r.import: avoid duplicated if check (#3847))
 
     region = gs.region()
 
