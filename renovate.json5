@@ -86,6 +86,7 @@
         ":separateMultipleMajorReleases",
 =======
 >>>>>>> ab6dbd973d (CI: Enable pre-commit updates by Renovate (#3840))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a1d554657a (style: Apply missing pre-commit fixes (#3834))
@@ -99,6 +100,8 @@
         // when a dependency is really out of date, this will prevent to skip directly to the latest version.
         ":separateMultipleMajorReleases",
 >>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+>>>>>>> a2ccb560cd (CI: Enable pre-commit updates by Renovate (#3840))
     ]
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 }
