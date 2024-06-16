@@ -161,6 +161,7 @@ class IClassMapPanel(DoubleMapPanel):
         # show computation region by defaut
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         self.mapWindowProperties.showRegion = True
+        self.mapWindowProperties.autoRenderChanged.connect(self.OnAutoRenderChanged)
 
         self.firstMapWindow = IClassVDigitWindow(
             parent=self,
@@ -308,13 +309,6 @@ class IClassMapPanel(DoubleMapPanel):
 
         self.SendSizeEvent()
 
-    def OnCloseWindow(self, event):
-        self.GetFirstWindow().GetDigit().CloseMap()
-        self.plotPanel.CloseWindow()
-        self._cleanup()
-        self._mgr.UnInit()
-        self.Destroy()
-
     def _cleanup(self):
         """Frees C structs and removes vector map and all raster maps."""
         I_free_signatures(self.signatures)
@@ -326,15 +320,26 @@ class IClassMapPanel(DoubleMapPanel):
         for i in self.stats_data.GetCategories():
             self.RemoveTempRaster(self.stats_data.GetStatistics(i).rasterName)
 
-    def OnHelp(self, event):
-        """Show help page"""
-        self.giface.Help(entry="wxGUI.iclass")
-
     def _getTempVectorName(self):
         """Return new name for temporary vector map (training areas)"""
         vectorPath = grass.tempfile(create=False)
 
         return "trAreas" + os.path.basename(vectorPath).replace(".", "")
+
+    def OnAutoRenderChanged(self, value):
+        """Auto rendering state changed."""
+        self.OnRender(event=None)
+
+    def OnCloseWindow(self, event):
+        self.GetFirstWindow().GetDigit().CloseMap()
+        self.plotPanel.CloseWindow()
+        self._cleanup()
+        self._mgr.UnInit()
+        self.Destroy()
+
+    def OnHelp(self, event):
+        """Show help page"""
+        self.giface.Help(entry="wxGUI.iclass")
 
     def SetGroup(self, group, subgroup):
         """Set group and subgroup manually"""
