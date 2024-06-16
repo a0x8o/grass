@@ -41,6 +41,7 @@ repos:
           )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
 <<<<<<< HEAD
@@ -152,6 +153,19 @@ repos:
 =======
     rev: v0.8.0
 >>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
+=======
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+<<<<<<< HEAD
+    rev: v0.8.0
+=======
+    rev: v0.7.3
+=======
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.41.0
+>>>>>>> bfd472d489 (CI(deps): Update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 (#3844))
+>>>>>>> 756344f217 (CI(deps): Update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 (#3844))
+>>>>>>> 83349cd07f (CI(deps): Update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 (#3844))
     hooks:
       # Run the linter.
       - id: ruff
