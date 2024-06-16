@@ -6292,6 +6292,7 @@ exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6347,8 +6348,12 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> abf3cb46ee (checks: Disable Bandit B603 check for untrusted input (#3839))
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
 =======
+=======
+>>>>>>> 041616bba1 (checks: Disable Bandit B603 check for untrusted input (#3839))
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -6606,6 +6611,7 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 <<<<<<< HEAD
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6641,13 +6647,17 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> abf3cb46ee (checks: Disable Bandit B603 check for untrusted input (#3839))
 =======
 >>>>>>> osgeo-main
 =======
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
 >>>>>>> e07a2894ef (checks: Disable Bandit B603 check for untrusted input (#3839))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 041616bba1 (checks: Disable Bandit B603 check for untrusted input (#3839))
 <<<<<<< HEAD
@@ -7224,3 +7234,6 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> e8033a9dcf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 041616bba1 (checks: Disable Bandit B603 check for untrusted input (#3839))
+>>>>>>> abf3cb46ee (checks: Disable Bandit B603 check for untrusted input (#3839))
