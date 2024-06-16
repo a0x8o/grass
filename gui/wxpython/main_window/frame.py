@@ -54416,10 +54416,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
         mapdisp.GetMapWindow().UpdateMap(render=False)
 =======
         if mapdisp.IsAutoRendered():
@@ -54434,6 +54437,7 @@ class GMFrame(wx.Frame):
             mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
@@ -54441,6 +54445,11 @@ class GMFrame(wx.Frame):
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+=======
+        mapdisp.GetMapWindow().UpdateMap(render=False)
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 
     def OnDeleteLayer(self, event):
         """Remove selected map layer from the current layer Tree"""

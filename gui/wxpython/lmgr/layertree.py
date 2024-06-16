@@ -32699,6 +32699,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+<<<<<<< HEAD
 =======
             if mapLayer.GetType() in {"raster", "vector"}:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
@@ -32718,6 +32719,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 render = self.mapdisplay.IsAutoRendered()
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
                 self.mapdisplay.MapWindow.ZoomToMap(
                     layers=[
                         mapLayer,
@@ -32727,14 +32730,18 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 =======
                     render=render,
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
                     render=render,
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
@@ -32745,6 +32752,10 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
                 )
 
         # update nviz tools

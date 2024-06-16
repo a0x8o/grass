@@ -3244,13 +3244,17 @@ class MapPanelBase(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
             (self.OnEnableDisableRender, wx.ACCEL_NORMAL, wx.WXK_F6),
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             (self.OnEnableDisableRender, wx.ACCEL_NORMAL, wx.WXK_F6),
@@ -3262,6 +3266,11 @@ class MapPanelBase(wx.Panel):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            (self.OnEnableDisableRender, wx.ACCEL_NORMAL, wx.WXK_F6),
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
         ]
 
         self._initShortcuts()
@@ -13632,6 +13641,9 @@ class DoubleMapPanel(MapPanelBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
         mapToDraw.UpdateMap(render=False, reRenderTool=reRenderTool)
 =======
         mapToDraw.UpdateMap(render=False)
@@ -13642,6 +13654,7 @@ class DoubleMapPanel(MapPanelBase):
 =======
         mapToDraw.UpdateMap(render=False, reRenderTool=reRenderTool)
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+<<<<<<< HEAD
 =======
         mapToDraw.UpdateMap(render=False, reRenderTool=reRenderTool)
 =======
@@ -13654,6 +13667,8 @@ class DoubleMapPanel(MapPanelBase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3e9dd7256d (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 
 
 class FrameMixin:
