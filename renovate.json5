@@ -21,6 +21,7 @@
 
         // Renovate's pre-commit support is still opt-in
         ":enablePreCommit",
+<<<<<<< HEAD
 
         // weekly update of lock files (flake.lock)
         ":maintainLockFilesWeekly",
@@ -72,6 +73,8 @@
 
         // when a dependency is really out of date, this will prevent to skip directly to the latest version.
         ":separateMultipleMajorReleases",
+=======
+>>>>>>> ab6dbd973d (CI: Enable pre-commit updates by Renovate (#3840))
     ]
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 }
