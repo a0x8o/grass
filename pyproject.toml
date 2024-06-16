@@ -117,6 +117,7 @@ timeout = 300
 
 [tool.bandit]
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
+<<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -129,3 +130,6 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
+>>>>>>> e07a2894ef (checks: Disable Bandit B603 check for untrusted input (#3839))
