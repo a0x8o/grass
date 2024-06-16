@@ -88,7 +88,11 @@ repos:
       - id: markdownlint-fix
   # Using this mirror lets us use mypyc-compiled black, which is about 2x faster
   - repo: https://github.com/psf/black-pre-commit-mirror
+<<<<<<< HEAD
     rev: 24.10.0
+=======
+    rev: 24.4.2
+>>>>>>> 078ff8fdc7 (CI(deps): Update pre-commit hook psf/black-pre-commit-mirror to v24.4.2 (#3842))
     hooks:
       - id: black-jupyter
         exclude: |
