@@ -11664,9 +11664,11 @@ class AbstractSpaceTimeDataset(AbstractDataset):
         where=None,
         order=None,
         dbif=None,
+        group=None,
         spatial_extent=None,
         spatial_relation=None,
     ):
+<<<<<<< HEAD
         """Return SQL rows of all registered maps.
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
@@ -15207,6 +15209,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -15249,10 +15252,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 95f93040db (temporal: add group option to get_registered_maps (#3753))
 =======
 >>>>>>> 6cd91d8b03 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
                       of the registered maps without "WHERE"
         :param group: The columns to be used in the SQL GROUP BY statement
                       as SQL compliant string without "GROUP BY"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15914,6 +15920,10 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
                      of the registered maps without "WHERE"
         :param order: The SQL order statement to be used to order the
                      objects in the list without "ORDER BY"
@@ -15948,6 +15958,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 61b5b5fabe (r.horizon manual - fix typo (#2794))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
@@ -15983,12 +15994,17 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 >>>>>>> ca4e88c309 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
+=======
 =======
 =======
 >>>>>>> ab7a7d8f0a (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
@@ -16206,6 +16222,16 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+                      of the registered maps without "WHERE"
+        :param group: The columns to be used in the SQL GROUP BY statement
+                      as SQL compliant string without "GROUP BY"
+>>>>>>> 2c0f5c40c5 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
         :param spatial_extent: Spatial extent dict and projection information
             e.g. from g.region -ug3 with GRASS GIS region keys
             "n", "s", "e", "w", "b", "t", and  "projection".
@@ -16237,6 +16263,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17221,7 +17248,11 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 576b696e91 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
 =======
 >>>>>>> 50e307f19e (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
         :param dbif: The database interface to be used
+=======
+>>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
 =======
 =======
 <<<<<<< HEAD
@@ -17692,6 +17723,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5d3bd35e0a (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 >>>>>>> cb9f97dc6b (r.horizon manual - fix typo (#2794))
@@ -17721,7 +17753,16 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 2673808116 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        :param dbif: The database interface to be used
+>>>>>>> 2c0f5c40c5 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
 
         :return: SQL rows of all registered maps grouped by the columns given in
                 the group option, in case no maps are found, None is returned
@@ -17760,12 +17801,17 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 1efc611d15 (temporal: add group option to get_registered_maps (#3753))
+>>>>>>> 042502acf1 (temporal: add group option to get_registered_maps (#3753))
             else:
                 columns = columns or "*"
 
@@ -19748,6 +19794,13 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+            sql = "SELECT %s FROM %s WHERE %s.id IN (SELECT id FROM %s)" % (
+                columns,
+                map_view,
+                map_view,
+                self.get_map_register(),
+            )
 
             if where is not None and where != "":
                 sql += " AND (%s)" % (where.split(";")[0])
