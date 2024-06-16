@@ -2154,8 +2154,11 @@ skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 >>>>>>> osgeo-main
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
 =======
+=======
+>>>>>>> 041616bba1 (checks: Disable Bandit B603 check for untrusted input (#3839))
 skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2277,6 +2280,7 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> dacd5d901f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
@@ -2304,4 +2308,13 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b784fde58b (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
+>>>>>>> e07a2894ef (checks: Disable Bandit B603 check for untrusted input (#3839))
+>>>>>>> 041616bba1 (checks: Disable Bandit B603 check for untrusted input (#3839))
+>>>>>>> a6ed306629 (checks: Disable Bandit B603 check for untrusted input (#3839))
