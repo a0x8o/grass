@@ -1184,7 +1184,11 @@ class GLWindow(MapWindowBase, glcanvas.GLCanvas):
         if not self.parent.mapWindowProperties.autoRender and not reRenderTool:
             return
 
+<<<<<<< HEAD
         start = gs.clock()
+=======
+        start = grass.clock()
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 
         self.resize = False
 

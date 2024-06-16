@@ -1000,11 +1000,15 @@ class MapPanelBase(wx.Panel):
             (self.OnRender, wx.ACCEL_NORMAL, wx.WXK_F5),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (self.OnEnableDisableRender, wx.ACCEL_NORMAL, wx.WXK_F6),
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            (self.OnEnableDisableRender, wx.ACCEL_NORMAL, wx.WXK_F6),
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
         ]
 
         self._initShortcuts()
@@ -4591,6 +4595,7 @@ class DoubleMapPanel(MapPanelBase):
     def Draw(self, mapToDraw, reRenderTool=False):
         """Re-display current map composition"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         mapToDraw.UpdateMap(render=False, reRenderTool=reRenderTool)
 =======
         mapToDraw.UpdateMap(render=False)
@@ -4598,6 +4603,9 @@ class DoubleMapPanel(MapPanelBase):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        mapToDraw.UpdateMap(render=False, reRenderTool=reRenderTool)
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 
 
 class FrameMixin:

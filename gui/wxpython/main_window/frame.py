@@ -17970,6 +17970,7 @@ class GMFrame(wx.Frame):
         # no redraw when Render is unchecked
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mapdisp.GetMapWindow().UpdateMap(render=False)
 =======
         if mapdisp.IsAutoRendered():
@@ -17979,6 +17980,9 @@ class GMFrame(wx.Frame):
         if mapdisp.IsAutoRendered():
             mapdisp.GetMapWindow().UpdateMap(render=False)
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        mapdisp.GetMapWindow().UpdateMap(render=False)
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
 
     def OnDeleteLayer(self, event):
         """Remove selected map layer from the current layer Tree"""

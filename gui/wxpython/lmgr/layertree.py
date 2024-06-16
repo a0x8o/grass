@@ -10516,16 +10516,20 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             if mapLayer.GetType() in {"raster", "vector"}:
 =======
             if mapLayer.GetType() in ("raster", "vector"):
+<<<<<<< HEAD
                 render = self.mapdisplay.IsAutoRendered()
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
             if mapLayer.GetType() in ("raster", "vector"):
                 render = self.mapdisplay.IsAutoRendered()
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
                 self.mapdisplay.MapWindow.ZoomToMap(
                     layers=[
                         mapLayer,
                     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10534,6 +10538,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                     render=render,
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
                 )
 
         # update nviz tools
