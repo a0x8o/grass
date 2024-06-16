@@ -4353,10 +4353,15 @@ def plot_nprocs_cli(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
         metric=args.metric,
     )
 
@@ -7210,10 +7215,13 @@ def add_plot_io_arguments(parser):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
     parser.add_argument(
         "input", help="file with results (e.g. results.json)", metavar="input_file"
     )
@@ -7240,6 +7248,9 @@ def add_plot_io_arguments(parser):
         "output", help="output file (e.g., PNG)", nargs="?", metavar="output_file"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
 =======
     parser.add_argument(
         "input", help="file with results (e.g. results.json)", metavar="input_file"
@@ -7253,10 +7264,13 @@ def add_plot_io_arguments(parser):
         nargs="?",
         metavar="output_file",
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+<<<<<<< HEAD
 =======
 >>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
     )
 
 
@@ -7271,6 +7285,11 @@ def add_plot_title_argument(parser):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8638,6 +8657,7 @@ def add_plot_metric_argument(parser):
 >>>>>>> a08bd516ca (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> ea17e86303 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
@@ -8977,6 +8997,7 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9544,6 +9565,22 @@ def add_plot_metric_argument(parser):
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 033e7a3234 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+def add_plot_metric_argument(parser):
+    """Add metric argument to *parser*."""
+    parser.add_argument(
+        "--metric",
+        help="Metric for the plot (default: time)",
+        default="time",
+        choices=["time", "speedup", "efficiency"],
+    )
+
+
+>>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
 def add_plot_subcommand(parent_subparsers):
     """Add plot subcommand."""
     main_parser = add_subcommand_parser(
@@ -12480,12 +12517,17 @@ def add_plot_subcommand(parent_subparsers):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 =======
 >>>>>>> 8feebafec2 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
     add_plot_metric_argument(nprocs)
     nprocs.set_defaults(handler=plot_nprocs_cli)
 
@@ -13639,13 +13681,17 @@ def define_arguments():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
@@ -13657,6 +13703,11 @@ def define_arguments():
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+>>>>>>> effa23168e (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
+>>>>>>> 340827d0ae (Merge branch 'a0x8o' into stag0)
     )
     subparsers = add_subparsers(parser, dest="command")
 
