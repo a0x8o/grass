@@ -59,14 +59,18 @@ int G_getl(char *buf, int n, FILE *fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
 =======
  *
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
  *
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
@@ -77,6 +81,10 @@ int G_getl(char *buf, int n, FILE *fd)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
  * Reads in at most <i>n-1</i> characters from stream (the last spot
  * is reserved for the end-of-string NUL) and stores them into the
  * buffer pointed to by <i>buf</i>. Reading stops after an EOF or a
@@ -88,20 +96,28 @@ int G_getl(char *buf, int n, FILE *fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
  * \param buf: string buffer to receive read data, at least <i>n</i>
  *             bytes must be allocated
  * \param n: maximum number of bytes to read
  * \param fd: file descriptor structure
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
 =======
  * \param buf: string buffer to receive read data, at least <i>n</i> must be
  * allocated \param n: maximum number of bytes to read \param fd: file
@@ -117,12 +133,17 @@ int G_getl(char *buf, int n, FILE *fd)
  * descriptor structure
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
  *
  * \return 1 on success
  * \return 0 EOF
@@ -132,8 +153,11 @@ int G_getl2(char *buf, int n, FILE *fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
     if (buf == NULL || fd == NULL || n <= 1) {
         return 0;
 =======
@@ -178,6 +202,7 @@ int G_getl2(char *buf, int n, FILE *fd)
     if (buf == NULL || fd == NULL || n <= 1) {
         return 0;
 >>>>>>> bf996cc7c7 (lib/gis: modernize getl2() (#3850))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -186,6 +211,8 @@ int G_getl2(char *buf, int n, FILE *fd)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8d02b9c359 (lib/gis: modernize getl2() (#3850))
     }
 
     if (fgets(buf, n, fd) == NULL) {
