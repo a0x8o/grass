@@ -96,7 +96,11 @@ repos:
                 python/libgrass_interface_generator/
           )
   - repo: https://github.com/pycqa/flake8
+<<<<<<< HEAD
     rev: 7.1.1
+=======
+    rev: 5.0.4
+>>>>>>> 0f21b674b1 (CI(deps): Update dependency flake8 to v5 (#3815))
     hooks:
       - id: flake8
         exclude: |
