@@ -43,6 +43,8 @@ enum OutputFormat { PLAIN, JSON };
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+enum OutputFormat { PLAIN, JSON };
+
 /* local prototypes */
 static void format_double(const double, char *);
 static void compose_line(FILE *, const char *, ...);
@@ -517,6 +519,9 @@ int main(int argc, char **argv)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
     fopt = G_define_standard_option(G_OPT_F_FORMAT);
     fopt->guisection = _("Print");
 
@@ -556,6 +561,15 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+    if (strcmp(fopt->answer, "json") == 0) {
+        format = JSON;
+        root_value = json_value_init_object();
+        root_object = json_value_get_object(root_value);
+    }
+    else {
+        format = PLAIN;
+    }
 
     Rast_get_cellhd(name, "", &cellhd);
     cats_ok = Rast_read_cats(name, "", &cats) >= 0;
@@ -1005,6 +1019,7 @@ int main(int argc, char **argv)
     if (!gflag->answer && !rflag->answer && !sflag->answer && !eflag->answer &&
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         !hflag->answer && format == PLAIN) {
 =======
         !hflag->answer) {
@@ -1012,6 +1027,9 @@ int main(int argc, char **argv)
 =======
         !hflag->answer) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        !hflag->answer && format == PLAIN) {
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
         divider('+');
 
         compose_line(out, "Map:      %-29.29s  Date: %s", name,
@@ -2240,6 +2258,7 @@ int main(int argc, char **argv)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         need_range = rflag->answer || format == JSON;
 =======
         need_range = rflag->answer;
@@ -2247,6 +2266,9 @@ int main(int argc, char **argv)
 =======
         need_range = rflag->answer;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        need_range = rflag->answer || format == JSON;
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
         need_stats = sflag->answer;
         if (need_stats)
             need_range = 1;
@@ -2492,52 +2514,96 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
-        if (gflag->answer) {
-            G_format_northing(cellhd.north, tmp1, -1);
-            G_format_northing(cellhd.south, tmp2, -1);
-            fprintf(out, "north=%s\n", tmp1);
-            fprintf(out, "south=%s\n", tmp2);
+        if (gflag->answer || format == JSON) {
+            const char *data_type_f =
+                (data_type == CELL_TYPE
+                     ? "CELL"
+                     : (data_type == DCELL_TYPE
+                            ? "DCELL"
+                            : (data_type == FCELL_TYPE ? "FCELL" : "??")));
+            grass_int64 total_cells = (grass_int64)cellhd.rows * cellhd.cols;
 
-            G_format_easting(cellhd.east, tmp1, -1);
-            G_format_easting(cellhd.west, tmp2, -1);
-            fprintf(out, "east=%s\n", tmp1);
-            fprintf(out, "west=%s\n", tmp2);
+            switch (format) {
+            case PLAIN:
+                G_format_northing(cellhd.north, tmp1, -1);
+                G_format_northing(cellhd.south, tmp2, -1);
+                fprintf(out, "north=%s\n", tmp1);
+                fprintf(out, "south=%s\n", tmp2);
 
-            G_format_resolution(cellhd.ns_res, tmp3, -1);
-            fprintf(out, "nsres=%s\n", tmp3);
+                G_format_easting(cellhd.east, tmp1, -1);
+                G_format_easting(cellhd.west, tmp2, -1);
+                fprintf(out, "east=%s\n", tmp1);
+                fprintf(out, "west=%s\n", tmp2);
 
-            G_format_resolution(cellhd.ew_res, tmp3, -1);
-            fprintf(out, "ewres=%s\n", tmp3);
+                G_format_resolution(cellhd.ns_res, tmp3, -1);
+                fprintf(out, "nsres=%s\n", tmp3);
 
-            fprintf(out, "rows=%d\n", cellhd.rows);
-            fprintf(out, "cols=%d\n", cellhd.cols);
+                G_format_resolution(cellhd.ew_res, tmp3, -1);
+                fprintf(out, "ewres=%s\n", tmp3);
 
-            fprintf(out, "cells=%" PRId64 "\n",
-                    (grass_int64)cellhd.rows * cellhd.cols);
+                fprintf(out, "rows=%d\n", cellhd.rows);
+                fprintf(out, "cols=%d\n", cellhd.cols);
 
-            fprintf(out, "datatype=%s\n",
-                    (data_type == CELL_TYPE
-                         ? "CELL"
-                         : (data_type == DCELL_TYPE
-                                ? "DCELL"
-                                : (data_type == FCELL_TYPE ? "FCELL" : "??"))));
-            if (cats_ok)
-                format_double((double)cats.num, tmp1);
-            fprintf(out, "ncats=%s\n", cats_ok ? tmp1 : "??");
+                fprintf(out, "cells=%" PRId64 "\n", total_cells);
+
+                fprintf(out, "datatype=%s\n", data_type_f);
+
+                if (cats_ok)
+                    format_double((double)cats.num, tmp4);
+                fprintf(out, "ncats=%s\n", cats_ok ? tmp4 : "??");
+                break;
+            case JSON:
+                json_object_set_number(root_object, "north", cellhd.north);
+                json_object_set_number(root_object, "south", cellhd.south);
+                json_object_set_number(root_object, "nsres", cellhd.ns_res);
+
+                json_object_set_number(root_object, "east", cellhd.east);
+                json_object_set_number(root_object, "west", cellhd.west);
+                json_object_set_number(root_object, "ewres", cellhd.ew_res);
+
+                json_object_set_number(root_object, "rows", cellhd.rows);
+                json_object_set_number(root_object, "cols", cellhd.cols);
+                json_object_set_number(root_object, "cells", total_cells);
+
+                json_object_set_string(root_object, "datatype", data_type_f);
+                if (cats_ok) {
+                    json_object_set_number(root_object, "ncats", cats.num);
+                }
+                else {
+                    json_object_set_null(root_object, "ncats");
+                }
+                break;
+            }
         }
 
-        if (rflag->answer || sflag->answer) {
+        if (rflag->answer || sflag->answer || format == JSON) {
             if (data_type == CELL_TYPE) {
                 CELL min, max;
 
                 Rast_get_range_min_max(&crange, &min, &max);
                 if (Rast_is_c_null_value(&min)) {
-                    fprintf(out, "min=NULL\n");
-                    fprintf(out, "max=NULL\n");
+                    switch (format) {
+                    case PLAIN:
+                        fprintf(out, "min=NULL\n");
+                        fprintf(out, "max=NULL\n");
+                        break;
+                    case JSON:
+                        json_object_set_null(root_object, "min");
+                        json_object_set_null(root_object, "max");
+                        break;
+                    }
                 }
                 else {
-                    fprintf(out, "min=%i\n", min);
-                    fprintf(out, "max=%i\n", max);
+                    switch (format) {
+                    case PLAIN:
+                        fprintf(out, "min=%i\n", min);
+                        fprintf(out, "max=%i\n", max);
+                        break;
+                    case JSON:
+                        json_object_set_number(root_object, "min", min);
+                        json_object_set_number(root_object, "max", max);
+                        break;
+                    }
                 }
             }
             else {
@@ -2545,17 +2611,33 @@ int main(int argc, char **argv)
 
                 Rast_get_fp_range_min_max(&range, &min, &max);
                 if (Rast_is_d_null_value(&min)) {
-                    fprintf(out, "min=NULL\n");
-                    fprintf(out, "max=NULL\n");
+                    switch (format) {
+                    case PLAIN:
+                        fprintf(out, "min=NULL\n");
+                        fprintf(out, "max=NULL\n");
+                        break;
+                    case JSON:
+                        json_object_set_null(root_object, "min");
+                        json_object_set_null(root_object, "max");
+                        break;
+                    }
                 }
                 else {
-                    if (data_type == FCELL_TYPE) {
-                        fprintf(out, "min=%.7g\n", min);
-                        fprintf(out, "max=%.7g\n", max);
-                    }
-                    else {
-                        fprintf(out, "min=%.15g\n", min);
-                        fprintf(out, "max=%.15g\n", max);
+                    switch (format) {
+                    case PLAIN:
+                        if (data_type == FCELL_TYPE) {
+                            fprintf(out, "min=%.7g\n", min);
+                            fprintf(out, "max=%.7g\n", max);
+                        }
+                        else {
+                            fprintf(out, "min=%.15g\n", min);
+                            fprintf(out, "max=%.15g\n", max);
+                        }
+                        break;
+                    case JSON:
+                        json_object_set_number(root_object, "min", min);
+                        json_object_set_number(root_object, "max", max);
+                        break;
                     }
                 }
             }
@@ -2564,9 +2646,17 @@ int main(int argc, char **argv)
         if (sflag->answer) {
 
             if (!gflag->answer) {
+                grass_int64 total_cells =
+                    (grass_int64)cellhd.rows * cellhd.cols;
                 /* always report total number of cells */
-                fprintf(out, "cells=%" PRId64 "\n",
-                        (grass_int64)cellhd.rows * cellhd.cols);
+                switch (format) {
+                case PLAIN:
+                    fprintf(out, "cells=%" PRId64 "\n", total_cells);
+                    break;
+                case JSON:
+                    json_object_set_number(root_object, "cells", total_cells);
+                    break;
+                }
             }
 
             if (rstats.count > 0) {
@@ -2600,6 +2690,9 @@ int main(int argc, char **argv)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
                 switch (format) {
                 case PLAIN:
                     fprintf(out, "n=%" PRId64 "\n", rstats.count);
@@ -2614,6 +2707,7 @@ int main(int argc, char **argv)
                     json_object_set_number(root_object, "sum", rstats.sum);
                     break;
                 }
+<<<<<<< HEAD
             }
             else {
                 switch (format) {
@@ -3121,17 +3215,30 @@ int main(int argc, char **argv)
                 fprintf(out, "mean=%.15g\n", mean);
                 fprintf(out, "stddev=%.15g\n", sd);
                 fprintf(out, "sum=%.15g\n", rstats.sum);
+=======
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
             }
             else {
-                fprintf(out, "n=0\n");
-                fprintf(out, "mean=NULL\n");
-                fprintf(out, "stddev=NULL\n");
-                fprintf(out, "sum=NULL\n");
+                switch (format) {
+                case PLAIN:
+                    fprintf(out, "n=0\n");
+                    fprintf(out, "mean=NULL\n");
+                    fprintf(out, "stddev=NULL\n");
+                    fprintf(out, "sum=NULL\n");
+                    break;
+                case JSON:
+                    json_object_set_number(root_object, "n", 0);
+                    json_object_set_null(root_object, "mean");
+                    json_object_set_null(root_object, "stddev");
+                    json_object_set_null(root_object, "sum");
+                    break;
+                }
             }
         }
 
-        if (eflag->answer) {
+        if (eflag->answer || format == JSON) {
             char xname[GNAME_MAX], xmapset[GMAPSET_MAX];
+<<<<<<< HEAD
 =======
                 fprintf(out, "n=%" PRId64 "\n", rstats.count);
                 fprintf(out, "mean=%.15g\n", mean);
@@ -3163,9 +3270,44 @@ int main(int argc, char **argv)
             fprintf(out, "creator=\"%s\"\n",
                     hist_ok ? Rast_get_history(&hist, HIST_CREATOR) : "??");
             fprintf(out, "title=\"%s\"\n", title);
+=======
+            const char *maptype, *date, *creator;
+
+            G_unqualified_name(name, mapset, xname, xmapset);
+
+            maptype = hist_ok ? Rast_get_history(&hist, HIST_MAPTYPE) : "??";
+            date = hist_ok ? Rast_get_history(&hist, HIST_MAPID) : "??";
+            creator = hist_ok ? Rast_get_history(&hist, HIST_CREATOR) : "??";
+
+            switch (format) {
+            case PLAIN:
+                fprintf(out, "map=%s\n", xname);
+                fprintf(out, "maptype=%s\n", maptype);
+                fprintf(out, "mapset=%s\n", mapset);
+                fprintf(out, "location=%s\n", G_location());
+                fprintf(out, "project=%s\n", G_location());
+                fprintf(out, "database=%s\n", G_gisdbase());
+                fprintf(out, "date=\"%s\"\n", date);
+                fprintf(out, "creator=\"%s\"\n", creator);
+                fprintf(out, "title=\"%s\"\n", title);
+                break;
+            case JSON:
+                json_object_set_string(root_object, "map", name);
+                json_object_set_string(root_object, "maptype", maptype);
+                json_object_set_string(root_object, "mapset", mapset);
+                json_object_set_string(root_object, "location", G_location());
+                json_object_set_string(root_object, "project", G_location());
+                json_object_set_string(root_object, "database", G_gisdbase());
+                json_object_set_string(root_object, "date", date);
+                json_object_set_string(root_object, "creator", creator);
+                json_object_set_string(root_object, "title", title);
+                break;
+            }
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
             if (time_ok && (first_time_ok || second_time_ok)) {
 
                 G_format_timestamp(&ts, timebuff);
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,10 +3346,29 @@ int main(int argc, char **argv)
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
                 /*Create the r.info timestamp string */
                 fprintf(out, "timestamp=\"%s\"\n", timebuff);
+=======
+                switch (format) {
+                case PLAIN:
+                    /*Create the r.info timestamp string */
+                    fprintf(out, "timestamp=\"%s\"\n", timebuff);
+                    break;
+                case JSON:
+                    json_object_set_string(root_object, "timestamp", timebuff);
+                    break;
+                }
+>>>>>>> 5fbf526387 (r.info: Add JSON output (#3744))
             }
             else {
-                fprintf(out, "timestamp=\"none\"\n");
+                switch (format) {
+                case PLAIN:
+                    fprintf(out, "timestamp=\"none\"\n");
+                    break;
+                case JSON:
+                    json_object_set_null(root_object, "timestamp");
+                    break;
+                }
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3215,7 +3376,12 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
+>>>>>>> eb30d6facc (r.info: Add JSON output (#3744))
             fprintf(out, "units=%s\n", units ? units : "\"none\"");
             fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
             fprintf(out, "semantic_label=%s\n",
@@ -3747,9 +3913,84 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
                 fprintf(out, "\"\n");
+=======
+
+            switch (format) {
+            case PLAIN:
+                fprintf(out, "units=%s\n", units ? units : "\"none\"");
+                fprintf(out, "vdatum=%s\n", vdatum ? vdatum : "\"none\"");
+                fprintf(out, "semantic_label=%s\n",
+                        semantic_label ? semantic_label : "\"none\"");
+                fprintf(out, "source1=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_DATSRC_1)
+                                : "\"none\"");
+                fprintf(out, "source2=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_DATSRC_2)
+                                : "\"none\"");
+                fprintf(out, "description=\"%s\"\n",
+                        hist_ok ? Rast_get_history(&hist, HIST_KEYWRD)
+                                : "\"none\"");
+                if (Rast_history_length(&hist)) {
+                    fprintf(out, "comments=\"");
+                    for (i = 0; i < Rast_history_length(&hist); i++)
+                        fprintf(out, "%s", Rast_history_line(&hist, i));
+                    fprintf(out, "\"\n");
+                }
+                break;
+            case JSON:
+                if (units) {
+                    json_object_set_string(root_object, "units", units);
+                }
+                else {
+                    json_object_set_null(root_object, "units");
+                }
+                if (vdatum) {
+                    json_object_set_string(root_object, "vdatum", vdatum);
+                }
+                else {
+                    json_object_set_null(root_object, "vdatum");
+                }
+                if (semantic_label) {
+                    json_object_set_string(root_object, "semantic_label",
+                                           semantic_label);
+                }
+                else {
+                    json_object_set_null(root_object, "semantic_label");
+                }
+
+                if (hist_ok) {
+                    json_object_set_string(
+                        root_object, "source1",
+                        Rast_get_history(&hist, HIST_DATSRC_1));
+                    json_object_set_string(
+                        root_object, "source2",
+                        Rast_get_history(&hist, HIST_DATSRC_2));
+                    json_object_set_string(
+                        root_object, "description",
+                        Rast_get_history(&hist, HIST_KEYWRD));
+                    JSON_Value *comments_value = json_value_init_array();
+                    JSON_Array *comments = json_array(comments_value);
+                    if (Rast_history_length(&hist)) {
+                        for (i = 0; i < Rast_history_length(&hist); i++) {
+                            json_array_append_string(
+                                comments, Rast_history_line(&hist, i));
+                        }
+                    }
+                    json_object_set_value(root_object, "comments",
+                                          comments_value);
+                }
+                else {
+                    json_object_set_null(root_object, "source1");
+                    json_object_set_null(root_object, "source2");
+                    json_object_set_null(root_object, "description");
+                    json_object_set_null(root_object, "comments");
+                }
+                break;
+>>>>>>> 5fbf526387 (r.info: Add JSON output (#3744))
             }
         }
 
+<<<<<<< HEAD
 =======
                 fprintf(out, "\"\n");
             }
@@ -3771,6 +4012,48 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if (hflag->answer || format == JSON) {
+            if (hist_ok) {
+                switch (format) {
+                case PLAIN:
+                    fprintf(out, "Data Source:\n");
+                    fprintf(out, "   %s\n",
+                            Rast_get_history(&hist, HIST_DATSRC_1));
+                    fprintf(out, "   %s\n",
+                            Rast_get_history(&hist, HIST_DATSRC_2));
+                    fprintf(out, "Data Description:\n");
+                    fprintf(out, "   %s\n",
+                            Rast_get_history(&hist, HIST_KEYWRD));
+                    if (Rast_history_length(&hist)) {
+                        fprintf(out, "Comments:\n");
+                        for (i = 0; i < Rast_history_length(&hist); i++)
+                            fprintf(out, "   %s\n",
+                                    Rast_history_line(&hist, i));
+                    }
+                    break;
+                case JSON:
+                    json_object_set_string(
+                        root_object, "source1",
+                        Rast_get_history(&hist, HIST_DATSRC_1));
+                    json_object_set_string(
+                        root_object, "source2",
+                        Rast_get_history(&hist, HIST_DATSRC_2));
+                    json_object_set_string(
+                        root_object, "description",
+                        Rast_get_history(&hist, HIST_KEYWRD));
+                    JSON_Value *comments_value = json_value_init_array();
+                    JSON_Array *comments = json_array(comments_value);
+                    if (Rast_history_length(&hist)) {
+                        for (i = 0; i < Rast_history_length(&hist); i++) {
+                            json_array_append_string(
+                                comments, Rast_history_line(&hist, i));
+                        }
+                    }
+                    json_object_set_value(root_object, "comments",
+                                          comments_value);
+                    break;
+>>>>>>> 59c95cc2a6 (r.info: Add JSON output (#3744))
                 }
             }
         }
@@ -3792,6 +4075,17 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+    if (format == JSON) {
+        char *serialized_string = NULL;
+        serialized_string = json_serialize_to_string_pretty(root_value);
+        if (serialized_string == NULL) {
+            G_fatal_error(_("Failed to initialize pretty JSON string."));
+        }
+        puts(serialized_string);
+        json_free_serialized_string(serialized_string);
+        json_value_free(root_value);
+    }
 
     return EXIT_SUCCESS;
 }
