@@ -3,7 +3,11 @@ ci:
   skip: [flake8]
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
+<<<<<<< HEAD
     rev: v5.0.0
+=======
+    rev: v4.6.0
+>>>>>>> e25ca5e221 (CI(deps): Update pre-commit hook pre-commit/pre-commit-hooks to v4.6.0 (#3854))
     hooks:
       - id: trailing-whitespace
         exclude: |
