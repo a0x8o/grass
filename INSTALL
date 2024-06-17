@@ -70,18 +70,24 @@ The command,
 explains the options used to disable the compilation of non-mandatory
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> osgeo-main
 GRASS modules. See REQUIREMENTS.html for details on dependencies.
 Detailed Wiki notes for various operating systems (MS-Windows, GNU/Linux 
 distributions, FreeBSD, AIX, etc) are available at:
 https://grasswiki.osgeo.org/wiki/Compile_and_Install
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 GRASS modules. See REQUIREMENTS.html for details.
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+>>>>>>> osgeo-main
   
 First step of the compilation (-g for debugging, or -O2 for optimization):
 
@@ -112,6 +118,7 @@ Next step is the compilation itself:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     make
 =======
     make       
@@ -123,6 +130,9 @@ https://grasswiki.osgeo.org/wiki/Compile_and_Install
 =======
     make
 >>>>>>> 59b367cd2d (WMS: replace broken URLs with alternative WMS (#1635))
+=======
+    make
+>>>>>>> osgeo-main
 
 Note for Solaris users (see also Wiki page above):
 

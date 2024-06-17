@@ -54,6 +54,7 @@ int dig_spidx_init(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,11 +64,14 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +87,8 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
         filename = G_tempfile();
         fd = open(filename, O_RDWR | O_CREAT | O_EXCL, 0600);
@@ -93,6 +99,7 @@ int dig_spidx_init(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -102,11 +109,14 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +132,8 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
         filename = G_tempfile();
         fd = open(filename, O_RDWR | O_CREAT | O_EXCL, 0600);
@@ -132,6 +144,7 @@ int dig_spidx_init(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -141,11 +154,14 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +177,8 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
         filename = G_tempfile();
         fd = open(filename, O_RDWR | O_CREAT | O_EXCL, 0600);
@@ -171,6 +189,7 @@ int dig_spidx_init(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -180,11 +199,14 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +222,8 @@ int dig_spidx_init(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
         Plus->Face_spidx = NULL;
         Plus->Volume_spidx = NULL;
@@ -265,6 +289,7 @@ void dig_spidx_free_nodes(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -274,11 +299,14 @@ void dig_spidx_free_nodes(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +322,8 @@ void dig_spidx_free_nodes(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     }
     else {
         RTreeDestroyTree(Plus->Node_spidx);
@@ -331,6 +361,7 @@ void dig_spidx_free_lines(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -340,11 +371,14 @@ void dig_spidx_free_lines(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +394,8 @@ void dig_spidx_free_lines(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     }
     else {
         RTreeDestroyTree(Plus->Line_spidx);
@@ -397,6 +433,7 @@ void dig_spidx_free_areas(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -406,11 +443,14 @@ void dig_spidx_free_areas(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,6 +466,8 @@ void dig_spidx_free_areas(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     }
     else {
         RTreeDestroyTree(Plus->Area_spidx);
@@ -463,6 +505,7 @@ void dig_spidx_free_isles(struct Plus_head *Plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -472,11 +515,14 @@ void dig_spidx_free_isles(struct Plus_head *Plus)
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         G_free(filename);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +538,8 @@ void dig_spidx_free_isles(struct Plus_head *Plus)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     }
     else {
         RTreeDestroyTree(Plus->Isle_spidx);
@@ -875,6 +923,7 @@ int dig_spidx_del_isle(struct Plus_head *Plus, int isle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 =======
 <<<<<<< HEAD
@@ -887,6 +936,8 @@ static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 static int _add_item(int id, const struct RTree_Rect *rect UNUSED,
                      struct ilist *list)
 =======
@@ -894,6 +945,7 @@ static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -911,6 +963,11 @@ static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static int _add_item(int id, const struct RTree_Rect *rect, struct ilist *list)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     G_ilist_add(list, id);
     return 1;
@@ -998,6 +1055,7 @@ int dig_select_nodes(struct Plus_head *Plus, const struct bound_box *box,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         RTreeSearch(Plus->Node_spidx, &rect, (void *)_add_item, list);
     else
         rtree_search(Plus->Node_spidx, &rect, (void *)_add_item, list, Plus);
@@ -1012,6 +1070,8 @@ int dig_select_nodes(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         RTreeSearch(Plus->Node_spidx, &rect, (SearchHitCallback *)_add_item,
                     list);
     else
@@ -1024,13 +1084,17 @@ int dig_select_nodes(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         RTreeSearch(Plus->Node_spidx, &rect, (void *)_add_item, list);
     else
         rtree_search(Plus->Node_spidx, &rect, (void *)_add_item, list, Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,6 +1107,8 @@ int dig_select_nodes(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return (list->n_values);
 }
@@ -1091,6 +1157,7 @@ int dig_find_node(struct Plus_head *Plus, double x, double y, double z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         RTreeSearch(Plus->Node_spidx, &rect, (void *)_add_node, &node);
     else
         rtree_search(Plus->Node_spidx, &rect, (void *)_add_node, &node, Plus);
@@ -1105,6 +1172,8 @@ int dig_find_node(struct Plus_head *Plus, double x, double y, double z)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         RTreeSearch(Plus->Node_spidx, &rect, (SearchHitCallback *)_add_node,
                     &node);
     else
@@ -1117,13 +1186,17 @@ int dig_find_node(struct Plus_head *Plus, double x, double y, double z)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         RTreeSearch(Plus->Node_spidx, &rect, (void *)_add_node, &node);
     else
         rtree_search(Plus->Node_spidx, &rect, (void *)_add_node, &node, Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1136,6 +1209,8 @@ int dig_find_node(struct Plus_head *Plus, double x, double y, double z)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return node;
 }
@@ -1179,6 +1254,7 @@ int dig_select_lines(struct Plus_head *Plus, const struct bound_box *box,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         RTreeSearch(Plus->Line_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Line_spidx, &rect, (void *)_add_item_with_box, list,
@@ -1194,6 +1270,8 @@ int dig_select_lines(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         RTreeSearch(Plus->Line_spidx, &rect,
                     (SearchHitCallback *)_add_item_with_box, list);
     else
@@ -1207,14 +1285,18 @@ int dig_select_lines(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         RTreeSearch(Plus->Line_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Line_spidx, &rect, (void *)_add_item_with_box, list,
                      Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1227,6 +1309,8 @@ int dig_select_lines(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return (list->n_values);
 }
@@ -1291,6 +1375,7 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1302,6 +1387,8 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
             ret = RTreeSearch(Plus->Line_spidx, &rect,
                               (SearchHitCallback *)_set_item_box, &box_id);
         else
@@ -1311,6 +1398,7 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1326,6 +1414,10 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             ret = RTreeSearch(Plus->Line_spidx, &rect, (void *)_set_item_box,
                               &box_id);
         else
@@ -1336,6 +1428,7 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1360,6 +1453,11 @@ int dig_find_line_box(struct Plus_head *Plus, int line, struct bound_box *box)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         return ret;
     }
@@ -1411,6 +1509,7 @@ int dig_select_areas(struct Plus_head *Plus, const struct bound_box *box,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         RTreeSearch(Plus->Area_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Area_spidx, &rect, (void *)_add_item_with_box, list,
@@ -1426,6 +1525,8 @@ int dig_select_areas(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         RTreeSearch(Plus->Area_spidx, &rect,
                     (SearchHitCallback *)_add_item_with_box, list);
     else
@@ -1439,14 +1540,18 @@ int dig_select_areas(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         RTreeSearch(Plus->Area_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Area_spidx, &rect, (void *)_add_item_with_box, list,
                      Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1459,6 +1564,8 @@ int dig_select_areas(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return (list->n_values);
 }
@@ -1513,6 +1620,7 @@ int dig_find_area_box(struct Plus_head *Plus, int area, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ret = RTreeSearch(Plus->Area_spidx, &rect, (void *)_set_item_box,
                           &box_id);
     else
@@ -1529,6 +1637,8 @@ int dig_find_area_box(struct Plus_head *Plus, int area, struct bound_box *box)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         ret = RTreeSearch(Plus->Area_spidx, &rect,
                           (SearchHitCallback *)_set_item_box, &box_id);
     else
@@ -1543,8 +1653,11 @@ int dig_find_area_box(struct Plus_head *Plus, int area, struct bound_box *box)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         ret = RTreeSearch(Plus->Area_spidx, &rect, (void *)_set_item_box,
                           &box_id);
@@ -1552,6 +1665,7 @@ int dig_find_area_box(struct Plus_head *Plus, int area, struct bound_box *box)
         ret = rtree_search(Plus->Area_spidx, &rect, (void *)_set_item_box,
                            &box_id, Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,6 +1678,8 @@ int dig_find_area_box(struct Plus_head *Plus, int area, struct bound_box *box)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return ret;
 }
@@ -1606,6 +1722,7 @@ int dig_select_isles(struct Plus_head *Plus, const struct bound_box *box,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         RTreeSearch(Plus->Isle_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Isle_spidx, &rect, (void *)_add_item_with_box, list,
@@ -1621,6 +1738,8 @@ int dig_select_isles(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         RTreeSearch(Plus->Isle_spidx, &rect,
                     (SearchHitCallback *)_add_item_with_box, list);
     else
@@ -1634,14 +1753,18 @@ int dig_select_isles(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         RTreeSearch(Plus->Isle_spidx, &rect, (void *)_add_item_with_box, list);
     else
         rtree_search(Plus->Isle_spidx, &rect, (void *)_add_item_with_box, list,
                      Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1654,6 +1777,8 @@ int dig_select_isles(struct Plus_head *Plus, const struct bound_box *box,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return (list->n_values);
 }
@@ -1708,6 +1833,7 @@ int dig_find_isle_box(struct Plus_head *Plus, int isle, struct bound_box *box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ret = RTreeSearch(Plus->Isle_spidx, &rect, (void *)_set_item_box,
                           &box_id);
     else
@@ -1724,6 +1850,8 @@ int dig_find_isle_box(struct Plus_head *Plus, int isle, struct bound_box *box)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         ret = RTreeSearch(Plus->Isle_spidx, &rect,
                           (SearchHitCallback *)_set_item_box, &box_id);
     else
@@ -1738,8 +1866,11 @@ int dig_find_isle_box(struct Plus_head *Plus, int isle, struct bound_box *box)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         ret = RTreeSearch(Plus->Isle_spidx, &rect, (void *)_set_item_box,
                           &box_id);
@@ -1747,6 +1878,7 @@ int dig_find_isle_box(struct Plus_head *Plus, int isle, struct bound_box *box)
         ret = rtree_search(Plus->Isle_spidx, &rect, (void *)_set_item_box,
                            &box_id, Plus);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1759,6 +1891,8 @@ int dig_find_isle_box(struct Plus_head *Plus, int isle, struct bound_box *box)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     return ret;
 }

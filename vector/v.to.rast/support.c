@@ -163,6 +163,7 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          * later all togheter */
 =======
 <<<<<<< HEAD
@@ -175,12 +176,15 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
          * later all together */
 =======
          * later all togheter */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          * later all togheter */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -198,6 +202,11 @@ int update_dbcolors(const char *rast_name, const char *vector_map, int field,
          * later all togheter */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+         * later all togheter */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         colors_n_values++;
         my_color_rules[i].red = red;
         my_color_rules[i].green = grn;

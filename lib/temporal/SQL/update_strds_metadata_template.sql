@@ -45,6 +45,9 @@ UPDATE strds_metadata
 -- Update the min and max values
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 UPDATE strds_metadata SET min_min =
        (SELECT min(min) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
@@ -74,6 +77,7 @@ UPDATE strds_metadata SET ewres_min =
        (SELECT min(ewres) FROM raster_metadata WHERE raster_metadata.id IN
     		(SELECT id FROM SPACETIME_REGISTER_TABLE)
        ) WHERE id = 'SPACETIME_ID';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 UPDATE strds_metadata SET ewres_max =
@@ -148,6 +152,8 @@ UPDATE strds_metadata SET ewres_min =
        ) WHERE id = 'SPACETIME_ID';
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 UPDATE strds_metadata SET ewres_max =
        (SELECT max(ewres) FROM raster_metadata WHERE raster_metadata.id IN
 =======
@@ -164,8 +170,13 @@ UPDATE strds_metadata SET ewres_max =
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main

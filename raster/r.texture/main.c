@@ -309,9 +309,15 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
+=======
+>>>>>>> osgeo-main
     /* *************************************************************************************************
      *
      * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +327,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      *or co-occurrence matrix. The image is analyzed for piece, every piece is
@@ -332,6 +340,9 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -341,6 +352,7 @@ int main(int argc, char *argv[])
      *samples odd, that because we want the sample at the center of matrix.
      *
      ***************************************************************************************************/
+<<<<<<< HEAD
 =======
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
 >>>>>>> ef6bae8fb5 (r.texture: Refactor code, remove global variables (#3785))
@@ -365,6 +377,9 @@ int main(int argc, char *argv[])
      ***************************************************************************************************/
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     for (i = 0; i < dim.n_outputs; i++) {
         Rast_close(outfd[i]);

@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -38,12 +39,17 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
     struct Ref Ref; /* subgroup reference list */
     int n;
     char **err;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +66,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -74,6 +82,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
 
 =======
@@ -102,6 +111,11 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref))
         G_fatal_error(
             _("Unable to read REF file for subgroup <%s> in group <%s>"),
@@ -110,6 +124,7 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
     if (Ref.nfiles <= 0)
         G_fatal_error(_("Subgroup <%s> in group <%s> contains no raster maps"),
                       parms->subgroup, parms->group);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +171,8 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     fd = I_fopen_sigset_file_old(parms->sigfile);
     if (fd == NULL)

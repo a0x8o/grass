@@ -174,6 +174,7 @@ int load_maps(int ele_fd, int acc_fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 =======
 <<<<<<< HEAD
@@ -186,12 +187,15 @@ int load_maps(int ele_fd, int acc_fd)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     G_debug(1, "%" PRId64 " non-NULL cells", n_points);
 =======
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -209,6 +213,11 @@ int load_maps(int ele_fd, int acc_fd)
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     return (n_points > 0);
 }

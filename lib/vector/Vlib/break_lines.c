@@ -218,6 +218,7 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * and occasionaly skips such cases. This is currently done for 2D only
 =======
 <<<<<<< HEAD
@@ -230,12 +231,15 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
      * and occasionally skips such cases. This is currently done for 2D only
 =======
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -253,6 +257,11 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     * and occasionaly skips such cases. This is currently done for 2D only
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
      */
 
     /* Go through all lines in vector, for each select lines which overlap MBR

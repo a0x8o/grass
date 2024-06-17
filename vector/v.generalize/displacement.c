@@ -207,6 +207,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +457,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         G_percent(iter, iterations, 1);
 
         matrix_mult_scalar(0.0, &fx);
@@ -667,6 +670,7 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_mult(&kinv, &fy, &dy);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -676,6 +680,8 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
 =======
         int conflicts = 0;
 
@@ -750,7 +756,10 @@ int snakes_displacement(struct Map_info *In, struct Map_info *Out,
         matrix_mult(&kinv, &fy, &dy);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         for (i = 0; i < index; i++) {
             if (point_index[i] == -1)
                 continue;

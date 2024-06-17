@@ -124,6 +124,7 @@ nodataType *detectEdgeNodata::getNodataForward(dimension_type i,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                dimension_type nr,
                                                dimension_type nc)
 =======
@@ -137,6 +138,8 @@ nodataType *detectEdgeNodata::getNodataForward(dimension_type i,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                                                dimension_type nr UNUSED,
                                                dimension_type nc UNUSED)
 =======
@@ -145,12 +148,16 @@ nodataType *detectEdgeNodata::getNodataForward(dimension_type i,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
                                                dimension_type nr,
                                                dimension_type nc)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +170,8 @@ nodataType *detectEdgeNodata::getNodataForward(dimension_type i,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 {
     bool ok;
     static nodataType ptarr[3]; /* return value */
@@ -210,6 +219,7 @@ void detectEdgeNodata::processWindow(dimension_type row, dimension_type col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                      elevation_type &point, elevation_type *a,
                                      elevation_type *b, elevation_type *c)
 =======
@@ -223,6 +233,8 @@ void detectEdgeNodata::processWindow(dimension_type row, dimension_type col,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                                      elevation_type &point UNUSED,
                                      elevation_type *a, elevation_type *b,
                                      elevation_type *c)
@@ -232,12 +244,16 @@ void detectEdgeNodata::processWindow(dimension_type row, dimension_type col,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
                                      elevation_type &point, elevation_type *a,
                                      elevation_type *b, elevation_type *c)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +266,8 @@ void detectEdgeNodata::processWindow(dimension_type row, dimension_type col,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 {
     AMI_err ae;
     static nodataType prevCell; /* cell on left (gets initialized) */

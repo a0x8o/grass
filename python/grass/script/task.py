@@ -22,6 +22,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,11 +32,14 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +55,8 @@ for details.
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
 import os
 import re
 import sys
