@@ -113,6 +113,7 @@ class TestTRastAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 =======
         self.runModule("t.remove", flags="rf", inputs="R", quiet=True)
@@ -123,10 +124,14 @@ class TestTRastAlgebra(TestCase):
 =======
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 >>>>>>> osgeo-main
+=======
+        self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+>>>>>>> osgeo-main
 
     @classmethod
     def tearDownClass(cls):
         """Remove the temporary region"""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +142,9 @@ class TestTRastAlgebra(TestCase):
 =======
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+        cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+>>>>>>> osgeo-main
 =======
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 >>>>>>> osgeo-main

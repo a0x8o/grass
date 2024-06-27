@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
                       dglInt32_t nFlags)
 =======
@@ -39,6 +40,8 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #include <grass/gis.h>
@@ -52,14 +55,18 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
                       dglInt32_t nFlags)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +80,8 @@ int DGL_ADD_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nId, void *pvNodeAttr,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
@@ -248,6 +257,7 @@ int DGL_DEL_NODE_INEDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nNode,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 =======
 <<<<<<< HEAD
@@ -260,6 +270,8 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId UNUSED)
@@ -269,6 +281,7 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -286,6 +299,11 @@ int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int DGL_DEL_NODE_FUNC(dglGraph_s *pgraph, dglInt32_t nNodeId)
@@ -500,6 +518,7 @@ dglInt32_t *DGL_GET_NODE_OUTEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 =======
 <<<<<<< HEAD
@@ -512,6 +531,8 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph,
@@ -522,6 +543,7 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -539,6 +561,11 @@ dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 dglInt32_t *DGL_GET_NODE_INEDGESET_FUNC(dglGraph_s *pgraph, dglInt32_t *pnode)

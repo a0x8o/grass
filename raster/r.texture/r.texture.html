@@ -57,6 +57,7 @@ or for the identification of objects in <a href="i.segment.html">i.segment</a>,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 and/or for the characterization of these objects and thus, for example, as one
 of the raster inputs of the
 =======
@@ -73,6 +74,8 @@ of the raster inputs of the
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 and/or for the characterization of these objects and thus, for example, as one
@@ -85,8 +88,11 @@ of the raster inputs of the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -96,14 +102,18 @@ of the raster inputs of the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 and/or for the characterization of these objects and thus, for example, as one
 of the raster inputs of the
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +129,8 @@ of the raster inputs of the
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 <a href="https://grass.osgeo.org/grass8/manuals/addons/i.segment.stats.html">
@@ -144,6 +156,7 @@ probability distribution of a pair of pixels. Several texture measures are
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 directly computed from the grey level co-occurrence matrix.
 =======
 <<<<<<< HEAD
@@ -156,6 +169,8 @@ directly computed from the grey level co-occurrence matrix.
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 directly computed from the Grey Level Co-occurrence Matrix (GLCM).
@@ -173,6 +188,7 @@ directly computed from the grey level co-occurrence matrix.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 directly computed from the grey level co-occurrence matrix.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -190,6 +206,11 @@ directly computed from the grey level co-occurrence matrix.
 directly computed from the grey level co-occurrence matrix.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+directly computed from the grey level co-occurrence matrix.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 directly computed from the grey level co-occurrence matrix.
@@ -305,6 +326,50 @@ will contain a value. The output will thus appear cropped at the margins.
 <p>
 Importantly, the input raster map cannot have more than 255 categories.
 
+<h3>Performance</h3>
+To enable parallel processing, the user can specify the number of threads
+to be used with the <b>nprocs</b> parameter (default 1).
+Figures below show benchmark results running on
+Intel® Core™ i9-10940X CPU @ 3.30GHz. See benchmark scripts
+in the source code for more details.
+
+<div align="center" style="margin: 10px">
+  <img src="r_texture_mapsize_time.png"
+  alt="time benchmark for r.texture with different map sizes" border="0">
+  <br>
+  <i>Figure 1: Benchmark shows execution time for different
+    number of cells (1M, 2M, 4M, and 8M) and
+    the fixed size of window (3<span>&#215</span>3).
+</div>
+<div align="center" style="margin: 10px">
+  <img src="r_texture_mapsize_efficiency.png"
+  alt="efficiency benchmark for r.texture with different map sizes" border="0">
+  <br>
+  <i>Figure 2: Benchmark shows efficiency for different
+    numbers of cells (1M, 2M, 4M, and 8M) and
+    the fixed size of window (3<span>&#215</span>3).
+</div>
+<div align="center" style="margin: 10px">
+  <img src="r_texture_window_time.png"
+  alt="time benchmark for r.texture with different window sizes" border="0">
+  <br>
+  <i>Figure 3: Benchmark shows execution time for different
+    sizes of windows
+    (3<span>&#215</span>3, 9<span>&#215</span>9,
+    15<span>&#215</span>15, and 27<span>&#215</span>27)
+    and the fixed number of cells (1M).
+</div>
+<div align="center" style="margin: 10px">
+  <img src="r_texture_window_efficiency.png"
+  alt="efficiency benchmark for r.texture with different window sizes"  border="0">
+  <br>
+  <i>Figure 4: Benchmark shows efficiency for different
+    sizes of windows (3<span>&#215</span>3, 9<span>&#215</span>9,
+    15<span>&#215</span>15, and 27<span>&#215</span>27)
+    and the fixed number of cells (1M).
+</div>
+
+
 <h2>EXAMPLE</h2>
 
 Calculation of Angular Second Moment of B/W orthophoto (North Carolina data set):
@@ -322,6 +387,7 @@ r.mapcalc "ortho_2001_t792_1m.greylevel = ortho_2001_t792_1m"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 =======
 <<<<<<< HEAD
@@ -334,6 +400,8 @@ r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 r.texture ortho_2001_t792_1m.greylevel output=ortho_texture method=asm -s
@@ -343,6 +411,7 @@ r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -360,6 +429,11 @@ r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 r.texture ortho_2001_t792_1m.greylevel prefix=ortho_texture method=asm -s
@@ -430,8 +504,11 @@ are cropped at the margins.
 	<i>IDM textures according to direction</i>
 </center>
 
+<<<<<<< HEAD
+=======
 <h2>KNOWN ISSUES</h2>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,6 +545,10 @@ The program can run incredibly slow for large raster maps and large
 =======
 >>>>>>> osgeo-main
 =======
+The program can run incredibly slow for large raster maps and large
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 The program can run incredibly slow for large raster maps and large 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -480,6 +561,7 @@ The program can run incredibly slow for large raster maps and large
 The program can run incredibly slow for large raster maps and large
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,8 +593,11 @@ The program can run incredibly slow for large raster maps and large
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 moving windows (<em>size</em> option).
 
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 <h2>REFERENCES</h2>
 
 The algorithm was implemented after Haralick et al., 1973 and 1979.

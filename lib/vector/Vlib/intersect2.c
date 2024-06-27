@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -75,6 +76,11 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -382,7 +388,7 @@ static int cross_seg(int i, int j, int b)
 #define QEVT_CRS         3
 
 #define GET_PARENT(p, c) ((p) = (int)(((c)-2) / 3 + 1))
-#define GET_CHILD(c, p)  ((c) = (int)(((p)*3) - 1))
+#define GET_CHILD(c, p)  ((c) = (int)(((p) * 3) - 1))
 
 struct qitem {
     int l; /* line 0 - A line , 1 - B line */
@@ -812,6 +818,7 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * A and B in the same way and because we cannot be sure that A childrens
 =======
 <<<<<<< HEAD
@@ -824,6 +831,8 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      * A and B in the same way and because we cannot be sure that A children
@@ -833,6 +842,7 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * A and B in the same way and because we cannot be sure that A childrens
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -850,6 +860,11 @@ int Vect_line_intersection2(struct line_pnts *APoints,
      * A and B in the same way and because we cannot be sure that A childrens
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     * A and B in the same way and because we cannot be sure that A childrens
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      * A and B in the same way and because we cannot be sure that A childrens
@@ -1058,6 +1073,7 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          *  This should not inluence that break is always on first segment, see
 =======
 <<<<<<< HEAD
@@ -1070,6 +1086,8 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
          *  This should not influence that break is always on first segment, see
@@ -1079,6 +1097,7 @@ int Vect_line_intersection2(struct line_pnts *APoints,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
          *  This should not inluence that break is always on first segment, see
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1096,6 +1115,11 @@ int Vect_line_intersection2(struct line_pnts *APoints,
          *  This should not inluence that break is always on first segment, see
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+         *  This should not inluence that break is always on first segment, see
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
          *  This should not inluence that break is always on first segment, see

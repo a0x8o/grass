@@ -34,7 +34,7 @@
 #include <math.h>
 #include <grass/raster.h>
 
-#define DATA(map, r, c) (map)[(r)*ncols + (c)]
+#define DATA(map, r, c) (map)[(r) * ncols + (c)]
 #define DEG2RAD         M_D2R
 /*#define DEBUG */
 
@@ -58,6 +58,7 @@ double A[14] = {0,   545, 709,  429, 301, 235, 242,
                 199, 0,   1121, 224, 179, 163, 170};
 
 /* B Coeficients in E = IA(.474U)^B (s), where U is wind at 20 ft (mi/h) */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +89,11 @@ double A[14] = {0,   545, 709,  429, 301, 235, 242,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

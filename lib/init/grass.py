@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -54,6 +57,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -65,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -89,6 +96,11 @@
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+# COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
@@ -179,51 +191,6 @@ CONFIG_PROJSHARE = os.environ.get("GRASS_PROJSHARE", "@CONFIG_PROJSHARE@")
 WINDOWS = sys.platform.startswith("win")
 CYGWIN = sys.platform.startswith("cygwin")
 MACOS = sys.platform.startswith("darwin")
-
-
-def decode(bytes_, encoding=ENCODING):
-    """Decode bytes with default locale and return (unicode) string
-    Adapted from grass.script.core.utils.
-
-    No-op if parameter is not bytes (assumed unicode string).
-
-    :param bytes bytes_: the bytes to decode
-    :param encoding: encoding to be used, default value is the system's default
-        encoding or, if that cannot be determined, 'UTF-8'.
-    """
-    if isinstance(bytes_, str):
-        return bytes_
-    elif isinstance(bytes_, bytes):
-        return bytes_.decode(encoding)
-    else:
-        # if something else than text
-        raise TypeError("can only accept types str and bytes")
-
-
-def encode(string, encoding=ENCODING):
-    """Encode string with default locale and return bytes with that encoding
-    Adapted from grass.script.core.utils.
-
-    No-op if parameter is bytes (assumed already encoded).
-    This ensures garbage in, garbage out.
-
-    :param str string: the string to encode
-    :param encoding: encoding to be used, default value is the system's default
-        encoding or, if that cannot be determined, 'UTF-8'.
-    """
-    if isinstance(string, bytes):
-        return string
-    elif isinstance(string, str):
-        return string.encode(encoding)
-    else:
-        # if something else than text
-        raise TypeError("can only accept types str and bytes")
-
-
-# see https://trac.osgeo.org/grass/ticket/3508
-def to_text_string(obj, encoding=ENCODING):
-    """Convert `obj` to (unicode) text string"""
-    return decode(obj, encoding=encoding)
 
 
 def try_remove(path):
@@ -461,6 +428,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 =======
 <<<<<<< HEAD
@@ -473,6 +441,8 @@ def help_message(default_gui):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 "options: arch,build,compiler,date,path,python_path,revision,"
@@ -483,6 +453,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -500,6 +471,11 @@ def help_message(default_gui):
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
@@ -563,7 +539,19 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+    # The code is in sync with grass.app.runtime (but not the same).
+=======
+<<<<<<< HEAD
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
@@ -571,6 +559,7 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
@@ -590,6 +579,8 @@ def get_grass_config_dir():
 =======
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     if sys.platform == "win32":
@@ -606,6 +597,7 @@ def get_grass_config_dir():
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +632,8 @@ def get_grass_config_dir():
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         win_conf_path = os.getenv("APPDATA")
@@ -659,7 +653,11 @@ def get_grass_config_dir():
                 )
             )
         directory = os.path.join(win_conf_path, grass_config_dirname)
+    elif MACOS:
+        version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
+        return os.path.join(os.getenv("HOME"), "Library", "GRASS", version)
     else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +695,10 @@ def get_grass_config_dir():
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
 >>>>>>> osgeo-main
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
         grass_config_dirname = ".grass8"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -705,6 +707,7 @@ def get_grass_config_dir():
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +742,11 @@ def get_grass_config_dir():
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
@@ -782,6 +790,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -812,6 +821,10 @@ def create_tmp(user, gis_lock):
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
         tmpdir = os.path.join(
             tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
         )
@@ -819,6 +832,9 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -831,6 +847,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -845,6 +862,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         try:
@@ -862,6 +881,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -892,6 +912,10 @@ def create_tmp(user, gis_lock):
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
             tmpdir = os.path.join(
                 tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
             )
@@ -899,6 +923,9 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -911,6 +938,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -925,6 +953,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             try:
@@ -943,6 +973,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -974,6 +1005,11 @@ def create_tmp(user, gis_lock):
                 tmpdir_name=tmpdir_name
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
+>>>>>>> osgeo-main
 =======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
@@ -986,8 +1022,11 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -997,14 +1036,18 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,6 +1063,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             )
@@ -1186,196 +1231,6 @@ def read_gui(gisrc, default_gui):
         grass_gui = default_gui
 
     return grass_gui
-
-
-def path_prepend(directory, var):
-    path = os.getenv(var)
-    if path:
-        path = directory + os.pathsep + path
-    else:
-        path = directory
-    os.environ[var] = path
-
-
-def path_append(directory, var):
-    path = os.getenv(var)
-    if path:
-        path = path + os.pathsep + directory
-    else:
-        path = directory
-    os.environ[var] = path
-
-
-def set_paths(grass_config_dir):
-    # addons (path)
-    addon_path = os.getenv("GRASS_ADDON_PATH")
-    if addon_path:
-        for path in addon_path.split(os.pathsep):
-            path_prepend(addon_path, "PATH")
-
-    # addons (base)
-    addon_base = os.getenv("GRASS_ADDON_BASE")
-    if not addon_base:
-        if MACOS:
-            version = f"{GRASS_VERSION_MAJOR}.{GRASS_VERSION_MINOR}"
-            addon_base = os.path.join(
-                os.getenv("HOME"), "Library", "GRASS", version, "Addons"
-            )
-        else:
-            addon_base = os.path.join(grass_config_dir, "addons")
-        os.environ["GRASS_ADDON_BASE"] = addon_base
-    if not WINDOWS:
-        path_prepend(os.path.join(addon_base, "scripts"), "PATH")
-    path_prepend(os.path.join(addon_base, "bin"), "PATH")
-
-    # standard installation
-    if not WINDOWS:
-        path_prepend(gpath("scripts"), "PATH")
-    path_prepend(gpath("bin"), "PATH")
-
-    # Set PYTHONPATH to find GRASS Python modules
-    if os.path.exists(gpath("etc", "python")):
-        pythonpath = gpath("etc", "python")
-        path_prepend(pythonpath, "PYTHONPATH")
-        # the env var PYTHONPATH is only evaluated when python is started,
-        # thus:
-        sys.path.append(pythonpath)
-        # now we can import stuff from grass package
-
-    # set path for the GRASS man pages
-    grass_man_path = gpath("docs", "man")
-    addons_man_path = os.path.join(addon_base, "docs", "man")
-    man_path = os.getenv("MANPATH")
-    sys_man_path = None
-    if man_path:
-        path_prepend(addons_man_path, "MANPATH")
-        path_prepend(grass_man_path, "MANPATH")
-    else:
-        try:
-            nul = open(os.devnull, "w")
-            p = Popen(["manpath"], stdout=subprocess.PIPE, stderr=nul)
-            nul.close()
-            s = p.stdout.read()
-            p.wait()
-            sys_man_path = s.strip()
-        except:
-            pass
-
-        if sys_man_path:
-            os.environ["MANPATH"] = to_text_string(sys_man_path)
-            path_prepend(addons_man_path, "MANPATH")
-            path_prepend(grass_man_path, "MANPATH")
-        else:
-            os.environ["MANPATH"] = to_text_string(addons_man_path)
-            path_prepend(grass_man_path, "MANPATH")
-
-    # Set LD_LIBRARY_PATH (etc) to find GRASS shared libraries
-    # this works for subprocesses but won't affect the current process
-    if LD_LIBRARY_PATH_VAR:
-        path_prepend(gpath("lib"), LD_LIBRARY_PATH_VAR)
-
-
-def find_exe(pgm):
-    for directory in os.getenv("PATH").split(os.pathsep):
-        path = os.path.join(directory, pgm)
-        if os.access(path, os.X_OK):
-            return path
-    return None
-
-
-def set_defaults():
-    # GRASS_PAGER
-    if not os.getenv("GRASS_PAGER"):
-        if find_exe("more"):
-            pager = "more"
-        elif find_exe("less"):
-            pager = "less"
-        elif WINDOWS:
-            pager = "more"
-        else:
-            pager = "cat"
-        os.environ["GRASS_PAGER"] = pager
-
-    # GRASS_PYTHON
-    if not os.getenv("GRASS_PYTHON"):
-        if WINDOWS:
-            os.environ["GRASS_PYTHON"] = "python3.exe"
-        else:
-            os.environ["GRASS_PYTHON"] = "python3"
-
-    # GRASS_GNUPLOT
-    if not os.getenv("GRASS_GNUPLOT"):
-        os.environ["GRASS_GNUPLOT"] = "gnuplot -persist"
-
-    # GRASS_PROJSHARE
-    if not os.getenv("GRASS_PROJSHARE"):
-        os.environ["GRASS_PROJSHARE"] = CONFIG_PROJSHARE
-
-
-def set_display_defaults():
-    """Predefine monitor size for certain architectures"""
-    if os.getenv("HOSTTYPE") == "arm":
-        # small monitor on ARM (iPAQ, zaurus... etc)
-        os.environ["GRASS_RENDER_HEIGHT"] = "320"
-        os.environ["GRASS_RENDER_WIDTH"] = "240"
-
-
-def set_browser():
-    # GRASS_HTML_BROWSER
-    browser = os.getenv("GRASS_HTML_BROWSER")
-    if not browser:
-        if MACOS:
-            # OSX doesn't execute browsers from the shell PATH - route through a
-            # script
-            browser = gpath("etc", "html_browser_mac.sh")
-            os.environ["GRASS_HTML_BROWSER_MACOSX"] = "-b com.apple.helpviewer"
-
-        if WINDOWS:
-            browser = "start"
-        elif CYGWIN:
-            browser = "explorer"
-        else:
-            # the usual suspects
-            browsers = [
-                "xdg-open",
-                "x-www-browser",
-                "htmlview",
-                "konqueror",
-                "mozilla",
-                "mozilla-firefox",
-                "firefox",
-                "iceweasel",
-                "opera",
-                "google-chrome",
-                "chromium",
-                "netscape",
-                "dillo",
-                "lynx",
-                "links",
-                "w3c",
-            ]
-            for b in browsers:
-                if find_exe(b):
-                    browser = b
-                    break
-
-    elif MACOS:
-        # OSX doesn't execute browsers from the shell PATH - route through a
-        # script
-        os.environ["GRASS_HTML_BROWSER_MACOSX"] = "-b %s" % browser
-        browser = gpath("etc", "html_browser_mac.sh")
-
-    if not browser:
-        # even so we set to 'xdg-open' as a generic fallback
-        browser = "xdg-open"
-
-    os.environ["GRASS_HTML_BROWSER"] = browser
-
-
-def ensure_home():
-    """Set HOME if not set on MS Windows"""
-    if WINDOWS and not os.getenv("HOME"):
-        os.environ["HOME"] = os.path.join(os.getenv("HOMEDRIVE"), os.getenv("HOMEPATH"))
 
 
 def create_initial_gisrc(filename):
@@ -1664,6 +1519,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1688,6 +1544,11 @@ def set_mapset(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1732,6 +1593,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 =======
@@ -1745,6 +1607,8 @@ def set_mapset(
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                                     " Did you mean to create a new project?"
@@ -1762,14 +1626,18 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1783,6 +1651,8 @@ def set_mapset(
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             )
@@ -2852,15 +2722,12 @@ def get_username():
         user = os.getenv("USER")
         if not user:
             user = os.getenv("LOGNAME")
-        if not user:
+        if not user and (whoami_executable := shutil.which("whoami")):
             try:
-                p = Popen(["whoami"], stdout=subprocess.PIPE)
-                s = p.stdout.read()
-                p.wait()
-                user = s.strip()
-                if type(user) is bytes:
-                    user = decode(user)
-            except:
+                user = subprocess.run(
+                    [whoami_executable], stdout=subprocess.PIPE, text=True, check=True
+                ).stdout.strip()
+            except (OSError, subprocess.SubprocessError):
                 pass
         if not user:
             user = "user_%d" % os.getuid()
@@ -3064,6 +2931,20 @@ def validate_cmdline(params):
     # without --exec (usefulness to be evaluated).
 
 
+def find_grass_python_package():
+    """Find path to grass package and add it to path"""
+    if os.path.exists(gpath("etc", "python")):
+        path_to_package = gpath("etc", "python")
+        sys.path.append(path_to_package)
+        # now we can import stuff from grass package
+    else:
+        # Not translatable because we don't have translations loaded.
+        raise RuntimeError(
+            "The grass Python package is missing. "
+            "Is the installation of GRASS GIS complete?"
+        )
+
+
 def main():
     """The main function which does the whole setup and run procedure
 
@@ -3136,14 +3017,28 @@ def main():
     # Create the session grassrc file
     gisrc = create_gisrc(tmpdir, gisrcrc)
 
+    find_grass_python_package()
+
+    from grass.app.runtime import (
+        ensure_home,
+        set_paths,
+        set_defaults,
+        set_display_defaults,
+        set_browser,
+    )
+
     ensure_home()
     # Set PATH, PYTHONPATH, ...
-    set_paths(grass_config_dir=grass_config_dir)
+    set_paths(
+        install_path=GISBASE,
+        grass_config_dir=grass_config_dir,
+        ld_library_path_variable_name=LD_LIBRARY_PATH_VAR,
+    )
     # Set GRASS_PAGER, GRASS_PYTHON, GRASS_GNUPLOT, GRASS_PROJSHARE
-    set_defaults()
-    set_display_defaults()
+    set_defaults(config_projshare_path=CONFIG_PROJSHARE)
     # Set GRASS_HTML_BROWSER
-    set_browser()
+    set_browser(install_path=GISBASE)
+    set_display_defaults()
 
     # First time user - GISRC is defined in the GRASS script
     if not os.access(gisrc, os.F_OK):

@@ -849,6 +849,7 @@ int Gs_get_cat_label(const char *filename, int drow, int dcol, char *catstr)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 <<<<<<< HEAD
@@ -861,6 +862,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
@@ -870,6 +873,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -887,6 +891,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
@@ -949,6 +958,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         v.lightson = 1; /* always true, curently */
 =======
 <<<<<<< HEAD
@@ -961,6 +971,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         v.lightson = 1; /* always true, currently */
@@ -970,6 +982,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         v.lightson = 1; /* always true, curently */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -987,6 +1000,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         v.lightson = 1; /* always true, curently */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        v.lightson = 1; /* always true, curently */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         v.lightson = 1; /* always true, curently */
@@ -1026,6 +1044,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (G_put_3dview(vname, mapset, &v, w));
 =======
 <<<<<<< HEAD
@@ -1038,6 +1057,8 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         return (G_put_3dview(vname, &v, w));
@@ -1047,6 +1068,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return (G_put_3dview(vname, mapset, &v, w));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1064,6 +1086,11 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
         return (G_put_3dview(vname, mapset, &v, w));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return (G_put_3dview(vname, mapset, &v, w));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         return (G_put_3dview(vname, mapset, &v, w));
@@ -1092,6 +1119,7 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 <<<<<<< HEAD
@@ -1104,6 +1132,8 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
@@ -1113,6 +1143,7 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1130,6 +1161,11 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,

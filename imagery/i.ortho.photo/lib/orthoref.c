@@ -521,6 +521,7 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Add weigth matrix of unknowns to NN */
 =======
 <<<<<<< HEAD
@@ -533,6 +534,8 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         /* Add weight matrix of unknowns to NN */
@@ -542,6 +545,7 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* Add weigth matrix of unknowns to NN */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -559,6 +563,11 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
         /* Add weigth matrix of unknowns to NN */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /* Add weigth matrix of unknowns to NN */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* Add weigth matrix of unknowns to NN */
@@ -665,6 +674,7 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 double *z2, struct Ortho_Camera_File_Ref *cam_info, double XC,
                 double YC, double ZC, MATRIX M)
 =======
@@ -678,6 +688,8 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 double *z2 UNUSED, struct Ortho_Camera_File_Ref *cam_info,
@@ -689,14 +701,18 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
                 double *z2, struct Ortho_Camera_File_Ref *cam_info, double XC,
                 double YC, double ZC, MATRIX M)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,6 +726,8 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
@@ -788,6 +806,7 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         double *z2, struct Ortho_Camera_File_Ref *cam_info,
                         double XC, double YC, double ZC, MATRIX M)
 =======
@@ -801,6 +820,8 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                         double *z2 UNUSED,
@@ -813,14 +834,18 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
                         double *z2, struct Ortho_Camera_File_Ref *cam_info,
                         double XC, double YC, double ZC, MATRIX M)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,6 +859,8 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {

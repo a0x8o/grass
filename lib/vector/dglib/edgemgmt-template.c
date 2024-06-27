@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -37,6 +38,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #include <grass/gis.h>
@@ -46,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -61,6 +65,10 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -328,6 +336,7 @@ int DGL_ADD_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nHead, dglInt32_t nTail,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 <<<<<<< HEAD
@@ -340,6 +349,8 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge UNUSED)
@@ -349,6 +360,7 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -366,6 +378,11 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
@@ -432,6 +449,7 @@ int DGL_DEL_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 =======
 <<<<<<< HEAD
@@ -444,6 +462,8 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge UNUSED)
@@ -453,6 +473,7 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -470,6 +491,11 @@ dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 dglInt32_t *DGL_GET_EDGE_FUNC(dglGraph_s *pgraph, dglInt32_t nEdge)

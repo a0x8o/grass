@@ -20,6 +20,9 @@
  * software is provided "as is" without express or implied warranty.
  *
  *****************************************************************************/
+#if defined(_OPENMP)
+#include <omp.h>
+#endif
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,6 +89,7 @@ int main(int argc, char *argv[])
     struct dimensions dim;
     struct output_setting out_set;
     char p[1024];
+    int threads;
 
     G_gisinit(argv[0]);
 
@@ -94,6 +98,7 @@ int main(int argc, char *argv[])
     G_add_keyword(_("algebra"));
     G_add_keyword(_("statistics"));
     G_add_keyword(_("texture"));
+    G_add_keyword(_("parallel"));
     module->description =
         _("Generate images with textural features from a raster map.");
 
@@ -310,6 +315,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
 =======
@@ -359,6 +365,26 @@ int main(int argc, char *argv[])
 =======
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
 =======
+=======
+    threads = atoi(parm.nproc->answer);
+#if defined(_OPENMP)
+    /* Set the number of threads */
+    omp_set_num_threads(threads);
+    if (threads > 1)
+        G_message(_("Using %d threads for parallel computing."), threads);
+#else
+    if (threads > 1) {
+        G_warning(_("GRASS GIS is not compiled with OpenMP support, parallel "
+                    "computation is disabled."));
+        threads = 1;
+    }
+#endif
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set, threads);
+=======
+<<<<<<< HEAD
+    execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
+=======
+>>>>>>> osgeo-main
     /* *************************************************************************************************
      *
      * Compute of the matrix S.G.L.D. (Spatial Gray-Level Dependence Matrices)
@@ -377,8 +403,11 @@ int main(int argc, char *argv[])
      ***************************************************************************************************/
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 
     for (i = 0; i < dim.n_outputs; i++) {
