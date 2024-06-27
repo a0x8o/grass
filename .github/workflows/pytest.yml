@@ -93,8 +93,11 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
+=======
+>>>>>>> 0cfb7b5738 (CI: Initial code coverage configuration with Codecov (#3905))
 =======
       - name: Test executing of the grass command
         run: .github/workflows/test_simple.sh
@@ -107,10 +110,15 @@ jobs:
 
 >>>>>>> c4b5697244 (version: Start 8.5.0dev (#3789))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d0300d79d5 (CI: Initial code coverage configuration with Codecov (#3905))
 =======
 >>>>>>> c439bf056d (version: Start 8.5.0dev (#3789))
+=======
+=======
+>>>>>>> d0300d79d5 (CI: Initial code coverage configuration with Codecov (#3905))
+>>>>>>> 0cfb7b5738 (CI: Initial code coverage configuration with Codecov (#3905))
       - name: Print installed versions
         if: always()
         run: .github/workflows/print_versions.sh
