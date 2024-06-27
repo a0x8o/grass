@@ -210,10 +210,32 @@ msgid "GUI <%s> not supported in this version"
 msgstr "GUI <%s> não suportado nesta versão"
 
 #: ../lib/init/grass.py:806
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#, fuzzy
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 msgid ""
 "The python command does not work as expected.\n"
 "Please check your installation or set the GRASS_PYTHON environment variable."
 msgstr ""
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O comando python não funciona como esperado!\n"
+"Por favor verifique seu ambiente de variável GRASS_PYTHON.\n"
+"Use a opção -help para obter mais detalhes.\n"
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
 #: ../lib/init/grass.py:810
 msgid "GRASS GUI not found. Please check your installation."
@@ -258,8 +280,24 @@ msgid "Mapset <{}> already exists. Unable to create a new temporary mapset of th
 msgstr ""
 
 #: ../lib/init/grass.py:977
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Mapset <{}> already exists."
 msgstr ""
+=======
+#, fuzzy
+msgid "Mapset <{}> already exists."
+msgstr "Mapset <%s> não existe."
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+msgid "Mapset <{}> already exists."
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Mapset <{}> already exists."
+msgstr ""
+>>>>>>> osgeo-main
 
 #: ../lib/init/grass.py:985
 msgid "A new mapset can be created using '-c' flag."
@@ -2889,6 +2927,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2900,6 +2941,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2916,6 +2970,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2927,6 +2984,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2948,6 +3018,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2959,6 +3032,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2975,6 +3061,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2986,6 +3075,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3002,6 +3104,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3013,6 +3118,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3033,6 +3151,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3044,6 +3165,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3071,6 +3205,9 @@ msgstr "As resoluções para NS e EW são diferentes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3082,6 +3219,19 @@ msgstr "As resoluções para NS e EW são diferentes"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3103,6 +3253,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3114,6 +3267,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3135,6 +3301,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3146,6 +3315,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3162,6 +3344,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3173,6 +3358,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3189,6 +3387,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3200,6 +3401,19 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4157,6 +4371,9 @@ msgstr "As dimensões dos mosaicos usados ​​no mapa raster3d de saída (XxYx
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -4168,6 +4385,19 @@ msgstr "As dimensões dos mosaicos usados ​​no mapa raster3d de saída (XxYx
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -5596,6 +5826,15 @@ msgstr "Erro interno: tipo de regra inválido:%d"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 #: ../lib/gis/parser_dependencies.c:514
 #, fuzzy
 msgid "Internal error: the number of options is < 0"
@@ -5605,6 +5844,13 @@ msgstr "Erro interno: opção ou flag não encontrada"
 msgid "Invalid offset (%"
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 #: ../lib/vector/diglib/test.c:150
 #, c-format
@@ -6286,12 +6532,22 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -7218,22 +7474,63 @@ msgstr[1] "%d primitivas registradas"
 #: ../lib/vector/Vlib/build_sfa.c:665
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 #, fuzzy, c-format
 msgid "Incomplete GRASS session: Variable '%s' not set"
 msgstr "Variável '%s' não definida"
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 #, c-format
 msgid "One vertex registered"
 msgid_plural "%<PRId64> vertices registered"
 msgstr[0] ""
 msgstr[1] ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 #: ../lib/gis/mkstemp.c:133
 msgid "Attempt to create read-only temporary file"
@@ -8245,10 +8542,19 @@ msgstr "Não foi possível excluir linha de coor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -8544,16 +8850,262 @@ msgid ""
 "version"
 msgstr "opções: arch,build,compiler,date,path,revision,svn_revision,version"
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 #: ../lib/vector/Vlib/write.c:234
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Unable to rewrite feature/offset %"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+
+#: ../lib/vector/Vlib/remove_areas.c:458
+msgid "dissolve_neighbour > 0, failed to build new area"
+msgstr "dissolve_neighbour> 0, falha ao construir uma nova área"
+
+#: ../lib/vector/Vlib/remove_areas.c:463 ../lib/vector/Vlib/remove_areas.c:501
+msgid "Dissolve with neighbour area: corrupt topology"
+msgstr "Dissolver com área vizinha: topologia corrompida"
+
+#: ../lib/vector/Vlib/remove_areas.c:497
+msgid "Failed to build new area"
+msgstr "Falha ao construir nova área"
+
+#: ../lib/vector/Vlib/remove_areas.c:544 ../lib/vector/Vlib/remove_areas.c:571
+msgid "Failed to build new isle"
+msgstr "Falha ao construir nova ilha"
+
+#: ../lib/vector/Vlib/remove_areas.c:549 ../lib/vector/Vlib/remove_areas.c:576
+msgid "Dissolve with outer isle: corrupt topology"
+msgstr "Dissolver com a ilha externa: topologia corrompida"
+
+#: ../lib/vector/Vlib/remove_areas.c:581
+msgid "Area merging failed"
+msgstr "Falha ao mesclar áreas"
+
+#: ../lib/vector/Vlib/copy.c:81
+#, c-format
+msgid "Unable to copy features. Input vector map <%s> is not open"
+msgstr "Não foi possível copiar feições. O mapa vetorial de entrada <%s> não está aberto"
+
+#: ../lib/vector/Vlib/copy.c:102
+#, c-format
+msgid "Unable to create PostGIS layer <%s>"
+msgstr "Não foi possível criar camada PostGIS <%s>"
+
+#: ../lib/vector/Vlib/copy.c:134
+#, c-format
+msgid "Vector map <%s> not open on topological level. Areas will be skipped!"
+msgstr "Mapa vetorial <%s> não está aberto no nível topológico. As áreas serão ignoradas!"
+
+#: ../lib/vector/Vlib/copy.c:169 ../lib/vector/Vlib/copy.c:246
+#: ../lib/ogsf/gp3.c:92
+#, c-format
+msgid "Unable to read vector map <%s>"
+msgstr "Não foi possível ler mapa vetorial <%s>"
+
+#: ../lib/vector/Vlib/copy.c:230 ../lib/vector/Vlib/copy.c:235
+msgid "Copying features..."
+msgstr "Copiando feições..."
+
+#: ../lib/vector/Vlib/copy.c:232
+#, c-format
+msgid "Copying features (%s)..."
+msgstr "Copiando feições (%s)..."
+
+#: ../lib/vector/Vlib/copy.c:358
+msgid "Writing new feature failed"
+msgstr "Falha ao escrever nova feição"
+
+#: ../lib/vector/Vlib/copy.c:364
+#, c-format
+msgid "%d features without category or from different layer skipped"
+msgstr "%d feições sem categoria ou de camada diferente ignoradas"
+
+#: ../lib/vector/Vlib/copy.c:396
+msgid "Exporting nodes..."
+msgstr "Exportando nós..."
+
+#: ../lib/vector/Vlib/copy.c:424
+#, c-format
+msgid "Writing node %d failed"
+msgstr "Falha ao escrever o nó %d"
+
+#: ../lib/vector/Vlib/copy.c:502
+msgid "Exporting areas..."
+msgstr "Exportando áreas..."
+
+#: ../lib/vector/Vlib/copy.c:560 ../lib/vector/Vlib/copy.c:568
+#, c-format
+msgid "Writing area %d failed"
+msgstr "Falha ao escrever a área %d"
+
+#: ../lib/vector/Vlib/copy.c:576
+#, c-format
+msgid "%d areas without category or from different layer skipped"
+msgstr "%d áreas sem categoria ou de camada diferente ignoradas"
+
+#: ../lib/vector/Vlib/copy.c:630
+#, c-format
+msgid "Unable to copy table <%s> for layer %d from <%s> to <%s>"
+msgstr "Não é possível copiar a tabela <%s> para a camada %d de <%s> para <%s>"
+
+#: ../lib/vector/Vlib/copy.c:749
+#, c-format
+msgid "Unable to add database link for vector map <%s>"
+msgstr "Não foi possível adicionar link do banco de dados para o mapa vetorial <%s>"
+
+#: ../lib/vector/Vlib/copy.c:773
+#, c-format
+msgid "Unable to open database <%s> with driver <%s>"
+msgstr "Não foi possível abrir banco de dados <%s> com driver <%s>"
+
+#: ../lib/vector/Vlib/copy.c:780
+msgid "Unable to create index"
+msgstr "Não foi possível criar índice"
+
+#: ../lib/vector/Vlib/copy.c:786
+#, c-format
+msgid "Unable to grant privileges on table <%s>"
+msgstr "Não é possível dar privilégios na tabela <%s>"
+
+#: ../lib/vector/Vlib/write.c:194
+#, c-format
+msgid "Unable to write feature in vector map <%s>"
+msgstr "Não foi possível escrever feição no mapa vetorial <%s>"
+
+#: ../lib/vector/Vlib/write.c:234
+msgid "Unable to rewrite feature/offset %"
+msgstr ""
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+#: ../lib/vector/Vlib/write.c:266
+msgid "Unable to delete feature/offset %"
+msgstr ""
+=======
+=======
+=======
+#: ../lib/vector/Vlib/write.c:234
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+msgid "Unable to rewrite feature/offset %"
+msgstr ""
+
+#: ../lib/vector/Vlib/write.c:266
+msgid "Unable to delete feature/offset %"
+<<<<<<< HEAD
+msgstr "Não foi possível apagar o arquivo '%s'"
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+msgstr ""
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+
+#: ../lib/vector/Vlib/write.c:299
+msgid "Unable to restore feature/offset %"
+msgstr "Não foi possível restaurar feição/offset %"
+
+#: ../lib/vector/Vlib/write.c:308
+#, c-format
+msgid "Vector map <%s> is not opened"
+msgstr "Mapa vetorial <%s> não está aberto"
+
+#: ../lib/vector/Vlib/write.c:313
+#, c-format
+msgid "Vector map <%s> is not opened in write mode"
+msgstr "Mapa vetorial <%s> não está aberto em modo de escrita"
+
+#: ../lib/vector/Vlib/line.c:184 ../lib/vector/Vlib/line.c:217
+#: ../lib/vector/Vlib/line.c:250
+msgid "Index out of range in"
+msgstr "Índice fora do intervalo em"
+
+#: ../lib/vector/Vlib/line.c:550
+msgid "Segment outside line, no segment created"
+msgstr "Segmento fora da linha, nenhum segmento criado"
+
+#: ../lib/vector/Vlib/net_build.c:101 ../lib/vector/Vlib/net_build.c:727
+msgid "Building graph..."
+msgstr "Construindo gráfico..."
+
+#: ../lib/vector/Vlib/net_build.c:143 ../lib/vector/Vlib/net_build.c:775
+msgid "Unable to build network graph"
+msgstr ""
+
+#: ../lib/vector/Vlib/net_build.c:149 ../lib/vector/Vlib/net_build.c:781
+msgid "Forward costs column not specified"
+msgstr ""
+
+#: ../lib/vector/Vlib/net_build.c:156
+msgid "Turntable field < 1"
+msgstr ""
+
+#: ../lib/vector/Vlib/net_build.c:172
+#, c-format
+msgid "Turntable column <%s> not found in table <%s>"
+msgstr ""
+
+#: ../lib/vector/Vlib/net_build.c:182 ../lib/vector/Vlib/net_build.c:223
+#: ../lib/vector/Vlib/net_build.c:508 ../lib/vector/Vlib/net_build.c:526
+#: ../lib/vector/Vlib/net_build.c:809 ../lib/vector/Vlib/net_build.c:827
+#: ../lib/vector/Vlib/net_build.c:988
+#, c-format
+msgid "Data type of column <%s> not supported (must be numeric)"
+msgstr "Tipo de dados da coluna <%s> não suportado (deve ser numérico)"
+
+#: ../lib/vector/Vlib/net_build.c:202 ../lib/vector/Vlib/net_build.c:967
+msgid "Setting node costs..."
+msgstr "Definindo custos de nó..."
+
+#: ../lib/vector/Vlib/net_build.c:277 ../lib/vector/Vlib/net_build.c:1032
+#, c-format
+msgid "Database record for node %d (cat = %d) not found (cost set to 0)"
+msgstr "Registro do banco de dados para o nó %d (cat = %d) não encontrado (cost set to 0)"
+
+#: ../lib/vector/Vlib/net_build.c:332 ../lib/vector/Vlib/net_build.c:352
+msgid "Cannot add network arc for virtual node connection."
+msgstr "Não é possível adicionar arco de rede para conexão de nó virtual."
+
+#: ../lib/vector/Vlib/net_build.c:364
+#, c-format
+msgid ""
+"There exists more than one point of node <%d> with unique category field  <%d>.\n"
+"The unique categories layer is not valid therefore you will probably get incorrect results."
+msgstr ""
+"Existe mais de um ponto de nó <%d> com campo de categoria exclusivo <%d>.\n"
+"A camada de categorias exclusivas não é válida, portanto, você provavelmente obterá resultados incorretos."
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
 =======
 >>>>>>> osgeo-main
 
@@ -8755,224 +9307,18 @@ msgstr ""
 "Existe mais de um ponto de nó <%d> com campo de categoria exclusivo <%d>.\n"
 "A camada de categorias exclusivas não é válida, portanto, você provavelmente obterá resultados incorretos."
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
->>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-
-=======
-
-#: ../lib/vector/Vlib/remove_areas.c:458
-msgid "dissolve_neighbour > 0, failed to build new area"
-msgstr "dissolve_neighbour> 0, falha ao construir uma nova área"
-
-#: ../lib/vector/Vlib/remove_areas.c:463 ../lib/vector/Vlib/remove_areas.c:501
-msgid "Dissolve with neighbour area: corrupt topology"
-msgstr "Dissolver com área vizinha: topologia corrompida"
-
-#: ../lib/vector/Vlib/remove_areas.c:497
-msgid "Failed to build new area"
-msgstr "Falha ao construir nova área"
-
-#: ../lib/vector/Vlib/remove_areas.c:544 ../lib/vector/Vlib/remove_areas.c:571
-msgid "Failed to build new isle"
-msgstr "Falha ao construir nova ilha"
-
-#: ../lib/vector/Vlib/remove_areas.c:549 ../lib/vector/Vlib/remove_areas.c:576
-msgid "Dissolve with outer isle: corrupt topology"
-msgstr "Dissolver com a ilha externa: topologia corrompida"
-
-#: ../lib/vector/Vlib/remove_areas.c:581
-msgid "Area merging failed"
-msgstr "Falha ao mesclar áreas"
-
-#: ../lib/vector/Vlib/copy.c:81
-#, c-format
-msgid "Unable to copy features. Input vector map <%s> is not open"
-msgstr "Não foi possível copiar feições. O mapa vetorial de entrada <%s> não está aberto"
-
-#: ../lib/vector/Vlib/copy.c:102
-#, c-format
-msgid "Unable to create PostGIS layer <%s>"
-msgstr "Não foi possível criar camada PostGIS <%s>"
-
-#: ../lib/vector/Vlib/copy.c:134
-#, c-format
-msgid "Vector map <%s> not open on topological level. Areas will be skipped!"
-msgstr "Mapa vetorial <%s> não está aberto no nível topológico. As áreas serão ignoradas!"
-
-#: ../lib/vector/Vlib/copy.c:169 ../lib/vector/Vlib/copy.c:246
-#: ../lib/ogsf/gp3.c:92
-#, c-format
-msgid "Unable to read vector map <%s>"
-msgstr "Não foi possível ler mapa vetorial <%s>"
-
-#: ../lib/vector/Vlib/copy.c:230 ../lib/vector/Vlib/copy.c:235
-msgid "Copying features..."
-msgstr "Copiando feições..."
-
-#: ../lib/vector/Vlib/copy.c:232
-#, c-format
-msgid "Copying features (%s)..."
-msgstr "Copiando feições (%s)..."
-
-#: ../lib/vector/Vlib/copy.c:358
-msgid "Writing new feature failed"
-msgstr "Falha ao escrever nova feição"
-
-#: ../lib/vector/Vlib/copy.c:364
-#, c-format
-msgid "%d features without category or from different layer skipped"
-msgstr "%d feições sem categoria ou de camada diferente ignoradas"
-
-#: ../lib/vector/Vlib/copy.c:396
-msgid "Exporting nodes..."
-msgstr "Exportando nós..."
-
-#: ../lib/vector/Vlib/copy.c:424
-#, c-format
-msgid "Writing node %d failed"
-msgstr "Falha ao escrever o nó %d"
-
-#: ../lib/vector/Vlib/copy.c:502
-msgid "Exporting areas..."
-msgstr "Exportando áreas..."
-
-#: ../lib/vector/Vlib/copy.c:560 ../lib/vector/Vlib/copy.c:568
-#, c-format
-msgid "Writing area %d failed"
-msgstr "Falha ao escrever a área %d"
-
-#: ../lib/vector/Vlib/copy.c:576
-#, c-format
-msgid "%d areas without category or from different layer skipped"
-msgstr "%d áreas sem categoria ou de camada diferente ignoradas"
-
-#: ../lib/vector/Vlib/copy.c:630
-#, c-format
-msgid "Unable to copy table <%s> for layer %d from <%s> to <%s>"
-msgstr "Não é possível copiar a tabela <%s> para a camada %d de <%s> para <%s>"
-
-#: ../lib/vector/Vlib/copy.c:749
-#, c-format
-msgid "Unable to add database link for vector map <%s>"
-msgstr "Não foi possível adicionar link do banco de dados para o mapa vetorial <%s>"
-
-#: ../lib/vector/Vlib/copy.c:773
-#, c-format
-msgid "Unable to open database <%s> with driver <%s>"
-msgstr "Não foi possível abrir banco de dados <%s> com driver <%s>"
-
-#: ../lib/vector/Vlib/copy.c:780
-msgid "Unable to create index"
-msgstr "Não foi possível criar índice"
-
-#: ../lib/vector/Vlib/copy.c:786
-#, c-format
-msgid "Unable to grant privileges on table <%s>"
-msgstr "Não é possível dar privilégios na tabela <%s>"
-
-#: ../lib/vector/Vlib/write.c:194
-#, c-format
-msgid "Unable to write feature in vector map <%s>"
-msgstr "Não foi possível escrever feição no mapa vetorial <%s>"
-
-#: ../lib/vector/Vlib/write.c:234
-msgid "Unable to rewrite feature/offset %"
-msgstr ""
-
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-#: ../lib/vector/Vlib/write.c:266
-msgid "Unable to delete feature/offset %"
-msgstr ""
-
-#: ../lib/vector/Vlib/write.c:299
-msgid "Unable to restore feature/offset %"
-msgstr "Não foi possível restaurar feição/offset %"
-
-#: ../lib/vector/Vlib/write.c:308
-#, c-format
-msgid "Vector map <%s> is not opened"
-msgstr "Mapa vetorial <%s> não está aberto"
-
-#: ../lib/vector/Vlib/write.c:313
-#, c-format
-msgid "Vector map <%s> is not opened in write mode"
-msgstr "Mapa vetorial <%s> não está aberto em modo de escrita"
-
-#: ../lib/vector/Vlib/line.c:184 ../lib/vector/Vlib/line.c:217
-#: ../lib/vector/Vlib/line.c:250
-msgid "Index out of range in"
-msgstr "Índice fora do intervalo em"
-
-#: ../lib/vector/Vlib/line.c:550
-msgid "Segment outside line, no segment created"
-msgstr "Segmento fora da linha, nenhum segmento criado"
-
-#: ../lib/vector/Vlib/net_build.c:101 ../lib/vector/Vlib/net_build.c:727
-msgid "Building graph..."
-msgstr "Construindo gráfico..."
-
-#: ../lib/vector/Vlib/net_build.c:143 ../lib/vector/Vlib/net_build.c:775
-msgid "Unable to build network graph"
-msgstr ""
-
-#: ../lib/vector/Vlib/net_build.c:149 ../lib/vector/Vlib/net_build.c:781
-msgid "Forward costs column not specified"
-msgstr ""
-
-#: ../lib/vector/Vlib/net_build.c:156
-msgid "Turntable field < 1"
-msgstr ""
-
-#: ../lib/vector/Vlib/net_build.c:172
-#, c-format
-msgid "Turntable column <%s> not found in table <%s>"
-msgstr ""
-
-#: ../lib/vector/Vlib/net_build.c:182 ../lib/vector/Vlib/net_build.c:223
-#: ../lib/vector/Vlib/net_build.c:508 ../lib/vector/Vlib/net_build.c:526
-#: ../lib/vector/Vlib/net_build.c:809 ../lib/vector/Vlib/net_build.c:827
-#: ../lib/vector/Vlib/net_build.c:988
-#, c-format
-msgid "Data type of column <%s> not supported (must be numeric)"
-msgstr "Tipo de dados da coluna <%s> não suportado (deve ser numérico)"
-
-#: ../lib/vector/Vlib/net_build.c:202 ../lib/vector/Vlib/net_build.c:967
-msgid "Setting node costs..."
-msgstr "Definindo custos de nó..."
-
-#: ../lib/vector/Vlib/net_build.c:277 ../lib/vector/Vlib/net_build.c:1032
-#, c-format
-msgid "Database record for node %d (cat = %d) not found (cost set to 0)"
-msgstr "Registro do banco de dados para o nó %d (cat = %d) não encontrado (cost set to 0)"
-
-#: ../lib/vector/Vlib/net_build.c:332 ../lib/vector/Vlib/net_build.c:352
-msgid "Cannot add network arc for virtual node connection."
-msgstr "Não é possível adicionar arco de rede para conexão de nó virtual."
-
-#: ../lib/vector/Vlib/net_build.c:364
-#, c-format
-msgid ""
-"There exists more than one point of node <%d> with unique category field  <%d>.\n"
-"The unique categories layer is not valid therefore you will probably get incorrect results."
-msgstr ""
-"Existe mais de um ponto de nó <%d> com campo de categoria exclusivo <%d>.\n"
-"A camada de categorias exclusivas não é válida, portanto, você provavelmente obterá resultados incorretos."
 <<<<<<< HEAD
->>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 =======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
 #: ../lib/init/grass.py:387
 msgid "initial GRASS database directory"
@@ -8996,8 +9342,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 "diretório contendo Mapsets com um sistema de coordenadas comum (projeção)"
@@ -12486,11 +12838,33 @@ msgstr "Não foi possível mover o mapa raster temporário <%s> para o mapa rast
 
 #: ../lib/raster3d/close.c:79
 msgid "Unable to flush all tiles"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 msgstr "Não foi possível limpar todos os mosaicos"
 
 #: ../lib/raster3d/close.c:84
 msgid "Unable to flush index"
 msgstr "Não foi possível limpar o índice"
+<<<<<<< HEAD
+=======
+msgstr ""
+
+#: ../lib/raster3d/close.c:84
+msgid "Unable to flush index"
+msgstr ""
+>>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+msgstr "Não foi possível limpar todos os mosaicos"
+
+#: ../lib/raster3d/close.c:84
+msgid "Unable to flush index"
+msgstr "Não foi possível limpar o índice"
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> osgeo-main
 
 #: ../lib/raster3d/close.c:94
 msgid "Unable to position file"
@@ -12947,10 +13321,19 @@ msgstr "Não foi possível limpar o arquivo %s para o mapa raster %s: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -12980,9 +13363,15 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 
@@ -12999,6 +13388,13 @@ msgid "Unable to read category file of raster map <%s>"
 msgstr "Não foi possível ler arquivo de categoria do mapa raster <%s>"
 =======
 #: ../lib/raster/get_cellhd.c:70
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 msgid "Invalid descriptor: %d"
 msgstr "Descritor inválido: %d"
@@ -13055,6 +13451,14 @@ msgstr ""
 
 #: ../lib/raster/get_cellhd.c:78
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 #, c-format
 msgid "Unable to read header file for raster map <%s@%s>. It is a reclass of raster map <%s@%s>. %s"
 msgstr ""
@@ -18108,6 +18512,8 @@ msgstr "[%s]: cor não existe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 msgid "whose header file can't be opened."
 msgstr "cujo cabeçalho de arquivo não pode ser aberto."
 
@@ -18166,6 +18572,10 @@ msgstr "script de shell a ser processado como trabalho em lote"
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 #, fuzzy
@@ -18234,6 +18644,13 @@ msgstr "Topo deve ser maior que Base"
 msgid "shell script to be processed as batch job"
 msgstr "script de shell a ser processado como trabalho em lote"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 msgid "whose header file can't be opened."
 msgstr "cujo cabeçalho de arquivo não pode ser aberto."
@@ -18292,9 +18709,15 @@ msgstr "script de shell a ser processado como trabalho em lote"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 msgid ""
@@ -18305,6 +18728,8 @@ msgstr ""
 "O comando python não funciona como esperado!\n"
 "Por favor verifique seu ambiente de variável GRASS_PYTHON.\n"
 "Use a opção -help para obter mais detalhes.\n"
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 msgid ""
@@ -18318,6 +18743,28 @@ msgstr ""
 "\n"
 "Pressione RETURN para continuar.\n"
 
+=======
+msgid ""
+"The python command does not work as expected!\n"
+"Please check your GRASS_PYTHON environment variable.\n"
+"Use the -help option for details.\n"
+msgstr ""
+"O comando python não funciona como esperado!\n"
+"Por favor verifique seu ambiente de variável GRASS_PYTHON.\n"
+"Use a opção -help para obter mais detalhes.\n"
+
+msgid ""
+"{}\n"
+"Switching to text based interface mode.\n"
+"\n"
+"Hit RETURN to continue.\n"
+msgstr ""
+"{}\n"
+"Mudando para o modo de interface baseado em texto.\n"
+"\n"
+"Pressione RETURN para continuar.\n"
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
 "It appears that the X Windows system is not active.\n"
 "A graphical based user interface is not supported.\n"
@@ -18333,6 +18780,7 @@ msgstr ""
 "\n"
 "Pressione RETURN para continuar.\n"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgid "Mapset <{mapset}> doesn't exist in GRASS Location <{loc}>. A new mapset can be created by '-c' switch."
@@ -18387,6 +18835,10 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 #~ msgstr "Valor inválido <%s> para o parâmetro <%s>"
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
 msgid ""
 "{}\n"
@@ -18414,10 +18866,16 @@ msgstr ""
 "\n"
 "Pressione RETURN para continuar.\n"
 
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 #~ msgid ""
 #~ "Mapset <{mapset}> doesn't exist in GRASS Location <{loc}>. A new mapset "
@@ -18469,6 +18927,13 @@ msgstr "Altera a permissão do arquivo para 'executável' para <%s>"
 #~ msgstr ""
 #~ "Não foi possível abrir o arquivo de cabeçalho para o mapa raster <%s@%s>"
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 
 msgid ""
@@ -18525,6 +18990,22 @@ msgstr "Não foi possível reescrever feição/offset %lu no mapa vetorial <%s>"
 msgid "Unable to delete feature/offset %lu from vector map <%s>"
 msgstr "Não foi possível excluir feição/offset %lu do mapa vetorial <%s>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+msgid "Unable to open header file for raster map <%s@%s>"
+msgstr "Não foi possível abrir o arquivo de cabeçalho para o mapa raster <%s@%s>"
+
+msgid "Unable to rewrite feature/offset %lu in vector map <%s>"
+msgstr "Não foi possível reescrever feição/offset %lu no mapa vetorial <%s>"
+
+msgid "Unable to delete feature/offset %lu from vector map <%s>"
+msgstr "Não foi possível excluir feição/offset %lu do mapa vetorial <%s>"
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
 msgid "Copy %s <%s> to current mapset as <%s>"
@@ -18579,10 +19060,24 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 #~ msgid "To run the module <%s> add underscore at the end of the option <%s> to avoid conflict with Python keywords. Underscore at the beginning is depreciated in GRASS GIS 7.0 and will be removed in version 7.1."
 #~ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%s> para evitar conflito com palavras-chave Python. O underscore no início é obsoleto no GRASS GIS 7.0 e será removido na versão 7.1."
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 #~ msgid "Invalid value <%s> for parameter <%s>"
 #~ msgstr "Valor inválido <%s> para o parâmetro <%s>"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 
 msgid "Copy %s <%s> to current mapset as <%s>"
@@ -18611,8 +19106,18 @@ msgstr "Para executar o módulo <%s>, adicione underscore no final da opção <%
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main

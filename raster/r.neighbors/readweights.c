@@ -46,10 +46,26 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> osgeo-main
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
     double (*weight) (double, double);
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
@@ -59,6 +75,16 @@ void compute_weights(const char *function_type, double factor)
 =======
     double (*weight)(double, double);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+>>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+    double (*weight) (double, double);
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> osgeo-main
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -68,10 +94,26 @@ void compute_weights(const char *function_type, double factor)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 {
     double sigma2 = factor * factor;
 >>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
+=======
+=======
+
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> 894e4068d0 (r.report: add default units, change to full unit names (#1666))
 
     return exp(-squared_distance / (2 * sigma2)) / (2 * M_PI * sigma2);
 }
@@ -88,6 +130,10 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
@@ -98,9 +144,18 @@ void compute_weights(const char *function_type, double factor)
 =======
     double (*weight)(double, double);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
     double (*weight)(double, double);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    double (*weight)(double, double);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -112,19 +167,31 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 =======
 
-=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
-
->>>>>>> osgeo-main
-=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
 >>>>>>> osgeo-main
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+=======
+
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 
@@ -132,8 +199,21 @@ void compute_weights(const char *function_type, double factor)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     ncb.weights = G_malloc(ncb.nsize * sizeof(DCELL *));
     for (i = 0; i < ncb.nsize; i++)
         ncb.weights[i] = G_malloc(ncb.nsize * sizeof(DCELL));

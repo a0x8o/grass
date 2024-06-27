@@ -16,6 +16,10 @@
 # TODO: replace short flags by long ones to improve readability
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -27,6 +31,16 @@ case "$(uname)" in
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+case "$(uname)" in
+=======
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+case "$(uname)" in
+=======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 case "$(uname)" in 
 =======
@@ -35,9 +49,21 @@ case "$(uname)" in
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+case "$(uname)" in 
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+case "$(uname)" in
+>>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
  Darwin | *BSD*)

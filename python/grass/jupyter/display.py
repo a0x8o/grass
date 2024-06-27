@@ -15,9 +15,14 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 import shutil
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -32,16 +37,41 @@ from IPython.display import Image
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 import tempfile
+=======
+=======
+>>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+from pathlib import Path
+=======
+import shutil
+<<<<<<< HEAD
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+from IPython.display import Image
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+=======
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
+import tempfile
+>>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+import tempfile
+>>>>>>> osgeo-main
 import grass.script as gs
 
 
 class GrassRenderer:
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,13 +157,60 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 
         # Copy Environment
+=======
+=======
+>>>>>>> osgeo-main
+    """The grassRenderer class creates and displays GRASS maps in
+    Jupyter Notebooks."""
+
+    def __init__(
+        self,
+        height=400,
+        width=600,
+        filename=None,
+        env=None,
+        text_size=12,
+        renderer="cairo",
+    ):
+<<<<<<< HEAD
+        """Initiates an instance of the GrassRenderer class."""
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+>>>>>>> osgeo-main
+        """Creates an instance of the GrassRenderer class.
+
+        :param int height: height of map in pixels
+        :param int width: width of map in pixels
+        :param str filename: filename or path to save a PNG of map
+        :param str env: environment
+        :param int text_size: default text size, overwritten by most display modules
+        :param renderer: GRASS renderer driver (options: cairo, png, ps, html)
+        """
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+
+        # Copy Environment
+<<<<<<< HEAD
+>>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> osgeo-main
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
         # Environment Settings
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +257,55 @@ class GrassRenderer:
         self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+=======
+
+=======
+        # Environment Settings
+>>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+        self._env["GRASS_RENDER_WIDTH"] = str(width)
+        self._env["GRASS_RENDER_HEIGHT"] = str(height)
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+        self._env["GRASS_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
+        self._env["GRASS_RENDER_FILE"] = str(filename)
+=======
+        self._env["GRASS_RENDER_TEXT_SIZE"] = str(text_size)
+        self._env["GRASS_RENDER_IMMEDIATE"] = renderer
+>>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+        self._env["GRASS_RENDER_FILE_READ"] = "TRUE"
+        self._env["GRASS_RENDER_TRANSPARENT"] = "TRUE"
+
+        # Create PNG file for map
+        # If not user-supplied, we will write it to a map.png in a
+        # temporary directory that we can delete later. We need
+        # this temporary directory for the legend anyways so we'll
+        # make it now
+        self._tmpdir = tempfile.TemporaryDirectory()
+
+        if filename:
+            self._filename = filename
+        else:
+            self._filename = os.path.join(self._tmpdir.name, "map.png")
+        # Set environment var for file
+        self._env["GRASS_RENDER_FILE"] = self._filename
+
+        # Create Temporary Legend File
+        self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
+        self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+        self._filename = filename
+
+        self.run("d.erase")
+
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> osgeo-main
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
@@ -188,6 +314,8 @@ class GrassRenderer:
         else:
             raise ValueError("Module must begin with letter 'd'.")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +348,8 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def show(self):
 <<<<<<< HEAD
         """Displays a PNG image of the map (non-interactive)"""
@@ -230,9 +360,25 @@ class GrassRenderer:
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+    def show(self):
+<<<<<<< HEAD
+        """Displays a PNG image of the map (non-interactive)"""
+<<<<<<< HEAD
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+=======
+        """Displays a PNG image of the map"""
+        from IPython.display import Image
+
+>>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+>>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> osgeo-main
         return Image(self._filename)

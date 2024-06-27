@@ -7,6 +7,7 @@ Needs PyYAML, Git, and GitHub CLI.
 
 import argparse
 import csv
+import itertools
 import json
 import re
 import subprocess
@@ -67,11 +68,20 @@ def split_to_categories(changes, categories):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 def print_section_heading_2(text, file=None):
@@ -84,6 +94,9 @@ def print_section_heading_3(text, file=None):
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -92,6 +105,16 @@ def print_section_heading_3(text, file=None):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 def print_category(category, changes, file=None):
     """Print changes for one category from dictionary of changes
@@ -104,6 +127,9 @@ def print_category(category, changes, file=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     print(f"### {category}", file=file)
 =======
 <<<<<<< HEAD
@@ -112,7 +138,10 @@ def print_category(category, changes, file=None):
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     print_section_heading_3(category, file=file)
+<<<<<<< HEAD
 =======
     print(f"### {category}", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -126,8 +155,71 @@ def print_category(category, changes, file=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    print_section_heading_3(category, file=file)
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    print_section_heading_3(category, file=file)
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+    bot_file = Path("utils") / "known_bot_names.txt"
+    known_bot_names = bot_file.read_text().splitlines()
+    visible = []
+    hidden = []
+    overflow = []
+    max_section_length = 25
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> eb39403b39 (contributing: Hide bots from release notes (#3829))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    print(f"### {category}", file=file)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    print(f"### {category}", file=file)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     for item in sorted(items):
+        # Relies on author being specified after the last "by".
+        author = item.rsplit(" by ", maxsplit=1)[-1]
+        # Relies on author being specified as username.
+        if " " in author:
+            author = author.split(" ", maxsplit=1)[0]
+        if author.startswith("@"):
+            # We expect that to be always the case, but we test anyway.
+            author = author[1:]
+        if author in known_bot_names or author.endswith("[bot]"):
+            hidden.append(item)
+        elif len(visible) > max_section_length:
+            overflow.append(item)
+        else:
+            visible.append(item)
+    for item in visible:
         print(f"* {item}", file=file)
+    if hidden or overflow:
+        print("\n<details>")
+        print(" <summary>Show more</summary>\n")
+        for item in itertools.chain(overflow, hidden):
+            print(f"  * {item}", file=file)
+        print("\n</details>")
     print("")
 
 
@@ -165,18 +257,30 @@ def print_notes(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     print("## What's Changed", file=file)
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
     print_section_heading_2("What's Changed", file=file)
 =======
     print("## What's Changed", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
     print("## What's Changed", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -186,6 +290,18 @@ def print_notes(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    print("## What's Changed", file=file)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    print("## What's Changed", file=file)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
     changes_by_category = split_to_categories(changes, categories=categories)
     print_by_category(changes_by_category, categories=categories, file=file)
@@ -269,13 +385,15 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
         key="svn_name",
         value="github_name",
     )
+    github_name_by_git_author_file = config_directory / "git_author_github_name.csv"
     github_name_by_git_author = csv_to_dict(
-        config_directory / "git_author_github_name.csv",
+        github_name_by_git_author_file,
         key="git_author",
         value="github_name",
     )
 
     lines = []
+    unknow_authors = []
     for commit in commits:
         if commit["author_email"].endswith("users.noreply.github.com"):
             github_name = commit["author_email"].split("@")[0]
@@ -286,10 +404,7 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
             # Emails are stored with @ replaced by a space.
             email = commit["author_email"].replace("@", " ")
             git_author = f"{commit['author_name']} <{email}>"
-            if (
-                git_author not in svn_name_by_git_author
-                and git_author in github_name_by_git_author
-            ):
+            if git_author in github_name_by_git_author:
                 github_name = github_name_by_git_author[git_author]
                 github_name = f"@{github_name}"
             else:
@@ -299,6 +414,7 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
                     github_name = f"@{github_name}"
                 except KeyError:
                     github_name = git_author
+                    unknow_authors.append((git_author, commit["message"]))
         lines.append(f"{commit['message']} by {github_name}")
     lines = remove_excluded_changes(changes=lines, exclude=exclude)
     print_notes(
@@ -311,6 +427,16 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
         ),
         categories=categories,
     )
+    processed_authors = []
+    if unknow_authors:
+        print(
+            f"\n\nAuthors who need to be added to {github_name_by_git_author_file}:\n"
+        )
+        for author, message in unknow_authors:
+            if author in processed_authors:
+                continue
+            print(f"{author} -- authored {message}")
+            processed_authors.append(author)
 
 
 def create_release_notes(args):
@@ -353,10 +479,13 @@ def main():
         epilog="Run in utils directory to access the helper files.",
     )
     parser.add_argument(
-        "backend", choices=["log", "api"], help="use git log or GitHub API"
+        "backend",
+        choices=["log", "api", "check"],
+        help="use git log or GitHub API (or check a PR title)",
     )
     parser.add_argument(
-        "branch", help="needed for the GitHub API when tag does not exist"
+        "branch",
+        help="needed for the GitHub API when tag does not exist (or a PR title)",
     )
     parser.add_argument("start_tag", help="old tag to compare against")
     parser.add_argument(
@@ -368,6 +497,22 @@ def main():
         ),
     )
     args = parser.parse_args()
+    if args.backend == "check":
+        config_file = Path("utils") / "release.yml"
+        with open(config_file, encoding="utf-8") as file:
+            config = yaml.safe_load(file.read())
+        has_match = False
+        for category in config["notes"]["categories"]:
+            if re.match(category["regexp"], args.branch):
+                has_match = True
+                break
+        if has_match:
+            sys.exit(0)
+        else:
+            sys.exit(
+                f"Title '{args.branch}' does not fit into one of "
+                f"the categories specified in {config_file}"
+            )
     try:
         create_release_notes(args)
     except subprocess.CalledProcessError as error:

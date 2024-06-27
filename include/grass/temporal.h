@@ -72,6 +72,15 @@ void tgis_free_map_list(tgisMapList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
@@ -90,6 +99,10 @@ tgisMapList *tgis_new_map_list(void);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+tgisMapList *tgis_new_map_list(void);
+=======
+>>>>>>> osgeo-main
+=======
 tgisMapList *tgis_new_map_list(void);
 =======
 >>>>>>> osgeo-main
@@ -101,6 +114,13 @@ tgisMapList *tgis_new_map_list();
 =======
 tgisMapList *tgis_new_map_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 tgisMapList *tgis_new_map_list();
 =======
@@ -109,9 +129,31 @@ tgisMapList *tgis_new_map_list(void);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+tgisMapList *tgis_new_map_list(void);
+=======
+tgisMapList *tgis_new_map_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+tgisMapList *tgis_new_map_list();
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -224,6 +266,15 @@ void tgis_free_dataset_list(tgisDatasetList *list);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
@@ -242,6 +293,10 @@ tgisDatasetList *tgis_new_dataset_list(void);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+tgisDatasetList *tgis_new_dataset_list(void);
+=======
+>>>>>>> osgeo-main
+=======
 tgisDatasetList *tgis_new_dataset_list(void);
 =======
 >>>>>>> osgeo-main
@@ -253,6 +308,13 @@ tgisDatasetList *tgis_new_dataset_list();
 =======
 tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 tgisDatasetList *tgis_new_dataset_list();
 =======
@@ -261,9 +323,31 @@ tgisDatasetList *tgis_new_dataset_list(void);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+tgisDatasetList *tgis_new_dataset_list(void);
+=======
+tgisDatasetList *tgis_new_dataset_list();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+tgisDatasetList *tgis_new_dataset_list();
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 

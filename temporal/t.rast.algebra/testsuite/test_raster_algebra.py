@@ -110,12 +110,36 @@ class TestTRastAlgebra(TestCase):
         )
 
     def tearDown(self):
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+=======
+        self.runModule("t.remove", flags="rf", inputs="R", quiet=True)
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+        self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+        self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+>>>>>>> osgeo-main
 
     @classmethod
     def tearDownClass(cls):
         """Remove the temporary region"""
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+=======
+        cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
+>>>>>>> 4ed9bfe3ea (Dockerfile: fix broken lib link (#1625))
+=======
+        cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+>>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
+=======
+        cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+>>>>>>> osgeo-main
         cls.runModule("t.unregister", maps="singletmap", quiet=True)
         cls.del_temp_region()
 

@@ -25,6 +25,15 @@ static int list_element(FILE *, const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                         int (*)(const char *, const char *, char *));
 =======
 <<<<<<< HEAD
@@ -43,6 +52,10 @@ static int list_element(FILE *, const char *, const char *, const char *,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                        int (*)(const char *, const char *, char *));
+=======
+>>>>>>> osgeo-main
+=======
                         int (*)(const char *, const char *, char *));
 =======
 >>>>>>> osgeo-main
@@ -54,6 +67,13 @@ static int list_element(FILE *, const char *, const char *, const char *,
 =======
                         int (*)(const char *, const char *, char *));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
                         int (*)(const char *, const char *, const char *));
 =======
@@ -62,9 +82,31 @@ static int list_element(FILE *, const char *, const char *, const char *,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+                        int (*)(const char *, const char *, char *));
+=======
+                        int (*)(const char *, const char *, const char *));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        int (*)(const char *, const char *, const char *));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -96,6 +138,15 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                     int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -114,6 +165,10 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                    int (*lister)(const char *, const char *, char *))
+=======
+>>>>>>> osgeo-main
+=======
                     int (*lister)(const char *, const char *, char *))
 =======
 >>>>>>> osgeo-main
@@ -125,6 +180,13 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 =======
                     int (*lister)(const char *, const char *, char *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
                     int (*lister)(const char *, const char *, const char *))
 =======
@@ -133,9 +195,31 @@ void G_list_element(const char *element, const char *desc, const char *mapset,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+                    int (*lister)(const char *, const char *, char *))
+=======
+                    int (*lister)(const char *, const char *, const char *))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    int (*lister)(const char *, const char *, const char *))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 {
@@ -185,6 +269,15 @@ static int list_element(FILE *out, const char *element, const char *desc,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                         int (*lister)(const char *, const char *, char *))
 =======
 <<<<<<< HEAD
@@ -203,6 +296,10 @@ static int list_element(FILE *out, const char *element, const char *desc,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                        int (*lister)(const char *, const char *, char *))
+=======
+>>>>>>> osgeo-main
+=======
                         int (*lister)(const char *, const char *, char *))
 =======
 >>>>>>> osgeo-main
@@ -214,6 +311,13 @@ static int list_element(FILE *out, const char *element, const char *desc,
 =======
                         int (*lister)(const char *, const char *, char *))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
                         int (*lister)(const char *, const char *, const char *))
 =======
@@ -222,9 +326,31 @@ static int list_element(FILE *out, const char *element, const char *desc,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+                        int (*lister)(const char *, const char *, char *))
+=======
+                        int (*lister)(const char *, const char *, const char *))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        int (*lister)(const char *, const char *, const char *))
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 {

@@ -9,6 +9,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
  * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
 <<<<<<< HEAD
@@ -27,6 +36,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+ * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
+=======
+>>>>>>> osgeo-main
+=======
  * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
 =======
 >>>>>>> osgeo-main
@@ -40,6 +53,13 @@
 =======
  * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
  * Copyright (c) 2011-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
@@ -49,9 +69,33 @@
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+ * Copyright (c) 2011-2019, Even Rouault <even dot rouault at spatialys.com>
+=======
+ * Copyright (c) 2011-2013, Even Rouault <even dot rouault at mines-paris dot
+ *org>
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * Copyright (c) 2011-2013, Even Rouault <even dot rouault at mines-paris dot
+ *org>
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
  *
@@ -96,6 +140,17 @@ SHP_CVSID("$Id$")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,15 +161,33 @@ SHP_CVSID("$Id$")
 =======
 >>>>>>> osgeo-main
 =======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+>>>>>>> osgeo-main
+=======
 #ifndef CPL_UNUSED
 #define CPL_UNUSED
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 #ifndef CPL_UNUSED
 #define CPL_UNUSED
 #endif
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -128,9 +201,24 @@ SHP_CVSID("$Id$")
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 typedef unsigned char uchar;
@@ -155,6 +243,10 @@ typedef unsigned int int32;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -163,6 +255,10 @@ typedef unsigned int int32;
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 #ifndef USE_CPL
@@ -180,9 +276,21 @@ typedef unsigned int int32;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 #ifndef USE_CPL
@@ -203,6 +311,19 @@ typedef unsigned int int32;
 #else
 #define CPL_UNUSED
 #endif
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+#endif
+#endif
+
+#ifndef CPL_UNUSED
+#if defined(__GNUC__) && __GNUC__ >= 4
+#define CPL_UNUSED __attribute((__unused__))
+#else
+#define CPL_UNUSED
+#endif
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,11 +344,22 @@ typedef unsigned int int32;
 #endif
 <<<<<<< HEAD
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 #if defined(WIN32) || defined(_WIN32)
 #ifndef snprintf
 #define snprintf _snprintf
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -235,9 +367,23 @@ typedef unsigned int int32;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
 #endif
@@ -250,6 +396,11 @@ typedef unsigned int int32;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -259,6 +410,8 @@ typedef unsigned int int32;
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -267,6 +420,18 @@ typedef unsigned int int32;
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 static bool bBigEndian;
 #endif
@@ -278,6 +443,11 @@ static bool bBigEndian;
 #define STATIC_CAST(type, x) ((type)(x))
 #define SHPLIB_NULLPTR       NULL
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +455,9 @@ static bool bBigEndian;
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 static int bBigEndian;
@@ -294,6 +467,13 @@ static int bBigEndian;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 static int bBigEndian;
 =======
@@ -310,9 +490,28 @@ static bool bBigEndian;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+static int bBigEndian;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static int bBigEndian;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 #endif
@@ -328,6 +527,11 @@ static void SwapWord(int length, void *wordP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -337,6 +541,8 @@ static void SwapWord(int length, void *wordP)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -346,25 +552,61 @@ static void SwapWord(int length, void *wordP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     for (int i = 0; i < length / 2; i++) {
         const uchar temp = STATIC_CAST(uchar *, wordP)[i];
         STATIC_CAST(uchar *, wordP)
         [i] = STATIC_CAST(uchar *, wordP)[length - i - 1];
         STATIC_CAST(uchar *, wordP)[length - i - 1] = temp;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     int i;
     uchar temp;
 
@@ -374,11 +616,26 @@ static void SwapWord(int length, void *wordP)
         ((uchar *)wordP)[length - i - 1] = temp;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
     for (int i = 0; i < length / 2; i++) {
@@ -390,9 +647,25 @@ static void SwapWord(int length, void *wordP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -410,6 +683,11 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +702,16 @@ static void *SfRealloc(void *pMem, int nNewSize)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (pMem == SHPLIB_NULLPTR)
         return malloc(nNewSize);
@@ -432,19 +720,40 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
     if (pMem == NULL)
         return ((void *)malloc(nNewSize));
     else
         return ((void *)realloc(pMem, nNewSize));
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (pMem == NULL)
@@ -453,22 +762,63 @@ static void *SfRealloc(void *pMem, int nNewSize)
         return ((void *)realloc(pMem, nNewSize));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     if (pMem == SHPLIB_NULLPTR)
         return malloc(nNewSize);
     else
         return realloc(pMem, nNewSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (pMem == NULL)
+        return ((void *)malloc(nNewSize));
+    else
+        return ((void *)realloc(pMem, nNewSize));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 }
@@ -479,6 +829,17 @@ static void *SfRealloc(void *pMem, int nNewSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 /*      Write out a header for the .shp and .shx files as well as the    */
 /*    contents of the index (.shx) file.                */
 =======
@@ -500,6 +861,16 @@ static void *SfRealloc(void *pMem, int nNewSize)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+/*      Write out a header for the .shp and .shx files as well as the    */
+/*    contents of the index (.shx) file.                */
+=======
+>>>>>>> osgeo-main
+=======
+/*      Write out a header for the .shp and .shx files as well as the    */
+/*    contents of the index (.shx) file.                */
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 /*      Write out a header for the .shp and .shx files as well as the    */
 /*    contents of the index (.shx) file.                */
 =======
@@ -508,15 +879,36 @@ static void *SfRealloc(void *pMem, int nNewSize)
 /*      contents of the index (.shx) file.                              */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Write out a header for the .shp and .shx files as well as the   */
 /*      contents of the index (.shx) file.                              */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Write out a header for the .shp and .shx files as well as the    */
 /*    contents of the index (.shx) file.                */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Write out a header for the .shp and .shx files as well as the   */
 /*      contents of the index (.shx) file.                              */
@@ -528,9 +920,21 @@ static void *SfRealloc(void *pMem, int nNewSize)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 /************************************************************************/
@@ -540,6 +944,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
 =======
 <<<<<<< HEAD
@@ -558,6 +967,10 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+=======
+>>>>>>> osgeo-main
+=======
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
 =======
 >>>>>>> osgeo-main
@@ -565,6 +978,28 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     uchar abyHeader[100];
     int i;
     int32 i32;
@@ -574,12 +1009,27 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     if (psSHP->fpSHX == NULL) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
     if (psSHP->fpSHX == SHPLIB_NULLPTR) {
@@ -587,9 +1037,25 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->sHooks.Error("SHPWriteHeader failed : SHX file is closed");
@@ -599,6 +1065,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     /* -------------------------------------------------------------------- */
     /*      Prepare header block for .shp file.                             */
     /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,6 +1164,100 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         abyHeader[i] = 0;
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+
+    uchar abyHeader[100] = {0};
+    abyHeader[2] = 0x27; /* magic cookie */
+    abyHeader[3] = 0x0a;
+
+    int32 i32 = psSHP->nFileSize / 2; /* file size */
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    for (i = 0; i < 100; i++)
+        abyHeader[i] = 0;
+
+    abyHeader[2] = 0x27; /* magic cookie */
+    abyHeader[3] = 0x0a;
+
+    i32 = psSHP->nFileSize / 2; /* file size */
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    uchar abyHeader[100] = {0};
+    abyHeader[2] = 0x27; /* magic cookie */
+    abyHeader[3] = 0x0a;
+
+    int32 i32 = psSHP->nFileSize / 2; /* file size */
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    ByteCopy(&i32, abyHeader + 24, 4);
+    if (!bBigEndian)
+        SwapWord(4, abyHeader + 24);
+
+    i32 = 1000; /* version */
+    ByteCopy(&i32, abyHeader + 28, 4);
+    if (bBigEndian)
+        SwapWord(4, abyHeader + 28);
+
+    i32 = psSHP->nShapeType; /* shape type */
+    ByteCopy(&i32, abyHeader + 32, 4);
+    if (bBigEndian)
+        SwapWord(4, abyHeader + 32);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    double dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+    dValue = psSHP->adBoundsMin[0]; /* set bounds */
+=======
+    double dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+    double dValue = psSHP->adBoundsMin[0]; /* set bounds */
+=======
+    dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    for (i = 0; i < 100; i++)
+        abyHeader[i] = 0;
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 
     uchar abyHeader[100] = {0};
     abyHeader[2] = 0x27; /* magic cookie */
@@ -716,9 +1281,21 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
     dValue = psSHP->adBoundsMin[0]; /* set bounds */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
     double dValue = psSHP->adBoundsMin[0]; /* set bounds */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+    double dValue = psSHP->adBoundsMin[0]; /* set bounds */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
     dValue = psSHP->adBoundsMin[0]; /* set bounds */
 =======
@@ -726,10 +1303,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     ByteCopy(&dValue, abyHeader + 36, 8);
@@ -779,6 +1353,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -788,6 +1367,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -797,6 +1378,18 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -804,6 +1397,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
         psSHP->sHooks.Error(szErrorMsg);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +1409,9 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
         psSHP->sHooks.Error("Failure writing .shp header");
@@ -820,6 +1421,13 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         psSHP->sHooks.Error("Failure writing .shp header");
 =======
@@ -833,9 +1441,28 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        psSHP->sHooks.Error("Failure writing .shp header");
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        psSHP->sHooks.Error("Failure writing .shp header");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         return;
@@ -851,12 +1478,22 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 
     if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
@@ -874,6 +1511,10 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
     if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
         psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
@@ -885,6 +1526,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         psSHP->sHooks.Error(szErrorMsg);
 
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -898,11 +1541,24 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+
+    if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
+        psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
+<<<<<<< HEAD
+        psSHP->sHooks.Error("Failure writing .shx header");
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
     if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
         psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
         psSHP->sHooks.Error("Failure writing .shx header");
 <<<<<<< HEAD
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -925,9 +1581,52 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+
+    if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
+        psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
+        psSHP->sHooks.Error("Failure writing .shx header");
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+
+    if (psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 0) != 0 ||
+        psSHP->sHooks.FWrite(abyHeader, 100, 1, psSHP->fpSHX) != 1) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        char szErrorMsg[200];
+
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Failure writing .shx header: %s", strerror(errno));
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         return;
@@ -939,6 +1638,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,6 +1651,16 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     int32 *panSHX =
         STATIC_CAST(int32 *, malloc(sizeof(int32) * 2 * psSHP->nRecords));
@@ -958,10 +1672,14 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     int32 *panSHX =
         STATIC_CAST(int32 *, malloc(sizeof(int32) * 2 * psSHP->nRecords));
     if (panSHX == SHPLIB_NULLPTR) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -973,6 +1691,17 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
     panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
     if (panSHX == NULL) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
+    if (panSHX == NULL) {
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
     panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
     if (panSHX == NULL) {
@@ -982,15 +1711,38 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         STATIC_CAST(int32 *, malloc(sizeof(int32) * 2 * psSHP->nRecords));
     if (panSHX == SHPLIB_NULLPTR) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+    panSHX = (int32 *)malloc(sizeof(int32) * 2 * psSHP->nRecords);
+    if (panSHX == NULL) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->sHooks.Error("Failure allocatin panSHX");
@@ -1000,6 +1752,15 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     for (int i = 0; i < psSHP->nRecords; i++) {
 =======
 <<<<<<< HEAD
@@ -1018,6 +1779,10 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    for (int i = 0; i < psSHP->nRecords; i++) {
+=======
+>>>>>>> osgeo-main
+=======
     for (int i = 0; i < psSHP->nRecords; i++) {
 =======
 >>>>>>> osgeo-main
@@ -1029,6 +1794,13 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
     for (int i = 0; i < psSHP->nRecords; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     for (i = 0; i < psSHP->nRecords; i++) {
 =======
@@ -1037,9 +1809,31 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    for (int i = 0; i < psSHP->nRecords; i++) {
+=======
+    for (i = 0; i < psSHP->nRecords; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; i < psSHP->nRecords; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         panSHX[i * 2] = psSHP->panRecOffset[i] / 2;
@@ -1053,6 +1847,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1062,6 +1861,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -1070,6 +1871,18 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
     if (STATIC_CAST(int, psSHP->sHooks.FWrite(panSHX, sizeof(int32) * 2,
                                               psSHP->nRecords, psSHP->fpSHX)) !=
@@ -1081,6 +1894,11 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
         szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
         psSHP->sHooks.Error(szErrorMsg);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1088,17 +1906,35 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> osgeo-main
     if ((int)psSHP->sHooks.FWrite(panSHX, sizeof(int32) * 2, psSHP->nRecords,
                                   psSHP->fpSHX) != psSHP->nRecords) {
         psSHP->sHooks.Error("Failure writing .shx contents");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
     if ((int)psSHP->sHooks.FWrite(panSHX, sizeof(int32) * 2, psSHP->nRecords,
                                   psSHP->fpSHX) != psSHP->nRecords) {
         psSHP->sHooks.Error("Failure writing .shx contents");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -1119,9 +1955,23 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle psSHP)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -1149,6 +1999,10 @@ SHPHandle SHPAPI_CALL SHPOpen(const char *pszLayer, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,6 +2014,14 @@ SHPHandle SHPAPI_CALL SHPOpen(const char *pszLayer, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 }
 
@@ -1180,7 +2042,11 @@ static int SHPGetLenWithoutExtension(const char *pszBasename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1189,6 +2055,11 @@ static int SHPGetLenWithoutExtension(const char *pszBasename)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1214,9 +2085,43 @@ static int SHPGetLenWithoutExtension(const char *pszBasename)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+}
+
+/************************************************************************/
+/*                      SHPGetLenWithoutExtension()                     */
+/************************************************************************/
+
+static int SHPGetLenWithoutExtension(const char *pszBasename)
+{
+    const int nLen = STATIC_CAST(int, strlen(pszBasename));
+    for (int i = nLen - 1;
+         i > 0 && pszBasename[i] != '/' && pszBasename[i] != '\\'; i--) {
+        if (pszBasename[i] == '.') {
+            return i;
+        }
+    }
+    return nLen;
+<<<<<<< HEAD
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 }
@@ -1234,6 +2139,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1243,11 +2153,31 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     char *pszFullname, *pszBasename;
     SHPHandle psSHP;
 
@@ -1259,20 +2189,51 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -1283,6 +2244,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,6 +2263,16 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     bool bLazySHXLoading = false;
     if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
@@ -1308,7 +2284,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1350,9 +2330,55 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+    bool bLazySHXLoading = false;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
+        strcmp(pszAccess, "r+") == 0) {
+        pszAccess = "r+b";
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
+        strcmp(pszAccess, "r+") == 0)
+        pszAccess = "r+b";
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    else {
+        bLazySHXLoading = strchr(pszAccess, 'l') != NULL;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    }
+    else {
+        bLazySHXLoading = strchr(pszAccess, 'l') != SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+    bool bLazySHXLoading = false;
+    if (strcmp(pszAccess, "rb+") == 0 || strcmp(pszAccess, "r+b") == 0 ||
+        strcmp(pszAccess, "r+") == 0) {
+        pszAccess = "r+b";
+    }
+    else {
+        bLazySHXLoading = strchr(pszAccess, 'l') != SHPLIB_NULLPTR;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         pszAccess = "rb";
@@ -1365,12 +2391,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -1379,6 +2411,16 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
@@ -1390,6 +2432,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
             bBigEndian = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,15 +2449,41 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
     i = 1;
     if (*((uchar *)&i) == 1)
         bBigEndian = FALSE;
     else
         bBigEndian = TRUE;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
 =======
     {
@@ -1423,9 +2497,20 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 #endif
@@ -1436,6 +2521,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
 =======
 <<<<<<< HEAD
@@ -1454,6 +2548,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
+=======
+>>>>>>> osgeo-main
+=======
     SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
 =======
 >>>>>>> osgeo-main
@@ -1465,6 +2563,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
     SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
 =======
@@ -1473,9 +2578,31 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    SHPHandle psSHP = STATIC_CAST(SHPHandle, calloc(sizeof(SHPInfo), 1));
+=======
+    psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    psSHP = (SHPHandle)calloc(sizeof(SHPInfo), 1);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -1486,12 +2613,19 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*  Open the .shp and .shx files.  Note that files pulled from  */
     /*  a PC to Unix with upper case filenames won't work!      */
     /* -------------------------------------------------------------------- */
@@ -1685,6 +2819,14 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
     /*  Open the .shp and .shx files.  Note that files pulled from  */
     /*  a PC to Unix with upper case filenames won't work!      */
     /* -------------------------------------------------------------------- */
@@ -1710,8 +2852,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         free(psSHP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1719,6 +2866,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     /*  Compute the base (layer) name.  If there is any extension   */
     /*  on the passed in filename we will strip it off.         */
     /* -------------------------------------------------------------------- */
@@ -1729,6 +2885,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
          pszBasename[i] != '\\';
          i--) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     }
 
     if (pszBasename[i] == '.')
@@ -1756,6 +2917,70 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         char *pszMessage = (char *)malloc(nMessageLen);
 
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (pszBasename[i] == '.')
+        pszBasename[i] = '\0';
+
+    /* -------------------------------------------------------------------- */
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    /*  Open the .shp and .shx files.  Note that files pulled from  */
+    /*  a PC to Unix with upper case filenames won't work!      */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
+        psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+<<<<<<< HEAD
+    if (psSHP->fpSHP == NULL) {
+        size_t nMessageLen = strlen(pszBasename) * 2 + 256;
+        char *pszMessage = (char *)malloc(nMessageLen);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+<<<<<<< HEAD
+=======
+
+        free(psSHP);
+        free(pszFullname);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+<<<<<<< HEAD
+        free(psSHP);
+        free(pszBasename);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
     }
 
     if (pszBasename[i] == '.')
@@ -1779,12 +3004,22 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         char *pszMessage = (char *)malloc(nMessageLen);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 =======
     if (psSHP->fpSHP == SHPLIB_NULLPTR) {
         const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
         char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
         pszFullname[nLenWithoutExtension] = 0;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
         snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
                  pszFullname, pszFullname);
         psHooks->Error(pszMessage);
@@ -1801,7 +3036,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         free(pszBasename);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
->>>>>>> osgeo-main
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
         free(pszFullname);
@@ -1809,6 +3044,9 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         return SHPLIB_NULLPTR;
     }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1847,6 +3085,205 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+<<<<<<< HEAD
+        free(pszFullname);
+        return SHPLIB_NULLPTR;
+    }
+
+    free(pszFullname);
+=======
+=======
+        free(pszBasename);
+=======
+    /*  Open the .shp and .shx files.  Note that files pulled from  */
+    /*  a PC to Unix with upper case filenames won't work!      */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
+        psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        free(psSHP);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+        free(pszFullname);
+
+        return SHPLIB_NULLPTR;
+    }
+
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.SHX", pszBasename);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == NULL) {
+        size_t nMessageLen = strlen(pszBasename) * 2 + 256;
+        char *pszMessage = (char *)malloc(nMessageLen);
+
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX."
+                 "Try --config SHAPE_RESTORE_SHX true to restore or create it",
+                 pszBasename, pszBasename);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+    free(pszFullname);
+    free(pszBasename);
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+<<<<<<< HEAD
+        free(pszFullname);
+        return SHPLIB_NULLPTR;
+    }
+
+    free(pszFullname);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+        free(pszBasename);
+=======
+    /*  Open the .shp and .shx files.  Note that files pulled from  */
+    /*  a PC to Unix with upper case filenames won't work!      */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
+        psSHP->fpSHP = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        free(psSHP);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+        free(pszFullname);
+
+        return SHPLIB_NULLPTR;
+    }
+
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == NULL) {
+        snprintf(pszFullname, nFullnameLen, "%s.SHX", pszBasename);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == NULL) {
+        size_t nMessageLen = strlen(pszBasename) * 2 + 256;
+        char *pszMessage = (char *)malloc(nMessageLen);
+
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX."
+                 "Try --config SHAPE_RESTORE_SHX true to restore or create it",
+                 pszBasename, pszBasename);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+        free(pszBasename);
+        free(pszFullname);
+        return (NULL);
+    }
+
+    free(pszFullname);
+    free(pszBasename);
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
 =======
 >>>>>>> osgeo-main
     memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
@@ -2024,7 +3461,6 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 
         psSHP->sHooks.FClose(psSHP->fpSHP);
         free(psSHP);
-<<<<<<< HEAD
         free(pszFullname);
         return SHPLIB_NULLPTR;
     }
@@ -2032,74 +3468,19 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     free(pszFullname);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 
     /* -------------------------------------------------------------------- */
     /*  Read the file size from the SHP file.               */
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
 <<<<<<< HEAD
-    uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
-    if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
-        psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
-        psSHP->sHooks.FClose(psSHP->fpSHP);
-        psSHP->sHooks.FClose(psSHP->fpSHX);
-        free(pabyBuf);
-        free(psSHP);
-
->>>>>>> osgeo-main
-        return SHPLIB_NULLPTR;
-    }
-
-    psSHP->nFileSize = (STATIC_CAST(unsigned int, pabyBuf[24]) << 24) |
-                       (pabyBuf[25] << 16) | (pabyBuf[26] << 8) | pabyBuf[27];
-    if (psSHP->nFileSize < UINT_MAX / 2)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
-=======
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-    pabyBuf = (uchar *)malloc(100);
-    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
-
-=======
-    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
-=======
-        return SHPLIB_NULLPTR;
-    }
-
-    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
-    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
-        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
-        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
-    }
-
-    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
-        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
-        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
-        pszFullname[nLenWithoutExtension] = 0;
-        snprintf(pszMessage, nMessageLen,
-                 "Unable to open %s.shx or %s.SHX. "
-                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
-                 "create it.",
-                 pszFullname, pszFullname);
-        psHooks->Error(pszMessage);
-        free(pszMessage);
-
-        psSHP->sHooks.FClose(psSHP->fpSHP);
-        free(psSHP);
-=======
->>>>>>> osgeo-main
-        free(pszFullname);
-        return SHPLIB_NULLPTR;
-    }
-
-    free(pszFullname);
-
-    /* -------------------------------------------------------------------- */
-    /*  Read the file size from the SHP file.               */
-    /* -------------------------------------------------------------------- */
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
     if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
         psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
@@ -2139,15 +3520,271 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
                        (pabyBuf[25] << 16) | (pabyBuf[26] << 8) | pabyBuf[27];
     if (psSHP->nFileSize < UINT_MAX / 2)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    pabyBuf = (uchar *)malloc(100);
+    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
+
+=======
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen,
+<<<<<<< HEAD
+                 "Unable to open %s.shx or %s.SHX."
+                 "Try --config SHAPE_RESTORE_SHX true to restore or create it",
+                 pszBasename, pszBasename);
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        free(pszFullname);
+        return SHPLIB_NULLPTR;
+    }
+
+    free(pszFullname);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        free(pszBasename);
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        free(pszFullname);
+        return SHPLIB_NULLPTR;
+    }
+
+    free(pszFullname);
+<<<<<<< HEAD
+    free(pszBasename);
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+
+    /* -------------------------------------------------------------------- */
+    /*  Read the file size from the SHP file.               */
+    /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
+    if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
+        psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+        free(pabyBuf);
+        free(psSHP);
+<<<<<<< HEAD
+
+>>>>>>> osgeo-main
+        return SHPLIB_NULLPTR;
+    }
+
+    psSHP->nFileSize = (STATIC_CAST(unsigned int, pabyBuf[24]) << 24) |
+                       (pabyBuf[25] << 16) | (pabyBuf[26] << 8) | pabyBuf[27];
+    if (psSHP->nFileSize < UINT_MAX / 2)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    pabyBuf = (uchar *)malloc(100);
+    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
+
+=======
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHX", 5);
+        psSHP->fpSHX = psSHP->sHooks.FOpen(pszFullname, pszAccess);
+    }
+
+    if (psSHP->fpSHX == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen,
+                 "Unable to open %s.shx or %s.SHX. "
+                 "Set SHAPE_RESTORE_SHX config option to YES to restore or "
+                 "create it.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        free(psSHP);
+=======
+>>>>>>> osgeo-main
+        free(pszFullname);
+        return SHPLIB_NULLPTR;
+    }
+
+    free(pszFullname);
+
+    /* -------------------------------------------------------------------- */
+    /*  Read the file size from the SHP file.               */
+    /* -------------------------------------------------------------------- */
+    uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
+    if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
+        psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+        free(pabyBuf);
+        free(psSHP);
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    pabyBuf = (uchar *)malloc(100);
+    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    pabyBuf = (uchar *)malloc(100);
+    psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP);
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    psSHP->nFileSize =
+        ((unsigned int)pabyBuf[24] * 256 * 256 * 256 +
+         (unsigned int)pabyBuf[25] * 256 * 256 +
+         (unsigned int)pabyBuf[26] * 256 + (unsigned int)pabyBuf[27]);
+    if (psSHP->nFileSize < 0xFFFFFFFFU / 2)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+    uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
+    if (psSHP->sHooks.FRead(pabyBuf, 100, 1, psSHP->fpSHP) != 1) {
+        psSHP->sHooks.Error(".shp file is unreadable, or corrupt.");
+        psSHP->sHooks.FClose(psSHP->fpSHP);
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+        free(pabyBuf);
+        free(psSHP);
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        return SHPLIB_NULLPTR;
+    }
+
+    psSHP->nFileSize = (STATIC_CAST(unsigned int, pabyBuf[24]) << 24) |
+                       (pabyBuf[25] << 16) | (pabyBuf[26] << 8) | pabyBuf[27];
+    if (psSHP->nFileSize < UINT_MAX / 2)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->nFileSize *= 2;
@@ -2166,6 +3803,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2180,6 +3822,16 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         free(pabyBuf);
         free(psSHP);
@@ -2192,7 +3844,12 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2214,14 +3871,25 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        free(pabyBuf);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
         free(psSHP);
 
-        return (NULL);
+        return SHPLIB_NULLPTR;
     }
 
+<<<<<<< HEAD
     psSHP->nRecords = pabyBuf[27] + pabyBuf[26] * 256 +
                       pabyBuf[25] * 256 * 256 +
                       (pabyBuf[24] & 0x7F) * 256 * 256 * 256;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2247,6 +3915,58 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+        free(psSHP);
+
+        return (NULL);
+    }
+
+    psSHP->nRecords = pabyBuf[27] + pabyBuf[26] * 256 +
+                      pabyBuf[25] * 256 * 256 +
+                      (pabyBuf[24] & 0x7F) * 256 * 256 * 256;
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    psSHP->nRecords = pabyBuf[27] | (pabyBuf[26] << 8) | (pabyBuf[25] << 16) |
+                      ((pabyBuf[24] & 0x7F) << 24);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        free(pabyBuf);
+        free(psSHP);
+
+        return SHPLIB_NULLPTR;
+    }
+
+    psSHP->nRecords = pabyBuf[27] | (pabyBuf[26] << 8) | (pabyBuf[25] << 16) |
+                      ((pabyBuf[24] & 0x7F) << 24);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     psSHP->nRecords = (psSHP->nRecords - 50) / 4;
 
     psSHP->nShapeType = pabyBuf[32];
@@ -2255,6 +3975,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         char szErrorMsg[200];
 =======
 <<<<<<< HEAD
@@ -2265,12 +3990,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
         char szErrorMsg[200];
 =======
         char szError[200];
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2286,7 +4016,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2316,6 +4049,73 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        char szErrorMsg[200];
+=======
+        char szError[200];
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Record count in .shx header is %d, which seems\n"
+                 "unreasonable.  Assuming header is corrupt.",
+                 psSHP->nRecords);
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        char szError[200];
+=======
+        char szErrorMsg[200];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Record count in .shx header is %d, which seems\n"
+                 "unreasonable.  Assuming header is corrupt.",
+                 psSHP->nRecords);
+<<<<<<< HEAD
+        psSHP->sHooks.Error(szError);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         char szErrorMsg[200];
 
         snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -2327,10 +4127,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->sHooks.FClose(psSHP->fpSHP);
@@ -2341,6 +4138,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -2359,6 +4165,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
         return SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -2370,6 +4180,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         return (NULL);
 =======
@@ -2378,9 +4195,31 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        return SHPLIB_NULLPTR;
+=======
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -2391,6 +4230,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2405,6 +4249,16 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 2);
         const SAOffset nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
@@ -2414,7 +4268,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2451,9 +4309,50 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        SAOffset nFileSize;
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 2);
+        const SAOffset nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
+        if (nFileSize > 100 &&
+<<<<<<< HEAD
+            nFileSize / 2 < (SAOffset)(psSHP->nRecords * 4 + 50)) {
+            psSHP->nRecords = (int)((nFileSize - 100) / 8);
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            nFileSize / 2 < STATIC_CAST(SAOffset, psSHP->nRecords * 4 + 50)) {
+            psSHP->nRecords = STATIC_CAST(int, (nFileSize - 100) / 8);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+        psSHP->sHooks.FSeek(psSHP->fpSHX, 0, 2);
+        const SAOffset nFileSize = psSHP->sHooks.FTell(psSHP->fpSHX);
+        if (nFileSize > 100 &&
+            nFileSize / 2 < STATIC_CAST(SAOffset, psSHP->nRecords * 4 + 50)) {
+            psSHP->nRecords = STATIC_CAST(int, (nFileSize - 100) / 8);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -2466,6 +4365,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     double dValue;
 
 =======
@@ -2487,6 +4393,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    double dValue;
+
+=======
+>>>>>>> osgeo-main
+=======
     double dValue;
 
 =======
@@ -2506,9 +4417,37 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    double dValue;
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    double dValue;
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     if (bBigEndian)
@@ -2562,6 +4501,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2571,6 +4515,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -2579,6 +4525,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
     psSHP->panRecOffset =
         STATIC_CAST(unsigned int *,
@@ -2589,8 +4539,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2616,7 +4569,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2660,6 +4616,100 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    psSHP->panRecOffset =
+        STATIC_CAST(unsigned int *,
+                    malloc(sizeof(unsigned int) * MAX(1, psSHP->nMaxRecords)));
+    psSHP->panRecSize =
+        STATIC_CAST(unsigned int *,
+                    malloc(sizeof(unsigned int) * MAX(1, psSHP->nMaxRecords)));
+<<<<<<< HEAD
+    if (bLazySHXLoading)
+        pabyBuf = SHPLIB_NULLPTR;
+    else
+        pabyBuf = STATIC_CAST(uchar *, malloc(8 * MAX(1, psSHP->nRecords)));
+
+    if (psSHP->panRecOffset == SHPLIB_NULLPTR ||
+        psSHP->panRecSize == SHPLIB_NULLPTR ||
+        (!bLazySHXLoading && pabyBuf == SHPLIB_NULLPTR)) {
+        char szErrorMsg[200];
+
+        snprintf(
+            szErrorMsg, sizeof(szErrorMsg),
+            "Not enough memory to allocate requested memory (nRecords=%d).\n"
+            "Probably broken SHP file",
+            psSHP->nRecords);
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    psSHP->panRecOffset = (unsigned int *)malloc(sizeof(unsigned int) *
+                                                 MAX(1, psSHP->nMaxRecords));
+    psSHP->panRecSize = (unsigned int *)malloc(sizeof(unsigned int) *
+                                               MAX(1, psSHP->nMaxRecords));
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    if (bLazySHXLoading)
+        pabyBuf = SHPLIB_NULLPTR;
+    else
+        pabyBuf = STATIC_CAST(uchar *, malloc(8 * MAX(1, psSHP->nRecords)));
+
+    if (psSHP->panRecOffset == SHPLIB_NULLPTR ||
+        psSHP->panRecSize == SHPLIB_NULLPTR ||
+        (!bLazySHXLoading && pabyBuf == SHPLIB_NULLPTR)) {
+        char szErrorMsg[200];
+
+        snprintf(
+            szErrorMsg, sizeof(szErrorMsg),
+            "Not enough memory to allocate requested memory (nRecords=%d).\n"
+            "Probably broken SHP file",
+            psSHP->nRecords);
+<<<<<<< HEAD
+        psSHP->sHooks.Error(szError);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
     psSHP->panRecOffset =
         STATIC_CAST(unsigned int *,
                     malloc(sizeof(unsigned int) * MAX(1, psSHP->nMaxRecords)));
@@ -2686,10 +4736,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->sHooks.FClose(psSHP->fpSHP);
@@ -2704,6 +4751,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -2722,6 +4778,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
         return SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -2733,6 +4793,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         return (NULL);
 =======
@@ -2741,9 +4808,31 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        return SHPLIB_NULLPTR;
+=======
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -2756,6 +4845,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         free(pabyBuf); // sometimes make cppcheck happy, but
 =======
 <<<<<<< HEAD
@@ -2766,6 +4860,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         free(pabyBuf); // sometimes make cppcheck happy, but
@@ -2773,6 +4871,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2786,8 +4888,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2804,7 +4909,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2837,6 +4945,83 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        free(pabyBuf); // sometimes make cppcheck happy, but
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        return (psSHP);
+    }
+
+    if (STATIC_CAST(int, psSHP->sHooks.FRead(pabyBuf, 8, psSHP->nRecords,
+                                             psSHP->fpSHX)) !=
+<<<<<<< HEAD
+        psSHP->nRecords) {
+        char szErrorMsg[200];
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Failed to read all values for %d records in .shx file: %s.",
+                 psSHP->nRecords, strerror(errno));
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        return (psSHP);
+    }
+
+=======
+        return (psSHP);
+    }
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    if ((int)psSHP->sHooks.FRead(pabyBuf, 8, psSHP->nRecords, psSHP->fpSHX) !=
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        psSHP->nRecords) {
+        char szErrorMsg[200];
+
+<<<<<<< HEAD
+        snprintf(szError, sizeof(szError),
+                 "Failed to read all values for %d records in .shx file.",
+                 psSHP->nRecords);
+        psSHP->sHooks.Error(szError);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         free(pabyBuf); // sometimes make cppcheck happy, but
         return (psSHP);
     }
@@ -2854,15 +5039,18 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
         psSHP->sHooks.Error(szErrorMsg);
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
->>>>>>> osgeo-main
 =======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 
         /* SHX is short or unreadable for some reason. */
@@ -2876,6 +5064,15 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -2894,6 +5091,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
         return SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -2905,6 +5106,13 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 =======
         return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         return (NULL);
 =======
@@ -2913,9 +5121,31 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        return SHPLIB_NULLPTR;
+=======
+        return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -2926,6 +5156,11 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         psSHP->fpSHX = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -2936,12 +5171,17 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
         psSHP->fpSHX = SHPLIB_NULLPTR;
 =======
         psSHP->fpSHX = NULL;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2982,6 +5222,7 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
         psSHP->panRecOffset[i] = nOffset * 2;
         psSHP->panRecSize[i] = nLength * 2;
@@ -2989,6 +5230,8 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
     free(pabyBuf);
 
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3040,6 +5283,110 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        psSHP->fpSHX = SHPLIB_NULLPTR;
+=======
+        psSHP->fpSHX = NULL;
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    }
+
+    for (int i = 0; i < psSHP->nRecords; i++) {
+        unsigned int nOffset;
+        memcpy(&nOffset, pabyBuf + i * 8, 4);
+        if (!bBigEndian)
+            SwapWord(4, &nOffset);
+
+        unsigned int nLength;
+        memcpy(&nLength, pabyBuf + i * 8 + 4, 4);
+        if (!bBigEndian)
+            SwapWord(4, &nLength);
+
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid offset for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            SHPClose(psSHP);
+            free(pabyBuf);
+            return SHPLIB_NULLPTR;
+        }
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid length for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            SHPClose(psSHP);
+            free(pabyBuf);
+            return SHPLIB_NULLPTR;
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        psSHP->fpSHX = NULL;
+=======
+        psSHP->fpSHX = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    }
+
+    for (int i = 0; i < psSHP->nRecords; i++) {
+        unsigned int nOffset;
+        memcpy(&nOffset, pabyBuf + i * 8, 4);
+        if (!bBigEndian)
+            SwapWord(4, &nOffset);
+
+        unsigned int nLength;
+        memcpy(&nLength, pabyBuf + i * 8 + 4, 4);
+        if (!bBigEndian)
+            SwapWord(4, &nLength);
+
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid offset for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            SHPClose(psSHP);
+            free(pabyBuf);
+            return SHPLIB_NULLPTR;
+        }
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid length for entity %d", i);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            SHPClose(psSHP);
+            free(pabyBuf);
+<<<<<<< HEAD
+            return NULL;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         psSHP->fpSHX = SHPLIB_NULLPTR;
     }
 
@@ -3075,6 +5422,10 @@ SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszLayer, const char *pszAccess,
             return SHPLIB_NULLPTR;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         }
         psSHP->panRecOffset[i] = nOffset * 2;
         psSHP->panRecSize[i] = nLength * 2;
@@ -3107,6 +5458,15 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -3125,6 +5485,10 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
     return SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -3136,6 +5500,13 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 =======
     return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     return (NULL);
 =======
@@ -3144,9 +5515,31 @@ SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    return SHPLIB_NULLPTR;
+=======
+    return (NULL);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    return (NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 }
@@ -3164,6 +5557,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3173,11 +5571,31 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     char *pszFullname, *pszBasename;
     SAFile fpSHP, fpSHX;
 
@@ -3201,20 +5619,51 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -3226,6 +5675,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3234,6 +5688,16 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         strcmp(pszAccess, "r+") == 0) {
         pszAccess = "r+b";
@@ -3245,10 +5709,14 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         strcmp(pszAccess, "r+") == 0) {
         pszAccess = "r+b";
     }
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3260,6 +5728,17 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
         strcmp(pszAccess, "r+") == 0)
         pszAccess = "r+b";
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        strcmp(pszAccess, "r+") == 0)
+        pszAccess = "r+b";
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
         strcmp(pszAccess, "r+") == 0)
         pszAccess = "r+b";
@@ -3269,15 +5748,38 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
         pszAccess = "r+b";
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        strcmp(pszAccess, "r+") == 0)
+        pszAccess = "r+b";
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     else {
@@ -3291,12 +5793,18 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3449,6 +5957,128 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+    {
+        int i = 1;
+        if (*((uchar *)&i) == 1)
+            bBigEndian = false;
+        else
+            bBigEndian = true;
+<<<<<<< HEAD
+    }
+#endif
+
+    /* -------------------------------------------------------------------- */
+    /*  Open the .shp file.  Note that files pulled from                    */
+    /*  a PC to Unix with upper case filenames won't work!                  */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, pszAccess);
+    if (fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
+        fpSHP = psHooks->FOpen(pszFullname, pszAccess);
+    }
+
+    if (fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        free(pszFullname);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    i = 1;
+    if (*((uchar *)&i) == 1)
+        bBigEndian = FALSE;
+    else
+        bBigEndian = TRUE;
+#endif
+
+    /* -------------------------------------------------------------------- */
+    /*  Compute the base (layer) name.  If there is any extension           */
+    /*  on the passed in filename we will strip it off.                     */
+    /* -------------------------------------------------------------------- */
+    pszBasename = (char *)malloc(strlen(pszLayer) + 5);
+    strcpy(pszBasename, pszLayer);
+    for (i = (int)strlen(pszBasename) - 1;
+         i > 0 && pszBasename[i] != '.' && pszBasename[i] != '/' &&
+         pszBasename[i] != '\\';
+         i--) {
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    }
+#endif
+
+    /* -------------------------------------------------------------------- */
+    /*  Open the .shp file.  Note that files pulled from                    */
+    /*  a PC to Unix with upper case filenames won't work!                  */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, pszAccess);
+    if (fpSHP == SHPLIB_NULLPTR) {
+        memcpy(pszFullname + nLenWithoutExtension, ".SHP", 5);
+        fpSHP = psHooks->FOpen(pszFullname, pszAccess);
+    }
+
+    if (fpSHP == SHPLIB_NULLPTR) {
+        const size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+
+        pszFullname[nLenWithoutExtension] = 0;
+        snprintf(pszMessage, nMessageLen, "Unable to open %s.shp or %s.SHP.",
+                 pszFullname, pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        free(pszFullname);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
     {
         int i = 1;
         if (*((uchar *)&i) == 1)
@@ -3486,6 +6116,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         return (0);
     }
 
@@ -3496,8 +6130,27 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
     if (psHooks->FRead(pabyBuf, 100, 1, fpSHP) != 1) {
         psHooks->Error(".shp file is unreadable, or corrupt.");
@@ -3505,6 +6158,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 
 >>>>>>> osgeo-main
         free(pabyBuf);
@@ -3520,7 +6177,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
     pabyBuf = (uchar *)malloc(100);
     psHooks->FRead(pabyBuf, 100, 1, fpSHP);
@@ -3541,6 +6201,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 =======
     uchar *pabyBuf = STATIC_CAST(uchar *, malloc(100));
@@ -3548,8 +6212,15 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
         psHooks->Error(".shp file is unreadable, or corrupt.");
         psHooks->FClose(fpSHP);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -3565,7 +6236,13 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     if (nSHPFilesize < UINT_MAX / 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3575,10 +6252,29 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     psHooks->FRead(pabyBuf, 100, 1, fpSHP);
 
 =======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    pabyBuf = (uchar *)malloc(100);
+    psHooks->FRead(pabyBuf, 100, 1, fpSHP);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> osgeo-main
     pabyBuf = (uchar *)malloc(100);
     psHooks->FRead(pabyBuf, 100, 1, fpSHP);
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     nSHPFilesize =
         ((unsigned int)pabyBuf[24] * 256 * 256 * 256 +
          (unsigned int)pabyBuf[25] * 256 * 256 +
@@ -3586,6 +6282,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     if (nSHPFilesize < 0xFFFFFFFFU / 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3609,19 +6310,41 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
                                 pabyBuf[27];
     if (nSHPFilesize < UINT_MAX / 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         nSHPFilesize *= 2;
@@ -3631,6 +6354,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3640,6 +6368,8 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -3648,6 +6378,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
     memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
     const char pszSHXAccess[] = "w+b";
@@ -3659,8 +6393,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3679,7 +6416,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3707,6 +6447,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
     fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
 
@@ -3728,6 +6472,96 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    const char pszSHXAccess[] = "w+b";
+    SAFile fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
+    if (fpSHX == SHPLIB_NULLPTR) {
+        size_t nMessageLen = strlen(pszFullname) * 2 + 256;
+        char *pszMessage = STATIC_CAST(char *, malloc(nMessageLen));
+        pszFullname[nLenWithoutExtension] = 0;
+<<<<<<< HEAD
+        snprintf(pszMessage, nMessageLen,
+                 "Error opening file %s.shx for writing", pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psHooks->FClose(fpSHP);
+
+        free(pabyBuf);
+        free(pszFullname);
+
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+    fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
+
+    if (fpSHX == NULL) {
+        nMessageLen = strlen(pszBasename) * 2 + 256;
+        pszMessage = (char *)malloc(nMessageLen);
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        snprintf(pszMessage, nMessageLen,
+                 "Error opening file %s.shx for writing", pszFullname);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psHooks->FClose(fpSHP);
+
+        free(pabyBuf);
+        free(pszFullname);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    snprintf(pszFullname, nFullnameLen, "%s.shx", pszBasename);
+    fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
+
+    if (fpSHX == NULL) {
+        nMessageLen = strlen(pszBasename) * 2 + 256;
+        pszMessage = (char *)malloc(nMessageLen);
+        snprintf(pszMessage, nMessageLen,
+                 "Error opening file %s.shx for writing", pszBasename);
+        psHooks->Error(pszMessage);
+        free(pszMessage);
+
+        psHooks->FClose(fpSHX);
+
+        free(pabyBuf);
+        free(pszBasename);
+        free(pszFullname);
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
     memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
     const char pszSHXAccess[] = "w+b";
     SAFile fpSHX = psHooks->FOpen(pszFullname, pszSHXAccess);
@@ -3748,10 +6582,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         return (0);
@@ -3764,6 +6595,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3778,6 +6614,16 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
     memcpy(pabySHXHeader, pabyBuf, 100);
@@ -3805,7 +6651,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3841,6 +6691,84 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+    pabySHXHeader = (char *)malloc(100);
+=======
+    char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    memcpy(pabySHXHeader, pabyBuf, 100);
+    psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
+    free(pabyBuf);
+
+    // unsigned int nCurrentRecordOffset = 0;
+    unsigned int nCurrentSHPOffset = 100;
+    unsigned int nRealSHXContentSize = 100;
+    unsigned int niRecord = 0;
+    unsigned int nRecordLength = 0;
+    unsigned int nRecordOffset = 50;
+    char abyReadRecord[8];
+
+    while (nCurrentSHPOffset < nSHPFilesize) {
+        if (psHooks->FRead(&niRecord, 4, 1, fpSHP) == 1 &&
+            psHooks->FRead(&nRecordLength, 4, 1, fpSHP) == 1) {
+            if (!bBigEndian)
+                SwapWord(4, &nRecordOffset);
+            memcpy(abyReadRecord, &nRecordOffset, 4);
+            memcpy(abyReadRecord + 4, &nRecordLength, 4);
+
+            psHooks->FWrite(abyReadRecord, 8, 1, fpSHX);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
+    memcpy(pabySHXHeader, pabyBuf, 100);
+    psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
+    free(pabyBuf);
+
+    // unsigned int nCurrentRecordOffset = 0;
+    unsigned int nCurrentSHPOffset = 100;
+    unsigned int nRealSHXContentSize = 100;
+    unsigned int niRecord = 0;
+    unsigned int nRecordLength = 0;
+    unsigned int nRecordOffset = 50;
+    char abyReadRecord[8];
+
+    while (nCurrentSHPOffset < nSHPFilesize) {
+        if (psHooks->FRead(&niRecord, 4, 1, fpSHP) == 1 &&
+            psHooks->FRead(&nRecordLength, 4, 1, fpSHP) == 1) {
+            if (!bBigEndian)
+                SwapWord(4, &nRecordOffset);
+            memcpy(abyReadRecord, &nRecordOffset, 4);
+            memcpy(abyReadRecord + 4, &nRecordLength, 4);
+
+            psHooks->FWrite(abyReadRecord, 8, 1, fpSHX);
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     pabySHXHeader = (char *)malloc(100);
     memcpy(pabySHXHeader, pabyBuf, 100);
     psHooks->FWrite(pabySHXHeader, 100, 1, fpSHX);
@@ -3857,6 +6785,12 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
     char *pabySHXHeader = STATIC_CAST(char *, malloc(100));
@@ -3885,10 +6819,7 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             if (!bBigEndian)
@@ -3899,6 +6830,13 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             // nCurrentRecordOffset += 8;
 =======
 <<<<<<< HEAD
@@ -3917,6 +6855,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            // nCurrentRecordOffset += 8;
+=======
+>>>>>>> osgeo-main
+=======
             // nCurrentRecordOffset += 8;
 =======
 >>>>>>> osgeo-main
@@ -3933,9 +6875,35 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+            // nCurrentRecordOffset += 8;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            // nCurrentRecordOffset += 8;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            // nCurrentRecordOffset += 8;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             nCurrentSHPOffset += 8 + nRecordLength * 2;
@@ -3947,6 +6915,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             psHooks->Error("Error parsing .shp to restore .shx");
 =======
 <<<<<<< HEAD
@@ -3965,6 +6938,10 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            psHooks->Error("Error parsing .shp to restore .shx");
+=======
+>>>>>>> osgeo-main
+=======
             psHooks->Error("Error parsing .shp to restore .shx");
 =======
 >>>>>>> osgeo-main
@@ -3972,6 +6949,28 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+            psHooks->Error("Error parsing .shp to restore .shx");
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+            psHooks->Error("Error parsing .shp to restore .shx");
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
             nMessageLen = strlen(pszBasename) * 2 + 256;
             pszMessage = (char *)malloc(nMessageLen);
             snprintf(pszMessage, nMessageLen,
@@ -3980,12 +6979,27 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
             free(pszMessage);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             psHooks->Error("Error parsing .shp to restore .shx");
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
             psHooks->Error("Error parsing .shp to restore .shx");
@@ -3993,9 +7007,25 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -4006,6 +7036,11 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4015,12 +7050,25 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             free(pszBasename);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             free(pszBasename);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4030,9 +7078,26 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+            free(pszBasename);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             free(pszFullname);
@@ -4053,6 +7118,17 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     free(pszFullname);
 =======
 <<<<<<< HEAD
@@ -4071,6 +7147,14 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    free(pszFullname);
+=======
+>>>>>>> osgeo-main
+=======
+    free(pszFullname);
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
     free(pszFullname);
 =======
 >>>>>>> osgeo-main
@@ -4078,11 +7162,23 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
     free(pszFullname);
     free(pszBasename);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
     free(pabyBuf);
     free(pszFullname);
     free(pszBasename);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
     free(pszFullname);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -4096,9 +7192,24 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    free(pszFullname);
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     free(pabySHXHeader);
@@ -4111,6 +7222,17 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 /*                                           */
 /*    Close the .shp and .shx files.                    */
 =======
@@ -4132,6 +7254,16 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+/*                                           */
+/*    Close the .shp and .shx files.                    */
+=======
+>>>>>>> osgeo-main
+=======
+/*                                           */
+/*    Close the .shp and .shx files.                    */
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 /*                                           */
 /*    Close the .shp and .shx files.                    */
 =======
@@ -4140,15 +7272,36 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 /*      Close the .shp and .shx files.                                  */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 /*                                                                      */
 /*      Close the .shp and .shx files.                                  */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 /*                                           */
 /*    Close the .shp and .shx files.                    */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 /*                                                                      */
 /*      Close the .shp and .shx files.                                  */
@@ -4160,9 +7313,21 @@ int SHPAPI_CALL SHPRestoreSHX(const char *pszLayer, const char *pszAccess,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 /************************************************************************/
@@ -4172,6 +7337,11 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4186,12 +7356,24 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (psSHP == SHPLIB_NULLPTR)
         return;
 
     /* -------------------------------------------------------------------- */
     /*    Update the header if we have modified anything.            */
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4211,18 +7393,37 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
     if (psSHP == NULL)
         return;
 
     /* -------------------------------------------------------------------- */
     /*      Update the header if we have modified anything.                 */
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -4233,6 +7434,8 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
     /*    Update the header if we have modified anything.            */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
     /* -------------------------------------------------------------------- */
     if (psSHP->bUpdated)
         SHPWriteHeader(psSHP);
@@ -4320,6 +7523,95 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 
     /* -------------------------------------------------------------------- */
     /*    Update the header if we have modified anything.            */
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+    /* -------------------------------------------------------------------- */
+    if (psSHP->bUpdated)
+        SHPWriteHeader(psSHP);
+
+    /* -------------------------------------------------------------------- */
+    /*      Free all resources, and close files.                            */
+    /* -------------------------------------------------------------------- */
+    free(psSHP->panRecOffset);
+    free(psSHP->panRecSize);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+    if (psSHP->fpSHX != SHPLIB_NULLPTR)
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+    psSHP->sHooks.FClose(psSHP->fpSHP);
+
+    if (psSHP->pabyRec != SHPLIB_NULLPTR) {
+        free(psSHP->pabyRec);
+    }
+
+    if (psSHP->pabyObjectBuf != SHPLIB_NULLPTR) {
+        free(psSHP->pabyObjectBuf);
+    }
+    if (psSHP->psCachedObject != SHPLIB_NULLPTR) {
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    if (psSHP->fpSHX != NULL)
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+    psSHP->sHooks.FClose(psSHP->fpSHP);
+
+    if (psSHP->pabyRec != NULL) {
+        free(psSHP->pabyRec);
+    }
+
+    if (psSHP->pabyObjectBuf != NULL) {
+        free(psSHP->pabyObjectBuf);
+    }
+    if (psSHP->psCachedObject != NULL) {
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (psSHP->fpSHX != SHPLIB_NULLPTR)
+        psSHP->sHooks.FClose(psSHP->fpSHX);
+    psSHP->sHooks.FClose(psSHP->fpSHP);
+
+    if (psSHP->pabyRec != SHPLIB_NULLPTR) {
+        free(psSHP->pabyRec);
+    }
+
+    if (psSHP->pabyObjectBuf != SHPLIB_NULLPTR) {
+        free(psSHP->pabyObjectBuf);
+    }
+    if (psSHP->psCachedObject != SHPLIB_NULLPTR) {
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        free(psSHP->psCachedObject);
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    if (psSHP == NULL)
+=======
+    if (psSHP == SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        return;
+
+    /* -------------------------------------------------------------------- */
+    /*    Update the header if we have modified anything.            */
     /* -------------------------------------------------------------------- */
     if (psSHP->bUpdated)
         SHPWriteHeader(psSHP);
@@ -4347,10 +7639,7 @@ void SHPAPI_CALL SHPClose(SHPHandle psSHP)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
     free(psSHP);
@@ -4373,6 +7662,11 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4382,6 +7676,8 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -4391,11 +7687,28 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
         if (hSHP->psCachedObject == SHPLIB_NULLPTR) {
             hSHP->psCachedObject =
                 STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
             assert(hSHP->psCachedObject != SHPLIB_NULLPTR);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4403,17 +7716,35 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> osgeo-main
         if (hSHP->psCachedObject == NULL) {
             hSHP->psCachedObject = (SHPObject *)calloc(1, sizeof(SHPObject));
             assert(hSHP->psCachedObject != NULL);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         if (hSHP->psCachedObject == NULL) {
             hSHP->psCachedObject = (SHPObject *)calloc(1, sizeof(SHPObject));
             assert(hSHP->psCachedObject != NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -4429,9 +7760,23 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -4452,6 +7797,11 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4466,6 +7816,16 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (psSHP == SHPLIB_NULLPTR)
         return;
@@ -4483,7 +7843,11 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4512,21 +7876,31 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     int i;
 
     if (psSHP == NULL)
+=======
+    if (psSHP == SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         return;
 
-    if (pnEntities != NULL)
+    if (pnEntities != SHPLIB_NULLPTR)
         *pnEntities = psSHP->nRecords;
 
-    if (pnShapeType != NULL)
+    if (pnShapeType != SHPLIB_NULLPTR)
         *pnShapeType = psSHP->nShapeType;
 
-    for (i = 0; i < 4; i++) {
-        if (padfMinBound != NULL)
+    for (int i = 0; i < 4; i++) {
+        if (padfMinBound != SHPLIB_NULLPTR)
             padfMinBound[i] = psSHP->adBoundsMin[i];
+<<<<<<< HEAD
         if (padfMaxBound != NULL)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4554,6 +7928,69 @@ void SHPAPI_CALL SHPGetInfo(SHPHandle psSHP, int *pnEntities, int *pnShapeType,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+    int i;
+
+    if (psSHP == NULL)
+        return;
+
+    if (pnEntities != NULL)
+        *pnEntities = psSHP->nRecords;
+
+    if (pnShapeType != NULL)
+        *pnShapeType = psSHP->nShapeType;
+
+    for (i = 0; i < 4; i++) {
+        if (padfMinBound != NULL)
+            padfMinBound[i] = psSHP->adBoundsMin[i];
+        if (padfMaxBound != NULL)
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (padfMaxBound != SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+        if (padfMaxBound != SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
+=======
+    if (psSHP == SHPLIB_NULLPTR)
+        return;
+
+    if (pnEntities != SHPLIB_NULLPTR)
+        *pnEntities = psSHP->nRecords;
+
+    if (pnShapeType != SHPLIB_NULLPTR)
+        *pnShapeType = psSHP->nShapeType;
+
+    for (int i = 0; i < 4; i++) {
+        if (padfMinBound != SHPLIB_NULLPTR)
+            padfMinBound[i] = psSHP->adBoundsMin[i];
+        if (padfMaxBound != SHPLIB_NULLPTR)
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             padfMaxBound[i] = psSHP->adBoundsMax[i];
@@ -4589,6 +8026,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4598,6 +8040,12 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 /* -------------------------------------------------------------------- */
 /*      Establish the byte order on this system.                        */
 /* -------------------------------------------------------------------- */
@@ -4676,6 +8124,10 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 /*      Establish the byte order on this system.                        */
 /* -------------------------------------------------------------------- */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 #if !defined(bBigEndian)
     {
         int i = 1;
@@ -4734,9 +8186,171 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+/* -------------------------------------------------------------------- */
+/*      Establish the byte order on this system.                        */
+/* -------------------------------------------------------------------- */
+=======
+    char *pszBasename = NULL, *pszFullname = NULL;
+    int i;
+    SAFile fpSHP = NULL, fpSHX = NULL;
+    uchar abyHeader[100];
+    int32 i32;
+    double dValue;
+    size_t nFullnameLen;
+
+    /* -------------------------------------------------------------------- */
+    /*      Establish the byte order on this system.                        */
+    /* -------------------------------------------------------------------- */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+#if !defined(bBigEndian)
+    {
+        int i = 1;
+        if (*((uchar *)&i) == 1)
+            bBigEndian = false;
+        else
+            bBigEndian = true;
+    }
+#endif
+
+    /* -------------------------------------------------------------------- */
+    /*      Open the two files so we can write their headers.               */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHP == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        return NULL;
+    }
+
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    SAFile fpSHX = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHX == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        psHooks->FClose(fpSHP);
+        return NULL;
+    }
+
+    free(pszFullname);
+    pszFullname = SHPLIB_NULLPTR;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+=======
+    char *pszBasename = NULL, *pszFullname = NULL;
+    int i;
+    SAFile fpSHP = NULL, fpSHX = NULL;
+    uchar abyHeader[100];
+    int32 i32;
+    double dValue;
+    size_t nFullnameLen;
+
+    /* -------------------------------------------------------------------- */
+    /*      Establish the byte order on this system.                        */
+    /* -------------------------------------------------------------------- */
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+#if !defined(bBigEndian)
+    {
+        int i = 1;
+        if (*((uchar *)&i) == 1)
+            bBigEndian = false;
+        else
+            bBigEndian = true;
+    }
+#endif
+
+    /* -------------------------------------------------------------------- */
+    /*      Open the two files so we can write their headers.               */
+    /* -------------------------------------------------------------------- */
+    const int nLenWithoutExtension = SHPGetLenWithoutExtension(pszLayer);
+    char *pszFullname = STATIC_CAST(char *, malloc(nLenWithoutExtension + 5));
+    memcpy(pszFullname, pszLayer, nLenWithoutExtension);
+    memcpy(pszFullname + nLenWithoutExtension, ".shp", 5);
+    SAFile fpSHP = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHP == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        return NULL;
+    }
+
+    memcpy(pszFullname + nLenWithoutExtension, ".shx", 5);
+    SAFile fpSHX = psHooks->FOpen(pszFullname, "wb");
+    if (fpSHX == SHPLIB_NULLPTR) {
+        char szErrorMsg[200];
+        snprintf(szErrorMsg, sizeof(szErrorMsg), "Failed to create file %s: %s",
+                 pszFullname, strerror(errno));
+        psHooks->Error(szErrorMsg);
+
+        free(pszFullname);
+        psHooks->FClose(fpSHP);
+        return NULL;
+    }
+
+    free(pszFullname);
+<<<<<<< HEAD
+    pszFullname = NULL;
+    free(pszBasename);
+    pszBasename = NULL;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    pszFullname = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
 =======
 >>>>>>> osgeo-main
 /* -------------------------------------------------------------------- */
@@ -4785,20 +8399,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 
     free(pszFullname);
     pszFullname = SHPLIB_NULLPTR;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
->>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
->>>>>>> osgeo-main
-=======
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 
     /* -------------------------------------------------------------------- */
@@ -4807,6 +8412,13 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     uchar abyHeader[100];
     memset(abyHeader, 0, sizeof(abyHeader));
 =======
@@ -4828,6 +8440,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    uchar abyHeader[100];
+    memset(abyHeader, 0, sizeof(abyHeader));
+=======
+>>>>>>> osgeo-main
+=======
     uchar abyHeader[100];
     memset(abyHeader, 0, sizeof(abyHeader));
 =======
@@ -4851,9 +8468,36 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    uchar abyHeader[100];
+    memset(abyHeader, 0, sizeof(abyHeader));
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    for (i = 0; i < 100; i++)
+        abyHeader[i] = 0;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    uchar abyHeader[100];
+    memset(abyHeader, 0, sizeof(abyHeader));
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -4863,6 +8507,15 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     int32 i32 = 50; /* file size */
 =======
 <<<<<<< HEAD
@@ -4881,6 +8534,10 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    int32 i32 = 50; /* file size */
+=======
+>>>>>>> osgeo-main
+=======
     int32 i32 = 50; /* file size */
 =======
 >>>>>>> osgeo-main
@@ -4892,6 +8549,13 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
     int32 i32 = 50; /* file size */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     i32 = 50; /* file size */
 =======
@@ -4900,9 +8564,31 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    int32 i32 = 50; /* file size */
+=======
+    i32 = 50; /* file size */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    i32 = 50; /* file size */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     ByteCopy(&i32, abyHeader + 24, 4);
@@ -4922,6 +8608,15 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     double dValue = 0.0; /* set bounds */
 =======
 <<<<<<< HEAD
@@ -4940,6 +8635,10 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    double dValue = 0.0; /* set bounds */
+=======
+>>>>>>> osgeo-main
+=======
     double dValue = 0.0; /* set bounds */
 =======
 >>>>>>> osgeo-main
@@ -4951,6 +8650,13 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
     double dValue = 0.0; /* set bounds */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     dValue = 0.0; /* set bounds */
 =======
@@ -4959,9 +8665,31 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    double dValue = 0.0; /* set bounds */
+=======
+    dValue = 0.0; /* set bounds */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    dValue = 0.0; /* set bounds */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     ByteCopy(&dValue, abyHeader + 36, 8);
@@ -4976,6 +8704,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4985,6 +8718,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -4993,6 +8728,18 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         char szErrorMsg[200];
 
@@ -5006,6 +8753,9 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
         psHooks->FClose(fpSHX);
         return NULL;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5013,6 +8763,9 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -5041,9 +8794,30 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        psHooks->Error("Failed to write .shp header.");
+        goto error;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -5060,6 +8834,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5069,6 +8848,8 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5077,6 +8858,18 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         char szErrorMsg[200];
 
@@ -5090,6 +8883,9 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
         psHooks->FClose(fpSHX);
         return NULL;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5097,6 +8893,9 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -5125,9 +8924,30 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        psHooks->Error("Failed to write .shx header.");
+        goto error;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -5142,6 +8962,11 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5151,11 +8976,31 @@ SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszLayer, int nShapeType,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 
 error:
     if (pszFullname)
@@ -5168,18 +9013,43 @@ error:
         psHooks->FClose(fpSHX);
     return NULL;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 }
@@ -5218,6 +9088,11 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5227,14 +9102,36 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     int i;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
     int i;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -5245,9 +9142,23 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -5263,6 +9174,15 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -5281,6 +9201,10 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -5292,6 +9216,13 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 =======
     for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -5300,9 +9231,31 @@ void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    for (int i = 0; i < psObject->nVertices; i++) {
+=======
+    for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psObject->dfXMin = MIN(psObject->dfXMin, psObject->padfX[i]);
@@ -5333,6 +9286,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     SHPObject *psObject =
         STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
 =======
@@ -5354,6 +9312,11 @@ SHPObject SHPAPI_CALL1(*)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    SHPObject *psObject =
+        STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
+=======
+>>>>>>> osgeo-main
+=======
     SHPObject *psObject =
         STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
 =======
@@ -5362,12 +9325,44 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+    SHPObject *psObject =
+        STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    SHPObject *psObject =
+        STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     SHPObject *psObject;
     int i, bHasM, bHasZ;
 
     psObject = (SHPObject *)calloc(1, sizeof(SHPObject));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5375,6 +9370,13 @@ SHPObject SHPAPI_CALL1(*)
     SHPObject *psObject =
         STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
     SHPObject *psObject =
@@ -5383,9 +9385,25 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     psObject->nSHPType = nSHPType;
@@ -5396,6 +9414,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5405,6 +9428,14 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     /*    Establish whether this shape type has M, and Z values.        */
 =======
     /*      Establish whether this shape type has M, and Z values.          */
@@ -5420,6 +9451,10 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     /*      Establish whether this shape type has M, and Z values.          */
 =======
     /*    Establish whether this shape type has M, and Z values.        */
@@ -5443,9 +9478,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
     /*    Establish whether this shape type has M, and Z values.        */
@@ -5460,6 +9500,8 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -5468,6 +9510,53 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*      Establish whether this shape type has M, and Z values.          */
+=======
+    /*    Establish whether this shape type has M, and Z values.        */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    /* -------------------------------------------------------------------- */
+    bool bHasM;
+    bool bHasZ;
+
+    if (nSHPType == SHPT_ARCM || nSHPType == SHPT_POINTM ||
+        nSHPType == SHPT_POLYGONM || nSHPType == SHPT_MULTIPOINTM) {
+<<<<<<< HEAD
+        bHasM = TRUE;
+        bHasZ = FALSE;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        bHasM = true;
+        bHasZ = false;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+    /*    Establish whether this shape type has M, and Z values.        */
+    /* -------------------------------------------------------------------- */
+    bool bHasM;
+    bool bHasZ;
+
+    if (nSHPType == SHPT_ARCM || nSHPType == SHPT_POINTM ||
+        nSHPType == SHPT_POLYGONM || nSHPType == SHPT_MULTIPOINTM) {
+        bHasM = true;
+        bHasZ = false;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -5479,6 +9568,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5487,6 +9581,10 @@ SHPObject SHPAPI_CALL1(*)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
         bHasM = true;
         bHasZ = true;
@@ -5501,6 +9599,14 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         bHasM = true;
         bHasZ = true;
     }
@@ -5508,6 +9614,9 @@ SHPObject SHPAPI_CALL1(*)
         bHasM = false;
         bHasZ = false;
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5516,6 +9625,17 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         bHasM = TRUE;
         bHasZ = TRUE;
     }
@@ -5523,10 +9643,27 @@ SHPObject SHPAPI_CALL1(*)
         bHasM = FALSE;
         bHasZ = FALSE;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         bHasM = true;
         bHasZ = true;
     }
@@ -5534,15 +9671,34 @@ SHPObject SHPAPI_CALL1(*)
         bHasM = false;
         bHasZ = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -5560,6 +9716,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5569,6 +9730,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5578,11 +9741,28 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
         psObject->panPartStart =
             STATIC_CAST(int *, calloc(sizeof(int), psObject->nParts));
         psObject->panPartType =
             STATIC_CAST(int *, malloc(sizeof(int) * psObject->nParts));
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5590,6 +9770,9 @@ SHPObject SHPAPI_CALL1(*)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
         psObject->panPartStart = (int *)calloc(sizeof(int), psObject->nParts);
@@ -5601,6 +9784,13 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         psObject->panPartStart = (int *)calloc(sizeof(int), psObject->nParts);
         psObject->panPartType = (int *)malloc(sizeof(int) * psObject->nParts);
@@ -5613,9 +9803,30 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        psObject->panPartStart = (int *)calloc(sizeof(int), psObject->nParts);
+        psObject->panPartType = (int *)malloc(sizeof(int) * psObject->nParts);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        psObject->panPartStart = (int *)calloc(sizeof(int), psObject->nParts);
+        psObject->panPartType = (int *)malloc(sizeof(int) * psObject->nParts);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -5625,6 +9836,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5639,6 +9855,16 @@ SHPObject SHPAPI_CALL1(*)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         for (int i = 0; i < nParts; i++) {
             if (panPartStart != SHPLIB_NULLPTR)
@@ -5648,20 +9874,41 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         for (i = 0; i < nParts; i++) {
             if (panPartStart != NULL)
                 psObject->panPartStart[i] = panPartStart[i];
 
             if (panPartType != NULL)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         for (i = 0; i < nParts; i++) {
@@ -5671,23 +9918,65 @@ SHPObject SHPAPI_CALL1(*)
             if (panPartType != NULL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         for (int i = 0; i < nParts; i++) {
             if (panPartStart != SHPLIB_NULLPTR)
                 psObject->panPartStart[i] = panPartStart[i];
 
             if (panPartType != SHPLIB_NULLPTR)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; i < nParts; i++) {
+            if (panPartStart != NULL)
+                psObject->panPartStart[i] = panPartStart[i];
+
+            if (panPartType != NULL)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 psObject->panPartType[i] = panPartType[i];
@@ -5706,6 +9995,11 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5715,6 +10009,8 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5723,6 +10019,18 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         const size_t nSize = sizeof(double) * nVertices;
         psObject->padfX =
@@ -5746,19 +10054,43 @@ SHPObject SHPAPI_CALL1(*)
         if (padfM != SHPLIB_NULLPTR && bHasM) {
             memcpy(psObject->padfM, padfM, nSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         psObject->padfX = (double *)calloc(sizeof(double), nVertices);
         psObject->padfY = (double *)calloc(sizeof(double), nVertices);
         psObject->padfZ = (double *)calloc(sizeof(double), nVertices);
@@ -5777,11 +10109,26 @@ SHPObject SHPAPI_CALL1(*)
         if (padfM != NULL && bHasM)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
         const size_t nSize = sizeof(double) * nVertices;
@@ -5809,9 +10156,25 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psObject->bMeasureIsUsed = TRUE;
@@ -5841,6 +10204,15 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
                             nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
 =======
@@ -5862,6 +10234,11 @@ SHPObject SHPAPI_CALL1(*)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
+                            nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
+=======
+>>>>>>> osgeo-main
+=======
     return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
                             nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
 =======
@@ -5877,6 +10254,13 @@ SHPObject SHPAPI_CALL1(*)
     return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
                             nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     return (SHPCreateObject(nSHPType, -1, 0, NULL, NULL, nVertices, padfX,
                             padfY, padfZ, NULL));
@@ -5887,9 +10271,34 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    return (SHPCreateObject(nSHPType, -1, 0, SHPLIB_NULLPTR, SHPLIB_NULLPTR,
+                            nVertices, padfX, padfY, padfZ, SHPLIB_NULLPTR));
+=======
+    return (SHPCreateObject(nSHPType, -1, 0, NULL, NULL, nVertices, padfX,
+                            padfY, padfZ, NULL));
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    return (SHPCreateObject(nSHPType, -1, 0, NULL, NULL, nVertices, padfX,
+                            padfY, padfZ, NULL));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 }
@@ -5907,6 +10316,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5916,11 +10330,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     unsigned int nRecordOffset, nRecordSize = 0;
     int i;
     uchar *pabyRec;
@@ -5928,18 +10362,43 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     int bExtendFile = FALSE;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     psSHP->bUpdated = TRUE;
@@ -5972,6 +10431,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5981,6 +10445,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -5990,6 +10456,18 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
         panRecOffsetNew = STATIC_CAST(
             unsigned int *, SfRealloc(psSHP->panRecOffset,
                                       sizeof(unsigned int) * nNewMaxRecords));
@@ -5997,11 +10475,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
             return -1;
@@ -6014,14 +10498,28 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         panRecOffsetNew = (unsigned int *)SfRealloc(
             psSHP->panRecOffset, sizeof(unsigned int) * nNewMaxRecords);
         if (panRecOffsetNew == NULL)
@@ -6032,6 +10530,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             psSHP->panRecSize, sizeof(unsigned int) * nNewMaxRecords);
         if (panRecSizeNew == NULL)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         panRecOffsetNew = (unsigned int *)SfRealloc(
@@ -6045,6 +10550,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         if (panRecSizeNew == NULL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
         panRecOffsetNew = STATIC_CAST(
@@ -6052,6 +10564,14 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
                                       sizeof(unsigned int) * nNewMaxRecords));
         if (panRecOffsetNew == SHPLIB_NULLPTR)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
             return -1;
         psSHP->panRecOffset = panRecOffsetNew;
 
@@ -6060,15 +10580,48 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
                                       sizeof(unsigned int) * nNewMaxRecords));
         if (panRecSizeNew == SHPLIB_NULLPTR)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        panRecOffsetNew = (unsigned int *)SfRealloc(
+            psSHP->panRecOffset, sizeof(unsigned int) * nNewMaxRecords);
+        if (panRecOffsetNew == NULL)
+            return -1;
+        psSHP->panRecOffset = panRecOffsetNew;
+
+        panRecSizeNew = (unsigned int *)SfRealloc(
+            psSHP->panRecSize, sizeof(unsigned int) * nNewMaxRecords);
+        if (panRecSizeNew == NULL)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             return -1;
@@ -6083,6 +10636,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6092,6 +10650,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -6101,10 +10661,24 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     uchar *pabyRec =
         STATIC_CAST(uchar *, malloc(psObject->nVertices * 4 * sizeof(double) +
                                     psObject->nParts * 8 + 128));
     if (pabyRec == SHPLIB_NULLPTR)
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6220,6 +10794,30 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+        return -1;
+
+    /* -------------------------------------------------------------------- */
+    /*  Extract vertices for a Polygon or Arc.                */
+    /* -------------------------------------------------------------------- */
+    unsigned int nRecordSize = 0;
+    const bool bFirstFeature = psSHP->nRecords == 0;
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    pabyRec = (uchar *)malloc(psObject->nVertices * 4 * sizeof(double) +
+                              psObject->nParts * 8 + 128);
+    if (pabyRec == NULL)
+        return -1;
+=======
+    pabyRec = (uchar *)malloc(psObject->nVertices * 4 * sizeof(double) +
+                              psObject->nParts * 8 + 128);
+    if (pabyRec == NULL)
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         return -1;
 
     /* -------------------------------------------------------------------- */
@@ -6272,10 +10870,65 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         psObject->nSHPType == SHPT_ARCZ || psObject->nSHPType == SHPT_ARCM ||
         psObject->nSHPType == SHPT_MULTIPATCH) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        int32 nPoints, nParts;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+    /* -------------------------------------------------------------------- */
+    /*  Extract vertices for a Polygon or Arc.                              */
+    /* -------------------------------------------------------------------- */
+    if (psObject->nSHPType == SHPT_POLYGON ||
+        psObject->nSHPType == SHPT_POLYGONZ ||
+        psObject->nSHPType == SHPT_POLYGONM || psObject->nSHPType == SHPT_ARC ||
+        psObject->nSHPType == SHPT_ARCZ || psObject->nSHPType == SHPT_ARCM ||
+        psObject->nSHPType == SHPT_MULTIPATCH) {
+        int32 nPoints, nParts;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+
+<<<<<<< HEAD
+=======
+=======
+    uchar *pabyRec =
+        STATIC_CAST(uchar *, malloc(psObject->nVertices * 4 * sizeof(double) +
+                                    psObject->nParts * 8 + 128));
+    if (pabyRec == SHPLIB_NULLPTR)
+        return -1;
+
+    /* -------------------------------------------------------------------- */
+    /*  Extract vertices for a Polygon or Arc.                */
+    /* -------------------------------------------------------------------- */
+    unsigned int nRecordSize = 0;
+    const bool bFirstFeature = psSHP->nRecords == 0;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    if (psObject->nSHPType == SHPT_POLYGON ||
+        psObject->nSHPType == SHPT_POLYGONZ ||
+        psObject->nSHPType == SHPT_POLYGONM || psObject->nSHPType == SHPT_ARC ||
+        psObject->nSHPType == SHPT_ARCZ || psObject->nSHPType == SHPT_ARCM ||
+        psObject->nSHPType == SHPT_MULTIPATCH) {
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         int32 nPoints = psObject->nVertices;
         int32 nParts = psObject->nParts;
 
@@ -6288,8 +10941,14 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
         _SHPSetBounds(pabyRec + 12, psObject);
@@ -6302,9 +10961,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
         ByteCopy(&nPoints, pabyRec + 40 + 8, 4);
@@ -6320,6 +10985,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; i < psObject->nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -6338,6 +11012,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; i < psObject->nParts; i++) {
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; i < psObject->nParts; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6349,6 +11027,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
         for (int i = 0; i < psObject->nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; i < psObject->nParts; i++) {
 =======
@@ -6357,9 +11042,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; i < psObject->nParts; i++) {
+=======
+        for (i = 0; i < psObject->nParts; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; i < psObject->nParts; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             if (bBigEndian)
@@ -6376,6 +11083,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < psObject->nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -6394,6 +11110,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; i < psObject->nParts; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; i < psObject->nParts; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6405,6 +11125,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (int i = 0; i < psObject->nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; i < psObject->nParts; i++) {
 =======
@@ -6413,9 +11140,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; i < psObject->nParts; i++) {
+=======
+            for (i = 0; i < psObject->nParts; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; i < psObject->nParts; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 if (bBigEndian)
@@ -6430,6 +11179,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -6448,6 +11206,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6459,6 +11221,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
         for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -6467,9 +11236,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; i < psObject->nVertices; i++) {
+=======
+        for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             ByteCopy(psObject->padfX + i, pabyRec + nRecordSize, 8);
@@ -6503,6 +11294,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -6521,6 +11321,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6532,6 +11336,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -6540,9 +11351,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 ByteCopy(psObject->padfZ + i, pabyRec + nRecordSize, 8);
@@ -6576,6 +11409,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -6594,6 +11436,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6605,6 +11451,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -6613,9 +11466,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 ByteCopy(psObject->padfM + i, pabyRec + nRecordSize, 8);
@@ -6630,6 +11505,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*  Extract vertices for a MultiPoint.                    */
 =======
 <<<<<<< HEAD
@@ -6648,6 +11532,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    /*  Extract vertices for a MultiPoint.                    */
+=======
+>>>>>>> osgeo-main
+=======
     /*  Extract vertices for a MultiPoint.                    */
 =======
 >>>>>>> osgeo-main
@@ -6659,6 +11547,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
     /*  Extract vertices for a MultiPoint.                    */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     /*  Extract vertices for a MultiPoint.                                  */
 =======
@@ -6667,9 +11562,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*  Extract vertices for a MultiPoint.                    */
+=======
+    /*  Extract vertices for a MultiPoint.                                  */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*  Extract vertices for a MultiPoint.                                  */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -6679,6 +11596,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6687,14 +11609,39 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         int32 nPoints = psObject->nVertices;
 =======
         int32 nPoints;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         int32 nPoints;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int32 nPoints;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int32 nPoints;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         _SHPSetBounds(pabyRec + 12, psObject);
 =======
@@ -6714,6 +11661,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
         _SHPSetBounds(pabyRec + 12, psObject);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -6751,6 +11699,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> osgeo-main
 
+<<<<<<< HEAD
         if (bBigEndian)
             SwapWord(4, &nPoints);
         ByteCopy(&nPoints, pabyRec + 44, 4);
@@ -6759,7 +11708,65 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
             ByteCopy(psObject->padfX + i, pabyRec + 48 + i * 16, 8);
             ByteCopy(psObject->padfY + i, pabyRec + 48 + i * 16 + 8, 8);
 
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int32 nPoints;
+=======
+        int32 nPoints = psObject->nVertices;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+
+        _SHPSetBounds(pabyRec + 12, psObject);
+
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+        _SHPSetBounds(pabyRec + 12, psObject);
+=======
+>>>>>>> osgeo-main
+
+        if (bBigEndian)
+            SwapWord(4, &nPoints);
+        ByteCopy(&nPoints, pabyRec + 44, 4);
+
+        for (int i = 0; i < psObject->nVertices; i++) {
+            ByteCopy(psObject->padfX + i, pabyRec + 48 + i * 16, 8);
+            ByteCopy(psObject->padfY + i, pabyRec + 48 + i * 16 + 8, 8);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (bBigEndian)
+            SwapWord(4, &nPoints);
+        ByteCopy(&nPoints, pabyRec + 44, 4);
+
+        for (int i = 0; i < psObject->nVertices; i++) {
+            ByteCopy(psObject->padfX + i, pabyRec + 48 + i * 16, 8);
+            ByteCopy(psObject->padfY + i, pabyRec + 48 + i * 16 + 8, 8);
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         int32 nPoints;
@@ -6783,6 +11790,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
         if (bBigEndian)
@@ -6796,10 +11809,7 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             if (bBigEndian)
@@ -6824,6 +11834,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -6842,6 +11861,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6853,6 +11876,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -6861,9 +11891,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 ByteCopy(psObject->padfZ + i, pabyRec + nRecordSize, 8);
@@ -6889,6 +11941,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -6907,6 +11968,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -6918,6 +11983,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
             for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -6926,9 +11998,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; i < psObject->nVertices; i++) {
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 ByteCopy(psObject->padfM + i, pabyRec + nRecordSize, 8);
@@ -6943,6 +12037,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*      Write point.                            */
 =======
 <<<<<<< HEAD
@@ -6961,6 +12064,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    /*      Write point.                            */
+=======
+>>>>>>> osgeo-main
+=======
     /*      Write point.                            */
 =======
 >>>>>>> osgeo-main
@@ -6972,6 +12079,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
     /*      Write point.                            */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     /*      Write point.                                                    */
 =======
@@ -6980,9 +12094,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*      Write point.                            */
+=======
+    /*      Write point.                                                    */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*      Write point.                                                    */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -7024,6 +12160,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7032,11 +12173,24 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     else {
         /* unknown type */
         assert(false);
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7053,11 +12207,28 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
     else {
         /* unknown type */
         assert(FALSE);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
@@ -7066,6 +12237,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         assert(FALSE);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
     else {
@@ -7078,9 +12254,41 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+    else {
+        /* unknown type */
+        assert(FALSE);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    else {
+        /* unknown type */
+        assert(false);
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -7090,6 +12298,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7099,6 +12312,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -7108,19 +12323,40 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     /*      rewriting the last record of the file, then we can update it in */
     /*      place. Otherwise if rewriting an existing record, and it will   */
     /*      fit, then put it  back where the original came from.  Otherwise */
     /*      write at the end.                                               */
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     /*      rewriting and existing record, and it will fit, then put it     */
     /*      back where the original came from.  Otherwise write at the end. */
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
     /*      rewriting and existing record, and it will fit, then put it     */
@@ -7131,6 +12367,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      rewriting and existing record, and it will fit, then put it     */
     /*      back where the original came from.  Otherwise write at the end. */
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
     SAOffset nRecordOffset;
@@ -7156,8 +12398,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             str[sizeof(str) - 1] = '\0';
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7168,6 +12415,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      back where the original came from.  Otherwise write at the end. */
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
     /*      rewriting the last record of the file, then we can update it in */
@@ -7175,6 +12429,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     /*      fit, then put it  back where the original came from.  Otherwise */
     /*      write at the end.                                               */
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
     SAOffset nRecordOffset;
     bool bAppendToLastRecord = false;
@@ -7208,9 +12466,64 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*      rewriting and existing record, and it will fit, then put it     */
+    /*      back where the original came from.  Otherwise write at the end. */
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    /* -------------------------------------------------------------------- */
+    SAOffset nRecordOffset;
+    bool bAppendToLastRecord = false;
+    bool bAppendToFile = false;
+    if (nShapeId != -1 &&
+        psSHP->panRecOffset[nShapeId] + psSHP->panRecSize[nShapeId] + 8 ==
+            psSHP->nFileSize) {
+        nRecordOffset = psSHP->panRecOffset[nShapeId];
+        bAppendToLastRecord = true;
+    }
+    else if (nShapeId == -1 || psSHP->panRecSize[nShapeId] < nRecordSize - 8) {
+        if (psSHP->nFileSize > UINT_MAX - nRecordSize) {
+            char str[255];
+            snprintf(str, sizeof(str),
+                     "Failed to write shape object. "
+                     "The maximum file size of %u has been reached. "
+                     "The current record of size %u cannot be added.",
+                     psSHP->nFileSize, nRecordSize);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            str[sizeof(str) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+            str[sizeof(str) - 1] = '\0';
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(str);
@@ -7231,6 +12544,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     int32 i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 =======
@@ -7252,6 +12574,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    int32 i32 =
+        (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
+=======
+>>>>>>> osgeo-main
+=======
     int32 i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 =======
@@ -7265,6 +12592,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     int32 i32 =
         (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     i32 = (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
 =======
@@ -7274,9 +12608,32 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    int32 i32 =
+        (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
+=======
+    i32 = (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    i32 = (nShapeId < 0) ? psSHP->nRecords + 1 : nShapeId + 1; /* record # */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     if (!bBigEndian)
@@ -7299,6 +12656,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7308,6 +12670,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -7316,6 +12680,18 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 
     /* -------------------------------------------------------------------- */
@@ -7339,12 +12715,18 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     }
     if (psSHP->sHooks.FWrite(pabyRec, nRecordSize, 1, psSHP->fpSHP) < 1) {
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
     }
@@ -7359,10 +12741,27 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
         psSHP->sHooks.Error(szErrorMsg);
 
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     if (psSHP->sHooks.FSeek(psSHP->fpSHP, nRecordOffset, 0) != 0) {
         psSHP->sHooks.Error("Error in psSHP->sHooks.FSeek() while writing "
                             "object to .shp file.");
@@ -7374,10 +12773,25 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
                             "object to .shp file.");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 
@@ -7404,9 +12818,16 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
     if (psSHP->sHooks.FWrite(pabyRec, nRecordSize, 1, psSHP->fpSHP) < 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+    }
+    if (psSHP->sHooks.FWrite(pabyRec, nRecordSize, 1, psSHP->fpSHP) < 1) {
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
         char szErrorMsg[200];
@@ -7421,10 +12842,17 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -7433,9 +12861,26 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         free(pabyRec);
@@ -7447,6 +12892,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7456,6 +12906,8 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -7465,11 +12917,28 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     if (bAppendToLastRecord) {
         psSHP->nFileSize = psSHP->panRecOffset[nShapeId] + nRecordSize;
     }
     else if (bAppendToFile) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7477,6 +12946,9 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
     if (bExtendFile) {
@@ -7486,6 +12958,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     if (bExtendFile) {
 =======
@@ -7497,9 +12976,28 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    if (bExtendFile) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (bExtendFile) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         if (nShapeId == -1)
@@ -7514,6 +13012,11 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7522,6 +13025,12 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
     /*    Expand file wide bounds based on this shape.            */
     /* -------------------------------------------------------------------- */
@@ -7533,10 +13042,19 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*    Expand file wide bounds based on this shape.            */
     /* -------------------------------------------------------------------- */
     if (bFirstFeature) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7545,16 +13063,41 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     /*      Expand file wide bounds based on this shape.                    */
     /* -------------------------------------------------------------------- */
     if (psSHP->adBoundsMin[0] == 0.0 && psSHP->adBoundsMax[0] == 0.0 &&
         psSHP->adBoundsMin[1] == 0.0 && psSHP->adBoundsMax[1] == 0.0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
     /*    Expand file wide bounds based on this shape.            */
@@ -7567,9 +13110,37 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    /*    Expand file wide bounds based on this shape.            */
+    /* -------------------------------------------------------------------- */
+    if (bFirstFeature) {
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         if (psObject->nSHPType == SHPT_NULL || psObject->nVertices == 0) {
@@ -7591,6 +13162,15 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 <<<<<<< HEAD
@@ -7609,6 +13189,10 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    for (int i = 0; i < psObject->nVertices; i++) {
+=======
+>>>>>>> osgeo-main
+=======
     for (int i = 0; i < psObject->nVertices; i++) {
 =======
 >>>>>>> osgeo-main
@@ -7620,6 +13204,13 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 =======
     for (int i = 0; i < psObject->nVertices; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     for (i = 0; i < psObject->nVertices; i++) {
 =======
@@ -7628,9 +13219,31 @@ int SHPAPI_CALL SHPWriteObject(SHPHandle psSHP, int nShapeId,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    for (int i = 0; i < psObject->nVertices; i++) {
+=======
+    for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    for (i = 0; i < psObject->nVertices; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psSHP->adBoundsMin[0] = MIN(psSHP->adBoundsMin[0], psObject->padfX[i]);
@@ -7663,6 +13276,11 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7671,6 +13289,16 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (pBuffer == SHPLIB_NULLPTR)
         return calloc(1, nSize);
@@ -7685,6 +13313,9 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     if (pBuffer == SHPLIB_NULLPTR)
         return calloc(1, nSize);
 
@@ -7694,6 +13325,10 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
@@ -7704,6 +13339,16 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
     unsigned char *pRet;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    unsigned char *pRet;
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     if (pBuffer == NULL)
         return calloc(1, nSize);
 
@@ -7711,10 +13356,27 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
     if (pRet == NULL)
         return NULL;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     if (pBuffer == SHPLIB_NULLPTR)
         return calloc(1, nSize);
 
@@ -7722,15 +13384,34 @@ static void *SHPAllocBuffer(unsigned char **pBuffer, int nSize)
     if (pRet == SHPLIB_NULLPTR)
         return SHPLIB_NULLPTR;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -7748,6 +13429,11 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7762,6 +13448,16 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (nObjectBufSize == 0) {
         nObjectBufSize = 4 * sizeof(double);
@@ -7775,7 +13471,11 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7789,24 +13489,68 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
         nObjectBufSize = 4 * sizeof(double);
     }
 =======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    unsigned char *pBuffer;
+
+    if (nObjectBufSize == 0) {
+        nObjectBufSize = 4 * sizeof(double);
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> osgeo-main
     unsigned char *pBuffer;
 
     if (nObjectBufSize == 0) {
         nObjectBufSize = 4 * sizeof(double);
     }
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     if (nObjectBufSize > psSHP->nObjectBufSize) {
         pBuffer =
             (unsigned char *)realloc(psSHP->pabyObjectBuf, nObjectBufSize);
         if (pBuffer != NULL) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     if (nObjectBufSize == 0) {
         nObjectBufSize = 4 * sizeof(double);
     }
@@ -7817,15 +13561,39 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
                               realloc(psSHP->pabyObjectBuf, nObjectBufSize));
         if (pBuffer != SHPLIB_NULLPTR) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->pabyObjectBuf = pBuffer;
@@ -7845,6 +13613,17 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 /*      Read the vertices, parts, and other non-attribute information    */
 /*    for one shape.                            */
 =======
@@ -7866,6 +13645,16 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+/*      Read the vertices, parts, and other non-attribute information    */
+/*    for one shape.                            */
+=======
+>>>>>>> osgeo-main
+=======
+/*      Read the vertices, parts, and other non-attribute information    */
+/*    for one shape.                            */
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 /*      Read the vertices, parts, and other non-attribute information    */
 /*    for one shape.                            */
 =======
@@ -7874,15 +13663,36 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 /*      for one shape.                                                  */
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Read the vertices, parts, and other non-attribute information   */
 /*      for one shape.                                                  */
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Read the vertices, parts, and other non-attribute information    */
 /*    for one shape.                            */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 /*      Read the vertices, parts, and other non-attribute information   */
 /*      for one shape.                                                  */
@@ -7894,9 +13704,21 @@ static unsigned char *SHPReallocObjectBufIfNecessary(SHPHandle psSHP,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 /************************************************************************/
@@ -7906,6 +13728,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7920,6 +13747,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
     /*      Validate the record/entity number.                              */
@@ -7937,7 +13774,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7968,6 +13809,69 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+    int nEntitySize, nRequiredSize;
+    SHPObject *psShape;
+    char szErrorMsg[128];
+    int nSHPType;
+    int nBytesRead;
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    /* -------------------------------------------------------------------- */
+    /*      Validate the record/entity number.                              */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity >= psSHP->nRecords)
+        return SHPLIB_NULLPTR;
+
+    /* -------------------------------------------------------------------- */
+    /*      Read offset/length from SHX loading if necessary.               */
+    /* -------------------------------------------------------------------- */
+    if (psSHP->panRecOffset[hEntity] == 0 && psSHP->fpSHX != SHPLIB_NULLPTR) {
+        unsigned int nOffset;
+        unsigned int nLength;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /* -------------------------------------------------------------------- */
+    /*      Validate the record/entity number.                              */
+    /* -------------------------------------------------------------------- */
+    if (hEntity < 0 || hEntity >= psSHP->nRecords)
+        return SHPLIB_NULLPTR;
+
+    /* -------------------------------------------------------------------- */
+    /*      Read offset/length from SHX loading if necessary.               */
+    /* -------------------------------------------------------------------- */
+    if (psSHP->panRecOffset[hEntity] == 0 && psSHP->fpSHX != SHPLIB_NULLPTR) {
+        unsigned int nOffset;
+        unsigned int nLength;
+
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     int nEntitySize, nRequiredSize;
     SHPObject *psShape;
     char szErrorMsg[128];
@@ -7988,6 +13892,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
     /* -------------------------------------------------------------------- */
@@ -8006,10 +13916,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         if (psSHP->sHooks.FSeek(psSHP->fpSHX, 100 + 8 * hEntity, 0) != 0 ||
@@ -8019,6 +13926,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8032,6 +13944,131 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+            snprintf(str, sizeof(str),
+                     "Error in fseek()/fread() reading object from .shx file "
+                     "at offset %d",
+                     100 + 8 * hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            return SHPLIB_NULLPTR;
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+            snprintf(str, sizeof(str),
+                     "Error in fseek()/fread() reading object from .shx file "
+                     "at offset %d",
+                     100 + 8 * hEntity);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return NULL;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            snprintf(str, sizeof(str),
+                     "Error in fseek()/fread() reading object from .shx file "
+                     "at offset %d",
+                     100 + 8 * hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            return SHPLIB_NULLPTR;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+
+            psSHP->sHooks.Error(str);
+<<<<<<< HEAD
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+        }
+        if (!bBigEndian)
+            SwapWord(4, &nOffset);
+        if (!bBigEndian)
+            SwapWord(4, &nLength);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid offset for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            return SHPLIB_NULLPTR;
+        }
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid length for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            return SHPLIB_NULLPTR;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             snprintf(str, sizeof(str),
                      "Error in fseek()/fread() reading object from .shx file "
                      "at offset %d",
@@ -8095,84 +14132,22 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             psSHP->sHooks.Error(str);
             return SHPLIB_NULLPTR;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-            snprintf(str, sizeof(str),
-                     "Error in fseek()/fread() reading object from .shx file "
-                     "at offset %d",
-                     100 + 8 * hEntity);
-            str[sizeof(str) - 1] = '\0';
-
-            psSHP->sHooks.Error(str);
-            return SHPLIB_NULLPTR;
-=======
-
-=======
-
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> 498a331298 (Fix missing function prototypes (#2727))
-            snprintf(str, sizeof(str),
-                     "Error in fseek()/fread() reading object from .shx file "
-                     "at offset %d",
-                     100 + 8 * hEntity);
-            str[sizeof(str) - 1] = '\0';
-
-            psSHP->sHooks.Error(str);
 <<<<<<< HEAD
-<<<<<<< HEAD
-            return NULL;
-<<<<<<< HEAD
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-=======
-=======
-            snprintf(str, sizeof(str),
-                     "Error in fseek()/fread() reading object from .shx file "
-                     "at offset %d",
-                     100 + 8 * hEntity);
-            str[sizeof(str) - 1] = '\0';
-
-            psSHP->sHooks.Error(str);
-            return SHPLIB_NULLPTR;
->>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
->>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-        }
-        if (!bBigEndian)
-            SwapWord(4, &nOffset);
-        if (!bBigEndian)
-            SwapWord(4, &nLength);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
-            char str[128];
-            snprintf(str, sizeof(str), "Invalid offset for entity %d", hEntity);
-            str[sizeof(str) - 1] = '\0';
-
-            psSHP->sHooks.Error(str);
-            return SHPLIB_NULLPTR;
-        }
-        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
-            char str[128];
-            snprintf(str, sizeof(str), "Invalid length for entity %d", hEntity);
-            str[sizeof(str) - 1] = '\0';
-
-            psSHP->sHooks.Error(str);
-            return SHPLIB_NULLPTR;
-=======
-=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         if (nOffset > (unsigned int)INT_MAX) {
             char str[128];
 
@@ -8186,18 +14161,48 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
             snprintf(str, sizeof(str), "Invalid length for entity %d", hEntity);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
             return NULL;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             return SHPLIB_NULLPTR;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+=======
+            return NULL;
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
         }
         if (!bBigEndian)
             SwapWord(4, &nOffset);
         if (!bBigEndian)
             SwapWord(4, &nLength);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
         if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
@@ -8229,9 +14234,46 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        if (nOffset > (unsigned int)INT_MAX) {
+=======
+        if (nOffset > STATIC_CAST(unsigned int, INT_MAX)) {
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid offset for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+            psSHP->sHooks.Error(str);
+            return SHPLIB_NULLPTR;
+        }
+        if (nLength > STATIC_CAST(unsigned int, INT_MAX / 2 - 4)) {
+            char str[128];
+            snprintf(str, sizeof(str), "Invalid length for entity %d", hEntity);
+            str[sizeof(str) - 1] = '\0';
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            psSHP->sHooks.Error(str);
+<<<<<<< HEAD
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -8246,6 +14288,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8254,6 +14301,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
     if (nEntitySize > psSHP->nBufSize) {
@@ -8265,10 +14322,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
     if (nEntitySize > psSHP->nBufSize) {
         int nNewBufSize = nEntitySize;
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8285,11 +14346,19 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
     nEntitySize = psSHP->panRecSize[hEntity] + 8;
+=======
+    const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
     if (nEntitySize > psSHP->nBufSize) {
-        uchar *pabyRecNew;
         int nNewBufSize = nEntitySize;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8308,6 +14377,47 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+    nEntitySize = psSHP->panRecSize[hEntity] + 8;
+    if (nEntitySize > psSHP->nBufSize) {
+        uchar *pabyRecNew;
+        int nNewBufSize = nEntitySize;
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
+=======
+    const int nEntitySize = psSHP->panRecSize[hEntity] + 8;
+    if (nEntitySize > psSHP->nBufSize) {
+        int nNewBufSize = nEntitySize;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         if (nNewBufSize < INT_MAX - nNewBufSize / 3)
             nNewBufSize += nNewBufSize / 3;
         else
@@ -8318,6 +14428,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8327,6 +14442,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -8335,6 +14452,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         /* and do not trust the file size in the header the first time we */
         /* need to allocate more than 10 MB */
@@ -8351,8 +14472,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -8388,7 +14512,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8449,6 +14576,134 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        /* and do not trust the file size in the header the first time we */
+        /* need to allocate more than 10 MB */
+        if (nNewBufSize >= 10 * 1024 * 1024) {
+            if (psSHP->nBufSize < 10 * 1024 * 1024) {
+                SAOffset nFileSize;
+                psSHP->sHooks.FSeek(psSHP->fpSHP, 0, 2);
+                nFileSize = psSHP->sHooks.FTell(psSHP->fpSHP);
+                if (nFileSize >= UINT_MAX)
+                    psSHP->nFileSize = UINT_MAX;
+                else
+                    psSHP->nFileSize = STATIC_CAST(unsigned int, nFileSize);
+            }
+<<<<<<< HEAD
+
+            if (psSHP->panRecOffset[hEntity] >= psSHP->nFileSize ||
+                /* We should normally use nEntitySize instead of*/
+                /* psSHP->panRecSize[hEntity] in the below test, but because of
+                 */
+                /* the case of non conformant .shx files detailed a bit below,
+                 */
+                /* let be more tolerant */
+                psSHP->panRecSize[hEntity] >
+                    psSHP->nFileSize - psSHP->panRecOffset[hEntity]) {
+                char str[128];
+                snprintf(str, sizeof(str),
+                         "Error in fread() reading object of size %d at offset "
+                         "%u from .shp file",
+                         nEntitySize, psSHP->panRecOffset[hEntity]);
+                str[sizeof(str) - 1] = '\0';
+
+                psSHP->sHooks.Error(str);
+                return SHPLIB_NULLPTR;
+            }
+        }
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        uchar *pabyRecNew =
+            STATIC_CAST(uchar *, SfRealloc(psSHP->pabyRec, nNewBufSize));
+        if (pabyRecNew == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        if (nEntitySize >= 10 * 1024 * 1024 &&
+            (psSHP->panRecOffset[hEntity] >= psSHP->nFileSize ||
+             (unsigned int)nEntitySize >
+                 psSHP->nFileSize - psSHP->panRecOffset[hEntity])) {
+            /* We do as is we didn't trust the file size in the header */
+            SAOffset nFileSize;
+
+            psSHP->sHooks.FSeek(psSHP->fpSHP, 0, 2);
+            nFileSize = psSHP->sHooks.FTell(psSHP->fpSHP);
+            if (nFileSize >= 0xFFFFFFFFU)
+                psSHP->nFileSize = 0xFFFFFFFFU;
+            else
+                psSHP->nFileSize = (unsigned int)nFileSize;
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+            if (psSHP->panRecOffset[hEntity] >= psSHP->nFileSize ||
+                /* We should normally use nEntitySize instead of*/
+                /* psSHP->panRecSize[hEntity] in the below test, but because of
+                 */
+                /* the case of non conformant .shx files detailed a bit below,
+                 */
+                /* let be more tolerant */
+                psSHP->panRecSize[hEntity] >
+                    psSHP->nFileSize - psSHP->panRecOffset[hEntity]) {
+                char str[128];
+                snprintf(str, sizeof(str),
+                         "Error in fread() reading object of size %d at offset "
+                         "%u from .shp file",
+                         nEntitySize, psSHP->panRecOffset[hEntity]);
+                str[sizeof(str) - 1] = '\0';
+
+                psSHP->sHooks.Error(str);
+                return SHPLIB_NULLPTR;
+            }
+        }
+
+<<<<<<< HEAD
+        pabyRecNew = (uchar *)SfRealloc(psSHP->pabyRec, nNewBufSize);
+        if (pabyRecNew == NULL) {
+            char szError[200];
+
+            snprintf(szError, sizeof(szError),
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         /* and do not trust the file size in the header the first time we */
         /* need to allocate more than 10 MB */
         if (nNewBufSize >= 10 * 1024 * 1024) {
@@ -8491,15 +14746,18 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             snprintf(szErrorMsg, sizeof(szErrorMsg),
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
->>>>>>> osgeo-main
 =======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
                      "Not enough memory to allocate requested memory "
                      "(nNewBufSize=%d). "
@@ -8508,6 +14766,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8516,6 +14779,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
@@ -8527,12 +14798,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
             return SHPLIB_NULLPTR;
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
@@ -8541,10 +14821,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             return NULL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
             psSHP->sHooks.Error(szError);
             return NULL;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
             psSHP->sHooks.Error(szErrorMsg);
             return SHPLIB_NULLPTR;
@@ -8555,9 +14846,32 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+            psSHP->sHooks.Error(szError);
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+            psSHP->sHooks.Error(szErrorMsg);
+            return SHPLIB_NULLPTR;
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -8571,6 +14885,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     if (psSHP->pabyRec == SHPLIB_NULLPTR) {
         return SHPLIB_NULLPTR;
 =======
@@ -8592,6 +14913,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    if (psSHP->pabyRec == SHPLIB_NULLPTR) {
+        return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
     if (psSHP->pabyRec == SHPLIB_NULLPTR) {
         return SHPLIB_NULLPTR;
 =======
@@ -8615,9 +14941,36 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+    if (psSHP->pabyRec == SHPLIB_NULLPTR) {
+        return SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    if (psSHP->pabyRec == NULL) {
+        return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (psSHP->pabyRec == SHPLIB_NULLPTR) {
+        return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -8635,6 +14988,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8644,12 +15002,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -8659,9 +15030,26 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         snprintf(str, sizeof(str),
@@ -8673,6 +15061,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8681,6 +15074,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         return SHPLIB_NULLPTR;
     }
@@ -8688,14 +15089,67 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     const int nBytesRead = STATIC_CAST(
         int, psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP));
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
         return NULL;
     }
 <<<<<<< HEAD
 =======
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        return NULL;
+    }
+=======
+        return NULL;
+    }
+
+    nBytesRead =
+        (int)psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    const int nBytesRead = STATIC_CAST(
+        int, psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP));
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+
+    nBytesRead =
+        (int)psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
     nBytesRead =
         (int)psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP);
@@ -8745,6 +15199,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
         return SHPLIB_NULLPTR;
     }
 
@@ -8766,10 +15222,28 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
         return SHPLIB_NULLPTR;
     }
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+        return SHPLIB_NULLPTR;
+    }
+
+    const int nBytesRead = STATIC_CAST(
+        int, psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP));
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 
     const int nBytesRead = STATIC_CAST(
         int, psSHP->sHooks.FRead(psSHP->pabyRec, 1, nEntitySize, psSHP->fpSHP));
@@ -8796,6 +15270,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8808,6 +15287,22 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
         memcpy(&nSHPContentLength, psSHP->pabyRec + 4, 4);
         if (!bBigEndian)
@@ -8830,24 +15325,51 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
         memcpy(&nSHPContentLength, psSHP->pabyRec + 4, 4);
         if (!bBigEndian)
             SwapWord(4, &(nSHPContentLength));
         if (nSHPContentLength < 0 || nSHPContentLength > INT_MAX / 2 - 4 ||
             2 * nSHPContentLength + 8 != nBytesRead) {
             char str[128];
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             snprintf(str, sizeof(str),
                      "Sanity check failed when trying to recover from "
                      "inconsistent .shx/.shp with shape %d",
                      hEntity);
+<<<<<<< HEAD
+<<<<<<< HEAD
             str[sizeof(str) - 1] = '\0';
 
             psSHP->sHooks.Error(str);
             return SHPLIB_NULLPTR;
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8898,9 +15420,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+            str[sizeof(str) - 1] = '\0';
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+
+            psSHP->sHooks.Error(str);
+<<<<<<< HEAD
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -8911,6 +15455,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
          * for example to detect if file is truncated.
          */
         char str[128];
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9033,6 +15582,133 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+        snprintf(str, sizeof(str),
+                 "Error in fread() reading object of size %d at offset %u from "
+                 ".shp file",
+                 nEntitySize, psSHP->panRecOffset[hEntity]);
+        str[sizeof(str) - 1] = '\0';
+
+        psSHP->sHooks.Error(str);
+        return SHPLIB_NULLPTR;
+    }
+
+    if (8 + 4 > nEntitySize) {
+        char szErrorMsg[160];
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Corrupted .shp file : shape %d : nEntitySize = %d", hEntity,
+                 nEntitySize);
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+        return SHPLIB_NULLPTR;
+    }
+    int nSHPType;
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+        snprintf(str, sizeof(str),
+                 "Error in fread() reading object of size %u at offset %u from "
+                 ".shp file",
+                 nEntitySize, psSHP->panRecOffset[hEntity]);
+
+        psSHP->sHooks.Error(str);
+        return NULL;
+    }
+
+    if (8 + 4 > nEntitySize) {
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Corrupted .shp file : shape %d : nEntitySize = %d", hEntity,
+                 nEntitySize);
+        psSHP->sHooks.Error(szErrorMsg);
+        return NULL;
+    }
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        snprintf(str, sizeof(str),
+                 "Error in fread() reading object of size %d at offset %u from "
+                 ".shp file",
+                 nEntitySize, psSHP->panRecOffset[hEntity]);
+        str[sizeof(str) - 1] = '\0';
+
+        psSHP->sHooks.Error(str);
+        return SHPLIB_NULLPTR;
+    }
+
+    if (8 + 4 > nEntitySize) {
+        char szErrorMsg[160];
+        snprintf(szErrorMsg, sizeof(szErrorMsg),
+                 "Corrupted .shp file : shape %d : nEntitySize = %d", hEntity,
+                 nEntitySize);
+        szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+        psSHP->sHooks.Error(szErrorMsg);
+        return SHPLIB_NULLPTR;
+    }
+    int nSHPType;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    memcpy(&nSHPType, psSHP->pabyRec + 8, 4);
+
+    if (bBigEndian)
+        SwapWord(4, &(nSHPType));
+
+    /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /*    Allocate and minimally initialize the object.            */
+    /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    SHPObject *psShape;
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+    /*      Allocate and minimally initialize the object.                   */
+    /* -------------------------------------------------------------------- */
+=======
+    /*    Allocate and minimally initialize the object.            */
+    /* -------------------------------------------------------------------- */
+    SHPObject *psShape;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+    SHPObject *psShape;
+>>>>>>> osgeo-main
+=======
+    /*      Allocate and minimally initialize the object.                   */
+    /* -------------------------------------------------------------------- */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         snprintf(str, sizeof(str),
                  "Error in fread() reading object of size %d at offset %u from "
                  ".shp file",
@@ -9063,9 +15739,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
     /* -------------------------------------------------------------------- */
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
     SHPObject *psShape;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+    SHPObject *psShape;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
     /*      Allocate and minimally initialize the object.                   */
     /* -------------------------------------------------------------------- */
@@ -9076,10 +15764,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     if (psSHP->bFastModeReadObject) {
@@ -9089,6 +15774,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             return SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -9107,6 +15799,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            return SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
             return SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -9125,9 +15821,33 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            return SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+            return NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            return SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -9138,12 +15858,24 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     else {
         psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
@@ -9154,10 +15886,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     else {
         psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
     }
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9169,10 +15905,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     else
         psShape = (SHPObject *)calloc(1, sizeof(SHPObject));
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     else {
         psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
     }
@@ -9183,9 +15930,38 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+    else
+        psShape = (SHPObject *)calloc(1, sizeof(SHPObject));
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+    else {
+        psShape = STATIC_CAST(SHPObject *, calloc(1, sizeof(SHPObject)));
+    }
+<<<<<<< HEAD
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     psShape->nShapeId = hEntity;
@@ -9197,6 +15973,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*  Extract vertices for a Polygon or Arc.                */
 =======
 <<<<<<< HEAD
@@ -9215,6 +16000,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    /*  Extract vertices for a Polygon or Arc.                */
+=======
+>>>>>>> osgeo-main
+=======
     /*  Extract vertices for a Polygon or Arc.                */
 =======
 >>>>>>> osgeo-main
@@ -9226,6 +16015,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
     /*  Extract vertices for a Polygon or Arc.                */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     /*  Extract vertices for a Polygon or Arc.                              */
 =======
@@ -9234,9 +16030,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*  Extract vertices for a Polygon or Arc.                */
+=======
+    /*  Extract vertices for a Polygon or Arc.                              */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*  Extract vertices for a Polygon or Arc.                              */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* ==================================================================== */
@@ -9248,6 +16066,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9262,6 +16085,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         if (40 + 8 + 4 > nEntitySize) {
             char szErrorMsg[160];
@@ -9272,9 +16105,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
@@ -9283,6 +16122,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         unsigned char *pBuffer = NULL;
         unsigned char **ppBuffer = NULL;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
@@ -9300,11 +16143,22 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         unsigned char *pBuffer = NULL;
         unsigned char **ppBuffer = NULL;
 
+<<<<<<< HEAD
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
         if (40 + 8 + 4 > nEntitySize) {
+            char szErrorMsg[160];
+=======
+        if (40 + 8 + 4 > nEntitySize) {
+>>>>>>> osgeo-main
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
@@ -9321,9 +16175,57 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        if (40 + 8 + 4 > nEntitySize) {
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        int32 nPoints, nParts;
+        int i, nOffset;
+        unsigned char *pBuffer = NULL;
+        unsigned char **ppBuffer = NULL;
+
+        if (40 + 8 + 4 > nEntitySize) {
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+        if (40 + 8 + 4 > nEntitySize) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -9335,6 +16237,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         /*    Get the X/Y bounds.                        */
 =======
 <<<<<<< HEAD
@@ -9353,6 +16264,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        /*    Get the X/Y bounds.                        */
+=======
+>>>>>>> osgeo-main
+=======
         /*    Get the X/Y bounds.                        */
 =======
 >>>>>>> osgeo-main
@@ -9364,6 +16279,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         /*    Get the X/Y bounds.                        */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         /*      Get the X/Y bounds. */
 =======
@@ -9372,9 +16294,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        /*    Get the X/Y bounds.                        */
+=======
+        /*      Get the X/Y bounds. */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /*      Get the X/Y bounds. */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         /* --------------------------------------------------------------------
@@ -9402,6 +16346,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9410,6 +16359,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         int32 nPoints;
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
@@ -9421,10 +16380,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         int32 nPoints;
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
         int32 nParts;
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9434,6 +16397,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -9442,15 +16415,37 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
         int32 nParts;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        memcpy(&nPoints, psSHP->pabyRec + 40 + 8, 4);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         memcpy(&nParts, psSHP->pabyRec + 36 + 8, 4);
@@ -9466,12 +16461,19 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
             char szErrorMsg[160];
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9495,21 +16497,18 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
-            char szErrorMsg[160];
-            snprintf(szErrorMsg, sizeof(szErrorMsg),
-                     "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u.",
-                     hEntity, nPoints, nParts);
-            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             char szErrorMsg[160];
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -9527,16 +16526,51 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            char szErrorMsg[160];
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+            char szErrorMsg[160];
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u.",
+                     hEntity, nPoints, nParts);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> osgeo-main
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u.",
                      hEntity, nPoints, nParts);
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9549,9 +16583,24 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -9565,6 +16614,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 =======
 <<<<<<< HEAD
@@ -9580,6 +16637,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+        int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
+=======
+>>>>>>> osgeo-main
+=======
         int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 =======
 >>>>>>> osgeo-main
@@ -9591,6 +16652,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
 =======
@@ -9599,9 +16667,29 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        int nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
+=======
+        nRequiredSize = 44 + 8 + 4 * nParts + 16 * nPoints;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         if (psShape->nSHPType == SHPT_POLYGONZ ||
@@ -9616,6 +16704,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9630,6 +16723,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -9640,7 +16743,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9658,10 +16766,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             snprintf(szErrorMsg, sizeof(szErrorMsg),
-                     "Corrupted .shp file : shape %d, nPoints=%d, nParts=%d, "
+                     "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u, "
                      "nEntitySize=%d.",
                      hEntity, nPoints, nParts, nEntitySize);
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9682,6 +16801,53 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d, nPoints=%d, nParts=%d, "
+                     "nEntitySize=%d.",
+                     hEntity, nPoints, nParts, nEntitySize);
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
+=======
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d, nPoints=%u, nParts=%u, "
+                     "nEntitySize=%d.",
+                     hEntity, nPoints, nParts, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -9692,6 +16858,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9706,6 +16877,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
@@ -9715,19 +16896,43 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize =
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize =
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (psShape->bFastModeReadObject) {
+            int nObjectBufSize =
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize =
@@ -9739,15 +16944,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (psShape->bFastModeReadObject) {
             const int nObjectBufSize =
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 4 * sizeof(double) * nPoints + 2 * sizeof(int) * nParts;
@@ -9759,6 +16984,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9768,6 +16998,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -9776,6 +17008,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
@@ -9788,8 +17024,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -9818,7 +17057,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9889,6 +17131,132 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        psShape->padfX = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfY = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfZ = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfM = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+<<<<<<< HEAD
+
+        psShape->nParts = nParts;
+        psShape->panPartStart =
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
+        psShape->panPartType =
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
+
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR ||
+            psShape->panPartStart == SHPLIB_NULLPTR ||
+            psShape->panPartType == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%u, nParts=%u) for shape %d. "
+                     "Probably broken SHP file",
+                     nPoints, nParts, hEntity);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        psShape->padfX =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfY =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfZ =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfM =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+        psShape->nParts = nParts;
+        psShape->panPartStart =
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
+        psShape->panPartType =
+            STATIC_CAST(int *, SHPAllocBuffer(ppBuffer, nParts * sizeof(int)));
+
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR ||
+            psShape->panPartStart == SHPLIB_NULLPTR ||
+            psShape->panPartType == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%u, nParts=%u) for shape %d. "
+                     "Probably broken SHP file",
+<<<<<<< HEAD
+                     hEntity, nPoints, nParts);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        psShape->padfX =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfY =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfZ =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfM =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+
+        psShape->nParts = nParts;
+        psShape->panPartStart =
+            (int *)SHPAllocBuffer(ppBuffer, nParts * sizeof(int));
+        psShape->panPartType =
+            (int *)SHPAllocBuffer(ppBuffer, nParts * sizeof(int));
+
+        if (psShape->padfX == NULL || psShape->padfY == NULL ||
+            psShape->padfZ == NULL || psShape->padfM == NULL ||
+            psShape->panPartStart == NULL || psShape->panPartType == NULL) {
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%d, nParts=%d) for shape %d. "
+                     "Probably broken SHP file",
+                     hEntity, nPoints, nParts);
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                     nPoints, nParts, hEntity);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfY = STATIC_CAST(
@@ -9920,10 +17288,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -9934,6 +17299,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
 =======
 <<<<<<< HEAD
@@ -9952,6 +17326,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
 =======
 >>>>>>> osgeo-main
@@ -9963,6 +17341,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; (int32)i < nParts; i++)
 =======
@@ -9971,9 +17356,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; STATIC_CAST(int32, i) < nParts; i++)
+=======
+        for (i = 0; (int32)i < nParts; i++)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; (int32)i < nParts; i++)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psShape->panPartType[i] = SHPP_RING;
@@ -9987,6 +17394,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -10005,6 +17421,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 >>>>>>> osgeo-main
@@ -10016,6 +17436,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; (int32)i < nParts; i++) {
 =======
@@ -10024,9 +17451,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
+=======
+        for (i = 0; (int32)i < nParts; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; (int32)i < nParts; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             if (bBigEndian)
@@ -10040,6 +17489,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                 char szErrorMsg[160];
 =======
 <<<<<<< HEAD
@@ -10058,6 +17514,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                char szErrorMsg[160];
+=======
+>>>>>>> osgeo-main
+=======
                 char szErrorMsg[160];
 =======
 >>>>>>> osgeo-main
@@ -10074,9 +17534,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+                char szErrorMsg[160];
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+                char szErrorMsg[160];
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10087,6 +17573,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 <<<<<<< HEAD
@@ -10105,6 +17598,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> osgeo-main
+=======
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 >>>>>>> osgeo-main
@@ -10121,9 +17618,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 psSHP->sHooks.Error(szErrorMsg);
@@ -10135,6 +17658,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                 char szErrorMsg[160];
 =======
 <<<<<<< HEAD
@@ -10153,6 +17683,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                char szErrorMsg[160];
+=======
+>>>>>>> osgeo-main
+=======
                 char szErrorMsg[160];
 =======
 >>>>>>> osgeo-main
@@ -10169,9 +17703,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+                char szErrorMsg[160];
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+                char szErrorMsg[160];
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10182,6 +17742,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 <<<<<<< HEAD
@@ -10200,6 +17767,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> osgeo-main
+=======
                 szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 =======
 >>>>>>> osgeo-main
@@ -10216,9 +17787,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 psSHP->sHooks.Error(szErrorMsg);
@@ -10230,6 +17827,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         int nOffset = 44 + 8 + 4 * nParts;
 =======
 <<<<<<< HEAD
@@ -10248,6 +17854,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        int nOffset = 44 + 8 + 4 * nParts;
+=======
+>>>>>>> osgeo-main
+=======
         int nOffset = 44 + 8 + 4 * nParts;
 =======
 >>>>>>> osgeo-main
@@ -10259,6 +17869,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         int nOffset = 44 + 8 + 4 * nParts;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         nOffset = 44 + 8 + 4 * nParts;
 =======
@@ -10267,9 +17884,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        int nOffset = 44 + 8 + 4 * nParts;
+=======
+        nOffset = 44 + 8 + 4 * nParts;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        nOffset = 44 + 8 + 4 * nParts;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -10283,6 +17922,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 <<<<<<< HEAD
@@ -10301,6 +17949,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 =======
 >>>>>>> osgeo-main
@@ -10312,6 +17964,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; (int32)i < nParts; i++) {
 =======
@@ -10320,9 +17979,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; STATIC_CAST(int32, i) < nParts; i++) {
+=======
+            for (i = 0; (int32)i < nParts; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; (int32)i < nParts; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 if (bBigEndian)
@@ -10340,6 +18021,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 <<<<<<< HEAD
@@ -10358,6 +18048,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 >>>>>>> osgeo-main
@@ -10369,6 +18063,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -10377,9 +18078,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+        for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             memcpy(psShape->padfX + i, psSHP->pabyRec + nOffset + i * 16, 8);
@@ -10414,6 +18137,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 <<<<<<< HEAD
@@ -10432,6 +18164,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 >>>>>>> osgeo-main
@@ -10443,6 +18179,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -10451,9 +18194,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 memcpy(psShape->padfZ + i,
@@ -10468,6 +18233,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -10486,6 +18258,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            psShape->padfZ = SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -10504,9 +18280,33 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            psShape->padfZ = SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+            psShape->padfZ = NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            psShape->padfZ = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -10522,6 +18322,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 <<<<<<< HEAD
@@ -10540,6 +18349,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
+=======
+>>>>>>> osgeo-main
+=======
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 >>>>>>> osgeo-main
@@ -10551,6 +18364,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 =======
@@ -10559,9 +18379,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
+=======
+        if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             memcpy(&(psShape->dfMMin), psSHP->pabyRec + nOffset, 8);
@@ -10575,6 +18417,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 <<<<<<< HEAD
@@ -10593,6 +18444,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 >>>>>>> osgeo-main
@@ -10604,6 +18459,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -10612,9 +18474,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 memcpy(psShape->padfM + i,
@@ -10628,6 +18512,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -10646,6 +18537,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            psShape->padfM = SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -10664,9 +18559,33 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            psShape->padfM = SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+            psShape->padfM = NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            psShape->padfM = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -10676,6 +18595,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     /*  Extract vertices for a MultiPoint.                    */
 =======
 <<<<<<< HEAD
@@ -10694,6 +18622,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    /*  Extract vertices for a MultiPoint.                    */
+=======
+>>>>>>> osgeo-main
+=======
     /*  Extract vertices for a MultiPoint.                    */
 =======
 >>>>>>> osgeo-main
@@ -10705,6 +18637,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
     /*  Extract vertices for a MultiPoint.                    */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     /*  Extract vertices for a MultiPoint.                                  */
 =======
@@ -10713,9 +18652,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    /*  Extract vertices for a MultiPoint.                    */
+=======
+    /*  Extract vertices for a MultiPoint.                                  */
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*  Extract vertices for a MultiPoint.                                  */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* ==================================================================== */
@@ -10725,6 +18686,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10739,6 +18705,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
         if (44 + 4 > nEntitySize) {
             char szErrorMsg[160];
@@ -10746,6 +18714,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10757,6 +18726,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         memcpy(&nPoints, psSHP->pabyRec + 44, 4);
 
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10809,6 +18780,81 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        if (44 + 4 > nEntitySize) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        int32 nPoints;
+        int i, nOffset;
+        unsigned char *pBuffer = NULL;
+        unsigned char **ppBuffer = NULL;
+
+        if (44 + 4 > nEntitySize) {
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (44 + 4 > nEntitySize) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nEntitySize = %d",
+                     hEntity, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+            psSHP->sHooks.Error(szErrorMsg);
+            SHPDestroyObject(psShape);
+            return SHPLIB_NULLPTR;
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+        int32 nPoints;
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int32 nPoints;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        memcpy(&nPoints, psSHP->pabyRec + 44, 4);
+
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        int32 nPoints;
+        int i, nOffset;
+        unsigned char *pBuffer = NULL;
+        unsigned char **ppBuffer = NULL;
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
         if (44 + 4 > nEntitySize) {
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10824,10 +18870,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
         if (bBigEndian)
@@ -10838,6 +18881,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10852,6 +18900,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10861,13 +18919,22 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 =======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+>>>>>>> osgeo-main
             char szErrorMsg[160];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10883,6 +18950,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nPoints = %d", hEntity,
@@ -10897,9 +18971,32 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nPoints = %d", hEntity,
+                     nPoints);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nPoints = %d", hEntity,
+                     nPoints);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -10910,6 +19007,14 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         int nRequiredSize = 48 + nPoints * 16;
 =======
 <<<<<<< HEAD
@@ -10925,6 +19030,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+        int nRequiredSize = 48 + nPoints * 16;
+=======
+>>>>>>> osgeo-main
+=======
         int nRequiredSize = 48 + nPoints * 16;
 =======
 >>>>>>> osgeo-main
@@ -10936,6 +19045,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         int nRequiredSize = 48 + nPoints * 16;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         nRequiredSize = 48 + nPoints * 16;
 =======
@@ -10944,9 +19060,29 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+        int nRequiredSize = 48 + nPoints * 16;
+=======
+        nRequiredSize = 48 + nPoints * 16;
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         if (psShape->nSHPType == SHPT_MULTIPOINTZ) {
@@ -10956,6 +19092,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10970,6 +19111,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
@@ -10980,7 +19131,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10998,10 +19154,21 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            char szErrorMsg[160];
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
             snprintf(szErrorMsg, sizeof(szErrorMsg),
-                     "Corrupted .shp file : shape %d : nPoints = %d, "
+                     "Corrupted .shp file : shape %d : nPoints = %u, "
                      "nEntitySize = %d",
                      hEntity, nPoints, nEntitySize);
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11022,6 +19189,53 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nPoints = %d, "
+                     "nEntitySize = %d",
+                     hEntity, nPoints, nEntitySize);
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
+=======
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Corrupted .shp file : shape %d : nPoints = %u, "
+                     "nEntitySize = %d",
+                     hEntity, nPoints, nEntitySize);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -11032,6 +19246,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11046,6 +19265,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         unsigned char *pBuffer = SHPLIB_NULLPTR;
         unsigned char **ppBuffer = SHPLIB_NULLPTR;
@@ -11055,9 +19284,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 =======
@@ -11065,11 +19300,30 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
             int nObjectBufSize = 4 * sizeof(double) * nPoints;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize = 4 * sizeof(double) * nPoints;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (psShape->bFastModeReadObject) {
+            int nObjectBufSize = 4 * sizeof(double) * nPoints;
+
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
         if (psShape->bFastModeReadObject) {
             int nObjectBufSize = 4 * sizeof(double) * nPoints;
@@ -11082,15 +19336,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         if (psShape->bFastModeReadObject) {
             const int nObjectBufSize = 4 * sizeof(double) * nPoints;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             pBuffer = SHPReallocObjectBufIfNecessary(psSHP, nObjectBufSize);
@@ -11102,6 +19376,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11111,6 +19390,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -11119,6 +19400,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
@@ -11131,8 +19416,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -11153,7 +19441,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -11209,6 +19500,109 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        psShape->padfX = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfY = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfZ = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+        psShape->padfM = STATIC_CAST(
+            double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
+<<<<<<< HEAD
+
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%u) for shape %d. "
+                     "Probably broken SHP file",
+                     nPoints, hEntity);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+<<<<<<< HEAD
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+        psShape->padfX =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfY =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfZ =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfM =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+        if (psShape->padfX == SHPLIB_NULLPTR ||
+            psShape->padfY == SHPLIB_NULLPTR ||
+            psShape->padfZ == SHPLIB_NULLPTR ||
+            psShape->padfM == SHPLIB_NULLPTR) {
+            char szErrorMsg[160];
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%u) for shape %d. "
+                     "Probably broken SHP file",
+<<<<<<< HEAD
+                     hEntity, nPoints);
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        psShape->padfX =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfY =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfZ =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+        psShape->padfM =
+            (double *)SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints);
+
+        if (psShape->padfX == NULL || psShape->padfY == NULL ||
+            psShape->padfZ == NULL || psShape->padfM == NULL) {
+            snprintf(szErrorMsg, sizeof(szErrorMsg),
+                     "Not enough memory to allocate requested memory "
+                     "(nPoints=%d) for shape %d. "
+                     "Probably broken SHP file",
+                     hEntity, nPoints);
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                     nPoints, hEntity);
+            szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+=======
+>>>>>>> osgeo-main
         psShape->padfX = STATIC_CAST(
             double *, SHPAllocBuffer(ppBuffer, sizeof(double) * nPoints));
         psShape->padfY = STATIC_CAST(
@@ -11232,10 +19626,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -11246,6 +19637,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 <<<<<<< HEAD
@@ -11264,6 +19664,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+>>>>>>> osgeo-main
+=======
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 >>>>>>> osgeo-main
@@ -11275,6 +19679,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -11283,9 +19694,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+        for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             memcpy(psShape->padfX + i, psSHP->pabyRec + 48 + 16 * i, 8);
@@ -11300,6 +19733,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11314,6 +19752,16 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
         int nOffset = 48 + 16 * nPoints;
 
@@ -11323,42 +19771,9 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-        /* --------------------------------------------------------------------
-         */
-        memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
-        memcpy(&(psShape->dfYMin), psSHP->pabyRec + 8 + 12, 8);
-        memcpy(&(psShape->dfXMax), psSHP->pabyRec + 8 + 20, 8);
-        memcpy(&(psShape->dfYMax), psSHP->pabyRec + 8 + 28, 8);
-
-        if (bBigEndian)
-            SwapWord(8, &(psShape->dfXMin));
-        if (bBigEndian)
-            SwapWord(8, &(psShape->dfYMin));
-        if (bBigEndian)
-            SwapWord(8, &(psShape->dfXMax));
-        if (bBigEndian)
-            SwapWord(8, &(psShape->dfYMax));
-
-        /* --------------------------------------------------------------------
-         */
-        /*      If we have a Z coordinate, collect that now. */
-        /* --------------------------------------------------------------------
-         */
-        if (psShape->nSHPType == SHPT_MULTIPOINTZ) {
-            memcpy(&(psShape->dfZMin), psSHP->pabyRec + nOffset, 8);
-            memcpy(&(psShape->dfZMax), psSHP->pabyRec + nOffset + 8, 8);
-
-            if (bBigEndian)
-                SwapWord(8, &(psShape->dfZMin));
-            if (bBigEndian)
-                SwapWord(8, &(psShape->dfZMax));
-
-            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -11423,6 +19838,7 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
         /* --------------------------------------------------------------------
          */
         /*    Get the X/Y bounds.                        */
+>>>>>>> osgeo-main
         /* --------------------------------------------------------------------
          */
         memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
@@ -11458,7 +19874,155 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+        nOffset = 48 + 16 * nPoints;
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Get the X/Y bounds. */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int nOffset = 48 + 16 * nPoints;
+
+        /* --------------------------------------------------------------------
+         */
+        /*    Get the X/Y bounds.                        */
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        /* --------------------------------------------------------------------
+         */
+        memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
+        memcpy(&(psShape->dfYMin), psSHP->pabyRec + 8 + 12, 8);
+        memcpy(&(psShape->dfXMax), psSHP->pabyRec + 8 + 20, 8);
+        memcpy(&(psShape->dfYMax), psSHP->pabyRec + 8 + 28, 8);
+
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfXMin));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfYMin));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfXMax));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfYMax));
+
+        /* --------------------------------------------------------------------
+         */
+        /*      If we have a Z coordinate, collect that now. */
+        /* --------------------------------------------------------------------
+         */
+        if (psShape->nSHPType == SHPT_MULTIPOINTZ) {
+            memcpy(&(psShape->dfZMin), psSHP->pabyRec + nOffset, 8);
+            memcpy(&(psShape->dfZMax), psSHP->pabyRec + nOffset + 8, 8);
+
+            if (bBigEndian)
+                SwapWord(8, &(psShape->dfZMin));
+            if (bBigEndian)
+                SwapWord(8, &(psShape->dfZMax));
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        nOffset = 48 + 16 * nPoints;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        int nOffset = 48 + 16 * nPoints;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+        /* --------------------------------------------------------------------
+         */
+        /*    Get the X/Y bounds.                        */
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Get the X/Y bounds. */
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        int nOffset = 48 + 16 * nPoints;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+        /* --------------------------------------------------------------------
+         */
+        /*    Get the X/Y bounds.                        */
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+        /* --------------------------------------------------------------------
+         */
+        memcpy(&(psShape->dfXMin), psSHP->pabyRec + 8 + 4, 8);
+        memcpy(&(psShape->dfYMin), psSHP->pabyRec + 8 + 12, 8);
+        memcpy(&(psShape->dfXMax), psSHP->pabyRec + 8 + 20, 8);
+        memcpy(&(psShape->dfYMax), psSHP->pabyRec + 8 + 28, 8);
+
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfXMin));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfYMin));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfXMax));
+        if (bBigEndian)
+            SwapWord(8, &(psShape->dfYMax));
+
+        /* --------------------------------------------------------------------
+         */
+        /*      If we have a Z coordinate, collect that now. */
+        /* --------------------------------------------------------------------
+         */
+        if (psShape->nSHPType == SHPT_MULTIPOINTZ) {
+            memcpy(&(psShape->dfZMin), psSHP->pabyRec + nOffset, 8);
+            memcpy(&(psShape->dfZMax), psSHP->pabyRec + nOffset + 8, 8);
+
+            if (bBigEndian)
+                SwapWord(8, &(psShape->dfZMin));
+            if (bBigEndian)
+                SwapWord(8, &(psShape->dfZMax));
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -11467,9 +20031,27 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 memcpy(psShape->padfZ + i,
@@ -11484,6 +20066,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -11502,6 +20091,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            psShape->padfZ = SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
             psShape->padfZ = SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -11520,9 +20113,33 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            psShape->padfZ = SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+            psShape->padfZ = NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            psShape->padfZ = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 
@@ -11537,6 +20154,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 <<<<<<< HEAD
@@ -11555,6 +20181,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
+=======
+>>>>>>> osgeo-main
+=======
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 =======
 >>>>>>> osgeo-main
@@ -11566,6 +20196,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
         if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
 =======
@@ -11574,9 +20211,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+        if (nEntitySize >= STATIC_CAST(int, nOffset + 16 + 8 * nPoints)) {
+=======
+        if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        if (nEntitySize >= (int)(nOffset + 16 + 8 * nPoints)) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             memcpy(&(psShape->dfMMin), psSHP->pabyRec + nOffset, 8);
@@ -11590,6 +20249,15 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 <<<<<<< HEAD
@@ -11608,6 +20276,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+>>>>>>> osgeo-main
+=======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 =======
 >>>>>>> osgeo-main
@@ -11619,6 +20291,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
             for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
             for (i = 0; (int32)i < nPoints; i++) {
 =======
@@ -11627,9 +20306,31 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+            for (int i = 0; STATIC_CAST(int32, i) < nPoints; i++) {
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            for (i = 0; (int32)i < nPoints; i++) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 memcpy(psShape->padfM + i,
@@ -11643,6 +20344,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 <<<<<<< HEAD
@@ -11661,6 +20369,10 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+            psShape->padfM = SHPLIB_NULLPTR;
+=======
+>>>>>>> osgeo-main
+=======
             psShape->padfM = SHPLIB_NULLPTR;
 =======
 >>>>>>> osgeo-main
@@ -11679,9 +20391,33 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            psShape->padfM = SHPLIB_NULLPTR;
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+            psShape->padfM = NULL;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            psShape->padfM = SHPLIB_NULLPTR;
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     }
@@ -11695,6 +20431,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11704,6 +20445,12 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -11712,6 +20459,13 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
         int nOffset;
 
@@ -11720,9 +20474,27 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        int nOffset;
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         psShape->nVertices = 1;
@@ -11738,6 +20510,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11747,6 +20524,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -11755,36 +20534,87 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
             psShape->padfX = STATIC_CAST(double *, calloc(1, sizeof(double)));
             psShape->padfY = STATIC_CAST(double *, calloc(1, sizeof(double)));
             psShape->padfZ = STATIC_CAST(double *, calloc(1, sizeof(double)));
             psShape->padfM = STATIC_CAST(double *, calloc(1, sizeof(double)));
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
             psShape->padfX = (double *)calloc(1, sizeof(double));
             psShape->padfY = (double *)calloc(1, sizeof(double));
             psShape->padfZ = (double *)calloc(1, sizeof(double));
             psShape->padfM = (double *)calloc(1, sizeof(double));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
             psShape->padfX = STATIC_CAST(double *, calloc(1, sizeof(double)));
@@ -11795,9 +20625,25 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         }
@@ -11807,6 +20653,11 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11816,6 +20667,8 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -11825,12 +20678,29 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
             char szErrorMsg[160];
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
             szErrorMsg[sizeof(szErrorMsg) - 1] = '\0';
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11838,17 +20708,35 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> osgeo-main
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
             snprintf(szErrorMsg, sizeof(szErrorMsg),
                      "Corrupted .shp file : shape %d : nEntitySize = %d",
                      hEntity, nEntitySize);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -11865,9 +20753,23 @@ SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle psSHP, int hEntity)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
             psSHP->sHooks.Error(szErrorMsg);
@@ -12022,6 +20924,15 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
     if (psShape == SHPLIB_NULLPTR)
 =======
 <<<<<<< HEAD
@@ -12040,6 +20951,10 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    if (psShape == SHPLIB_NULLPTR)
+=======
+>>>>>>> osgeo-main
+=======
     if (psShape == SHPLIB_NULLPTR)
 =======
 >>>>>>> osgeo-main
@@ -12051,6 +20966,13 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 =======
     if (psShape == SHPLIB_NULLPTR)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     if (psShape == NULL)
 =======
@@ -12059,9 +20981,31 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+    if (psShape == SHPLIB_NULLPTR)
+=======
+    if (psShape == NULL)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (psShape == NULL)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
         return;
@@ -12074,6 +21018,11 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12088,6 +21037,16 @@ void SHPAPI_CALL SHPDestroyObject(SHPObject *psShape)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
     if (psShape->padfX != SHPLIB_NULLPTR)
         free(psShape->padfX);
@@ -12204,7 +21163,11 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -12232,6 +21195,168 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+    if (psShape->padfX != NULL)
+=======
+    if (psShape->padfX != SHPLIB_NULLPTR)
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+        free(psShape->padfX);
+    if (psShape->padfY != SHPLIB_NULLPTR)
+        free(psShape->padfY);
+    if (psShape->padfZ != SHPLIB_NULLPTR)
+        free(psShape->padfZ);
+    if (psShape->padfM != SHPLIB_NULLPTR)
+        free(psShape->padfM);
+
+    if (psShape->panPartStart != SHPLIB_NULLPTR)
+        free(psShape->panPartStart);
+    if (psShape->panPartType != SHPLIB_NULLPTR)
+        free(psShape->panPartType);
+
+    free(psShape);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (psShape->padfX != SHPLIB_NULLPTR)
+        free(psShape->padfX);
+    if (psShape->padfY != SHPLIB_NULLPTR)
+        free(psShape->padfY);
+    if (psShape->padfZ != SHPLIB_NULLPTR)
+        free(psShape->padfZ);
+    if (psShape->padfM != SHPLIB_NULLPTR)
+        free(psShape->padfM);
+
+    if (psShape->panPartStart != SHPLIB_NULLPTR)
+        free(psShape->panPartStart);
+    if (psShape->panPartType != SHPLIB_NULLPTR)
+        free(psShape->panPartType);
+
+    free(psShape);
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+}
+
+/************************************************************************/
+/*                       SHPGetPartVertexCount()                        */
+/************************************************************************/
+
+static int SHPGetPartVertexCount(const SHPObject *psObject, int iPart)
+{
+    if (iPart == psObject->nParts - 1)
+        return psObject->nVertices - psObject->panPartStart[iPart];
+    else
+        return psObject->panPartStart[iPart + 1] -
+               psObject->panPartStart[iPart];
+}
+
+/************************************************************************/
+/*                      SHPRewindIsInnerRing()                          */
+/************************************************************************/
+
+/* Return -1 in case of ambiguity */
+static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
+                                double dfTestX, double dfTestY,
+                                double dfRelativeTolerance, int bSameZ,
+                                double dfTestZ)
+{
+    /* -------------------------------------------------------------------- */
+    /*      Determine if this ring is an inner ring or an outer ring        */
+    /*      relative to all the other rings.  For now we assume the         */
+    /*      first ring is outer and all others are inner, but eventually    */
+    /*      we need to fix this to handle multiple island polygons and      */
+    /*      unordered sets of rings.                                        */
+    /*                                                                      */
+    /* -------------------------------------------------------------------- */
+
+    bool bInner = false;
+    for (int iCheckRing = 0; iCheckRing < psObject->nParts; iCheckRing++) {
+        if (iCheckRing == iOpRing)
+            continue;
+
+        const int nVertStartCheck = psObject->panPartStart[iCheckRing];
+        const int nVertCountCheck = SHPGetPartVertexCount(psObject, iCheckRing);
+
+        /* Ignore rings that don't have the same (constant) Z value as the
+         * point. */
+        /* As noted in SHPRewindObject(), this is a simplification */
+        /* of what we should ideally do. */
+        if (!bSameZ) {
+            int bZTestOK = TRUE;
+            for (int iVert = nVertStartCheck + 1;
+                 iVert < nVertStartCheck + nVertCountCheck; ++iVert) {
+                if (psObject->padfZ[iVert] != dfTestZ) {
+                    bZTestOK = FALSE;
+                    break;
+                }
+            }
+            if (!bZTestOK)
+                continue;
+        }
+
+        for (int iEdge = 0; iEdge < nVertCountCheck; iEdge++) {
+            int iNext;
+            if (iEdge < nVertCountCheck - 1)
+                iNext = iEdge + 1;
+            else
+                iNext = 0;
+
+            const double y0 = psObject->padfY[iEdge + nVertStartCheck];
+            const double y1 = psObject->padfY[iNext + nVertStartCheck];
+            /* Rule #1:
+             * Test whether the edge 'straddles' the horizontal ray from
+             * the test point (dfTestY,dfTestY)
+             * The rule #1 also excludes edges colinear with the ray.
+             */
+            if ((y0 < dfTestY && dfTestY <= y1) ||
+                (y1 < dfTestY && dfTestY <= y0)) {
+                /* Rule #2:
+                 * Test if edge-ray intersection is on the right from the
+                 * test point (dfTestY,dfTestY)
+                 */
+                const double x0 = psObject->padfX[iEdge + nVertStartCheck];
+                const double x1 = psObject->padfX[iNext + nVertStartCheck];
+                const double intersect_minus_testX =
+                    (x0 - dfTestX) + (dfTestY - y0) / (y1 - y0) * (x1 - x0);
+
+                if (fabs(intersect_minus_testX) <=
+                    dfRelativeTolerance * fabs(dfTestX)) {
+                    /* Potential shared edge, or slightly overlapping polygons
+                     */
+                    return -1;
+                }
+                else if (intersect_minus_testX < 0) {
+                    bInner = !bInner;
+                }
+            }
+        }
+    } /* for iCheckRing */
+    return bInner;
+<<<<<<< HEAD
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     if (psShape->padfX != NULL)
         free(psShape->padfX);
     if (psShape->padfY != NULL)
@@ -12249,6 +21374,12 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
     free(psShape);
 <<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
     if (psShape->padfX != SHPLIB_NULLPTR)
@@ -12267,6 +21398,10 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 
     free(psShape);
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 }
 
 /************************************************************************/
@@ -12368,13 +21503,6 @@ static int SHPRewindIsInnerRing(const SHPObject *psObject, int iOpRing,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
 }
 
 /************************************************************************/
@@ -12389,6 +21517,11 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12398,14 +21531,36 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
     int iOpRing, bAltered = 0;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
     int iOpRing, bAltered = 0;
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -12416,9 +21571,23 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
     /* -------------------------------------------------------------------- */
@@ -12436,6 +21605,11 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12445,6 +21619,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -12453,6 +21629,18 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
     /*      Test if all points have the same Z value.                       */
     /* -------------------------------------------------------------------- */
@@ -12464,14 +21652,20 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
                 bSameZ = FALSE;
                 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 =======
@@ -12481,6 +21675,96 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    /*      Process each of the rings.                                      */
+    /* -------------------------------------------------------------------- */
+    for (iOpRing = 0; iOpRing < psObject->nParts; iOpRing++) {
+        int bInner, iVert, nVertCount, nVertStart, iCheckRing;
+        double dfSum, dfTestX, dfTestY;
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Determine if this ring is an inner ring or an outer ring */
+        /*      relative to all the other rings.  For now we assume the */
+        /*      first ring is outer and all others are inner, but eventually */
+        /*      we need to fix this to handle multiple island polygons and */
+        /*      unordered sets of rings. */
+        /*                                                                      */
+        /* --------------------------------------------------------------------
+         */
+
+        /* Use point in the middle of segment to avoid testing
+         * common points of rings.
+         */
+        dfTestX = (psObject->padfX[psObject->panPartStart[iOpRing]] +
+                   psObject->padfX[psObject->panPartStart[iOpRing] + 1]) /
+                  2;
+        dfTestY = (psObject->padfY[psObject->panPartStart[iOpRing]] +
+                   psObject->padfY[psObject->panPartStart[iOpRing] + 1]) /
+                  2;
+
+        bInner = FALSE;
+        for (iCheckRing = 0; iCheckRing < psObject->nParts; iCheckRing++) {
+            int iEdge;
+
+            if (iCheckRing == iOpRing)
+                continue;
+
+            nVertStart = psObject->panPartStart[iCheckRing];
+
+            if (iCheckRing == psObject->nParts - 1)
+                nVertCount =
+                    psObject->nVertices - psObject->panPartStart[iCheckRing];
+            else
+                nVertCount = psObject->panPartStart[iCheckRing + 1] -
+                             psObject->panPartStart[iCheckRing];
+
+            for (iEdge = 0; iEdge < nVertCount; iEdge++) {
+                int iNext;
+
+                if (iEdge < nVertCount - 1)
+                    iNext = iEdge + 1;
+                else
+                    iNext = 0;
+
+                /* Rule #1:
+                 * Test whether the edge 'straddles' the horizontal ray from the
+                 * test point (dfTestY,dfTestY) The rule #1 also excludes edges
+                 * colinear with the ray.
+                 */
+                if ((psObject->padfY[iEdge + nVertStart] < dfTestY &&
+                     dfTestY <= psObject->padfY[iNext + nVertStart]) ||
+                    (psObject->padfY[iNext + nVertStart] < dfTestY &&
+                     dfTestY <= psObject->padfY[iEdge + nVertStart])) {
+                    /* Rule #2:
+                     * Test if edge-ray intersection is on the right from the
+                     * test point (dfTestY,dfTestY)
+                     */
+                    double const intersect =
+                        (psObject->padfX[iEdge + nVertStart] +
+                         (dfTestY - psObject->padfY[iEdge + nVertStart]) /
+                             (psObject->padfY[iNext + nVertStart] -
+                              psObject->padfY[iEdge + nVertStart]) *
+                             (psObject->padfX[iNext + nVertStart] -
+                              psObject->padfX[iEdge + nVertStart]));
+
+                    if (intersect < dfTestX) {
+                        bInner = !bInner;
+                    }
+                }
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
             }
@@ -12488,6 +21772,90 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
     }
 
     /* -------------------------------------------------------------------- */
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+    /*      Process each of the rings.                                      */
+    /* -------------------------------------------------------------------- */
+    int bAltered = 0;
+    for (int iOpRing = 0; iOpRing < psObject->nParts; iOpRing++) {
+        const int nVertStart = psObject->panPartStart[iOpRing];
+        const int nVertCount = SHPGetPartVertexCount(psObject, iOpRing);
+
+        if (nVertCount < 2)
+            continue;
+
+        /* If a ring has a non-constant Z value, then consider it as an outer */
+        /* ring. */
+        /* NOTE: this is a rough approximation. If we were smarter, */
+        /* we would check that all points of the ring are coplanar, and compare
+         */
+        /* that to other rings in the same (oblique) plane. */
+        int bDoIsInnerRingTest = TRUE;
+        if (!bSameZ) {
+            int bPartSameZ = TRUE;
+            for (int iVert = nVertStart + 1; iVert < nVertStart + nVertCount;
+                 ++iVert) {
+                if (psObject->padfZ[iVert] != psObject->padfZ[nVertStart]) {
+                    bPartSameZ = FALSE;
+                    break;
+                }
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+            }
+<<<<<<< HEAD
+        }
+    }
+=======
+            if (!bPartSameZ)
+                bDoIsInnerRingTest = FALSE;
+        }
+
+        int bInner = FALSE;
+        if (bDoIsInnerRingTest) {
+            for (int iTolerance = 0; iTolerance < 2; iTolerance++) {
+                /* In a first attempt, use a relaxed criterion to decide if a
+                 * point */
+                /* is inside another ring. If all points of the current ring are
+                 * in the */
+                /* "grey" zone w.r.t that criterion, which seems really
+                 * unlikely, */
+                /* then use the strict criterion for another pass. */
+                const double dfRelativeTolerance = (iTolerance == 0) ? 1e-9 : 0;
+                for (int iVert = nVertStart;
+                     iVert + 1 < nVertStart + nVertCount; ++iVert) {
+                    /* Use point in the middle of segment to avoid testing
+                     * common points of rings.
+                     */
+                    const double dfTestX =
+                        (psObject->padfX[iVert] + psObject->padfX[iVert + 1]) /
+                        2;
+                    const double dfTestY =
+                        (psObject->padfY[iVert] + psObject->padfY[iVert + 1]) /
+                        2;
+                    const double dfTestZ =
+                        !bSameZ ? psObject->padfZ[nVertStart] : 0;
+
+                    bInner = SHPRewindIsInnerRing(psObject, iOpRing, dfTestX,
+                                                  dfTestY, dfRelativeTolerance,
+                                                  bSameZ, dfTestZ);
+                    if (bInner >= 0)
+                        break;
+                }
+                if (bInner >= 0)
+                    break;
+            }
+            if (bInner < 0) {
+                /* Completely degenerate case. Do not bother touching order. */
+                continue;
+            }
+        }
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /* -------------------------------------------------------------------- */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12512,10 +21880,63 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
     for (int iOpRing = 0; iOpRing < psObject->nParts; iOpRing++) {
         const int nVertStart = psObject->panPartStart[iOpRing];
         const int nVertCount = SHPGetPartVertexCount(psObject, iOpRing);
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /*      Test if all points have the same Z value.                       */
+    /* -------------------------------------------------------------------- */
+    int bSameZ = TRUE;
+    if (psObject->nSHPType == SHPT_POLYGONZ ||
+        psObject->nSHPType == SHPT_POLYGONM) {
+        for (int iVert = 1; iVert < psObject->nVertices; ++iVert) {
+            if (psObject->padfZ[iVert] != psObject->padfZ[0]) {
+                bSameZ = FALSE;
+                break;
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+            }
+        }
+    }
+
+<<<<<<< HEAD
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+        /* --------------------------------------------------------------------
+         */
+        /*      Determine the current order of this ring so we will know if */
+        /*      it has to be reversed. */
+        /* --------------------------------------------------------------------
+         */
+
+<<<<<<< HEAD
+        if (iOpRing == psObject->nParts - 1)
+            nVertCount = psObject->nVertices - psObject->panPartStart[iOpRing];
+        else
+            nVertCount = psObject->panPartStart[iOpRing + 1] -
+                         psObject->panPartStart[iOpRing];
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    /* -------------------------------------------------------------------- */
+    /*      Process each of the rings.                                      */
+    /* -------------------------------------------------------------------- */
+    int bAltered = 0;
+    for (int iOpRing = 0; iOpRing < psObject->nParts; iOpRing++) {
+        const int nVertStart = psObject->panPartStart[iOpRing];
+        const int nVertCount = SHPGetPartVertexCount(psObject, iOpRing);
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
         if (nVertCount < 2)
             continue;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         /* If a ring has a non-constant Z value, then consider it as an outer */
         /* ring. */
         /* NOTE: this is a rough approximation. If we were smarter, */
@@ -12611,6 +22032,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
     /* -------------------------------------------------------------------- */
+=======
+>>>>>>> osgeo-main
     /*      Process each of the rings.                                      */
     /* -------------------------------------------------------------------- */
     int bAltered = 0;
@@ -12734,8 +22157,21 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
             }
         }
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         dfSum = psObject->padfX[nVertStart] *
                 (psObject->padfY[nVertStart + 1] -
                  psObject->padfY[nVertStart + nVertCount - 1]);
@@ -12744,12 +22180,26 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
             dfSum += psObject->padfX[iVert] *
                      (psObject->padfY[iVert + 1] - psObject->padfY[iVert - 1]);
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
         dfSum = psObject->padfX[nVertStart] *
                 (psObject->padfY[nVertStart + 1] -
                  psObject->padfY[nVertStart + nVertCount - 1]);
         for (iVert = nVertStart + 1; iVert < nVertStart + nVertCount - 1;
              iVert++) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
         double dfSum = psObject->padfX[nVertStart] *
                        (psObject->padfY[nVertStart + 1] -
@@ -12757,6 +22207,8 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
         int iVert = nVertStart + 1;
         for (; iVert < nVertStart + nVertCount - 1; iVert++) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
             dfSum += psObject->padfX[iVert] *
                      (psObject->padfY[iVert + 1] - psObject->padfY[iVert - 1]);
         }
@@ -12764,6 +22216,201 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 =======
 =======
+=======
+=======
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+            dfSum += psObject->padfX[iVert] *
+                     (psObject->padfY[iVert + 1] - psObject->padfY[iVert - 1]);
+        }
+=======
+            dfSum += psObject->padfX[iVert] *
+                     (psObject->padfY[iVert + 1] - psObject->padfY[iVert - 1]);
+        }
+
+        dfSum += psObject->padfX[iVert] *
+                 (psObject->padfY[nVertStart] - psObject->padfY[iVert - 1]);
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Reverse if necessary. */
+        /* --------------------------------------------------------------------
+         */
+        if ((dfSum < 0.0 && bInner) || (dfSum > 0.0 && !bInner)) {
+<<<<<<< HEAD
+            int i;
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+        dfSum += psObject->padfX[iVert] *
+                 (psObject->padfY[nVertStart] - psObject->padfY[iVert - 1]);
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Reverse if necessary. */
+        /* --------------------------------------------------------------------
+         */
+        if ((dfSum < 0.0 && bInner) || (dfSum > 0.0 && !bInner)) {
+            int i;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /* If a ring has a non-constant Z value, then consider it as an outer */
+        /* ring. */
+        /* NOTE: this is a rough approximation. If we were smarter, */
+        /* we would check that all points of the ring are coplanar, and compare
+         */
+        /* that to other rings in the same (oblique) plane. */
+        int bDoIsInnerRingTest = TRUE;
+        if (!bSameZ) {
+            int bPartSameZ = TRUE;
+            for (int iVert = nVertStart + 1; iVert < nVertStart + nVertCount;
+                 ++iVert) {
+                if (psObject->padfZ[iVert] != psObject->padfZ[nVertStart]) {
+                    bPartSameZ = FALSE;
+                    break;
+                }
+            }
+            if (!bPartSameZ)
+                bDoIsInnerRingTest = FALSE;
+        }
+
+        int bInner = FALSE;
+        if (bDoIsInnerRingTest) {
+            for (int iTolerance = 0; iTolerance < 2; iTolerance++) {
+                /* In a first attempt, use a relaxed criterion to decide if a
+                 * point */
+                /* is inside another ring. If all points of the current ring are
+                 * in the */
+                /* "grey" zone w.r.t that criterion, which seems really
+                 * unlikely, */
+                /* then use the strict criterion for another pass. */
+                const double dfRelativeTolerance = (iTolerance == 0) ? 1e-9 : 0;
+                for (int iVert = nVertStart;
+                     iVert + 1 < nVertStart + nVertCount; ++iVert) {
+                    /* Use point in the middle of segment to avoid testing
+                     * common points of rings.
+                     */
+                    const double dfTestX =
+                        (psObject->padfX[iVert] + psObject->padfX[iVert + 1]) /
+                        2;
+                    const double dfTestY =
+                        (psObject->padfY[iVert] + psObject->padfY[iVert + 1]) /
+                        2;
+                    const double dfTestZ =
+                        !bSameZ ? psObject->padfZ[nVertStart] : 0;
+
+                    bInner = SHPRewindIsInnerRing(psObject, iOpRing, dfTestX,
+                                                  dfTestY, dfRelativeTolerance,
+                                                  bSameZ, dfTestZ);
+                    if (bInner >= 0)
+                        break;
+                }
+                if (bInner >= 0)
+                    break;
+            }
+            if (bInner < 0) {
+                /* Completely degenerate case. Do not bother touching order. */
+                continue;
+            }
+        }
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+
+        dfSum += psObject->padfX[iVert] *
+                 (psObject->padfY[nVertStart] - psObject->padfY[iVert - 1]);
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Reverse if necessary. */
+        /* --------------------------------------------------------------------
+         */
+        if ((dfSum < 0.0 && bInner) || (dfSum > 0.0 && !bInner)) {
+<<<<<<< HEAD
+            int i;
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+
+        dfSum += psObject->padfX[iVert] *
+                 (psObject->padfY[nVertStart] - psObject->padfY[iVert - 1]);
+
+        /* --------------------------------------------------------------------
+         */
+        /*      Reverse if necessary. */
+        /* --------------------------------------------------------------------
+         */
+        if ((dfSum < 0.0 && bInner) || (dfSum > 0.0 && !bInner)) {
+            int i;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        /* If a ring has a non-constant Z value, then consider it as an outer */
+        /* ring. */
+        /* NOTE: this is a rough approximation. If we were smarter, */
+        /* we would check that all points of the ring are coplanar, and compare
+         */
+        /* that to other rings in the same (oblique) plane. */
+        int bDoIsInnerRingTest = TRUE;
+        if (!bSameZ) {
+            int bPartSameZ = TRUE;
+            for (int iVert = nVertStart + 1; iVert < nVertStart + nVertCount;
+                 ++iVert) {
+                if (psObject->padfZ[iVert] != psObject->padfZ[nVertStart]) {
+                    bPartSameZ = FALSE;
+                    break;
+                }
+            }
+            if (!bPartSameZ)
+                bDoIsInnerRingTest = FALSE;
+        }
+
+        int bInner = FALSE;
+        if (bDoIsInnerRingTest) {
+            for (int iTolerance = 0; iTolerance < 2; iTolerance++) {
+                /* In a first attempt, use a relaxed criterion to decide if a
+                 * point */
+                /* is inside another ring. If all points of the current ring are
+                 * in the */
+                /* "grey" zone w.r.t that criterion, which seems really
+                 * unlikely, */
+                /* then use the strict criterion for another pass. */
+                const double dfRelativeTolerance = (iTolerance == 0) ? 1e-9 : 0;
+                for (int iVert = nVertStart;
+                     iVert + 1 < nVertStart + nVertCount; ++iVert) {
+                    /* Use point in the middle of segment to avoid testing
+                     * common points of rings.
+                     */
+                    const double dfTestX =
+                        (psObject->padfX[iVert] + psObject->padfX[iVert + 1]) /
+                        2;
+                    const double dfTestY =
+                        (psObject->padfY[iVert] + psObject->padfY[iVert + 1]) /
+                        2;
+                    const double dfTestZ =
+                        !bSameZ ? psObject->padfZ[nVertStart] : 0;
+
+                    bInner = SHPRewindIsInnerRing(psObject, iOpRing, dfTestX,
+                                                  dfTestY, dfRelativeTolerance,
+                                                  bSameZ, dfTestZ);
+                    if (bInner >= 0)
+                        break;
+                }
+                if (bInner >= 0)
+                    break;
+            }
+            if (bInner < 0) {
+                /* Completely degenerate case. Do not bother touching order. */
+                continue;
+            }
+        }
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 
         dfSum += psObject->padfX[iVert] *
                  (psObject->padfY[nVertStart] - psObject->padfY[iVert - 1]);
@@ -13064,12 +22711,22 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 <<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
             for (int i = 0; i < nVertCount / 2; i++) {
                 /* Swap X */
@@ -13080,10 +22737,17 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
             for (int i = 0; i < nVertCount / 2; i++) {
                 /* Swap X */
                 double dfSaved = psObject->padfX[nVertStart + i];
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -13092,6 +22756,18 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
             for (i = 0; i < nVertCount / 2; i++) {
                 double dfSaved;
 
@@ -13099,6 +22775,14 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
                 dfSaved = psObject->padfX[nVertStart + i];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -13108,6 +22792,13 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
                 /* Swap X */
                 double dfSaved = psObject->padfX[nVertStart + i];
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 =======
             for (int i = 0; i < nVertCount / 2; i++) {
@@ -13117,9 +22808,25 @@ int SHPAPI_CALL SHPRewindObject(CPL_UNUSED SHPHandle hSHP, SHPObject *psObject)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
                 psObject->padfX[nVertStart + i] =
