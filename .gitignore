@@ -65,5 +65,8 @@ lib/*/latex/
 *.gcno
 *.gcda
 .coverage
+<<<<<<< HEAD
 .coverage.*
 coverage.xml
+=======
+>>>>>>> d0300d79d5 (CI: Initial code coverage configuration with Codecov (#3905))
