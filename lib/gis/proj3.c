@@ -71,6 +71,7 @@ const char *G_database_unit_name(int plural)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 int G_database_unit(void)
@@ -99,6 +100,10 @@ int G_database_unit(void)
 =======
 >>>>>>> osgeo-main
 =======
+int G_database_unit(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int G_database_unit()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -111,6 +116,7 @@ int G_database_unit()
 int G_database_unit(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +146,8 @@ int G_database_unit(void)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {

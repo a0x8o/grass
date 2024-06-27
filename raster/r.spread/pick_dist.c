@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *     doing it twice gets a SIMPLE INVERSE distribuion in that range;
 =======
 <<<<<<< HEAD
@@ -26,6 +27,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
  *     doing it twice gets a SIMPLE INVERSE distribution in that range;
@@ -35,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *     doing it twice gets a SIMPLE INVERSE distribuion in that range;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -52,6 +56,11 @@
  *     doing it twice gets a SIMPLE INVERSE distribuion in that range;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ *     doing it twice gets a SIMPLE INVERSE distribuion in that range;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  *     doing it twice gets a SIMPLE INVERSE distribuion in that range;

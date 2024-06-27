@@ -807,6 +807,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_fatal_error(_("Can't get projection info of current location"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -833,6 +834,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             G_fatal_error(_("Can't get projection info of current project"));
@@ -881,6 +884,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -888,6 +892,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         if (GPJ_init_transform(&iproj, &oproj, &tproj) < 0)
@@ -902,6 +908,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Lat/Lon location"));
 =======
 <<<<<<< HEAD
@@ -914,6 +921,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     "Lat/Lon project"));
@@ -923,6 +932,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "Lat/Lon location"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -940,6 +950,11 @@ int main(int argc, char *argv[])
                     "Lat/Lon location"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "Lat/Lon location"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "Lat/Lon location"));
@@ -1822,6 +1837,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1833,6 +1849,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     bool shouldBeBestAM = false;
@@ -1842,6 +1860,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1857,6 +1876,10 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1983,6 +2006,15 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
         }
         sunVarGeom.zmax = zmax;
         shadowoffset_base = (j % (numRows)) * n * arrayNumInt;
+<<<<<<< HEAD
+#pragma omp parallel firstprivate(                                            \
+        q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,     \
+            latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v,     \
+            cos_v, lum, gridGeom, elevin, aspin, slopein, civiltime, linkein, \
+            albedo, latin, coefbh, coefdh, incidout, longin, horizon,         \
+            beam_rad, insol_time, diff_rad, refl_rad, glob_rad, mapset, per,  \
+            decimals, str_step, shouldBeBestAM, isBestAM)
+=======
 #pragma omp parallel firstprivate(                                             \
     q1, tan_lam_l, z1, i, shadowoffset, longitTime, coslat, coslatsq,          \
     latitude, longitude, sin_phi_l, latid_l, sin_u, cos_u, sin_v, cos_v, lum,  \
@@ -1994,6 +2026,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     refl_rad, glob_rad, mapset, per, decimals, str_step)
 =======
 <<<<<<< HEAD
@@ -2006,6 +2039,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     refl_rad, glob_rad, mapset, per, decimals, str_step, shouldBeBestAM,       \
@@ -2016,6 +2051,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     refl_rad, glob_rad, mapset, per, decimals, str_step)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2027,25 +2063,28 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
     refl_rad, glob_rad, mapset, per, decimals, str_step)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 =======
 =======
     refl_rad, glob_rad, mapset, per, decimals, str_step)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         {
-#pragma omp for schedule(dynamic) firstprivate(sunGeom, sunVarGeom,      \
-                                               sunSlopeGeom, sunRadVar)  \
-    lastprivate(sunGeom, sunVarGeom, sunSlopeGeom, sunRadVar) reduction( \
-        max                                                              \
-        : linke_max, albedo_max, lat_max, sunrise_max, sunset_max)       \
-        reduction(min                                                    \
-                  : linke_min, albedo_min, lat_min, sunrise_min, sunset_min)
+#pragma omp for schedule(dynamic)                                            \
+    firstprivate(sunGeom, sunVarGeom, sunSlopeGeom, sunRadVar)               \
+    lastprivate(sunGeom, sunVarGeom, sunSlopeGeom, sunRadVar)                \
+    reduction(max : linke_max, albedo_max, lat_max, sunrise_max, sunset_max) \
+    reduction(min : linke_min, albedo_min, lat_min, sunrise_min, sunset_min)
             for (i = 0; i < n; i++) {
                 shadowoffset = shadowoffset_base + (arrayNumInt * i);
                 if (useCivilTime()) {
@@ -2163,6 +2202,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     tan_lam_l = -cos_u * cos_v / q1;
                     sunSlopeGeom.longit_l = atan(tan_lam_l);
                     sunSlopeGeom.lum_C31_l = cos(latid_l) * sunGeom.cosdecl;
@@ -2224,6 +2264,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -2344,8 +2386,11 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2404,6 +2449,7 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2413,6 +2459,8 @@ void calculate(double singleSlope, double singleAspect, double singleAlbedo,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 } /* undefs */

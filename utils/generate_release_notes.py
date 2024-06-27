@@ -9,12 +9,14 @@ import argparse
 import csv
 import itertools
 import json
+import random
 import re
 import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
 
+import requests
 import yaml
 
 PRETTY_TEMPLATE = (
@@ -71,6 +73,7 @@ def split_to_categories(changes, categories):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -84,8 +87,10 @@ def split_to_categories(changes, categories):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 def print_section_heading_2(text, file=None):
-    print(f"### {text}\n", file=file)
+    print(f"## {text}\n", file=file)
 
 
 def print_section_heading_3(text, file=None):
@@ -97,6 +102,7 @@ def print_section_heading_3(text, file=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -112,6 +118,10 @@ def print_section_heading_3(text, file=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -130,6 +140,7 @@ def print_category(category, changes, file=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print(f"### {category}", file=file)
 =======
 <<<<<<< HEAD
@@ -160,6 +171,10 @@ def print_category(category, changes, file=None):
     print_section_heading_3(category, file=file)
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    print_section_heading_3(category, file=file)
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
     print_section_heading_3(category, file=file)
 <<<<<<< HEAD
@@ -172,8 +187,11 @@ def print_category(category, changes, file=None):
     max_section_length = 25
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> eb39403b39 (contributing: Hide bots from release notes (#3829))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -184,8 +202,11 @@ def print_category(category, changes, file=None):
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -194,7 +215,10 @@ def print_category(category, changes, file=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     for item in sorted(items):
@@ -232,9 +256,47 @@ def print_by_category(changes, categories, file=None):
 
 def binder_badge(tag):
     """Get mybinder Binder badge from a given tag, hash, or branch"""
-    binder_image_url = "https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667"  # noqa
+    binder_image_url = "https://mybinder.org/badge_logo.svg"
     binder_url = f"https://mybinder.org/v2/gh/OSGeo/grass/{tag}?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb"  # noqa
     return f"[![Binder]({binder_image_url})]({binder_url})"
+
+
+def print_support(file=None):
+    url = "https://opencollective.com/grass/tiers/supporter/all.json"
+    response = requests.get(url=url)
+    data = response.json()
+    if data:
+        print_section_heading_3("Monthly Financial Supporters", file=file)
+        random.shuffle(data)
+        supporters = []
+        for member in data:
+            supporters.append(f"""[{member['name']}]({member['profile']})""")
+        print(", ".join(supporters))
+        print("")
+
+
+def adjust_after(lines):
+    """Adjust new contributor lines in the last part of the generated notes"""
+    bot_file = Path("utils") / "known_bot_names.txt"
+    known_bot_names = bot_file.read_text().splitlines()
+    new_lines = []
+    for line in lines:
+        if line.startswith("* @"):
+            unused, username, text = line.split(" ", maxsplit=2)
+            username = username.replace("@", "")
+            if username in known_bot_names:
+                continue
+            output = subprocess.run(
+                ["gh", "api", f"users/{username}"],
+                capture_output=True,
+                text=True,
+                check=True,
+            ).stdout
+            name = json.loads(output)["name"]
+            if name and name != username:
+                line = f"* {name} (@{username}) {text}"
+        new_lines.append(line)
+    return new_lines
 
 
 def print_notes(
@@ -260,6 +322,7 @@ def print_notes(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print("## What's Changed", file=file)
 =======
 <<<<<<< HEAD
@@ -273,6 +336,22 @@ def print_notes(
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
+    print_section_heading_2("Highlights", file=file)
+    print("* _Put handcrafted list of 2-15 items here._\n")
+    print_section_heading_2("New Addon Tools", file=file)
+    print(
+        "* _Put here a list of new addos since last release "
+        "or delete the section if there are none._\n"
+    )
+    print_support(file=file)
+=======
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
     print_section_heading_2("What's Changed", file=file)
 =======
@@ -281,6 +360,7 @@ def print_notes(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     print("## What's Changed", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -298,6 +378,11 @@ def print_notes(
     print("## What's Changed", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    print("## What's Changed", file=file)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     print("## What's Changed", file=file)
@@ -342,12 +427,13 @@ def notes_from_gh_api(start_tag, end_tag, branch, categories, exclude):
         else:
             changes.append(change)
     changes = remove_excluded_changes(changes=changes, exclude=exclude)
+    after = adjust_after(lines[end_whats_changed + 1 :])
     print_notes(
         start_tag=start_tag,
         end_tag=end_tag,
         changes=changes,
         before="\n".join(lines[:start_whats_changed]),
-        after="\n".join(lines[end_whats_changed + 1 :]),
+        after="\n".join(after),
         categories=categories,
     )
 
@@ -506,12 +592,26 @@ def main():
             if re.match(category["regexp"], args.branch):
                 has_match = True
                 break
+        for item in config["notes"]["exclude"]["regexp"]:
+            if re.match(item, args.branch):
+                has_match = True
+                break
         if has_match:
             sys.exit(0)
         else:
+            expressions = "\n".join(
+                [category["regexp"] for category in config["notes"]["categories"]]
+            )
+            suggestions = "\n".join(
+                [category["example"] for category in config["notes"]["categories"]]
+            )
             sys.exit(
                 f"Title '{args.branch}' does not fit into one of "
-                f"the categories specified in {config_file}"
+                f"the categories specified in {config_file}. "
+                "Try to make it fit one of these regular expressions:\n"
+                f"{expressions}\n"
+                "Here are some examples:\n"
+                f"{suggestions}"
             )
     try:
         create_release_notes(args)

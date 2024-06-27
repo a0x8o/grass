@@ -106,6 +106,7 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * input gradient field. Returend is a new structure of type N_gradient_2d.
 =======
 <<<<<<< HEAD
@@ -118,6 +119,8 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
  * input gradient field. Returned is a new structure of type N_gradient_2d.
@@ -127,6 +130,7 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * input gradient field. Returend is a new structure of type N_gradient_2d.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -144,6 +148,11 @@ int N_copy_gradient_2d(N_gradient_2d *source, N_gradient_2d *target)
  * input gradient field. Returend is a new structure of type N_gradient_2d.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * input gradient field. Returend is a new structure of type N_gradient_2d.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * input gradient field. Returend is a new structure of type N_gradient_2d.

@@ -311,6 +311,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -322,6 +323,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     if (nprocs > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
@@ -332,6 +335,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -347,6 +351,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -633,10 +641,10 @@ int main(int argc, char *argv[])
         int start = written;
         int end = written + range;
 
-#pragma omp parallel if (nprocs > 1)                                    \
-    firstprivate(north, east, south, west, ns_med, H, V) private(       \
-        row, col, size, slp_ptr, asp_ptr, pcurv_ptr, tcurv_ptr, dx_ptr, \
-        dxx_ptr, dxy_ptr, dy_ptr, dyy_ptr)
+#pragma omp parallel if (nprocs > 1)                                        \
+    firstprivate(north, east, south, west, ns_med, H, V) private(           \
+            row, col, size, slp_ptr, asp_ptr, pcurv_ptr, tcurv_ptr, dx_ptr, \
+                dxx_ptr, dxy_ptr, dy_ptr, dyy_ptr)
         {
             int t_id = FIRST_THREAD;
 
@@ -661,10 +669,9 @@ int main(int argc, char *argv[])
 
             /* static scheduling is essential for buffer to be initialized
              * properly */
-#pragma omp for schedule(static) reduction(min                               \
-                                           : c1min, c2min, min_asp, min_slp) \
-    reduction(max                                                            \
-              : c1max, c2max, max_asp, max_slp)
+#pragma omp for schedule(static)                    \
+    reduction(min : c1min, c2min, min_asp, min_slp) \
+    reduction(max : c1max, c2max, max_asp, max_slp)
             for (row = start; row < end; row++) {
                 if (!initialized) {
                     initialized = true;

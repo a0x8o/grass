@@ -33,6 +33,7 @@ static int make_dir(const char *path, int mode);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param mode mode
 =======
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ static int make_dir(const char *path, int mode);
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
    \param mode mode (unused, defaults to chmod 0777 on non-Windows systems)
@@ -54,6 +57,7 @@ static int make_dir(const char *path, int mode);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \param mode mode
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -71,6 +75,11 @@ static int make_dir(const char *path, int mode);
    \param mode mode
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+   \param mode mode
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \param mode mode

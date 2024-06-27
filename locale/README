@@ -12,6 +12,7 @@ This file contains following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on 
@@ -19,6 +20,9 @@ Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+Updating the message catalogs currently only works on
+>>>>>>> osgeo-main
 =======
 Updating the message catalogs currently only works on
 >>>>>>> osgeo-main
@@ -70,6 +74,7 @@ NOTE3: Notices to translators can be added by placing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* GTC A comma separated keyword list.
 =======
         /* GTC A comma separated keyword list. 
@@ -77,6 +82,9 @@ NOTE3: Notices to translators can be added by placing
 =======
         /* GTC A comma separated keyword list.
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+        /* GTC A comma separated keyword list.
+>>>>>>> osgeo-main
 =======
         /* GTC A comma separated keyword list.
 >>>>>>> osgeo-main
@@ -90,6 +98,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         plural case", number)
 =======
         plural case", number) 
@@ -100,11 +109,15 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 =======
         plural case", number)
 >>>>>>> osgeo-main
+=======
+        plural case", number)
+>>>>>>> osgeo-main
 
 Examples of messages with plural forms.
 Wrong:
     G_message( _("%d map(s) from mapset <%s> removed"), n, ms);
     G_message( n == 1 ? _("One file removed") : _("%d files removed"), n);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +135,10 @@ Wrong:
     G_warning( _("%d %s without geometry skipped"), n,
         n == 1 ? "feature" : "features");
 >>>>>>> osgeo-main
+=======
+    G_warning( _("%d %s without geometry skipped"), n,
+        n == 1 ? "feature" : "features");
+>>>>>>> osgeo-main
     G_message( _("%d maps selected"), n);
     G_message( n == 1 ? _("Remove map") : _("Remove maps"));
 
@@ -129,6 +146,9 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     G_message( n_("%d map from mapset <%s> removed",
@@ -139,6 +159,7 @@ Correct:
     /* Both of forms of singular case "%d file" or "One file" are correct.
     The choice between them is purely stylistic one. */
     G_warning( n_("One feature without geometry skipped",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     G_message( n_("%d map from mapset <%s> removed", 
@@ -159,6 +180,8 @@ Correct:
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         "%d features without geometry skipped", n), n);
     G_message( n_("%d map selected", "%d maps selected", n), n);
     /* Although in English it is not necessary to provide a separate
@@ -166,6 +189,7 @@ Correct:
     is i.e. 2-4, or n==10 etc. */
     G_message( n_("Remove map", "Remove maps", n));
     /* Number it self doesn't have to be used in the output text */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +211,11 @@ All these messages strings will be then automatically
 
 All these messages strings will be then automatically
 >>>>>>> osgeo-main
+=======
+
+
+All these messages strings will be then automatically
+>>>>>>> osgeo-main
 extracted into the message files.
 
 See for example ./vector/v.what.rast/main.c
@@ -200,6 +229,7 @@ can be found in gettext manual.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 How to prepare program source:
 =======
 How to prepare program source: 
@@ -207,6 +237,9 @@ How to prepare program source:
 =======
 How to prepare program source:
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+How to prepare program source:
+>>>>>>> osgeo-main
 =======
 How to prepare program source:
 >>>>>>> osgeo-main
@@ -232,12 +265,16 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     stored in https://grass.osgeo.org/grass-devel/binary/linux/snapshot/transifex/
      --> cronjob (on grasslxd container): /home/neteler/cronjobs/cron_grass8_main_src_snapshot.sh
 
 [2] Transifex job copies daily from [1] to here:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -254,10 +291,13 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 	https://www.transifex.com/grass-gis/grass7/dashboard/
 
 [3] Translators work in Transifex,
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +320,11 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
     (MO files are generated when compiling GRASS GIS)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 >>>>>>> osgeo-main
+=======
+[4] Updated po files are taken from Transifex and merged into GRASS GIS source repo
+    (MO files are generated when compiling GRASS GIS)
+    Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
+>>>>>>> osgeo-main
 
     # trim disconnected=obsolete translations
     POFILE=grassYXZ_LANG.po
@@ -292,6 +337,7 @@ Semi-automated procedure:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -299,6 +345,9 @@ Semi-automated procedure:
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -314,6 +363,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3. Now translate the messages in the po/*.po files (using kbabel or
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or 
@@ -324,10 +374,14 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> osgeo-main
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or
+>>>>>>> osgeo-main
      other editor). Just open the .po file(s) in your preferred translation
      software.
 
   4. In the locale/ directory, run:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,6 +392,9 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -388,6 +445,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -395,6 +453,9 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -413,6 +474,9 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -423,6 +487,7 @@ DETAILED PROCEDURE :
         make pot
         make update-po
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
        
@@ -443,6 +508,8 @@ DETAILED PROCEDURE :
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
        Move the generated file from the ./template/ directory
        to the ./po/ directory (for example German language):
         mv ./template/grasslibs.pot ./po/grasslibs_de.po
@@ -458,6 +525,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3.b) Second CASE: Some messages have already been translated to
 =======
   3.b) Second CASE: Some messages have already been translated to 
@@ -468,6 +536,9 @@ DETAILED PROCEDURE :
 =======
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> osgeo-main
+=======
+  3.b) Second CASE: Some messages have already been translated to
+>>>>>>> osgeo-main
        your language (files present in ./po/ directory), and
        you want to continue with translating new and still
        untranslated messages.
@@ -475,6 +546,9 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
        First we have to merge new messages into existing .po files
@@ -488,6 +562,7 @@ DETAILED PROCEDURE :
        This will update the messages in all existing files in
        the .po/ directory.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
        First we have to merge new messages into existing .po files 
@@ -511,11 +586,14 @@ DETAILED PROCEDURE :
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 4. TRANSLATE MESSAGES
 
    In the links section at bottom of this page you find references to the
    'kbabel' and 'poEdit' software to easily translate the message files.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +604,9 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -547,6 +628,9 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
    * Pay attention to keep '%s', '\n' and other stuff also
@@ -558,6 +642,7 @@ DETAILED PROCEDURE :
    After finishing the translation, save the files.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
    * Pay attention to keep '%s', '\n' and other stuff also 
@@ -577,6 +662,8 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 5. CREATE MO FILES
@@ -604,6 +691,9 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -612,6 +702,7 @@ DETAILED PROCEDURE :
    Thanks for submitting.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
    
@@ -628,6 +719,8 @@ DETAILED PROCEDURE :
 =======
 
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 PLEASE HELP TO TRANSLATE GRASS MESSAGES!

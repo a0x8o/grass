@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 =======
 <<<<<<< HEAD
@@ -35,6 +36,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
  * terrain. The terrain is NOT viewed as a tessellation of flat cells,
@@ -44,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -61,6 +65,11 @@
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * terrain. The terrain is NOT viewed as a tesselation of flat cells,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
@@ -112,6 +121,7 @@ float get_vertical_angle(Viewpoint vp, StatusNode sn, surface_type elev,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                          int doCurv)
 =======
 <<<<<<< HEAD
@@ -124,6 +134,8 @@ float get_vertical_angle(Viewpoint vp, StatusNode sn, surface_type elev,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                          int doCurv UNUSED)
@@ -133,6 +145,7 @@ float get_vertical_angle(Viewpoint vp, StatusNode sn, surface_type elev,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                          int doCurv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -150,6 +163,11 @@ float get_vertical_angle(Viewpoint vp, StatusNode sn, surface_type elev,
                          int doCurv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                         int doCurv)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                          int doCurv)

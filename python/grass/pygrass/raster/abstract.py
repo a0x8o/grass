@@ -161,6 +161,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     def _get_semantic_label(self):
@@ -190,6 +191,11 @@ class Info:
         """Get semantic label identifier.
 =======
 >>>>>>> osgeo-main
+=======
+    def _get_semantic_label(self):
+        """Get semantic label identifier.
+=======
+>>>>>>> osgeo-main
     def _get_bandref(self):
         """Get band reference identifier.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -201,6 +207,7 @@ class Info:
     def _get_semantic_label(self):
         """Get semantic label identifier.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +236,8 @@ class Info:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -242,6 +251,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -271,6 +281,10 @@ class Info:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         semantic_label = libraster.Rast_read_semantic_label(self.name, self.mapset)
         if semantic_label:
             return utils.decode(semantic_label)
@@ -294,6 +308,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -303,6 +318,9 @@ class Info:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -343,6 +361,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -385,6 +404,8 @@ class Info:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 

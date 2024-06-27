@@ -142,6 +142,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 =======
 <<<<<<< HEAD
@@ -154,6 +155,8 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRId64, nrows, ncols,
@@ -163,6 +166,7 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,6 +184,11 @@ AMI_STREAM<T> *cell2stream(char *cellname, elevation_type T_max_value,
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(1, "nrows=%d   ncols=%d    stream_len()=%" PRI_OFF_T, nrows, ncols,

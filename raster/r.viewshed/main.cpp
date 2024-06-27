@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 =======
 <<<<<<< HEAD
@@ -35,6 +36,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
  * terrain. The terrain is NOT viewed as a tessellation of flat cells,
@@ -44,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -61,6 +65,11 @@
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * terrain. The terrain is NOT viewed as a tesselation of flat cells,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
@@ -323,6 +332,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -357,6 +367,11 @@ int main(int argc, char *argv[])
                      viewOptions.streamdir);
 =======
 >>>>>>> osgeo-main
+=======
+            snprintf(buf, sizeof(buf), "%s=%s", STREAM_TMPDIR,
+                     viewOptions.streamdir);
+=======
+>>>>>>> osgeo-main
             sprintf(buf, "%s=%s", STREAM_TMPDIR, viewOptions.streamdir);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -369,8 +384,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -380,6 +398,7 @@ int main(int argc, char *argv[])
                      viewOptions.streamdir);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,6 +427,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             G_debug(1, "setting %s ", buf);

@@ -281,6 +281,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -297,10 +298,13 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -315,10 +319,13 @@ void G__wps_print_process_description(void)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                         if (is_input == 1)
                             num_vector_inputs++;
                         if (is_output == 1)
                             num_vector_outputs++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,9 +345,15 @@ void G__wps_print_process_description(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +370,8 @@ void G__wps_print_process_description(void)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     }
@@ -382,6 +397,7 @@ void G__wps_print_process_description(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -398,10 +414,13 @@ void G__wps_print_process_description(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -416,10 +435,13 @@ void G__wps_print_process_description(void)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                         if (is_input == 1)
                             num_stvds_inputs++;
                         if (is_output == 1)
                             num_stvds_outputs++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,9 +461,15 @@ void G__wps_print_process_description(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +486,8 @@ void G__wps_print_process_description(void)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     }
@@ -791,6 +821,7 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -804,9 +835,12 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -824,6 +858,8 @@ static void wps_print_process_description_begin(
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     if (abstract) {
@@ -836,6 +872,7 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -855,6 +892,9 @@ static void wps_print_process_description_begin(
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 
     if(abstract)
     {
@@ -864,6 +904,9 @@ static void wps_print_process_description_begin(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -871,6 +914,7 @@ static void wps_print_process_description_begin(
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +941,10 @@ static void wps_print_process_description_begin(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

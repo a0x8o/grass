@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
  * background. With do_bg=0 compute position of all legend graphic item and draw
@@ -28,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -45,6 +49,11 @@
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+ * background. Eith do_bg=0 compute position of all legend graphic item and draw
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
@@ -134,7 +143,6 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
         if (strstr(buf, sub_delim) == NULL) {
             /* Get the maximum symbol size */
             tokens = G_tokenize(buf, sep);
-            symb_name = G_store(tokens[1]);
             size = atof(tokens[2]);
             type_str = G_store(tokens[7]);
             G_free_tokens(tokens);
@@ -185,7 +193,6 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
         }
         if (strstr(buf, sub_delim) != NULL) {
             /* Group subtitle */
-            label = G_malloc(GNAME_MAX);
             part = strtok(buf, sep);
             label = G_store(part);
 

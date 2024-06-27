@@ -25,6 +25,7 @@ r.mapcalc --o expr="elev_5 = 45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -36,10 +37,13 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # with different tile sizes and null data
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +59,8 @@ r.mapcalc --o expr="elev_5 = 45"
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 # with differen tile sizes and null data

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Your own fork is the remote called "origin".
 - The OSGeo repo is the remote called "upstream".
 - You don't have any local un-pushed or un-committed changes.
@@ -31,6 +32,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 - The OSGeo repo is the remote called "upstream".
@@ -47,7 +50,10 @@ _Note: Some later steps in this text are to be done by the development coordinat
 - You are using Bash or a similar shell.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -55,11 +61,14 @@ _Note: Some later steps in this text are to be done by the development coordinat
 (currently Markus Neteler and Martin Landa) due to needed logins.*
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
 *Note: Some later steps in this text are to be done by the development coordinator
 (currently Markus Neteler and Martin Landa) due to needed logins.*
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -77,6 +86,7 @@ _Note: Some later steps in this text are to be done by the development coordinat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -84,6 +94,8 @@ _Note: Some later steps in this text are to be done by the development coordinat
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ## Prepare the local repo
@@ -97,6 +109,7 @@ Update your remotes and switch to branch:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 git fetch --all --prune && git checkout releasebranch_8_2
 =======
 <<<<<<< HEAD
@@ -109,6 +122,8 @@ git fetch --all --prune && git checkout releasebranch_8_2
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 git fetch --prune upstream && git checkout releasebranch_8_4
@@ -118,6 +133,7 @@ git fetch --all --prune && git checkout releasebranch_8_2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 git fetch --all --prune && git checkout releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -135,6 +151,11 @@ git fetch --all --prune && git checkout releasebranch_8_2
 git fetch --all --prune && git checkout releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+git fetch --all --prune && git checkout releasebranch_8_2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 git fetch --all --prune && git checkout releasebranch_8_2
@@ -152,6 +173,7 @@ git status
 git diff
 git diff --staged
 # Should give no output:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +262,8 @@ eval $(./utils/update_version.py status --bash)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 git log upstream/releasebranch_8_4..HEAD
@@ -365,8 +389,11 @@ Modify the VERSION file use the dedicated script, for RC1, e.g.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 The script will compute the correct version string and print a message containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
@@ -376,11 +403,14 @@ containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 The script will compute the correct version string and print a message containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -395,8 +425,11 @@ git commit include/VERSION -m "version: GRASS GIS 8.2.0RC1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Check that there is exactly one commit on your local branch and that it is the version change:
@@ -406,11 +439,14 @@ version change:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Check that there is exactly one commit on your local branch and that it is the version change:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -438,8 +474,11 @@ eval $(./utils/update_version.py status --bash)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -484,6 +523,7 @@ Modify the VERSION file use the dedicated script, for RC1, e.g.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The script will compute the correct version string and print a message
 containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 =======
@@ -493,6 +533,10 @@ The script will compute the correct version string and print a message containin
 The script will compute the correct version string and print a message
 containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+The script will compute the correct version string and print a message
+containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
+>>>>>>> osgeo-main
 =======
 The script will compute the correct version string and print a message
 containing it into the terminal (e.g., "version: GRASS GIS 8.2.0RC1").
@@ -508,6 +552,7 @@ git commit include/VERSION -m "version: GRASS GIS 8.2.0RC1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Check that there is exactly one commit on your local branch and that it is the
 version change:
 =======
@@ -517,6 +562,10 @@ Check that there is exactly one commit on your local branch and that it is the v
 Check that there is exactly one commit on your local branch and that it is the
 version change:
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+Check that there is exactly one commit on your local branch and that it is the
+version change:
+>>>>>>> osgeo-main
 =======
 Check that there is exactly one commit on your local branch and that it is the
 version change:
@@ -547,6 +596,7 @@ eval $(./utils/update_version.py status --bash)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -556,6 +606,8 @@ eval $(./utils/update_version.py status --bash)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Version and tag are the same for all releases:
@@ -576,9 +628,10 @@ see: <https://help.github.com/en/articles/creating-releases>.
 ### Tag release
 
 Before creating the tag, it is a good idea to see if the CI jobs are not failing.
-Check on GitHub or use GitHub CLI:
+Check on [GitHub Actions](https://github.com/OSGeo/grass/actions) or use GitHub CLI:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +650,8 @@ gh run list --branch releasebranch_8_2
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 gh run list --branch releasebranch_8_4
@@ -606,6 +661,7 @@ gh run list --branch releasebranch_8_2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 gh run list --branch releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -623,6 +679,11 @@ gh run list --branch releasebranch_8_2
 gh run list --branch releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+gh run list --branch releasebranch_8_2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 gh run list --branch releasebranch_8_2
@@ -645,6 +706,7 @@ Create an annotated tag (a lightweight tag is okay too, but there is more metada
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -656,14 +718,20 @@ Create an annotated tag (a lightweight tag is okay too, but there is more metada
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 stored for annotated tags including a date; message is suggested by the
 `./utils/update_version.py` script):
 
 ```bash
+<<<<<<< HEAD
+git tag $TAG -a -m "GRASS GIS $VERSION"
+=======
 git tag $TAG -a -m "..."
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,6 +750,10 @@ git tag $TAG -a -m "..."
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -696,6 +768,7 @@ git tag $TAG -a -m "GRASS GIS 8.2.0RC1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -724,6 +797,15 @@ git tag $TAG -a -m "GRASS GIS 8.2.0RC1"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 ```
 
@@ -740,6 +822,7 @@ git tag -n --sort=-taggerdate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Now push the tag upstream - this will trigger the automated workflows linked to tags:
 =======
 <<<<<<< HEAD
@@ -752,6 +835,8 @@ Now push the tag upstream - this will trigger the automated workflows linked to 
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Now push the tag upstream - this will trigger the
@@ -762,6 +847,7 @@ Now push the tag upstream - this will trigger the automated workflows linked to 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Now push the tag upstream - this will trigger the automated workflows linked to tags:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -779,6 +865,11 @@ Now push the tag upstream - this will trigger the automated workflows linked to 
 Now push the tag upstream - this will trigger the automated workflows linked to tags:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Now push the tag upstream - this will trigger the automated workflows linked to tags:
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 Now push the tag upstream - this will trigger the automated workflows linked to tags:
@@ -794,8 +885,9 @@ so that you can continue in the release process.
 
 ### Create release notes
 
-Generate a draft of release notes using a script. The script the script needs to
+Generate a draft of release notes using a script. The script needs to be
 run from the top directory and will expect its configuration files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,11 +904,14 @@ run from the top directory and will expect its configuration files
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 to be in the *utils* directory.
 =======
 <<<<<<< HEAD
 to be in the _utils_ directory.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -838,11 +933,22 @@ to be in the *utils* directory.
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
-#### Major and minor releases
+=======
 
-For major (X.y.z) and minor (x.Y.z) releases, GitHub API gives good results for the
-first release candidate because it contains contributor handles and can identify
-new contributors, so use with the _api_ backend, e.g.:
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### First RC of a major and minor releases
+=======
+=======
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+#### Major and minor releases
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+
+For a first RC of a major (X.y.z) and minor (x.Y.z) release, the GitHub API gives
+good results for the first release candidate because it contains contributor handles
+and can identify new contributors, so use with the _api_ backend, e.g.:
 
 ```bash
 python ./utils/generate_release_notes.py api releasebranch_8_4 8.3.0 $VERSION
@@ -858,12 +964,15 @@ The _git log_ command operates on commits, so use use the _log_ backend:
 python ./utils/generate_release_notes.py log releasebranch_8_4 8.4.0 $VERSION
 ```
 
-#### RCs
+#### Between RCs and from last RC to final release
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -874,8 +983,11 @@ release candidate because it contains contributor handles and can identify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 new contributors, so use with the *api* backend, e.g.:
@@ -886,6 +998,7 @@ new contributors, so use with the _api_ backend, e.g.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -895,11 +1008,14 @@ new contributors, so use with the _api_ backend, e.g.:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 to be in the *utils* directory.
 
 For major and minor releases, GitHub API gives good results for the first
 release candidate because it contains contributor handles and can identify
 new contributors, so use with the *api* backend, e.g.:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +1049,10 @@ new contributors, so use with the *api* backend, e.g.:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -949,6 +1069,7 @@ while the backports are usually direct commits without PRs.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The *git log* command operates on commits, so use use the *log* backend:
 =======
 <<<<<<< HEAD
@@ -971,11 +1092,17 @@ The *git log* command operates on commits, so use use the *log* backend:
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+The *git log* command operates on commits, so use use the *log* backend:
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 The _git log_ command operates on commits, so use use the _log_ backend:
 =======
 The *git log* command operates on commits, so use use the *log* backend:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,11 +1122,14 @@ The *git log* command operates on commits, so use use the *log* backend:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 ```bash
 python ./generate_release_notes.py log releasebranch_8_2 8.2.0 $VERSION
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,6 +1232,24 @@ for showing updates since the last RC:
 
 ```bash
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+In between RCs and between last RC and final release, the _log_ backend is useful
+=======
+In between RCs and between last RC and final release, the *log* backend is useful
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+In between RCs and between last RC and final release, the _log_ backend is useful
+=======
+In between RCs and between last RC and final release, the *log* backend is useful
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+for showing updates since the last RC:
+
+```bash
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1132,7 +1280,10 @@ python ./generate_release_notes.py log releasebranch_8_2 8.2.0RC1 $VERSION
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1149,6 +1300,7 @@ added manually to the result from the _api_ backend.
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 For the final release, the changes accumulated since the first RC need to be
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 added manually to the result from the _api_ backend.
@@ -1192,8 +1344,16 @@ The script sorts them into categories defined in _utils/release.yml_.
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+added manually to the result from the *api* backend.
+
+<<<<<<< HEAD
+The script sorts them into categories defined in _utils/release.yml_.
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 However, these notes need to be manually edited to collapse related items into
-one. Additionally, a _Highlights_ section needs to be added with manually
+one. Additionally, a _Highlights_ section needs to be added on top with manually
 identified new major features for major and minor releases. For all releases, a
 _Major_ section may need to be added showing critical fixes or breaking changes
 if there are any.
@@ -1207,6 +1367,7 @@ GitHub and further modify as needed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1215,6 +1376,10 @@ GitHub and further modify as needed.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1234,8 +1399,11 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1245,8 +1413,11 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1254,6 +1425,7 @@ web interface. You can copy-paste the created release notes to GitHub and furthe
 added manually to the result from the *api* backend.
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1267,6 +1439,8 @@ added manually to the result from the *api* backend.
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 The script sorts them into categories defined in *utils/release.yml*.
@@ -1287,6 +1461,7 @@ GitHub and further modify as needed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1297,10 +1472,13 @@ GitHub and further modify as needed.
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,6 +1501,8 @@ GitHub and further modify as needed.
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1343,6 +1523,7 @@ Save the modified draft, but do not publish the release yet.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1354,6 +1535,8 @@ Save the modified draft, but do not publish the release yet.
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ## Update include/VERSION file
@@ -1365,6 +1548,7 @@ After a RC, update to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1380,6 +1564,10 @@ After a RC, update to development version:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1395,6 +1583,7 @@ After an RC, switch to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1419,6 +1608,11 @@ After an RC, switch to development version:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1437,6 +1631,7 @@ After an RC, switch to development version:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 After a final release, switch to development version for the next micro, minor,
 or major version, e.g., for micro version, use:
 =======
@@ -1457,6 +1652,8 @@ or major version, e.g., for micro version, use:
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 After a final release, update to the next micro (x.y.Z), minor (x.Y.z),
@@ -1468,8 +1665,11 @@ version, e.g., for micro version, use:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1479,8 +1679,11 @@ version, e.g., for micro version, use:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1490,8 +1693,11 @@ or major version, e.g., for micro version, use:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1502,6 +1708,7 @@ After a final release, switch to development version for the next micro, minor,
 or major version, e.g., for micro version, use:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1726,8 @@ or major version, e.g., for micro version, use:
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1530,6 +1739,7 @@ or major version, e.g., for micro version, use:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Use *major* and *minor* operations for the other version updates.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1537,6 +1747,8 @@ Use *major* and *minor* operations for the other version updates.
 Use *major* and *minor* operations for the other version updates.
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Use *major* and *minor* operations for the other version updates.
@@ -1548,11 +1760,15 @@ Use *major* and *minor* operations for the other version updates.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Use `--help` for details about the options.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,11 +1814,14 @@ Use `--help` for details about the options.
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 Eventually, commit with the suggested commit message and push, e.g.:
 
 ```bash
 git show
-git commit include/VERSION -m "..."
+eval $(./utils/update_version.py status --bash)
+git commit include/VERSION -m "version: Back to $VERSION"
 git push upstream
 ```
 
@@ -1633,6 +1852,7 @@ development coordinators.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1648,6 +1868,10 @@ development coordinators.
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1668,6 +1892,7 @@ git push upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This part requires extra permissions and needs to be done by one of the
 development coordinators.
 =======
@@ -1678,6 +1903,8 @@ development coordinators.
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 This part requires extra permissions and needs to be done by one of the development coordinators.
@@ -1693,8 +1920,11 @@ development coordinators.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1703,6 +1933,7 @@ This part requires extra permissions and needs to be done by one of the
 development coordinators.
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1726,6 +1957,8 @@ This part requires extra permissions and needs to be done by one of the developm
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1744,6 +1977,7 @@ git fetch upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1755,6 +1989,8 @@ git fetch upstream
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Get the tagged source code, e.g. (modify the tag as needed):
@@ -1765,6 +2001,7 @@ git checkout 8.4.0RC1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1780,6 +2017,10 @@ git checkout 8.4.0RC1
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1794,6 +2035,7 @@ git checkout 8.2.0RC1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1818,6 +2060,11 @@ git checkout 8.2.0RC1
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1852,6 +2099,7 @@ linked to the tag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1886,6 +2134,11 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 =======
 >>>>>>> osgeo-main
+=======
+wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
+    -O ChangeLog_${VERSION}.gz
+=======
+>>>>>>> osgeo-main
 wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O ChangeLog_${VERSION}.gz
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1898,8 +2151,11 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1909,6 +2165,7 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz \
     -O ChangeLog_${VERSION}.gz
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1937,6 +2194,8 @@ wget https://github.com/OSGeo/grass/releases/download/${VERSION}/ChangeLog.gz -O
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ```
@@ -1959,6 +2218,7 @@ Note: servers 'osgeo8-grass' and 'osgeo7-download' only reachable via
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
 =======
 <<<<<<< HEAD
@@ -1971,6 +2231,8 @@ Note: servers 'osgeo8-grass' and 'osgeo7-download' only reachable via
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
@@ -1980,6 +2242,7 @@ jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_S
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1997,6 +2260,11 @@ jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_S
       jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+      jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
       jumphost (managed by OSGeo-SAC) - see <https://wiki.osgeo.org/wiki/SAC_Service_Status#grass>
@@ -2012,9 +2280,12 @@ SERVER2=osgeo7-download
 SERVER2DIR=/osgeo/download/grass/grass$MAJOR$MINOR/source/
 echo $SERVER1:$SERVER1DIR
 echo $SERVER2:$SERVER2DIR
+eval $(ssh-agent) && ssh-add
 
-# upload along with associated files:
+# upload along with associated files, creating target dir if still needed
+ssh $USER@$SERVER1 "mkdir -p $SERVER1DIR"
 scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2048,10 +2319,29 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+  INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+
+ssh $USER@$SERVER2 "mkdir -p $SERVER2DIR"
+scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
+  INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+  INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
+
+scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
+  INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 
 scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2112,6 +2402,11 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 =======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+>>>>>>> osgeo-main
+=======
   INSTALL.md REQUIREMENTS.html CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
 =======
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER1:$SERVER1DIR
@@ -2121,6 +2416,7 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
   INSTALL.md REQUIREMENTS.md CONTRIBUTING.md $USER@$SERVER2:$SERVER2DIR
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2142,6 +2438,8 @@ scp -p grass-$VERSION.* AUTHORS COPYING ChangeLog_$VERSION.gz \
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # Only at full release (i.e., not for RCs)!
 # generate link to "latest" source code
 ssh $USER@$SERVER1 "cd $SERVER1DIR ; rm -f grass-$MAJOR.$MINOR-latest.tar.gz"
@@ -2153,6 +2451,7 @@ ssh $USER@$SERVER1 "cd $SERVER1DIR ; ln -s grass-$VERSION.tar.md5sum grass-$MAJO
 echo "https://grass.osgeo.org/grass$MAJOR$MINOR/source/"
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2175,6 +2474,8 @@ Update the winGRASS version at <https://github.com/landam/wingrass-maintenance-s
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ### Update redirects
@@ -2224,8 +2525,11 @@ Update the winGRASS version at <https://github.com/landam/wingrass-maintenance-s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2239,6 +2543,7 @@ Update the winGRASS version at <https://github.com/landam/wingrass-maintenance-s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2248,6 +2553,8 @@ Update the winGRASS version at <https://github.com/landam/wingrass-maintenance-s
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 vim wingrass-maintenance-scripts/grass_packager_release.bat
@@ -2266,6 +2573,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2276,6 +2584,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 - <https://github.com/OSGeo/grass-addons/blob/grass8/.github/workflows/ci.yml> (currently, for new branches only)
 - <https://github.com/landam/wingrass-maintenance-scripts/blob/master/grass_addons.sh> (add new release related line for new branches and final releases)
 <<<<<<< HEAD
@@ -2284,6 +2594,7 @@ Add the new version to repos which build or test addons:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2302,6 +2613,10 @@ Add the new version to repos which build or test addons:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -2316,6 +2631,7 @@ Add the new version to repos which build or test addons:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2326,10 +2642,13 @@ Add the new version to repos which build or test addons:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2357,6 +2676,8 @@ Add the new version to repos which build or test addons:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 ## Close milestone
 
@@ -2369,6 +2690,7 @@ If there are any open issues or PRs, move them to another milestone
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 in the milestone view (all can be moved at once).
 =======
 <<<<<<< HEAD
@@ -2381,6 +2703,8 @@ in the milestone view (all can be moved at once).
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 in the milestone view (all can be moved at once by selecting the open
@@ -2391,6 +2715,7 @@ in the milestone view (all can be moved at once).
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 in the milestone view (all can be moved at once).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2408,6 +2733,11 @@ in the milestone view (all can be moved at once).
 in the milestone view (all can be moved at once).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+in the milestone view (all can be moved at once).
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 in the milestone view (all can be moved at once).
@@ -2429,6 +2759,7 @@ Release is done.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 For final releases only, go to Zenodo a get a Markdown badge for the release
 which Zenodo creates with a DOI for the published released.
 =======
@@ -2442,6 +2773,8 @@ which Zenodo creates with a DOI for the published released.
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 For final releases only, go to [Zenodo](https://doi.org/10.5281/zenodo.5176030)
@@ -2500,12 +2833,16 @@ which Zenodo creates with a DOI for the published released.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 For final releases only, go to Zenodo a get a Markdown badge for the release
 which Zenodo creates with a DOI for the published released.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2536,6 +2873,11 @@ For all releases, click the Binder badge to get Binder to build. Use it to test
 it and to cache the built image. Add more links to (or badges for) more notebooks
 if there are any which show well specific features added or updated in the release.
 >>>>>>> osgeo-main
+=======
+For all releases, click the Binder badge to get Binder to build. Use it to test
+it and to cache the built image. Add more links to (or badges for) more notebooks
+if there are any which show well specific features added or updated in the release.
+>>>>>>> osgeo-main
 
 ## Create entries for the new release
 
@@ -2549,12 +2891,16 @@ For a (final) release (not release candidate), write announcement and publish it
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
 - News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
 
 Software pages:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2563,6 +2909,8 @@ Software pages:
 - News section, <https://github.com/OSGeo/grass-website/tree/master/content/news>
 
 Software pages:
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -2606,6 +2954,7 @@ Software pages:
 - Wiki: <https://grasswiki.osgeo.org/wiki/GRASS-Wiki>
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -2669,6 +3018,8 @@ Software pages:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 =======
@@ -2690,11 +3041,14 @@ Software pages:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 Write announcement and publish it:
 
 - News section: <https://github.com/OSGeo/grass-website/tree/master/content/news>
@@ -2708,10 +3062,13 @@ Write announcement and publish it:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2729,8 +3086,11 @@ Write announcement and publish it:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2742,6 +3102,7 @@ Write announcement and publish it:
   on grass.osgeo.org to next but one release tag for the differences
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2761,6 +3122,8 @@ Write announcement and publish it:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 - wiki updates, only when new major release:
   - {{cmd|xxxx}} macro: <https://grasswiki.osgeo.org/wiki/Template:Cmd>
   - update last version on main page
@@ -2768,6 +3131,7 @@ Write announcement and publish it:
   - Edit: <https://trac.osgeo.org/grass/wiki/InterMapTxt>
 
 ## Packaging notes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2795,11 +3159,16 @@ Write announcement and publish it:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 ### WinGRASS notes
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -2840,6 +3209,7 @@ For new branches and final releases (see additional instructions in the repo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      set MINOR=2
 =======
 <<<<<<< HEAD
@@ -2852,6 +3222,8 @@ For new branches and final releases (see additional instructions in the repo):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      set MINOR=4
@@ -2861,6 +3233,7 @@ For new branches and final releases (see additional instructions in the repo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      set MINOR=2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2878,6 +3251,11 @@ For new branches and final releases (see additional instructions in the repo):
      set MINOR=2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     set MINOR=2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      set MINOR=2
@@ -2895,6 +3273,7 @@ For new branches and final releases (see additional instructions in the repo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      compile $GIT_PATH/grass8 $GISBASE_PATH/grass820RC1  $ADDON_PATH/grass820RC1/addons
 =======
 <<<<<<< HEAD
@@ -2907,6 +3286,8 @@ For new branches and final releases (see additional instructions in the repo):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      compile $GIT_PATH/grass8 $GISBASE_PATH/grass840RC1  $ADDON_PATH/grass840RC1/addons
@@ -2916,6 +3297,7 @@ For new branches and final releases (see additional instructions in the repo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      compile $GIT_PATH/grass8 $GISBASE_PATH/grass820RC1  $ADDON_PATH/grass820RC1/addons
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2933,6 +3315,11 @@ For new branches and final releases (see additional instructions in the repo):
      compile $GIT_PATH/grass8 $GISBASE_PATH/grass820RC1  $ADDON_PATH/grass820RC1/addons
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+     compile $GIT_PATH/grass8 $GISBASE_PATH/grass820RC1  $ADDON_PATH/grass820RC1/addons
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      compile $GIT_PATH/grass8 $GISBASE_PATH/grass820RC1  $ADDON_PATH/grass820RC1/addons
@@ -2943,6 +3330,7 @@ For new branches and final releases (see additional instructions in the repo):
 - Modify grass_copy_wwwroot.sh accordingly, eg.
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2963,6 +3351,8 @@ For new branches and final releases (see additional instructions in the repo):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      copy_addon 840RC1 8.4.0RC1
@@ -2991,8 +3381,11 @@ Add release to history page:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3000,6 +3393,7 @@ Add release to history page:
 ```
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3013,6 +3407,8 @@ Add release to history page:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ### Ubuntu Launchpad notes
@@ -3026,6 +3422,7 @@ Add release to history page:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3055,6 +3452,11 @@ Add release to history page:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 ### Other notes
 
 - <https://trac.osgeo.org/grass/wiki/BuildHints>
@@ -3062,6 +3464,7 @@ Add release to history page:
   - <https://trac.osgeo.org/grass/wiki/CompileOnWindows>
 
 ## Tell others about release
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3099,8 +3502,10 @@ Via Web / Social media:
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
-- If release candidate (just a short invitation to test):
+- If release candidate (just a short invitation to test it):
   - <grass-dev@lists.osgeo.org>
   - <grass-user@lists.osgeo.org>
 
@@ -3141,8 +3546,11 @@ Via Web / Social media:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3169,6 +3577,7 @@ Via Web / Social media:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3178,6 +3587,8 @@ Via Web / Social media:
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -3203,6 +3614,7 @@ git commit include/VERSION -m "version: GRASS GIS 8.2.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3227,6 +3639,11 @@ git commit include/VERSION -m "version: GRASS GIS 8.2.1"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

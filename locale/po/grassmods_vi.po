@@ -71324,6 +71324,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71335,6 +71336,10 @@ msgstr "Tọa độ của (các) điểm bắt đầu (Đ,B)"
 msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 msgid "Coordinates to profile"
 msgstr ""
@@ -71353,6 +71358,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -71364,6 +71370,10 @@ msgstr "Tiền tố dùng cho (các) bản đồ raster đầu ra"
 msgid "Profile output format"
 msgstr ""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "Profile output format"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 msgid "Profile output format"
 msgstr ""
@@ -75438,9 +75448,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #, fuzzy

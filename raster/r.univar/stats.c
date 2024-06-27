@@ -38,6 +38,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -63,6 +64,11 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+        stats[i].min = NAN;
+        stats[i].max = NAN;
+=======
+>>>>>>> osgeo-main
+=======
         stats[i].min = NAN;
         stats[i].max = NAN;
 =======
@@ -86,8 +92,11 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -98,6 +107,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
         stats[i].max = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +140,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         stats[i].n_perc = n_perc;
         if (n_perc > 0)
             stats[i].perc = (double *)G_malloc(n_perc * sizeof(double));
@@ -148,6 +160,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -159,11 +172,14 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         stats[i].n_alloc = 0;
         stats[i].first = TRUE;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +196,8 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -208,6 +226,7 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -232,6 +251,11 @@ univar_stat *create_univar_stat_struct(int map_type, int n_perc)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -289,6 +313,7 @@ int print_stats(univar_stat *stats)
         unsigned int i;
         size_t qpos_25, qpos_75, *qpos_perc;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +526,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         /* stats collected for this zone? */
@@ -717,6 +744,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
@@ -724,6 +752,9 @@ int print_stats(univar_stat *stats)
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+>>>>>>> osgeo-main
 =======
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> osgeo-main
@@ -788,6 +819,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
@@ -801,6 +833,11 @@ int print_stats(univar_stat *stats)
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+                quartile_25 = median = quartile_75 = NAN;
+                for (i = 0; i < stats[z].n_perc; i++)
+                    quartile_perc[i] = NAN;
+>>>>>>> osgeo-main
 =======
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -932,8 +969,11 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -952,8 +992,11 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
@@ -962,11 +1005,14 @@ int print_stats(univar_stat *stats)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         sprintf(sum_str, "%.15g", stats[z].sum);
@@ -1031,8 +1077,11 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
@@ -1045,6 +1094,7 @@ int print_stats(univar_stat *stats)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -1052,6 +1102,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             }
@@ -1181,6 +1233,7 @@ int print_stats(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1190,6 +1243,8 @@ int print_stats(univar_stat *stats)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         /* G_message() prints to stderr not stdout: disabled. this \n is printed
@@ -1263,6 +1318,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* for extendet stats */
 =======
 <<<<<<< HEAD
@@ -1275,6 +1331,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         /* for extended stats */
@@ -1284,6 +1342,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1301,6 +1360,11 @@ int print_stats_table(univar_stat *stats)
         /* for extendet stats */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /* for extendet stats */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* for extendet stats */
@@ -1335,6 +1399,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -1364,6 +1429,10 @@ int print_stats_table(univar_stat *stats)
             stats[z].sum = stats[z].sum_abs = NAN;
 =======
 >>>>>>> osgeo-main
+=======
+            stats[z].sum = stats[z].sum_abs = NAN;
+=======
+>>>>>>> osgeo-main
             stats[z].sum = stats[z].sum_abs = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1375,8 +1444,11 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1385,6 +1457,7 @@ int print_stats_table(univar_stat *stats)
             stats[z].sum = stats[z].sum_abs = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1412,6 +1485,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1469,6 +1544,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1488,10 +1564,13 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 quartile_25 = median = quartile_75 = NAN;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = NAN;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1512,6 +1591,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
                     quartile_perc[i] = 0.0 / 0.0;
@@ -1519,8 +1600,11 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1531,6 +1615,7 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 quartile_25 = median = quartile_75 = 0.0 / 0.0;
                 for (i = 0; i < stats[z].n_perc; i++)
@@ -1538,6 +1623,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1553,14 +1640,18 @@ int print_stats_table(univar_stat *stats)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1579,6 +1670,8 @@ int print_stats_table(univar_stat *stats)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             }

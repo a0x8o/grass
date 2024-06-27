@@ -91,6 +91,7 @@ static void regression(DCELL *result, DCELL *values, int n, int which)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -103,6 +104,8 @@ void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
@@ -112,6 +115,7 @@ void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -129,6 +133,11 @@ void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
@@ -144,6 +153,7 @@ void c_reg_m(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -156,6 +166,8 @@ void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
@@ -165,6 +177,7 @@ void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -182,6 +195,11 @@ void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
@@ -197,6 +215,7 @@ void c_reg_c(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -209,6 +228,8 @@ void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
@@ -218,6 +239,7 @@ void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -235,6 +257,11 @@ void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
@@ -250,6 +277,7 @@ void c_reg_r2(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -262,6 +290,8 @@ void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure UNUSED)
@@ -271,6 +301,7 @@ void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -288,6 +319,11 @@ void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void c_reg_t(DCELL *result, DCELL *values, int n, const void *closure)
@@ -377,6 +413,7 @@ static void regression_w(DCELL *result, DCELL (*values)[2], int n, int which)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -389,6 +426,8 @@ void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void w_reg_m(DCELL *result, DCELL (*values)[2], int n,
@@ -399,6 +438,7 @@ void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -416,6 +456,11 @@ void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -431,6 +476,7 @@ void w_reg_m(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -443,6 +489,8 @@ void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void w_reg_c(DCELL *result, DCELL (*values)[2], int n,
@@ -453,6 +501,7 @@ void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -470,6 +519,11 @@ void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -485,6 +539,7 @@ void w_reg_c(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -497,6 +552,8 @@ void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void w_reg_r2(DCELL *result, DCELL (*values)[2], int n,
@@ -507,6 +564,7 @@ void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -524,6 +582,11 @@ void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
@@ -539,6 +602,7 @@ void w_reg_r2(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -551,6 +615,8 @@ void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void w_reg_t(DCELL *result, DCELL (*values)[2], int n,
@@ -561,6 +627,7 @@ void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -578,6 +645,11 @@ void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void w_reg_t(DCELL *result, DCELL (*values)[2], int n, const void *closure)

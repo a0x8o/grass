@@ -366,6 +366,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 5:           /* avhrr PM and avhrr AM */
 =======
 <<<<<<< HEAD
@@ -378,6 +379,8 @@ void GeomCond::parse()
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         FALLTHROUGH;
@@ -388,6 +391,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     case 5:           /* avhrr PM and avhrr AM */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -405,6 +409,11 @@ void GeomCond::parse()
     case 5:           /* avhrr PM and avhrr AM */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    case 5:           /* avhrr PM and avhrr AM */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     case 5:           /* avhrr PM and avhrr AM */
@@ -452,6 +461,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -463,6 +473,8 @@ void GeomCond::parse()
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     case 31: /* AVIRIS           * enter month,day,hh.ddd,long.,lat. */
@@ -473,6 +485,7 @@ void GeomCond::parse()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -488,6 +501,10 @@ void GeomCond::parse()
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -581,6 +598,7 @@ void GeomCond::print()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    string(" worldview4 observation      ")};
 =======
 <<<<<<< HEAD
@@ -593,6 +611,8 @@ void GeomCond::print()
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                                    string(" worldview4 observation      "),
@@ -605,6 +625,7 @@ void GeomCond::print()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                    string(" worldview4 observation      ")};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -622,6 +643,11 @@ void GeomCond::print()
                                    string(" worldview4 observation      ")};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                                   string(" worldview4 observation      ")};
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                                    string(" worldview4 observation      ")};

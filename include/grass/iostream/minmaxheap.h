@@ -101,6 +101,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -135,6 +136,11 @@ public:
                  (long)((size + 1) * sizeof(T)));
 =======
 >>>>>>> osgeo-main
+=======
+        snprintf(str, sizeof(str), "BasicMinMaxHeap: allocate %ld\n",
+                 (long)((size + 1) * sizeof(T)));
+=======
+>>>>>>> osgeo-main
         sprintf(str, "BasicMinMaxHeap: allocate %ld\n",
                 (long)((size + 1) * sizeof(T)));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -149,8 +155,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -161,6 +170,7 @@ public:
                  (long)((size + 1) * sizeof(T)));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +201,8 @@ public:
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         // MEMORY_LOG(str);

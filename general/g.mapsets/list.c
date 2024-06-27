@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void list_available_mapsets(const char **mapset_name, int nmapsets,
                             const char *fs)
 {
@@ -27,6 +28,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 // Function to initialize a JSON object with a mapsets array
 static JSON_Object *initialize_json_object(void)
 {
@@ -41,6 +44,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -48,6 +52,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     int n;
@@ -88,6 +94,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -96,6 +103,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 // Function to serialize and print JSON object
@@ -135,6 +144,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +159,9 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 void list_accessible_mapsets(const char *fs)
 {
     int n;
@@ -159,6 +172,7 @@ void list_accessible_mapsets(const char *fs)
         /* match each mapset to its numeric equivalent */
         fprintf(stdout, "%s", name);
         if (G_get_mapset_name(n + 1)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +192,9 @@ void list_accessible_mapsets(const char *fs)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main

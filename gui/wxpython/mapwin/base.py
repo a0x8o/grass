@@ -108,6 +108,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):
@@ -148,6 +149,10 @@ class MapWindowProperties:
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -176,11 +181,14 @@ class MapWindowProperties:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -502,6 +510,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 =======
 <<<<<<< HEAD
@@ -514,6 +523,8 @@ class MapWindowBase:
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         @deprecated This method is deprecated. Use Signal with coordinates as
@@ -524,6 +535,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -541,6 +553,11 @@ class MapWindowBase:
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+        @deprecated This method is deprecated. Use Signal with coordinates as parameters.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.

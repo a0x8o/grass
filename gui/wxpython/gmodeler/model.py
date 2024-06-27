@@ -2645,6 +2645,7 @@ class WriteScriptFile(ABC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3171,6 +3172,10 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> osgeo-main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3684,6 +3689,7 @@ if __name__ == "__main__":
 
 class WritePythonFile(WriteScriptFile):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     def __init__(self, fd, model):
@@ -4726,6 +4732,8 @@ class WritePythonFile(WriteScriptFile):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     def __init__(self, fd, model):
@@ -6104,6 +6112,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -6133,6 +6142,8 @@ def cleanup():
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 r"""    %s("g.remove", flags="f", type="raster",
@@ -6176,8 +6187,11 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6204,6 +6218,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -6215,11 +6230,14 @@ def cleanup():
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             )
         if not rast and not vect and not rast3d:
             self.fd.write("    pass\n")
 
         self.fd.write("\ndef main(options, flags):\n")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6243,6 +6261,8 @@ def cleanup():
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         modelVars = self.model.GetVariables()
@@ -6259,6 +6279,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6271,6 +6292,11 @@ def cleanup():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

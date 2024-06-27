@@ -376,6 +376,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if get_tgis_db_version_from_metadata() > 2:
             self.set_semantic_label(semantic_label)
 
@@ -390,11 +391,14 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def set_semantic_label(self, semantic_label):
         """Set the semantic label identifier"""
         self.D["semantic_label"] = semantic_label
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +416,8 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         if get_tgis_db_version_from_metadata() > 2:
@@ -425,8 +431,11 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -442,6 +451,7 @@ class RasterMetadata(RasterMetadataBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -451,6 +461,8 @@ class RasterMetadata(RasterMetadataBase):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     def get_semantic_label(self):

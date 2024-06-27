@@ -114,6 +114,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +173,8 @@ def main():
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     grass_executable = args.grassbin
 
     # Software
@@ -183,11 +186,14 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -197,6 +203,9 @@ def main():
     # Software
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -206,8 +215,11 @@ def main():
     # Software
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     # query GRASS GIS 8 itself for its GISBASE
@@ -217,6 +229,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -224,8 +239,11 @@ def main():
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     grass_executable = args.grassbin
@@ -238,6 +256,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -257,6 +278,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -272,6 +294,8 @@ def main():
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     p = subprocess.Popen(
@@ -288,6 +312,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -317,6 +342,10 @@ def main():
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 =======
 >>>>>>> osgeo-main
+=======
+            "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
+=======
+>>>>>>> osgeo-main
             "ERROR: Cannot find GRASS GIS 8 start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -325,6 +354,7 @@ def main():
 =======
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +389,11 @@ def main():
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             "ERROR: Cannot find GRASS GIS start script (%s):\n%s" % (startcmd, err),

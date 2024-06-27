@@ -52,6 +52,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double c1min, double c1max, double c2min, double c2max, double gmin,
     double gmax, double ertot,              /* total interplating func. error */
 =======
@@ -65,6 +66,8 @@ int IL_resample_output_2d(
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     double c1min, double c1max, double c2min, double c2max, double gmin UNUSED,
@@ -76,14 +79,18 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
     double c1min, double c1max, double c2min, double c2max, double gmin,
     double gmax, double ertot,              /* total interplating func. error */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +104,8 @@ int IL_resample_output_2d(
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     char *input,                            /* input file name */
@@ -184,6 +193,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -213,6 +223,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -224,8 +238,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -234,6 +251,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +279,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),
@@ -286,6 +306,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -315,6 +336,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -326,8 +351,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -336,6 +364,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +392,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),
@@ -388,6 +419,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -417,6 +449,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -428,8 +464,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -438,6 +477,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -465,6 +505,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),
@@ -490,6 +532,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -519,6 +562,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -530,8 +577,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -540,6 +590,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +618,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),
@@ -592,6 +645,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -621,6 +675,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -632,8 +690,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -642,6 +703,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,6 +731,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),
@@ -694,6 +758,7 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -723,6 +788,10 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 =======
 >>>>>>> osgeo-main
+=======
+                (size_t)params->nsizc)
+=======
+>>>>>>> osgeo-main
                 params->nsizc)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -734,8 +803,11 @@ int IL_resample_output_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -744,6 +816,7 @@ int IL_resample_output_2d(
                 (size_t)params->nsizc)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +844,8 @@ int IL_resample_output_2d(
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 G_fatal_error(_("RST library temporary file reading error: %s"),

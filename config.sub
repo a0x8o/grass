@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   Copyright 1992-2022 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
@@ -22,6 +23,8 @@ timestamp='2022-01-03'
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #   Copyright 1992-2024 Free Software Foundation, Inc.
@@ -39,8 +42,11 @@ timestamp='2022-01-03'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -54,6 +60,7 @@ timestamp='2022-01-03'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -63,6 +70,8 @@ timestamp='2022-01-03'
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -142,6 +151,7 @@ GNU config.sub ($timestamp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Copyright 1992-2022 Free Software Foundation, Inc.
 =======
 <<<<<<< HEAD
@@ -154,6 +164,8 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Copyright 1992-2024 Free Software Foundation, Inc.
@@ -163,6 +175,7 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,6 +193,11 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+Copyright 1992-2022 Free Software Foundation, Inc.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
@@ -1468,6 +1486,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1479,6 +1498,8 @@ EOF
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 		;;
@@ -1490,6 +1511,7 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1505,6 +1527,10 @@ EOF
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1912,6 +1938,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	musl* | newlib* | relibc* | uclibc*)
 =======
 <<<<<<< HEAD
@@ -1924,6 +1951,8 @@ case $os in
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 	llvm* | musl* | newlib* | relibc* | uclibc*)
@@ -1933,6 +1962,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1950,6 +1980,11 @@ case $os in
 	musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	musl* | newlib* | relibc* | uclibc*)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 	musl* | newlib* | relibc* | uclibc*)
@@ -2012,6 +2047,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	     | fiwix* )
 =======
 <<<<<<< HEAD
@@ -2024,6 +2060,8 @@ case $os in
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 	     | fiwix* | mlibc* | cos* | mbr* | ironclad* )
@@ -2033,6 +2071,7 @@ case $os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	     | fiwix* )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2050,6 +2089,11 @@ case $os in
 	     | fiwix* )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	     | fiwix* )
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 	     | fiwix* )
@@ -2127,6 +2171,7 @@ case $kernel-$os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2151,6 +2196,11 @@ case $kernel-$os in
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2165,6 +2215,7 @@ case $kernel-$os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
 =======
 <<<<<<< HEAD
@@ -2177,6 +2228,8 @@ case $kernel-$os in
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 	managarm-mlibc*- | managarm-kernel*- )
@@ -2191,6 +2244,7 @@ case $kernel-$os in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2208,6 +2262,11 @@ case $kernel-$os in
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 	-dietlibc* | -newlib* | -musl* | -relibc* | -uclibc* )

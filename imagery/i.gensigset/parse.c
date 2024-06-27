@@ -30,6 +30,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     sigfile->description =
@@ -59,6 +60,11 @@ int parse(int argc, char *argv[], struct parms *parms)
         _("Name for output file containing result signatures");
 =======
 >>>>>>> osgeo-main
+=======
+    sigfile->description =
+        _("Name for output file containing result signatures");
+=======
+>>>>>>> osgeo-main
     sigfile->description = _("Name for output file containing result signatures");
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -69,6 +75,7 @@ int parse(int argc, char *argv[], struct parms *parms)
     sigfile->description =
         _("Name for output file containing result signatures");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +103,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -132,6 +141,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +157,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
@@ -158,10 +170,13 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -179,8 +194,11 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -188,6 +206,7 @@ int parse(int argc, char *argv[], struct parms *parms)
     if (G_unqualified_name(sigfile->answer, G_mapset(), parms->sigfile,
                            xmapset) < 0)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +225,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         G_fatal_error(_("<%s> does not match the current mapset"), xmapset);
@@ -219,6 +240,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -243,6 +265,10 @@ int parse(int argc, char *argv[], struct parms *parms)
 
 =======
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> osgeo-main
     
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -251,6 +277,7 @@ int parse(int argc, char *argv[], struct parms *parms)
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +303,8 @@ int parse(int argc, char *argv[], struct parms *parms)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     if (sscanf(maxsig->answer, "%d", &parms->maxsubclasses) != 1 ||

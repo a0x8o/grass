@@ -568,6 +568,7 @@ void P_Aux_to_Raster(double **matrix, int fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 <<<<<<< HEAD
@@ -582,12 +583,15 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 >>>>>>> osgeo-main
                      dbDriver *driver, char *tab_name)
 {
 
     int more, type;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +607,8 @@ void P_Aux_to_Vector(struct Map_info *Map UNUSED, struct Map_info *Out,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
                      dbDriver *driver, char *tab_name)
 {
@@ -611,8 +617,11 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     int more, type, count = 0;
@@ -626,8 +635,11 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     int more, type, count = 0;
@@ -645,6 +657,7 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -666,6 +679,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     double coordX, coordY, coordZ;
@@ -701,6 +716,7 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -719,6 +735,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         count++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -727,6 +745,9 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -736,6 +757,7 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +780,8 @@ void P_Aux_to_Vector(struct Map_info *Map, struct Map_info *Out,
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         table = db_get_cursor_table(&cursor);

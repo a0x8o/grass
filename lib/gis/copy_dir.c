@@ -87,6 +87,7 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -116,6 +117,10 @@ int G_recursive_copy(const char *src, const char *dst)
         ssize_t len, len2;
 =======
 >>>>>>> osgeo-main
+=======
+        ssize_t len, len2;
+=======
+>>>>>>> osgeo-main
         size_t len, len2;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -127,8 +132,11 @@ int G_recursive_copy(const char *src, const char *dst)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -137,6 +145,7 @@ int G_recursive_copy(const char *src, const char *dst)
         ssize_t len, len2;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +173,8 @@ int G_recursive_copy(const char *src, const char *dst)
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 

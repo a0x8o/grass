@@ -18,6 +18,7 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 (C) 2008-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ Usage:
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -52,6 +55,9 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -63,6 +69,9 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -71,6 +80,7 @@ Usage:
 =======
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +115,11 @@ Usage:
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+(C) 2008-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 (C) 2008-2023 by the GRASS Development Team
@@ -145,6 +160,7 @@ from grass.exceptions import ScriptError, CalledModuleError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -156,11 +172,14 @@ from grass.exceptions import ScriptError, CalledModuleError
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 from grass.grassdb.manage import resolve_mapset_path
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +196,8 @@ from grass.grassdb.manage import resolve_mapset_path
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -849,6 +870,7 @@ def debug(msg, debug=1):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -873,6 +895,11 @@ def debug(msg, debug=1):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -895,6 +922,7 @@ def debug(msg, debug=1):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -906,11 +934,14 @@ def debug(msg, debug=1):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     :param env: dictionary with system environment variables (`os.environ` by default)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,6 +958,8 @@ def debug(msg, debug=1):
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     """
@@ -1136,6 +1169,7 @@ def parser():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1165,6 +1199,10 @@ def parser():
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 =======
 >>>>>>> osgeo-main
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+=======
+>>>>>>> osgeo-main
     https://grass.osgeo.org/grass80/manuals/parser_standard_options.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1173,6 +1211,7 @@ def parser():
 =======
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,6 +1246,11 @@ def parser():
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html

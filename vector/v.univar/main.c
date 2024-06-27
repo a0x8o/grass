@@ -79,6 +79,7 @@ double sum_abs = 0.0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -113,6 +114,11 @@ double min = NAN;
 double max = NAN;
 =======
 >>>>>>> osgeo-main
+=======
+double min = NAN;
+double max = NAN;
+=======
+>>>>>>> osgeo-main
 double min = 0.0 / 0.0; /* init as nan */
 double max = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -127,8 +133,11 @@ double max = NAN;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -139,6 +148,7 @@ double min = NAN;
 double max = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +179,8 @@ double max = 0.0 / 0.0;
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 double mean, mean_abs, pop_variance, sample_variance, pop_stdev, sample_stdev,

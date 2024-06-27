@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -33,6 +34,10 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -49,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -66,6 +72,9 @@
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
  * AUTHOR(S):    Glynn Clements <glynn gclements.plus.com> (original contributor)
  *               Hamish Bowman <hamish_b yahoo.com>, 
  *               Jachym Cepicky <jachym les-ejk.cz>,
@@ -76,8 +85,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -93,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -110,6 +123,10 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -127,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -140,9 +158,12 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +181,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -172,12 +195,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -189,6 +216,7 @@
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +242,8 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #include <stdlib.h>
@@ -233,6 +263,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -246,9 +277,12 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +300,8 @@
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 struct menu {
@@ -280,6 +316,7 @@ struct menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -296,6 +333,9 @@ struct menu {
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -310,12 +350,16 @@ struct menu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +377,8 @@ struct menu
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 } menu[] = {
@@ -367,6 +413,7 @@ struct menu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     {NULL, NULL, 0, NULL, NULL}};
@@ -391,6 +438,10 @@ struct menu
     {NULL, NULL, 0, NULL, NULL}};
 =======
 >>>>>>> osgeo-main
+=======
+    {NULL, NULL, 0, NULL, NULL}};
+=======
+>>>>>>> osgeo-main
     {NULL, NULL, 0, NULL, NULL}
 };
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -400,6 +451,7 @@ struct menu
 =======
     {NULL, NULL, 0, NULL, NULL}};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,6 +478,8 @@ struct menu
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -487,6 +541,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -516,11 +571,16 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     struct {
         struct Option *input, *file, *output, *method, *weights, *quantile,
             *range, *nprocs, *memory;
     } parm;
     struct {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +594,9 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -556,6 +619,7 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,6 +652,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         struct Flag *nulls, *lazy;
@@ -603,6 +669,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -614,11 +681,14 @@ int main(int argc, char *argv[])
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     size_t in_buf_size, out_buf_size;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +705,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -653,6 +725,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -682,10 +755,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     DCELL **values = NULL, **values_tmp = NULL;
 
     DCELL(**values_w)[2];     /* list of values and weights */
     DCELL(**values_w_tmp)[2]; /* list of values and weights */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -704,6 +782,9 @@ int main(int argc, char *argv[])
 =======
 =======
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -715,8 +796,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -725,6 +809,7 @@ int main(int argc, char *argv[])
     DCELL(**values_w)[2];     /* list of values and weights */
     DCELL(**values_w_tmp)[2]; /* list of values and weights */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +830,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -828,6 +917,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -845,6 +935,9 @@ int main(int argc, char *argv[])
 =======
 
 >>>>>>> osgeo-main
+=======
+
+>>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -852,6 +945,9 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -876,8 +972,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -906,6 +1005,7 @@ int main(int argc, char *argv[])
     }
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,6 +1073,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
     sscanf(parm.nprocs->answer, "%d", &nprocs);
     if (nprocs < 1) {
@@ -988,6 +1092,7 @@ int main(int argc, char *argv[])
     nprocs = 1;
 #endif
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1052,6 +1157,8 @@ int main(int argc, char *argv[])
 
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     lo = -INFINITY;
     hi = INFINITY;
     if (parm.range->answer) {
@@ -1059,11 +1166,14 @@ int main(int argc, char *argv[])
         hi = atof(parm.range->answers[1]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1090,6 +1200,9 @@ int main(int argc, char *argv[])
     }
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 
     if (parm.input->answer && parm.file->answer)
@@ -1162,6 +1275,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1187,6 +1301,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1241,11 +1359,14 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
                 inputs = G_realloc(inputs, max_inputs * sizeof(struct input));
 =======
@@ -1280,6 +1401,7 @@ int main(int argc, char *argv[])
             }
 
             num_inputs++;
+<<<<<<< HEAD
 =======
 =======
                 inputs = G_realloc(inputs, max_inputs * sizeof(struct input));
@@ -1322,12 +1444,15 @@ int main(int argc, char *argv[])
 
             num_inputs++;
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         }
 
         if (num_inputs < 1)
             G_fatal_error(_("No raster map name found in input file"));
 
         fclose(in);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     }
@@ -1583,6 +1708,8 @@ int main(int argc, char *argv[])
             G_fatal_error(_("No raster map name found in input file"));
 
         fclose(in);
+=======
+>>>>>>> osgeo-main
     }
     else {
         int num_weights;
@@ -1754,7 +1881,10 @@ int main(int argc, char *argv[])
             }
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         }
@@ -2302,6 +2432,98 @@ int main(int argc, char *argv[])
     nrows = Rast_window_rows();
     ncols = Rast_window_cols();
 
+    bufrows = atoi(parm.memory->answer) * (((1 << 20) / sizeof(DCELL)) / ncols);
+    /* set the output buffer rows to be at most covering the entire map */
+    if (bufrows > nrows) {
+        bufrows = nrows;
+    }
+    /* but at least the number of threads */
+    if (bufrows < nprocs) {
+        bufrows = nprocs;
+    }
+
+    /* set the locks for lazily opening raster files */
+#if defined(_OPENMP)
+    if (flag.lazy->answer && threaded) {
+        omp_init_lock(&fd_lock);
+    }
+#endif
+
+    /* process the output maps */
+    for (i = 0; parm.output->answers[i]; i++)
+        ;
+    num_outputs = i;
+
+    for (i = 0; parm.method->answers[i]; i++)
+        ;
+    if (num_outputs != i)
+        G_fatal_error(
+            _("output= and method= must have the same number of values"));
+
+    outputs = G_calloc(num_outputs, sizeof(struct output));
+
+    for (i = 0; i < num_outputs; i++) {
+        struct output *out = &outputs[i];
+        const char *output_name = parm.output->answers[i];
+        const char *method_name = parm.method->answers[i];
+        int method = find_method(method_name);
+
+        out->name = output_name;
+
+        if (have_weights) {
+            if (menu[method].method_w) {
+                out->method_fn = NULL;
+                out->method_fn_w = menu[method].method_w;
+                /* special case mode: the result of a weighed mode
+                 * can be stored as type of input
+                 * all other weighed versions: result as DCELL_TYPE */
+                if (menu[method].outtype == CELL_TYPE)
+                    menu[method].outtype = DCELL_TYPE;
+            }
+            else {
+                G_warning(_("Method %s not compatible with weights, using "
+                            "unweighed version instead"),
+                          method_name);
+
+                out->method_fn = menu[method].method;
+                out->method_fn_w = NULL;
+            }
+        }
+        else {
+            out->method_fn = menu[method].method;
+            out->method_fn_w = NULL;
+        }
+
+        out->quantile = (parm.quantile->answer && parm.quantile->answers[i])
+                            ? atof(parm.quantile->answers[i])
+                            : 0;
+        out->buf = G_calloc((size_t)bufrows * ncols, sizeof(DCELL));
+        if (menu[method].outtype == -1)
+            out->fd = Rast_open_new(output_name, intype);
+        else
+            out->fd = Rast_open_new(output_name, menu[method].outtype);
+    }
+
+    /* initialise variables */
+    values = G_malloc(nprocs * sizeof *values);
+    values_tmp = G_malloc(nprocs * sizeof *values_tmp);
+    for (t = 0; t < nprocs; t++) {
+        values[t] = G_malloc(sizeof(DCELL) * num_inputs);
+        values_tmp[t] = G_malloc(sizeof(DCELL) * num_inputs);
+    }
+    values_w = NULL;
+    values_w_tmp = NULL;
+    if (have_weights) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        values_w = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+        values_w_tmp = (DCELL(*)[2]) G_malloc(num_inputs * 2 * sizeof(DCELL));
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+    }
+
+    nrows = Rast_window_rows();
+    ncols = Rast_window_cols();
+
     /* set the locks for lazily opening raster files */
 #if defined(_OPENMP)
     if (flag.lazy->answer && threaded) {
@@ -2400,6 +2622,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2407,6 +2630,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         values_w = G_malloc(nprocs * sizeof *values_w);
@@ -2421,6 +2646,7 @@ int main(int argc, char *argv[])
     /* process the data */
     G_verbose_message(_("Percent complete..."));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2447,6 +2673,10 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2587,9 +2817,12 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2735,6 +2968,7 @@ int main(int argc, char *argv[])
         for (i = 0; i < num_outputs; i++)
             Rast_put_d_row(outputs[i].fd, outputs[i].buf);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 12a69d7f45 (ci: Ignore paths in CodeQL (#1778))
@@ -2927,6 +3161,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     } /* end while loop */
 
     G_percent(nrows, nrows, 2);
@@ -2944,6 +3180,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -2951,6 +3188,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 #endif
@@ -2975,6 +3214,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2990,6 +3230,8 @@ int main(int argc, char *argv[])
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         for (t = 0; t < nprocs; t++)
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
@@ -3001,10 +3243,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (t = 0; t < nprocs; t++)
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3022,8 +3267,11 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3031,6 +3279,7 @@ int main(int argc, char *argv[])
             for (i = 0; i < num_inputs; i++)
                 Rast_close(inputs[t][i].fd);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3049,6 +3298,8 @@ int main(int argc, char *argv[])
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     }

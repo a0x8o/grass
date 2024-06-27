@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -49,6 +52,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -60,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -84,6 +91,11 @@
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 630833279b (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+# COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team

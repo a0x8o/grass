@@ -97,6 +97,7 @@ void update_default_window(struct Cell_head *cellhd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_message(_("Default region for this location updated"));
 =======
 <<<<<<< HEAD
@@ -109,6 +110,8 @@ void update_default_window(struct Cell_head *cellhd)
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         G_message(_("Default region for this project updated"));
@@ -118,6 +121,7 @@ void update_default_window(struct Cell_head *cellhd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_message(_("Default region for this location updated"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -135,6 +139,11 @@ void update_default_window(struct Cell_head *cellhd)
         G_message(_("Default region for this location updated"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        G_message(_("Default region for this location updated"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_message(_("Default region for this location updated"));

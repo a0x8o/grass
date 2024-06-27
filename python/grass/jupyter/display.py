@@ -18,9 +18,12 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import shutil
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -35,6 +38,7 @@ import shutil
 from IPython.display import Image
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,10 +70,14 @@ import tempfile
 =======
 import tempfile
 >>>>>>> osgeo-main
+=======
+import tempfile
+>>>>>>> osgeo-main
 import grass.script as gs
 
 
 class GrassRenderer:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +168,8 @@ class GrassRenderer:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     """The grassRenderer class creates and displays GRASS maps in
     Jupyter Notebooks."""
 
@@ -178,8 +188,11 @@ class GrassRenderer:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         """Creates an instance of the GrassRenderer class.
@@ -195,7 +208,10 @@ class GrassRenderer:
 
         # Copy Environment
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         if env:
@@ -205,11 +221,15 @@ class GrassRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         # Environment Settings
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +287,8 @@ class GrassRenderer:
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         self._env["GRASS_TEXT_SIZE"] = str(text_size)
         self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
         self._env["GRASS_RENDER_FILE"] = str(filename)
@@ -295,6 +317,7 @@ class GrassRenderer:
         self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self._filename = filename
@@ -306,6 +329,8 @@ class GrassRenderer:
 >>>>>>> d7075af684 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
@@ -314,6 +339,7 @@ class GrassRenderer:
         else:
             raise ValueError("Module must begin with letter 'd'.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +376,8 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def show(self):
 <<<<<<< HEAD
         """Displays a PNG image of the map (non-interactive)"""
@@ -358,6 +386,7 @@ class GrassRenderer:
         from IPython.display import Image
 
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +408,8 @@ class GrassRenderer:
 
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 >>>>>>> 2ab44c2131 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         return Image(self._filename)
