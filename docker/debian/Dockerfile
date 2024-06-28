@@ -1788,10 +1788,24 @@ ARG PDAL_VERSION=2.7.1
 <<<<<<< HEAD
 # renovate: datasource=github-tags depName=PDAL/PDAL
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
 <<<<<<< HEAD
 >>>>>>> dbe77d15e7 (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
 =======
+=======
+=======
+# define versions to be used (PDAL is not available on Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+=======
+# define versions to be used (PDAL is not available on Debian, so we compile it here)
+# https://github.com/PDAL/PDAL/releases
+>>>>>>> osgeo-main
+<<<<<<< HEAD
+# renovate: datasource=github-tags depName=PDAL/PDAL
+<<<<<<< HEAD
+ARG PDAL_VERSION=2.7.1
+>>>>>>> 49eb6366cc (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 =======
 <<<<<<< HEAD
 >>>>>>> 608e23ad1f (CI(deps): Update dependency PDAL/PDAL to v2.7.1 (#3828))
@@ -2847,6 +2861,7 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
@@ -2875,7 +2890,16 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+ARG PDAL_VERSION=2.7.2
+>>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+>>>>>>> 49eb6366cc (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+>>>>>>> f4e18dc19e (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 
 SHELL ["/bin/bash", "-c"]
 
