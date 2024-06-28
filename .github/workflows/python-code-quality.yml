@@ -343,6 +343,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: github/codeql-action/upload-sarif@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
         uses: github/codeql-action/upload-sarif@2e230e8fe0ad3a14a340ad0815ddb96d599d2aff # v3.25.8
@@ -359,10 +360,14 @@ jobs:
 =======
 =======
 >>>>>>> 036f3ba175 (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
+=======
+>>>>>>> c384ba3d8c (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
         uses: github/codeql-action/upload-sarif@f09c1c0a94de965c15400f5634aa42fac8fb8f88 # v3.27.5
 =======
 =======
 >>>>>>> 55dd37bbed (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
+=======
+>>>>>>> 6c2bbd4089 (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
 <<<<<<< HEAD
         uses: github/codeql-action/upload-sarif@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
@@ -377,8 +382,17 @@ jobs:
 =======
         uses: github/codeql-action/upload-sarif@23acc5c183826b7a8a97bce3cecc52db901f8251 # v3.25.10
 >>>>>>> 9538b35e65 (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
+<<<<<<< HEAD
 >>>>>>> 55dd37bbed (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
+<<<<<<< HEAD
 >>>>>>> 036f3ba175 (CI(deps): Update github/codeql-action action to v3.25.10 (#3800))
+=======
+=======
+=======
+        uses: github/codeql-action/upload-sarif@b611370bb5703a7efb587f9d136a52ea24c5c38c # v3.25.11
+>>>>>>> 1a779126bc (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
+>>>>>>> 6c2bbd4089 (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
+>>>>>>> c384ba3d8c (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
         with:
           sarif_file: bandit.sarif
 
