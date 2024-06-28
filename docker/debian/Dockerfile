@@ -244,6 +244,7 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 # renovate: datasource=github-tags depName=PDAL/PDAL
+<<<<<<< HEAD
 ARG PDAL_VERSION=2.7.1
 =======
 <<<<<<< HEAD
@@ -363,6 +364,9 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+ARG PDAL_VERSION=2.7.2
+>>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 
 SHELL ["/bin/bash", "-c"]
 
