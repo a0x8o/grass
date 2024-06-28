@@ -3684,6 +3684,7 @@ void calculate_shadow(void)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3772,10 +3773,13 @@ void calculate_shadow(void)
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cb0e431f06 (r.horizon: change JSON format (#3888))
         if (format == JSON) {
             value = json_value_init_object();
             object = json_object(value);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cb0e431f06 (r.horizon: change JSON format (#3888))
 =======
@@ -3784,6 +3788,8 @@ void calculate_shadow(void)
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cb0e431f06 (r.horizon: change JSON format (#3888))
         if (settings->compassOutput) {
             double tmpangle;
 
