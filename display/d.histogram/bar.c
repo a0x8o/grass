@@ -44,10 +44,13 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3acd95b215 (d.histogram: Initialize range_dmin and range_dmax to fix uninitialize value warnings in bar.c (#3923))
     DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
@@ -60,6 +63,7 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 =======
     DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
 >>>>>>> 21e59f3439 (d.histogram: Initialize range_dmin and range_dmax to fix uninitialize value warnings in bar.c (#3923))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -67,6 +71,8 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3acd95b215 (d.histogram: Initialize range_dmin and range_dmax to fix uninitialize value warnings in bar.c (#3923))
     long int max_tics; /* maximum tics allowed on an axis */
     long int xoffset;  /* offset for x-axis */
     long int yoffset;  /* offset for y-axis */
