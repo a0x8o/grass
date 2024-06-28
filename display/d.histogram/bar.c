@@ -41,6 +41,7 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
     CELL bar_color;      /* color/category number of a histogram bar */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
@@ -48,6 +49,9 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 =======
     DCELL dmax, range_dmin, range_dmax, dmin, dval;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    DCELL dmax, range_dmin = 0, range_dmax = 0, dmin, dval;
+>>>>>>> 21e59f3439 (d.histogram: Initialize range_dmin and range_dmax to fix uninitialize value warnings in bar.c (#3923))
     long int max_tics; /* maximum tics allowed on an axis */
     long int xoffset;  /* offset for x-axis */
     long int yoffset;  /* offset for y-axis */
