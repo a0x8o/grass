@@ -42772,6 +42772,12 @@ void calculate_shadow(void)
             shadow_angle *= rad2deg;
         }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43384,8 +43390,21 @@ void calculate_shadow(void)
 >>>>>>> d9925996f3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+        if (format == JSON) {
+            value = json_value_init_object();
+            object = json_object(value);
+        }
+>>>>>>> cb0e431f06 (r.horizon: change JSON format (#3888))
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
         if (settings->compassOutput) {
             double tmpangle;
 
@@ -43403,28 +43422,41 @@ void calculate_shadow(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+=======
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
                 json_object_set_number(object, "azimuth", tmpangle);
                 json_object_set_number(object, "angle", shadow_angle);
                 json_object_set_number(object, "distance", horizon.length);
                 json_array_append_value(horizons, value);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
 =======
                 json_array_append_number(azimuths, tmpangle);
                 json_array_append_number(horizons, shadow_angle);
                 json_array_append_number(distances, horizon.length);
 >>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+=======
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
                 break;
             }
         }
@@ -43440,28 +43472,41 @@ void calculate_shadow(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+=======
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
                 json_object_set_number(object, "azimuth", printangle);
                 json_object_set_number(object, "angle", shadow_angle);
                 json_object_set_number(object, "distance", horizon.length);
                 json_array_append_value(horizons, value);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
 =======
                 json_array_append_number(azimuths, printangle);
                 json_array_append_number(horizons, shadow_angle);
                 json_array_append_number(distances, horizon.length);
 >>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+=======
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
                 break;
             }
         }
@@ -43484,8 +43529,11 @@ void calculate_shadow(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
         json_object_set_value(json_origin, "horizons", horizons_value);
 =======
         json_object_set_value(json_origin, "azimuth", azimuths_value);
@@ -43493,11 +43541,17 @@ void calculate_shadow(void)
         json_object_set_value(json_origin, "horizon_distance", distances_value);
 >>>>>>> 4145570b71 (r.horizon: always include distance output in JSON output (#3768))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         json_object_set_value(json_origin, "horizons", horizons_value);
 >>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
 =======
 >>>>>>> 419af5c990 (r.horizon: always include distance output in JSON output (#3768))
+=======
+=======
+        json_object_set_value(json_origin, "horizons", horizons_value);
+>>>>>>> f30b3bd154 (r.horizon: change JSON format (#3888))
+>>>>>>> 7da832152f (r.horizon: change JSON format (#3888))
     }
 =======
         ip = jp = 0;
