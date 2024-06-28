@@ -6487,11 +6487,14 @@ ARG PDAL_VERSION=2.7.1
 # renovate: datasource=github-tags depName=PDAL/PDAL
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
 <<<<<<< HEAD
 >>>>>>> 52fa0708b6 (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
 =======
 =======
+=======
+>>>>>>> 90d1231ffb (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 =======
 # define versions to be used (PDAL is not available on Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
@@ -8455,8 +8458,17 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8544eecf2f (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+ARG PDAL_VERSION=2.7.2
+>>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+>>>>>>> 90d1231ffb (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+>>>>>>> 05589d3de4 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 
 SHELL ["/bin/bash", "-c"]
 
