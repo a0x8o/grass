@@ -308,6 +308,7 @@ ARG PDAL_VERSION=2.4.3
 <<<<<<< HEAD
 # renovate: datasource=github-tags depName=PDAL/PDAL
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # define versions to be used (PDAL is not available on Debian, so we compile it here)
 # https://github.com/PDAL/PDAL/releases
@@ -513,6 +514,9 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> 17e5fe5619 (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+ARG PDAL_VERSION=2.7.2
+>>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 
 SHELL ["/bin/bash", "-c"]
 
