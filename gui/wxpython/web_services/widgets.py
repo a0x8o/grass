@@ -451,7 +451,14 @@ class WSPanel(wx.Panel):
         """Update order in list."""
 
         def getlayercaption(layer):
+<<<<<<< HEAD
             cap = layer["title"] or layer["name"]
+=======
+            if layer["title"]:
+                cap = layer["title"]
+            else:
+                cap = layer["name"]
+>>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
 
             if layer["style"]:
                 if layer["style"]["title"]:
@@ -627,7 +634,11 @@ class WSPanel(wx.Panel):
 
         # WMS standard - first layer in params is most bottom...
         # therefore layers order need to be reversed
+<<<<<<< HEAD
         l_st_list.reverse()
+=======
+        l_st_list = [layer for layer in reversed(l_st_list)]
+>>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
         self.list.SelectLayers(l_st_list)
 
         params = {}

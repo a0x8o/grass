@@ -68,7 +68,11 @@ class LayerList:
 
     def __getitem__(self, index):
         """Select a layer from the LayerList using the index."""
+<<<<<<< HEAD
         return list(self)[index]
+=======
+        return [layer for layer in self][index]
+>>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
 
     def __repr__(self):
         """Return a representation of the object."""
