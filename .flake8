@@ -97,11 +97,15 @@ per-file-ignores =
     gui/wxpython/image2target/*: F841, E722, E265
     gui/wxpython/image2target/g.gui.image2target.py: E501, E265, F841
 <<<<<<< HEAD
+<<<<<<< HEAD
     gui/wxpython/iscatt/*: F841, E722, F405, F403
 =======
     gui/wxpython/iscatt/*: F841, E722, E741, F405, F403
     gui/wxpython/lmgr/giface.py: E741
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+    gui/wxpython/iscatt/*: F841, E722, F405, F403
+>>>>>>> 16b2bafce3 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
     gui/wxpython/lmgr/frame.py: F841, E722
     # layertree still includes some formatting issues (it is ignored by Black)
     gui/wxpython/lmgr/layertree.py: E722, E266, W504, E225
@@ -112,10 +116,14 @@ per-file-ignores =
     gui/wxpython/photo2image/g.gui.photo2image.py: E501, F841
     gui/wxpython/psmap/*: F841, E266, E722, F405, F403
 <<<<<<< HEAD
+<<<<<<< HEAD
     gui/wxpython/vdigit/*: F841, E722, F405, F403
 =======
     gui/wxpython/vdigit/*: F841, E722, E741, F405, F403
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+    gui/wxpython/vdigit/*: F841, E722, F405, F403
+>>>>>>> 16b2bafce3 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
     gui/wxpython/vnet/*: F841
     gui/wxpython/wxgui.py: F841
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
@@ -155,7 +163,11 @@ per-file-ignores =
     gui/wxpython/tools/build_modules_xml.py: E722
     gui/wxpython/web_services/cap_interface.py: E501
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+<<<<<<< HEAD
+>>>>>>> 16b2bafce3 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
     gui/wxpython/web_services/widgets.py: F841, E402
 =======
     gui/wxpython/web_services/widgets.py: F841, E741, E402
@@ -163,6 +175,7 @@ per-file-ignores =
     gui/wxpython/rlisetup/sampling_frame.py: F841
     gui/wxpython/rlisetup/wizard.py: E722, E741
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     gui/wxpython/web_services/widgets.py: F841, E402
@@ -174,6 +187,16 @@ per-file-ignores =
 =======
 >>>>>>> cfa8c4eeca (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+>>>>>>> cfa8c4eeca (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+=======
+    gui/wxpython/web_services/widgets.py: F841, E402
+    gui/wxpython/rlisetup/sampling_frame.py: F841
+    gui/wxpython/rlisetup/wizard.py: E722
+>>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
+>>>>>>> 3a3b3fa8db (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
+>>>>>>> 16b2bafce3 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
     # Generated file
     gui/wxpython/menustrings.py: E501
     # F821 undefined name 'cmp'
