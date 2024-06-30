@@ -185,14 +185,18 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a0765245be (d.histogram: Fix dead store warnings in bar.c (#3927))
 =======
         draw = NO;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         draw = NO;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> da910d0441 (d.histogram: Fix dead store warnings in bar.c (#3927))
@@ -203,6 +207,10 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> da910d0441 (d.histogram: Fix dead store warnings in bar.c (#3927))
+>>>>>>> a0765245be (d.histogram: Fix dead store warnings in bar.c (#3927))
         /* figure bar color and height
          *
          * the cat number determines the color, the corresponding stat,
