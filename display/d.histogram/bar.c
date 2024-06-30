@@ -161,12 +161,15 @@ int bar(struct stat_list *dist_stats, /* list of distribution statistics */
             break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         draw = NO;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         draw = NO;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> da910d0441 (d.histogram: Fix dead store warnings in bar.c (#3927))
         /* figure bar color and height
          *
          * the cat number determines the color, the corresponding stat,
