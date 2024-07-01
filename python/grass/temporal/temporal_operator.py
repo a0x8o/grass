@@ -151,6 +151,7 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from ply import lex, yacc
 =======
     from ply import lex
@@ -172,6 +173,8 @@ try:
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
     from ply import lex, yacc
 =======
     import ply.lex as lex
@@ -202,16 +205,21 @@ try:
     from ply import lex, yacc
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
 =======
 =======
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
     from ply import lex, yacc
 =======
     from ply import lex
     from ply import yacc
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
 <<<<<<< HEAD
@@ -243,6 +251,9 @@ try:
     from ply import lex, yacc
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
 except ImportError:
     pass
 

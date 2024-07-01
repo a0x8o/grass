@@ -148,8 +148,18 @@ import grass.script as gs
 =======
 
 import grass.script as grass
+<<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+<<<<<<< HEAD
+=======
+from grass.script import raster
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 

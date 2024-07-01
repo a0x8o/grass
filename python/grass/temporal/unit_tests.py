@@ -22,6 +22,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
@@ -55,6 +56,12 @@ from datetime import datetime
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
@@ -64,6 +71,7 @@ from grass.script import core
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.script import core
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
@@ -109,6 +117,8 @@ from grass.script import core
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -129,6 +139,11 @@ from grass.script import core
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+=======
+from grass.script import core
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -144,10 +159,15 @@ from .temporal_granularity import (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
 from grass.lib import vector
 from grass.lib import rtree
 from grass.lib import gis
 from ctypes import byref
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
@@ -184,6 +204,7 @@ from ctypes import byref
 =======
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
@@ -204,6 +225,12 @@ from ctypes import byref
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> 5b625e12f4 (style: Fixes manual-from-import (PLR0402) (#3949))
 # Uncomment this to detect the error
 core.set_raise_on_error(True)
 
