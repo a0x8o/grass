@@ -6948,6 +6948,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             reference=dict(min=min_value, max=max_value),
@@ -7173,6 +7174,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7162a84e0a (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             reference={"min": -3.20423, "max": 5.68621},
 =======
 =======
@@ -7183,6 +7186,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2e07dd42ff (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8328,8 +8333,17 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            reference={"min": -3.20423, "max": 5.68621},
+>>>>>>> 837b7967f5 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> 2e07dd42ff (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> 7162a84e0a (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
