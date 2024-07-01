@@ -72,10 +72,13 @@ class LibraryLoader:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
 =======
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
@@ -88,6 +91,7 @@ class LibraryLoader:
 =======
             self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -95,6 +99,8 @@ class LibraryLoader:
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 
         def get(self, name, calling_convention="cdecl"):
             """Return the given name according to the selected calling convention"""

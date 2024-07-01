@@ -830,16 +830,24 @@ class PyShellWindow(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         shellargs = {
             "parent": self,
             "id": wx.ID_ANY,
             "introText": self.intro,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
 =======
 <<<<<<< HEAD
@@ -858,6 +866,7 @@ class PyShellWindow(wx.Panel):
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
 =======
@@ -867,6 +876,12 @@ class PyShellWindow(wx.Panel):
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+        }
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):
             shellargs["useStockId"] = False

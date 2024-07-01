@@ -99,6 +99,7 @@ def start_browser(entry):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
 =======
         _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
@@ -144,6 +145,12 @@ def start_browser(entry):
 >>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> 873c50e991 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> e0ba42ca3d (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+        _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
+=======
+        _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         % {"browser": browser_name, "entry": entry}
     )
 
@@ -157,6 +164,7 @@ def start_browser(entry):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
 =======
             _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
@@ -202,6 +210,12 @@ def start_browser(entry):
 >>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> 873c50e991 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> e0ba42ca3d (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+            _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
+=======
+            _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             % {"browser": browser, "path": path}
         )
 

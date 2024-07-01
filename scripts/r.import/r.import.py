@@ -234,6 +234,7 @@ def main():
     env = os.environ.copy()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = gs.sanitize_mapset_environment(env)
 =======
 <<<<<<< HEAD
@@ -253,6 +254,12 @@ def main():
     env = gs.sanitize_mapset_environment(env)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    env = gs.sanitize_mapset_environment(env)
+=======
+    env = grass.sanitize_mapset_environment(env)
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     parameters = {
         "input": GDALdatasource,
         "output": output,
@@ -292,6 +299,7 @@ def main():
     # import into temp location
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 =======
 <<<<<<< HEAD
@@ -311,6 +319,12 @@ def main():
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+=======
+    grass.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     parameters = {
         "input": GDALdatasource,
         "output": output,
