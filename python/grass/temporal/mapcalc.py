@@ -9,6 +9,7 @@ for details.
 :authors: Soeren Gebbert
 """
 
+import sys
 import copy
 import sys
 from datetime import datetime
