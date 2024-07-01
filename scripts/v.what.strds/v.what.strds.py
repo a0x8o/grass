@@ -84,6 +84,7 @@ class Sample:
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
 =======
 <<<<<<< HEAD
@@ -103,6 +104,12 @@ class Sample:
             gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+=======
+            grass.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         if self.granu:
             if self.granu.find("minute") != -1 or self.granu.find("second") != -1:
                 output += "_" + str(self.start).split(" ")[1].replace(":", "_")
@@ -292,6 +299,7 @@ def main():
                 dbif.close()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.fatal(
 =======
 <<<<<<< HEAD
@@ -311,6 +319,12 @@ def main():
                 gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+                gs.fatal(
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Unable to add column %s to vector map <%s> ")
                     % (column_string, output)
                 )

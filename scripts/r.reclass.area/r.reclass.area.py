@@ -115,6 +115,7 @@ def reclass(inf, outf, lim, clump, diag, les):
         if diagonal:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.message(
 =======
 <<<<<<< HEAD
@@ -134,6 +135,12 @@ def reclass(inf, outf, lim, clump, diag, les):
             gs.message(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            gs.message(
+=======
+            grass.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Generating a clumped raster file including diagonal neighbors...")
             )
             gs.run_command("r.clump", flags="d", input=infile, output=clumpfile)
@@ -211,21 +218,28 @@ def reclass(inf, outf, lim, clump, diag, les):
         if lesser:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
             )
         else:
             gs.fatal(
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             grass.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
             )
         else:
             grass.fatal(
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             gs.fatal(
@@ -248,6 +262,9 @@ def reclass(inf, outf, lim, clump, diag, les):
             gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("No areas of size greater than or equal to %f hectares found.")
                 % limit
             )

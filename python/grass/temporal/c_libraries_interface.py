@@ -10176,6 +10176,7 @@ def _read_semantic_label(lock, conn, data):
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
+<<<<<<< HEAD
                 "Unable to read semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -10217,8 +10218,17 @@ def _read_semantic_label(lock, conn, data):
             logging.error(
                 "Unable to read semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                "Unable to read semantic label. Unsupported map type %s" % maptype
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             )
             return -1
     finally:
@@ -16126,6 +16136,7 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
+<<<<<<< HEAD
                 "Unable to write semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -16139,8 +16150,17 @@ def _write_semantic_label(lock, conn, data):
             logging.error(
                 "Unable to write semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                "Unable to write semantic label. Unsupported map type %s" % maptype
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             )
             return -2
     finally:
@@ -19144,6 +19164,7 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
         else:
             logging.error(
+<<<<<<< HEAD
                 "Unable to remove semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -19173,8 +19194,17 @@ def _remove_semantic_label(lock, conn, data):
             logging.error(
                 "Unable to remove semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                "Unable to remove semantic label. Unsupported map type %s" % maptype
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             )
             return -2
     finally:

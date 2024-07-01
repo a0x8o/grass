@@ -155,6 +155,7 @@ def main():
         elif not coords and not cats:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
 =======
 <<<<<<< HEAD
@@ -167,10 +168,15 @@ def main():
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+            gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             gscript.warning(
                 _("With stvds you have to use 'coordinates' or 'cats' option")
             )
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
@@ -178,6 +184,8 @@ def main():
             gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
     title = None
     if options["title"]:
         title = options["title"]

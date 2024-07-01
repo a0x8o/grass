@@ -865,10 +865,13 @@ class Map:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("GRASS tool '%s' not found. Unable to start map display window.")
 =======
                 _("GRASS tool '%s' not found. Unable to start map " "display window.")
@@ -881,6 +884,7 @@ class Map:
 =======
                 _("GRASS tool '%s' not found. Unable to start map display window.")
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -888,6 +892,8 @@ class Map:
                 _("GRASS tool '%s' not found. Unable to start map " "display window.")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 % "g.proj"
             )
         env = os.environ.copy()

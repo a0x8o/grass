@@ -234,10 +234,14 @@ keywordsfile = open(os.path.join(path, "keywords.html"), "w")
 keywordsfile.write(
     header1_tmpl.substitute(
 <<<<<<< HEAD
+<<<<<<< HEAD
         title="GRASS GIS %s Reference Manual: Keywords index" % grass_version
 =======
         title="GRASS GIS %s Reference " "Manual: Keywords index" % grass_version
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+        title="GRASS GIS %s Reference Manual: Keywords index" % grass_version
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
     )
 )
 keywordsfile.write(headerkeywords_tmpl)

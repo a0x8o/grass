@@ -55,6 +55,7 @@ def main():
         # in case where a map of the same name is in another mapset.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(
 =======
 <<<<<<< HEAD
@@ -74,6 +75,12 @@ def main():
         gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.fatal(
+=======
+        gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("Vector map <{name}> not found in the current mapset ({mapset})").format(
                 name=map, mapset=mapset
             )
@@ -105,6 +112,7 @@ def main():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     gs.message(
 =======
 <<<<<<< HEAD
@@ -124,6 +132,12 @@ def main():
     gs.message(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    gs.message(
+=======
+    gscript.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         _("Removing table <%s> linked to layer <%s> of vector map <%s>")
         % (table, layer, map)
     )

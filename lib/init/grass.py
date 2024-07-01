@@ -18500,10 +18500,14 @@ def lock_mapset(mapset_path, force_gislock_removal, user):
     elif ret != 0:
         msg = (
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Unable to properly access '%s'.\nPlease notify system personnel.")
 =======
             _("Unable to properly access '%s'.\n" "Please notify system personnel.")
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+            _("Unable to properly access '%s'.\nPlease notify system personnel.")
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             % lockfile
         )
 
@@ -18699,6 +18703,9 @@ def run_batch_job(batch_job: list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         error_message = _("Execution of <{cmd}> failed:\n{error}").format(
 =======
         error_message = _("Execution of <{cmd}> failed:\n" "{error}").format(
@@ -18709,6 +18716,7 @@ def run_batch_job(batch_job: list):
 =======
         error_message = _("Execution of <{cmd}> failed:\n{error}").format(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 =======
         error_message = _("Execution of <{cmd}> failed:\n{error}").format(
 =======
@@ -18721,6 +18729,8 @@ def run_batch_job(batch_job: list):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             cmd=batch_job_string, error=error
         )
         # No such file or directory

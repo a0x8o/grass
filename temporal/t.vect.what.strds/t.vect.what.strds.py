@@ -185,6 +185,7 @@ def main():
         dbif.close()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
 <<<<<<< HEAD
@@ -204,6 +205,12 @@ def main():
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+=======
+        grass.fatal(_("Input and aggregation dataset must have the same temporal type"))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     # Check if intervals are present in the sample dataset
     if sp.get_temporal_type() == "absolute":

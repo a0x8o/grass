@@ -226,6 +226,7 @@ def main():
     if old_database_subst == new_database_subst and old_schema == new_schema:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Old and new database connection is identical. Nothing to do."))
 =======
 <<<<<<< HEAD
@@ -245,6 +246,12 @@ def main():
         gs.fatal(_("Old and new database connection is identical. Nothing to do."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.fatal(_("Old and new database connection is identical. Nothing to do."))
+=======
+        gscript.fatal(_("Old and new database connection is identical. Nothing to do."))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     mapset = gs.gisenv()["MAPSET"]
 
@@ -261,6 +268,7 @@ def main():
         i += 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(
 =======
 <<<<<<< HEAD
@@ -280,6 +288,12 @@ def main():
         gs.message(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+        gs.message(
+=======
+        gscript.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("%s\nReconnecting vector map <%s> (%d of %d)...\n%s")
             % ("-" * 80, vect, i, num_vectors, "-" * 80)
         )

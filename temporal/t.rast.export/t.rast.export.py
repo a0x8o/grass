@@ -242,9 +242,16 @@ def main():
 
     if _type and _format in {"pack", "AAIGrid"}:
         grass.warning(
+<<<<<<< HEAD
             _("Type options is not working with pack format, " "it will be skipped")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+            _("Type options is not working with pack format, it will be skipped")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         )
         if kws:
             gs.warning(

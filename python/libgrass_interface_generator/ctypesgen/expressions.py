@@ -404,10 +404,13 @@ class UnsupportedExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
 =======
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
@@ -420,6 +423,7 @@ class UnsupportedExpressionNode(ExpressionNode):
 =======
         raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -427,6 +431,8 @@ class UnsupportedExpressionNode(ExpressionNode):
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     def __repr__(self):
         return "<UnsupportedExpressionNode>"
@@ -437,10 +443,13 @@ class UnsupportedExpressionNode(ExpressionNode):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
 =======
         raise ValueError("Called py_string() an unsupported expression " "node: %s" % self.message)
@@ -453,6 +462,7 @@ class UnsupportedExpressionNode(ExpressionNode):
 =======
         raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -460,3 +470,5 @@ class UnsupportedExpressionNode(ExpressionNode):
         raise ValueError("Called py_string() an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
