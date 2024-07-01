@@ -130,7 +130,7 @@ class SbManager:
         self.mapFrame = mapframe
         self.statusbar = statusbar
 
-        self.statusbarItems = dict()
+        self.statusbarItems = {}
 
         self._postInitialized = False
         self._modeIndexSet = False

@@ -892,7 +892,7 @@ class ProjParamsPage(TitledPage):
         self.panel = None
         self.prjParamSizer = None
 
-        self.pparam = dict()
+        self.pparam = {}
 
         self.p4projparams = ""
         self.projdesc = ""
@@ -1011,7 +1011,7 @@ class ProjParamsPage(TitledPage):
             self.paramSBox.SetLabel(
                 _(" Enter parameters for %s projection ") % self.projdesc
             )
-            self.pparam = dict()
+            self.pparam = {}
             row = 0
             for paramgrp in self.parent.projections[self.parent.projpage.proj][1]:
                 # get parameters
@@ -1814,10 +1814,10 @@ class EPSGPage(TitledPage):
                 message=_("Unable to read EPGS codes: {0}").format(e),
                 showTraceback=False,
             )
-            self.epsglist.Populate(list(), update=True)
+            self.epsglist.Populate([], update=True)
             return
 
-        data = list()
+        data = []
         for code, val in self.epsgCodeDict.items():
             if code is not None:
                 data.append((code, val[0], val[1]))
@@ -2090,10 +2090,10 @@ class IAUPage(TitledPage):
                 message=_("Unable to read IAU codes: {0}").format(e),
                 showTraceback=False,
             )
-            self.epsglist.Populate(list(), update=True)
+            self.epsglist.Populate([], update=True)
             return
 
-        data = list()
+        data = []
         for code, val in self.epsgCodeDict.items():
             if code is not None:
                 data.append((code, val[0], val[1]))

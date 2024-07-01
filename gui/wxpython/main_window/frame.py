@@ -418,10 +418,10 @@ class GMFrame(wx.Frame):
 >>>>>>> osgeo-main
 
         # list of open dialogs
-        self.dialogs = dict()
+        self.dialogs = {}
         self.dialogs["preferences"] = None
         self.dialogs["nvizPreferences"] = None
-        self.dialogs["atm"] = list()
+        self.dialogs["atm"] = []
 
         # set pane sizes according to the full screen size of the primary monitor
 <<<<<<< HEAD
@@ -4011,7 +4011,7 @@ class GMFrame(wx.Frame):
             else:
                 return None
         else:  # -> return list of all mapdisplays
-            mlist = list()
+            mlist = []
             for idx in range(0, self.notebookLayers.GetPageCount()):
                 mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
 

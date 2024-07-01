@@ -138,7 +138,7 @@ class Category(list):
         return cats
 
     def __dict__(self):
-        diz = dict()
+        diz = {}
         for cat in self.__iter__():
             label, min_cat, max_cat = cat
             diz[(min_cat, max_cat)] = label

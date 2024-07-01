@@ -485,7 +485,7 @@ class TreeCtrlComboPopup(ListCtrlComboPopup):
         self.mapsets = None
         self.onPopup = None
         self.fullyQualified = True
-        self.extraItems = dict()
+        self.extraItems = {}
 
         self.SetFilter(None)
         self.tgis_error = False
@@ -1021,7 +1021,7 @@ class LayerSelect(wx.ComboBox):
         :param str vector: vector map name (native or connected via v.external)
         :param str dsn: OGR data source name
         """
-        layers = list()
+        layers = []
 
         if vector:
             layers = GetVectorNumberOfLayers(vector)
@@ -1451,14 +1451,14 @@ class FormatSelect(wx.Choice):
         else:
             ftype = "gdal"
 
-        formats = list()
+        formats = []
         for f in GetFormats()[ftype][srcType].items():
             formats += f
         self.SetItems(formats)
 
     def GetExtension(self, name):
         """Get file extension by format name"""
-        formatToExt = dict()
+        formatToExt = {}
         formatToExt.update(rasterFormatExtension)
         formatToExt.update(vectorFormatExtension)
 
@@ -1506,7 +1506,7 @@ class GdalSelect(wx.Panel):
             self.inputBox.SetLabel(" %s " % _("Source input"))
 
         # source type
-        sources = list()
+        sources = []
         self.sourceMap = {"file": -1, "dir": -1, "db": -1, "pro": -1, "native": -1}
         idx = 0
         if dest:
@@ -1768,7 +1768,7 @@ class GdalSelect(wx.Panel):
                 if k == "dbname":
                     dsn = v
                     break
-            optList = list()
+            optList = []
             for k, v in data.items():
                 if k in {"format", "conninfo", "topology"}:
                     continue
@@ -2008,7 +2008,7 @@ class GdalSelect(wx.Panel):
 
     def _getExtension(self, name):
         """Get file extension by format name"""
-        formatToExt = dict()
+        formatToExt = {}
         formatToExt.update(rasterFormatExtension)
         formatToExt.update(vectorFormatExtension)
 
@@ -2330,7 +2330,7 @@ class GdalSelect(wx.Panel):
                     p = grass.Popen([self._psql, "-ltA"], stdout=grass.PIPE)
                     ret = p.communicate()[0]
                     if ret:
-                        dbNames = list()
+                        dbNames = []
                         for line in ret.splitlines():
                             sline = line.split("|")
                             if len(sline) < 2:
@@ -2495,8 +2495,8 @@ class GdalSelect(wx.Panel):
         if not dsn:
             return
 
-        data = list()
-        listData = list()
+        data = []
+        listData = []
         layerId = 1
 
         if self.ogr:
@@ -2913,7 +2913,7 @@ class ProjSelect(wx.ComboBox):
                 project=location,
                 mapset=mapset,
             )
-        listMaps = list()
+        listMaps = []
         if ret:
             for line in ret.splitlines():
                 listMaps.append(line.strip())

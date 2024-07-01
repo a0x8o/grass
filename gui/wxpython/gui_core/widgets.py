@@ -1837,7 +1837,7 @@ class ManageSettingsWidget(wx.Panel):
         :return: empty dict on error
         """
 
-        data = dict()
+        data = {}
         if not os.path.exists(self.settingsFile):
             return data
 
@@ -1872,7 +1872,7 @@ class ManageSettingsWidget(wx.Panel):
         :return: parsed dict
         :return: empty dict on error
         """
-        data = dict()
+        data = {}
 
         for line in fd_lines[1:]:
             try:
@@ -1927,7 +1927,7 @@ class ManageSettingsWidget(wx.Panel):
         :return: parsed dict
         :return: empty dict on error
         """
-        data = dict()
+        data = {}
 
         for line in fd_lines:
             try:

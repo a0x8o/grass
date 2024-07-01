@@ -125,7 +125,7 @@ class DMonMap(Map):
         self._giface = giface
 
         # environment settings
-        self.env = dict()
+        self.env = {}
 
         self.cmdfile = cmdfile
 
@@ -216,7 +216,7 @@ class DMonMap(Map):
             # next number in rendering order
             next_layer = 0
             mapFile = None
-            render_env = dict()
+            render_env = {}
             for line in lines:
                 if line.startswith("#"):
                     if "GRASS_RENDER_FILE" in line:
@@ -301,7 +301,7 @@ class DMonMap(Map):
                 )
                 if render_env:
                     mapLayer.GetRenderMgr().UpdateRenderEnv(render_env)
-                    render_env = dict()
+                    render_env = {}
 
                 newLayer = self._addLayer(mapLayer)
 
