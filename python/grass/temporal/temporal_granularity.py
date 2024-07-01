@@ -51,6 +51,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -133,6 +134,8 @@ for details.
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
 >>>>>>> bca36f399f (pythonlib: Remove star imports (#1546))
 >>>>>>> 585ba722f9 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 07a13705fd (style(temporal): Sort and group imports (#3959))
 =======
 =======
 <<<<<<< HEAD
@@ -978,8 +981,16 @@ from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 65eebf45c4 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 859ce80446 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 07a13705fd (style(temporal): Sort and group imports (#3959))
 import ast
 from collections import OrderedDict
 from functools import reduce

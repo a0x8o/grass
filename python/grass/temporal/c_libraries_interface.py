@@ -219,9 +219,12 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 07a13705fd (style(temporal): Sort and group imports (#3959))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -241,6 +244,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3c9b290870 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -3374,7 +3379,14 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> 8cba1d1209 (pythonlib: Remove star imports (#1546))
+=======
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 07a13705fd (style(temporal): Sort and group imports (#3959))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
