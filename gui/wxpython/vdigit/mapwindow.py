@@ -3134,10 +3134,13 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
         elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
 =======
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
@@ -3150,6 +3153,7 @@ class VDigitWindow(BufferedMapWindow):
 =======
         elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -3157,6 +3161,8 @@ class VDigitWindow(BufferedMapWindow):
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             if action == "copyCats":
                 if (
                     self.digit.CopyCats(

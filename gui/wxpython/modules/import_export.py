@@ -704,10 +704,13 @@ class OgrImportDialog(ImportDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             in {
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
@@ -739,6 +742,7 @@ class OgrImportDialog(ImportDialog):
                 "PostgreSQL/PostGIS",
             }
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -747,6 +751,8 @@ class OgrImportDialog(ImportDialog):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             and "GRASS_VECTOR_OGR" not in os.environ
         ):
             self.popOGR = True

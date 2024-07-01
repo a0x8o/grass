@@ -1428,8 +1428,11 @@ def _parseFormats(output, writableOnly=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
@@ -1439,13 +1442,19 @@ def _parseFormats(output, writableOnly=False):
         elif name in (
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 07fcd460d0 (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             "GeoJSON",
             "OGC Web Coverage Service",
             "OGC Web Map Service",
@@ -1455,6 +1464,9 @@ def _parseFormats(output, writableOnly=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
         }:
 =======
         ):
@@ -1465,6 +1477,7 @@ def _parseFormats(output, writableOnly=False):
 =======
         }:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
         }:
 =======
@@ -1477,6 +1490,8 @@ def _parseFormats(output, writableOnly=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             formats["protocol"][key.split(" ")[0]] = name
         else:
             formats["file"][key.split(" ")[0]] = name

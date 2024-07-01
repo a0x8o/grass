@@ -616,6 +616,9 @@ class MainToolbar(BaseToolbar):
                 i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -878,7 +881,9 @@ class MainToolbar(BaseToolbar):
                 i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,9 +976,12 @@ class MainToolbar(BaseToolbar):
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
 =======
                 if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
 >>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
 <<<<<<< HEAD
@@ -1055,6 +1063,9 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     continue
                 if i_tool_name == tool_name:
                     continue
@@ -1545,6 +1556,9 @@ class MainToolbar(BaseToolbar):
             i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1807,7 +1821,9 @@ class MainToolbar(BaseToolbar):
             i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1900,9 +1916,12 @@ class MainToolbar(BaseToolbar):
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
 =======
             if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
 >>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
 <<<<<<< HEAD
@@ -1984,6 +2003,9 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 continue
             i_tool_id = vars(self)[i_tool_name]
             self.ToggleTool(i_tool_id, False)

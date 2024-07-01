@@ -55653,10 +55653,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
         if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
 =======
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
@@ -55669,6 +55672,7 @@ class GMFrame(wx.Frame):
 =======
         if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -55676,6 +55680,8 @@ class GMFrame(wx.Frame):
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             return cmdlist
 
         try:
@@ -56168,10 +56174,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             if cmd[1] in {"-h", "--h", "--help", "help"}:
 =======
             if cmd[1] in ["-h", "--h", "--help", "help"]:
@@ -56184,6 +56193,7 @@ class GMFrame(wx.Frame):
 =======
             if cmd[1] in {"-h", "--h", "--help", "help"}:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -56191,6 +56201,8 @@ class GMFrame(wx.Frame):
             if cmd[1] in ["-h", "--h", "--help", "help"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 write_help()
                 write_end()
                 return
@@ -58527,10 +58539,13 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
         if ltype not in {"raster", "raster_3d", "vector"}:
 =======
         if ltype not in ["raster", "raster_3d", "vector"]:
@@ -58543,6 +58558,7 @@ class GMFrame(wx.Frame):
 =======
         if ltype not in {"raster", "raster_3d", "vector"}:
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -58550,6 +58566,8 @@ class GMFrame(wx.Frame):
         if ltype not in ["raster", "raster_3d", "vector"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 502a15d233 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
             GError(parent=self, message=_("Unsupported map layer type <%s>.") % ltype)
             return
 
