@@ -68,8 +68,11 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 <<<<<<< HEAD
 import grass.script as grass
@@ -98,6 +101,7 @@ import grass.script as gs
 import grass.script as grass
 from grass.script import raster
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
@@ -140,6 +144,12 @@ import grass.script as gs
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+
+import grass.script as grass
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 

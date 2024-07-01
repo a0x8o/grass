@@ -150,6 +150,7 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from ply import lex, yacc
 =======
     from ply import lex
@@ -169,6 +170,8 @@ try:
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
     from ply import lex, yacc
 =======
     import ply.lex as lex
@@ -190,6 +193,7 @@ try:
     from ply import lex
     from ply import yacc
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
@@ -234,6 +238,11 @@ try:
 >>>>>>> 46a965d9e9 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+    from ply import lex, yacc
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 except ImportError:
     pass
 

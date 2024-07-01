@@ -451,6 +451,7 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
@@ -467,6 +468,8 @@ try:
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
     from ply import lex, yacc
 =======
     from ply import lex
@@ -482,6 +485,7 @@ try:
 =======
 >>>>>>> aec0b58ff8 (style: Fixes manual-from-import (PLR0402) (#3949))
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
@@ -507,6 +511,11 @@ try:
 =======
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+    from ply import lex, yacc
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 except:
     pass
 

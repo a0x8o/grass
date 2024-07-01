@@ -28,6 +28,10 @@ import grass.temporal as tgis
 =======
 import os
 
+<<<<<<< HEAD
+=======
+import grass.script
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test

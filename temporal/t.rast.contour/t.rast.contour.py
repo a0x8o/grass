@@ -127,6 +127,7 @@ from grass.exceptions import FatalError
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 from grass.exceptions import FatalError
 
@@ -140,6 +141,12 @@ from grass.exceptions import FatalError
 
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+import grass.script as gscript
+from grass.exceptions import FatalError
+
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 ############################################################################
 
 

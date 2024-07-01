@@ -87,7 +87,14 @@ from .c_libraries_interface import CLibrariesInterface
 =======
 from .c_libraries_interface import CLibrariesInterface
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> eb96438b70 (pythonlib: Remove star imports (#1546))
+=======
+=======
+
+import grass.script as gscript
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from grass.pygrass import messages
 from grass.script.utils import decode
 

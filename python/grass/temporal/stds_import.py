@@ -55,8 +55,11 @@ from .factory import dataset_factory
 from .register import register_maps_in_space_time_dataset
 =======
 import grass.script as gscript
+<<<<<<< HEAD
 =======
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from grass.exceptions import CalledModuleError
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 

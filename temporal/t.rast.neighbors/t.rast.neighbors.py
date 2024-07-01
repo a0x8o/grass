@@ -172,6 +172,7 @@ import copy
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 import grass.script as grass
@@ -190,6 +191,14 @@ import grass.script as grass
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script as gs
+=======
+import grass.script as grass
+
+############################################################################
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 
 def main():

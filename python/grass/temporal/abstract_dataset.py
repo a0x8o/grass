@@ -16,8 +16,11 @@ from abc import ABCMeta, abstractmethod
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 from .core import get_current_mapset, get_tgis_message_interface, init_dbif
 =======
@@ -29,12 +32,18 @@ from .core import (
 from .temporal_topology_dataset_connector import TemporalTopologyDatasetConnector
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 =======
 
 from .core import get_current_mapset, get_tgis_message_interface, init_dbif
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from .spatial_topology_dataset_connector import SpatialTopologyDatasetConnector
 from .temporal_topology_dataset_connector import TemporalTopologyDatasetConnector
 

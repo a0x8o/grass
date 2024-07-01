@@ -12,15 +12,22 @@ for details.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from __future__ import annotations
 
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 =======
 from __future__ import annotations
 
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 import logging
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2414,6 +2421,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> c0338bc882 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -2574,6 +2583,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 <<<<<<< HEAD
 >>>>>>> 8a28804560 (pythonlib: Remove star imports (#1546))
 =======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
@@ -3194,6 +3205,7 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7dc011e093 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -3223,7 +3235,19 @@ from multiprocessing import Lock, Pipe, Process
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 from typing import TYPE_CHECKING
+<<<<<<< HEAD
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+from datetime import datetime
+from multiprocessing import Lock, Pipe, Process
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 import grass.lib.date as libdate
 import grass.lib.gis as libgis
@@ -3238,16 +3262,21 @@ from grass.pygrass.utils import decode
 from grass.pygrass.vector import VectorTopo
 from grass.script.utils import encode
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 if TYPE_CHECKING:
     from multiprocessing.connection import Connection
     from multiprocessing.synchronize import _LockLike
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 if TYPE_CHECKING:
     from multiprocessing.connection import Connection
     from multiprocessing.synchronize import _LockLike
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 
 logger = logging.getLogger(__name__)

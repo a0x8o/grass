@@ -12,8 +12,11 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 =======
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
@@ -28,6 +31,7 @@ import grass.script as gscript
 import datetime
 import os
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -38,6 +42,16 @@ import os
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 import datetime
 import os
+=======
+import datetime
+import os
+
+import grass.script as gscript
+import grass.temporal as tgis
+from grass.gunittest.case import TestCase
+from grass.gunittest.main import test
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 import grass.script as gs
 import grass.temporal as tgis

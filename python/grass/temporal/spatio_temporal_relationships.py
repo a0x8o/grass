@@ -32,6 +32,7 @@ from .datetime_math import time_delta_to_relative_time_seconds
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
@@ -47,6 +48,8 @@ from .datetime_math import time_delta_to_relative_time_seconds
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
 from grass.lib import vector
 from grass.lib import rtree
 from grass.lib import gis
@@ -60,6 +63,7 @@ from grass.lib import gis
 =======
 >>>>>>> aec0b58ff8 (style: Fixes manual-from-import (PLR0402) (#3949))
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
@@ -83,6 +87,10 @@ from grass.lib import gis
 =======
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 ###############################################################################
 

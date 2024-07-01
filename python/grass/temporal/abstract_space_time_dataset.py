@@ -23,8 +23,11 @@ from abc import ABCMeta, abstractmethod
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from datetime import datetime
 from pathlib import Path
 
@@ -34,12 +37,16 @@ from .core import (
     get_sql_template_path,
     get_tgis_metadata,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 =======
 from datetime import datetime
 
 from .abstract_dataset import AbstractDataset, AbstractDatasetComparisonKeyStartTime
 from .core import (
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
     get_current_mapset,
     get_sql_template_path,
     get_tgis_db_version_from_metadata,
@@ -62,8 +69,12 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
     get_current_mapset,
+    get_sql_template_path,
     get_tgis_db_version_from_metadata,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +124,9 @@ from .core import (
 =======
 <<<<<<< HEAD
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 from .abstract_dataset import AbstractDataset, AbstractDatasetComparisonKeyStartTime
@@ -415,6 +429,8 @@ from .spatio_temporal_relationships import (
     count_temporal_topology_relationships,
     create_temporal_relation_sql_where_statement,
     print_spatio_temporal_topology_relationships,
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1287,7 +1303,9 @@ from .abstract_dataset import (
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 4ece10bc57 (wxpyimgview: explicit conversion to int (#2704))
@@ -1535,6 +1553,21 @@ from .abstract_dataset import (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    init_dbif,
+)
+from .datetime_math import increment_datetime_by_string, string_to_datetime
+from .spatio_temporal_relationships import (
+    SpatioTemporalTopologyBuilder,
+    count_temporal_topology_relationships,
+    create_temporal_relation_sql_where_statement,
+    print_spatio_temporal_topology_relationships,
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 )
 from .temporal_granularity import (
     check_granularity_string,

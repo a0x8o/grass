@@ -21,6 +21,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
@@ -50,6 +51,10 @@ from datetime import datetime
 >>>>>>> 5bb8db950a (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
@@ -58,6 +63,7 @@ from grass.script import core
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.script import core
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
@@ -101,6 +107,8 @@ from grass.script import core
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -119,12 +127,14 @@ import grass.script.core as core
 =======
 from grass.script import core
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
-    AbstractDatasetComparisonKeyStartTime,
     AbstractDatasetComparisonKeyEndTime,
+    AbstractDatasetComparisonKeyStartTime,
 )
 from .core import init
-from .datetime_math import increment_datetime_by_string, compute_datetime_delta
+from .datetime_math import compute_datetime_delta, increment_datetime_by_string
 from .space_time_datasets import RasterDataset
 from .spatial_extent import SpatialExtent
 from .spatio_temporal_relationships import SpatioTemporalTopologyBuilder
@@ -133,6 +143,7 @@ from .temporal_granularity import (
     compute_absolute_time_granularity,
 )
 
+<<<<<<< HEAD
 from grass.lib import vector
 from grass.lib import rtree
 from grass.lib import gis
@@ -142,6 +153,7 @@ from ctypes import byref
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -188,6 +200,10 @@ from ctypes import byref
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 # Uncomment this to detect the error
 core.set_raise_on_error(True)
 

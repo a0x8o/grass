@@ -25,10 +25,13 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 import sys
 from contextlib import contextmanager
 
@@ -43,6 +46,7 @@ from .core import get_available_temporal_mapsets, get_tgis_message_interface, in
 from contextlib import contextmanager
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 import sys
 from contextlib import contextmanager
 
@@ -60,13 +64,23 @@ from .core import get_available_temporal_mapsets, get_tgis_message_interface, in
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 from contextlib import contextmanager
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 import sys
+from contextlib import contextmanager
 
 import grass.script as gs
 
+<<<<<<< HEAD
 from .core import get_tgis_message_interface, get_available_temporal_mapsets, init_dbif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+from .core import get_available_temporal_mapsets, get_tgis_message_interface, init_dbif
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 from .datetime_math import time_delta_to_relative_time
 from .factory import dataset_factory
 from .open_stds import open_old_stds
@@ -281,6 +295,7 @@ def _write_json(rows, column_names, file) -> None:
 def _write_json(rows, column_names, file):
     # Lazy import output format-specific dependencies.
     # pylint: disable=import-outside-toplevel
+<<<<<<< HEAD
     import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,7 +314,10 @@ def _write_json(rows, column_names, file):
     # Lazy import output format-specific dependencies.
     # pylint: disable=import-outside-toplevel
     import json
+=======
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
     import datetime
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -307,7 +325,13 @@ def _write_json(rows, column_names, file):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    import json
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 
     class ResultsEncoder(json.JSONEncoder):
         """Results encoder for JSON which handles SimpleNamespace objects"""
