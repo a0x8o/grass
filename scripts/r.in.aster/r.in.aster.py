@@ -170,10 +170,14 @@ def main():
     # cleanup
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
     gs.message(_("Cleaning up ..."))
     gs.try_remove(tempfile)
     gs.message(_("Done."))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     grass.message(_("Cleaning up ..."))
@@ -186,10 +190,13 @@ def main():
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+>>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
     grass.message(_("Cleaning up ..."))
     grass.try_remove(tempfile)
     grass.message(_("Done."))
 >>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
 =======
@@ -199,6 +206,8 @@ def main():
     gs.message(_("Done."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
 
 
 def import_aster(proj, srcfile, tempfile, output, band):
