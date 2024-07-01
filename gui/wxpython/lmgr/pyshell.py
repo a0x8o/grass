@@ -350,6 +350,9 @@ class PyShellWindow(wx.Panel):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         shellargs = {
             "parent": self,
             "id": wx.ID_ANY,
@@ -372,6 +375,10 @@ class PyShellWindow(wx.Panel):
             locals={"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
         )
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+        }
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):
             shellargs["useStockId"] = False

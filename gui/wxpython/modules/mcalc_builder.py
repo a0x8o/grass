@@ -681,7 +681,14 @@ class MapCalcFrame(wx.Frame):
             self.log.RunCmd(cmd, onDone=self.OnDone)
             self.parent.Raise()
         else:
+<<<<<<< HEAD
             overwrite = bool(self.overwrite.IsChecked())
+=======
+            if self.overwrite.IsChecked():
+                overwrite = True
+            else:
+                overwrite = False
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             params = {"expression": "%s=%s" % (name, expr), "overwrite": overwrite}
             if seed_flag:
                 params["flags"] = "s"

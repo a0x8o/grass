@@ -3264,6 +3264,7 @@ class MapPanel(SingleMapPanel):
                 _("Failed to run command '%(command)s'. Details:\n%(error)s")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 % {"command": " ".join(cmd), "error": error}
             )
         )
@@ -3608,6 +3609,9 @@ class MapPanel(SingleMapPanel):
 =======
 =======
                 % dict(command=" ".join(cmd), error=error)
+=======
+                % {"command": " ".join(cmd), "error": error}
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             )
         )
 <<<<<<< HEAD

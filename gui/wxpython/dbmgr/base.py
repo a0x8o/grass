@@ -228,7 +228,11 @@ class VirtualAttributeList(
 
         if sql:
             cmdParams.update({"sql": sql, "output": outFile.name, "overwrite": True})
+<<<<<<< HEAD
             RunCommand("db.select", **cmdParams)
+=======
+            ret = RunCommand("db.select", **cmdParams)
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             self.sqlFilter = {"sql": sql}
         else:
             cmdParams.update(

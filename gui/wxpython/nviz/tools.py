@@ -3177,6 +3177,9 @@ class NvizToolWindow(GNotebook):
             sizeW = (-1, size)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         kwargs = {
             "parent": parent,
             "id": wx.ID_ANY,
@@ -3185,6 +3188,7 @@ class NvizToolWindow(GNotebook):
             "style": style,
             "size": sizeW,
         }
+<<<<<<< HEAD
         slider = FloatSlider(**kwargs) if floatSlider else Slider(**kwargs)
 =======
         kwargs = dict(
@@ -3195,6 +3199,8 @@ class NvizToolWindow(GNotebook):
             style=style,
             size=sizeW,
         )
+=======
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         if floatSlider:
             slider = FloatSlider(**kwargs)
         else:

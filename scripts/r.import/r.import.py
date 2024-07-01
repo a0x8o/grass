@@ -236,11 +236,16 @@ def main():
     env = gs.sanitize_mapset_environment(env)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = grass.sanitize_mapset_environment(env)
 =======
     env = gs.sanitize_mapset_environment(env)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    env = grass.sanitize_mapset_environment(env)
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     parameters = {
         "input": GDALdatasource,
         "output": output,
@@ -282,11 +287,16 @@ def main():
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     grass.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 =======
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    grass.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+>>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     parameters = {
         "input": GDALdatasource,
         "output": output,

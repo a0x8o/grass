@@ -69,6 +69,7 @@ class LibraryLoader:
             super(LibraryLoader.Lookup, self).__init__()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
 =======
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
@@ -76,6 +77,9 @@ class LibraryLoader:
 =======
             self.access = dict(cdecl=ctypes.CDLL(path, self.mode))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.access = {"cdecl": ctypes.CDLL(path, self.mode)}
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 
         def get(self, name, calling_convention="cdecl"):
             """Return the given name according to the selected calling convention"""

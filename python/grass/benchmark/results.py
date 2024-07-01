@@ -47,6 +47,7 @@ def save_results(data):
     if not hasattr(data, "results"):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data = {"results": data}
 =======
         data = dict(results=data)
@@ -54,6 +55,9 @@ def save_results(data):
 =======
         data = dict(results=data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        data = {"results": data}
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     return json.dumps(data, cls=ResultsEncoder)
 
 

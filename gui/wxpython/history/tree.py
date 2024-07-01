@@ -317,15 +317,51 @@ class HistoryBrowserTree(CTreeView):
             # Get history day node
             day_node = self.GetHistoryNode(entry)
 
+<<<<<<< HEAD
             if not day_node:
                 # Create the day node if it doesn't exist
                 day_node = self.InsertDay(entry)
+=======
+            if day:
+                day = day[0]
+            else:
+                # Create time period node if not found
+                if not entry["command_info"]:
+                    # Prepare it for entries without command info
+                    day = self._model.AppendNode(
+                        parent=self._model.root,
+                        data={"type": TIME_PERIOD, "day": self._timestampToDay()},
+                    )
+                else:
+                    day = self._model.AppendNode(
+                        parent=self._model.root,
+                        data={
+                            "type": TIME_PERIOD,
+                            "day": self._timestampToDay(
+                                entry["command_info"]["timestamp"]
+                            ),
+                        },
+                    )
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 
             # Populate the day node with the command entry
             self._populateDayItem(day_node, entry)
 
+<<<<<<< HEAD
             # Sort command nodes inside the day node from newest to oldest
             self._model.SortChildren(day_node)
+=======
+            # Add command to time period node
+            self._model.AppendNode(
+                parent=day,
+                data={
+                    "type": COMMAND,
+                    "name": entry["command"].strip(),
+                    "timestamp": timestamp if timestamp else None,
+                    "status": status,
+                },
+            )
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 
         # Refresh the tree view
         self._reloadNode(self._model.root)
@@ -460,11 +496,15 @@ class HistoryBrowserTree(CTreeView):
                 parent=self._model.root,
                 data={
                     "type": TIME_PERIOD,
+<<<<<<< HEAD
                     "day": self._timestampToDay(
                         self._timestampToDatetime(
                             entry["command_info"].get("timestamp")
                         )
                     ),
+=======
+                    "day": today,
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
                 },
             )
         else:
@@ -477,7 +517,20 @@ class HistoryBrowserTree(CTreeView):
                 },
             )
 
+<<<<<<< HEAD
         return day
+=======
+        # Create the command node under today time period node
+        command_node = self._model.AppendNode(
+            parent=today_node,
+            data={
+                "type": COMMAND,
+                "name": entry["command"].strip(),
+                "timestamp": entry["command_info"]["timestamp"],
+                "status": entry["command_info"].get("status", Status.UNKNOWN.value),
+            },
+        )
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 
     def InsertCommand(self, entry):
         """Insert command node to the model and reload it.

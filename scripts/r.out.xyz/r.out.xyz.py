@@ -48,7 +48,14 @@ def main():
     output = options["output"]
     donodata = flags["i"]
 
+<<<<<<< HEAD
     statsflags = "1g" if donodata else "1gn"
+=======
+    if donodata:
+        statsflags = "1g"
+    else:
+        statsflags = "1gn"
+>>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
     parameters = {
         "flags": statsflags,
         "input": options["input"],
