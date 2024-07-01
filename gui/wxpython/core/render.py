@@ -876,8 +876,13 @@ class Map:
 
         for line in ret.splitlines():
             if ":" in line:
+<<<<<<< HEAD
                 key, val = (x.strip() for x in line.split(":", 1))
                 if key == "units":
+=======
+                key, val = map(lambda x: x.strip(), line.split(":", 1))
+                if key in {"units"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     val = val.lower()
                 projinfo[key] = val
             elif "XY location (unprojected)" in line:

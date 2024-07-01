@@ -3425,9 +3425,18 @@ class NvizToolWindow(GNotebook):
         else:
             self.PostViewEvent(zExag=False)
 
+<<<<<<< HEAD
         view[winName]["value"] = (
             int(value) if winName in {"persp", "twist"} else float(value)
         )
+=======
+        if winName in {"persp", "twist"}:
+            convert = int
+        else:
+            convert = float
+
+        view[winName]["value"] = convert(value)
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 
         for win in self.win["view"][winName].values():
             self.FindWindowById(win).SetValue(value)
@@ -3640,8 +3649,15 @@ class NvizToolWindow(GNotebook):
 
     def SetMapObjUseMap(self, nvizType, attrb, map=None):
         """Update dialog widgets when attribute type changed"""
+<<<<<<< HEAD
         # decrement selection (no 'unset')
         incSel = -1 if attrb in {"topo", "color", "shine"} else 0
+=======
+        if attrb in {"topo", "color", "shine"}:
+            incSel = -1  # decrement selection (no 'unset')
+        else:
+            incSel = 0
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
         if nvizType == "volume" and attrb == "topo":
             return
         if map is True:  # map

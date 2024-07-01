@@ -379,6 +379,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -446,7 +447,9 @@ class MainToolbar(BaseToolbar):
                 i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +486,13 @@ class MainToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+                if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     continue
                 if i_tool_name == tool_name:
                     continue
@@ -736,6 +746,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -803,7 +814,9 @@ class MainToolbar(BaseToolbar):
             i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+<<<<<<< HEAD
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,6 +853,13 @@ class MainToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+            if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 continue
             i_tool_id = vars(self)[i_tool_name]
             self.ToggleTool(i_tool_id, False)

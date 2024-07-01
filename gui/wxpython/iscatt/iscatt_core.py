@@ -805,7 +805,15 @@ def _parseRegion(region_str):
 
     for param in region_str:
         k, v = param.split("=")
+<<<<<<< HEAD
         region[k] = int(v) if k in {"rows", "cols", "cells"} else float(v)
+=======
+        if k in {"rows", "cols", "cells"}:
+            v = int(v)
+        else:
+            v = float(v)
+        region[k] = v
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 
     return region
 
@@ -828,6 +836,10 @@ def GetRasterInfo(rast):
         if k == "datatype":
             if v != "CELL":
                 return None
+<<<<<<< HEAD
+=======
+            pass
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
         elif k in {"rows", "cols", "cells", "min", "max"}:
             v = int(v)
         else:

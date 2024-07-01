@@ -1515,7 +1515,11 @@ class BufferedMapWindow(MapWindowBase, Window):
             self.mouse["end"] = event.GetPosition()
             if event.LeftIsDown() and not (
                 digitToolbar
+<<<<<<< HEAD
                 and digitToolbar.GetAction() == "moveLine"
+=======
+                and digitToolbar.GetAction() in {"moveLine"}
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 and len(self.digit.GetDisplay().GetSelected()) > 0
             ):
                 self.MouseDraw(pdc=self.pdcTmp)

@@ -2977,6 +2977,7 @@ class GdalSelect(wx.Panel):
                 "PostgreSQL/PostGIS",
                 "PostGIS Raster driver",
 <<<<<<< HEAD
+<<<<<<< HEAD
             }:
 =======
             ):
@@ -2984,6 +2985,9 @@ class GdalSelect(wx.Panel):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            }:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 ret = RunCommand("db.login", read=True, quiet=True, flags="p")
                 message = _(
                     "PostgreSQL/PostGIS login was not set."
@@ -3049,6 +3053,7 @@ class GdalSelect(wx.Panel):
         sizer = self.dbPanel.GetSizer()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         showBrowse = db in {"SQLite", "SQLite / Spatialite", "Rasterlite"}
 =======
         showBrowse = db in ("SQLite", "SQLite / Spatialite", "Rasterlite")
@@ -3056,6 +3061,9 @@ class GdalSelect(wx.Panel):
 =======
         showBrowse = db in ("SQLite", "SQLite / Spatialite", "Rasterlite")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        showBrowse = db in {"SQLite", "SQLite / Spatialite", "Rasterlite"}
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
         showDirbrowse = db in ("FileGDB")
         showChoice = db in {
             "PostgreSQL",
@@ -3063,6 +3071,7 @@ class GdalSelect(wx.Panel):
             "PostGIS WKT Raster driver",
             "PostGIS Raster driver",
         }
+<<<<<<< HEAD
         enableFeatType = (
             self.dest
             and self.ogr
@@ -3077,14 +3086,16 @@ class GdalSelect(wx.Panel):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
         enableFeatType = (
             self.dest
             and self.ogr
             and db
-            in (
+            in {
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
-            )
+            }
         )
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))

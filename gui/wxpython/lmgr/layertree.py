@@ -7036,6 +7036,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -7181,6 +7182,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 if ltype in {
                     "raster",
                     "vector",
@@ -7201,6 +7204,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 <<<<<<< HEAD
 =======
@@ -8546,13 +8551,28 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+                if ltype in {
+                    "raster",
+                    "vector",
+                    "raster_3d",
+                } and self.mapdisplay.IsPaneShown("3d"):
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 94f2c5172b (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     self.popupMenu.Append(self.popupID["nviz"], _("3D view properties"))
                     self.Bind(
                         wx.EVT_MENU, self.OnNvizProperties, id=self.popupID["nviz"]
                     )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if same and ltype in {"raster", "vector", "rgb", "raster_3d"}:
@@ -8562,6 +8582,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
             if same and ltype in ("raster", "vector", "rgb", "raster_3d"):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+            if same and ltype in {"raster", "vector", "rgb", "raster_3d"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 self.popupMenu.AppendSeparator()
                 item = wx.MenuItem(
                     self.popupMenu,
@@ -12077,6 +12100,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             return
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if action not in {"delete", "rename"}:
             return
         if element in {"raster", "vector", "raster_3d"}:
@@ -12090,6 +12114,11 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             return
         if element in ("raster", "vector", "raster_3d"):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+        if action not in {"delete", "rename"}:
+            return
+        if element in {"raster", "vector", "raster_3d"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             name = map + "@" + mapset if "@" not in map else map
             items = self.FindItemByData(key="name", value=name)
             if items:
@@ -13482,6 +13511,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             cmd = [ltype2command[ltype]]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ltype in {"raster", "rgb"}:
 =======
             if ltype in ("raster", "rgb"):
@@ -13489,6 +13519,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
             if ltype in ("raster", "rgb"):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+            if ltype in {"raster", "rgb"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 if UserSettings.Get(
                     group="rasterLayer", key="opaque", subkey="enabled"
                 ):
@@ -13754,6 +13787,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             mapLayer = self.GetLayerInfo(layer, key="maplayer")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if mapLayer.GetType() in {"raster", "vector"}:
 =======
             if mapLayer.GetType() in ("raster", "vector"):
@@ -13766,6 +13800,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+=======
+            if mapLayer.GetType() in {"raster", "vector"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 self.mapdisplay.MapWindow.ZoomToMap(
                     layers=[
                         mapLayer,
@@ -14029,6 +14066,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 mapLayer = self.GetLayerInfo(layer, key="maplayer")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if mapLayer.GetType() in {"raster", "vector"}:
 =======
                 if mapLayer.GetType() in ("raster", "vector"):
@@ -14036,6 +14074,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                 if mapLayer.GetType() in ("raster", "vector"):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+                if mapLayer.GetType() in {"raster", "vector"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     self.mapdisplay.MapWindow.ZoomToMap(
                         layers=[
                             mapLayer,
@@ -14286,11 +14327,15 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
         height = 25
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if sys.platform in {"win32", "darwin"}:
             height = 40
         return TextCtrl(
 =======
         if sys.platform in ("win32", "darwin"):
+=======
+        if sys.platform in {"win32", "darwin"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             height = 40
         ctrl = TextCtrl(
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

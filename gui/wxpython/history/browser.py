@@ -63,7 +63,11 @@ def get_translated_value(key, value):
         return _("{} sec").format(value)
     if key == "status":
         return _(value.capitalize())
+<<<<<<< HEAD
     if key in {"mask2d", "mask3d"}:
+=======
+    elif key in {"mask2d", "mask3d"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
         return _(str(value))
 
 

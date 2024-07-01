@@ -698,7 +698,11 @@ class MapFrame(InstructionObject):
                     if line.split()[1].lower() in {"n", "no", "none"}:
                         instr["border"] = "n"
                         break
+<<<<<<< HEAD
                     if line.split()[1].lower() in {"y", "yes"}:
+=======
+                    elif line.split()[1].lower() in {"y", "yes"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                         instr["border"] = "y"
                     elif line.startswith("width"):
                         instr["width"] = line.split()[1]
@@ -1760,6 +1764,11 @@ class RasterLegend(InstructionObject):
 >>>>>>> main
             if rinfo["datatype"] in {"DCELL", "FCELL"}:
                 maxim = rinfo["max"]
+=======
+            rinfo = grass.raster_info(raster)
+            if rinfo["datatype"] in {"DCELL", "FCELL"}:
+                minim, maxim = rinfo["min"], rinfo["max"]
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 rows = ceil(maxim / cols)
             else:
                 cat = (

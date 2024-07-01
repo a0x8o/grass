@@ -20872,6 +20872,7 @@ class GMFrame(wx.Frame):
         # bin modules or scripts.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
 =======
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
@@ -20879,6 +20880,9 @@ class GMFrame(wx.Frame):
 =======
         if cmd in ["vcolors", "r.mapcalc", "r3.mapcalc"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        if cmd in {"vcolors", "r.mapcalc", "r3.mapcalc"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             return cmdlist
 
         try:
@@ -21255,6 +21259,7 @@ class GMFrame(wx.Frame):
             write_beginning(parameter=cmd[1])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if cmd[1] in {"-h", "--h", "--help", "help"}:
 =======
             if cmd[1] in ["-h", "--h", "--help", "help"]:
@@ -21262,6 +21267,9 @@ class GMFrame(wx.Frame):
 =======
             if cmd[1] in ["-h", "--h", "--help", "help"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+            if cmd[1] in {"-h", "--h", "--help", "help"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 write_help()
                 write_end()
                 return
@@ -22530,6 +22538,7 @@ class GMFrame(wx.Frame):
         # start new map display if no display is available
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ltype not in {"raster", "raster_3d", "vector"}:
 =======
         if ltype not in ["raster", "raster_3d", "vector"]:
@@ -22537,6 +22546,9 @@ class GMFrame(wx.Frame):
 =======
         if ltype not in ["raster", "raster_3d", "vector"]:
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        if ltype not in {"raster", "raster_3d", "vector"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             GError(parent=self, message=_("Unsupported map layer type <%s>.") % ltype)
             return
 

@@ -1834,6 +1834,7 @@ class VDigitWindow(BufferedMapWindow):
                 # -> move line || move vertex
                 self.UpdateMap(render=False)
 
+<<<<<<< HEAD
         # no vector object found
         elif not (
             action in {"moveLine", "moveVertex"}
@@ -1842,6 +1843,16 @@ class VDigitWindow(BufferedMapWindow):
         ):
             # avoid left-click when features are already selected
             self.UpdateMap(render=False, renderVector=False)
+=======
+        else:  # no vector object found
+            if not (
+                action in {"moveLine", "moveVertex"}
+                and hasattr(self, "moveInfo")
+                and len(self.moveInfo["id"]) > 0
+            ):
+                # avoid left-click when features are already selected
+                self.UpdateMap(render=False, renderVector=False)
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 
     def OnLeftUpModifyLine(self, event):
         """Left mouse button released - vector digitizer split line,
@@ -2138,6 +2149,7 @@ class VDigitWindow(BufferedMapWindow):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
 =======
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
@@ -2145,6 +2157,9 @@ class VDigitWindow(BufferedMapWindow):
 =======
         elif action in ("copyCats", "copyAttrs") and hasattr(self, "copyCatsIds"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        elif action in {"copyCats", "copyAttrs"} and hasattr(self, "copyCatsIds"):
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             if action == "copyCats":
                 if (
                     self.digit.CopyCats(

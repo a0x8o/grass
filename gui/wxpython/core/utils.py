@@ -762,12 +762,21 @@ def __ll_parts(value, reverse=False, precision=3):
             except ValueError:
                 raise ValueError
 
+<<<<<<< HEAD
     if hs not in {"N", "S", "E", "W"}:
         raise ValueError
 
     coef = 1.0
     if hs in {"S", "W"}:
         coef = -1.0
+=======
+        if hs not in {"N", "S", "E", "W"}:
+            raise ValueError
+
+        coef = 1.0
+        if hs in {"S", "W"}:
+            coef = -1.0
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 
     fm = int(m) / 60.0
     fs = float(s) / (60 * 60)
@@ -970,6 +979,7 @@ def _parseFormats(output, writableOnly=False):
             "MSSQLSpatial",
             "FileGDB",
 <<<<<<< HEAD
+<<<<<<< HEAD
         }:
             formats["database"][key.split(" ")[0]] = name
         elif name in {
@@ -978,12 +988,18 @@ def _parseFormats(output, writableOnly=False):
             formats["database"][key.split(" ")[0]] = name
         elif name in (
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+        }:
+            formats["database"][key.split(" ")[0]] = name
+        elif name in {
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             "GeoJSON",
             "OGC Web Coverage Service",
             "OGC Web Map Service",
             "WFS",
             "GeoRSS",
             "HTTP Fetching Wrapper",
+<<<<<<< HEAD
 <<<<<<< HEAD
         }:
 =======
@@ -992,6 +1008,9 @@ def _parseFormats(output, writableOnly=False):
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        }:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             formats["protocol"][key.split(" ")[0]] = name
         else:
             formats["file"][key.split(" ")[0]] = name

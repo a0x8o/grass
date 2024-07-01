@@ -2816,6 +2816,7 @@ class DataCatalogTree(TreeView):
             self.RefreshNode(node, recursive=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if node.data["type"] in {"mapset", "location", "grassdb"}:
 =======
         if node.data["type"] in ("mapset", "location", "grassdb"):
@@ -2823,6 +2824,9 @@ class DataCatalogTree(TreeView):
 =======
         if node.data["type"] in ("mapset", "location", "grassdb"):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+        if node.data["type"] in {"mapset", "location", "grassdb"}:
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             # expand/collapse location/mapset...
             if self.IsNodeExpanded(node):
                 self.CollapseNode(node, recursive=False)

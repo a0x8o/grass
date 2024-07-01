@@ -676,6 +676,7 @@ class OgrImportDialog(ImportDialog):
             and self.dsnInput.GetFormat()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             in {
                 "PostgreSQL",
                 "PostgreSQL/PostGIS",
@@ -691,6 +692,12 @@ class OgrImportDialog(ImportDialog):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            in {
+                "PostgreSQL",
+                "PostgreSQL/PostGIS",
+            }
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
             and "GRASS_VECTOR_OGR" not in os.environ
         ):
             self.popOGR = True

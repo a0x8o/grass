@@ -1343,7 +1343,14 @@ def process_opt(opts, args):
             printHelp()
 
         elif o in {"-w", "--workspace"}:
+<<<<<<< HEAD
             workspaceFile = str(a) if a != "" else args.pop(0)
+=======
+            if a != "":
+                workspaceFile = str(a)
+            else:
+                workspaceFile = args.pop(0)
+>>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
 
     return workspaceFile
 
