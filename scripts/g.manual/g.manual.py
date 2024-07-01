@@ -93,7 +93,11 @@ def start_browser(entry):
         webbrowser.register(browser_name, None)
 
     grass.verbose(
+<<<<<<< HEAD
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
+=======
+        _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
+>>>>>>> 386d478441 (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         % {"browser": browser_name, "entry": entry}
     )
 
@@ -101,7 +105,11 @@ def start_browser(entry):
         webbrowser.open(url_path)
     except Exception:
         grass.fatal(
+<<<<<<< HEAD
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
+=======
+            _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
+>>>>>>> 386d478441 (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
             % {"browser": browser, "path": path}
         )
 
