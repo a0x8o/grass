@@ -6476,6 +6476,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
             if spatial_relation == "overlaps":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 spatial_where_template += " AND top > {b}" " AND bottom < {t}"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7947,8 +7948,21 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 9b236f29f2 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 00fecb977b (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+                spatial_where_template += " AND top > {b} AND bottom < {t}"
+            elif spatial_relation == "is_contained":
+                spatial_where_template += " AND top <= {t} AND bottom >= {b}"
+            elif spatial_relation == "contains":
+                spatial_where_template += " AND top >= {t} AND bottom <= {b}"
+>>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> 873c50e991 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> e0ba42ca3d (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         spatial_where_template += ")"
 
         spatial_where_list = [spatial_where_template.format(**spatial_extent)]
