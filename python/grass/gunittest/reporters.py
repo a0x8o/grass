@@ -525,7 +525,12 @@ def returncode_to_html_sentence(returncode):
 def returncode_to_success_html_par(returncode):
     if returncode:
         return '<p> <span style="color: red">&#x274c;</span> Test failed</p>'
+<<<<<<< HEAD
     return '<p> <span style="color: green">&#x2713;</span> Test succeeded</p>'
+=======
+    else:
+        return '<p> <span style="color: green">&#x2713;</span> Test succeeded</p>'
+>>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
 
 
 def success_to_html_text(total, successes):

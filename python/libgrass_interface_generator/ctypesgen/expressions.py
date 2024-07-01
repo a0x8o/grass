@@ -137,6 +137,7 @@ class UnaryExpressionNode(ExpressionNode):
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
@@ -144,6 +145,9 @@ class UnaryExpressionNode(ExpressionNode):
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
+>>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
 
     def py_string(self, can_be_ctype):
         return self.format % self.child.py_string(self.child_can_be_ctype and can_be_ctype)
@@ -192,6 +196,7 @@ class BinaryExpressionNode(ExpressionNode):
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
@@ -199,6 +204,9 @@ class BinaryExpressionNode(ExpressionNode):
 =======
             raise ValueError('The C operator "%s" can\'t be evaluated right ' "now" % self.name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            raise ValueError('The C operator "%s" can\'t be evaluated right now' % self.name)
+>>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
 
     def py_string(self, can_be_ctype):
         return self.format % (

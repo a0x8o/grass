@@ -22035,6 +22035,7 @@ class GMFrame(wx.Frame):
         if not haveIClass:
             GError(
                 _('Unable to launch "Supervised Classification Tool".\n\nReason: %s')
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
@@ -22053,6 +22054,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 72d91d1e05 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> 592985bfb2 (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
                 % errMsg
             )
             return
