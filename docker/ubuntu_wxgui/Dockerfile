@@ -2977,11 +2977,14 @@ ENV DEBIAN_FRONTEND noninteractive
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 49eb6366cc (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
 =======
 >>>>>>> 49eb728d0e (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
 =======
 >>>>>>> 90d1231ffb (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+=======
+>>>>>>> 3f261b42dc (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
 ARG PDAL_VERSION=2.4.3
 =======
 >>>>>>> 1e806d3c3f (CI(Docker): Configure renovate updates for PDAL in Dockerfiles (#3810))
@@ -5162,8 +5165,17 @@ ARG PDAL_VERSION=2.7.1
 =======
 ARG PDAL_VERSION=2.7.2
 >>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+<<<<<<< HEAD
 >>>>>>> 90d1231ffb (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+<<<<<<< HEAD
 >>>>>>> 05589d3de4 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+=======
+=======
+=======
+ARG PDAL_VERSION=2.7.1
+>>>>>>> 7a1c8d97ba (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
+>>>>>>> 3f261b42dc (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
+>>>>>>> 1e111570a9 (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
 
 SHELL ["/bin/bash", "-c"]
 
