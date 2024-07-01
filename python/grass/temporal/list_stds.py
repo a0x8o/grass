@@ -2866,10 +2866,13 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 970a423680 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
     if method in {"delta", "deltagaps", "gran"}:
 =======
     if method in ["delta", "deltagaps", "gran"]:
@@ -2882,6 +2885,7 @@ def _get_list_of_maps_stds(
 =======
     if method in {"delta", "deltagaps", "gran"}:
 >>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -2889,6 +2893,8 @@ def _get_list_of_maps_stds(
     if method in ["delta", "deltagaps", "gran"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 970a423680 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
         if not columns:
             if output_format == "list":
                 # Only one column is needed.
@@ -2983,10 +2989,13 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 970a423680 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
         if not rows and (output_format in {"plain", "line"}):
 =======
         if not rows and (output_format in ["plain", "line"]):
@@ -2999,6 +3008,7 @@ def _get_list_of_maps_stds(
 =======
         if not rows and (output_format in {"plain", "line"}):
 >>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -3006,6 +3016,8 @@ def _get_list_of_maps_stds(
         if not rows and (output_format in ["plain", "line"]):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 970a423680 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
             dbif.close()
             gs.fatal(
                 _(
