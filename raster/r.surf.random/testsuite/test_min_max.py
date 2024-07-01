@@ -462,6 +462,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             reference=dict(min=min_value, max=max_value),
 =======
 <<<<<<< HEAD
@@ -539,6 +540,9 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            reference={"min": -3.20423, "max": 5.68621},
+>>>>>>> 837b7967f5 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
