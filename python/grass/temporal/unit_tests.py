@@ -18,6 +18,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
@@ -30,14 +31,24 @@ from datetime import datetime
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
 =======
+>>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
+=======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 >>>>>>> aec0b58ff8 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +61,8 @@ from grass.script import core
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> aec0b58ff8 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -75,6 +88,13 @@ from grass.script import core
 from grass.script import core
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 >>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+from grass.script import core
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -125,8 +145,16 @@ from ctypes import byref
 =======
 
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 >>>>>>> ea07a210df (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 >>>>>>> aec0b58ff8 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 # Uncomment this to detect the error
 core.set_raise_on_error(True)
 
