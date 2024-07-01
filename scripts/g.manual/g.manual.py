@@ -94,10 +94,14 @@ def start_browser(entry):
 
     grass.verbose(
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
 =======
         _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
 >>>>>>> 386d478441 (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+        _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
+>>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         % {"browser": browser_name, "entry": entry}
     )
 
@@ -106,10 +110,14 @@ def start_browser(entry):
     except Exception:
         grass.fatal(
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
 =======
             _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
 >>>>>>> 386d478441 (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+            _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
+>>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             % {"browser": browser, "path": path}
         )
 
