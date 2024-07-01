@@ -29,8 +29,13 @@ class TestRasterReport(TestCase):
             output=self.output,
             operator="overlap",
         )
+<<<<<<< HEAD
         topology = {"areas": 97}
         self.assertVectorFitsTopoInfo(self.output, topology)
+=======
+        topology = {"points": 1088, "lines": 0, "areas": 0}
+        self.assertVectorFitsTopoInfo(self.overlap, topology)
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 
     def test_opd(self):
         """Testign operator disjoint"""
@@ -41,8 +46,13 @@ class TestRasterReport(TestCase):
             output=self.output,
             operator="disjoint",
         )
+<<<<<<< HEAD
         topology = {"areas": 1770}
         self.assertVectorFitsTopoInfo(self.output, topology)
+=======
+        topology = {"points": 167, "lines": 0, "areas": 0}
+        self.assertVectorFitsTopoInfo(self.disjoint, topology)
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 
     def test_ope(self):
         """Testing operator equals"""
@@ -53,7 +63,12 @@ class TestRasterReport(TestCase):
             output=self.output,
             operator="equals",
         )
+<<<<<<< HEAD
         self.assertVectorDoesNotExist(self.output)
+=======
+        topology = {"points": 0, "lines": 49746, "areas": 0}
+        self.assertVectorFitsTopoInfo(self.equals, topology)
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 
     def test_opt(self):
         """Testing operator touches"""
@@ -64,7 +79,12 @@ class TestRasterReport(TestCase):
             output=self.output,
             operator="touches",
         )
+<<<<<<< HEAD
         self.assertVectorDoesNotExist(self.output)
+=======
+        topology = {"points": 0, "lines": 0, "areas": 48}
+        self.assertVectorFitsTopoInfo(self.touches, topology)
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 
     def test_opw(self):
         """Testing operator within"""
@@ -75,8 +95,13 @@ class TestRasterReport(TestCase):
             output=self.output,
             operator="within",
         )
+<<<<<<< HEAD
         topology = {"areas": 17}
         self.assertVectorFitsTopoInfo(self.output, topology)
+=======
+        topology = {"points": 1088, "lines": 0, "areas": 0}
+        self.assertVectorFitsTopoInfo(self.within, topology)
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 
 
 if __name__ == "__main__":

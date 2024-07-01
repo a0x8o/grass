@@ -789,6 +789,9 @@ class TestBenchmarksRun(TestCase):
         benchmarks = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             {
                 "module": Module(
                     "r.univar", map="elevation", stdout_=DEVNULL, run_=False
@@ -797,6 +800,7 @@ class TestBenchmarksRun(TestCase):
             },
             {
                 "module": Module(
+<<<<<<< HEAD
                     "r.univar", map="elevation", flags="g", stdout_=DEVNULL, run_=False
                 ),
                 "label": "Standard output",
@@ -818,6 +822,12 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    "r.univar", map="elevation", flags="g", stdout_=DEVNULL, run_=False
+                ),
+                "label": "Standard output",
+            },
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         ]
         resolutions = [300, 200, 100]
         results = []
@@ -1231,12 +1241,16 @@ class TestBenchmarksRun(TestCase):
         benchmarks = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             {
                 "module": Module(
                     "r.univar", map="elevation", stdout_=DEVNULL, run_=False
                 ),
                 "label": label,
             }
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1248,6 +1262,8 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         ]
         results = []
         for benchmark in benchmarks:
@@ -1833,11 +1849,13 @@ class TestBenchmarksRun(TestCase):
         label = "Standard output"
         repeat = 4
         benchmarks = [
-            dict(
-                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
-                label=label,
-                max_nprocs=4,
-            )
+            {
+                "module": Module(
+                    "r.univar", map="elevation", stdout_=DEVNULL, run_=False
+                ),
+                "label": label,
+                "max_nprocs": 4,
+            }
         ]
         results = []
         for benchmark in benchmarks:

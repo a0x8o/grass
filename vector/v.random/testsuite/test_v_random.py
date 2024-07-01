@@ -52,6 +52,7 @@ class TestVRandom(TestCase):
         self.assertModule("v.random", output=self.output, npoints=self.npoints)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         topology = {"points": self.npoints}
 =======
         topology = dict(points=self.npoints)
@@ -59,6 +60,9 @@ class TestVRandom(TestCase):
 =======
         topology = dict(points=self.npoints)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        topology = {"points": self.npoints}
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_num_points_3D(self):
@@ -73,6 +77,7 @@ class TestVRandom(TestCase):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         topology = {"points": self.npoints, "map3d": 1}
 =======
         topology = dict(points=self.npoints, map3d=1)
@@ -80,6 +85,9 @@ class TestVRandom(TestCase):
 =======
         topology = dict(points=self.npoints, map3d=1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        topology = {"points": self.npoints, "map3d": 1}
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         self.assertVectorFitsTopoInfo(vector=self.output, reference=topology)
 
     def test_restrict(self):
