@@ -10,9 +10,13 @@ for details.
 :authors: Soeren Gebbert
 """
 
+<<<<<<< HEAD
 from __future__ import annotations
 
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 import logging
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +713,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 60747a09b3 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 import sys
 from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 =======
@@ -776,6 +782,8 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -1131,6 +1139,7 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> e54d3f3e40 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 =======
 from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -1157,6 +1166,15 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 from typing import TYPE_CHECKING
+=======
+>>>>>>> osgeo-main
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+from datetime import datetime
+from multiprocessing import Lock, Pipe, Process
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 import grass.lib.date as libdate
 import grass.lib.gis as libgis
@@ -1170,10 +1188,13 @@ from grass.pygrass.rpc.base import RPCServerBase
 from grass.pygrass.utils import decode
 from grass.pygrass.vector import VectorTopo
 from grass.script.utils import encode
+<<<<<<< HEAD
 
 if TYPE_CHECKING:
     from multiprocessing.connection import Connection
     from multiprocessing.synchronize import _LockLike
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 ###############################################################################
 

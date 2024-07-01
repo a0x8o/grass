@@ -13,8 +13,11 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
 from .core import (
     get_tgis_message_interface,
@@ -39,11 +42,18 @@ from multiprocessing import Process
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+from multiprocessing import Process
+
+import grass.script as gscript
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 from grass.exceptions import CalledModuleError
 
 from .abstract_map_dataset import AbstractMapDataset

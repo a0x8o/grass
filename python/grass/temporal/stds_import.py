@@ -45,6 +45,15 @@ import grass.script as gs
 >>>>>>> main
 from grass.exceptions import CalledModuleError
 
+<<<<<<< HEAD
+from .core import get_current_mapset, get_tgis_message_interface
+from .factory import dataset_factory
+from .register import register_maps_in_space_time_dataset
+=======
+import grass.script as gscript
+from grass.exceptions import CalledModuleError
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+
 from .core import get_current_mapset, get_tgis_message_interface
 from .factory import dataset_factory
 from .register import register_maps_in_space_time_dataset

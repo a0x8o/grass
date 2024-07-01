@@ -10,6 +10,10 @@ for details.
 
 import os
 
+<<<<<<< HEAD
+=======
+import grass.pygrass.modules as pymod
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 

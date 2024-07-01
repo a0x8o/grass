@@ -9,7 +9,10 @@ for details.
 """
 
 import os
+<<<<<<< HEAD
 from pathlib import Path
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 from grass.gunittest.case import TestCase
 from grass.gunittest.gmodules import SimpleModule

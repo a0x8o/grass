@@ -10,6 +10,7 @@ for details.
 """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
@@ -21,6 +22,15 @@ import grass.script as gscript
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 import datetime
 import os
+=======
+import datetime
+import os
+
+import grass.script as gscript
+import grass.temporal as tgis
+from grass.gunittest.case import TestCase
+from grass.gunittest.main import test
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 <<<<<<< HEAD
 import grass.script as gs

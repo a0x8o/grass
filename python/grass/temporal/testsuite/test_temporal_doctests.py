@@ -8,7 +8,10 @@ import sys
 import grass.gunittest.case
 import grass.gunittest.main
 import grass.gunittest.utils
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 import grass.temporal
 
 doctest.DocFileCase = type(

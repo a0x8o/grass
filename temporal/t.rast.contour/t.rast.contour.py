@@ -125,10 +125,17 @@ from grass.exceptions import FatalError
 
 =======
 
+<<<<<<< HEAD
 import grass.script as gs
 from grass.exceptions import FatalError
 
 >>>>>>> osgeo-main
+=======
+import grass.script as gscript
+from grass.exceptions import FatalError
+
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 ############################################################################
 
 

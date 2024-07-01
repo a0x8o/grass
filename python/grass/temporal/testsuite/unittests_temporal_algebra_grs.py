@@ -8,6 +8,7 @@ for details.
 """
 
 import datetime
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24,6 +25,14 @@ from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 
 import grass.temporal as tgis
+=======
+import os
+
+import grass.script
+import grass.temporal as tgis
+from grass.gunittest.case import TestCase
+from grass.gunittest.main import test
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 
 class TestTemporalAlgebraGranularity(TestCase):

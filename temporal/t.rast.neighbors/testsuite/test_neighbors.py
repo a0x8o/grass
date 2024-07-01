@@ -5,6 +5,11 @@ Created on Wed Feb 17 19:53:04 2016
 """
 
 import os
+<<<<<<< HEAD
+=======
+import sys
+import unittest
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase

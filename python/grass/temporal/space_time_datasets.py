@@ -13,7 +13,10 @@ from __future__ import annotations
 
 import getpass
 from datetime import datetime
+<<<<<<< HEAD
 from typing import Literal
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 import grass.script.array as garray
 

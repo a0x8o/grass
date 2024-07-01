@@ -75,11 +75,16 @@ import sys
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script as grass
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 
 ############################################################################
 

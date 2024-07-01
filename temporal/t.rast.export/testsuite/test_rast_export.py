@@ -15,11 +15,16 @@ import os
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script as gscript
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 from grass.gunittest.case import TestCase
 
 

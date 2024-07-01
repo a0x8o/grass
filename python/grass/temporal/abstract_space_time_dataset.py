@@ -10,13 +10,17 @@ for details.
 :authors: Soeren Gebbert
 """
 
+<<<<<<< HEAD
 from __future__ import annotations
 
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 import copy
 import os
 import sys
 import uuid
 from abc import ABCMeta, abstractmethod
+<<<<<<< HEAD
 <<<<<<< HEAD
 from datetime import datetime
 from pathlib import Path
@@ -26,8 +30,16 @@ from .core import (
     init_dbif,
     get_sql_template_path,
     get_tgis_metadata,
+=======
+from datetime import datetime
+
+from .abstract_dataset import AbstractDataset, AbstractDatasetComparisonKeyStartTime
+from .core import (
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
     get_current_mapset,
+    get_sql_template_path,
     get_tgis_db_version_from_metadata,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +137,8 @@ from .spatio_temporal_relationships import (
     count_temporal_topology_relationships,
     create_temporal_relation_sql_where_statement,
     print_spatio_temporal_topology_relationships,
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -544,8 +558,25 @@ from .abstract_dataset import (
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> f2a3896383 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+    init_dbif,
+)
+from .datetime_math import increment_datetime_by_string, string_to_datetime
+from .spatio_temporal_relationships import (
+    SpatioTemporalTopologyBuilder,
+    count_temporal_topology_relationships,
+    create_temporal_relation_sql_where_statement,
+    print_spatio_temporal_topology_relationships,
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 )
 from .temporal_granularity import (
     check_granularity_string,

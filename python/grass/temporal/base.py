@@ -34,12 +34,17 @@ from .core import (
     get_current_mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get_tgis_dbmi_paramstyle,
     get_tgis_message_interface,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    get_tgis_dbmi_paramstyle,
+    get_tgis_message_interface,
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 )
 
 ###############################################################################

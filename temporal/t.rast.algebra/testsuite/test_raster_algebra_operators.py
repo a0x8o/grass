@@ -12,6 +12,10 @@ import os
 
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
+<<<<<<< HEAD
+=======
+from grass.gunittest.gmodules import SimpleModule
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 from grass.gunittest.main import test
 
 

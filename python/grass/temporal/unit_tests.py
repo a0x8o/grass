@@ -16,22 +16,30 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 27551073cd (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 from grass.script import core
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -50,12 +58,14 @@ import grass.script.core as core
 =======
 from grass.script import core
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
-    AbstractDatasetComparisonKeyStartTime,
     AbstractDatasetComparisonKeyEndTime,
+    AbstractDatasetComparisonKeyStartTime,
 )
 from .core import init
-from .datetime_math import increment_datetime_by_string, compute_datetime_delta
+from .datetime_math import compute_datetime_delta, increment_datetime_by_string
 from .space_time_datasets import RasterDataset
 from .spatial_extent import SpatialExtent
 from .spatio_temporal_relationships import SpatioTemporalTopologyBuilder
@@ -64,6 +74,7 @@ from .temporal_granularity import (
     compute_absolute_time_granularity,
 )
 
+<<<<<<< HEAD
 from grass.lib import vector
 from grass.lib import rtree
 from grass.lib import gis
@@ -75,6 +86,7 @@ from ctypes import byref
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.lib import vector
 from grass.lib import rtree
@@ -84,6 +96,10 @@ from ctypes import byref
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 # Uncomment this to detect the error
 core.set_raise_on_error(True)
 

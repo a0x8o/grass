@@ -9,6 +9,10 @@ for details.
 
 import datetime
 
+<<<<<<< HEAD
+=======
+import grass.temporal as tgis
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
 

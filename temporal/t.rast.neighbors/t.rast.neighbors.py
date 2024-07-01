@@ -172,6 +172,11 @@ import copy
 
 <<<<<<< HEAD
 import grass.script as gs
+=======
+import grass.script as grass
+
+############################################################################
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
 ############################################################################
 =======

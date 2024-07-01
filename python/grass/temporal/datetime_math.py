@@ -9,8 +9,11 @@ for details.
 :authors: Soeren Gebbert
 """
 
+<<<<<<< HEAD
 from __future__ import annotations
 
+=======
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 import copy
 from datetime import datetime, timedelta
 

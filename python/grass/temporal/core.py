@@ -34,6 +34,7 @@ from __future__ import annotations
 
 # import traceback
 import os
+<<<<<<< HEAD
 from pathlib import Path
 
 <<<<<<< HEAD
@@ -56,7 +57,14 @@ from .c_libraries_interface import CLibrariesInterface
 =======
 from .c_libraries_interface import CLibrariesInterface
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 >>>>>>> ae94629933 (pythonlib: Remove star imports (#1546))
+=======
+=======
+
+import grass.script as gscript
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 from grass.pygrass import messages
 from grass.script.utils import decode
 

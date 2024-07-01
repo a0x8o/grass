@@ -14,11 +14,16 @@ import os
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script
+>>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+>>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
