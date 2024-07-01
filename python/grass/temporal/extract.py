@@ -11,6 +11,7 @@ for details.
 
 import sys
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from .core import (
     get_tgis_message_interface,
@@ -23,6 +24,8 @@ from .datetime_math import create_suffix_from_datetime
 from .datetime_math import create_time_suffix
 from .datetime_math import create_numeric_suffix
 >>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from multiprocessing import Process
 
 import grass.script as gscript

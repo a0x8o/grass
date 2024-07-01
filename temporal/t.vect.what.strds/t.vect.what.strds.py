@@ -68,9 +68,12 @@ import os
 
 import grass.script as grass
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.script import raster
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 

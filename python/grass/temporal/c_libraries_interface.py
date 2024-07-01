@@ -27,6 +27,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -197,6 +198,10 @@ from ctypes import byref, cast, c_char_p, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 95adae2f53 (pythonlib: Remove star imports (#1546))
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
 

@@ -21,6 +21,7 @@ for details.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -86,6 +87,8 @@ from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 import ast
 from collections import OrderedDict
 from functools import reduce
