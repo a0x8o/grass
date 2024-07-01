@@ -112,6 +112,7 @@ def main():
                 gs.warning(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             if grass.overwrite():
                 grass.warning(
 =======
@@ -119,6 +120,11 @@ def main():
                 gs.warning(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            if grass.overwrite():
+                grass.warning(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Table <%s> already exists and will be overwritten") % output
                 )
                 gs.write_command(

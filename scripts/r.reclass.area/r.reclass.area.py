@@ -117,11 +117,16 @@ def reclass(inf, outf, lim, clump, diag, les):
             gs.message(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             grass.message(
 =======
             gs.message(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            grass.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Generating a clumped raster file including diagonal neighbors...")
             )
             gs.run_command("r.clump", flags="d", input=infile, output=clumpfile)
@@ -191,11 +196,15 @@ def reclass(inf, outf, lim, clump, diag, les):
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             grass.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
             )
         else:
             grass.fatal(
+<<<<<<< HEAD
 =======
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
@@ -204,6 +213,9 @@ def reclass(inf, outf, lim, clump, diag, les):
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("No areas of size greater than or equal to %f hectares found.")
                 % limit
             )

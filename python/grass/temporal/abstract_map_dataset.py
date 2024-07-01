@@ -461,11 +461,20 @@ class AbstractMapDataset(AbstractDataset):
                     }
                 )
                 return False
+<<<<<<< HEAD
             self.msgr.error(
                 _("End time must be of type datetime for %(type)s map <%(id)s>")
                 % {"type": self.get_type(), "id": self.get_map_id()}
             )
             return False
+=======
+            else:
+                self.msgr.error(
+                    _("End time must be of type datetime for %(type)s map <%(id)s>")
+                    % {"type": self.get_type(), "id": self.get_map_id()}
+                )
+                return False
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
         if start_time is not None and end_time is not None:
             if start_time > end_time:

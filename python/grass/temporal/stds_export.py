@@ -200,6 +200,7 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs) -> None:
             tar.close()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
 =======
 <<<<<<< HEAD
@@ -213,6 +214,14 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs) -> None:
 =======
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr") % name)
 >>>>>>> osgeo-main
+=======
+            gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr") % name)
+=======
+            gscript.fatal(
+                _("Unable to export vector map <%s> as GML with v.out.ogr" % name)
+            )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
         tar.add(name + ".xml")
         tar.add(name + ".xsd")
@@ -259,7 +268,14 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs) -> None:
                 _("Unable to export vector map <%s> as GPKG with v.out.ogr" % name)
 =======
                 _("Unable to export vector map <%s> as GPKG with v.out.ogr") % name
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+            gscript.fatal(
+                _("Unable to export vector map <%s> as GPKG with v.out.ogr" % name)
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             )
 
         tar.add(name + ".gpkg")

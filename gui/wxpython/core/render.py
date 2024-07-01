@@ -862,6 +862,7 @@ class Map:
             sys.exit(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("GRASS tool '%s' not found. Unable to start map display window.")
 =======
                 _("GRASS tool '%s' not found. Unable to start map " "display window.")
@@ -869,6 +870,9 @@ class Map:
 =======
                 _("GRASS tool '%s' not found. Unable to start map " "display window.")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                _("GRASS tool '%s' not found. Unable to start map display window.")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 % "g.proj"
             )
         env = os.environ.copy()

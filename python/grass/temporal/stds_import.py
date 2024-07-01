@@ -118,11 +118,16 @@ def _import_raster_maps_from_gdal(
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Unable to import/link raster map <%s> from file %s.")
                 % (name, filename)
             )
@@ -139,6 +144,7 @@ def _import_raster_maps_from_gdal(
                 gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gscript.fatal(
                     _("Unable to set the color rules for raster map <%s>.") % name
                 )
@@ -146,6 +152,12 @@ def _import_raster_maps_from_gdal(
                 gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                gscript.fatal(
+                    _("Unable to set the color rules for raster map <%s>.") % name
+                )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     # Set the computational region from the last map imported
     if set_current_region is True:
@@ -177,11 +189,16 @@ def _import_raster_maps(maplist, set_current_region: bool = False) -> None:
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Unable to unpack raster map <%s> from file %s.") % (name, filename)
             )
 
@@ -215,11 +232,16 @@ def _import_vector_maps_from_gml(maplist, overr, exp, location, link) -> None:
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Unable to import vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -253,11 +275,16 @@ def _import_vector_maps(maplist) -> None:
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Unable to unpack vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -384,6 +411,7 @@ def import_stds(
                 gs.warning(_("Projection information does not match. Proceeding..."))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gscript.warning(
                     _("Projection information does not match. Proceeding...")
                 )
@@ -391,6 +419,12 @@ def import_stds(
                 gs.warning(_("Projection information does not match. Proceeding..."))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                gscript.warning(
+                    _("Projection information does not match. Proceeding...")
+                )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             else:
                 diff = "".join(gs.diff_files(temp_name, proj_name))
                 gs.warning(
@@ -404,11 +438,16 @@ def import_stds(
                 gs.fatal(_("Projection information does not match. Aborting."))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gscript.fatal(_("Projection information does not match. Aborting."))
 =======
                 gs.fatal(_("Projection information does not match. Aborting."))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                gscript.fatal(_("Projection information does not match. Aborting."))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     # Create a new location based on the projection information and switch
     # into it
@@ -446,11 +485,16 @@ def import_stds(
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Unable to create default temporal database in new location %s")
                 % location
             )
@@ -538,11 +582,16 @@ def import_stds(
             gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(
 =======
             gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("Key words %(t)s, %(s)s or %(n)s not found in init file.")
                 % {"t": "temporal_type", "s": "semantic_type", "n": "number_of_maps"}
             )
@@ -563,11 +612,16 @@ def import_stds(
             gs.fatal(_("The archive file is of wrong space time dataset type"))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.fatal(_("The archive file is of wrong space time dataset type"))
 =======
             gs.fatal(_("The archive file is of wrong space time dataset type"))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.fatal(_("The archive file is of wrong space time dataset type"))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
         # Check the existence of the files
         if format_ == "GTiff":
@@ -578,11 +632,16 @@ def import_stds(
                     gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gscript.fatal(
 =======
                     gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                    gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                         _("Unable to find GeoTIFF raster file <%s> in archive.")
                         % filename
                     )
@@ -594,11 +653,16 @@ def import_stds(
                     gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gscript.fatal(
 =======
                     gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                    gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                         _("Unable to find AAIGrid raster file <%s> in archive.")
                         % filename
                     )
@@ -610,11 +674,16 @@ def import_stds(
                     gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gscript.fatal(
 =======
                     gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                    gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                         _("Unable to find GML vector file <%s> in archive.") % filename
                     )
         elif format_ == "pack":
@@ -628,11 +697,16 @@ def import_stds(
                     gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gscript.fatal(
 =======
                     gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                    gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                         _("Unable to find GRASS package file <%s> in archive.")
                         % filename
                     )

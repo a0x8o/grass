@@ -155,11 +155,16 @@ def main():
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gcore.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gcore.fatal(_("Input and aggregation dataset must have the same temporal type"))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     # Check if intervals are present
     if sampler_sp.temporal_extent.get_map_time() != "interval":

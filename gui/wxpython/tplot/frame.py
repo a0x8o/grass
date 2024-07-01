@@ -1187,7 +1187,11 @@ class TplotFrame(wx.Frame):
             if len(indices) >= 2:
                 dlg = wx.SingleChoiceDialog(
                     self,
+<<<<<<< HEAD
                     message=_("Please specify the space time dataset <%s>.") % dataset,
+=======
+                    message=_("Please specify the space time dataset <%s>." % dataset),
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     caption=_("Ambiguous dataset name"),
                     choices=[
                         (

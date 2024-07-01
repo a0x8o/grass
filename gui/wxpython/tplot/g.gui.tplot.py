@@ -157,6 +157,7 @@ def main():
             gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             gscript.warning(
                 _("With stvds you have to use 'coordinates' or 'cats' option")
             )
@@ -164,6 +165,12 @@ def main():
             gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gscript.warning(
+                _("With stvds you have to use 'coordinates' or 'cats' option")
+            )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
     title = None
     if options["title"]:
         title = options["title"]

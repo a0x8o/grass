@@ -437,11 +437,15 @@ class WorkspaceManager:
         except Exception as e:
             GError(
                 parent=self.lmgr,
+<<<<<<< HEAD
                 message=_(
                     "Writing current settings to workspace file <%s> failed.\n"
                     "Error details: %s"
                 )
                 % (tmpfile, str(e)),
+=======
+                message=_("Writing current settings to workspace file failed."),
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             )
             return False
 

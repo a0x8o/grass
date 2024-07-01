@@ -417,11 +417,16 @@ def set_up_columns(vector, layer, percentile, colprefix, basecols, dbfdriver, c)
                 gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     (_("Cannot create column <%s> (already present). ") % currcolumn)
                     + _("Use -c flag to update values in this column.")
                 )

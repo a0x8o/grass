@@ -92,6 +92,7 @@ def main():
         gs.message(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.message(_("Column <%s> would be deleted.") % column)
         gscript.message("")
         gscript.message(
@@ -101,6 +102,12 @@ def main():
         gs.message(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gscript.message(_("Column <%s> would be deleted.") % column)
+        gscript.message("")
+        gscript.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("You must use the force flag (-f) to actually remove it. Exiting.")
         )
         return 0

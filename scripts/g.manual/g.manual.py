@@ -96,6 +96,7 @@ def start_browser(entry):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
 =======
         _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
@@ -104,11 +105,19 @@ def start_browser(entry):
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
 >>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
+=======
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
 =======
         _("Starting browser '%(browser)s' for manual" " entry '%(entry)s'...")
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+<<<<<<< HEAD
 >>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+=======
+        _("Starting browser '%(browser)s' for manual entry '%(entry)s'...")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         % {"browser": browser_name, "entry": entry}
     )
 
@@ -119,6 +128,7 @@ def start_browser(entry):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
 =======
             _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
@@ -127,11 +137,19 @@ def start_browser(entry):
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
 >>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
+=======
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
 =======
             _("Error starting browser '%(browser)s' for HTML file" " '%(path)s'")
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+<<<<<<< HEAD
 >>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+=======
+            _("Error starting browser '%(browser)s' for HTML file '%(path)s'")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             % {"browser": browser, "path": path}
         )
 

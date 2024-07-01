@@ -57,11 +57,16 @@ def main():
         gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.fatal(
 =======
         gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gscript.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("Vector map <{name}> not found in the current mapset ({mapset})").format(
                 name=map, mapset=mapset
             )
@@ -95,11 +100,16 @@ def main():
     gs.message(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     gscript.message(
 =======
     gs.message(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    gscript.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         _("Removing table <%s> linked to layer <%s> of vector map <%s>")
         % (table, layer, map)
     )

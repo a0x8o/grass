@@ -1440,6 +1440,7 @@ def main(givenargs=None):
         dest="show_all_errors",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help="Display all warnings and errors even if they would not affect output.",
 =======
         help="Display all warnings and errors even " "if they would not affect output.",
@@ -1447,6 +1448,9 @@ def main(givenargs=None):
 =======
         help="Display all warnings and errors even " "if they would not affect output.",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        help="Display all warnings and errors even if they would not affect output.",
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
     )
     op.add_option(
         "",
@@ -1456,6 +1460,7 @@ def main(givenargs=None):
         dest="show_long_errors",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help="Display long error messages instead of abbreviating error messages.",
 =======
         help="Display long error messages " "instead of abbreviating error messages.",
@@ -1463,6 +1468,9 @@ def main(givenargs=None):
 =======
         help="Display long error messages " "instead of abbreviating error messages.",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        help="Display long error messages instead of abbreviating error messages.",
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
     )
     op.add_option(
         "",

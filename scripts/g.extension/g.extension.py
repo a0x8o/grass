@@ -9764,7 +9764,11 @@ def install_extension_std_platforms(name, source, url, branch):
     if not os.path.exists(os.path.join(gisbase, "include", "Make", "Module.make")):
         gs.fatal(_("Please install GRASS development package"))
 
+<<<<<<< HEAD
     if gs.call(make_cmd, stdout=outdev) != 0:
+=======
+    if 0 != gs.call(make_cmd, stdout=outdev):
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         gs.fatal(_("Compilation failed, sorry. Please check above error messages."))
 
     if flags["i"]:

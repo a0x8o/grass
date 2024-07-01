@@ -228,11 +228,16 @@ def main():
         gs.fatal(_("Old and new database connection is identical. Nothing to do."))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.fatal(_("Old and new database connection is identical. Nothing to do."))
 =======
         gs.fatal(_("Old and new database connection is identical. Nothing to do."))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gscript.fatal(_("Old and new database connection is identical. Nothing to do."))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     mapset = gs.gisenv()["MAPSET"]
 
@@ -251,11 +256,16 @@ def main():
         gs.message(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.message(
 =======
         gs.message(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gscript.message(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             _("%s\nReconnecting vector map <%s> (%d of %d)...\n%s")
             % ("-" * 80, vect, i, num_vectors, "-" * 80)
         )

@@ -451,7 +451,11 @@ class ColorTable(wx.Frame):
             dialogTitle=_("Choose file to load color table"),
             buttonText=_("Load"),
             toolTip=_("Type filename or click to choose file and load color table"),
+<<<<<<< HEAD
             startDirectory=str(Path.cwd()),
+=======
+            startDirectory=os.getcwd(),
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             fileMode=wx.FD_OPEN,
             changeCallback=self.OnLoadRulesFile,
         )

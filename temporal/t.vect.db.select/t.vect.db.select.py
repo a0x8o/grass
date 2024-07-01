@@ -118,11 +118,16 @@ def main():
                 gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Unable to run v.db.select for vector map <%s> with layer %s")
                     % (vector_name, layer)
                 )

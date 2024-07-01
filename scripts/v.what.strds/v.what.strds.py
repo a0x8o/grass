@@ -86,11 +86,16 @@ class Sample:
             gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             grass.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
 =======
             gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            grass.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         if self.granu:
             if self.granu.find("minute") != -1 or self.granu.find("second") != -1:
                 output += "_" + str(self.start).split(" ")[1].replace(":", "_")
@@ -274,11 +279,16 @@ def main():
                 gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Unable to add column %s to vector map <%s> ")
                     % (column_string, output)
                 )

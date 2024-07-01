@@ -5900,7 +5900,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 
         if spatial_relation == "overlaps":
             spatial_where_template = (
-                "(north > {s}" " AND south < {n}" " AND east > {w}" " AND west < {e}"
+                "(north > {s} AND south < {n} AND east > {w} AND west < {e}"
             )
         elif spatial_relation == "is_contained":
             spatial_where_template = (
@@ -5919,6 +5919,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 
         if self.get_type() == "str3ds":
             if spatial_relation == "overlaps":
+<<<<<<< HEAD
                 spatial_where_template += " AND top > {b}" " AND bottom < {t}"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5968,10 +5969,18 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 =======
 >>>>>>> b2351aab26 (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+                spatial_where_template += " AND top > {b} AND bottom < {t}"
+>>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             elif spatial_relation == "is_contained":
-                spatial_where_template += " AND top <= {t}" " AND bottom >= {b}"
+                spatial_where_template += " AND top <= {t} AND bottom >= {b}"
             elif spatial_relation == "contains":
+<<<<<<< HEAD
                 spatial_where_template += " AND top >= {t}" " AND bottom <= {b}"
 =======
 <<<<<<< HEAD
@@ -7316,8 +7325,18 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 5247cc90df (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+                spatial_where_template += " AND top >= {t} AND bottom <= {b}"
+>>>>>>> 28bbce8dd7 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         spatial_where_template += ")"
 
         spatial_where_list = [spatial_where_template.format(**spatial_extent)]

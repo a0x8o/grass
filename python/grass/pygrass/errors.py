@@ -22,7 +22,14 @@ def mapinfo_must_be_set(method):
     def wrapper(self, *args, **kargs):
         if self.c_mapinfo:
             return method(self, *args, **kargs)
+<<<<<<< HEAD
         raise GrassError(_("The self.c_mapinfo pointer must be correctly initiated"))
+=======
+        else:
+            raise GrassError(
+                _("The self.c_mapinfo pointer must be correctly initiated")
+            )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     return wrapper
 

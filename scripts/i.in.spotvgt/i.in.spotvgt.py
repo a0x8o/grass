@@ -141,7 +141,16 @@ def main():
         )
 =======
         gs.fatal(_("'gdalinfo' not found, install GDAL tools first (https://gdal.org)"))
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+    if not gscript.find_program("gdalinfo", "--help"):
+        gscript.fatal(
+            _("'gdalinfo' not found, install GDAL tools first (http://www.gdal.org)")
+        )
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     pid = str(os.getpid())
     tmpfile = gs.tempfile()

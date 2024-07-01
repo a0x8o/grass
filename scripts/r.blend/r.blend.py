@@ -130,6 +130,7 @@ def main():
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.message(_("Done. Use the following command to visualize the result:"))
         gscript.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 =======
@@ -137,6 +138,11 @@ def main():
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        gscript.message(_("Done. Use the following command to visualize the result:"))
+        gscript.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
 
 if __name__ == "__main__":

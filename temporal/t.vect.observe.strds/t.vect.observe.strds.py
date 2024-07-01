@@ -296,11 +296,16 @@ def main():
                 gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Unable to add column %s to vector map <%s> with layer %i")
                     % (columns_string, vectmap, count)
                 )
@@ -321,11 +326,16 @@ def main():
                 gs.fatal(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.fatal(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                     _("Unable to add table to vector map <%s> with layer %i")
                     % (vectmap, count)
                 )

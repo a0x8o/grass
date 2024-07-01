@@ -359,6 +359,7 @@ class UnsupportedExpressionNode(ExpressionNode):
     def evaluate(self, context):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
 =======
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
@@ -366,11 +367,15 @@ class UnsupportedExpressionNode(ExpressionNode):
 =======
         raise ValueError("Tried to evaluate an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        raise ValueError("Tried to evaluate an unsupported expression node: %s" % self.message)
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
     def __repr__(self):
         return "<UnsupportedExpressionNode>"
 
     def py_string(self, can_be_ctype):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
@@ -380,3 +385,6 @@ class UnsupportedExpressionNode(ExpressionNode):
 =======
         raise ValueError("Called py_string() an unsupported expression " "node: %s" % self.message)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        raise ValueError("Called py_string() an unsupported expression node: %s" % self.message)
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))

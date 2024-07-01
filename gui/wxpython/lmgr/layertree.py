@@ -9497,6 +9497,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 parent=self,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message=_("Unable to create profile of raster map."),
 =======
                 message=_("Unable to create profile of " "raster map."),
@@ -9504,6 +9505,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                 message=_("Unable to create profile of " "raster map."),
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+                message=_("Unable to create profile of raster map."),
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 caption=_("Error"),
                 style=wx.OK | wx.ICON_ERROR | wx.CENTRE,
             )
@@ -9632,6 +9636,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
                 message=_(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Unable to display histogram of raster map. No map name defined."
 =======
                     "Unable to display histogram of " "raster map. No map name defined."
@@ -9639,6 +9644,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                     "Unable to display histogram of " "raster map. No map name defined."
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+                    "Unable to display histogram of raster map. No map name defined."
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 ),
             )
             return
@@ -10726,6 +10734,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             GError(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _("Unable to start wxGUI vector digitizer.\nDetails: %s") % errorMsg,
 =======
                 _("Unable to start wxGUI vector digitizer.\n" "Details: %s") % errorMsg,
@@ -10733,6 +10742,9 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 =======
                 _("Unable to start wxGUI vector digitizer.\n" "Details: %s") % errorMsg,
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+=======
+                _("Unable to start wxGUI vector digitizer.\nDetails: %s") % errorMsg,
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 parent=self,
             )
             return

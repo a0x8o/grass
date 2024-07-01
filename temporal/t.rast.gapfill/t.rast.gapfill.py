@@ -162,10 +162,14 @@ def main():
             gs.warning(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             grass.fatal(_("Unable to determine successor and predecessor of a gap."))
 
         if len(_map.get_precedes()) > 1:
             grass.warning(
+<<<<<<< HEAD
 =======
             gs.fatal(_("Unable to determine successor and predecessor of a gap."))
 
@@ -173,6 +177,9 @@ def main():
             gs.warning(
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+>>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 _("More than one successor of the gap found. Using the first found.")
             )
 

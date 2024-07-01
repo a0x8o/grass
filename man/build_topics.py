@@ -33,6 +33,7 @@ def build_topics(ext):
 
     keywords = {}
 
+<<<<<<< HEAD
     files = glob.glob1(man_dir, f"*.{ext}")
     for fname in files:
         fil = open(os.path.join(man_dir, fname))
@@ -61,6 +62,15 @@ def build_topics(ext):
             desc = lines[index_desc].split("-", 1)[1].strip()
         except Exception:
             desc.strip()
+=======
+topicsfile = open(os.path.join(path, "topics.html"), "w")
+topicsfile.write(
+    header1_tmpl.substitute(
+        title="GRASS GIS %s Reference Manual: Topics index" % grass_version
+    )
+)
+topicsfile.write(headertopics_tmpl)
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
         if key not in keywords.keys():
             keywords[key] = {}

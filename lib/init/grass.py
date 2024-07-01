@@ -7392,7 +7392,7 @@ def lock_mapset(mapset_path, force_gislock_removal, user):
             )
     elif ret != 0:
         msg = (
-            _("Unable to properly access '%s'.\n" "Please notify system personnel.")
+            _("Unable to properly access '%s'.\nPlease notify system personnel.")
             % lockfile
         )
 
@@ -7564,6 +7564,7 @@ def run_batch_job(batch_job: list):
         proc = Popen(batch_job, shell=False, env=os.environ)
     except OSError as error:
 <<<<<<< HEAD
+<<<<<<< HEAD
         error_message = _("Execution of <{cmd}> failed:\n{error}").format(
 =======
         error_message = _("Execution of <{cmd}> failed:\n" "{error}").format(
@@ -7571,6 +7572,9 @@ def run_batch_job(batch_job: list):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        error_message = _("Execution of <{cmd}> failed:\n{error}").format(
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
             cmd=batch_job_string, error=error
         )
         # No such file or directory

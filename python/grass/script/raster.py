@@ -144,10 +144,14 @@ def mapcalc(
             overwrite=overwrite,
         )
     except CalledModuleError:
+<<<<<<< HEAD
         fatal(
             _("An error occurred while running r.mapcalc with expression: %s") % e,
             env=env,
         )
+=======
+        fatal(_("An error occurred while running r.mapcalc with expression: %s") % e)
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 
 
 def mapcalc_start(

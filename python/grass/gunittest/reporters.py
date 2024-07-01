@@ -3845,6 +3845,10 @@ class TestsuiteDirReporter:
         # absolute/relative paths
 
         page_name = os.path.join(root, self.main_page_name)
+<<<<<<< HEAD
+=======
+        page = open(page_name, "w")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         head = "<html><body><h1>Testsuites results</h1>"
         tests_table_head = (
             "<table>"

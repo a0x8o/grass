@@ -773,6 +773,7 @@ class GMFrame(wx.Frame):
                 self._gconsole.WriteError(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("There were some issues when loading menu or Tools tab:")
 =======
                     _("There were some issues when loading menu" " or Tools tab:")
@@ -780,6 +781,9 @@ class GMFrame(wx.Frame):
 =======
                     _("There were some issues when loading menu" " or Tools tab:")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    _("There were some issues when loading menu or Tools tab:")
+>>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
                 )
                 for message in messages:
                     self._gconsole.WriteError(message)
