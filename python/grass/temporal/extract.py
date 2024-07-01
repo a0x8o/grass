@@ -12,6 +12,9 @@ for details.
 import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
 from .core import (
     get_tgis_message_interface,
@@ -23,9 +26,13 @@ from .open_stds import open_old_stds, check_new_stds, open_new_stds
 from .datetime_math import create_suffix_from_datetime
 from .datetime_math import create_time_suffix
 from .datetime_math import create_numeric_suffix
+<<<<<<< HEAD
 >>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> ae6f1dcc8a (style: Fixes sys-exit-alias (PLR1722) (#3951))
+>>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 from multiprocessing import Process
 
 <<<<<<< HEAD
