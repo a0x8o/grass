@@ -26029,6 +26029,7 @@ def resolve_xmlurl_prefix(url, source=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -26209,12 +26210,16 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 >>>>>>> b95da67055 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 51904f65dd (style: Fixes literal-membership (PLR6201) for other code (#3954))
     if source in {"official", "official_fork"}:
 =======
 =======
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 0469a42985 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -26272,6 +26277,9 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if source in ("official", "official_fork"):
+=======
+    if source in {"official", "official_fork"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
         # use pregenerated modules XML file
         # Define branch to fetch from (latest or current version)
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
