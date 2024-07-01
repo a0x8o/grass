@@ -164,6 +164,7 @@ def reclass(inf, outf, lim, clump, diag, les):
     sflags = "aln"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 =======
 <<<<<<< HEAD
@@ -183,6 +184,12 @@ def reclass(inf, outf, lim, clump, diag, les):
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+=======
+    if grass.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         sflags += "i"
     p1 = gs.pipe_command("r.stats", flags=sflags, input=(clumpfile, infile), sep=";")
     p2 = gs.feed_command("r.reclass", input=clumpfile, output=recfile, rules="-")

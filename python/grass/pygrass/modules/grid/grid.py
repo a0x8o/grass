@@ -2034,10 +2034,13 @@ class GridModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         elif patch_backend not in {"r.patch", "RasterRow"}:
 =======
         elif patch_backend not in ("r.patch", "RasterRow"):
@@ -2050,6 +2053,7 @@ class GridModule:
 =======
         elif patch_backend not in {"r.patch", "RasterRow"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -2057,6 +2061,8 @@ class GridModule:
         elif patch_backend not in ("r.patch", "RasterRow"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             raise RuntimeError(
                 _("Parameter patch_backend must be 'r.patch' or 'RasterRow'")
             )

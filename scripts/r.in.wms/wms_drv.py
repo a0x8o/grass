@@ -897,6 +897,7 @@ class WMTSRequestMgr(BaseRequestMgr):
         if s.getcode() == "EPSG:4326" and s.encoding in {"uri", "urn"}:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.warning("switch")
 =======
 <<<<<<< HEAD
@@ -916,6 +917,12 @@ class WMTSRequestMgr(BaseRequestMgr):
             gs.warning("switch")
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            gs.warning("switch")
+=======
+            grass.warning("switch")
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             (tl_corner["minx"], tl_corner["maxy"]) = (
                 tl_corner["maxy"],
                 tl_corner["minx"],

@@ -202,10 +202,13 @@ class Map3D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
 =======
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
@@ -218,6 +221,7 @@ class Map3D:
 =======
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -225,6 +229,8 @@ class Map3D:
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             self._screen_backend = screen_backend
         else:
             raise ValueError(

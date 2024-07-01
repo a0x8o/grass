@@ -175,6 +175,7 @@ def main():
             if ctype not in {"INTEGER", "DOUBLE PRECISION"}:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 =======
 <<<<<<< HEAD
@@ -194,6 +195,12 @@ def main():
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+                gs.fatal(_("Column <%s> is not numeric") % cname)
+=======
+                gscript.fatal(_("Column <%s> is not numeric") % cname)
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
     if not found:
         gs.fatal(_("Column <%s> not found in table <%s>") % (column, table))
 
@@ -261,10 +268,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
@@ -367,10 +377,13 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))

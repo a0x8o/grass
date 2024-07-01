@@ -6180,6 +6180,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -6257,6 +6258,7 @@ def nprocs_plot(results, filename=None):
 >>>>>>> ca7763cb8e (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 <<<<<<< HEAD
 >>>>>>> 4b334d121f (libpython: Save and load benchmark results (#1711))
@@ -6294,6 +6296,15 @@ def nprocs_plot(results, filename=None):
     elif metric in ["speedup", "efficiency"]:
         plt.title(f"{metric.title()} by processing elements")
 =======
+=======
+>>>>>>> osgeo-main
+    elif metric in ["speedup", "efficiency"]:
+=======
+    elif metric in {"speedup", "efficiency"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
+        plt.title(f"{metric.title()} by processing elements")
+=======
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======

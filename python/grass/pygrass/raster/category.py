@@ -1038,6 +1038,9 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         if mtype.upper() not in {"CELL", "FCELL", "DCELL"}:
             raise ValueError(_("Raster type: {0} not supported").format(mtype))
 =======
@@ -1047,6 +1050,7 @@ class Category(list):
 =======
         if mtype.upper() not in {"CELL", "FCELL", "DCELL"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8ba79adaf7 (Dockerfile: fix broken lib link (#1625))
@@ -1057,6 +1061,8 @@ class Category(list):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         if mtype.upper() not in ("CELL", "FCELL", "DCELL"):
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             raise ValueError(_("Raster type: {0} not supported".format(mtype)))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         self._mtype = mtype
