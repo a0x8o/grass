@@ -10,10 +10,8 @@ for details.
 :authors: Soeren Gebbert
 """
 
-from grass.exceptions import FatalError
-import sys
-from multiprocessing import Process, Lock, Pipe
 import logging
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,18 +122,25 @@ from ctypes import byref, cast, c_int, c_void_p, CFUNCTYPE, POINTER
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+import sys
+from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from datetime import datetime
+from multiprocessing import Lock, Pipe, Process
+
+import grass.lib.date as libdate
 import grass.lib.gis as libgis
 import grass.lib.raster as libraster
-import grass.lib.vector as libvector
-import grass.lib.date as libdate
 import grass.lib.raster3d as libraster3d
 import grass.lib.temporal as libtgis
-from grass.pygrass.rpc.base import RPCServerBase
+import grass.lib.vector as libvector
+from grass.exceptions import FatalError
 from grass.pygrass.raster import RasterRow
+from grass.pygrass.rpc.base import RPCServerBase
+from grass.pygrass.utils import decode
 from grass.pygrass.vector import VectorTopo
 from grass.script.utils import encode
-from grass.pygrass.utils import decode
 
 ###############################################################################
 
