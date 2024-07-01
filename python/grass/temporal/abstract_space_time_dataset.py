@@ -5741,7 +5741,7 @@ class AbstractSpaceTimeDataset(AbstractDataset):
 
         if not spatial_relation:
             spatial_relation = "overlaps"
-        elif spatial_relation not in ["overlaps", "is_contained", "contains"]:
+        elif spatial_relation not in {"overlaps", "is_contained", "contains"}:
             self.msgr.error(
                 _(
                     "Invalid spatial relation <{}> requested."

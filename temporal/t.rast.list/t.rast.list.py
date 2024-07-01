@@ -1079,11 +1079,15 @@ def main():
             # except for setting it to an empty string which does not have a precedence
             # in the current code and the behavior is unclear.
             separator = ","
+<<<<<<< HEAD
     if output_format in ["json", "yaml"] and header:
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if output_format in {"json", "yaml"} and header:
+>>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
         gs.fatal(
             message_option_value_excludes_flag(
                 option_name="format",
@@ -1103,6 +1107,7 @@ def main():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if method in {"delta", "deltagaps", "gran"}:
 =======
     if method in ["delta", "deltagaps", "gran"]:
@@ -1110,6 +1115,9 @@ def main():
 =======
     if method in ["delta", "deltagaps", "gran"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if method in {"delta", "deltagaps", "gran"}:
+>>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
         if order:
             gs.fatal(
                 message_option_value_excludes_option(

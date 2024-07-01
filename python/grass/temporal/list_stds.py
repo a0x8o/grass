@@ -1277,6 +1277,7 @@ def _get_list_of_maps_stds(
     # This method expects a list of objects for gap detection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if method in {"delta", "deltagaps", "gran"}:
 =======
     if method in ["delta", "deltagaps", "gran"]:
@@ -1284,6 +1285,9 @@ def _get_list_of_maps_stds(
 =======
     if method in ["delta", "deltagaps", "gran"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if method in {"delta", "deltagaps", "gran"}:
+>>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
         if not columns:
             if output_format == "list":
                 # Only one column is needed.
@@ -1351,6 +1355,7 @@ def _get_list_of_maps_stds(
         # empty result whatever empty is for each format (e.g., empty list for JSON).
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not rows and (output_format in {"plain", "line"}):
 =======
         if not rows and (output_format in ["plain", "line"]):
@@ -1358,6 +1363,9 @@ def _get_list_of_maps_stds(
 =======
         if not rows and (output_format in ["plain", "line"]):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if not rows and (output_format in {"plain", "line"}):
+>>>>>>> 096ee14e51 (style(temporal): Fixes literal-membership (PLR6201) (#3953))
             dbif.close()
             gs.fatal(
                 _(
