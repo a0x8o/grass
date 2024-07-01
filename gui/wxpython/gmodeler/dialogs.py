@@ -291,7 +291,15 @@ class ModelSearchDialog(wx.Dialog):
 
     def _getCmd(self):
         line = self.cmd_prompt.GetCurLine()[0].strip()
+<<<<<<< HEAD
         return [] if len(line) == 0 else utils.split(str(line))
+=======
+        if len(line) == 0:
+            cmd = []
+        else:
+            cmd = utils.split(str(line))
+        return cmd
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
 
     def GetCmd(self):
         """Get command"""
@@ -809,7 +817,11 @@ class VariableListCtrl(ModelListCtrl):
 
     def Populate(self, data):
         """Populate the list"""
+<<<<<<< HEAD
         self.DeleteAllItems()
+=======
+        self.itemDataMap = {}
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         i = 0
         for name, values in data.items():
             self.itemDataMap[i] = [

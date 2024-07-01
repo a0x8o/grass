@@ -4335,7 +4335,11 @@ def list_available_extensions(url):
 def get_available_toolboxes(url):
     """Return toolboxes available in the repository"""
     tdict = {}
+<<<<<<< HEAD
     url += "toolboxes.xml"
+=======
+    url = url + "toolboxes.xml"
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
     try:
         tree = etree_fromurl(url)
         for tnode in tree.findall("toolbox"):

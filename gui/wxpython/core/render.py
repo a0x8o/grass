@@ -660,6 +660,11 @@ class RenderMapMgr(wx.EvtHandler):
 
         Make image composiotion, emits updateMap event.
         """
+<<<<<<< HEAD
+=======
+        stopTime = time.time()
+
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         maps = []
         masks = []
         opacities = []

@@ -1687,6 +1687,7 @@ class FormatSelect(wx.Choice):
         ftype = "ogr" if ogr else "gdal"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         formats = []
 =======
         formats = list()
@@ -1694,6 +1695,9 @@ class FormatSelect(wx.Choice):
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        formats = []
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         for f in GetFormats()[ftype][srcType].items():
             formats += f
         self.SetItems(formats)

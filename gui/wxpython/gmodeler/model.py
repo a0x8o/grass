@@ -2250,7 +2250,11 @@ class ProcessModelFile:
             pos, size = self._getDim(node)
             text = self._filterValue(self._getNodeText(node, "condition")).strip()
             aid = {"if": [], "else": []}
+<<<<<<< HEAD
             for b in aid.keys():  # noqa: PLC0206
+=======
+            for b in aid.keys():
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                 bnode = node.find(b)
                 if bnode is None:
                     continue

@@ -2280,12 +2280,16 @@ class CmdPanel(wx.Panel):
                         def OnCheckItem(index=None, flag=None, event=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             layers = []
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
                             layers = list()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+                            layers = []
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                             geometry = None
                             for layer, match, listId in self.win1.GetLayers():
                                 if "|" in layer:

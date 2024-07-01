@@ -365,9 +365,13 @@ class DisplayDriver:
                 pdc.DrawPolygon(points)
             else:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pdc.DrawLines(points)
 =======
                 points = list()
+=======
+                points = []
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                 for i in range(robj.npoints):
                     p = robj.point[i]
                     points.append(wx.Point(p.x, p.y))

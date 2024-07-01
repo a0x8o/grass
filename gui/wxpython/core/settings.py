@@ -1869,6 +1869,7 @@ class Settings:
             if subkey is None:
                 if key is None:
                     return settings[group]
+<<<<<<< HEAD
 
                 return settings[group][key]
 
@@ -1876,6 +1877,15 @@ class Settings:
                 return settings[group][key][subkey[0]][subkey[1]]
 
             return settings[group][key][subkey]
+=======
+                else:
+                    return settings[group][key]
+            else:
+                if isinstance(subkey, tuple) or isinstance(subkey, list):
+                    return settings[group][key][subkey[0]][subkey[1]]
+                else:
+                    return settings[group][key][subkey]
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
 
         except KeyError:
             print(
@@ -1906,6 +1916,7 @@ class Settings:
             if subkey is None:
                 if key is None:
                     settings[group] = value
+<<<<<<< HEAD
                     return
                 settings[group][key] = value
                 return
@@ -1916,6 +1927,15 @@ class Settings:
             settings[group][key][subkey] = value
             return
 
+=======
+                else:
+                    settings[group][key] = value
+            else:
+                if isinstance(subkey, tuple) or isinstance(subkey, list):
+                    settings[group][key][subkey[0]][subkey[1]] = value
+                else:
+                    settings[group][key][subkey] = value
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         except KeyError:
             raise GException(
                 "%s '%s:%s:%s'" % (_("Unable to set "), group, key, subkey)

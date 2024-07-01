@@ -421,7 +421,14 @@ def vector_columns(map, layer=None, getDict=True, env=None, **kwargs):
     s = read_command(
         "v.info", flags="c", map=map, layer=layer, quiet=True, env=env, **kwargs
     )
+<<<<<<< HEAD
     result = {} if getDict else []
+=======
+    if getDict:
+        result = {}
+    else:
+        result = []
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
     i = 0
     for line in s.splitlines():
         ctype, cname = line.split("|")

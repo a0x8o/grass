@@ -34,6 +34,7 @@ class SemanticLabelReader:
         """Read configuration"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.config = {}
 =======
         self.config = dict()
@@ -41,6 +42,9 @@ class SemanticLabelReader:
 =======
         self.config = dict()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.config = {}
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         for json_file in self._json_files:
             try:
                 with open(json_file) as fd:

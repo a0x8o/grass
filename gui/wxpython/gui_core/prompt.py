@@ -1890,6 +1890,10 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
         # complete command after pressing '.'
         if event.GetKeyCode() == 46:
             self.autoCompList = []
+<<<<<<< HEAD
+=======
+            entry = self.GetTextLeft()
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
             self.InsertText(pos, ".")
             self.CharRight()
             self.toComplete = self.EntityToComplete()
@@ -1916,6 +1920,10 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
             or event.GetKeyCode() == wx.WXK_SUBTRACT
         ):
             self.autoCompList = []
+<<<<<<< HEAD
+=======
+            entry = self.GetTextLeft()
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
             self.InsertText(pos, "-")
             self.CharRight()
             self.toComplete = self.EntityToComplete()

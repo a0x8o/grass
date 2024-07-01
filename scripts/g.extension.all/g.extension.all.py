@@ -614,11 +614,16 @@ def get_extensions():
     libgis_rev = gs.version()["libgis_revision"]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     libgis_rev = gscript.version()["libgis_revision"]
 =======
     libgis_rev = gs.version()["libgis_revision"]
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    libgis_rev = gscript.version()["libgis_revision"]
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+>>>>>>> 324f3cf051 (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")

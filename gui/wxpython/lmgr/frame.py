@@ -11552,11 +11552,20 @@ class GMFrame(wx.Frame):
         if onlyCurrent:
             if self.currentPage:
                 return self.GetLayerTree().GetMapDisplay()
+<<<<<<< HEAD
             return None
         # -> return list of all mapdisplays
         mlist = []
         for idx in range(self.notebookLayers.GetPageCount()):
             mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
+=======
+            else:
+                return None
+        else:  # -> return list of all mapdisplays
+            mlist = []
+            for idx in range(0, self.notebookLayers.GetPageCount()):
+                mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
 
         return mlist
 
