@@ -381,6 +381,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             reference=dict(min=min_value, max=max_value),
 =======
 <<<<<<< HEAD
@@ -432,6 +433,9 @@ class MinMaxTestCase(TestCase):
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+            reference={"min": -3.20423, "max": 5.68621},
+>>>>>>> 837b7967f5 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
@@ -517,7 +521,7 @@ class MinMaxTestCase(TestCase):
         )
         self.assertRasterFitsInfo(
             raster=self.output,
-            reference=dict(min=min_value, max=max_value),
+            reference={"min": min_value, "max": max_value},
             precision=precision,
             msg="Output min and max too far from parameters",
         )
