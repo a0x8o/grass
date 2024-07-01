@@ -1158,6 +1158,7 @@ def benchmark_single(module, label, repeat=5):
     avg = time_sum / repeat
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     min_avg = min(avg, min_avg)
 =======
     if avg < min_avg:
@@ -1167,6 +1168,9 @@ def benchmark_single(module, label, repeat=5):
     if avg < min_avg:
         min_avg = avg
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    min_avg = min(avg, min_avg)
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
     print(f"\nResult - {avg}s")
 
     print("\u2500" * term_size.columns)

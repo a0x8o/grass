@@ -1854,7 +1854,11 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
             if event.GetKeyCode() == wx.WXK_UP:
                 self.cmdindex -= 1
             if event.GetKeyCode() == wx.WXK_DOWN:
+<<<<<<< HEAD
                 self.cmdindex += 1
+=======
+                self.cmdindex = self.cmdindex + 1
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
             self.cmdindex = max(self.cmdindex, 0)
             self.cmdindex = min(self.cmdindex, len(self.cmdbuffer) - 1)
 

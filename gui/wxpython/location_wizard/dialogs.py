@@ -702,9 +702,15 @@ class SelectTransformDialog(wx.Dialog):
             height += h
             width = max(width, w)
 
+<<<<<<< HEAD
         height += 5
         height = min(height, 400)
         width += 5
+=======
+        height = height + 5
+        height = min(height, 400)
+        width = width + 5
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
         width = min(width, 400)
 
         #

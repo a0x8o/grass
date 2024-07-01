@@ -116,10 +116,14 @@ class RegionManagerForInteractiveMap:
         east = float(bbox["ll_e"])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
         self._bbox[0][0] = min(self._bbox[0][0], south)
         self._bbox[0][1] = min(self._bbox[0][1], west)
         self._bbox[1][0] = max(self._bbox[1][0], north)
         self._bbox[1][1] = max(self._bbox[1][1], east)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -135,6 +139,8 @@ class RegionManagerForInteractiveMap:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
 
 
 class RegionManagerFor2D:
