@@ -1337,7 +1337,7 @@ class MapPanel(SingleMapPanel):
             self.toolbars["map"].combo.SetValue(_("2D view"))
 
             GError(
-                _("Unable to start wxGUI vector digitizer.\n" "Details: %s") % errorMsg,
+                _("Unable to start wxGUI vector digitizer.\nDetails: %s") % errorMsg,
                 parent=self,
             )
             return
@@ -1856,7 +1856,7 @@ class MapPanel(SingleMapPanel):
         dlg = wx.FileDialog(
             parent=self,
             message=_(
-                "Choose a file name to save the image " "(no need to add extension)"
+                "Choose a file name to save the image (no need to add extension)"
             ),
             wildcard=filetype,
             style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT,
@@ -2254,7 +2254,7 @@ class MapPanel(SingleMapPanel):
                     for name in vect:
                         if lmap == name:
                             self._giface.WriteWarning(
-                                _("Vector map <%s> " "opened for editing - skipped.")
+                                _("Vector map <%s> opened for editing - skipped.")
                                 % lmap
                             )
                             vect.remove(name)
