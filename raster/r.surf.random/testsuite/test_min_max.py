@@ -6684,6 +6684,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             reference=dict(min=min_value, max=max_value),
@@ -6903,10 +6904,14 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             reference={"min": -3.20423, "max": 5.68621},
 =======
 =======
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 04de8c7cca (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7748,7 +7753,9 @@ class MinMaxTestCase(TestCase):
 =======
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8009,6 +8016,14 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 4f3a440e32 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> fc8552968d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+            reference={"min": -3.20423, "max": 5.68621},
+>>>>>>> 837b7967f5 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             precision=precision,
             msg="Output min and max too far from parameters",
         )
@@ -9340,10 +9355,13 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             reference={"min": min_value, "max": max_value},
 =======
             reference=dict(min=min_value, max=max_value),
@@ -9356,6 +9374,7 @@ class MinMaxTestCase(TestCase):
 =======
             reference={"min": min_value, "max": max_value},
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -9363,6 +9382,8 @@ class MinMaxTestCase(TestCase):
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             precision=precision,
             msg="Output min and max too far from parameters",
         )

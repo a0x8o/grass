@@ -1997,12 +1997,17 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             {
                 "module": Module(
                     "r.univar", map="elevation", stdout_=DEVNULL, run_=False
@@ -2049,6 +2054,7 @@ class TestBenchmarksRun(TestCase):
                 "label": "Standard output",
             },
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+<<<<<<< HEAD
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
@@ -2057,6 +2063,8 @@ class TestBenchmarksRun(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         ]
         resolutions = [300, 200, 100]
         results = []
@@ -3215,12 +3223,17 @@ class TestBenchmarksRun(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 =======
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
             {
                 "module": Module(
                     "r.univar", map="elevation", stdout_=DEVNULL, run_=False
@@ -3229,6 +3242,9 @@ class TestBenchmarksRun(TestCase):
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3250,6 +3266,7 @@ class TestBenchmarksRun(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b120cf7523 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
+<<<<<<< HEAD
 =======
 >>>>>>> ba3c0640fa (libpython: Support benchmarks of non-parallel runs better (#1733))
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
@@ -3258,6 +3275,8 @@ class TestBenchmarksRun(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 78d8f1ae80 (style: Fixes unnecessary-collection-call (C408) for testsuite (#3947))
         ]
         results = []
         for benchmark in benchmarks:
@@ -5088,11 +5107,13 @@ class TestBenchmarksRun(TestCase):
         label = "Standard output"
         repeat = 4
         benchmarks = [
-            dict(
-                module=Module("r.univar", map="elevation", stdout_=DEVNULL, run_=False),
-                label=label,
-                max_nprocs=4,
-            )
+            {
+                "module": Module(
+                    "r.univar", map="elevation", stdout_=DEVNULL, run_=False
+                ),
+                "label": label,
+                "max_nprocs": 4,
+            }
         ]
         results = []
         for benchmark in benchmarks:
