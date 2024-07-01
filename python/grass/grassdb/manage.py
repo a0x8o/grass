@@ -110,6 +110,7 @@ def split_mapset_path(mapset_path):
     if len(mapset_path.parts) < 3:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise ValueError(
 =======
         ValueError(
@@ -117,6 +118,9 @@ def split_mapset_path(mapset_path):
 =======
         ValueError(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        raise ValueError(
+>>>>>>> 35bde2fb46 (style: Fixes useless-exception-statement (PLW0133) (#3957))
             _("Mapset path '{}' needs at least three components").format(mapset_path)
         )
     mapset = mapset_path.name

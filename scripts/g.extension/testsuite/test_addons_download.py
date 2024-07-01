@@ -1268,11 +1268,15 @@ class TestModuleDownloadFromDifferentSources(TestCase):
         if self.install_prefix.exists():
             files = list(path.name for path in self.install_prefix.iterdir())
             if files:
+<<<<<<< HEAD
                 RuntimeError(
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                raise RuntimeError(
+>>>>>>> 35bde2fb46 (style: Fixes useless-exception-statement (PLW0133) (#3957))
                     f"Install prefix path '{self.install_prefix}' \
                     contains files {','.join(files)}"
                 )
