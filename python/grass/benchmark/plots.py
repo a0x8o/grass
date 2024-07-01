@@ -2513,6 +2513,12 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0469a42985 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2674,6 +2680,9 @@ def nprocs_plot(results, filename=None):
 >>>>>>> osgeo-main
 =======
     elif metric in ["speedup", "efficiency"]:
+=======
+    elif metric in {"speedup", "efficiency"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
         plt.title(f"{metric.title()} by processing elements")
 >>>>>>> c55184d3f6 (grass.benchmark: Compute speedup and enable plotting speedup/efficiency (#3835))
 <<<<<<< HEAD
