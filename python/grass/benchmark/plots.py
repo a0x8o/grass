@@ -1107,6 +1107,7 @@ def nprocs_plot(results, filename=None):
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
             ylabel = "Time [s]"
         elif metric in {"speedup", "efficiency"}:
+<<<<<<< HEAD
             ylabel = metric.title()
             plt.plot(x, getattr(result, metric), label=result.label)
         else:
@@ -2076,6 +2077,8 @@ def nprocs_plot(results, filename=None):
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
             ylabel = "Time [s]"
         elif metric in ["speedup", "efficiency"]:
+=======
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             ylabel = metric.title()
             plt.plot(x, getattr(result, metric), label=result.label)
         else:
@@ -2289,6 +2292,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2316,7 +2320,17 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> osgeo-main
+    elif metric in ["speedup", "efficiency"]:
+=======
+    elif metric in {"speedup", "efficiency"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
+        plt.title(f"{metric.title()} by processing elements")
+=======
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 =======

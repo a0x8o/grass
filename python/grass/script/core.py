@@ -4223,8 +4223,13 @@ def region_env(region3d=False, flags=None, env=None, **kwargs):
     )
     with open(windfile) as fd:
         grass_region = ""
+<<<<<<< HEAD
         for line in fd:
             key, value = (x.strip() for x in line.split(":", 1))
+=======
+        for line in fd.readlines():
+            key, value = map(lambda x: x.strip(), line.split(":", 1))
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             if kwargs and key not in {"proj", "zone"}:
                 continue
             if (

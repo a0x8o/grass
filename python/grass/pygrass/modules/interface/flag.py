@@ -30,6 +30,7 @@ class Flag:
         self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.special = (
             True if self.name in {"verbose", "overwrite", "quiet", "run"} else False
         )
@@ -37,6 +38,12 @@ class Flag:
         self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        self.special = (
+            True if self.name in {"verbose", "overwrite", "quiet", "run"} else False
+        )
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         self.description = diz.get("description", None)
         self.default = diz.get("default", None)
         self.guisection = diz.get("guisection", None)

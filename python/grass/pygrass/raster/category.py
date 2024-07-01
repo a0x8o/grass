@@ -407,12 +407,16 @@ class Category(list):
     def _set_mtype(self, mtype):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if mtype.upper() not in {"CELL", "FCELL", "DCELL"}:
             raise ValueError(_("Raster type: {0} not supported").format(mtype))
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
         if mtype.upper() not in ("CELL", "FCELL", "DCELL"):
+=======
+        if mtype.upper() not in {"CELL", "FCELL", "DCELL"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             raise ValueError(_("Raster type: {0} not supported".format(mtype)))
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         self._mtype = mtype

@@ -1075,6 +1075,7 @@ class GridModule:
             self.patch_backend = "RasterRow"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif patch_backend not in {"r.patch", "RasterRow"}:
 =======
         elif patch_backend not in ("r.patch", "RasterRow"):
@@ -1082,6 +1083,9 @@ class GridModule:
 =======
         elif patch_backend not in ("r.patch", "RasterRow"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        elif patch_backend not in {"r.patch", "RasterRow"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             raise RuntimeError(
                 _("Parameter patch_backend must be 'r.patch' or 'RasterRow'")
             )

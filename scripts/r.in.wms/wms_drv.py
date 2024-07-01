@@ -808,7 +808,11 @@ class WMTSRequestMgr(BaseRequestMgr):
                     mat_num_bbox[i[0]] = int(i_tag.text)
 
                     if i[0] in {"max_row", "max_col"}:
+<<<<<<< HEAD
                         mat_num_bbox[i[0]] -= 1
+=======
+                        mat_num_bbox[i[0]] = mat_num_bbox[i[0]] - 1
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 
                 break
         return mat_num_bbox
@@ -837,11 +841,16 @@ class WMTSRequestMgr(BaseRequestMgr):
             gs.warning("switch")
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             grass.warning("switch")
 =======
             gs.warning("switch")
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            grass.warning("switch")
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             (tl_corner["minx"], tl_corner["maxy"]) = (
                 tl_corner["maxy"],
                 tl_corner["minx"],

@@ -8816,7 +8816,11 @@ def download_source_code(
             )
         )
         download_source_code_svn(url, name, outdev, directory)
+<<<<<<< HEAD
     elif source == "remote_zip":
+=======
+    elif source in {"remote_zip"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         gs.message(
             _("Fetching <{name}> from <{url}> (be patient)...").format(
                 name=name, url=url
@@ -10932,6 +10936,7 @@ def resolve_xmlurl_prefix(url, source=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -11022,8 +11027,12 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> 268b04129d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a55c458ec3 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
     if source in {"official", "official_fork"}:
 =======
+=======
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -11050,6 +11059,9 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
     if source in ("official", "official_fork"):
+=======
+    if source in {"official", "official_fork"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
         # use pregenerated modules XML file
         # Define branch to fetch from (latest or current version)
 <<<<<<< HEAD

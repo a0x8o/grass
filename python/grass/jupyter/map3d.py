@@ -157,6 +157,7 @@ class Map3D:
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif screen_backend in {"simple", "pyvirtualdisplay"}:
 =======
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
@@ -164,6 +165,9 @@ class Map3D:
 =======
         elif screen_backend in ["simple", "pyvirtualdisplay"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        elif screen_backend in {"simple", "pyvirtualdisplay"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             self._screen_backend = screen_backend
         else:
             raise ValueError(

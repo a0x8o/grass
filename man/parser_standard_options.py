@@ -523,7 +523,11 @@ if __name__ == "__main__":
 
     options = OptTable(parse_options(cfile.readlines(), startswith=args.startswith))
     outform = args.format
+<<<<<<< HEAD
     if outform in ("csv", "html", "markdown"):
+=======
+    if outform in {"csv", "html"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
         print(getattr(options, outform)(), file=args.output)
         args.output.close()
     else:

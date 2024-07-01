@@ -97,11 +97,16 @@ except ImportError:
                 gs.parser()
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 grass.parser()
 =======
                 gs.parser()
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                grass.parser()
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
     # Either we didn't call g.parser, or it returned
     # At this point, there's nothing to be done except re-raise the exception
     raise

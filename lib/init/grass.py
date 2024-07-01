@@ -7997,6 +7997,7 @@ def print_params(params):
             sys.stdout.write("%s\n" % GISBASE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif arg in {"python_path", "python-path"}:
 =======
         elif arg in ["python_path", "python-path"]:
@@ -8004,6 +8005,9 @@ def print_params(params):
 =======
         elif arg in ["python_path", "python-path"]:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        elif arg in {"python_path", "python-path"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             sys.stdout.write("%s\n" % gpath("etc", "python"))
         elif arg == "arch":
             val = grep("ARCH", linesplat)
@@ -8564,7 +8568,11 @@ def main():
                 )
             if sh in {"csh", "tcsh"}:
                 shell_process = csh_startup(mapset_settings.full_mapset, grass_env_file)
+<<<<<<< HEAD
             elif sh == "zsh":
+=======
+            elif sh in {"zsh"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
                 shell_process = sh_like_startup(
                     mapset_settings.full_mapset,
                     mapset_settings.location,

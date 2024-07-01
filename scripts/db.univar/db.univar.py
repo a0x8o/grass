@@ -152,11 +152,16 @@ def main():
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gscript.fatal(_("Column <%s> is not numeric") % cname)
 =======
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                gscript.fatal(_("Column <%s> is not numeric") % cname)
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+>>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
     if not found:
         gs.fatal(_("Column <%s> not found in table <%s>") % (column, table))
 
@@ -201,6 +206,7 @@ def main():
     if tmpf.read(1) == "":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
@@ -214,6 +220,9 @@ def main():
 >>>>>>> main
 =======
         if output_format in ["plain", "shell"]:
+=======
+        if output_format in {"plain", "shell"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             gscript.fatal(_("Table <%s> contains no data.") % table)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -261,6 +270,7 @@ def main():
     if N <= 0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))
@@ -274,6 +284,9 @@ def main():
 >>>>>>> main
 =======
         if output_format in ["plain", "shell"]:
+=======
+        if output_format in {"plain", "shell"}:
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
             gscript.fatal(_("No non-null values found"))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD

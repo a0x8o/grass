@@ -1215,10 +1215,82 @@ header_graphical_index_tmpl = """\
 <body style="width: 99%">
 <div id="container">
 
+<<<<<<< HEAD
 <a href="index.html"><img src="grass_logo.png" alt="GRASS logo"></a>
 <hr class="header">
 <h2>Graphical index of GRASS GIS modules</h2>
 """
+=======
+
+def try_mkdir(path):
+    try:
+        os.mkdir(path)
+    except OSError:
+        pass
+
+
+def replace_file(name):
+    temp = name + ".tmp"
+    if (
+        os.path.exists(name)
+        and os.path.exists(temp)
+        and read_file(name) == read_file(temp)
+    ):
+        os.remove(temp)
+    else:
+        try:
+            os.remove(name)
+        except OSError:
+            pass
+        os.rename(temp, name)
+
+
+def copy_file(src, dst):
+    write_file(dst, read_file(src))
+
+
+def html_files(cls=None, ignore_gui=True):
+    for cmd in sorted(os.listdir(html_dir)):
+        if (
+            cmd.endswith(".html")
+            and (cls in {None, "*"} or cmd.startswith(cls + "."))
+            and (cls != "*" or len(cmd.split(".")) >= 3)
+            and cmd not in {"full_index.html", "index.html"}
+            and cmd not in exclude_mods
+            and (ignore_gui and not cmd.startswith("wxGUI.") or not ignore_gui)
+        ):
+            yield cmd
+
+
+def write_html_header(f, title, ismain=False, body_width="99%"):
+    f.write(header1_tmpl.substitute(title=title))
+    if ismain and macosx:
+        f.write(
+            macosx_tmpl.substitute(grass_version=grass_version, grass_mmver=grass_mmver)
+        )
+    f.write(header2_tmpl.substitute(grass_version=grass_version, body_width=body_width))
+
+
+def write_html_cmd_overview(f):
+    f.write(
+        overview_tmpl.substitute(
+            grass_version_major=grass_version_major,
+            grass_version_minor=grass_version_minor,
+        )
+    )
+
+
+def write_html_footer(f, index_url, year=None):
+    if year is None:
+        cur_year = default_year
+    else:
+        cur_year = year
+    f.write(
+        footer_tmpl.substitute(
+            grass_version=grass_version, index_url=index_url, year=cur_year
+        )
+    )
+>>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 
 
 def get_desc(cmd):
