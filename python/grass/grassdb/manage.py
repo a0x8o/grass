@@ -113,10 +113,13 @@ def split_mapset_path(mapset_path):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b19a44ea89 (style: Fixes useless-exception-statement (PLW0133) (#3957))
         raise ValueError(
 =======
         ValueError(
@@ -129,6 +132,7 @@ def split_mapset_path(mapset_path):
 =======
         raise ValueError(
 >>>>>>> 35bde2fb46 (style: Fixes useless-exception-statement (PLW0133) (#3957))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -136,6 +140,8 @@ def split_mapset_path(mapset_path):
         ValueError(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b19a44ea89 (style: Fixes useless-exception-statement (PLW0133) (#3957))
             _("Mapset path '{}' needs at least three components").format(mapset_path)
         )
     mapset = mapset_path.name

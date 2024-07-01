@@ -3603,6 +3603,9 @@ class TestModuleDownloadFromDifferentSources(TestCase):
             if files:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19a44ea89 (style: Fixes useless-exception-statement (PLW0133) (#3957))
                 RuntimeError(
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3611,6 +3614,7 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 =======
                 raise RuntimeError(
 >>>>>>> 35bde2fb46 (style: Fixes useless-exception-statement (PLW0133) (#3957))
+<<<<<<< HEAD
 =======
                 RuntimeError(
 <<<<<<< HEAD
@@ -3621,6 +3625,8 @@ class TestModuleDownloadFromDifferentSources(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b19a44ea89 (style: Fixes useless-exception-statement (PLW0133) (#3957))
                     f"Install prefix path '{self.install_prefix}' \
                     contains files {','.join(files)}"
                 )
