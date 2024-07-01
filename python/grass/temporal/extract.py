@@ -18,6 +18,7 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
@@ -35,6 +36,10 @@ import sys
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
 =======
+=======
+>>>>>>> 438975b3ac (style: Fixes sys-exit-alias (PLR1722) (#3951))
+>>>>>>> ae937acfff (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
 from .core import (
     get_tgis_message_interface,
     get_current_mapset,
@@ -48,12 +53,15 @@ from .datetime_math import create_numeric_suffix
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
 =======
 >>>>>>> ac63e797ff (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
+>>>>>>> ae937acfff (style: Fixes sys-exit-alias (PLR1722) (#3951))
 >>>>>>> ae6f1dcc8a (style: Fixes sys-exit-alias (PLR1722) (#3951))
 >>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
@@ -64,6 +72,7 @@ from multiprocessing import Process
 <<<<<<< HEAD
 import grass.script as gs
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +109,11 @@ import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+=======
+>>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
+>>>>>>> 438975b3ac (style: Fixes sys-exit-alias (PLR1722) (#3951))
+>>>>>>> ae937acfff (style: Fixes sys-exit-alias (PLR1722) (#3951))
 from multiprocessing import Process
 
 import grass.script as gscript
