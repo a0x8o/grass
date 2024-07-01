@@ -16,6 +16,7 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
@@ -29,6 +30,8 @@ import sys
 =======
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
 =======
+>>>>>>> 66dd6d1baa (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
 from .core import (
     get_tgis_message_interface,
     get_current_mapset,
@@ -41,6 +44,7 @@ from .datetime_math import create_time_suffix
 from .datetime_math import create_numeric_suffix
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
@@ -49,6 +53,9 @@ from .datetime_math import create_numeric_suffix
 >>>>>>> ac63e797ff (style: Fixes sys-exit-alias (PLR1722) (#3951))
 >>>>>>> ae6f1dcc8a (style: Fixes sys-exit-alias (PLR1722) (#3951))
 >>>>>>> a3ec624622 (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
+>>>>>>> ae6f1dcc8a (style: Fixes sys-exit-alias (PLR1722) (#3951))
+>>>>>>> 66dd6d1baa (style: Fixes sys-exit-alias (PLR1722) (#3951))
 from multiprocessing import Process
 
 <<<<<<< HEAD

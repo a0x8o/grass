@@ -197,10 +197,14 @@ for html_file in htmlfiles:
             pass
         if not key:
 <<<<<<< HEAD
+<<<<<<< HEAD
             sys.exit("Empty keyword from file %s line: %s" % (fname, lines[index_keys]))
 =======
             exit("Empty keyword from file %s line: %s" % (fname, lines[index_keys]))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+            sys.exit("Empty keyword from file %s line: %s" % (fname, lines[index_keys]))
+>>>>>>> 66dd6d1baa (style: Fixes sys-exit-alias (PLR1722) (#3951))
         if key not in keywords.keys():
             keywords[key] = []
             keywords[key].append(fname)
