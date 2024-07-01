@@ -680,7 +680,7 @@ class GrassTestFilesInvoker:
                     main_page_name="testfiles.html",
                 ),
                 GrassTestFilesKeyValueReporter(
-                    info=dict(location=location, location_type=location_type)
+                    info={"location": location, "location_type": location_type}
                 ),
             ]
         )
