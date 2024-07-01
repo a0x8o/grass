@@ -1665,7 +1665,7 @@ def get_wxgui_extensions(url):
         if not sline:
             continue
         name = sline.group(2).rstrip("/")
-        if name not in ("..", "Makefile"):
+        if name not in {"..", "Makefile"}:
             mlist.append(name)
 
     return mlist
@@ -3018,7 +3018,7 @@ def download_source_code(
                              URL path
     """
     gs.verbose(_("Type of source identified as '{source}'.").format(source=source))
-    if source in ("official", "official_fork"):
+    if source in {"official", "official_fork"}:
         gs.message(
             _("Fetching <{name}> from <{url}> (be patient)...").format(
                 name=name, url=url
@@ -3034,7 +3034,7 @@ def download_source_code(
             )
         )
         download_source_code_svn(url, name, outdev, directory)
-    elif source in ["remote_zip"]:
+    elif source in {"remote_zip"}:
         gs.message(
             _("Fetching <{name}> from " "<{url}> (be patient)...").format(
                 name=name, url=url
@@ -3824,6 +3824,7 @@ def resolve_xmlurl_prefix(url, source=None):
     """
 <<<<<<< HEAD
     gs.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
+<<<<<<< HEAD
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -3843,6 +3844,9 @@ def resolve_xmlurl_prefix(url, source=None):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
     if source in ("official", "official_fork"):
+=======
+    if source in {"official", "official_fork"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
         # use pregenerated modules XML file
         # Define branch to fetch from (latest or current version)
 <<<<<<< HEAD

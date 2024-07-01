@@ -219,7 +219,7 @@ def nprocs_plot(results, filename=None):
             plt.plot(x, result.times, label=result.label)
             plt.fill_between(x, mins, maxes, color="gray", alpha=0.3)
             ylabel = "Time [s]"
-        elif metric in ["speedup", "efficiency"]:
+        elif metric in {"speedup", "efficiency"}:
             ylabel = metric.title()
             plt.plot(x, getattr(result, metric), label=result.label)
         else:
@@ -346,6 +346,7 @@ def nprocs_plot(results, filename=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +360,9 @@ def nprocs_plot(results, filename=None):
 =======
 >>>>>>> osgeo-main
     elif metric in ["speedup", "efficiency"]:
+=======
+    elif metric in {"speedup", "efficiency"}:
+>>>>>>> ffa270b5ab (style: Fixes literal-membership (PLR6201) for other code (#3954))
         plt.title(f"{metric.title()} by processing elements")
 =======
 =======
