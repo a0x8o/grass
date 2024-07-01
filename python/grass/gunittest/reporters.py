@@ -11,9 +11,14 @@ for details.
 
 import os
 import datetime
+<<<<<<< HEAD
 from pathlib import Path
 from xml.sax import saxutils
 import xml.etree.ElementTree as ET
+=======
+from xml.sax import saxutils
+import xml.etree.ElementTree as et
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 import subprocess
 import collections
 import re

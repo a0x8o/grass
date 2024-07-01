@@ -56,6 +56,7 @@ from __future__ import annotations
 
 try:
 <<<<<<< HEAD
+<<<<<<< HEAD
     from ply import yacc
 =======
     import ply.yacc as yacc
@@ -63,6 +64,9 @@ try:
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+=======
+    from ply import yacc
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 except ImportError:
     pass
 

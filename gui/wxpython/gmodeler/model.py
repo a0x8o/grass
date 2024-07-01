@@ -52,7 +52,11 @@ import re
 import mimetypes
 import time
 
+<<<<<<< HEAD
 import xml.etree.ElementTree as ET
+=======
+import xml.etree.ElementTree as etree
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 from xml.sax import saxutils
 
 import wx

@@ -60,7 +60,7 @@ from core import globalvar
 try:
     from agw import aui
 except ImportError:
-    import wx.lib.agw.aui as aui
+    from wx.lib.agw import aui
 
 import wx
 <<<<<<< HEAD

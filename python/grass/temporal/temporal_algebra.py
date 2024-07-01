@@ -446,14 +446,21 @@ from typing import Literal
 try:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
     from ply import lex, yacc
 =======
     from ply import lex
     from ply import yacc
+<<<<<<< HEAD
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
     from ply import lex, yacc
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 except:
     pass
 

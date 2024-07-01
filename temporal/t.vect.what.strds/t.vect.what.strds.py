@@ -65,6 +65,7 @@
 # %end
 
 import os
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 import grass.script as grass
@@ -78,12 +79,19 @@ from grass.script import raster
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
 import grass.script as gs
+<<<<<<< HEAD
 >>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+import grass.script as grass
+from grass.script import raster
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 

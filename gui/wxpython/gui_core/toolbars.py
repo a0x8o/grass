@@ -22,6 +22,7 @@ import os
 import wx
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from wx.lib.agw import aui
 =======
 import wx.lib.agw.aui as aui
@@ -29,6 +30,9 @@ import wx.lib.agw.aui as aui
 =======
 import wx.lib.agw.aui as aui
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+from wx.lib.agw import aui
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 
 from core import globalvar
 from core.debug import Debug

@@ -23,11 +23,16 @@ import wx
 import grass.script as gs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+import grass.script as grass
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 from wx.lib import plot
 from gui_core.wrap import StockCursor
 from gui_core.toolbars import BaseToolbar, BaseIcons
