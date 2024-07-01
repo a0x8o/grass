@@ -170,6 +170,7 @@ class MainToolbar(BaseToolbar):
 =======
 >>>>>>> osgeo-main
                 i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -196,6 +197,9 @@ class MainToolbar(BaseToolbar):
                 i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
                 if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+=======
+                if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     continue
                 if i_tool_name == tool_name:
                     continue
@@ -240,6 +244,7 @@ class MainToolbar(BaseToolbar):
 =======
 >>>>>>> osgeo-main
             i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -266,6 +271,9 @@ class MainToolbar(BaseToolbar):
             i_tool_name = i_tool_data[0]
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
             if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
+=======
+            if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 continue
             i_tool_id = vars(self)[i_tool_name]
             self.ToggleTool(i_tool_id, False)
@@ -444,7 +452,7 @@ class EditingToolbar(BaseToolbar):
         self.scatt_mgr.modeSet.connect(self.ModeSet)
 
     def ModeSet(self, mode):
-        if mode in ["zoom", "pan", "zoom_extend", None]:
+        if mode in {"zoom", "pan", "zoom_extend", None}:
             self.UnsetMode()
 
     def UnsetMode(self):
