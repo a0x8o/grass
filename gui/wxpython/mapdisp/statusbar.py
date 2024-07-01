@@ -1324,6 +1324,9 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         self.statusbarItems = {}
 =======
 =======
@@ -1333,6 +1336,7 @@ class SbManager:
 =======
         self.statusbarItems = {}
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -1343,6 +1347,8 @@ class SbManager:
         self.statusbarItems = dict()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
 
         self._postInitialized = False
         self._modeIndexSet = False

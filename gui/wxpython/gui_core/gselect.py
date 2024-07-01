@@ -2171,6 +2171,9 @@ class FormatSelect(wx.Choice):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         formats = []
 =======
         formats = list()
@@ -2181,6 +2184,7 @@ class FormatSelect(wx.Choice):
 =======
         formats = []
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 =======
         formats = []
 =======
@@ -2193,6 +2197,8 @@ class FormatSelect(wx.Choice):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
         for f in GetFormats()[ftype][srcType].items():
             formats += f
         self.SetItems(formats)

@@ -1463,6 +1463,7 @@ def get_extensions():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     libgis_rev = gs.version()["libgis_revision"]
 =======
 <<<<<<< HEAD
@@ -1482,6 +1483,12 @@ def get_extensions():
     libgis_rev = gs.version()["libgis_revision"]
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+    libgis_rev = gs.version()["libgis_revision"]
+=======
+    libgis_rev = gscript.version()["libgis_revision"]
+>>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")

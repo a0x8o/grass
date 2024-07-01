@@ -8487,10 +8487,10 @@ class GMFrame(wx.Frame):
 >>>>>>> 3a5870f1be (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
 
         # list of open dialogs
-        self.dialogs = dict()
+        self.dialogs = {}
         self.dialogs["preferences"] = None
         self.dialogs["nvizPreferences"] = None
-        self.dialogs["atm"] = list()
+        self.dialogs["atm"] = []
 
         # set pane sizes according to the full screen size of the primary monitor
 >>>>>>> 9fa9d58252 (wxGUI/Single-Window GUI: arrangement of basic widgets (#1621))
@@ -55320,6 +55320,7 @@ class GMFrame(wx.Frame):
                 return None
         else:  # -> return list of all mapdisplays
             mlist = []
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -55330,6 +55331,8 @@ class GMFrame(wx.Frame):
         else:  # -> return list of all mapdisplays
             mlist = list()
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
             for idx in range(0, self.notebookLayers.GetPageCount()):
                 mlist.append(self.notebookLayers.GetPage(idx).maptree.GetMapDisplay())
 

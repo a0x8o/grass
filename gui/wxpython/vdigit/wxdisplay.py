@@ -367,17 +367,23 @@ class DisplayDriver:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                 pdc.DrawLines(points)
 =======
                 points = list()
 =======
                 points = []
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 =======
                 pdc.DrawLines(points)
 =======
                 points = list()
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                 for i in range(robj.npoints):
                     p = robj.point[i]
                     points.append(wx.Point(p.x, p.y))

@@ -2281,6 +2281,9 @@ class CmdPanel(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                             layers = []
 =======
 =======
@@ -2290,6 +2293,7 @@ class CmdPanel(wx.Panel):
 =======
                             layers = []
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -2300,6 +2304,8 @@ class CmdPanel(wx.Panel):
                             layers = list()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
                             geometry = None
                             for layer, match, listId in self.win1.GetLayers():
                                 if "|" in layer:
