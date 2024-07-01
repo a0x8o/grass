@@ -386,6 +386,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
                 i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -518,8 +519,17 @@ class MainToolbar(BaseToolbar):
                 if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 285a851d3a (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     continue
                 if i_tool_name == tool_name:
                     continue
@@ -780,6 +790,7 @@ class MainToolbar(BaseToolbar):
 >>>>>>> b7a4108a2f (wxpyimgview: explicit conversion to int (#2704))
             i_tool_name = get_tool_name(i_tool_data[0])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -912,8 +923,17 @@ class MainToolbar(BaseToolbar):
             if not i_tool_name or i_tool_name in ["cats_mgr", "sel_pol_mode"]:
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+            if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 285a851d3a (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 continue
             i_tool_id = vars(self)[i_tool_name]
             self.ToggleTool(i_tool_id, False)

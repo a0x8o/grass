@@ -7786,6 +7786,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
@@ -7941,6 +7942,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> cd8792567f (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 285a851d3a (style(gui): Fixes literal-membership (PLR6201) (#3952))
                 if ltype in {
                     "raster",
                     "vector",
@@ -7971,6 +7974,8 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 993f78c5dc (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
 =======
 <<<<<<< HEAD
 =======
@@ -9427,8 +9432,21 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+                if ltype in {
+                    "raster",
+                    "vector",
+                    "raster_3d",
+                } and self.mapdisplay.IsPaneShown("3d"):
+>>>>>>> 2ae07bc17e (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 42cb2331bc (style(gui): Fixes literal-membership (PLR6201) (#3952))
+>>>>>>> 285a851d3a (style(gui): Fixes literal-membership (PLR6201) (#3952))
                     self.popupMenu.Append(self.popupID["nviz"], _("3D view properties"))
                     self.Bind(
                         wx.EVT_MENU, self.OnNvizProperties, id=self.popupID["nviz"]
