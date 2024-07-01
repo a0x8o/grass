@@ -67,6 +67,9 @@
 import os
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 
 <<<<<<< HEAD
 import grass.script as grass
@@ -81,6 +84,7 @@ from grass.script import raster
 =======
 import grass.script as gs
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 =======
@@ -89,9 +93,12 @@ import grass.script as gs
 >>>>>>> main
 =======
 =======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
 import grass.script as grass
 from grass.script import raster
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
@@ -131,6 +138,8 @@ import grass.script as gs
 >>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 

@@ -20,6 +20,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 =======
@@ -47,6 +48,8 @@ from datetime import datetime
 >>>>>>> 80e24e5298 (style(temporal): Sort and group imports (#3959))
 =======
 >>>>>>> 5bb8db950a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
@@ -113,6 +116,9 @@ from .temporal_granularity import (
 )
 =======
 import grass.script.core as core
+=======
+from grass.script import core
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyStartTime,
     AbstractDatasetComparisonKeyEndTime,
@@ -127,9 +133,9 @@ from .temporal_granularity import (
     compute_absolute_time_granularity,
 )
 
-import grass.lib.vector as vector
-import grass.lib.rtree as rtree
-import grass.lib.gis as gis
+from grass.lib import vector
+from grass.lib import rtree
+from grass.lib import gis
 from ctypes import byref
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))

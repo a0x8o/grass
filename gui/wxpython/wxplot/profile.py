@@ -30,6 +30,7 @@ import wx
 from wx.lib import plot
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -49,6 +50,12 @@ import grass.script as grass
 import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+import grass.script as gs
+=======
+import grass.script as grass
+>>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 from wxplot.base import BasePlotFrame, PlotIcons
 from gui_core.toolbars import BaseToolbar, BaseIcons
 from gui_core.wrap import StockCursor

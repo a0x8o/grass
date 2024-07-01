@@ -25,10 +25,13 @@ import wx
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 from wx.lib.agw import aui
 =======
 import wx.lib.agw.aui as aui
@@ -41,6 +44,7 @@ import wx.lib.agw.aui as aui
 =======
 from wx.lib.agw import aui
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -48,6 +52,8 @@ from wx.lib.agw import aui
 import wx.lib.agw.aui as aui
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 
 from core import globalvar
 from core.debug import Debug

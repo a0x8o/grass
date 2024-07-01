@@ -58,6 +58,9 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
     from ply import yacc
 =======
     import ply.yacc as yacc
@@ -68,6 +71,7 @@ try:
 =======
     from ply import yacc
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 =======
     from ply import yacc
 =======
@@ -80,6 +84,8 @@ try:
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 46a965d9e9 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 4ad9c8a13e (style: Fixes manual-from-import (PLR0402) (#3949))
 except ImportError:
     pass
 
