@@ -440,7 +440,12 @@ for details.
 """
 
 try:
+<<<<<<< HEAD
     from ply import lex, yacc
+=======
+    from ply import lex
+    from ply import yacc
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 except:
     pass
 

@@ -25,6 +25,12 @@ from grass.lib import gis, rtree, vector
 from .abstract_dataset import AbstractDatasetComparisonKeyStartTime
 from .core import init_dbif
 from .datetime_math import time_delta_to_relative_time_seconds
+<<<<<<< HEAD
+=======
+from grass.lib import vector
+from grass.lib import rtree
+from grass.lib import gis
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 
 ###############################################################################
 

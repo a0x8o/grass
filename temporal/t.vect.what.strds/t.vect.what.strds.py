@@ -67,6 +67,10 @@
 import os
 
 import grass.script as grass
+<<<<<<< HEAD
+=======
+from grass.script import raster
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 
