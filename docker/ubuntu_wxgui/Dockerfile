@@ -170,6 +170,7 @@ ENV DEBIAN_FRONTEND noninteractive
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ARG PDAL_VERSION=2.4.3
 =======
 <<<<<<< HEAD
@@ -283,6 +284,9 @@ ARG PDAL_VERSION=2.4.3
 =======
 ARG PDAL_VERSION=2.7.2
 >>>>>>> 9e87f51dd7 (CI(deps): Update dependency PDAL/PDAL to v2.7.2 (#3937))
+=======
+ARG PDAL_VERSION=2.7.1
+>>>>>>> 7a1c8d97ba (docker: Downgrade PDAL to 2.7.1 in ubuntu_wxgui (#3946))
 
 SHELL ["/bin/bash", "-c"]
 
