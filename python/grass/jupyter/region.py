@@ -119,18 +119,26 @@ class RegionManagerForInteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
+>>>>>>> c2511ad775 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
         self._bbox[0][0] = min(self._bbox[0][0], south)
         self._bbox[0][1] = min(self._bbox[0][1], west)
         self._bbox[1][0] = max(self._bbox[1][0], north)
         self._bbox[1][1] = max(self._bbox[1][1], east)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c2511ad775 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -156,6 +164,7 @@ class RegionManagerForInteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -164,6 +173,8 @@ class RegionManagerForInteractiveMap:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c2511ad775 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
 
 
 class RegionManagerFor2D:

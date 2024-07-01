@@ -3262,10 +3262,13 @@ def benchmark_single(module, label, repeat=5):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c2511ad775 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
     min_avg = min(avg, min_avg)
 =======
     if avg < min_avg:
@@ -3280,6 +3283,7 @@ def benchmark_single(module, label, repeat=5):
         min_avg = avg
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     min_avg = min(avg, min_avg)
 >>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
@@ -3287,6 +3291,11 @@ def benchmark_single(module, label, repeat=5):
 >>>>>>> 2ba4dbc7e5 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    min_avg = min(avg, min_avg)
+>>>>>>> e9b8764134 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
+>>>>>>> c2511ad775 (style: Fixes if-stmt-min-max (PLR1730) (#3950))
     print(f"\nResult - {avg}s")
 
     print("\u2500" * term_size.columns)
