@@ -458,6 +458,7 @@ def plot_filter(values):
     ax1 = fig.add_subplot(2, 1, 1)
     ax2 = fig.add_subplot(2, 1, 2)
 
+<<<<<<< HEAD
     ax1.plot(response[:, 0], response[:, 1], "ro")
     rounded = np.arange(limits[0], limits[1], 0.0025) * 1000
     if len(rounded) == len(filter_f):
@@ -466,6 +467,8 @@ def plot_filter(values):
         ax2.plot(rounded[:-1], filter_f)
     plt.show()
 
+=======
+>>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
 
 def pretty_print(filter_f):
     """
@@ -676,10 +679,15 @@ def main():
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     print
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    print
+>>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+>>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
 
 
 if __name__ == "__main__":

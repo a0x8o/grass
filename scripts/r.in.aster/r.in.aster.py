@@ -174,6 +174,7 @@ def main():
     gs.message(_("Done."))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     grass.message(_("Cleaning up ..."))
     grass.try_remove(tempfile)
     grass.message(_("Done."))
@@ -183,6 +184,12 @@ def main():
     gs.message(_("Done."))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    grass.message(_("Cleaning up ..."))
+    grass.try_remove(tempfile)
+    grass.message(_("Done."))
+>>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+>>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
 
 
 def import_aster(proj, srcfile, tempfile, output, band):
