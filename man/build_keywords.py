@@ -247,10 +247,14 @@ sortedKeys = sorted(keywords.keys(), key=lambda s: s.lower())
 
 for key in sortedKeys:
 <<<<<<< HEAD
+<<<<<<< HEAD
     keyword_line = '<dt><b><a name="%s" class="urlblack">%s</a></b></dt><dd>' % (
 =======
     keyword_line = '<dt><b><a name="%s" class="urlblack">%s</a></b></dt>' "<dd>" % (
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+    keyword_line = '<dt><b><a name="%s" class="urlblack">%s</a></b></dt><dd>' % (
+>>>>>>> 2dd437519f (style: Manual fixes for single-line-implicit-string-concatenation violations (ISC001) (#3944))
         key,
         key,
     )
