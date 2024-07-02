@@ -147,6 +147,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -154,10 +155,17 @@ def main():
 >>>>>>> 192a521175 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 =======
+>>>>>>> c0e1e1a5b1 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
+=======
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 >>>>>>> ea1d751118 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 >>>>>>> bcbb587500 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+=======
+>>>>>>> 502e49ed0a (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
+>>>>>>> c0e1e1a5b1 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 >>>>>>> cdb2b69452 (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -1273,6 +1281,9 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.rdigit.quitDigitizer.connect(self.Close)
+>>>>>>> 0cc7cbf610 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
