@@ -5884,9 +5884,7 @@ class GMFrame(wx.Frame):
     def _createDataCatalog(self, parent):
         """Initialize Data Catalog widget"""
         self.datacatalog = DataCatalog(parent=parent, giface=self._giface)
-        self.datacatalog.showNotification.connect(
-            lambda message: self.SetStatusText(message)
-        )
+        self.datacatalog.showNotification.connect(self.SetStatusText)
 
     def _createDisplay(self, parent):
         """Initialize Display widget"""
@@ -5942,9 +5940,7 @@ class GMFrame(wx.Frame):
                 giface=self._giface,
                 model=self._moduleTreeBuilder.GetModel(),
             )
-            self.search.showNotification.connect(
-                lambda message: self.SetStatusText(message)
-            )
+            self.search.showNotification.connect(self.SetStatusText)
         else:
             self.search = None
 
@@ -5992,6 +5988,7 @@ class GMFrame(wx.Frame):
             menuModel=self._moduleTreeBuilder.GetModel(),
             gcstyle=GC_PROMPT,
         )
+<<<<<<< HEAD
         self.goutput.showNotification.connect(
             lambda message: self.SetStatusText(message)
         )
@@ -6016,6 +6013,10 @@ class GMFrame(wx.Frame):
             lambda notification: self._focusPage(notification)
         )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.goutput.showNotification.connect(self.SetStatusText)
+        self.goutput.contentChanged.connect(self._focusPage)
+>>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 
         self._gconsole.mapCreated.connect(self.OnMapCreated)
         self._gconsole.Bind(
@@ -6036,9 +6037,7 @@ class GMFrame(wx.Frame):
         """Initialize history browser widget"""
         if not UserSettings.Get(group="manager", key="hideTabs", subkey="history"):
             self.history = HistoryBrowser(parent=parent, giface=self._giface)
-            self.history.showNotification.connect(
-                lambda message: self.SetStatusText(message)
-            )
+            self.history.showNotification.connect(self.SetStatusText)
             self.history.runIgnoredCmdPattern.connect(
                 lambda cmd: self.RunSpecialCmd(command=cmd),
             )

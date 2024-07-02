@@ -857,6 +857,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
         self._loadHistory()
         if giface:
             giface.currentMapsetChanged.connect(self._loadHistory)
+<<<<<<< HEAD
             giface.entryToHistoryAdded.connect(
                 lambda entry: self._addEntryToCmdHistoryBuffer(entry)
             )
@@ -922,8 +923,11 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 =======
+=======
+            giface.entryToHistoryAdded.connect(self._addEntryToCmdHistoryBuffer)
+>>>>>>> 8135f68d14 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
             giface.entryFromHistoryRemoved.connect(
-                lambda index: self._removeEntryFromCmdHistoryBuffer(index)
+                self._removeEntryFromCmdHistoryBuffer
             )
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -1808,7 +1812,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
         for char in set(" .,-=") - set(ignoredDelimiter):
             delimiter = "" if not withDelimiter else char
             parts.append(delimiter + textLeft.rpartition(char)[2])
-        return min(parts, key=lambda x: len(x))
+        return min(parts, key=len)
 
     def ShowList(self):
         """Show sorted auto-completion list if it is not empty"""

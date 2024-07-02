@@ -3518,7 +3518,7 @@ class SearchModuleWidget(wx.Panel):
             nodes.update(self._model.SearchNodes(key=key, value=value))
 
         nodes = list(nodes)
-        nodes.sort(key=lambda node: self._model.GetIndexOfNode(node))
+        nodes.sort(key=self._model.GetIndexOfNode)
         self._results = nodes
         self._resultIndex = -1
         return sorted([node.data["command"] for node in nodes if node.data["command"]])

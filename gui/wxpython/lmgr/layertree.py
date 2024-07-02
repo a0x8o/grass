@@ -10814,7 +10814,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             lambda value: self.ChangeGroupLayerOpacity(layer=child, value=value)
         )
         # Apply button
-        dlg.applyOpacity.connect(lambda: self._recalculateLayerButtonPosition())
+        dlg.applyOpacity.connect(self._recalculateLayerButtonPosition)
         dlg.CentreOnParent()
 
         if dlg.ShowModal() == wx.ID_OK:
@@ -10854,7 +10854,7 @@ class LayerTree(treemixin.DragAndDrop, CT.CustomTreeCtrl):
             )
         )
         # Apply button
-        dlg.applyOpacity.connect(lambda: self._recalculateLayerButtonPosition())
+        dlg.applyOpacity.connect(self._recalculateLayerButtonPosition)
         dlg.CentreOnParent()
 
         if dlg.ShowModal() == wx.ID_OK:
