@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 FROM ubuntu:22.04
@@ -102,7 +103,12 @@ FROM ubuntu:22.04@sha256:a6d2b38300ce017add71440577d5b0a90460d0e57fd7aec21dd0d1b
 >>>>>>> ef5435cdca (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 207a2fa222 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 2bbb6b4928 (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
 FROM ubuntu:22.04@sha256:0e5e4a57c2499249aafc3b40fcd541e9a456aab7296681a3994d631587203f97
+=======
+FROM ubuntu:22.04
+>>>>>>> 60821dd537 (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
 =======
 FROM ubuntu:22.04
 >>>>>>> 7320e7f073 (r.horizon manual - fix typo (#2794))
@@ -846,6 +852,9 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> 43e21bab04 (Fix missing function prototypes (#2727))
 =======
 FROM ubuntu:22.04
+=======
+FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
+>>>>>>> 16b69e4c3e (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
 
 <<<<<<< HEAD:docker/ubuntu_wxgui/Dockerfile
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
