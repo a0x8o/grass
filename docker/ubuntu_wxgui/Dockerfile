@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 =======
 <<<<<<< HEAD
@@ -139,6 +140,9 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> 488180fefd (Fix missing function prototypes (#2727))
 =======
 FROM ubuntu:22.04
+=======
+FROM ubuntu:22.04@sha256:340d9b015b194dc6e2a13938944e0d016e57b9679963fdeb9ce021daac430221
+>>>>>>> 16b69e4c3e (CI(deps): Update ubuntu:22.04 Docker digest to 340d9b0 (#3971))
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Tomas Zigo"
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
