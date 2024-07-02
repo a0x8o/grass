@@ -15,10 +15,13 @@ int do_profile(double, double, double, double, int, double, int, int, FILE *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> af93827ea1 (r.profile: add JSON support (#3872))
                char *, const char *, double, enum OutputFormat, char *,
                JSON_Array *);
 
@@ -55,6 +58,7 @@ int read_rast(double, double, double, int, int, RASTER_MAP_TYPE, FILE *,
 int read_rast(double, double, double, int, int, RASTER_MAP_TYPE, FILE *, char *,
               enum OutputFormat, char *, JSON_Array *);
 >>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -63,6 +67,8 @@ int read_rast(double, double, double, int, int, RASTER_MAP_TYPE, FILE *, char *,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> af93827ea1 (r.profile: add JSON support (#3872))
 
 /* input.c */
 int input(char *, char *, char *, char *, char *, FILE *);
