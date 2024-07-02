@@ -1356,9 +1356,7 @@ class MapPanel(SingleMapPanel):
             )
             self._setUpMapWindow(self.MapWindowVDigit)
             self.MapWindowVDigit.digitizingInfo.connect(
-                lambda text: self.statusbarManager.statusbarItems[
-                    "coordinates"
-                ].SetAdditionalInfo(text)
+                self.statusbarManager.statusbarItems["coordinates"].SetAdditionalInfo
             )
             self.MapWindowVDigit.digitizingInfoUnavailable.connect(
                 lambda: self.statusbarManager.statusbarItems[
@@ -1398,9 +1396,7 @@ class MapPanel(SingleMapPanel):
             def openATM(selection):
                 self._layerManager.OnShowAttributeTable(None, selection=selection)
 
-            self.toolbars["vdigit"].openATM.connect(
-                lambda selection: openATM(selection)
-            )
+            self.toolbars["vdigit"].openATM.connect(openATM)
             self.Map.layerAdded.connect(self._updateVDigitLayers)
         self.MapWindowVDigit.SetToolbar(self.toolbars["vdigit"])
 
@@ -2474,9 +2470,7 @@ class MapPanel(SingleMapPanel):
         self.measureController = controller(self._giface, mapWindow=self.GetMapWindow())
         # assure that the mode is ended and lines are cleared whenever other
         # tool is selected
-        self._toolSwitcher.toggleToolChanged.connect(
-            lambda: self.measureController.Stop()
-        )
+        self._toolSwitcher.toggleToolChanged.connect(self.measureController.Stop)
         self.measureController.Start()
 
     def OnProfile(self, event):
