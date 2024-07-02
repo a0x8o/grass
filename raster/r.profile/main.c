@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
         struct Option *opt1, *profile, *res, *output, *null_str, *coord_file,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             *units, *format;
 =======
             *units;
@@ -49,6 +50,9 @@ int main(int argc, char *argv[])
 =======
             *units;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            *units, *format;
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
         struct Flag *g, *c, *m;
     } parm;
     struct GModule *module;
@@ -557,6 +561,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 
+    parm.format = G_define_standard_option(G_OPT_F_FORMAT);
+    parm.units->guisection = _("Print");
+
     if (G_parser(argc, argv))
         exit(EXIT_FAILURE);
 
@@ -617,6 +624,15 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     }
 
+    if (strcmp(parm.format->answer, "json") == 0) {
+        format = JSON;
+        array_value = json_value_init_array();
+        array = json_array(array_value);
+    }
+    else {
+        format = PLAIN;
+    }
+
     G_message(_("Using resolution: %g [%s]"), res / factor, unit);
 
     G_begin_distance_calculations();
@@ -648,6 +664,9 @@ int main(int argc, char *argv[])
     /* Done with file */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     if (format == PLAIN) {
         /* Show message giving output format */
         G_message(_("Output columns:"));
@@ -661,6 +680,7 @@ int main(int argc, char *argv[])
             strcat(formatbuff, _(" RGB color"));
         G_message("%s", formatbuff);
     }
+<<<<<<< HEAD
 =======
     /* Show message giving output format */
     G_message(_("Output columns:"));
@@ -674,6 +694,8 @@ int main(int argc, char *argv[])
         strcat(formatbuff, _(" RGB color"));
     G_message("%s", formatbuff);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 
     /* Get Profile Start Coords */
     if (parm.coord_file->answer) {
@@ -695,6 +717,7 @@ int main(int argc, char *argv[])
                 do_profile(e1, e2, n1, n2, coords, res, fd, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            null_string, unit, factor, format, name, array);
 =======
                            null_string, unit, factor);
@@ -702,6 +725,9 @@ int main(int argc, char *argv[])
 =======
                            null_string, unit, factor);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                           null_string, unit, factor, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             e1 = e2;
             n1 = n2;
             havefirst = TRUE;
@@ -728,6 +754,7 @@ int main(int argc, char *argv[])
             do_profile(e1, e2, n1, n2, coords, res, fd, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                        null_string, unit, factor, format, name, array);
 =======
                        null_string, unit, factor);
@@ -735,6 +762,9 @@ int main(int argc, char *argv[])
 =======
                        null_string, unit, factor);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                       null_string, unit, factor, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
         }
         else {
             for (i = 0; i <= k - 2; i += 2) {
@@ -748,6 +778,7 @@ int main(int argc, char *argv[])
 
                 /* Get profile info */
                 do_profile(e1, e2, n1, n2, coords, res, fd, data_type, fp,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                            null_string, unit, factor, format, name, array);
@@ -765,6 +796,9 @@ int main(int argc, char *argv[])
         json_value_free(array_value);
 =======
                            null_string, unit, factor);
+=======
+                           null_string, unit, factor, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             }
         }
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -773,6 +807,16 @@ int main(int argc, char *argv[])
             }
         }
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (format == JSON) {
+        char *serialized_string = json_serialize_to_string_pretty(array_value);
+        if (serialized_string == NULL) {
+            G_fatal_error(_("Failed to initialize pretty JSON string."));
+        }
+        puts(serialized_string);
+        json_free_serialized_string(serialized_string);
+        json_value_free(array_value);
     }
 
     Rast_close(fd);
@@ -790,6 +834,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
                double res, int fd, int data_type, FILE *fp, char *null_string,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                const char *unit, double factor, enum OutputFormat format,
                char *name, JSON_Array *array)
 =======
@@ -798,6 +843,10 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
                const char *unit, double factor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+               const char *unit, double factor, enum OutputFormat format,
+               char *name, JSON_Array *array)
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 {
     double rows, cols, LEN;
     double Y, X, k;
@@ -819,6 +868,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
         n = n1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string,
                   format, name, array);
 =======
@@ -827,6 +877,10 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
         read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        read_rast(e, n, dist / factor, fd, coords, data_type, fp, null_string,
+                  format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     }
 
     k = res / hypot(rows, cols);
@@ -847,6 +901,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
             read_rast(e, n, dist / factor, fd, coords, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       null_string, format, name, array);
 =======
                       null_string);
@@ -854,6 +909,9 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
                       null_string);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                      null_string, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             /* d+=res; */
             dist += G_distance(e - X, n + Y, e, n);
         }
@@ -865,6 +923,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
             read_rast(e, n, dist / factor, fd, coords, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       null_string, format, name, array);
 =======
                       null_string);
@@ -872,6 +931,9 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
                       null_string);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                      null_string, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             /* d+=res; */
             dist += G_distance(e - X, n - Y, e, n);
         }
@@ -883,6 +945,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
             read_rast(e, n, dist / factor, fd, coords, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       null_string, format, name, array);
 =======
                       null_string);
@@ -890,6 +953,9 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
                       null_string);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                      null_string, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             /* d+=res; */
             dist += G_distance(e + X, n + Y, e, n);
         }
@@ -901,6 +967,7 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
             read_rast(e, n, dist / factor, fd, coords, data_type, fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       null_string, format, name, array);
 =======
                       null_string);
@@ -908,6 +975,9 @@ int do_profile(double e1, double e2, double n1, double n2, int coords,
 =======
                       null_string);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                      null_string, format, name, array);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
             /* d+=res; */
             dist += G_distance(e + X, n - Y, e, n);
         }

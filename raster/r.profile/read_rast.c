@@ -16,6 +16,7 @@
 int read_rast(double east, double north, double dist, int fd, int coords,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string,
               enum OutputFormat format, char *name, JSON_Array *array)
 =======
@@ -24,6 +25,10 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 =======
               RASTER_MAP_TYPE data_type, FILE *fp, char *null_string)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+              RASTER_MAP_TYPE data_type, FILE *fp, char *null_string,
+              enum OutputFormat format, char *name, JSON_Array *array)
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 {
     static DCELL *dcell;
     static int cur_row = -1;
@@ -62,6 +67,9 @@ int read_rast(double east, double north, double dist, int fd, int coords,
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     switch (format) {
     case JSON:
         if (coords) {
@@ -73,6 +81,7 @@ int read_rast(double east, double north, double dist, int fd, int coords,
     case PLAIN:
         if (coords)
             fprintf(fp, "%f %f", east, north);
+<<<<<<< HEAD
 =======
     if (coords)
         fprintf(fp, "%f %f", east, north);
@@ -80,6 +89,8 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 
         fprintf(fp, " %f", dist);
         break;
@@ -87,6 +98,9 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     if (outofbounds || Rast_is_d_null_value(&dcell[col])) {
         switch (format) {
         case JSON:
@@ -97,6 +111,7 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             break;
         }
     }
+<<<<<<< HEAD
     else {
         if (data_type == CELL_TYPE) {
             int dvalue = (int)dcell[col];
@@ -136,6 +151,30 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    else {
+        if (data_type == CELL_TYPE) {
+            int dvalue = (int)dcell[col];
+            switch (format) {
+            case JSON:
+                json_object_set_number(object, name, dvalue);
+                break;
+            case PLAIN:
+                fprintf(fp, " %d", dvalue);
+                break;
+            }
+        }
+        else {
+            switch (format) {
+            case JSON:
+                json_object_set_number(object, name, dcell[col]);
+                break;
+            case PLAIN:
+                fprintf(fp, " %f", dcell[col]);
+                break;
+            }
+        }
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     }
 
     if (clr) {
@@ -147,6 +186,9 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             Rast_get_d_color(&dcell[col], &red, &green, &blue, &colors);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
         switch (format) {
         case JSON:
             json_object_set_number(object, "red", red);
@@ -157,6 +199,7 @@ int read_rast(double east, double north, double dist, int fd, int coords,
             fprintf(fp, " %03d:%03d:%03d", red, green, blue);
             break;
         }
+<<<<<<< HEAD
 =======
 
         fprintf(fp, " %03d:%03d:%03d", red, green, blue);
@@ -165,6 +208,8 @@ int read_rast(double east, double north, double dist, int fd, int coords,
 
         fprintf(fp, " %03d:%03d:%03d", red, green, blue);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
     }
 
     switch (format) {

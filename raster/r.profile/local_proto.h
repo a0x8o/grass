@@ -12,6 +12,7 @@ enum OutputFormat { PLAIN, JSON };
 int do_profile(double, double, double, double, int, double, int, int, FILE *,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                char *, const char *, double, enum OutputFormat, char *,
                JSON_Array *);
 
@@ -30,6 +31,14 @@ int read_rast(double, double, double, int, int, RASTER_MAP_TYPE, FILE *,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+               char *, const char *, double, enum OutputFormat, char *,
+               JSON_Array *);
+
+/* read_rast.c */
+int read_rast(double, double, double, int, int, RASTER_MAP_TYPE, FILE *, char *,
+              enum OutputFormat, char *, JSON_Array *);
+>>>>>>> 525ec3793d (r.profile: add JSON support (#3872))
 
 /* input.c */
 int input(char *, char *, char *, char *, char *, FILE *);
