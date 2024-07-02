@@ -215,14 +215,20 @@ per-file-ignores =
     python/grass/pygrass/modules/grid/*.py: F401
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
     python/grass/pygrass/raster/rowio.py: E741
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
 =======
 >>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
+<<<<<<< HEAD
 =======
     python/grass/pygrass/raster/rowio.py: E741
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+>>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
     python/grass/pygrass/raster/category.py: E721
     python/grass/pygrass/utils.py: E402
 <<<<<<< HEAD
@@ -241,12 +247,15 @@ per-file-ignores =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     python/grass/temporal/temporal_raster_base_algebra.py: E722
 =======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> b0a9aa7d1d (temporal: Fixed bare 'except' PEP8 error (#4670))
+=======
+>>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
 =======
     python/grass/temporal/temporal_algebra.py: F841, E722
     python/grass/temporal/temporal_granularity.py: F841, E722
@@ -256,12 +265,15 @@ per-file-ignores =
     python/grass/temporal/univar_statistics.py: E231
 >>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb47639720 (Checks: fix flake8 E741 remainder (#3928))
 =======
 =======
     python/grass/temporal/temporal_raster_base_algebra.py: E722
 >>>>>>> 37100543d6 (temporal: Fixed bare 'except' PEP8 error (#4670))
 >>>>>>> b0a9aa7d1d (temporal: Fixed bare 'except' PEP8 error (#4670))
+=======
+>>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     python/grass/pygrass/tests/benchmark.py: F821
@@ -274,8 +286,11 @@ per-file-ignores =
     # E402 module level import not at top of file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+=======
+>>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
     scripts/r.semantic.label/r.semantic.label.py: E501
 <<<<<<< HEAD
 <<<<<<< HEAD
