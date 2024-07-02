@@ -1143,10 +1143,13 @@ FLOW_DATASTR *initializePQ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b150e537ff (raster: Fix uninitialized variable 'flowpq' in raster/r.terraflow/sweep.cpp (#3966))
     FLOW_DATASTR *flowpq = nullptr;
 =======
     FLOW_DATASTR *flowpq;
@@ -1159,6 +1162,7 @@ FLOW_DATASTR *initializePQ()
 =======
     FLOW_DATASTR *flowpq = nullptr;
 >>>>>>> a083badc73 (raster: Fix uninitialized variable 'flowpq' in raster/r.terraflow/sweep.cpp (#3966))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -1166,6 +1170,8 @@ FLOW_DATASTR *initializePQ()
     FLOW_DATASTR *flowpq;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b150e537ff (raster: Fix uninitialized variable 'flowpq' in raster/r.terraflow/sweep.cpp (#3966))
 #ifdef IM_PQUEUE
     if (stats)
         stats->comment("FLOW_DATASTRUCTURE: in-memory pqueue");
