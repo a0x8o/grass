@@ -475,6 +475,7 @@ FLOW_DATASTR *initializePQ()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     FLOW_DATASTR *flowpq = nullptr;
 =======
     FLOW_DATASTR *flowpq;
@@ -482,6 +483,9 @@ FLOW_DATASTR *initializePQ()
 =======
     FLOW_DATASTR *flowpq;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    FLOW_DATASTR *flowpq = nullptr;
+>>>>>>> a083badc73 (raster: Fix uninitialized variable 'flowpq' in raster/r.terraflow/sweep.cpp (#3966))
 #ifdef IM_PQUEUE
     if (stats)
         stats->comment("FLOW_DATASTRUCTURE: in-memory pqueue");
