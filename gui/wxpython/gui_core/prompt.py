@@ -1860,10 +1860,17 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
         if giface:
             giface.currentMapsetChanged.connect(self._loadHistory)
 <<<<<<< HEAD
+<<<<<<< HEAD
             giface.entryToHistoryAdded.connect(
                 lambda entry: self._addEntryToCmdHistoryBuffer(entry)
             )
 <<<<<<< HEAD
+=======
+            giface.entryToHistoryAdded.connect(self._addEntryToCmdHistoryBuffer)
+            giface.entryFromHistoryRemoved.connect(
+                self._removeEntryFromCmdHistoryBuffer
+            )
+>>>>>>> 192a521175 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD

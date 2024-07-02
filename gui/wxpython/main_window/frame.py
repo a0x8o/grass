@@ -16078,10 +16078,14 @@ class GMFrame(wx.Frame):
         )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 192a521175 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
         self.goutput.showNotification.connect(self.SetStatusText)
         self.goutput.contentChanged.connect(self._focusPage)
 >>>>>>> b0292214bb (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
+<<<<<<< HEAD
 =======
 >>>>>>> 9d633395e8 (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 =======
@@ -16092,6 +16096,8 @@ class GMFrame(wx.Frame):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 192a521175 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 
         self._gconsole.mapCreated.connect(self.OnMapCreated)
         self._gconsole.Bind(
