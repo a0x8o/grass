@@ -106,6 +106,7 @@ def main():
             self.toolbars["vdigit"].quitDigitizer.disconnect(self.QuitVDigit)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,9 @@ def main():
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
+>>>>>>> 0cc7cbf610 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
