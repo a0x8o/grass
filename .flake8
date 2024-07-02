@@ -37,8 +37,17 @@ per-file-ignores =
     man/build_topics.py: F403, F405, E722
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
     man/build_html.py: E501
+<<<<<<< HEAD
     man/build_md.py: E501
     doc/python/m.distance.py: E501
+=======
+    imagery/i.atcorr/create_iwave.py: F632, F821, W293
+    doc/python/raster_example_ctypes.py: F403, F405
+    doc/python/vector_example_ctypes.py: F403, F405
+    doc/python/m.distance.py: F403, F405, E501
+    doc/gui/wxpython/example/dialogs.py: F401
+    locale/grass_po_stats.py: E122, E128, E231, E401, E722
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
     gui/scripts/d.wms.py: E501
 <<<<<<< HEAD
     gui/wxpython/image2target/g.gui.image2target.py: E501
@@ -150,8 +159,11 @@ per-file-ignores =
     python/grass/pygrass/vector/__init__.py: E402
     python/grass/pygrass/modules/interface/*.py: F401
     python/grass/pygrass/modules/grid/*.py: F401
+<<<<<<< HEAD
     python/grass/pygrass/raster/rowio.py: E741
 >>>>>>> bf02a1e765 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
     python/grass/pygrass/raster/category.py: E721
     python/grass/pygrass/rpc/__init__.py: F403
     python/grass/pygrass/utils.py: E402
@@ -165,12 +177,24 @@ per-file-ignores =
     python/grass/temporal/core.py: E722
     python/grass/temporal/datetime_math.py: E722
     python/grass/temporal/spatial_topology_dataset_connector.py: E722
+<<<<<<< HEAD
     python/grass/temporal/temporal_algebra.py: E722
     python/grass/temporal/temporal_granularity.py: E722
+<<<<<<< HEAD
 <<<<<<< HEAD
     python/grass/temporal/temporal_raster_base_algebra.py: E722
 =======
 >>>>>>> osgeo-main
+=======
+=======
+    python/grass/temporal/temporal_algebra.py: F841, E722
+    python/grass/temporal/temporal_granularity.py: F841, E722
+    python/grass/temporal/temporal_raster_base_algebra.py: F841, E722
+    python/grass/temporal/temporal_topology_dataset_connector.py: E722
+    python/grass/temporal/temporal_vector_algebra.py: F841
+    python/grass/temporal/univar_statistics.py: E231
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
+>>>>>>> fb47639720 (Checks: fix flake8 E741 remainder (#3928))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     python/grass/pygrass/tests/benchmark.py: E402, F821
@@ -184,6 +208,7 @@ per-file-ignores =
     python/grass/*/*/__init__.py: F403
     python/grass/*/*/*/__init__.py: F403
     # E402 module level import not at top of file
+<<<<<<< HEAD
     scripts/r.semantic.label/r.semantic.label.py: E501
 <<<<<<< HEAD
     scripts/db.out.ogr/db.out.ogr.py: F841
@@ -197,6 +222,26 @@ per-file-ignores =
     scripts/db.univar/db.univar.py: E501
     scripts/i.pansharpen/i.pansharpen.py: E501
     scripts/v.what.strds/v.what.strds.py: E501
+=======
+    scripts/d.polar/d.polar.py: F841
+    scripts/r.in.wms/wms_gdal_drv.py: F841, E722
+    scripts/r.in.wms/wms_cap_parsers.py: F841
+    scripts/r.in.wms/wms_drv.py: E402, E722
+    scripts/r.in.wms/srs.py: E722
+    scripts/r.semantic.label/r.semantic.label.py: F841, E501
+    scripts/v.report/v.report.py: F841, E721
+    scripts/db.out.ogr/db.out.ogr.py: F841
+    scripts/g.extension/g.extension.py: F841, E722, E501
+    scripts/v.unpack/v.unpack.py: F841, E722, E501
+    scripts/v.import/v.import.py: F841, E722, E501
+    scripts/db.univar/db.univar.py: E501
+    scripts/d.frame/d.frame.py: E722
+    scripts/i.pansharpen/i.pansharpen.py: E722, E501
+    scripts/r.in.srtm/r.in.srtm.py: E722
+    scripts/r.fillnulls/r.fillnulls.py: E722
+    scripts/d.rast.edit/d.rast.edit.py: E722
+    scripts/v.what.strds/v.what.strds.py: E722, E501
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
     # Line too long (esp. module interface definitions)
     scripts/*/*.py: E501
     temporal/t.rast.to.vect/t.rast.to.vect.py: E501

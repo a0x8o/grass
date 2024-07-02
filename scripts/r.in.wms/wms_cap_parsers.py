@@ -341,7 +341,11 @@ class WMTSCapabilitiesTree(BaseCapabilitiesTree):
         layers = self._findall(contents, "Layer", self.xml_ns.NsWmts)
         for layer in layers:
             if not self._checkLayer(layer):
+<<<<<<< HEAD
                 gs.debug("Removed invalid <Layer> element.", 4)
+=======
+                grass.debug("Removed invalid <Layer> element.", 4)
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
                 contents.remove(layer)
 
         # are there any <Layer> elements after the check
@@ -567,7 +571,11 @@ class OnEarthCapabilitiesTree(BaseCapabilitiesTree):
 
         for layer in layers:
             if not self._checkLayer(layer):
+<<<<<<< HEAD
                 gs.debug(("Removed invalid <%s> element." % layer.tag), 4)
+=======
+                grass.debug(("Removed invalid <%s> element." % layer.tag), 4)
+>>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
                 parent_layer.remove(layer)
             if layer.tag == "TiledGroups":
                 self._checkLayerTree(layer, False)
