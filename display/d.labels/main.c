@@ -93,6 +93,7 @@ int main(int argc, char **argv)
     if (minreg_opt->answer) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         double minreg = atof(minreg_opt->answer);
 =======
         minreg = atof(minreg_opt->answer);
@@ -100,6 +101,9 @@ int main(int argc, char **argv)
 =======
         minreg = atof(minreg_opt->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        double minreg = atof(minreg_opt->answer);
+>>>>>>> a9d6c00f1e (d.labels: Reduce scope of minreg and maxreg variables in main.c (#3979))
         if (reg < minreg) {
             G_warning(
                 _("Region size is lower than minreg, nothing displayed."));
@@ -110,6 +114,7 @@ int main(int argc, char **argv)
     if (maxreg_opt->answer) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         double maxreg = atof(maxreg_opt->answer);
 =======
         maxreg = atof(maxreg_opt->answer);
@@ -117,6 +122,9 @@ int main(int argc, char **argv)
 =======
         maxreg = atof(maxreg_opt->answer);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        double maxreg = atof(maxreg_opt->answer);
+>>>>>>> a9d6c00f1e (d.labels: Reduce scope of minreg and maxreg variables in main.c (#3979))
         if (reg > maxreg) {
             G_warning(
                 _("Region size is greater than maxreg, nothing displayed."));
