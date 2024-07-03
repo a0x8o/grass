@@ -3877,8 +3877,11 @@ int main(int argc, char *argv[])
     enum OutputFormat format;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 =======
     int *fd, *fdz, cell_type, min, max;
     struct Range zone_range;
@@ -3896,12 +3899,17 @@ int main(int argc, char *argv[])
     int t;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 
     G_gisinit(argv[0]);
 
@@ -4537,6 +4545,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 20c4fef446 (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (strcmp(param.format->answer, "json") == 0) {
+        format = JSON;
+    }
+    else {
+        format = PLAIN;
     }
 
     /* set nprocs parameter */
@@ -11670,10 +11685,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
         print_stats(stats, format);
 =======
         print_stats(stats);
@@ -11686,6 +11704,7 @@ int main(int argc, char *argv[])
 =======
         print_stats(stats, format);
 >>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -11693,6 +11712,8 @@ int main(int argc, char *argv[])
         print_stats(stats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 
     /* release memory */
     free_univar_stat_struct(stats);

@@ -57,10 +57,13 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
         *nprocs, *format;
 =======
         *nprocs;
@@ -73,6 +76,7 @@ typedef struct {
 =======
         *nprocs, *format;
 >>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -80,6 +84,8 @@ typedef struct {
         *nprocs;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
     struct Flag *shell_style, *extended, *table, *use_rast_region;
 } param_type;
 
@@ -97,10 +103,13 @@ void heapsort_int(int *data, size_t n);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 int print_stats(univar_stat *stats, enum OutputFormat format);
 =======
 int print_stats(univar_stat *stats);
@@ -113,6 +122,7 @@ int print_stats(univar_stat *stats);
 =======
 int print_stats(univar_stat *stats, enum OutputFormat format);
 >>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -120,6 +130,8 @@ int print_stats(univar_stat *stats, enum OutputFormat format);
 int print_stats(univar_stat *stats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 int print_stats_table(univar_stat *stats);
 univar_stat *create_univar_stat_struct(int map_type, int n_perc);
 void free_univar_stat_struct(univar_stat *stats);

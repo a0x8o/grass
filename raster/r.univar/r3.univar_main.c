@@ -88,6 +88,9 @@ void set_params(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+    param.format = G_define_standard_option(G_OPT_F_FORMAT);
+    param.format->guisection = _("Print");
+
     return;
 }
 
@@ -181,6 +184,13 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (strcmp(param.format->answer, "json") == 0) {
+        format = JSON;
+    }
+    else {
+        format = PLAIN;
     }
 
     /* table field separator */
@@ -6645,10 +6655,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
         print_stats(stats, format);
 =======
         print_stats(stats);
@@ -6661,6 +6674,7 @@ int main(int argc, char *argv[])
 =======
         print_stats(stats, format);
 >>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -6668,6 +6682,8 @@ int main(int argc, char *argv[])
         print_stats(stats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> cbd32f6608 (r.univar: add JSON support (#3783))
 
     /* release memory */
     free_univar_stat_struct(stats);
