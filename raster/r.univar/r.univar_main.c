@@ -1542,6 +1542,7 @@ int main(int argc, char *argv[])
     int t;
 
     enum OutputFormat format;
+<<<<<<< HEAD
 =======
     int *fd, *fdz, cell_type, min, max;
     struct Range zone_range;
@@ -1554,6 +1555,8 @@ int main(int argc, char *argv[])
     const char *mapset, *name;
     int t;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
 
     G_gisinit(argv[0]);
 
@@ -1868,6 +1871,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (strcmp(param.format->answer, "json") == 0) {
+        format = JSON;
+    }
+    else {
+        format = PLAIN;
     }
 
     /* set nprocs parameter */
@@ -4785,6 +4795,7 @@ int main(int argc, char *argv[])
     else
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         print_stats(stats, format);
 =======
         print_stats(stats);
@@ -4792,6 +4803,9 @@ int main(int argc, char *argv[])
 =======
         print_stats(stats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        print_stats(stats, format);
+>>>>>>> 4fd6484bbb (r.univar: add JSON support (#3783))
 
     /* release memory */
     free_univar_stat_struct(stats);
