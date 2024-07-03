@@ -109,6 +109,7 @@ jobs:
 =======
       BANDIT_VERSION: "1.7.9"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 624d1f632d (CI(deps): Update dependency bandit to v1.7.9 (#3808))
 <<<<<<< HEAD
 >>>>>>> 11d06352a1 (CI(deps): Update dependency bandit to v1.7.9 (#3808))
@@ -196,9 +197,21 @@ jobs:
 =======
 =======
       BANDIT_VERSION: "1.7.9"
+=======
+>>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> 624d1f632d (CI(deps): Update dependency bandit to v1.7.9 (#3808))
+<<<<<<< HEAD
 >>>>>>> 11d06352a1 (CI(deps): Update dependency bandit to v1.7.9 (#3808))
+<<<<<<< HEAD
 >>>>>>> 9083721e54 (Fixes -Wclass-memaccess and -Wdeprecated-declaration warnings0)
+=======
+=======
+=======
+      # renovate: datasource=pypi depName=ruff
+      RUFF_VERSION: "0.5.0"
+>>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+>>>>>>> bb75228712 (checks(ruff): Configure ruff linter (#3972))
+>>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
 
     runs-on: ${{ matrix.os }}
     permissions:
@@ -217,17 +230,23 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
           echo Ruff: ${{ env.RUFF_VERSION }}
 =======
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 =======
           echo Ruff: ${{ env.RUFF_VERSION }}
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+<<<<<<< HEAD
 =======
           echo Ruff: ${{ env.RUFF_VERSION }}
 =======
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
 >>>>>>> ed0e218660 (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+>>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
 
 <<<<<<< HEAD
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -258,6 +277,7 @@ jobs:
         if: ${{ !cancelled() }}
 =======
       - name: Run Ruff
+<<<<<<< HEAD
         run: ruff check --output-format=github . --preview --fix --unsafe-fixes
       - name: Create and uploads code suggestions to apply for Ruff
         # Will fail fast here if there are changes required
@@ -268,6 +288,13 @@ jobs:
         # To run after ruff step exits with failure when rules don't have fixes available
         if: ${{ !cancelled() }}
 >>>>>>> 57856bcbb9 (CI(ruff): Fine tune posting Ruff suggestions (#3978))
+=======
+        run: ruff check --output-format=github . --preview --fix
+      - name: Create and uploads code suggestions to apply for Ruff
+        # Will fail fast here if there are changes required
+        id: diff-ruff
+>>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+>>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
         uses: ./.github/actions/create-upload-suggestions
         with:
           tool-name: ruff
