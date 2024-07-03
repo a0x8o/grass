@@ -2636,10 +2636,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
     struct Option *map_opt, *type_opt, *percentile, *format_opt;
 =======
     struct Option *map_opt, *type_opt, *percentile;
@@ -2652,6 +2655,7 @@ int main(int argc, char *argv[])
 =======
     struct Option *map_opt, *type_opt, *percentile, *format_opt;
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -2659,6 +2663,8 @@ int main(int argc, char *argv[])
     struct Option *map_opt, *type_opt, *percentile;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
 
     module = G_define_module();
     G_add_keyword(_("vector"));
@@ -2733,6 +2739,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+    format_opt = G_define_standard_option(G_OPT_F_FORMAT);
+    format_opt->guisection = _("Print");
+
     G_gisinit(argv[0]);
 
     if (G_parser(argc, argv))
@@ -2772,6 +2781,13 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (strcmp(format_opt->answer, "json") == 0) {
+        format = JSON;
+    }
+    else {
+        format = PLAIN;
     }
 
     otype = Vect_option_to_types(type_opt);
@@ -3217,10 +3233,15 @@ void summary(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
     if (format == JSON) {
         root_value = json_value_init_object();
         if (root_value == NULL) {
@@ -3266,6 +3287,9 @@ void summary(void)
     else if (shell_flag->answer) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
 =======
     if (shell_flag->answer) {
 <<<<<<< HEAD
@@ -3274,6 +3298,7 @@ void summary(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+<<<<<<< HEAD
 =======
 =======
     if (shell_flag->answer) {
@@ -3285,6 +3310,8 @@ void summary(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
         fprintf(stdout, "n=%d\n", count);
         if (geometry->answer) {
             fprintf(stdout, "nzero=%d\n", nzero);
@@ -3395,12 +3422,17 @@ void summary(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
         if (format == JSON) {
             json_object_set_number(root_object, "first_quartile", quartile_25);
             json_object_set_number(root_object, "median", median);
@@ -3435,10 +3467,15 @@ void summary(void)
 =======
         if (shell_flag->answer) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
+>>>>>>> e9ea74ad35 (v.univar: add JSON support (#3784))
             fprintf(stdout, "first_quartile=%g\n", quartile_25);
             fprintf(stdout, "median=%g\n", median);
             fprintf(stdout, "third_quartile=%g\n", quartile_75);
@@ -3523,5 +3560,15 @@ void summary(void)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (format == JSON) {
+        char *serialized_string = json_serialize_to_string_pretty(root_value);
+        if (serialized_string == NULL) {
+            G_fatal_error(_("Failed to initialize pretty JSON string."));
+        }
+        puts(serialized_string);
+        json_free_serialized_string(serialized_string);
+        json_value_free(root_value);
     }
 }
