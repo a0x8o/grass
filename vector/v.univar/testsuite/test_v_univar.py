@@ -172,7 +172,11 @@ skewness: 0.801646"""
             self.assertAlmostEqual(p1["value"], p2["value"])
 
         self.assertCountEqual(list(expected.keys()), list(results.keys()))
+<<<<<<< HEAD
         for key in expected.keys():  # noqa: PLC0206
+=======
+        for key in expected:
+>>>>>>> 74fb85bb38 (v.univar: add JSON support (#3784))
             self.assertAlmostEqual(expected[key], results[key])
 
 
