@@ -159,6 +159,9 @@ void set_params(void)
         _("Table output format instead of standard output format");
     param.table->guisection = _("Formatting");
 
+    param.format = G_define_standard_option(G_OPT_F_FORMAT);
+    param.format->guisection = _("Print");
+
     param.use_rast_region = G_define_flag();
     param.use_rast_region->key = 'r';
     param.use_rast_region->description =
@@ -336,6 +339,8 @@ int main(int argc, char *argv[])
     const char *mapset, *name;
     int t;
 
+    enum OutputFormat format;
+
     G_gisinit(argv[0]);
 
     module = G_define_module();
@@ -421,6 +426,13 @@ int main(int argc, char *argv[])
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+    }
+
+    if (strcmp(param.format->answer, "json") == 0) {
+        format = JSON;
+    }
+    else {
+        format = PLAIN;
     }
 
     /* set nprocs parameter */
@@ -1030,7 +1042,7 @@ int main(int argc, char *argv[])
     if (param.table->answer)
         print_stats_table(stats);
     else
-        print_stats(stats);
+        print_stats(stats, format);
 
     /* release memory */
     free_univar_stat_struct(stats);
