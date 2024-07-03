@@ -99,8 +99,16 @@ jobs:
 =======
 =======
       BANDIT_VERSION: "1.7.9"
+<<<<<<< HEAD
 >>>>>>> 624d1f632d (CI(deps): Update dependency bandit to v1.7.9 (#3808))
+<<<<<<< HEAD
 >>>>>>> 11d06352a1 (CI(deps): Update dependency bandit to v1.7.9 (#3808))
+=======
+=======
+      # renovate: datasource=pypi depName=ruff
+      RUFF_VERSION: "0.5.0"
+>>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+>>>>>>> bb75228712 (checks(ruff): Configure ruff linter (#3972))
 
     runs-on: ${{ matrix.os }}
     permissions:
@@ -117,9 +125,13 @@ jobs:
           echo Pylint: ${{ env.PYLINT_VERSION }}
           echo Bandit: ${{ env.BANDIT_VERSION }}
 <<<<<<< HEAD
+<<<<<<< HEAD
           echo Ruff: ${{ env.RUFF_VERSION }}
 =======
 >>>>>>> 037bf1e53a (CI(python): Keep tools versions updated with env vars and renovate (#3799))
+=======
+          echo Ruff: ${{ env.RUFF_VERSION }}
+>>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 
 <<<<<<< HEAD
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -137,6 +149,7 @@ jobs:
 
       - name: Install Ruff
         run: pip install ruff==${{ env.RUFF_VERSION }}
+<<<<<<< HEAD
       - name: Run Ruff (output annotations on fixable errors)
         run: ruff check --output-format=github . --preview --unsafe-fixes
         continue-on-error: true
@@ -147,6 +160,13 @@ jobs:
         id: diff-ruff
         # To run after ruff step exits with failure when rules don't have fixes available
         if: ${{ !cancelled() }}
+=======
+      - name: Run Ruff
+        run: ruff check --output-format=github . --preview --fix
+      - name: Create and uploads code suggestions to apply for Ruff
+        # Will fail fast here if there are changes required
+        id: diff-ruff
+>>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
         uses: ./.github/actions/create-upload-suggestions
         with:
           tool-name: ruff
