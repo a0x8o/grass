@@ -162,11 +162,16 @@ jobs:
         if: ${{ !cancelled() }}
 =======
       - name: Run Ruff
-        run: ruff check --output-format=github . --preview --fix
+        run: ruff check --output-format=github . --preview --fix --unsafe-fixes
       - name: Create and uploads code suggestions to apply for Ruff
         # Will fail fast here if there are changes required
         id: diff-ruff
+<<<<<<< HEAD
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+        # To run after ruff step exits with failure when rules don't have fixes available
+        if: ${{ !cancelled() }}
+>>>>>>> 57856bcbb9 (CI(ruff): Fine tune posting Ruff suggestions (#3978))
         uses: ./.github/actions/create-upload-suggestions
         with:
           tool-name: ruff

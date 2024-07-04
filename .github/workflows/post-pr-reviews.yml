@@ -86,10 +86,14 @@ jobs:
           # CI_PULL_REQUEST: "" # Populated from reviewdog's "-guess" flag since hard to get
       - name: Post Ruff suggestions
 <<<<<<< HEAD
+<<<<<<< HEAD
         if: ${{ steps.tools.outputs.ruff == 'true' }}
 =======
         if: ${{ steps.tools.outputs.black == 'true' }}
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+        if: ${{ steps.tools.outputs.ruff == 'true' }}
+>>>>>>> 57856bcbb9 (CI(ruff): Fine tune posting Ruff suggestions (#3978))
         run: |
           TMPFILE="diff-${INPUT_TOOL_NAME}.patch"
           GITHUB_ACTIONS="" reviewdog \
