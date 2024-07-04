@@ -779,6 +779,7 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
         double x0bg, y0bg, x1bg, y1bg;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         double bg_w;
 =======
 
@@ -786,6 +787,9 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        double bg_w;
+>>>>>>> ed8e25ac56 (d.legend.vect: Reduce scope of 'bg_w' variable in draw.c (#3980))
         if (title_w > offs_x + maxlblw)
             bg_w = title_w;
         else
