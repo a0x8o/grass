@@ -93,6 +93,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: docker/setup-buildx-action@aa33708b10e362ff993539393ff100fa93ed6a27 # v3.5.0
 >>>>>>> main
 =======
@@ -107,6 +108,12 @@ jobs:
         uses: docker/setup-buildx-action@4fd812986e6c8c2a69e18311145f9371337f27d4 # v3.4.0
 >>>>>>> dd3ca8bfd8 (CI(deps): Update docker/setup-buildx-action action to v3.4.0 (#3982))
 >>>>>>> a637b0f30a (CI(deps): Update docker/setup-buildx-action action to v3.4.0 (#3982))
+=======
+        uses: docker/setup-buildx-action@c47758b77c9736f4b2ef4073d4d51994fabfe349 # v3.7.1
+=======
+        uses: docker/setup-buildx-action@4fd812986e6c8c2a69e18311145f9371337f27d4 # v3.4.0
+>>>>>>> dd3ca8bfd8 (CI(deps): Update docker/setup-buildx-action action to v3.4.0 (#3982))
+>>>>>>> 409c190de6 (CI(deps): Update docker/setup-buildx-action action to v3.4.0 (#3982))
       - name: Login to DockerHub
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567 # v3.3.0
         with:
