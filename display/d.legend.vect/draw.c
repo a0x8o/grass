@@ -1618,10 +1618,13 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fff60765a2 (d.legend.vect: Reduce scope of 'bg_w' variable in draw.c (#3980))
         double bg_w;
 =======
 
@@ -1634,6 +1637,7 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
 =======
         double bg_w;
 >>>>>>> ed8e25ac56 (d.legend.vect: Reduce scope of 'bg_w' variable in draw.c (#3980))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -1641,6 +1645,8 @@ void draw(char *file_name, double LL, double LT, char *title, int cols,
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fff60765a2 (d.legend.vect: Reduce scope of 'bg_w' variable in draw.c (#3980))
         if (title_w > offs_x + maxlblw)
             bg_w = title_w;
         else
