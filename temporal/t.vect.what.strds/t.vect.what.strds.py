@@ -66,6 +66,7 @@
 
 import os
 
+<<<<<<< HEAD
 import grass.script as grass
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +75,9 @@ from grass.script import raster
 >>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 
@@ -107,7 +111,7 @@ def main():
 
     if strds_sp.get_temporal_type() != sp.get_temporal_type():
         dbif.close()
-        grass.fatal(_("Input and aggregation dataset must have the same temporal type"))
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 
     # Check if intervals are present in the sample dataset
     if sp.get_temporal_type() == "absolute":
@@ -117,7 +121,7 @@ def main():
 
     if map_time != "interval":
         dbif.close()
-        grass.fatal(
+        gs.fatal(
             _(
                 "All registered maps of the space time vector "
                 "dataset must have time intervals"
@@ -130,7 +134,7 @@ def main():
 
     if not rows:
         dbif.close()
-        grass.fatal(_("Space time vector dataset <%s> is empty") % sp.get_id())
+        gs.fatal(_("Space time vector dataset <%s> is empty") % sp.get_id())
 
     # Sample the raster dataset with the vector dataset and run v.what.rast
     for row in rows:
@@ -180,23 +184,23 @@ def main():
 
                 try:
                     if layer:
-                        grass.run_command(
+                        gs.run_command(
                             "v.db.addcolumn",
                             map=vectmap,
                             layer=layer,
                             column="%s %s" % (col_name, coltype),
-                            overwrite=grass.overwrite(),
+                            overwrite=gs.overwrite(),
                         )
                     else:
-                        grass.run_command(
+                        gs.run_command(
                             "v.db.addcolumn",
                             map=vectmap,
                             column="%s %s" % (col_name, coltype),
-                            overwrite=grass.overwrite(),
+                            overwrite=gs.overwrite(),
                         )
                 except CalledModuleError:
                     dbif.close()
-                    grass.fatal(
+                    gs.fatal(
                         _("Unable to add column %s to vector map <%s>")
                         % (col_name, vectmap)
                     )
@@ -204,7 +208,7 @@ def main():
                 # Call v.what.rast
                 try:
                     if layer:
-                        grass.run_command(
+                        gs.run_command(
                             "v.what.rast",
                             map=vectmap,
                             layer=layer,
@@ -213,7 +217,7 @@ def main():
                             where=where,
                         )
                     else:
-                        grass.run_command(
+                        gs.run_command(
                             "v.what.rast",
                             map=vectmap,
                             raster=rastermap,
@@ -222,7 +226,7 @@ def main():
                         )
                 except CalledModuleError:
                     dbif.close()
-                    grass.fatal(
+                    gs.fatal(
                         _(
                             "Unable to run v.what.rast for vector map "
                             "<%s> and raster map <%s>"
@@ -232,7 +236,7 @@ def main():
 
                 if aggreagated_map_name:
                     try:
-                        grass.run_command(
+                        gs.run_command(
                             "g.remove",
                             flags="f",
                             type="raster",
@@ -240,7 +244,7 @@ def main():
                         )
                     except CalledModuleError:
                         dbif.close()
-                        grass.fatal(
+                        gs.fatal(
                             _("Unable to remove raster map <%s>")
                             % (aggreagated_map_name)
                         )
@@ -253,5 +257,5 @@ def main():
 
 
 if __name__ == "__main__":
-    options, flags = grass.parser()
+    options, flags = gs.parser()
     main()

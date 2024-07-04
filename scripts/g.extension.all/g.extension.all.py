@@ -100,6 +100,7 @@ import xml.etree.ElementTree as etree
 from urllib import request as urlrequest
 from urllib.error import HTTPError, URLError
 
+<<<<<<< HEAD
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
@@ -146,6 +147,9 @@ from six.moves.urllib.error import HTTPError, URLError
 
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 
 HEADERS = {
@@ -157,7 +161,7 @@ HTTP_STATUS_CODES = list(http.HTTPStatus)
 def get_extensions():
     addon_base = os.getenv("GRASS_ADDON_BASE")
     if not addon_base:
-        gscript.fatal(_("%s not defined") % "GRASS_ADDON_BASE")
+        gs.fatal(_("%s not defined") % "GRASS_ADDON_BASE")
     fXML = os.path.join(addon_base, "modules.xml")
     if not os.path.exists(fXML):
         return []
@@ -167,13 +171,13 @@ def get_extensions():
     try:
         tree = etree.fromstring(fo.read())
     except Exception as e:
-        gscript.error(_("Unable to parse metadata file: %s") % e)
+        gs.error(_("Unable to parse metadata file: %s") % e)
         fo.close()
         return []
 
     fo.close()
 
-    libgis_rev = gscript.version()["libgis_revision"]
+    libgis_rev = gs.version()["libgis_revision"]
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")
@@ -206,7 +210,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
         if not response.code == 200:
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
-            gscript.fatal(
+            gs.fatal(
                 _(
                     "Download file from <{url}>, "
                     "return status code {code}, "
@@ -218,7 +222,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 ),
             )
         if response_format not in response.getheader("Content-Type"):
-            gscript.fatal(
+            gs.fatal(
                 _(
                     "Wrong file format downloaded. "
                     "Check url <{url}>. Allowed file format is "
@@ -232,7 +236,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 
     except HTTPError as err:
         if err.code == 404:
-            gscript.fatal(
+            gs.fatal(
                 _(
                     "The download of the modules.xml file "
                     "from the server was not successful. "
@@ -246,7 +250,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 response_format=response_format,
             )
     except URLError:
-        gscript.fatal(
+        gs.fatal(
             _(
                 "Download file from <{url}>, "
                 "failed. Check internet connection.".format(
@@ -275,7 +279,7 @@ def find_addon_name(addons):
     if grass_version != "unknown":
         major, minor, patch = grass_version.split(".")
     else:
-        gscript.fatal(_("Unable to get GRASS GIS version."))
+        gs.fatal(_("Unable to get GRASS GIS version."))
     url = "https://grass.osgeo.org/addons/grass{major}/modules.xml".format(
         major=major,
     )
@@ -295,7 +299,7 @@ def find_addon_name(addons):
                     found = True
                     break
         if not found:
-            gscript.warning(
+            gs.warning(
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official "
@@ -308,36 +312,34 @@ def find_addon_name(addons):
 def main():
     remove = options["operation"] == "remove"
     if remove or flags["f"]:
-        extensions = gscript.read_command(
-            "g.extension", quiet=True, flags="a"
-        ).splitlines()
+        extensions = gs.read_command("g.extension", quiet=True, flags="a").splitlines()
     else:
         extensions = get_extensions()
 
     if not extensions:
         if remove:
-            gscript.info(_("No extension found. Nothing to remove."))
+            gs.info(_("No extension found. Nothing to remove."))
         else:
-            gscript.info(
+            gs.info(
                 _("Nothing to rebuild. Rebuilding process can be forced with -f flag.")
             )
         return 0
 
     if remove and not flags["f"]:
-        gscript.message(_("List of extensions to be removed:"))
+        gs.message(_("List of extensions to be removed:"))
         print(os.linesep.join(extensions))
-        gscript.message(
+        gs.message(
             _("You must use the force flag (-f) to actually remove them. Exiting.")
         )
         return 0
 
     for ext in find_addon_name(addons=extensions):
-        gscript.message("-" * 60)
+        gs.message("-" * 60)
         if remove:
-            gscript.message(_("Removing extension <%s>...") % ext)
+            gs.message(_("Removing extension <%s>...") % ext)
         else:
-            gscript.message(_("Reinstalling extension <%s>...") % ext)
-        gscript.message("-" * 60)
+            gs.message(_("Reinstalling extension <%s>...") % ext)
+        gs.message("-" * 60)
         if remove:
             operation = "remove"
             operation_flags = "f"
@@ -345,15 +347,15 @@ def main():
             operation = "add"
             operation_flags = ""
         try:
-            gscript.run_command(
+            gs.run_command(
                 "g.extension", flags=operation_flags, extension=ext, operation=operation
             )
         except CalledModuleError:
-            gscript.error(_("Unable to process extension:%s") % ext)
+            gs.error(_("Unable to process extension:%s") % ext)
 
     return 0
 
 
 if __name__ == "__main__":
-    options, flags = gscript.parser()
+    options, flags = gs.parser()
     sys.exit(main())
