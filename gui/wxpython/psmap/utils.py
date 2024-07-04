@@ -1454,11 +1454,14 @@ def getRasterType(map):
     if file.get("file"):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rasterType = gs.raster_info(map)["datatype"]
         return rasterType
 =======
 =======
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         return gs.raster_info(map)["datatype"]
 <<<<<<< HEAD
 >>>>>>> main
@@ -1467,15 +1470,21 @@ def getRasterType(map):
 =======
     return None
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
         rasterType = gs.raster_info(map)["datatype"]
         return rasterType
     else:
         return None
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def BBoxAfterRotation(w, h, angle):

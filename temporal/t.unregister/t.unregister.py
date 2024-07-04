@@ -51,6 +51,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 =======
 import grass.script as grass
@@ -61,6 +64,7 @@ import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 import grass.script as gs
 =======
@@ -73,6 +77,8 @@ import grass.script as grass
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 # lazy imports at the end of the file
 

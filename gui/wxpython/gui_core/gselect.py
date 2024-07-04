@@ -5051,10 +5051,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             elif gs.find_program(self._psql, "--help"):
                 if not self.dbWidgets["choice"].GetItems():
                     p = gs.Popen([self._psql, "-ltA"], stdout=gs.PIPE)
@@ -5073,15 +5076,21 @@ class GdalSelect(wx.Panel):
                     p = grass.Popen([self._psql, "-ltA"], stdout=grass.PIPE)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
             elif gs.find_program(self._psql, "--help"):
                 if not self.dbWidgets["choice"].GetItems():
                     p = gs.Popen([self._psql, "-ltA"], stdout=gs.PIPE)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     ret = p.communicate()[0]
                     if ret:
                         dbNames = []
@@ -5128,10 +5137,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 p = gs.Popen(
 =======
                 p = grass.Popen(
@@ -5144,6 +5156,7 @@ class GdalSelect(wx.Panel):
 =======
                 p = gs.Popen(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -5151,6 +5164,8 @@ class GdalSelect(wx.Panel):
                 p = grass.Popen(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     [
                         self._psql,
                         "-t",
@@ -5164,10 +5179,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     stdout=gs.PIPE,
 =======
                     stdout=grass.PIPE,
@@ -5180,6 +5198,7 @@ class GdalSelect(wx.Panel):
 =======
                     stdout=gs.PIPE,
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -5187,6 +5206,8 @@ class GdalSelect(wx.Panel):
                     stdout=grass.PIPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 )
                 ret, error = p.communicate()
                 if error:
@@ -5242,16 +5263,23 @@ class GdalSelect(wx.Panel):
                                     conn_param="host",
                                 ),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 error=gs.utils.decode(error),
 =======
                                 error=grass.utils.decode(error),
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+                                error=gs.utils.decode(error),
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                             ),
                         ),
                     )
                 if ret:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     raster_srid = grass.utils.decode(ret).replace(os.linesep, "")
                     location_srid = grass.parse_command("g.proj", flags="g")
 <<<<<<< HEAD
@@ -5262,6 +5290,7 @@ class GdalSelect(wx.Panel):
                     raster_srid = gs.utils.decode(ret).replace(os.linesep, "")
                     location_srid = gs.parse_command("g.proj", flags="g")
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
                     raster_srid = grass.utils.decode(ret).replace(os.linesep, "")
                     location_srid = grass.parse_command("g.proj", flags="g")
@@ -5273,6 +5302,8 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     if raster_srid == location_srid["srid"].split(":")[-1]:
                         projectionMatch = "1"
             else:
@@ -7022,10 +7053,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         p = gs.Popen(
 =======
         p = grass.Popen(
@@ -7038,6 +7072,7 @@ class GdalSelect(wx.Panel):
 =======
         p = gs.Popen(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7045,6 +7080,8 @@ class GdalSelect(wx.Panel):
         p = grass.Popen(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             [
                 self._psql,
                 "-t",
@@ -7058,10 +7095,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             stdout=gs.PIPE,
 =======
             stdout=grass.PIPE,
@@ -7074,6 +7114,7 @@ class GdalSelect(wx.Panel):
 =======
             stdout=gs.PIPE,
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7081,6 +7122,8 @@ class GdalSelect(wx.Panel):
             stdout=grass.PIPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         )
         ret, error = p.communicate()
         if error:
@@ -7132,16 +7175,23 @@ class GdalSelect(wx.Panel):
                             conn_param="host",
                         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
                         error=gs.utils.decode(error),
 =======
                         error=grass.utils.decode(error),
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+                        error=gs.utils.decode(error),
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     ),
                 ),
             )
         if ret:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             ret = grass.utils.decode(ret)
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7150,6 +7200,7 @@ class GdalSelect(wx.Panel):
 =======
             ret = gs.utils.decode(ret)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
             ret = grass.utils.decode(ret)
 <<<<<<< HEAD
@@ -7160,6 +7211,8 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             tables = [i.strip() for i in ret.split(os.linesep) if i]
         Debug.msg(3, f"GdalSelect._getPGDBtables(): return {tables}")
         return tables
@@ -7214,10 +7267,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         if gs.find_program(self._psql, "--help"):
 =======
         if grass.find_program(self._psql, "--help"):
@@ -7230,6 +7286,7 @@ class GdalSelect(wx.Panel):
 =======
         if gs.find_program(self._psql, "--help"):
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7237,6 +7294,8 @@ class GdalSelect(wx.Panel):
         if grass.find_program(self._psql, "--help"):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             tables = self._getPGDBtables(dsn)
             # Get tables columns data types list
             if tables:
@@ -7249,10 +7308,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 p = gs.Popen(
 =======
                 p = grass.Popen(
@@ -7265,6 +7327,7 @@ class GdalSelect(wx.Panel):
 =======
                 p = gs.Popen(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7272,6 +7335,8 @@ class GdalSelect(wx.Panel):
                 p = grass.Popen(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     [
                         self._psql,
                         "-t",
@@ -7287,10 +7352,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     stdout=gs.PIPE,
 =======
                     stdout=grass.PIPE,
@@ -7303,6 +7371,7 @@ class GdalSelect(wx.Panel):
 =======
                     stdout=gs.PIPE,
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7310,6 +7379,8 @@ class GdalSelect(wx.Panel):
                     stdout=grass.PIPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 )
                 ret, error = p.communicate()
                 if error:
@@ -7358,6 +7429,9 @@ class GdalSelect(wx.Panel):
                                     conn_param="host",
                                 ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                                 error=gs.utils.decode(error),
                             ),
 <<<<<<< HEAD
@@ -7385,10 +7459,13 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     tables_cols = gs.utils.decode(ret)
 =======
                     tables_cols = grass.utils.decode(ret)
@@ -7401,6 +7478,7 @@ class GdalSelect(wx.Panel):
 =======
                     tables_cols = gs.utils.decode(ret)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -7408,6 +7486,8 @@ class GdalSelect(wx.Panel):
                     tables_cols = grass.utils.decode(ret)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     rasters_cols = re.findall(
                         rf".*.{raster_col_type}",
                         tables_cols,

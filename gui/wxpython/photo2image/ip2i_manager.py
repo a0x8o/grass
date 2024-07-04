@@ -2960,6 +2960,9 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         self.resize = gs.clock()
 =======
         self.resize = grass.clock()
@@ -2970,6 +2973,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
         self.resize = gs.clock()
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
         self.resize = gs.clock()
 =======
@@ -2982,6 +2986,8 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         super(MapPanel, self).OnSize(event)
 
     def OnIdle(self, event):

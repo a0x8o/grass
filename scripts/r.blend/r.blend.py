@@ -128,6 +128,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(_("Done. Use the following command to visualize the result:"))
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 =======
@@ -153,13 +154,22 @@ def main():
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.message(_("Done. Use the following command to visualize the result:"))
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 =======
         gscript.message(_("Done. Use the following command to visualize the result:"))
         gscript.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+        gs.message(_("Done. Use the following command to visualize the result:"))
+        gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 if __name__ == "__main__":

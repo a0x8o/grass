@@ -74,6 +74,7 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -94,11 +95,19 @@ import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 =======
 import grass.script as grass
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 ############################################################################
 
@@ -172,8 +181,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(_("Unable to determine successor and predecessor of a gap."))
 
         if len(_map.get_precedes()) > 1:
@@ -202,18 +214,24 @@ def main():
 =======
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
             gs.fatal(_("Unable to determine successor and predecessor of a gap."))
 
         if len(_map.get_precedes()) > 1:
             gs.warning(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("More than one successor of the gap found. Using the first found.")
             )
 

@@ -169,8 +169,17 @@ from grass.script import raster
 =======
 =======
 >>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 8433de61b2 (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 07a13705fd (style(temporal): Sort and group imports (#3959))
+=======
+=======
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 
@@ -207,6 +216,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
 <<<<<<< HEAD
@@ -227,11 +237,19 @@ def main():
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
         grass.fatal(_("Input and aggregation dataset must have the same temporal type"))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # Check if intervals are present in the sample dataset
     if sp.get_temporal_type() == "absolute":

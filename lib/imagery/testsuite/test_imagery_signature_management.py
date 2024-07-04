@@ -1072,6 +1072,9 @@ import grass.script as gs
 from grass.script.core import tempname
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as grass
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1079,6 +1082,7 @@ import grass.script as grass
 from grass.script.core import tempname
 import grass.script as grass
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import grass.script as gs
@@ -1089,6 +1093,11 @@ import grass.script as grass
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.pygrass import utils
 from grass.pygrass.gis import Mapset, make_mapset
 
@@ -113098,10 +113107,13 @@ class SignaturesListByTypeTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
 =======
         grass.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
@@ -113114,6 +113126,7 @@ class SignaturesListByTypeTestCase(TestCase):
 =======
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -113121,11 +113134,14 @@ class SignaturesListByTypeTestCase(TestCase):
         grass.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         # Search path is cached for this run => reset!
         G_reset_mapsets()
         ret = I_signatures_list_by_type(
             I_SIGFILE_TYPE_SIG, None, ctypes.byref(sig_list)
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113137,6 +113153,10 @@ class SignaturesListByTypeTestCase(TestCase):
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="remove")
         G_reset_mapsets()
 <<<<<<< HEAD
@@ -116841,10 +116861,15 @@ class SignaturesListByTypeTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
         # Search path is cached for this run => reset!
         G_reset_mapsets()
@@ -118171,10 +118196,15 @@ class SignaturesListByTypeTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> f201ec2860 (ci: Ignore paths in CodeQL (#1778))
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
         # Search path is cached for this run => reset!
         G_reset_mapsets()

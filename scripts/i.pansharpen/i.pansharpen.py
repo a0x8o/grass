@@ -638,8 +638,11 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 800fbf33e4 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
     except CalledModuleError:
 =======
@@ -647,6 +650,9 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
             "g.remove", flags="f", quiet=True, type="raster", name=panmatch
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))

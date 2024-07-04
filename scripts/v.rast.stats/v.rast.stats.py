@@ -416,6 +416,7 @@ def set_up_columns(vector, layer, percentile, colprefix, basecols, dbfdriver, c)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.fatal(
 =======
 <<<<<<< HEAD
@@ -436,11 +437,19 @@ def set_up_columns(vector, layer, percentile, colprefix, basecols, dbfdriver, c)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.fatal(
 =======
                 grass.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     (_("Cannot create column <%s> (already present). ") % currcolumn)
                     + _("Use -c flag to update values in this column.")
                 )

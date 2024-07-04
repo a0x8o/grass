@@ -1246,6 +1246,7 @@ class VectorColorTable(ColorTable):
         """Check if current vector is in current mapset"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             gs.find_file(name=self.inmap, element="vector")["mapset"]
             == gs.gisenv()["MAPSET"]
@@ -1256,13 +1257,18 @@ class VectorColorTable(ColorTable):
 =======
 =======
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         return bool(
             gs.find_file(name=self.inmap, element="vector")["mapset"]
             == gs.gisenv()["MAPSET"]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
         if (
             gs.find_file(name=self.inmap, element="vector")["mapset"]
@@ -1272,7 +1278,10 @@ class VectorColorTable(ColorTable):
         else:
             return False
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     def NoConnection(self, vectorName):
         dlg = wx.MessageDialog(

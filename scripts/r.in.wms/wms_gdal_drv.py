@@ -19,13 +19,19 @@ try:
     from osgeo import gdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 except ImportError:
 =======
 except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 except ImportError:
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' being "

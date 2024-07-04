@@ -128,6 +128,7 @@ from grass.exceptions import FatalError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 from grass.exceptions import FatalError
 
@@ -143,6 +144,9 @@ from grass.exceptions import FatalError
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 =======
 import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import FatalError
 
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))

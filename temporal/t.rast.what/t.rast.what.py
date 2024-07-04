@@ -109,6 +109,7 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -129,11 +130,19 @@ import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 =======
 import grass.script as gscript
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 ############################################################################
 

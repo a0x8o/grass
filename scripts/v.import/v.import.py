@@ -127,6 +127,7 @@ def gdal_version():
     """Returns the GDAL version as tuple"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     version = gs.parse_command("g.version", flags="reg")["gdal"]
     return version
 =======
@@ -135,10 +136,16 @@ def gdal_version():
 =======
     return gs.parse_command("g.version", flags="reg")["gdal"]
 =======
+    return gs.parse_command("g.version", flags="reg")["gdal"]
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
     version = gs.parse_command("g.version", flags="reg")["gdal"]
     return version
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def GDAL_COMPUTE_VERSION(maj, min, rev):
@@ -283,13 +290,19 @@ def main():
                 from osgeo import gdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
             except ImportError:
 >>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "
@@ -366,13 +379,19 @@ def main():
                 from osgeo import gdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
             except ImportError:
 >>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "

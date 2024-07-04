@@ -116,6 +116,7 @@ def reclass(inf, outf, lim, clump, diag, les):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.message(
 =======
 <<<<<<< HEAD
@@ -136,11 +137,19 @@ def reclass(inf, outf, lim, clump, diag, les):
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.message(
 =======
             grass.message(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Generating a clumped raster file including diagonal neighbors...")
             )
             gs.run_command("r.clump", flags="d", input=infile, output=clumpfile)
@@ -172,6 +181,7 @@ def reclass(inf, outf, lim, clump, diag, les):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 =======
 <<<<<<< HEAD
@@ -192,11 +202,19 @@ def reclass(inf, outf, lim, clump, diag, les):
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 =======
     if grass.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+    if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         sflags += "i"
     p1 = gs.pipe_command("r.stats", flags=sflags, input=(clumpfile, infile), sep=";")
     p2 = gs.feed_command("r.reclass", input=clumpfile, output=recfile, rules="-")
@@ -219,8 +237,11 @@ def reclass(inf, outf, lim, clump, diag, les):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
             )
@@ -252,8 +273,11 @@ def reclass(inf, outf, lim, clump, diag, les):
 =======
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
@@ -261,10 +285,13 @@ def reclass(inf, outf, lim, clump, diag, les):
         else:
             gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("No areas of size greater than or equal to %f hectares found.")
                 % limit
             )

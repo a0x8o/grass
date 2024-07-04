@@ -872,8 +872,11 @@ class PyShellWindow(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
 =======
 <<<<<<< HEAD
@@ -905,6 +908,9 @@ class PyShellWindow(wx.Panel):
 =======
 =======
             "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+=======
+            "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         }
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
 >>>>>>> d449c4afcc (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))

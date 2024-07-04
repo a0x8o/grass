@@ -81,8 +81,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9bf98ea03b (Reduce usage of bare except (#1608))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             ea = float(gs.utils.float_or_dms(options["easting"]))
             no = float(gs.utils.float_or_dms(options["northing"]))
         except Exception:
@@ -94,14 +97,20 @@ def main():
             gscript.fatal(_("Input coordinates seems to be invalid"))
 >>>>>>> 6c3f79e423 (Reduce usage of bare except (#1608))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
             ea = float(gs.utils.float_or_dms(options["easting"]))
             no = float(gs.utils.float_or_dms(options["northing"]))
         except Exception:
             gs.fatal(_("Input coordinates seems to be invalid"))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 9bf98ea03b (Reduce usage of bare except (#1608))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     el = float(options["elevation"])
 
     # reg = gscript.region()

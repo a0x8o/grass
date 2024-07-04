@@ -883,6 +883,7 @@ from urllib.error import HTTPError, URLError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
@@ -1048,6 +1049,12 @@ import grass.script as gs
 =======
 >>>>>>> 63ea19eb4b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> e86959eb0c (wxpyimgview: explicit conversion to int (#2704))
+=======
+import grass.script as gs
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
@@ -1144,6 +1151,7 @@ import grass.script as gscript
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
@@ -1172,9 +1180,12 @@ import grass.script as gscript
 >>>>>>> osgeo-main
 =======
 =======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
 =======
 import grass.script as gs
 >>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 <<<<<<< HEAD
@@ -1480,6 +1491,9 @@ import grass.script as gscript
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 
 HEADERS = {
@@ -1510,6 +1524,7 @@ def get_extensions():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     libgis_rev = gs.version()["libgis_revision"]
 =======
 <<<<<<< HEAD
@@ -1530,11 +1545,19 @@ def get_extensions():
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     libgis_rev = gs.version()["libgis_revision"]
 =======
     libgis_rev = gscript.version()["libgis_revision"]
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 >>>>>>> bb7ff0932b (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+=======
+=======
+    libgis_rev = gs.version()["libgis_revision"]
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")
@@ -1604,6 +1627,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
             gs.fatal(
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1614,6 +1638,8 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
             desc = HTTP_STATUS_CODES[index].description
             gscript.fatal(
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "Download file from <{url}>, "
                     "return status code {code}, "
@@ -1626,10 +1652,14 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
             )
         if response_format not in response.getheader("Content-Type"):
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
             gscript.fatal(
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+            gs.fatal(
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "Wrong file format downloaded. "
                     "Check url <{url}>. Allowed file format is "
@@ -1662,10 +1692,13 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(
 =======
             gscript.fatal(
@@ -1678,6 +1711,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 =======
             gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -1685,6 +1719,8 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
             gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "The download of the modules.xml file "
                     "from the server was not successful. "
@@ -1728,10 +1764,13 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.fatal(
             _("Download file from <{url}>, failed. Check internet connection.").format(
                 url=url,
@@ -1746,9 +1785,12 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 =======
         gs.fatal(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
         gscript.fatal(
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _(
                 "Download file from <{url}>, "
                 "failed. Check internet connection.".format(
@@ -1796,10 +1838,13 @@ def find_addon_name(addons):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.fatal(_("Unable to get GRASS GIS version."))
 =======
         gscript.fatal(_("Unable to get GRASS GIS version."))
@@ -1812,6 +1857,7 @@ def find_addon_name(addons):
 =======
         gs.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -1819,6 +1865,8 @@ def find_addon_name(addons):
         gscript.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     url = "https://grass.osgeo.org/addons/grass{major}/modules.xml".format(
         major=major,
     )
@@ -1866,10 +1914,13 @@ def find_addon_name(addons):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.warning(
                 _(
                     "The <{}> addon cannot be reinstalled. "
@@ -1886,9 +1937,12 @@ def find_addon_name(addons):
 =======
             gs.warning(
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
             gscript.warning(
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official "
@@ -1942,6 +1996,9 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.message("-" * 60)
 =======
 =======
@@ -1951,6 +2008,7 @@ def main():
 =======
         gs.message("-" * 60)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -1961,6 +2019,8 @@ def main():
         gscript.message("-" * 60)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         if remove:
             gs.message(_("Removing extension <%s>...") % ext)
         else:

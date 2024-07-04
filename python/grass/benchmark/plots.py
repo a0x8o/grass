@@ -28,10 +28,13 @@ def get_pyplot(to_file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     import matplotlib as mpl  # pylint: disable=import-outside-toplevel
 
     backend = "agg" if to_file else None
@@ -48,9 +51,12 @@ def get_pyplot(to_file):
 =======
     import matplotlib as mpl  # pylint: disable=import-outside-toplevel
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
     import matplotlib  # pylint: disable=import-outside-toplevel
 >>>>>>> fbe1fc358a (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     if to_file:
         backend = "agg"
@@ -59,6 +65,9 @@ def get_pyplot(to_file):
     if backend:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         matplotlib.use(backend)
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -67,6 +76,7 @@ def get_pyplot(to_file):
 =======
         mpl.use(backend)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
         matplotlib.use(backend)
 <<<<<<< HEAD
@@ -77,6 +87,8 @@ def get_pyplot(to_file):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     import matplotlib.pyplot as plt  # pylint: disable=import-outside-toplevel
 

@@ -171,8 +171,11 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.message(_("Cleaning up ..."))
     gs.try_remove(tempfile)
     gs.message(_("Done."))
@@ -198,16 +201,22 @@ def main():
 >>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
     gs.message(_("Cleaning up ..."))
     gs.try_remove(tempfile)
     gs.message(_("Done."))
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def import_aster(proj, srcfile, tempfile, output, band):

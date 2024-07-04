@@ -20,12 +20,18 @@ This program is free software under the GNU General Public License
 import socket
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 import grass.script as gs
 
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from time import sleep
 
 import grass.script as gs
@@ -34,13 +40,19 @@ try:
     from osgeo import gdal
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 except ImportError:
 =======
 except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 except ImportError:
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' "
@@ -50,6 +62,9 @@ except ImportError:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 import numpy as np
 
@@ -59,8 +74,11 @@ from math import pi, floor
 
 from urllib.error import HTTPError
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from http.client import HTTPException
 from math import floor, pi
 from urllib.error import HTTPError
@@ -334,6 +352,9 @@ class WMSDrv(WMSBase):
         lookup = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             np.arange(256),
             np.arange(256),
             np.arange(256),
@@ -342,11 +363,14 @@ class WMSDrv(WMSBase):
             np.arrayrange(256),
             np.arrayrange(256),
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 =======
             np.arange(256),
             np.arange(256),
             np.arange(256),
 >>>>>>> 333cadc59a (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             np.ones(256) * 255,
         ]
 
@@ -898,6 +922,7 @@ class WMTSRequestMgr(BaseRequestMgr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.warning("switch")
 =======
 <<<<<<< HEAD
@@ -918,11 +943,19 @@ class WMTSRequestMgr(BaseRequestMgr):
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 >>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.warning("switch")
 =======
             grass.warning("switch")
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+            gs.warning("switch")
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             (tl_corner["minx"], tl_corner["maxy"]) = (
                 tl_corner["maxy"],
                 tl_corner["minx"],

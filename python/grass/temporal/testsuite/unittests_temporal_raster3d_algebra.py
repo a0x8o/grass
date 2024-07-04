@@ -12,8 +12,11 @@ import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 <<<<<<< HEAD
 =======
@@ -33,11 +36,17 @@ import grass.temporal as tgis
 =======
 import grass.script
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import grass.script as gs
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test

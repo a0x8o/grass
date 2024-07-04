@@ -1762,8 +1762,11 @@ class RasterLegend(InstructionObject):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             rinfo = gs.raster_info(raster)
 =======
 <<<<<<< HEAD
@@ -1777,11 +1780,17 @@ class RasterLegend(InstructionObject):
 =======
             rinfo = grass.raster_info(raster)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             rinfo = gs.raster_info(raster)
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 =======
 >>>>>>> 9c2b3b51c8 (style(gui): Fixes literal-membership (PLR6201) (#3952))
+=======
+=======
+            rinfo = gs.raster_info(raster)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             if rinfo["datatype"] in {"DCELL", "FCELL"}:
                 minim, maxim = rinfo["min"], rinfo["max"]
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))
