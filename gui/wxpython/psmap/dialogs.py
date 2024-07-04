@@ -51,8 +51,13 @@ else:
     from wx import PyValidator as Validator
 
 import grass.script as gs
+<<<<<<< HEAD
 from core.gcmd import GError, GMessage, RunCommand
 from core.utils import PilImageToWxImage, cmp
+=======
+
+from core.utils import PilImageToWxImage
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from dbmgr.vinfo import VectorDBInfo
 from gui_core.dialogs import SymbolDialog
 from gui_core.gselect import Select

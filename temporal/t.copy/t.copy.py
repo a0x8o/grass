@@ -48,6 +48,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -59,6 +60,9 @@ import grass.script as gs
 >>>>>>> main
 =======
 import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -101,6 +105,7 @@ def main():
     # Get the current mapset to create the id of the space time dataset
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mapset = gs.gisenv()["MAPSET"]
 =======
     mapset = gscript.gisenv()["MAPSET"]
@@ -108,6 +113,9 @@ def main():
 =======
     mapset = gscript.gisenv()["MAPSET"]
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    mapset = gs.gisenv()["MAPSET"]
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     inname = input
     inmapset = mapset
@@ -121,6 +129,7 @@ def main():
         if outmapset != mapset:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
             gscript.fatal(
@@ -128,6 +137,9 @@ def main():
 =======
             gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("The output dataset <%s> must be in the current mapset<%s>.")
                 % (input, mapset)
             )
@@ -144,6 +156,7 @@ def main():
         dbif.close()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.warning(
 =======
         gscript.warning(
@@ -151,10 +164,14 @@ def main():
 =======
         gscript.warning(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.warning(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _("Empty space-time %s dataset <%s>, nothing to copy") % (maptype, input)
         )
         return
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     overwrite = gs.overwrite()
@@ -164,12 +181,16 @@ def main():
 =======
     overwrite = gscript.overwrite()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    overwrite = gs.overwrite()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # Check the new stds
     new_sp = tgis.check_new_stds(output, stdstype, dbif, overwrite)
 
     new_maps = None
     if copy_maps:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         gs.message(_("Copying %s maps to the current mapset...") % maptype)
@@ -179,6 +200,9 @@ def main():
 =======
         gscript.message(_("Copying %s maps to the current mapset...") % maptype)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.message(_("Copying %s maps to the current mapset...") % maptype)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         new_maps = []
         num_maps = len(old_maps)
         count = 0
@@ -194,6 +218,7 @@ def main():
             if map_mapset != mapset:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 found = gs.find_file(name=map_name, element=element, mapset=mapset)
                 if found["name"] is not None and len(found["name"]) > 0:
                     gs.fatal(
@@ -207,11 +232,17 @@ def main():
                 if found["name"] is not None and len(found["name"]) > 0:
                     gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                found = gs.find_file(name=map_name, element=element, mapset=mapset)
+                if found["name"] is not None and len(found["name"]) > 0:
+                    gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                         _("A %s map <%s> exists already in the current mapset <%s>.")
                         % (maptype, map_name, mapset)
                     )
 
                 kwargs = {maptype: "%s,%s" % (map_id, map_name)}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 gs.run_command("g.copy", **kwargs)
@@ -229,6 +260,12 @@ def main():
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                gs.run_command("g.copy", **kwargs)
+            else:
+                # the map is already in the current mapset
+                gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     _("The %s map <%s> is already in the current mapset, not copying")
                     % (maptype, map_name)
                 )
@@ -273,6 +310,7 @@ def main():
         dbif,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.overwrite(),
 =======
         gscript.overwrite(),
@@ -280,6 +318,9 @@ def main():
 =======
         gscript.overwrite(),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.overwrite(),
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     )
 
     # Register the maps in the database
@@ -309,6 +350,7 @@ def main():
 if __name__ == "__main__":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     options, flags = gs.parser()
 =======
     options, flags = gscript.parser()
@@ -316,4 +358,7 @@ if __name__ == "__main__":
 =======
     options, flags = gscript.parser()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    options, flags = gs.parser()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     main()

@@ -273,7 +273,11 @@ def main():
                 type="area",
                 quiet=quiet,
             )
+<<<<<<< HEAD
         except CalledModuleError:
+=======
+        except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(
                 _(
                     "abandoned. Removing temporary maps, restoring "
@@ -320,7 +324,11 @@ def main():
             holename = prefix + "hole_" + cat
             # GTC Hole is a NULL area in a raster map
             gs.message(_("Filling hole %s of %s") % (hole_n, len(cat_list)))
+<<<<<<< HEAD
             hole_n += 1
+=======
+            hole_n = hole_n + 1
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             # cut out only CAT hole for processing
             try:
                 gs.run_command(

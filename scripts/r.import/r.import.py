@@ -233,6 +233,7 @@ def main():
     # creating a new location with r.in.gdal requires a sanitized env
     env = os.environ.copy()
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = gs.sanitize_mapset_environment(env)
 =======
 <<<<<<< HEAD
@@ -245,7 +246,13 @@ def main():
 =======
     env = grass.sanitize_mapset_environment(env)
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+<<<<<<< HEAD
 >>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+=======
+    env = gs.sanitize_mapset_environment(env)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     parameters = {
         "input": GDALdatasource,
         "output": output,
@@ -284,6 +291,7 @@ def main():
 
     # import into temp location
 <<<<<<< HEAD
+<<<<<<< HEAD
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 =======
 <<<<<<< HEAD
@@ -296,7 +304,13 @@ def main():
 =======
     grass.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+<<<<<<< HEAD
 >>>>>>> 26db9acf7d (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
+=======
+=======
+    gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     parameters = {
         "input": GDALdatasource,
         "output": output,
@@ -315,7 +329,11 @@ def main():
             env=src_env,
         )
         gs.run_command("g.region", vector=tgtregion, env=src_env)
+<<<<<<< HEAD
         parameters["flags"] += region_flag
+=======
+        parameters["flags"] = parameters["flags"] + region_flag
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     try:
         gs.run_command("r.in.gdal", env=src_env, **parameters)
     except CalledModuleError:
@@ -339,10 +357,14 @@ def main():
 
         # switch to target location
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.run_command("g.remove", type="vector", flags="f", name=tgtregion)
 =======
         grass.run_command("g.remove", type="vector", flags="f", name=tgtregion)
 >>>>>>> 746eb86b2e (r.import: avoid duplicated if check (#3847))
+=======
+        gs.run_command("g.remove", type="vector", flags="f", name=tgtregion)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     region = gs.region()
 

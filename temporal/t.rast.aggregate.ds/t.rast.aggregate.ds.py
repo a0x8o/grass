@@ -104,6 +104,7 @@
 # %end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -116,7 +117,13 @@ import grass.script as gs
 =======
 import grass.script as gcore
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 ############################################################################
 
@@ -152,6 +159,7 @@ def main():
     if sampler_sp.get_temporal_type() != sp.get_temporal_type():
         dbif.close()
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
 <<<<<<< HEAD
@@ -164,7 +172,13 @@ def main():
 =======
         gcore.fatal(_("Input and aggregation dataset must have the same temporal type"))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # Check if intervals are present
     if sampler_sp.temporal_extent.get_map_time() != "interval":

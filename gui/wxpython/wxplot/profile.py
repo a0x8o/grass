@@ -19,12 +19,16 @@ import os
 import sys
 import math
 import numpy as np
+<<<<<<< HEAD
 
 from pathlib import Path
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 import wx
 
 from wx.lib import plot
+<<<<<<< HEAD
 <<<<<<< HEAD
 import grass.script as gs
 =======
@@ -38,7 +42,13 @@ import grass.script as gs
 =======
 import grass.script as grass
 >>>>>>> d59d1faa34 (style: Fixes manual-from-import (PLR0402) (#3949))
+<<<<<<< HEAD
 >>>>>>> ebb6f8a179 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from wxplot.base import BasePlotFrame, PlotIcons
 from gui_core.toolbars import BaseToolbar, BaseIcons
 from gui_core.wrap import StockCursor
@@ -485,10 +495,17 @@ class ProfileFrame(BasePlotFrame):
 
                 iterable = (i[1] for i in self.raster[r]["datalist"])
 <<<<<<< HEAD
+<<<<<<< HEAD
                 a = np.fromiter(iterable, np.float)
 =======
                 a = np.fromiter(iterable, float)
 >>>>>>> main
+=======
+                a = np.fromiter(iterable, float)
+=======
+                a = np.fromiter(iterable, np.float)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
                 statstr += "n: %f\n" % a.size
                 statstr += "minimum: %f\n" % np.amin(a)

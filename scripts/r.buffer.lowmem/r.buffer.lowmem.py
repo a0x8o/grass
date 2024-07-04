@@ -92,7 +92,14 @@ def main():
 
     s = gs.read_command("g.proj", flags="j")
     kv = gs.parse_key_val(s)
+<<<<<<< HEAD
     metric = "geodesic" if kv["+proj"] == "longlat" else "squared"
+=======
+    if kv["+proj"] == "longlat":
+        metric = "geodesic"
+    else:
+        metric = "squared"
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     gs.run_command(
         "r.grow.distance", input=input, metric=metric, distance=temp_dist, flags="m"

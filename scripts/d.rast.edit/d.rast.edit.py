@@ -77,8 +77,11 @@
 import sys
 import math
 import atexit
+<<<<<<< HEAD
 from string import digits
 
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 
 from grass.script.setup import set_gui_path
@@ -94,6 +97,7 @@ except ImportError:
             arg = sys.argv[1]
             if arg[0:2] == "--" or arg in {"help", "-help"}:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.parser()
 =======
 <<<<<<< HEAD
@@ -106,7 +110,13 @@ except ImportError:
 =======
                 grass.parser()
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+                gs.parser()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     # Either we didn't call g.parser, or it returned
     # At this point, there's nothing to be done except re-raise the exception
     raise
@@ -657,6 +667,24 @@ def wxGUI():
             if self.angles:
                 self.status["aspect"] = self.angles[row][col]
 
+<<<<<<< HEAD
+=======
+        def force_color(self, val):
+            run("g.region", rows=1, cols=1)
+            run("r.mapcalc", expression="%s = %d" % (self.tempmap, val))
+            run("r.colors", map=self.tempmap, rast=self.inmap)
+            run("r.out.ppm", input=self.tempmap, out=self.tempfile)
+            run("g.remove", flags="f", type="raster", name=self.tempmap)
+
+            tempimg = wx.Image(self.tempfile)
+            gs.try_remove(self.tempfile)
+
+            rgb = tempimg.get(0, 0)
+            color = "#%02x%02x%02x" % rgb
+            self.colors[val] = color
+            tempimg.delete()
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         def get_color(self, val):
             if val not in self.colors:
                 self.colors[val] = "#ffffff"

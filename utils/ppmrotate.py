@@ -110,8 +110,16 @@ def convert_and_rotate(src, dst, flip=False):
     to_png = False
     if dst.lower().endswith(".png"):
         to_png = True
+<<<<<<< HEAD
     # TODO: clean up the file
     tmp_img = gs.tempfile() + ".ppm" if to_png else dst
+=======
+    if to_png:
+        tmp_img = gs.tempfile() + ".ppm"
+        # TODO: clean up the file
+    else:
+        tmp_img = dst
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     write_ppm(tmp_img, ppm)
     if to_png:
         ppmtopng(dst, tmp_img)

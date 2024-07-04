@@ -83,6 +83,7 @@
 # %end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -95,7 +96,13 @@ import grass.script as gs
 =======
 import grass.script as grass
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 # lazy imports at the end of the file
 
@@ -151,6 +158,7 @@ def main():
     if not force:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(_("The following data base element files will be deleted:"))
 =======
         grass.message(_("The following data base element files will be deleted:"))
@@ -158,6 +166,9 @@ def main():
 =======
         grass.message(_("The following data base element files will be deleted:"))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.message(_("The following data base element files will be deleted:"))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     for name in dataset_list:
         name = name.strip()
@@ -165,10 +176,14 @@ def main():
         if not force:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.message(
                 _("{stds}: {gid}").format(stds=sp.get_type().upper(), gid=sp.get_id())
 =======
             grass.message(
+=======
+            gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("{stds}: {gid}".format(stds=sp.get_type().upper(), gid=sp.get_id()))
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -207,6 +222,7 @@ def main():
                     )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 if recursive or clean:
                     gs.message(msg.format(stds=sp.get_type(), gid=sp.get_id()))
@@ -217,6 +233,9 @@ def main():
 =======
                 grass.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                gs.message(_(msg.format(stds=sp.get_type(), gid=sp.get_id())))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             maps = sp.get_registered_maps_as_objects(dbif=dbif)
             map_statement = ""
             count = 1
@@ -229,6 +248,7 @@ def main():
                 if not force:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gs.message(_("- %s") % map.get_name())
 =======
                     grass.message(_("- %s" % map.get_name()))
@@ -236,6 +256,9 @@ def main():
 =======
                     grass.message(_("- %s" % map.get_name()))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    gs.message(_("- %s" % map.get_name()))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     continue
                 if clean and force:
                     if map.get_name() not in name_list:
@@ -271,6 +294,7 @@ def main():
     if not force:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(
             _(
                 "Nothing removed. You must use the force flag (-{flag}) to actually "
@@ -280,6 +304,9 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grass.message(
+=======
+        gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _(
                 "Nothing removed. You must use the force flag (-{flag}) to actually "
                 "remove them.".format(flag="f")

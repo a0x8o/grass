@@ -126,12 +126,16 @@ from grass.exceptions import FatalError
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 from grass.exceptions import FatalError
 
 >>>>>>> osgeo-main
 =======
 import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import FatalError
 
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))

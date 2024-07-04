@@ -1245,6 +1245,7 @@ class VectorColorTable(ColorTable):
     def CheckMapset(self) -> bool:
         """Check if current vector is in current mapset"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             gs.find_file(name=self.inmap, element="vector")["mapset"]
             == gs.gisenv()["MAPSET"]
@@ -1253,11 +1254,25 @@ class VectorColorTable(ColorTable):
         else:
             return False
 =======
+=======
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         return bool(
             gs.find_file(name=self.inmap, element="vector")["mapset"]
             == gs.gisenv()["MAPSET"]
         )
+<<<<<<< HEAD
 >>>>>>> main
+=======
+=======
+        if (
+            gs.find_file(name=self.inmap, element="vector")["mapset"]
+            == gs.gisenv()["MAPSET"]
+        ):
+            return True
+        else:
+            return False
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     def NoConnection(self, vectorName):
         dlg = wx.MessageDialog(

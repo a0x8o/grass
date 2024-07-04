@@ -108,6 +108,7 @@ def main():
     for line in decode(s).splitlines():
         if line == output:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if gs.overwrite():
                 gs.warning(
 =======
@@ -124,14 +125,26 @@ def main():
             if grass.overwrite():
                 grass.warning(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            if gs.overwrite():
+                gs.warning(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                     _("Table <%s> already exists and will be overwritten") % output
                 )
                 gs.write_command(
                     "db.execute", input="-", stdin="DROP TABLE %s" % output
                 )
                 break
+<<<<<<< HEAD
             gs.fatal(_("Table <%s> already exists") % output)
+=======
+            else:
+                gs.fatal(_("Table <%s> already exists") % output)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # treat DB as real vector map...
     layer = db_table or None

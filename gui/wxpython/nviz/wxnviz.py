@@ -249,6 +249,10 @@ from core.gcmd import DecodeString
 from core.globalvar import wxPythonPhoenix
 from core.utils import autoCropImageFromFile
 from gui_core.wrap import Rect
+<<<<<<< HEAD
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 log = None
 progress = None

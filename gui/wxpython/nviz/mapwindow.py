@@ -1185,10 +1185,14 @@ class GLWindow(MapWindowBase, glcanvas.GLCanvas):
             return
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         start = gs.clock()
 =======
         start = grass.clock()
 >>>>>>> cc96c2c5e0 (wxGUI/mapwin: disable auto-rendering map completely (resize Map Display window event etc.) (#2018))
+=======
+        start = gs.clock()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         self.resize = False
 

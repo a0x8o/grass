@@ -2199,6 +2199,7 @@ class SwipeMapPanel(DoubleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -2291,6 +2292,12 @@ class SwipeMapPanel(DoubleMapPanel):
         self.resize = gs.clock()
 =======
 >>>>>>> osgeo-main
+=======
+        self.resize = gs.clock()
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         self.resize = grass.clock()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2485,8 +2492,17 @@ class SwipeMapPanel(DoubleMapPanel):
 =======
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> a8044361bc (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+        self.resize = gs.clock()
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         super().OnSize(event)
 =======
         super(SwipeMapPanel, self).OnSize(event)
@@ -4716,6 +4732,7 @@ class SwipeMapPanel(DoubleMapPanel):
                 # remove temporary files
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.try_remove(filename1)
                 gs.try_remove(filename2)
 =======
@@ -4726,6 +4743,10 @@ class SwipeMapPanel(DoubleMapPanel):
                 grass.try_remove(filename1)
                 grass.try_remove(filename2)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                gs.try_remove(filename1)
+                gs.try_remove(filename2)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         callback = _onDone()
         if self._mode == "swipe":

@@ -125,6 +125,7 @@ def main():
 
     # check for gdalinfo (just to check if installation is complete)
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not gs.find_program("gdalinfo", "--help"):
 <<<<<<< HEAD
         gs.fatal(
@@ -147,6 +148,10 @@ def main():
 =======
     if not gscript.find_program("gdalinfo", "--help"):
         gscript.fatal(
+=======
+    if not gs.find_program("gdalinfo", "--help"):
+        gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _("'gdalinfo' not found, install GDAL tools first (http://www.gdal.org)")
         )
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
@@ -159,8 +164,17 @@ def main():
 
     spotdir = os.path.dirname(infile)
     spotname = gs.basename(infile, "hdf")
+<<<<<<< HEAD
     name = rast or spotname
 
+=======
+
+    if rast:
+        name = rast
+    else:
+        name = spotname
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     if not gs.overwrite() and gs.find_file(name)["file"]:
         gs.fatal(_("<%s> already exists. Aborting.") % name)
 

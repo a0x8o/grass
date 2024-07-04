@@ -2774,6 +2774,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
         """Adjust Map Windows after GCP Map Display has been resized"""
         # re-render image on idle
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.resize = gs.clock()
 =======
         self.resize = grass.clock()
@@ -2781,6 +2782,9 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        self.resize = gs.clock()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         super(MapPanel, self).OnSize(event)
 
     def OnIdle(self, event):

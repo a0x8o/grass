@@ -36,6 +36,7 @@ from pathlib import Path
 
 <<<<<<< HEAD
 import grass.script as gs
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 import grass.script as gscript
@@ -43,6 +44,9 @@ import grass.script as gscript
 import grass.script as gs
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+<<<<<<< HEAD
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 
 <<<<<<< HEAD
@@ -51,6 +55,8 @@ from .factory import dataset_factory
 from .register import register_maps_in_space_time_dataset
 =======
 import grass.script as gscript
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
@@ -115,6 +121,7 @@ def _import_raster_maps_from_gdal(
 
         except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -127,7 +134,13 @@ def _import_raster_maps_from_gdal(
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to import/link raster map <%s> from file %s.")
                 % (name, filename)
             )
@@ -141,6 +154,7 @@ def _import_raster_maps_from_gdal(
                 )
             except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
 =======
 <<<<<<< HEAD
@@ -157,7 +171,13 @@ def _import_raster_maps_from_gdal(
                     _("Unable to set the color rules for raster map <%s>.") % name
                 )
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # Set the computational region from the last map imported
     if set_current_region is True:
@@ -186,6 +206,7 @@ def _import_raster_maps(maplist, set_current_region: bool = False) -> None:
 
         except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -198,7 +219,13 @@ def _import_raster_maps(maplist, set_current_region: bool = False) -> None:
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to unpack raster map <%s> from file %s.") % (name, filename)
             )
 
@@ -229,6 +256,7 @@ def _import_vector_maps_from_gml(maplist, overr, exp, location, link) -> None:
 
         except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -241,7 +269,13 @@ def _import_vector_maps_from_gml(maplist, overr, exp, location, link) -> None:
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to import vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -272,6 +306,7 @@ def _import_vector_maps(maplist) -> None:
 
         except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -284,7 +319,13 @@ def _import_vector_maps(maplist) -> None:
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to unpack vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -408,6 +449,7 @@ def import_stds(
         if not gs.compare_key_value_text_files(temp_name, proj_name_tmp, sep="="):
             if overr:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.warning(_("Projection information does not match. Proceeding..."))
 =======
 <<<<<<< HEAD
@@ -424,7 +466,13 @@ def import_stds(
                     _("Projection information does not match. Proceeding...")
                 )
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                gs.warning(_("Projection information does not match. Proceeding..."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             else:
                 diff = "".join(gs.diff_files(temp_name, proj_name))
                 gs.warning(
@@ -435,6 +483,7 @@ def import_stds(
                     ).format(diff=diff)
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gs.fatal(_("Projection information does not match. Aborting."))
 =======
 <<<<<<< HEAD
@@ -447,14 +496,24 @@ def import_stds(
 =======
                 gscript.fatal(_("Projection information does not match. Aborting."))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                gs.fatal(_("Projection information does not match. Aborting."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # Create a new location based on the projection information and switch
     # into it
     old_env = gs.gisenv()
     if location:
         try:
+<<<<<<< HEAD
             proj4_string = Path(proj_file_name).read_text()
+=======
+            proj4_string = open(proj_file_name, "r").read()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.create_location(
                 dbase=old_env["GISDBASE"], location=location, proj4=proj4_string
             )
@@ -482,6 +541,7 @@ def import_stds(
             gs.run_command("t.connect", flags="d")
         except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -494,7 +554,13 @@ def import_stds(
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to create default temporal database in new location %s")
                 % location
             )
@@ -579,6 +645,7 @@ def import_stds(
             or "number_of_maps" not in init
         ):
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
 <<<<<<< HEAD
@@ -591,7 +658,13 @@ def import_stds(
 =======
             gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Key words %(t)s, %(s)s or %(n)s not found in init file.")
                 % {"t": "temporal_type", "s": "semantic_type", "n": "number_of_maps"}
             )
@@ -609,6 +682,7 @@ def import_stds(
 
         if stds_type != type_:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(_("The archive file is of wrong space time dataset type"))
 =======
 <<<<<<< HEAD
@@ -621,7 +695,13 @@ def import_stds(
 =======
             gscript.fatal(_("The archive file is of wrong space time dataset type"))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(_("The archive file is of wrong space time dataset type"))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         # Check the existence of the files
         if format_ == "GTiff":
@@ -629,6 +709,7 @@ def import_stds(
                 filename = row["filename"] + ".tif"
                 if not os.path.exists(filename):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gs.fatal(
 =======
 <<<<<<< HEAD
@@ -641,7 +722,13 @@ def import_stds(
 =======
                     gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                    gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                         _("Unable to find GeoTIFF raster file <%s> in archive.")
                         % filename
                     )
@@ -650,6 +737,7 @@ def import_stds(
                 filename = row["filename"] + ".asc"
                 if not os.path.exists(filename):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gs.fatal(
 =======
 <<<<<<< HEAD
@@ -662,7 +750,13 @@ def import_stds(
 =======
                     gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                    gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                         _("Unable to find AAIGrid raster file <%s> in archive.")
                         % filename
                     )
@@ -671,6 +765,7 @@ def import_stds(
                 filename = row["filename"] + ".xml"
                 if not os.path.exists(filename):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gs.fatal(
 =======
 <<<<<<< HEAD
@@ -683,7 +778,13 @@ def import_stds(
 =======
                     gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                    gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                         _("Unable to find GML vector file <%s> in archive.") % filename
                     )
         elif format_ == "pack":
@@ -694,6 +795,7 @@ def import_stds(
                     filename = row["filename"] + ".pack"
                 if not os.path.exists(filename):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     gs.fatal(
 =======
 <<<<<<< HEAD
@@ -706,7 +808,13 @@ def import_stds(
 =======
                     gscript.fatal(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+                    gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                         _("Unable to find GRASS package file <%s> in archive.")
                         % filename
                     )

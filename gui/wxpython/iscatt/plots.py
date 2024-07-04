@@ -242,6 +242,7 @@ class ScatterPlotWidget(wx.Panel, ManageBusyCursorMixin):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         callafter_list.append([self.axes.draw_artist, [img]])
         callafter_list.append([gs.try_remove, [merged_img.filename]])
 =======
@@ -249,6 +250,15 @@ class ScatterPlotWidget(wx.Panel, ManageBusyCursorMixin):
             ([self.axes.draw_artist, [img]], [gs.try_remove, [merged_img.filename]])
         )
 >>>>>>> main
+=======
+        callafter_list.extend(
+            ([self.axes.draw_artist, [img]], [gs.try_remove, [merged_img.filename]])
+        )
+=======
+        callafter_list.append([self.axes.draw_artist, [img]])
+        callafter_list.append([gs.try_remove, [merged_img.filename]])
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         for cat_id in cats_order:
             if cat_id == 0:

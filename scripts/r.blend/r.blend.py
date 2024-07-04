@@ -126,6 +126,7 @@ def main():
         gs.run_command("r.support", map=output, history=os.environ["CMDLINE"])
     else:
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(_("Done. Use the following command to visualize the result:"))
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 =======
@@ -142,7 +143,14 @@ def main():
         gscript.message(_("Done. Use the following command to visualize the result:"))
         gscript.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+        gs.message(_("Done. Use the following command to visualize the result:"))
+        gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 if __name__ == "__main__":

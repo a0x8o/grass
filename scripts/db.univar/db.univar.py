@@ -137,10 +137,14 @@ def main():
     elif shellstyle:
         # This can be a message or warning in future versions.
         # In version 9, -g may be removed.
-        gscript.verbose(_("The format option is used and -g flag ignored"))
+        gs.verbose(_("The format option is used and -g flag ignored"))
 
+<<<<<<< HEAD
     desc_table = gscript.db_describe(table, database=database, driver=driver)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    desc_table = gs.db_describe(table, database=database, driver=driver)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     if not desc_table:
         gs.fatal(_("Unable to describe table <%s>") % table)
     found = False
@@ -148,6 +152,7 @@ def main():
         if cname == column:
             found = True
             if ctype not in {"INTEGER", "DOUBLE PRECISION"}:
+<<<<<<< HEAD
 <<<<<<< HEAD
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 =======
@@ -161,11 +166,18 @@ def main():
 =======
                 gscript.fatal(_("Column <%s> is not numeric") % cname)
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+                gs.fatal(_("Column <%s> is not numeric") % cname)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     if not found:
         gs.fatal(_("Column <%s> not found in table <%s>") % (column, table))
 
     if output_format == "plain":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
@@ -178,6 +190,10 @@ def main():
         )
         gscript.message(_("Reading column values..."))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.verbose(_("Calculation for column <%s> of table <%s>...") % (column, table))
+        gs.message(_("Reading column values..."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     sql = "SELECT %s FROM %s" % (column, table)
     if where:
@@ -210,6 +226,7 @@ def main():
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("Table <%s> contains no data.") % table)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,11 +249,17 @@ def main():
         if output_format in ["plain", "shell"]:
             gscript.fatal(_("Table <%s> contains no data.") % table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         tmpf.close()
 
     # calculate statistics
     if output_format == "plain":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         gs.verbose(_("Calculating statistics..."))
@@ -245,6 +268,9 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.verbose(_("Calculating statistics..."))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.verbose(_("Calculating statistics..."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     N = 0
     sum = 0.0
@@ -274,6 +300,7 @@ def main():
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
             gs.fatal(_("No non-null values found"))
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,7 +323,12 @@ def main():
         if output_format in ["plain", "shell"]:
             gscript.fatal(_("No non-null values found"))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 25c9f12c84 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         else:
             # We produce valid JSON with a value for n even when the query returned
             # no rows or when all values are nulls.

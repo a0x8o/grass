@@ -32,8 +32,12 @@ except ImportError:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
+<<<<<<< HEAD
 import grass.script as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 import grass.script as gs
 from core import globalvar
@@ -211,6 +215,10 @@ class PsMapFrame(wx.Frame):
         self.getInitMap()
 
         # image path
+<<<<<<< HEAD
+=======
+        env = gs.gisenv()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         self.imgName = gs.tempfile()
 
         # canvas for preview

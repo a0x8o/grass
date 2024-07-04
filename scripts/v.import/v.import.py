@@ -126,11 +126,19 @@ def cleanup():
 def gdal_version():
     """Returns the GDAL version as tuple"""
 <<<<<<< HEAD
+<<<<<<< HEAD
     version = gs.parse_command("g.version", flags="reg")["gdal"]
     return version
 =======
     return gs.parse_command("g.version", flags="reg")["gdal"]
 >>>>>>> main
+=======
+    return gs.parse_command("g.version", flags="reg")["gdal"]
+=======
+    version = gs.parse_command("g.version", flags="reg")["gdal"]
+    return version
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def GDAL_COMPUTE_VERSION(maj, min, rev):
@@ -262,13 +270,22 @@ def main():
     f.write("GUI: text\n")
     f.close()
 
+<<<<<<< HEAD
+=======
+    tgtsrs = gs.read_command("g.proj", flags="j", quiet=True)
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     # create temp location from input without import
     gs.verbose(_("Creating temporary project for <%s>...") % OGRdatasource)
     try:
         if OGRdatasource.lower().endswith("gml"):
             try:
                 from osgeo import gdal
+<<<<<<< HEAD
             except ImportError:
+=======
+            except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "
@@ -343,7 +360,11 @@ def main():
         if OGRdatasource.lower().endswith("gml"):
             try:
                 from osgeo import gdal
+<<<<<<< HEAD
             except ImportError:
+=======
+            except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "

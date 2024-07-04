@@ -2948,7 +2948,11 @@ class CheckListMapset(ListCtrl, listmix.ListCtrlAutoWidthMixin, CheckListCtrlMix
         """Load data into list"""
         self.InsertColumn(0, _("Mapset"))
         self.InsertColumn(1, _("Owner"))
+<<<<<<< HEAD
         # self.InsertColumn(2, _('Group'))
+=======
+        ### self.InsertColumn(2, _('Group'))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gisenv = gs.gisenv()
         locationPath = os.path.join(gisenv["GISDBASE"], gisenv["LOCATION_NAME"])
 

@@ -83,6 +83,7 @@ def main():
     except KeyError:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if gs.vector_db(map):
             gs.fatal(
 =======
@@ -93,11 +94,16 @@ def main():
         if grass.vector_db(map):
             grass.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        if gs.vector_db(map):
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "There is no table connected to layer <{layer}> of <{name}>. "
                     "Run v.db.connect or v.db.addtable first."
                 ).format(name=map, layer=layer)
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         gs.fatal(
@@ -107,6 +113,9 @@ def main():
 =======
         grass.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _(
                 "There is no table connected to <{name}>. "
                 "Run v.db.connect or v.db.addtable first."

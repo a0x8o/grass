@@ -49,6 +49,7 @@
 # %end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 import grass.script as grass
@@ -56,6 +57,9 @@ import grass.script as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 # lazy imports at the end of the file
 
@@ -156,8 +160,15 @@ def main():
                 statement += map.delete(dbif=dbif, update=False, execute=False)
         else:
             gs.warning(
+<<<<<<< HEAD
                 _("Unable to find %s map <%s> in temporal database")
                 % (map.get_type(), map.get_id())
+=======
+                _(
+                    "Unable to find %s map <%s> in temporal database"
+                    % (map.get_type(), map.get_id())
+                )
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             )
 
         count += 1
@@ -170,7 +181,11 @@ def main():
 
     # Update space time datasets
     if input:
+<<<<<<< HEAD
         gs.message(_("Unregister maps from space time dataset <%s>") % (input))
+=======
+        gs.message(_("Unregister maps from space time dataset <%s>" % (input)))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     else:
         gs.message(_("Unregister maps from the temporal database"))
 

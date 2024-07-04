@@ -10,6 +10,7 @@ for details.
 import datetime
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 <<<<<<< HEAD
 =======
@@ -28,6 +29,9 @@ from grass.gunittest.main import test
 import grass.temporal as tgis
 =======
 import grass.script
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test

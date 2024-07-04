@@ -55,8 +55,11 @@
 
 import sys
 import os
+<<<<<<< HEAD
 from operator import itemgetter
 
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 import grass.script as gs
 from grass.script.utils import separator, decode
 

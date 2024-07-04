@@ -18,13 +18,22 @@ This program is free software under the GNU General Public License
 """
 
 import socket
+<<<<<<< HEAD
+=======
+import grass.script as gs
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from time import sleep
 
 import grass.script as gs
 
 try:
     from osgeo import gdal
+<<<<<<< HEAD
 except ImportError:
+=======
+except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' "
@@ -32,6 +41,16 @@ except ImportError:
         )
     )
 
+<<<<<<< HEAD
+=======
+import numpy as np
+
+np.arrayrange = np.arange
+
+from math import pi, floor
+
+from urllib.error import HTTPError
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from http.client import HTTPException
 from math import floor, pi
 from urllib.error import HTTPError
@@ -150,7 +169,12 @@ class WMSDrv(WMSBase):
 
                     sleep(sleep_time)
                     continue
+<<<<<<< HEAD
                 gs.fatal(_("Unable to write data into tempfile.\n%s") % str(e))
+=======
+                else:
+                    gs.fatal(_("Unable to write data into tempfile.\n%s") % str(e))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             finally:
                 temp_tile_opened.close()
 
@@ -280,15 +304,25 @@ class WMSDrv(WMSBase):
         # open source file
         src_ds = gdal.Open(src_filename)
         if src_ds is None:
+<<<<<<< HEAD
             gs.fatal(_("Unable to open %s ") % src_filename)
+=======
+            gs.fatal(_("Unable to open %s " % src_filename))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         src_band = src_ds.GetRasterBand(band_number)
 
         # Build color table
         lookup = [
+<<<<<<< HEAD
             np.arange(256),
             np.arange(256),
             np.arange(256),
+=======
+            np.arrayrange(256),
+            np.arrayrange(256),
+            np.arrayrange(256),
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             np.ones(256) * 255,
         ]
 
@@ -838,6 +872,7 @@ class WMTSRequestMgr(BaseRequestMgr):
         # http://www.landesvermessung.sachsen.de/geoserver/gwc/service/wmts?:
         if s.getcode() == "EPSG:4326" and s.encoding in {"uri", "urn"}:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.warning("switch")
 =======
 <<<<<<< HEAD
@@ -850,7 +885,13 @@ class WMTSRequestMgr(BaseRequestMgr):
 =======
             grass.warning("switch")
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+            gs.warning("switch")
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             (tl_corner["minx"], tl_corner["maxy"]) = (
                 tl_corner["maxy"],
                 tl_corner["minx"],

@@ -389,6 +389,7 @@ from urllib.error import HTTPError, URLError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
@@ -510,6 +511,12 @@ import grass.script as gs
 import grass.script as gs
 =======
 >>>>>>> osgeo-main
+=======
+import grass.script as gs
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from six.moves.urllib import request as urlrequest
 from six.moves.urllib.error import HTTPError, URLError
 
@@ -592,7 +599,9 @@ from six.moves.urllib.error import HTTPError, URLError
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3eda12a66b (wxpyimgview: explicit conversion to int (#2704))
 import grass.script as gscript
+<<<<<<< HEAD
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +639,13 @@ import grass.script as gscript
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.exceptions import CalledModuleError
 
 HEADERS = {
@@ -658,6 +674,7 @@ def get_extensions():
     fo.close()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     libgis_rev = gs.version()["libgis_revision"]
 =======
 <<<<<<< HEAD
@@ -670,7 +687,13 @@ def get_extensions():
 =======
     libgis_rev = gscript.version()["libgis_revision"]
 >>>>>>> 962f525ded (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+<<<<<<< HEAD
 >>>>>>> 324f3cf051 (style: Fixes unnecessary-collection-call (C408) for empty collections (#3945))
+=======
+=======
+    libgis_rev = gs.version()["libgis_revision"]
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")
@@ -731,7 +754,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
         if not response.code == 200:
             index = HTTP_STATUS_CODES.index(response.code)
             desc = HTTP_STATUS_CODES[index].description
-            gscript.fatal(
+            gs.fatal(
                 _(
                     "Download file from <{url}>, "
                     "return status code {code}, "
@@ -743,7 +766,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
                 ),
             )
         if response_format not in response.getheader("Content-Type"):
-            gscript.fatal(
+            gs.fatal(
                 _(
                     "Wrong file format downloaded. "
                     "Check url <{url}>. Allowed file format is "
@@ -763,6 +786,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
         if err.code == 404:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 =======
             gscript.fatal(
@@ -770,6 +794,9 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 =======
             gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "The download of the modules.xml file "
                     "from the server was not successful. "
@@ -795,6 +822,7 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
     except URLError:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(
             _("Download file from <{url}>, failed. Check internet connection.").format(
                 url=url,
@@ -802,6 +830,9 @@ def download_modules_xml_file(url, response_format, *args, **kwargs):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.fatal(
+=======
+        gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _(
                 "Download file from <{url}>, "
                 "failed. Check internet connection.".format(
@@ -836,6 +867,7 @@ def find_addon_name(addons):
     else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Unable to get GRASS GIS version."))
 =======
         gscript.fatal(_("Unable to get GRASS GIS version."))
@@ -843,6 +875,9 @@ def find_addon_name(addons):
 =======
         gscript.fatal(_("Unable to get GRASS GIS version."))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.fatal(_("Unable to get GRASS GIS version."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     url = "https://grass.osgeo.org/addons/grass{major}/modules.xml".format(
         major=major,
     )
@@ -872,6 +907,7 @@ def find_addon_name(addons):
         if not found:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.warning(
                 _(
                     "The <{}> addon cannot be reinstalled. "
@@ -881,6 +917,9 @@ def find_addon_name(addons):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             gscript.warning(
+=======
+            gs.warning(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _(
                     "The <{}> addon cannot be reinstalled. "
                     "Addon wasn't found among the official "
@@ -921,12 +960,16 @@ def main():
     for ext in find_addon_name(addons=extensions):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message("-" * 60)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         gscript.message("-" * 60)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.message("-" * 60)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         if remove:
             gs.message(_("Removing extension <%s>...") % ext)
         else:

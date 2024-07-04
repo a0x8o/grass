@@ -403,7 +403,11 @@ def main():
     gs.run_command("g.region", res=panres, align=pan)
 
     # Select sharpening method
+<<<<<<< HEAD
     gs.message(_("Performing pan sharpening with hi res pan image: %f") % panres)
+=======
+    gs.message(_("Performing pan sharpening with hi res pan image: %f" % panres))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     if sharpen == "brovey":
         brovey(pan, ms1, ms2, ms3, out, pid, sproc)
     elif sharpen == "ihs":
@@ -438,8 +442,13 @@ def main():
     for ch in ["red", "green", "blue"]:
         gs.verbose(_("%s_%s") % (out, ch))
 
+<<<<<<< HEAD
     gs.verbose(_("To visualize output, run: g.region -p raster=%s_red") % out)
     gs.verbose(_("d.rgb r=%s_red g=%s_green b=%s_blue") % (out, out, out))
+=======
+    gs.verbose(_("To visualize output, run: g.region -p raster=%s_red" % out))
+    gs.verbose(_("d.rgb r=%s_red g=%s_green b=%s_blue" % (out, out, out)))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.verbose(
         _("If desired, combine channels into a single RGB map with 'r.composite'.")
     )
@@ -597,12 +606,16 @@ def ihs(pan, ms1, ms2, ms3, out, pid, sproc):
     # Cleanup
     try:
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
     except CalledModuleError:
 =======
         grass.run_command(
             "g.remove", flags="f", quiet=True, type="raster", name=panmatch
         )
+=======
+        gs.run_command("g.remove", flags="f", quiet=True, type="raster", name=panmatch)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     except:
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))

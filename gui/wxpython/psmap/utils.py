@@ -550,6 +550,7 @@ def convertRGB(rgb):
                 return name
         return str(rgb.Red()) + ":" + str(rgb.Green()) + ":" + str(rgb.Blue())
     # transform a GRASS named color or an r:g:b string into a wx.Colour tuple
+<<<<<<< HEAD
     color = (
         int(gs.parse_color(rgb)[0] * 255),
         int(gs.parse_color(rgb)[1] * 255),
@@ -559,6 +560,19 @@ def convertRGB(rgb):
     if color.IsOk():
         return color
     return None
+=======
+    else:
+        color = (
+            int(gs.parse_color(rgb)[0] * 255),
+            int(gs.parse_color(rgb)[1] * 255),
+            int(gs.parse_color(rgb)[2] * 255),
+        )
+        color = wx.Colour(*color)
+        if color.IsOk():
+            return color
+        else:
+            return None
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def PaperMapCoordinates(mapInstr, x, y, paperToMap=True, env=None):
@@ -784,9 +798,12 @@ def getRasterType(map):
     file = gs.find_file(name=map, element="cell")
     if file.get("file"):
 <<<<<<< HEAD
+<<<<<<< HEAD
         rasterType = gs.raster_info(map)["datatype"]
         return rasterType
 =======
+=======
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         return gs.raster_info(map)["datatype"]
 <<<<<<< HEAD
 >>>>>>> main
@@ -794,7 +811,16 @@ def getRasterType(map):
         return None
 =======
     return None
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+        rasterType = gs.raster_info(map)["datatype"]
+        return rasterType
+    else:
+        return None
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def BBoxAfterRotation(w, h, angle):

@@ -11,6 +11,7 @@ for details.
 """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 =======
 <<<<<<< HEAD
@@ -23,7 +24,13 @@ import grass.script as gs
 =======
 import grass.script as gscript
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
+=======
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 from .core import get_available_temporal_mapsets, init_dbif
 from .factory import dataset_factory
@@ -57,7 +64,11 @@ def tlist_grouped(type, group_type: bool = False, dbif=None):
     types = ["strds", "str3ds", "stvds"] if _type == "stds" else [_type]
     for _type in types:
         try:
+<<<<<<< HEAD
             tlist_result = tlist(type=_type, dbif=dbif)
+=======
+            tlist_result = tlist(type=type, dbif=dbif)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         except gs.ScriptError as e:
             gs.warning(e)
             continue

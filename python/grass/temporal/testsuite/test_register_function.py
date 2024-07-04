@@ -26,7 +26,7 @@ import os
 import datetime
 import os
 
-import grass.script as gscript
+import grass.script as gs
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -1039,6 +1039,7 @@ class TestRegisterMapsetAccess(TestCase):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         grassenv = gs.gisenv()
         mapset_path = os.path.join(
             grassenv["GISDBASE"], grassenv["LOCATION_NAME"], self.newmapset
@@ -1050,10 +1051,13 @@ class TestRegisterMapsetAccess(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grassenv = gscript.gisenv()
+=======
+        grassenv = gs.gisenv()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         mapset_path = os.path.join(
             grassenv["GISDBASE"], grassenv["LOCATION_NAME"], self.newmapset
         )
-        gscript.try_rmdir(mapset_path)
+        gs.try_rmdir(mapset_path)
 
     def test_mapset_access_1(self):
 <<<<<<< HEAD

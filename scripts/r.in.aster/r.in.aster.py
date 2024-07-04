@@ -169,6 +169,7 @@ def main():
 
     # cleanup
 <<<<<<< HEAD
+<<<<<<< HEAD
     gs.message(_("Cleaning up ..."))
     gs.try_remove(tempfile)
     gs.message(_("Done."))
@@ -189,7 +190,15 @@ def main():
     grass.try_remove(tempfile)
     grass.message(_("Done."))
 >>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+<<<<<<< HEAD
 >>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+=======
+    gs.message(_("Cleaning up ..."))
+    gs.try_remove(tempfile)
+    gs.message(_("Done."))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 def import_aster(proj, srcfile, tempfile, output, band):

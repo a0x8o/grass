@@ -137,6 +137,7 @@ def writeAvi(
                 + "\n"
                 + _("Could not write avi.")
             )
+<<<<<<< HEAD
         # An error occurred, show
         print(gs.decode(outPut))
         print(gs.decode(S.stderr.read()))
@@ -145,6 +146,25 @@ def writeAvi(
         # Copy avi
         shutil.copy(os.path.join(tempDir, "output.avi"), filename)
     except Exception as err:
+=======
+        else:
+            # An error occurred, show
+            print(gs.decode(outPut))
+            print(gs.decode(S.stderr.read()))
+            raise RuntimeError(_("Could not write avi."))
+    else:
+        try:
+            # Copy avi
+            shutil.copy(os.path.join(tempDir, "output.avi"), filename)
+        except Exception as err:
+            # Clean up
+            _cleanDir(tempDir)
+            if bg_task:
+                return str(err)
+            else:
+                raise
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         # Clean up
         _cleanDir(tempDir)
         if bg_task:

@@ -56,8 +56,19 @@ def main():
         gs.run_command("db.connect", flags="c", quiet=True)
 
     kv = gs.db_connection()
+<<<<<<< HEAD
     database = options["database"] or kv["database"]
     driver = options["driver"] or kv["driver"]
+=======
+    if options["database"]:
+        database = options["database"]
+    else:
+        database = kv["database"]
+    if options["driver"]:
+        driver = options["driver"]
+    else:
+        driver = kv["driver"]
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     # schema needed for PG?
 
     if force:

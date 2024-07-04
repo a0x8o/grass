@@ -39,6 +39,12 @@ from time import localtime, strftime
 
 import grass.script as gs
 import wx
+<<<<<<< HEAD
+=======
+import grass.script as gs
+from grass.script.task import cmdlist_to_tuple
+
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from core.gcmd import GError, GMessage, GWarning
 from core.utils import GetCmdString
 from dbmgr.vinfo import VectorDBInfo
@@ -1754,6 +1760,7 @@ class RasterLegend(InstructionObject):
                 cols = 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             rinfo = gs.raster_info(raster)
 =======
 <<<<<<< HEAD
@@ -1766,6 +1773,9 @@ class RasterLegend(InstructionObject):
                 maxim = rinfo["max"]
 =======
             rinfo = grass.raster_info(raster)
+=======
+            rinfo = gs.raster_info(raster)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             if rinfo["datatype"] in {"DCELL", "FCELL"}:
                 minim, maxim = rinfo["min"], rinfo["max"]
 >>>>>>> 6bd0f720cb (style(gui): Fixes literal-membership (PLR6201) (#3952))

@@ -1973,8 +1973,13 @@ class SaveWMSLayerDialog(wx.Dialog):
 
         if self.region_types["named"].GetValue():
             if not gs.find_file(reg_spl[0], "windows", reg_mapset)["fullname"]:
+<<<<<<< HEAD
                 msg = (
                     _("Region <%s> does not exist.") % self.params["region"].GetValue()
+=======
+                msg = _(
+                    "Region <%s> does not exist." % self.params["region"].GetValue()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 )
                 GWarning(parent=self, message=msg)
                 return

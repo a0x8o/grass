@@ -9411,7 +9411,11 @@ class MapPanel(SingleMapPanel):
             returncode, messages = RunCommand(
                 "g.region", raster=tmpName + ".red", quiet=True, getErrorMsg=True
             )
+<<<<<<< HEAD
             if returncode != 0:
+=======
+            if not returncode == 0:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 gs.del_temp_region()
                 self._giface.WriteError(_("Failed to run d.to.rast:\n") + messages)
                 return

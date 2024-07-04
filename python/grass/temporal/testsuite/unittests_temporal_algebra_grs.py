@@ -28,7 +28,6 @@ import grass.temporal as tgis
 =======
 import os
 
-import grass.script
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test

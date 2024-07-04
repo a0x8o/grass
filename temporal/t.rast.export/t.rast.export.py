@@ -111,6 +111,7 @@ import os
 
 <<<<<<< HEAD
 import grass.script as gs
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,7 +134,12 @@ import grass.script as gs
 >>>>>>> c8cd2d055b (style(temporal): Sort and group imports (#3959))
 import grass.script as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
 
 ############################################################################
@@ -156,6 +162,7 @@ def main():
     if not directory or not os.path.exists(directory):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.fatal(_("Directory {} not found").format(directory))
 
     if not os.access(directory, os.W_OK):
@@ -176,16 +183,23 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         grass.fatal(_("Directory {} not found".format(directory)))
+=======
+        gs.fatal(_("Directory {} not found".format(directory)))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     if not os.access(directory, os.W_OK):
-        grass.fatal(_("Directory {} is not writable".format(directory)))
+        gs.fatal(_("Directory {} is not writable".format(directory)))
 
     if _type and _format in {"pack", "AAIGrid"}:
+<<<<<<< HEAD
         grass.warning(
 <<<<<<< HEAD
             _("Type options is not working with pack format, " "it will be skipped")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+        gs.warning(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _("Type options is not working with pack format, it will be skipped")
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
         )

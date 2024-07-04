@@ -114,6 +114,7 @@ def reclass(inf, outf, lim, clump, diag, les):
                 gs.fatal(_("Temporary raster map <%s> exists") % clumpfile)
         if diagonal:
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.message(
 =======
 <<<<<<< HEAD
@@ -126,7 +127,13 @@ def reclass(inf, outf, lim, clump, diag, les):
 =======
             grass.message(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Generating a clumped raster file including diagonal neighbors...")
             )
             gs.run_command("r.clump", flags="d", input=infile, output=clumpfile)
@@ -156,6 +163,7 @@ def reclass(inf, outf, lim, clump, diag, les):
 
     sflags = "aln"
 <<<<<<< HEAD
+<<<<<<< HEAD
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 =======
 <<<<<<< HEAD
@@ -168,7 +176,13 @@ def reclass(inf, outf, lim, clump, diag, les):
 =======
     if grass.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+    if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         sflags += "i"
     p1 = gs.pipe_command("r.stats", flags=sflags, input=(clumpfile, infile), sep=";")
     p2 = gs.feed_command("r.reclass", input=clumpfile, output=recfile, rules="-")
@@ -188,6 +202,7 @@ def reclass(inf, outf, lim, clump, diag, les):
     p2.wait()
     if p2.returncode != 0:
         if lesser:
+<<<<<<< HEAD
 <<<<<<< HEAD
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
@@ -215,7 +230,17 @@ def reclass(inf, outf, lim, clump, diag, les):
 >>>>>>> main
 =======
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(
+                _("No areas of size less than or equal to %f hectares found.") % limit
+            )
+        else:
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("No areas of size greater than or equal to %f hectares found.")
                 % limit
             )

@@ -17,7 +17,11 @@ import grass.script as gs
 
 try:
     from osgeo import gdal
+<<<<<<< HEAD
 except ImportError:
+=======
+except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' being "
@@ -155,7 +159,11 @@ class WMSGdalDrv(WMSBase):
         xml_file = self._createXML()
 
         # print xml file content for debug level 1
+<<<<<<< HEAD
         file = open(xml_file)
+=======
+        file = open(xml_file, "r")
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.debug("WMS request XML:\n%s" % file.read(), 1)
         file.close()
 
@@ -172,7 +180,11 @@ class WMSGdalDrv(WMSBase):
 
         driver = gdal.GetDriverByName(self.gdal_drv_format)
         if driver is None:
+<<<<<<< HEAD
             gs.fatal(_("Unable to find %s driver") % self.gdal_drv_format)
+=======
+            gs.fatal(_("Unable to find %s driver" % format))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         metadata = driver.GetMetadata()
         if (

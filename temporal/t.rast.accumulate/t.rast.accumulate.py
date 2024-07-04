@@ -237,7 +237,23 @@ def main():
 
     # The lower threshold space time raster dataset
     if lower:
+<<<<<<< HEAD
         lower_id = lower if lower.find("@") >= 0 else lower + "@" + mapset
+=======
+        if not range:
+            dbif.close()
+            gs.fatal(
+                _(
+                    "You need to set the range to compute the occurrence"
+                    " space time raster dataset"
+                )
+            )
+
+        if lower.find("@") >= 0:
+            lower_id = lower
+        else:
+            lower_id = lower + "@" + mapset
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         lower_strds = tgis.SpaceTimeRasterDataset(lower_id)
         if not lower_strds.is_in_db():
@@ -302,7 +318,11 @@ def main():
         where = "start_time >= '%s' AND start_time < '%s'" % (str(start), str(end))
         input_maps = input_strds.get_registered_maps_as_objects(where=where, dbif=dbif)
 
+<<<<<<< HEAD
         gs.message(_("Processing cycle %s - %s") % (str(start), str(end)))
+=======
+        gs.message(_("Processing cycle %s - %s" % (str(start), str(end))))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         if len(input_maps) == 0:
             continue

@@ -78,8 +78,15 @@ class WMSBase:
             self.params["password"] == "" and self.params["username"]
         ):
             gs.fatal(
+<<<<<<< HEAD
                 _("Please insert both %s and %s parameters or none of them.")
                 % ("password", "username")
+=======
+                _(
+                    "Please insert both %s and %s parameters or none of them."
+                    % ("password", "username")
+                )
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             )
 
         self.params["bgcolor"] = options["bgcolor"].strip()
@@ -306,7 +313,11 @@ class WMSBase:
                 Path(capfile_output).write_text(cap)
                 return
             except OSError as error:
+<<<<<<< HEAD
                 gs.fatal(_("Unable to open file '%s'.\n%s\n") % (capfile_output, error))
+=======
+                gs.fatal(_("Unable to open file '%s'.\n%s\n" % (capfile_output, error)))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         # print to output
         print(cap)

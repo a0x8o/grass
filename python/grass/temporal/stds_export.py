@@ -127,7 +127,11 @@ def _export_raster_maps_as_gdal(
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(_("Unable to export raster map <%s>") % name)
+=======
+            gs.fatal(_("Unable to export raster map <%s>" % name))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         tar.add(out_name)
 
@@ -139,7 +143,14 @@ def _export_raster_maps_as_gdal(
             shutil.rmtree(new_cwd)
             tar.close()
             gs.fatal(
+<<<<<<< HEAD
                 _("Unable to export color rules for raster map <%s> r.out.gdal") % name
+=======
+                _(
+                    "Unable to export color rules for raster "
+                    "map <%s> r.out.gdal" % name
+                )
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             )
 
         tar.add(out_name)
@@ -165,7 +176,11 @@ def _export_raster_maps(rows, tar, list_file, new_cwd, fs) -> None:
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(_("Unable to export raster map <%s> with r.pack") % name)
+=======
+            gs.fatal(_("Unable to export raster map <%s> with r.pack" % name))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         tar.add(name + ".pack")
 
@@ -201,6 +216,7 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs) -> None:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
 =======
 <<<<<<< HEAD
@@ -215,13 +231,21 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs) -> None:
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr") % name)
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr") % name)
 =======
             gscript.fatal(
                 _("Unable to export vector map <%s> as GML with v.out.ogr" % name)
             )
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+            gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         tar.add(name + ".xml")
         tar.add(name + ".xsd")
@@ -256,6 +280,7 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs) -> None:
             shutil.rmtree(new_cwd)
             tar.close()
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(
 <<<<<<< HEAD
 =======
@@ -273,6 +298,9 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs) -> None:
 =======
 =======
             gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
                 _("Unable to export vector map <%s> as GPKG with v.out.ogr" % name)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
@@ -308,7 +336,11 @@ def _export_vector_maps(rows, tar, list_file, new_cwd, fs) -> None:
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(_("Unable to export vector map <%s> with v.pack") % name)
+=======
+            gs.fatal(_("Unable to export vector map <%s> with v.pack" % name))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         tar.add(name + ".pack")
 
@@ -334,7 +366,11 @@ def _export_raster3d_maps(rows, tar, list_file, new_cwd, fs) -> None:
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(_("Unable to export raster map <%s> with r3.pack") % name)
+=======
+            gs.fatal(_("Unable to export raster map <%s> with r3.pack" % name))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
         tar.add(name + ".pack")
 
@@ -469,7 +505,13 @@ def export_stds(
     init_file.close()
 
     metadata = gs.read_command("t.info", type=type_, input=sp.get_id())
+<<<<<<< HEAD
     Path(metadata_file_name).write_text(metadata)
+=======
+    metadata_file = open(metadata_file_name, "w")
+    metadata_file.write(metadata)
+    metadata_file.close()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     read_file = open(read_file_name, "w")
     if type_ == "strds":

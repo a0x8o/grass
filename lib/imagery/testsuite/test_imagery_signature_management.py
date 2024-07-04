@@ -415,6 +415,7 @@ import grass.script as gs
 =======
 
 from grass.script.core import tempname
+<<<<<<< HEAD
 import grass.script as grass
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -422,6 +423,9 @@ import grass.script as grass
 from grass.script.core import tempname
 import grass.script as grass
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+import grass.script as gs
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 from grass.pygrass import utils
 from grass.pygrass.gis import Mapset, make_mapset
 
@@ -43764,6 +43768,7 @@ class SignaturesListByTypeTestCase(TestCase):
         # Add temporary mapset to search path and re-run test
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
 =======
         grass.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
@@ -43771,6 +43776,9 @@ class SignaturesListByTypeTestCase(TestCase):
 =======
         grass.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         # Search path is cached for this run => reset!
         G_reset_mapsets()
         ret = I_signatures_list_by_type(
@@ -43778,6 +43786,9 @@ class SignaturesListByTypeTestCase(TestCase):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="remove")
         G_reset_mapsets()
 <<<<<<< HEAD
@@ -45188,6 +45199,9 @@ class SignaturesListByTypeTestCase(TestCase):
         I_free_signatures_list(ret, ctypes.byref(sig_list))
         # Add temporary mapset to search path and re-run test
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
         # Search path is cached for this run => reset!
         G_reset_mapsets()
@@ -45751,6 +45765,9 @@ class SignaturesListByTypeTestCase(TestCase):
         I_free_signatures_list(ret, ctypes.byref(sig_list))
         # Add temporary mapset to search path and re-run test
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.run_command("g.mapsets", mapset=self.rnd_mapset_name, operation="add")
         # Search path is cached for this run => reset!
         G_reset_mapsets()

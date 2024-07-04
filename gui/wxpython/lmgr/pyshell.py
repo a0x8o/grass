@@ -389,6 +389,7 @@ class PyShellWindow(wx.Panel):
             "id": wx.ID_ANY,
             "introText": self.intro,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
 =======
 <<<<<<< HEAD
@@ -408,6 +409,9 @@ class PyShellWindow(wx.Panel):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+=======
+            "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         }
 >>>>>>> 898113134f (style: Fixes unnecessary-collection-call (C408) for remaining code (#3948))
         # useStockId (available since wxPython 4.0.2) should be False on macOS

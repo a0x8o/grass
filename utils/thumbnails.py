@@ -25,12 +25,21 @@ tmp_grad_rel = None
 def cleanup():
     names = []
     if tmp_grad_rel:
+<<<<<<< HEAD
         names.append(tmp_grad_rel)
     if tmp_grad_abs:
         names.append(tmp_grad_abs)
     if len(names) > 0:
         gs.run_command(
             "g.remove", flags="f", type="raster", name=",".join(names), quiet=True
+=======
+        gs.run_command(
+            "g.remove", flags="f", type="raster", name=tmp_grad_rel, quiet=True
+        )
+    if tmp_grad_abs:
+        gs.run_command(
+            "g.remove", flags="f", type="raster", name=tmp_grad_abs, quiet=True
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         )
 
 

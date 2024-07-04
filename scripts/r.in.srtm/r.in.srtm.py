@@ -228,7 +228,11 @@ def main():
         try:
             zf = zfile.ZipFile(zipfile)
             zf.extractall()
+<<<<<<< HEAD
         except (zfile.BadZipfile, zfile.LargeZipFile, PermissionError):
+=======
+        except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             gs.fatal(_("Unable to unzip file."))
 
     gs.message(_("Converting input file to BIL..."))
@@ -275,7 +279,11 @@ def main():
 
     try:
         gs.run_command("r.in.gdal", input=bilfile, out=tileout)
+<<<<<<< HEAD
     except CalledModuleError:
+=======
+    except:
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
         gs.fatal(_("Unable to import data"))
 
     # nice color table

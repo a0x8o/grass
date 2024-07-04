@@ -135,7 +135,14 @@ def main():
     lmap = rast or map
 
     kv = gs.raster_info(map=lmap)
+<<<<<<< HEAD
     leg_at = None if kv["datatype"] == "CELL" else "%f,95,5,10" % VSpacing
+=======
+    if kv["datatype"] == "CELL":
+        leg_at = None
+    else:
+        leg_at = "%f,95,5,10" % VSpacing
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     # checking for histogram causes more problems than it solves
     #    histfiledir = grass.find_file(lmap, 'cell_misc')['file']

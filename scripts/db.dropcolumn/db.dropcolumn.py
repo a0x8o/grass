@@ -87,6 +87,7 @@ def main():
 
     if not force:
 <<<<<<< HEAD
+<<<<<<< HEAD
         gs.message(_("Column <%s> would be deleted.") % column)
         gs.message("")
         gs.message(
@@ -107,7 +108,15 @@ def main():
         gscript.message("")
         gscript.message(
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+        gs.message(_("Column <%s> would be deleted.") % column)
+        gs.message("")
+        gs.message(
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+>>>>>>> cc1bb01ea7 (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             _("You must use the force flag (-f) to actually remove it. Exiting.")
         )
         return 0

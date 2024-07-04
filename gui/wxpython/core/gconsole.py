@@ -2108,6 +2108,7 @@ class GConsole(wx.EvtHandler):
                     action = "delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             gisenv = gs.gisenv()
 =======
             gisenv = grass.gisenv()
@@ -2115,6 +2116,9 @@ class GConsole(wx.EvtHandler):
 =======
             gisenv = grass.gisenv()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            gisenv = gs.gisenv()
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
             self._giface.grassdbChanged.emit(
                 grassdb=gisenv["GISDBASE"],
                 location=gisenv["LOCATION_NAME"],

@@ -162,7 +162,11 @@ def main():
                 overwrite=gs.overwrite(),
             )
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(_("Unable to create 3D raster map <%s>") % output)
+=======
+            gs.fatal(_("Unable to create 3D raster map <%s>" % output))
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     gs.run_command("g.remove", flags="f", type="raster", name=null_map)
 

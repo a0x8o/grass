@@ -25,6 +25,7 @@ def get_pyplot(to_file):
     """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     import matplotlib as mpl  # pylint: disable=import-outside-toplevel
 
     backend = "agg" if to_file else None
@@ -34,17 +35,24 @@ def get_pyplot(to_file):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     import matplotlib  # pylint: disable=import-outside-toplevel
+=======
+    import matplotlib as mpl  # pylint: disable=import-outside-toplevel
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     if to_file:
         backend = "agg"
     else:
         backend = None
     if backend:
+<<<<<<< HEAD
         matplotlib.use(backend)
 <<<<<<< HEAD
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        mpl.use(backend)
+>>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 
     import matplotlib.pyplot as plt  # pylint: disable=import-outside-toplevel
 
