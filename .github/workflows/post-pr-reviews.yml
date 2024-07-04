@@ -88,18 +88,27 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> b235ce481a (CI(ruff): Fine tune posting Ruff suggestions (#3978))
         if: ${{ steps.tools.outputs.ruff == 'true' }}
 =======
         if: ${{ steps.tools.outputs.black == 'true' }}
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if: ${{ steps.tools.outputs.ruff == 'true' }}
 >>>>>>> 57856bcbb9 (CI(ruff): Fine tune posting Ruff suggestions (#3978))
 =======
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+=======
+        if: ${{ steps.tools.outputs.ruff == 'true' }}
+>>>>>>> 57856bcbb9 (CI(ruff): Fine tune posting Ruff suggestions (#3978))
+>>>>>>> b235ce481a (CI(ruff): Fine tune posting Ruff suggestions (#3978))
         run: |
           TMPFILE="diff-${INPUT_TOOL_NAME}.patch"
           GITHUB_ACTIONS="" reviewdog \
