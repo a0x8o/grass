@@ -106,6 +106,9 @@ int Vedit_snap_line(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
 =======
     Cats = Vect_new_cats_struct();
 
@@ -115,6 +118,7 @@ int Vedit_snap_line(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 =======
     Cats = Vect_new_cats_struct();
@@ -127,6 +131,8 @@ int Vedit_snap_line(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
     G_debug(3, "Vedit_snap_line(): thresh=%g, to_vertex=%d", thresh, to_vertex);
 
     if (line > 0 && !Vect_line_alive(Map, line))
@@ -151,6 +157,8 @@ int Vedit_snap_line(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+    Cats = Vect_new_cats_struct();
 
     npoints = Points->n_points;
     x = Points->x;
@@ -237,10 +245,13 @@ int Vedit_snap_lines(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
                 nlines_modified = -1;
                 goto free_exit;
 =======
@@ -255,6 +266,7 @@ int Vedit_snap_lines(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
                 nlines_modified = -1;
                 goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -262,6 +274,8 @@ int Vedit_snap_lines(struct Map_info *Map, struct Map_info **BgMap, int nbgmaps,
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
             }
 
             nlines_modified++;

@@ -71,10 +71,13 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
         nlines_modified = -1;
         goto free_exit;
 =======
@@ -89,6 +92,7 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
         nlines_modified = -1;
         goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -96,6 +100,8 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
         return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
     }
 
     Vect_line_box(Points_se, &box_se);
@@ -152,10 +158,13 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
             nlines_modified = -1;
             goto free_exit;
 =======
@@ -170,6 +179,7 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
             nlines_modified = -1;
             goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -177,6 +187,8 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
             return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
         }
         nlines_modified++;
 
@@ -189,10 +201,13 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
         nlines_modified = -1;
 =======
         return -1;
@@ -205,6 +220,7 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
 =======
         nlines_modified = -1;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -212,6 +228,8 @@ int Vedit_bulk_labeling(struct Map_info *Map, struct ilist *List, double x1,
         return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
     }
 
 free_exit:

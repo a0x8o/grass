@@ -99,10 +99,13 @@ int Vedit_delete_area(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
 =======
     list = Vect_new_list();
 
@@ -116,12 +119,17 @@ int Vedit_delete_area(struct Map_info *Map, int area)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
     G_debug(3, "Vedit_delete_area(): area=%d", area);
     centroid = Vect_get_area_centroid(Map, area);
     if (centroid != 0) {
@@ -151,13 +159,17 @@ int Vedit_delete_area(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
         Vect_destroy_list(list);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         Vect_destroy_list(list);
@@ -169,6 +181,11 @@ int Vedit_delete_area(struct Map_info *Map, int area)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        Vect_destroy_list(list);
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
         return 0;
     }
 

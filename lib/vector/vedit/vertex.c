@@ -161,10 +161,13 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
                 nvertices_moved = -1;
                 goto free_exit;
             }
@@ -669,6 +672,10 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 =======
                 return -1;
+=======
+                nvertices_moved = -1;
+                goto free_exit;
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
             }
 <<<<<<< HEAD
 <<<<<<< HEAD

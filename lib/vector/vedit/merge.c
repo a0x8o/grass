@@ -189,10 +189,13 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
                 nlines_merged = -1;
                 goto free_exit;
 =======
@@ -207,6 +210,7 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
                 nlines_merged = -1;
                 goto free_exit;
 >>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -214,6 +218,8 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2683fa99e6 (libvector/vedit: fix memory leaks (#3619))
             }
 
             if (line1 <= nlines)
