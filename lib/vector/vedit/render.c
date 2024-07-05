@@ -981,6 +981,7 @@ struct robject *draw_line(struct Map_info *Map, int line, int draw_flag)
             obj->type, state.Points->n_points, draw);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!draw) {
         G_free(obj);
         return NULL;
@@ -992,6 +993,12 @@ struct robject *draw_line(struct Map_info *Map, int line, int draw_flag)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (!draw) {
+        G_free(obj);
+        return NULL;
+    }
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
 
     obj->npoints = state.Points->n_points;
     obj->point =

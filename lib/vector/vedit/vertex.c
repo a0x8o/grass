@@ -158,6 +158,7 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
             if (Vect_rewrite_line(Map, line, type, Points, Cats) < 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nvertices_moved = -1;
                 goto free_exit;
             }
@@ -370,6 +371,10 @@ int Vedit_move_vertex(struct Map_info *Map, struct Map_info **BgMap,
 <<<<<<< HEAD
 =======
                 return -1;
+=======
+                nvertices_moved = -1;
+                goto free_exit;
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
             }
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -101,6 +101,7 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
             if (newline < 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nlines_modified = -1;
                 goto free_exit;
 =======
@@ -109,6 +110,10 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
 =======
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                nlines_modified = -1;
+                goto free_exit;
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);
@@ -127,6 +132,7 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
             if (newline < 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nlines_modified = -1;
                 goto free_exit;
 =======
@@ -135,6 +141,10 @@ int Vedit_split_lines(struct Map_info *Map, struct ilist *List,
 =======
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                nlines_modified = -1;
+                goto free_exit;
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
             }
             if (List_updated)
                 Vect_list_append(List_updated, newline);

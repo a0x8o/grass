@@ -186,6 +186,7 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
             if (line < 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 nlines_merged = -1;
                 goto free_exit;
 =======
@@ -194,6 +195,10 @@ int Vedit_merge_lines(struct Map_info *Map, struct ilist *List)
 =======
                 return -1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                nlines_merged = -1;
+                goto free_exit;
+>>>>>>> 17f6dfc1fa (libvector/vedit: fix memory leaks (#3619))
             }
 
             if (line1 <= nlines)
