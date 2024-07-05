@@ -238,7 +238,11 @@ jobs:
           bandit -c pyproject.toml -iii -r . -f sarif -o bandit.sarif --exit-zero
 
       - name: Upload Bandit Scan Results
+<<<<<<< HEAD
         uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+=======
+        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+>>>>>>> 0d3a14215f (CI(deps): Update actions/upload-artifact action to v4.3.4 (#3985))
         with:
           name: bandit.sarif
           path: bandit.sarif
@@ -330,7 +334,11 @@ jobs:
           cp -rp dist.$ARCH/docs/html/libpython sphinx-grass
 
       - name: Make Sphinx documentation available
+<<<<<<< HEAD
         uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+=======
+        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+>>>>>>> 0d3a14215f (CI(deps): Update actions/upload-artifact action to v4.3.4 (#3985))
         with:
           name: sphinx-grass
           path: sphinx-grass

@@ -118,8 +118,13 @@ jobs:
           SampleData: "https://grass.osgeo.org/sampledata/north_carolina/\
                        nc_spm_full_v2alpha2.tar.gz"
       - name: Make HTML test report available
+<<<<<<< HEAD
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+=======
+        if: ${{ always() }}
+        uses: actions/upload-artifact@0b2256b8c012f0828dc542b3febcab082c67f72b # v4.3.4
+>>>>>>> 0d3a14215f (CI(deps): Update actions/upload-artifact action to v4.3.4 (#3985))
         with:
           name: testreport-macOS
           path: testreport
