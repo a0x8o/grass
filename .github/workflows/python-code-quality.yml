@@ -106,9 +106,16 @@ jobs:
 =======
 =======
       # renovate: datasource=pypi depName=ruff
+<<<<<<< HEAD
       RUFF_VERSION: "0.5.0"
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+<<<<<<< HEAD
 >>>>>>> bb75228712 (checks(ruff): Configure ruff linter (#3972))
+=======
+=======
+      RUFF_VERSION: "0.5.1"
+>>>>>>> 6ece005836 (CI(deps): Update dependency ruff to v0.5.1 (#3983))
+>>>>>>> f74592713f (CI(deps): Update dependency ruff to v0.5.1 (#3983))
 
     runs-on: ${{ matrix.os }}
     permissions:
