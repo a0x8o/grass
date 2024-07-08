@@ -197,10 +197,13 @@ int region_growing(struct globals *globals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2ec6da86b7 (i.segment: Fix uninitialized struct member error in region_growing.c (#3974))
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 =======
@@ -215,6 +218,7 @@ int region_growing(struct globals *globals)
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 >>>>>>> 979e595bbe (i.segment: Fix uninitialized struct member error in region_growing.c (#3974))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -222,6 +226,8 @@ int region_growing(struct globals *globals)
     struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 2ec6da86b7 (i.segment: Fix uninitialized struct member error in region_growing.c (#3974))
         *next;
     int Ri_nn, Rk_nn; /* number of neighbors for Ri/Rk */
     struct NB_TREE *Ri_ngbrs, *Rk_ngbrs;
