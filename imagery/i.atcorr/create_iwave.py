@@ -708,6 +708,7 @@ def main():
         " iwave.h, geomcond.h, geomcond.cpp, and to i.atcorr.html"
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,7 +719,12 @@ def main():
 =======
     print
 >>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+<<<<<<< HEAD
 >>>>>>> ef6c701c46 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+=======
+>>>>>>> 5e234a4a33 (style: Fix pylint pointless-statement (W0104) (#3996))
+>>>>>>> 997355f259 (style: Fix pylint pointless-statement (W0104) (#3996))
 
 
 if __name__ == "__main__":
