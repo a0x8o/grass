@@ -5503,8 +5503,11 @@ ignore = [
     "TRY302",  # useless-try-except
     "UP015",   # redundant-open-modes
     "UP018",   # native-literals
+<<<<<<< HEAD
     "UP022",   # replace-stdout-stderr
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> 8eb2fcbb41 (style: Fix replace-stdout-stderr (UP022) (#4000))
     "UP030",   # format-literals
     "UP031",   # printf-string-formatting
     "UP032",   # f-string

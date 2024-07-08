@@ -70,10 +70,13 @@ def get_last_commit(src_dir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8eb2fcbb41 (style: Fix replace-stdout-stderr (UP022) (#4000))
             capture_output=True,
 =======
             stdout=subprocess.PIPE,
@@ -88,6 +91,7 @@ def get_last_commit(src_dir):
             stderr=subprocess.PIPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             capture_output=True,
 >>>>>>> b90fc735fa (style: Fix replace-stdout-stderr (UP022) (#4000))
@@ -95,6 +99,11 @@ def get_last_commit(src_dir):
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            capture_output=True,
+>>>>>>> b90fc735fa (style: Fix replace-stdout-stderr (UP022) (#4000))
+>>>>>>> 8eb2fcbb41 (style: Fix replace-stdout-stderr (UP022) (#4000))
         )  # --format=%H,COMMIT_DATE_FORMAT commit hash,author date
         if process_result.returncode == 0:
             try:
