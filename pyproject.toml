@@ -4993,12 +4993,15 @@ ignore = [
     "B015",    # useless-comparison
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "B020",    # loop-variable-overrides-iterator
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 =======
 >>>>>>> 4fd0d2ee37 (style: Fix loop-variable-overrides-iterator (B020) (#4010))
 =======
     "B018",    # useless-expression
+=======
+>>>>>>> 7f516750fe (style: Fix pylint pointless-statement (W0104) (#3996))
     "B020",    # loop-variable-overrides-iterator
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
@@ -5775,9 +5778,13 @@ ignore = [
 "python/grass/gunittest/loader.py" = ["PYI024"]
 "python/grass/gunittest/multireport.py" = ["PYI024"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 "python/grass/gunittest/testsu*/d*/s*/s*/subsub*/t*/test_segfaut.py" = ["B018"]
 =======
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+"python/grass/gunittest/testsu*/d*/s*/s*/subsub*/t*/test_segfaut.py" = ["B018"]
+>>>>>>> 7f516750fe (style: Fix pylint pointless-statement (W0104) (#3996))
 "python/grass/gunittest/testsuite/test_assertions_rast3d.py" = ["FLY002"]
 "python/grass/jupyter/tests/reprojection_renderer_test.py" = ["PT013"]
 "python/grass/jupyter/testsuite/interactivemap_test.py" = ["PGH004"]

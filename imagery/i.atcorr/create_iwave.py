@@ -1183,6 +1183,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1204,6 +1205,13 @@ def main():
     print
 >>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
 >>>>>>> 87a1c77a33 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+=======
+    print
+>>>>>>> 0fbe6c5cc1 (style: Fixes useless-return (PLR1711) (#3955))
+=======
+>>>>>>> 5e234a4a33 (style: Fix pylint pointless-statement (W0104) (#3996))
+>>>>>>> 7f516750fe (style: Fix pylint pointless-statement (W0104) (#3996))
 
 
 if __name__ == "__main__":
