@@ -194,6 +194,7 @@ int region_growing(struct globals *globals)
     int candidates_only;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct ngbr_stats Ri = {0}, Rk = {0},
                       Rk_bestn = {0}, /* Rk's best neighbor */
 =======
@@ -202,6 +203,10 @@ int region_growing(struct globals *globals)
 =======
     struct ngbr_stats Ri, Rk, Rk_bestn, /* Rk's best neighbor */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    struct ngbr_stats Ri = {0}, Rk = {0},
+                      Rk_bestn = {0}, /* Rk's best neighbor */
+>>>>>>> 979e595bbe (i.segment: Fix uninitialized struct member error in region_growing.c (#3974))
         *next;
     int Ri_nn, Rk_nn; /* number of neighbors for Ri/Rk */
     struct NB_TREE *Ri_ngbrs, *Rk_ngbrs;
