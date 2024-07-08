@@ -67,6 +67,7 @@ def get_last_commit(src_dir):
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             capture_output=True,
 =======
             stdout=subprocess.PIPE,
@@ -76,6 +77,9 @@ def get_last_commit(src_dir):
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            capture_output=True,
+>>>>>>> b90fc735fa (style: Fix replace-stdout-stderr (UP022) (#4000))
         )  # --format=%H,COMMIT_DATE_FORMAT commit hash,author date
         if process_result.returncode == 0:
             try:

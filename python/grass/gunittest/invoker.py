@@ -540,6 +540,7 @@ class GrassTestFilesInvoker:
                 cwd=cwd,
                 env=env,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 capture_output=True,
                 timeout=timeout,
                 check=False,
@@ -808,6 +809,9 @@ class GrassTestFilesInvoker:
 =======
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
+=======
+                capture_output=True,
+>>>>>>> b90fc735fa (style: Fix replace-stdout-stderr (UP022) (#4000))
                 timeout=timeout,
                 check=False,
             )
