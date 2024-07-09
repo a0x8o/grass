@@ -158,11 +158,18 @@ class RPCServerBase:
                 self.server_conn.close()
             self.start_server()
 
+<<<<<<< HEAD
             if self.stopped is not True:
                 logging.warning(
                     "Needed to restart the libgis server, caller: {caller}",
                     caller=caller,
                 )
+=======
+        if self.stopped is not True:
+            logging.warning(
+                "Needed to restart the libgis server, caller: {caller}", caller=caller
+            )
+>>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
 
         self.stopped = False
 
