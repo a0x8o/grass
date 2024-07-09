@@ -4994,10 +4994,14 @@ ignore = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0fddae6a6 (style: Fix loop-variable-overrides-iterator (B020) (#4010))
     "B020",    # loop-variable-overrides-iterator
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 =======
 >>>>>>> 4fd0d2ee37 (style: Fix loop-variable-overrides-iterator (B020) (#4010))
+<<<<<<< HEAD
 =======
     "B018",    # useless-expression
 =======
@@ -5005,6 +5009,8 @@ ignore = [
     "B020",    # loop-variable-overrides-iterator
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> e0fddae6a6 (style: Fix loop-variable-overrides-iterator (B020) (#4010))
     "B023",    # function-uses-loop-variable
     "B026",    # star-arg-unpacking-after-keyword-arg
     "B028",    # no-explicit-stacklevel
