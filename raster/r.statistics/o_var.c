@@ -19,6 +19,7 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
     FILE *stats, *reclass;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int first, i, count = 0;
 =======
     int first, i, count;
@@ -26,6 +27,9 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
 =======
     int first, i, count;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    int first, i, count = 0;
+>>>>>>> d9b8b84843 (raster: Fix uninitialized variable issue in o_var.c (#4005))
     size_t mem;
     long basecat, covercat, catb, catc;
     double value, vari, x;
