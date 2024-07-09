@@ -1978,9 +1978,12 @@ ignore = [
 =======
     "E401",    # multiple-imports-on-one-line
     "E402",    # module-import-not-at-top-of-file
+<<<<<<< HEAD
     "E713",    # not-in-test
     "E714",    # not-is-test
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> 2bae7621bc (style: Fix not-in-test (E713) and not-is-test (E714) (#4011))
     "E721",    # type-comparison
     "E722",    # bare-except
     "E731",    # lambda-assignment
