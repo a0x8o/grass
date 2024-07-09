@@ -5481,8 +5481,11 @@ ignore = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> 3fec3e529b (style: Fix pylint try-except-raise (W0706) (#3997))
     "UP030",   # format-literals
     "UP031",   # printf-string-formatting
     "UP032",   # f-string
@@ -5507,6 +5510,8 @@ ignore = [
 =======
 =======
     "TRY302",  # useless-try-except
+=======
+>>>>>>> f604a95023 (style: Fix pylint try-except-raise (W0706) (#3997))
     "UP015",   # redundant-open-modes
     "UP018",   # native-literals
 <<<<<<< HEAD
