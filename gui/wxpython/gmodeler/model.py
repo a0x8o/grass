@@ -2173,6 +2173,9 @@ class ProcessModelFile:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 15e8e3a5c5 (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
             intermediate = data.find("intermediate") is not None
 
             display = data.find("display") is not None
@@ -2181,11 +2184,14 @@ class ProcessModelFile:
 
             display = not data.find("display") is None
 >>>>>>> 9a2b1d234a (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
+<<<<<<< HEAD
 =======
             intermediate = data.find("intermediate") is not None
 
             display = data.find("display") is not None
 >>>>>>> 2bae7621bc (style: Fix not-in-test (E713) and not-is-test (E714) (#4011))
+=======
+>>>>>>> 15e8e3a5c5 (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
 
             rels = []
             for rel in data.findall("relation"):

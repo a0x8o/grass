@@ -29,6 +29,9 @@ class Flag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 15e8e3a5c5 (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
         self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
 =======
 <<<<<<< HEAD
@@ -51,6 +54,7 @@ class Flag:
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
 =======
 =======
@@ -59,6 +63,11 @@ class Flag:
 >>>>>>> a2f268d57b (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
 =======
 >>>>>>> 001cfcbd00 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+        self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
+>>>>>>> 9a2b1d234a (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
+>>>>>>> 15e8e3a5c5 (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
         self.description = diz.get("description", None)
         self.default = diz.get("default", None)
         self.guisection = diz.get("guisection", None)

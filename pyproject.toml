@@ -5453,10 +5453,13 @@ ignore = [
     "SIM118",  # in-dict-keys
     "SIM201",  # negate-equal-op
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "SIM210",  # if-expr-with-true-false
     "SIM211",  # if-expr-with-false-true
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> 15e8e3a5c5 (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
     "SIM223",  # expr-and-false
     "SIM300",  # yoda-conditions
     "SIM401",  # if-else-block-instead-of-dict-get
