@@ -164,22 +164,31 @@ class RPCServerBase:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+=======
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
             if self.stopped is not True:
                 logger.warning(
                     "Needed to restart the libgis server, caller: %(caller)s",
                     {"caller": caller},
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
 =======
         if self.stopped is not True:
             logging.warning(
                 "Needed to restart the libgis server, caller: {caller}", caller=caller
             )
 >>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
+<<<<<<< HEAD
 =======
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+=======
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
 
         self.stopped = False
 

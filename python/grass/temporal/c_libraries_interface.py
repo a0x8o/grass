@@ -10587,6 +10587,7 @@ def _read_semantic_label(lock, conn, data):
         else:
             logging.error(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Unable to read semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -10637,8 +10638,18 @@ def _read_semantic_label(lock, conn, data):
 =======
                 "Unable to read semantic label. Unsupported map type %s" % maptype
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+=======
+                "Unable to read semantic label. Unsupported map type {maptype}",
+                maptype=maptype,
+>>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
             )
             return -1
     finally:
@@ -16825,6 +16836,7 @@ def _write_semantic_label(lock, conn, data):
         else:
             logging.error(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Unable to write semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -16847,8 +16859,18 @@ def _write_semantic_label(lock, conn, data):
 =======
                 "Unable to write semantic label. Unsupported map type %s" % maptype
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+=======
+                "Unable to write semantic label. Unsupported map type {maptype}",
+                maptype=maptype,
+>>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
             )
             return -2
     finally:
@@ -19962,6 +19984,7 @@ def _remove_semantic_label(lock, conn, data):
         else:
             logging.error(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Unable to remove semantic label. " "Unsupported map type %s" % maptype
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -20000,8 +20023,18 @@ def _remove_semantic_label(lock, conn, data):
 =======
                 "Unable to remove semantic label. Unsupported map type %s" % maptype
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> c866535f04 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+<<<<<<< HEAD
 >>>>>>> d10220bba4 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+=======
+=======
+                "Unable to remove semantic label. Unsupported map type {maptype}",
+                maptype=maptype,
+>>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
+>>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
             )
             return -2
     finally:
