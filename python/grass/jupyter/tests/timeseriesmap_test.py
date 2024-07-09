@@ -370,11 +370,15 @@ def test_fill_none_values():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+@pytest.mark.needs_solo_run
+>>>>>>> a1d9455ddc (pytest: Mark tests using space_time_raster_dataset as needs_solo_run (#3939))
 def test_collect_layers(space_time_raster_dataset):
     """Check that collect layers returns list of layers and dates"""
     names, dates = collect_layers(
@@ -393,11 +397,15 @@ def test_collect_layers(space_time_raster_dataset):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @pytest.mark.needs_solo_run
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+@pytest.mark.needs_solo_run
+>>>>>>> a1d9455ddc (pytest: Mark tests using space_time_raster_dataset as needs_solo_run (#3939))
 def test_default_init(space_time_raster_dataset):
     """Check that TimeSeriesMap init runs with default parameters"""
     img = gj.TimeSeriesMap()
@@ -409,6 +417,7 @@ def test_default_init(space_time_raster_dataset):
 
 
 @pytest.mark.needs_solo_run
+<<<<<<< HEAD
 =======
     assert img.timeseries == space_time_raster_dataset.name
 =======
@@ -422,6 +431,8 @@ def test_default_init(space_time_raster_dataset):
 
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a1d9455ddc (pytest: Mark tests using space_time_raster_dataset as needs_solo_run (#3939))
 @pytest.mark.parametrize("fill_gaps", [False, True])
 def test_render_layers(space_time_raster_dataset, fill_gaps):
     """Check that layers are rendered"""
@@ -762,6 +773,7 @@ def test_save(space_time_raster_dataset, tmp_path):
         assert Path(filename).is_file()
 
 
+@pytest.mark.needs_solo_run
 @pytest.mark.skipif(IPython is None, reason="IPython package not available")
 @pytest.mark.skipif(ipywidgets is None, reason="ipywidgets package not available")
 <<<<<<< HEAD

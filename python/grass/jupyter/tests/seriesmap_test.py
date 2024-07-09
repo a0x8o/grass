@@ -11,7 +11,10 @@ ipywidgets = pytest.importorskip(
     "ipywidgets", reason="ipywidgets package not available"
 )
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1d9455ddc (pytest: Mark tests using space_time_raster_dataset as needs_solo_run (#3939))
 @pytest.mark.needs_solo_run
 def test_default_init(space_time_raster_dataset):
     """Check that TimeSeriesMap init runs with default parameters"""
@@ -44,6 +47,11 @@ def test_render_layers(space_time_raster_dataset):
 
 
 @pytest.mark.needs_solo_run
+<<<<<<< HEAD
+=======
+@pytest.mark.skipif(IPython is None, reason="IPython package not available")
+@pytest.mark.skipif(ipywidgets is None, reason="ipywidgets package not available")
+>>>>>>> a1d9455ddc (pytest: Mark tests using space_time_raster_dataset as needs_solo_run (#3939))
 def test_save(space_time_raster_dataset, tmp_path):
     """Test returns from animate and time_slider are correct object types"""
     img = gj.SeriesMap()
