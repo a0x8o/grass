@@ -901,7 +901,11 @@ def GetListOfLocations(dbase):
                 os.path.join(location, "*")
             ):
                 listOfLocations.append(os.path.basename(location))
+<<<<<<< HEAD
         except OSError:
+=======
+        except:
+>>>>>>> f604a95023 (style: Fix pylint try-except-raise (W0706) (#3997))
             pass
 
     ListSortLower(listOfLocations)

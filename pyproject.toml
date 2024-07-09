@@ -2314,6 +2314,7 @@ ignore = [
     "TRY300",  # try-consider-else
     "TRY301",  # raise-within-try
 <<<<<<< HEAD
+<<<<<<< HEAD
     "UP030",   # format-literals
     "UP031",   # printf-string-formatting
     "UP032",   # f-string
@@ -2330,6 +2331,8 @@ ignore = [
 =======
 =======
     "TRY302",  # useless-try-except
+=======
+>>>>>>> f604a95023 (style: Fix pylint try-except-raise (W0706) (#3997))
     "UP015",   # redundant-open-modes
     "UP018",   # native-literals
     "UP030",   # format-literals
