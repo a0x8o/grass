@@ -22,10 +22,13 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 83510a6d8a (raster: Fix uninitialized variable issue in o_var.c (#4005))
     int first, i, count = 0;
 =======
     int first, i, count;
@@ -38,6 +41,7 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
 =======
     int first, i, count = 0;
 >>>>>>> d9b8b84843 (raster: Fix uninitialized variable issue in o_var.c (#4005))
+<<<<<<< HEAD
 =======
 >>>>>>> c66f377132 (r.horizon manual - fix typo (#2794))
 =======
@@ -45,6 +49,8 @@ int o_var(const char *basemap, const char *covermap, const char *outputmap,
     int first, i, count;
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> a5b4144f59 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 83510a6d8a (raster: Fix uninitialized variable issue in o_var.c (#4005))
     size_t mem;
     long basecat, covercat, catb, catc;
     double value, vari, x;
