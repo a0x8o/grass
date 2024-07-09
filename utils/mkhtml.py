@@ -7686,17 +7686,27 @@ git_commit = get_last_git_commit(
     src_dir=curdir,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     addon_path=addon_path if addon_path else None,
 =======
     addon_path=addon_path or None,
 >>>>>>> main
     is_addon=bool(addon_path),
 =======
+=======
+>>>>>>> a2f268d57b (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
     top_dir=topdir,
     pgm=pgm,
     addon_path=addon_path or None,
     major_version=major,
+<<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+    addon_path=addon_path if addon_path else None,
+    is_addon=bool(addon_path),
+>>>>>>> 9a2b1d234a (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
+>>>>>>> a2f268d57b (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
 )
 if git_commit["commit"] == "unknown":
     date_tag = "Accessed: {date}".format(date=git_commit["date"])

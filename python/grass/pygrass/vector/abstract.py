@@ -297,10 +297,17 @@ class Info:
             if self.mapset == "":
                 mapset = utils.get_mapset_vector(self.name, self.mapset)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.mapset = mapset if mapset else ""
 =======
                 self.mapset = mapset or ""
 >>>>>>> main
+=======
+                self.mapset = mapset or ""
+=======
+                self.mapset = mapset if mapset else ""
+>>>>>>> 9a2b1d234a (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
+>>>>>>> a2f268d57b (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
                 return bool(mapset)
             return bool(utils.get_mapset_vector(self.name, self.mapset))
         return False

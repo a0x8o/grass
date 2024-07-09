@@ -27,6 +27,7 @@ class Flag:
         diz = read.element2dict(xflag) if xflag is not None else diz
         self.name = diz["name"]
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
 =======
 <<<<<<< HEAD
@@ -43,7 +44,13 @@ class Flag:
             True if self.name in {"verbose", "overwrite", "quiet", "run"} else False
         )
 >>>>>>> 75456afff2 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+<<<<<<< HEAD
 >>>>>>> d2a8cd08c4 (style: Fixes literal-membership (PLR6201) for other code (#3954))
+=======
+=======
+        self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
+>>>>>>> 9a2b1d234a (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
+>>>>>>> a2f268d57b (style: Fix if-expr-with-true-false (SIM210) and if-expr-with-false-true (SIM211) (#3999))
         self.description = diz.get("description", None)
         self.default = diz.get("default", None)
         self.guisection = diz.get("guisection", None)
