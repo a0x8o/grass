@@ -1071,12 +1071,15 @@ def test_render_layers(space_time_raster_dataset, fill_gaps):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+>>>>>>> a4e53663e9 (style: Fix incorrect-dict-iterator (PERF102) (#4007))
     for filename in img._base_filename_dict.values():
         assert Path(filename).is_file()
 
@@ -2180,6 +2183,9 @@ def test_save(space_time_raster_dataset, tmp_path):
 =======
     for unused_date, filename in img._base_filename_dict.items():
 >>>>>>> ab24029634 (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+    for filename in img._base_filename_dict.values():
+>>>>>>> 49624bb6eb (style: Fix incorrect-dict-iterator (PERF102) (#4007))
         assert Path(filename).is_file()
 
 

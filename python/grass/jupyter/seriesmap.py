@@ -229,10 +229,14 @@ class SeriesMap(BaseSeriesMap):
 
         tmp_files = []
 <<<<<<< HEAD
+<<<<<<< HEAD
         for file in self._base_filename_dict.values():
 =======
         for _, file in self._base_filename_dict.items():
 >>>>>>> a223f5587f (grass.jupyter: Create BaseSeriesMap to remove redundancies in SeriesMap and TimeSeriesMap  (#3468))
+=======
+        for file in self._base_filename_dict.values():
+>>>>>>> a4e53663e9 (style: Fix incorrect-dict-iterator (PERF102) (#4007))
             tmp_files.append(file)
 
         save_gif(

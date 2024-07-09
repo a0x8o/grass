@@ -5204,9 +5204,15 @@ ignore = [
 >>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
     "I001",    # unsorted-imports
     "ISC003",  # explicit-string-concatenation
+<<<<<<< HEAD
     "PERF102", # incorrect-dict-iterator
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+<<<<<<< HEAD
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+=======
+>>>>>>> 49624bb6eb (style: Fix incorrect-dict-iterator (PERF102) (#4007))
+>>>>>>> a4e53663e9 (style: Fix incorrect-dict-iterator (PERF102) (#4007))
     "PERF203", # try-except-in-loop
     "PERF401", # manual-list-comprehension
     "PERF402", # manual-list-copy
