@@ -29,7 +29,7 @@ from icons.icon import MetaIcon
 from gui_core.toolbars import BaseIcons
 from gui_core.wrap import Menu
 
-import grass.script as grass
+import grass.script as gs
 
 PlotIcons = {
     "draw": MetaIcon(img="show", label=_("Draw/re-draw plot")),
@@ -116,12 +116,12 @@ class BasePlotFrame(wx.Frame):
         for assigning colors to images in imagery groups"""
 
         self.colorDict = {}
-        for clr in grass.named_colors.keys():
+        for clr in gs.named_colors.keys():
             if clr == "white":
                 continue
-            r = int(grass.named_colors[clr][0] * 255)
-            g = int(grass.named_colors[clr][1] * 255)
-            b = int(grass.named_colors[clr][2] * 255)
+            r = int(gs.named_colors[clr][0] * 255)
+            g = int(gs.named_colors[clr][1] * 255)
+            b = int(gs.named_colors[clr][2] * 255)
             self.colorDict[clr] = (r, g, b, 255)
 
     def InitPlotOpts(self, plottype):
@@ -192,6 +192,7 @@ class BasePlotFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -234,6 +235,11 @@ class BasePlotFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         # x and y axis set to normal (non-log)
         self.client.logScale = (False, False)
@@ -257,7 +263,7 @@ class BasePlotFrame(wx.Frame):
             idx = rasterList.index(r)
 
             try:
-                ret = grass.raster_info(r)
+                ret = gs.raster_info(r)
             except:
                 continue
                 # if r.info cannot parse map, skip it
@@ -321,8 +327,8 @@ class BasePlotFrame(wx.Frame):
             idx = rasterList.index(rpair)
 
             try:
-                ret0 = grass.raster_info(rpair[0])
-                ret1 = grass.raster_info(rpair[1])
+                ret0 = gs.raster_info(rpair[0])
+                ret1 = gs.raster_info(rpair[1])
 
             except:
                 continue

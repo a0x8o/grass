@@ -80,7 +80,11 @@
 # % description: Register empty maps
 # %end
 
+<<<<<<< HEAD
 import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
 
 ############################################################################
 
@@ -122,5 +126,5 @@ def main():
 ###############################################################################
 
 if __name__ == "__main__":
-    options, flags = grass.parser()
+    options, flags = gs.parser()
     main()

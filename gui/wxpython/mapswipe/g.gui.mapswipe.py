@@ -45,11 +45,11 @@
 # %end
 
 import os
-import grass.script as gscript
+import grass.script as gs
 
 
 def main():
-    options, flags = gscript.parser()
+    options, flags = gs.parser()
 
     import wx
 
@@ -74,9 +74,9 @@ def main():
 
     for mapName in [first, second]:
         if mapName:
-            gfile = gscript.find_file(name=mapName)
+            gfile = gs.find_file(name=mapName)
             if not gfile["name"]:
-                gscript.fatal(_("Raster map <%s> not found") % mapName)
+                gs.fatal(_("Raster map <%s> not found") % mapName)
 
     app = wx.App()
 
@@ -89,6 +89,7 @@ def main():
     frame = SwipeMapDisplay(
         parent=frame,
         giface=StandaloneGrassInterface(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,10 +122,13 @@ def main():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
         title=_("Map Swipe Tool - GRASS GIS"),
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,10 @@ def main():
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     )
 
     if first:

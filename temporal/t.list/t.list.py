@@ -89,7 +89,11 @@
 
 import sys
 
+<<<<<<< HEAD
 import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
 
 ############################################################################
 
@@ -104,7 +108,7 @@ def main():
     columns = options["columns"]
     order = options["order"]
     where = options["where"]
-    separator = gscript.separator(options["separator"])
+    separator = gs.separator(options["separator"])
     outpath = options["output"]
     colhead = flags["c"]
 
@@ -116,7 +120,7 @@ def main():
     dbif.connect()
     first = True
 
-    if gscript.verbosity() > 0 and not outpath:
+    if gs.verbosity() > 0 and not outpath:
         sys.stderr.write("----------------------------------------------\n")
 
     if outpath:
@@ -140,7 +144,7 @@ def main():
                 rows = stds_list[key]
 
                 if rows:
-                    if gscript.verbosity() > 0 and not outpath:
+                    if gs.verbosity() > 0 and not outpath:
                         if issubclass(sp.__class__, tgis.AbstractMapDataset):
                             sys.stderr.write(
                                 _(
@@ -193,5 +197,5 @@ def main():
 
 
 if __name__ == "__main__":
-    options, flags = gscript.parser()
+    options, flags = gs.parser()
     main()

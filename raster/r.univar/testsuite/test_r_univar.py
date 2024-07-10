@@ -3,7 +3,12 @@
 @author Soeren Gebbert
 """
 
+import json
+from itertools import zip_longest
+
 from grass.gunittest.case import TestCase
+
+from grass.gunittest.gmodules import SimpleModule
 
 
 class TestRasterUnivar(TestCase):
@@ -149,6 +154,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -168,6 +174,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
             sep="=",
         )
 
@@ -233,6 +241,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -262,6 +271,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             sep="=",
         )
 
@@ -368,6 +381,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -387,6 +401,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
             sep="=",
         )
 
@@ -433,6 +449,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -462,6 +479,10 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             sep="=",
         )
 
@@ -546,6 +567,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         cells=3420
 =======
 <<<<<<< HEAD
@@ -566,6 +588,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                         cells=12780
 =======
                         cells=3420
@@ -576,6 +600,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         cells=3420
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -610,6 +635,11 @@ class TestRasterUnivar(TestCase):
                         cells=3420
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        cells=3420
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                         min=121
                         max=380
                         range=259
@@ -676,6 +706,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         cells=3420
 =======
 <<<<<<< HEAD
@@ -696,6 +727,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                         cells=12780
 =======
                         cells=3420
@@ -706,6 +739,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         cells=3420
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -740,6 +774,11 @@ class TestRasterUnivar(TestCase):
                         cells=3420
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                        cells=3420
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                         min=121
                         max=380
                         range=259
@@ -780,6 +819,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -799,6 +839,8 @@ class TestRasterUnivar(TestCase):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
             sep="=",
         )
 
@@ -869,6 +911,7 @@ class TestRasterUnivar(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -898,14 +941,73 @@ class TestRasterUnivar(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             sep="=",
         )
 
+    def test_json(self):
+        reference = [
+            {
+                "zone_number": 1,
+                "zone_category": "",
+                "n": 3420,
+                "null_cells": 0,
+                "cells": 3420,
+                "min": 102,
+                "max": 309,
+                "range": 207,
+                "mean": 205.5,
+                "mean_of_abs": 205.5,
+                "stddev": 56.611983419296187,
+                "variance": 3204.9166666666665,
+                "coeff_var": 27.548410423015174,
+                "sum": 702810,
+                "first_quartile": 155,
+                "median": 205.5,
+                "percentiles": [{"percentile": 90, "value": 282}],
+                "third_quartile": 255,
+            },
+            {
+                "zone_number": 2,
+                "zone_category": "",
+                "n": 12780,
+                "null_cells": 0,
+                "cells": 12780,
+                "min": 121,
+                "max": 380,
+                "range": 259,
+                "mean": 250.5,
+                "mean_of_abs": 250.5,
+                "stddev": 59.957623924457401,
+                "variance": 3594.9166666666665,
+                "coeff_var": 23.935179211360243,
+                "sum": 3201390,
+                "first_quartile": 200,
+                "median": 250.5,
+                "percentiles": [{"percentile": 90, "value": 330}],
+                "third_quartile": 300,
+            },
+        ]
 
-class TestAccumulateFails(TestCase):
-    def test_error_handling(self):
-        # No vector map, no strds, no coordinates
-        self.assertModuleFail("r.univar", flags="r", map="map_a", zones="map_b")
+        module = SimpleModule(
+            "r.univar",
+            map=["map_a", "map_b"],
+            zones="zone_map",
+            flags="ge",
+            format="json",
+        )
+        self.runModule(module)
+        output = json.loads(module.outputs.stdout)
+        for expected, received in zip_longest(reference, output):
+            self.assertCountEqual(list(expected.keys()), list(received.keys()))
+            for key in expected:
+                if isinstance(expected[key], float):
+                    self.assertAlmostEqual(expected[key], received[key], places=6)
+                else:
+                    self.assertEqual(expected[key], received[key])
 
 
 if __name__ == "__main__":

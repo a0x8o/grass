@@ -141,6 +141,7 @@ def main():
             self.rdigit.quitDigitizer.disconnect(self.QuitRDigit)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +209,17 @@ def main():
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.rdigit.quitDigitizer.connect(self.Close)
+=======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)

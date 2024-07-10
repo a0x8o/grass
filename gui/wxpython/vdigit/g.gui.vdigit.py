@@ -35,13 +35,13 @@
 # %end
 
 import os
-import grass.script as grass
+import grass.script as gs
 
 
 def main():
-    grass.set_raise_on_error(False)
+    gs.set_raise_on_error(False)
 
-    options, flags = grass.parser()
+    options, flags = gs.parser()
 
     # import wx only after running parser
     # to avoid issues with complex imports when only interface is needed
@@ -104,6 +104,7 @@ def main():
             self.toolbars["vdigit"].StartEditing(mapLayer)
             # use Close instead of QuitVDigit for standalone tool
             self.toolbars["vdigit"].quitDigitizer.disconnect(self.QuitVDigit)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
@@ -173,6 +174,17 @@ def main():
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
+=======
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -191,13 +203,13 @@ def main():
             parent.Layout()
 
     if not haveVDigit:
-        grass.fatal(_("Vector digitizer not available. %s") % errorMsg)
+        gs.fatal(_("Vector digitizer not available. %s") % errorMsg)
 
-    if not grass.find_file(
-        name=options["map"], element="vector", mapset=grass.gisenv()["MAPSET"]
+    if not gs.find_file(
+        name=options["map"], element="vector", mapset=gs.gisenv()["MAPSET"]
     )["fullname"]:
         if not flags["c"]:
-            grass.fatal(
+            gs.fatal(
                 _(
                     "Vector map <%s> not found in current mapset. "
                     "New vector map can be created by providing '-c' flag."
@@ -205,13 +217,11 @@ def main():
                 % options["map"]
             )
         else:
-            grass.verbose(_("New vector map <%s> created") % options["map"])
+            gs.verbose(_("New vector map <%s> created") % options["map"])
             try:
-                grass.run_command(
-                    "v.edit", map=options["map"], tool="create", quiet=True
-                )
+                gs.run_command("v.edit", map=options["map"], tool="create", quiet=True)
             except CalledModuleError:
-                grass.fatal(_("Unable to create new vector map <%s>") % options["map"])
+                gs.fatal(_("Unable to create new vector map <%s>") % options["map"])
 
     # allow immediate rendering
     driver = UserSettings.Get(group="display", key="driver", subkey="type")

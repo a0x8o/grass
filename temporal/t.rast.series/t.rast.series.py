@@ -92,7 +92,7 @@
 # % description: Propagate NULLs
 # %end
 
-import grass.script as grass
+import grass.script as gs
 from grass.exceptions import CalledModuleError
 
 ############################################################################
@@ -124,7 +124,7 @@ def main():
     if (len(list(filter(None, quantile.split(",")))) + len_method) != len(
         output.split(",")
     ):
-        grass.fatal(_("Number requested methods and output maps do not match."))
+        gs.fatal(_("Number requested methods and output maps do not match."))
 
     # Make sure the temporal database exists
     tgis.init()
@@ -135,7 +135,7 @@ def main():
 
     if rows:
         # Create the r.series input file
-        filename = grass.tempfile(True)
+        filename = gs.tempfile(True)
         file = open(filename, "w")
 
         for row in rows:
@@ -146,8 +146,9 @@ def main():
 
         flag = ""
         if len(rows) > max_files_open:
-            grass.warning(
+            gs.warning(
                 _(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +180,8 @@ def main():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                     "Processing over {} maps: activating -z flag of r.series which "
                     "slows down processing.".format(max_files_open)
 =======
@@ -192,6 +195,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -201,10 +205,13 @@ def main():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
                     "Processing over {} maps: activating -z flag of r.series which slows down processing.".format(
                         max_files_open
                     )
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +235,8 @@ def main():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                 )
             )
             flag += "z"
@@ -235,19 +244,19 @@ def main():
             flag += "n"
 
         try:
-            grass.run_command(
+            gs.run_command(
                 "r.series",
                 flags=flag,
                 file=filename,
                 output=output,
-                overwrite=grass.overwrite(),
+                overwrite=gs.overwrite(),
                 method=method,
                 quantile=quantile,
                 memory=memory,
                 nprocs=nprocs,
             )
         except CalledModuleError:
-            grass.fatal(_("%s failed. Check above error messages.") % "r.series")
+            gs.fatal(_("%s failed. Check above error messages.") % "r.series")
 
         if not add_time:
             # We need to set the temporal extent from the subset of selected maps
@@ -276,7 +285,7 @@ def main():
                 if out_map.find("@") >= 0:
                     id = out_map
                 else:
-                    mapset = grass.gisenv()["MAPSET"]
+                    mapset = gs.gisenv()["MAPSET"]
                     id = out_map + "@" + mapset
 
                 map = sp.get_new_map_instance(id)
@@ -292,5 +301,5 @@ def main():
 
 
 if __name__ == "__main__":
-    options, flags = grass.parser()
+    options, flags = gs.parser()
     main()

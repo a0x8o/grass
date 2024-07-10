@@ -83,7 +83,11 @@
 # % guisection: Formatting
 # %end
 
+<<<<<<< HEAD
 import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
 
 ############################################################################
 
@@ -97,7 +101,7 @@ def main():
     columns = options["columns"]
     order = options["order"]
     where = options["where"]
-    separator = grass.separator(options["separator"])
+    separator = gs.separator(options["separator"])
     method = options["method"]
     header = flags["s"]
     output = options["output"]
@@ -119,5 +123,5 @@ def main():
 
 
 if __name__ == "__main__":
-    options, flags = grass.parser()
+    options, flags = gs.parser()
     main()

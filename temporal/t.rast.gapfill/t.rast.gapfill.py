@@ -71,7 +71,11 @@
 import copy
 import sys
 
+<<<<<<< HEAD
 import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
 
 ############################################################################
 
@@ -88,7 +92,7 @@ def main():
     nprocs = options["nprocs"]
     tsuffix = options["suffix"]
 
-    mapset = grass.gisenv()["MAPSET"]
+    mapset = gs.gisenv()["MAPSET"]
 
     # Make sure the temporal database exists
     tgis.init()
@@ -106,7 +110,7 @@ def main():
     # Configure the r.to.vect module
     gapfill_module = pymod.Module(
         "r.series.interp",
-        overwrite=grass.overwrite(),
+        overwrite=gs.overwrite(),
         quiet=True,
         run_=False,
         finish_=False,
@@ -132,7 +136,7 @@ def main():
             gap_list.append(_map)
 
     if len(gap_list) == 0:
-        grass.message(_("No gaps found"))
+        gs.message(_("No gaps found"))
         return
 
     # Build the temporal topology
@@ -142,15 +146,22 @@ def main():
     # Do some checks before computation
     for _map in gap_list:
         if not _map.get_precedes() or not _map.get_follows():
+<<<<<<< HEAD
             grass.fatal(_("Unable to determine successor and predecessor of a gap."))
 
         if len(_map.get_precedes()) > 1:
             grass.warning(
+=======
+            gs.fatal(_("Unable to determine successor and predecessor of a gap."))
+
+        if len(_map.get_precedes()) > 1:
+            gs.warning(
+>>>>>>> osgeo-main
                 _("More than one successor of the gap found. Using the first found.")
             )
 
         if len(_map.get_follows()) > 1:
-            grass.warning(
+            gs.warning(
                 _(
                     "More than one predecessor of the gap found. "
                     "Using the first found."
@@ -204,8 +215,8 @@ def main():
 
             overwrite_flags[new_id] = False
             if new_map.map_exists() or new_map.is_in_db(dbif):
-                if not grass.overwrite():
-                    grass.fatal(
+                if not gs.overwrite():
+                    gs.fatal(
                         _(
                             "Map with name <%s> already exists. "
                             "Please use another base name." % (_id)
@@ -264,17 +275,17 @@ def main():
 
 def run_interp(inputs, dpos, output, outpos):
     """Helper function to run r.series.interp in parallel"""
-    return grass.run_command(
+    return gs.run_command(
         "r.series.interp",
         input=inputs,
         datapos=dpos,
         output=output,
         samplingpos=outpos,
-        overwrite=grass.overwrite(),
+        overwrite=gs.overwrite(),
         quiet=True,
     )
 
 
 if __name__ == "__main__":
-    options, flags = grass.parser()
+    options, flags = gs.parser()
     main()

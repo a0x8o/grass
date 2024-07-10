@@ -522,6 +522,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         total_cells = nrows * ncols;
 =======
 <<<<<<< HEAD
@@ -542,6 +543,8 @@ int main(int argc, char *argv[])
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         total_cells = (long)nrows * ncols;
 =======
         total_cells = nrows * ncols;
@@ -552,6 +555,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         total_cells = nrows * ncols;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -586,6 +590,11 @@ int main(int argc, char *argv[])
         total_cells = nrows * ncols;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        total_cells = nrows * ncols;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         skip_nulls = Rast_is_d_null_value(&null_cost);
 

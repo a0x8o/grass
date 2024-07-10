@@ -459,7 +459,7 @@ class Point(Geo):
         if self.id and self.c_mapinfo:
             self.read()
         else:
-            self.is2D = True if z is None else False
+            self.is2D = z is None
             z = z if z is not None else 0
             libvect.Vect_append_point(self.c_points, x, y, z)
 
@@ -1355,6 +1355,7 @@ class Boundary(Line):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,6 +1399,11 @@ class Boundary(Line):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
     # geometry type

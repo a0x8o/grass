@@ -19,7 +19,11 @@ import sys
 
 import wx
 
+<<<<<<< HEAD
 import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
 from wx.lib import plot
 from gui_core.wrap import StockCursor
 from gui_core.toolbars import BaseToolbar, BaseIcons
@@ -259,7 +263,7 @@ class HistogramPlotFrame(BasePlotFrame):
         title = _("Statistics for Map(s) Histogrammed")
 
         for rast in self.rasterList:
-            ret = grass.read_command("r.univar", map=rast, flags="e", quiet=True)
+            ret = gs.read_command("r.univar", map=rast, flags="e", quiet=True)
             stats = _("Statistics for raster map <%s>") % rast + ":\n%s\n" % ret
             message.append(stats)
 

@@ -77,7 +77,7 @@ from grass.grassdb.manage import rename_mapset, rename_location
 
 from grass.pydispatch.signal import Signal
 
-import grass.script as gscript
+import grass.script as gs
 from grass.script import gisenv
 from grass.grassdb.data import map_exists
 from grass.grassdb.checks import (
@@ -99,14 +99,14 @@ currentMapsetChanged, EVT_CURRENT_MAPSET_CHANGED = NewEvent()
 def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
     """Creates dictionary with mapsets, elements, layers for given location.
     Returns tuple with the dictionary and error (or None)"""
-    tmp_gisrc_file, env = gscript.create_environment(gisdbase, location, "PERMANENT")
+    tmp_gisrc_file, env = gs.create_environment(gisdbase, location, "PERMANENT")
     env["GRASS_SKIP_MAPSET_OWNER_CHECK"] = "1"
 
     maps_dict = {}
     elements = ["raster", "raster_3d", "vector"]
     try:
         if not mapsets:
-            mapsets = gscript.read_command(
+            mapsets = gs.read_command(
                 "g.mapsets", flags="l", separator="comma", quiet=True, env=env
             ).strip()
     except CalledModuleError:
@@ -116,7 +116,7 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
                 _("Failed to read mapsets from project <{l}>.").format(l=location),
             )
         )
-        gscript.try_remove(tmp_gisrc_file)
+        gs.try_remove(tmp_gisrc_file)
         return
     else:
         mapsets = mapsets.split(",")
@@ -127,7 +127,7 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
         queue.put((maps_dict, None))
         return
     try:
-        maplist = gscript.read_command(
+        maplist = gs.read_command(
             "g.list",
             flags="mt",
             type=elements,
@@ -142,7 +142,7 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
                 _("Failed to read maps from project <{l}>.").format(l=location),
             )
         )
-        gscript.try_remove(tmp_gisrc_file)
+        gs.try_remove(tmp_gisrc_file)
         return
     else:
         # fill dictionary
@@ -154,9 +154,10 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
             maps_dict[mapset].append({"name": name, "type": ltype})
 
     queue.put((maps_dict, None))
-    gscript.try_remove(tmp_gisrc_file)
+    gs.try_remove(tmp_gisrc_file)
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +209,11 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 class CurrentMapsetWatch(FileSystemEventHandler):
     """Monitors rc file to check if mapset has been changed.
     In that case wx event is dispatched to event handler.
@@ -416,7 +422,7 @@ class DataCatalogTree(TreeView):
         self.current_location_node = None
         self.current_mapset_node = None
         self.UpdateCurrentDbLocationMapsetNode()
-        self._lastWatchdogUpdate = gscript.clock()
+        self._lastWatchdogUpdate = gs.clock()
         self._updateMapsetWhenIdle = None
 
         #  mapset watchdog
@@ -478,6 +484,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +528,11 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         self.observer = None
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -886,7 +898,7 @@ class DataCatalogTree(TreeView):
     def _onWatchdogMapsetReload(self, event_path):
         """Reload mapset node associated with watchdog event.
         Check if events come to quickly and skip them."""
-        time = gscript.clock()
+        time = gs.clock()
         time_diff = time - self._lastWatchdogUpdate
         self._lastWatchdogUpdate = time
         if (time_diff) < 0.5:
@@ -986,7 +998,7 @@ class DataCatalogTree(TreeView):
         something when loading for the first time"""
         if self._model.root.children:
             return
-        gisenv = gscript.gisenv()
+        gisenv = gs.gisenv()
         for grassdatabase in self.grassdatabases:
             grassdb_node = self._model.AppendNode(
                 parent=self._model.root, data={"type": "grassdb", "name": grassdatabase}
@@ -1148,6 +1160,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1167,6 +1180,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> osgeo-main
                             "Map <{map_name}@{map_mapset}> is not in the current "
                             "project. To be able to display it you need to switch to "
                             "<{map_location}> project. Note that if you switch there "
@@ -1178,6 +1193,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -1207,6 +1223,10 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
                             "Map <{map_name}@{map_mapset}> is not in the current location. "
                             "To be able to display it you need to switch to <{map_location}> "
                             "location. Note that if you switch there all current "
@@ -1220,6 +1240,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1262,6 +1283,11 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
                             "Do you want to switch anyway?"
                         ).format(
                             map_name=selected_layer.data["name"],
@@ -1277,6 +1303,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         caption=_("Map in a different location"),
 =======
 <<<<<<< HEAD
@@ -1297,6 +1324,8 @@ class DataCatalogTree(TreeView):
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> osgeo-main
                         caption=_("Map in a different project"),
 =======
                         caption=_("Map in a different location"),
@@ -1307,6 +1336,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         caption=_("Map in a different location"),
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1341,6 +1371,11 @@ class DataCatalogTree(TreeView):
                         caption=_("Map in a different location"),
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+                        caption=_("Map in a different location"),
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
                         style=wx.YES_NO | wx.NO_DEFAULT | wx.ICON_QUESTION,
                     )
                     dlg.SetYesNoLabels("S&witch", "C&ancel")
@@ -1368,7 +1403,7 @@ class DataCatalogTree(TreeView):
 
     def ExpandCurrentLocation(self):
         """Expand current location"""
-        location = gscript.gisenv()["LOCATION_NAME"]
+        location = gs.gisenv()["LOCATION_NAME"]
         item = self._model.SearchNodes(name=location, type="location")
         if item:
             self.Select(item[0], select=True)
@@ -1446,7 +1481,7 @@ class DataCatalogTree(TreeView):
         self._restricted = restrict
 
     def _runCommand(self, prog, **kwargs):
-        cmdString = " ".join(gscript.make_command(prog, **kwargs))
+        cmdString = " ".join(gs.make_command(prog, **kwargs))
         ret = RunCommand(prog, parent=self, **kwargs)
 
         return ret, cmdString
@@ -1484,7 +1519,7 @@ class DataCatalogTree(TreeView):
     def OnRenameMap(self, event):
         """Rename layer with dialog"""
         old_name = self.selected_layer[0].data["name"]
-        gisrc, env = gscript.create_environment(
+        gisrc, env = gs.create_environment(
             self.selected_grassdb[0].data["name"],
             self.selected_location[0].data["name"],
             self.selected_mapset[0].data["name"],
@@ -1685,7 +1720,7 @@ class DataCatalogTree(TreeView):
     def Rename(self, old, new):
         """Rename layer"""
         string = old + "," + new
-        gisrc, env = gscript.create_environment(
+        gisrc, env = gs.create_environment(
             self.selected_grassdb[0].data["name"],
             self.selected_location[0].data["name"],
             self.selected_mapset[0].data["name"],
@@ -1698,7 +1733,7 @@ class DataCatalogTree(TreeView):
             renamed, cmd = self._runCommand("g.rename", raster=string, env=env)
         else:
             renamed, cmd = self._runCommand("g.rename", raster3d=string, env=env)
-        gscript.try_remove(gisrc)
+        gs.try_remove(gisrc)
         if renamed == 0:
             self.showNotification.emit(message=_("{cmd} -- completed").format(cmd=cmd))
             Debug.msg(1, "LAYER RENAMED TO: " + new)
@@ -1722,12 +1757,12 @@ class DataCatalogTree(TreeView):
             return
 
         for i in range(len(self.copy_layer)):
-            gisrc, env = gscript.create_environment(
+            gisrc, env = gs.create_environment(
                 self.selected_grassdb[0].data["name"],
                 self.selected_location[0].data["name"],
                 self.selected_mapset[0].data["name"],
             )
-            gisrc2, env2 = gscript.create_environment(
+            gisrc2, env2 = gs.create_environment(
                 self.copy_grassdb[i].data["name"],
                 self.copy_location[i].data["name"],
                 self.copy_mapset[i].data["name"],
@@ -1813,8 +1848,8 @@ class DataCatalogTree(TreeView):
                         action="new",
                     )
 
-                gscript.try_remove(gisrc)
-                gscript.try_remove(gisrc2)
+                gs.try_remove(gisrc)
+                gs.try_remove(gisrc2)
                 # expand selected mapset
             else:
                 if self.copy_layer[i].data["type"] == "raster_3d":
@@ -1881,8 +1916,8 @@ class DataCatalogTree(TreeView):
         )
         if not cMode:
             self._removeMapAfterCopy(cLayer, cMapset, iEnv)
-        gscript.try_remove(iGisrc)
-        gscript.try_remove(oGisrc)
+        gs.try_remove(iGisrc)
+        gs.try_remove(oGisrc)
         self.ExpandNode(sMapset, recursive=True)
 
     def _removeMapAfterCopy(self, cLayer, cMapset, env):
@@ -1984,7 +2019,7 @@ class DataCatalogTree(TreeView):
             label = _("Deleting {name}...").format(name=names)
             self.showNotification.emit(message=label)
             for i in range(len(self.selected_layer)):
-                gisrc, env = gscript.create_environment(
+                gisrc, env = gs.create_environment(
                     self.selected_grassdb[i].data["name"],
                     self.selected_location[i].data["name"],
                     self.selected_mapset[i].data["name"],
@@ -1996,7 +2031,7 @@ class DataCatalogTree(TreeView):
                     name=self.selected_layer[i].data["name"],
                     env=env,
                 )
-                gscript.try_remove(gisrc)
+                gs.try_remove(gisrc)
                 if removed == 0:
                     self._giface.grassdbChanged.emit(
                         grassdb=self.selected_grassdb[i].data["name"],
@@ -2344,7 +2379,7 @@ class DataCatalogTree(TreeView):
         """Show metadata of any raster/vector/3draster"""
 
         def done(event):
-            gscript.try_remove(event.userData)
+            gs.try_remove(event.userData)
 
         for i in range(len(self.selected_layer)):
             if self.selected_layer[i].data["type"] == "raster":
@@ -2361,7 +2396,7 @@ class DataCatalogTree(TreeView):
                 )
             )
 
-            gisrc, env = gscript.create_environment(
+            gisrc, env = gs.create_environment(
                 self.selected_grassdb[i].data["name"],
                 self.selected_location[i].data["name"],
                 self.selected_mapset[i].data["name"],

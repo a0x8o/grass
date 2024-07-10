@@ -31,6 +31,7 @@ from __future__ import print_function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -73,6 +74,11 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import io
 from contextlib import redirect_stdout
 import sys
@@ -81,7 +87,7 @@ import wx
 from wx.py.shell import Shell as PyShell
 from wx.py.version import VERSION
 
-import grass.script as grass
+import grass.script as gs
 
 from gui_core.wrap import Button, ClearButton, IsDark
 from gui_core.pystc import SetDarkMode
@@ -113,7 +119,11 @@ class PyShellWindow(wx.Panel):
             "parent": self,
             "id": wx.ID_ANY,
             "introText": self.intro,
+<<<<<<< HEAD
             "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+=======
+            "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
+>>>>>>> osgeo-main
         }
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):
@@ -174,14 +184,14 @@ class PyShellWindow(wx.Panel):
         fname = None
         if ltype == "raster" or ltype != "vector":
             # check for raster
-            fname = grass.find_file(name, element="cell")["fullname"]
+            fname = gs.find_file(name, element="cell")["fullname"]
             if fname:
                 ltype = "raster"
                 lcmd = "d.rast"
 
         if not fname and (ltype == "vector" or ltype != "raster"):
             # if not found check for vector
-            fname = grass.find_file(name, element="vector")["fullname"]
+            fname = gs.find_file(name, element="vector")["fullname"]
             if fname:
                 ltype = "vector"
                 lcmd = "d.vect"

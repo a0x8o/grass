@@ -28,6 +28,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +72,11 @@ import operator
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 
@@ -625,17 +631,14 @@ def GetListOfLocations(dbase):
     """
     listOfLocations = []
 
-    try:
-        for location in glob.glob(os.path.join(dbase, "*")):
-            try:
-                if os.path.join(location, "PERMANENT") in glob.glob(
-                    os.path.join(location, "*")
-                ):
-                    listOfLocations.append(os.path.basename(location))
-            except:
-                pass
-    except (UnicodeEncodeError, UnicodeDecodeError) as e:
-        raise e
+    for location in glob.glob(os.path.join(dbase, "*")):
+        try:
+            if os.path.join(location, "PERMANENT") in glob.glob(
+                os.path.join(location, "*")
+            ):
+                listOfLocations.append(os.path.basename(location))
+        except:
+            pass
 
     ListSortLower(listOfLocations)
 

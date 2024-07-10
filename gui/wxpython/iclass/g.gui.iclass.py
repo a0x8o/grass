@@ -50,12 +50,12 @@
 # %end
 
 import os
-import grass.script as gscript
+import grass.script as gs
 
 
 def main():
-    gscript.set_raise_on_error(False)
-    options, flags = gscript.parser()
+    gs.set_raise_on_error(False)
+    options, flags = gs.parser()
 
     import wx
 
@@ -64,6 +64,7 @@ def main():
     set_gui_path()
 
     from core.settings import UserSettings
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +112,11 @@ def main():
     from iclass.frame import IClassMapDisplay
 =======
 >>>>>>> osgeo-main
+=======
+    from core import globalvar
+    from iclass.frame import IClassMapDisplay
+=======
+>>>>>>> osgeo-main
     from iclass.frame import IClassMapFrame
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -121,6 +127,7 @@ def main():
     from core import globalvar
     from iclass.frame import IClassMapDisplay
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,33 +178,35 @@ def main():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
     group_name = subgroup_name = map_name = trainingmap_name = None
 
     if options["group"]:
         if not options["subgroup"]:
-            gscript.fatal(_("Name of subgroup required"))
-        group_name = gscript.find_file(name=options["group"], element="group")["name"]
+            gs.fatal(_("Name of subgroup required"))
+        group_name = gs.find_file(name=options["group"], element="group")["name"]
         if not group_name:
-            gscript.fatal(_("Group <%s> not found") % options["group"])
-        subgroups = gscript.read_command(
+            gs.fatal(_("Group <%s> not found") % options["group"])
+        subgroups = gs.read_command(
             "i.group", group=group_name, flags="sg"
         ).splitlines()
         if options["subgroup"] not in subgroups:
-            gscript.fatal(_("Subgroup <%s> not found") % options["subgroup"])
+            gs.fatal(_("Subgroup <%s> not found") % options["subgroup"])
         subgroup_name = options["subgroup"]
 
     if options["map"]:
-        map_name = gscript.find_file(name=options["map"], element="cell")["fullname"]
+        map_name = gs.find_file(name=options["map"], element="cell")["fullname"]
         if not map_name:
-            gscript.fatal(_("Raster map <%s> not found") % options["map"])
+            gs.fatal(_("Raster map <%s> not found") % options["map"])
 
     if options["trainingmap"]:
-        trainingmap_name = gscript.find_file(
-            name=options["trainingmap"], element="vector"
-        )["fullname"]
+        trainingmap_name = gs.find_file(name=options["trainingmap"], element="vector")[
+            "fullname"
+        ]
         if not trainingmap_name:
-            gscript.fatal(_("Vector map <%s> not found") % options["trainingmap"])
+            gs.fatal(_("Vector map <%s> not found") % options["trainingmap"])
 
     # define display driver
     driver = UserSettings.Get(group="display", key="driver", subkey="type")
@@ -221,6 +230,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,10 +254,13 @@ def main():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
     frame = wx.Frame(
         parent=None,
         size=globalvar.MAP_WINDOW_SIZE,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,10 +286,13 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> osgeo-main
     frame = IClassMapFrame(
         parent=None,
         giface=None,
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +307,8 @@ def main():
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
     frame = wx.Frame(
         parent=None,
@@ -302,6 +320,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -311,10 +330,13 @@ def main():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
     frame = wx.Frame(
         parent=None,
         size=globalvar.MAP_WINDOW_SIZE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +364,8 @@ def main():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
         title=_("Supervised Classification Tool - GRASS GIS"),
     )
     frame = IClassMapDisplay(

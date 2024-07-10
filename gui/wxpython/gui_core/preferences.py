@@ -42,7 +42,7 @@ import wx.lib.mixins.listctrl as listmix
 import wx.lib.scrolledpanel as SP
 
 from grass.pydispatch.signal import Signal
-import grass.script as grass
+import grass.script as gs
 from grass.exceptions import OpenError
 
 from core import globalvar
@@ -1344,7 +1344,7 @@ class PreferencesDialog(PreferencesBaseDialog):
         self.nprocs = TextCtrl(
             parent=panel,
             id=wx.ID_ANY,
-            value=grass.gisenv().get("NPROCS", ""),
+            value=gs.gisenv().get("NPROCS", ""),
             validator=IntegerValidator(),
             name="NumberOfProcs",
         )
@@ -1368,7 +1368,7 @@ class PreferencesDialog(PreferencesBaseDialog):
         self.memorymb = TextCtrl(
             parent=panel,
             id=wx.ID_ANY,
-            value=grass.gisenv().get("MEMORYMB", ""),
+            value=gs.gisenv().get("MEMORYMB", ""),
             validator=IntegerValidator(),
             name="MemorySizeMB",
         )
@@ -2024,6 +2024,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2043,6 +2044,8 @@ class PreferencesDialog(PreferencesBaseDialog):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
                 # do not save dim when mapdisp is docked within single window
                 if (not mapdisp.IsDockable() or not mapdisp.IsDocked()) and (
                     size[0] > 0 and size[1] > 0
@@ -2055,6 +2058,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2084,6 +2088,10 @@ class PreferencesDialog(PreferencesBaseDialog):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                 # when mapdisp is inside single window (panel has no IsIconized), don't save dim
                 if (
                     hasattr(mapdisp, "IsIconized")
@@ -2404,18 +2412,18 @@ class PreferencesDialog(PreferencesBaseDialog):
                     group="language", key="locale", subkey="lc_all", value=None
                 )
                 lang = None
-            env = grass.gisenv()
+            env = gs.gisenv()
 
             # Set gisenv MEMORYMB var value
             memorydb_gisenv = "MEMORYMB"
             memorymb = self.memorymb.GetValue()
             if memorymb:
-                grass.run_command(
+                gs.run_command(
                     "g.gisenv",
                     set=f"{memorydb_gisenv}={memorymb}",
                 )
             elif env.get(memorydb_gisenv):
-                grass.run_command(
+                gs.run_command(
                     "g.gisenv",
                     unset=memorydb_gisenv,
                 )
@@ -2423,12 +2431,12 @@ class PreferencesDialog(PreferencesBaseDialog):
             nprocs_gisenv = "NPROCS"
             nprocs = self.nprocs.GetValue()
             if nprocs:
-                grass.run_command(
+                gs.run_command(
                     "g.gisenv",
                     set=f"{nprocs_gisenv}={nprocs}",
                 )
             elif env.get(nprocs_gisenv):
-                grass.run_command(
+                gs.run_command(
                     "g.gisenv",
                     unset=nprocs_gisenv,
                 )
@@ -2454,7 +2462,7 @@ class MapsetAccess(wx.Dialog):
 
         self.all_mapsets_ordered = ListOfMapsets(get="ordered")
         self.accessible_mapsets = ListOfMapsets(get="accessible")
-        self.curr_mapset = grass.gisenv()["MAPSET"]
+        self.curr_mapset = gs.gisenv()["MAPSET"]
 
         # make a checklistbox from available mapsets and check those that are
         # active
@@ -2538,7 +2546,7 @@ class CheckListMapset(ListCtrl, listmix.ListCtrlAutoWidthMixin, CheckListCtrlMix
         self.InsertColumn(0, _("Mapset"))
         self.InsertColumn(1, _("Owner"))
         ### self.InsertColumn(2, _('Group'))
-        gisenv = grass.gisenv()
+        gisenv = gs.gisenv()
         locationPath = os.path.join(gisenv["GISDBASE"], gisenv["LOCATION_NAME"])
 
         for mapset in self.parent.all_mapsets_ordered:
