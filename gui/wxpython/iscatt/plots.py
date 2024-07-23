@@ -241,9 +241,14 @@ class ScatterPlotWidget(wx.Panel, ManageBusyCursorMixin):
             aspect="equal",
         )
 
+<<<<<<< HEAD
+        callafter_list.append([self.axes.draw_artist, [img]])
+        callafter_list.append([gs.try_remove, [merged_img.filename]])
+=======
         callafter_list.extend(
             ([self.axes.draw_artist, [img]], [gs.try_remove, [merged_img.filename]])
         )
+>>>>>>> main
 
         for cat_id in cats_order:
             if cat_id == 0:

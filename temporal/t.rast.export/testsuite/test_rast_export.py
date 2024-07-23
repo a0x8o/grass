@@ -12,10 +12,14 @@ for details.
 import os
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from grass.gunittest.case import TestCase
 
 

@@ -88,9 +88,13 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         super().__init__(*args, **kargs)
 =======
 =======
@@ -103,6 +107,9 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -125,9 +132,17 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+        super().__init__(*args, **kargs)
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         super(Category, self).__init__(*args, **kargs)
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 
@@ -232,9 +247,15 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         return super().__setitem__(self._chk_index(index), self._chk_value(value))
 =======
         return super(Category, self).__setitem__(
@@ -258,9 +279,13 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
@@ -274,6 +299,9 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -292,9 +320,15 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
     def _get_c_cat(self, index):
         """Returns i-th description and i-th data range from the list of
@@ -474,9 +508,13 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
@@ -489,6 +527,9 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -511,9 +552,17 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+        """Copy categories from a rules file, default separator is ':', the
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -571,9 +620,13 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
@@ -586,6 +639,9 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -608,9 +664,17 @@ class Category(list):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+        """Copy categories from a rules file, default separator is ':', the
+=======
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::

@@ -55,6 +55,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 =======
@@ -77,9 +82,15 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -91,6 +102,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -116,9 +130,21 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     keyvalue operator=(const keyvalue &that)
     {
         key = that.key;
@@ -137,6 +163,10 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -146,9 +176,13 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -171,9 +205,13 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -186,6 +224,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -220,9 +261,23 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     int operator!=(const keyvalue &e2) const
     {
         return (key != e2.key) || (value != e2.value);
@@ -339,6 +394,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 =======
@@ -352,6 +412,8 @@ public:
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 <<<<<<< HEAD
@@ -386,6 +448,15 @@ public:
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> osgeo-main
@@ -393,6 +464,7 @@ public:
 =======
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
 >>>>>>> osgeo-main
+>>>>>>> main
     ccforest(const ccforest &) = delete;
     ccforest &operator=(const ccforest &) = delete;
     ccforest(ccforest &&) = delete;
@@ -408,6 +480,11 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> main
 =======
 >>>>>>> b4675dccbc (r.terrafow: explicit use of default constructors (#2660))
 =======
@@ -457,9 +534,13 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
     ~ccforest();
 =======
@@ -479,6 +560,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -488,6 +572,7 @@ public:
 =======
     ~ccforest();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -519,9 +604,25 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+=======
+    ~ccforest();
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    ~ccforest();
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     void insert(const T &i, const T &j); /* insert edge (i,j) */
     T findNextRoot(const T &i);          /* find root where i >= prev i */
     void printRootStream();

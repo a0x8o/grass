@@ -10,13 +10,33 @@ for details.
 """
 
 import sys
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .core import (
+    get_tgis_message_interface,
+    get_current_mapset,
+    SQLDatabaseInterfaceConnection,
+)
+from .abstract_map_dataset import AbstractMapDataset
+from .open_stds import open_old_stds, check_new_stds, open_new_stds
+from .datetime_math import create_suffix_from_datetime
+from .datetime_math import create_time_suffix
+from .datetime_math import create_numeric_suffix
+>>>>>>> a9d9dc4896 (style: Fixes sys-exit-alias (PLR1722) (#3951))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from multiprocessing import Process
 
+<<<<<<< HEAD
+import grass.script as gs
+=======
 <<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from grass.exceptions import CalledModuleError
 
 from .abstract_map_dataset import AbstractMapDataset

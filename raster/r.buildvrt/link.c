@@ -114,9 +114,15 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                 int have_stats UNUSED, struct R_stats *ostats UNUSED,
                 const char *title)
 =======
@@ -165,6 +171,14 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                int have_stats, struct R_stats *ostats, const char *title)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
                 int have_stats, struct R_stats *ostats, const char *title)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -174,6 +188,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
                 int have_stats, struct R_stats *ostats, const char *title)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     struct History history;
     struct Categories cats;

@@ -68,9 +68,22 @@ import os
 
 <<<<<<< HEAD
 import grass.script as grass
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from grass.script import raster
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from grass.exceptions import CalledModuleError
 from grass.script import raster
 
@@ -105,10 +118,14 @@ def main():
     if strds_sp.get_temporal_type() != sp.get_temporal_type():
         dbif.close()
 <<<<<<< HEAD
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+=======
+<<<<<<< HEAD
         grass.fatal(_("Input and aggregation dataset must have the same temporal type"))
 =======
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
 >>>>>>> osgeo-main
+>>>>>>> main
 
     # Check if intervals are present in the sample dataset
     if sp.get_temporal_type() == "absolute":

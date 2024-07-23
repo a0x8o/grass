@@ -297,10 +297,14 @@ def main():
             except CalledModuleError:
                 dbif.close()
 <<<<<<< HEAD
+                gs.fatal(
+=======
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
+>>>>>>> main
                     _("Unable to add column %s to vector map <%s> with layer %i")
                     % (columns_string, vectmap, count)
                 )
@@ -318,10 +322,14 @@ def main():
             except CalledModuleError:
                 dbif.close()
 <<<<<<< HEAD
+                gs.fatal(
+=======
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
+>>>>>>> main
                     _("Unable to add table to vector map <%s> with layer %i")
                     % (vectmap, count)
                 )

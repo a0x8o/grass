@@ -20,10 +20,14 @@ import sys
 import wx
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from wx.lib import plot
 from gui_core.wrap import StockCursor
 from gui_core.toolbars import BaseToolbar, BaseIcons

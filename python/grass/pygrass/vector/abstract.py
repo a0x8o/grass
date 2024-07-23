@@ -296,7 +296,11 @@ class Info:
         if self.name:
             if self.mapset == "":
                 mapset = utils.get_mapset_vector(self.name, self.mapset)
+<<<<<<< HEAD
+                self.mapset = mapset if mapset else ""
+=======
                 self.mapset = mapset or ""
+>>>>>>> main
                 return bool(mapset)
             return bool(utils.get_mapset_vector(self.name, self.mapset))
         else:
@@ -457,9 +461,15 @@ class Info:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                     "The database link for layer %d of <%s> references layer %d."
 =======
                     "The databse link for layer %d of <%s> references layer %d."
@@ -507,6 +517,14 @@ class Info:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "The databse link for layer %d of <%s> references layer %d."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -516,6 +534,7 @@ class Info:
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
                     % (layer, self.name, layer_db_link.layer)
                 )
             self.layer = layer

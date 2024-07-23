@@ -39,6 +39,11 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,9 +80,19 @@ Usage::
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     executable = "grass"
     if sys.platform.startswith("win"):
         # MS Windows
@@ -102,6 +117,9 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 =======
 >>>>>>> osgeo-main
@@ -215,9 +233,44 @@ Usage::
 <<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+    grass8bin = 'grass'
+    if sys.platform.startswith('win'):
+=======
+    executable = "grass"
+    if sys.platform.startswith("win"):
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+    executable = "grass"
+    if sys.platform.startswith("win"):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        # MS Windows
+        executable = r"C:\OSGeo4W\bin\grass.bat"
+        # uncomment when using standalone WinGRASS installer
+        # executable = r'C:\Program Files (x86)\GRASS GIS <version>\grass.bat'
+        # this can be skipped if GRASS executable is added to PATH
+    elif sys.platform == "darwin":
+        # Mac OS X
+        version = "@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@"
+        executable = f"/Applications/GRASS-{version}.app/Contents/Resources/bin/grass"
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     # query GRASS GIS itself for its GISBASE
     startcmd = [grass8bin, '--config', 'path']
     try:
@@ -253,9 +306,13 @@ Usage::
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
     # query GRASS GIS itself for its Python package path
     grass_cmd = [executable, "--config", "python_path"]
@@ -278,9 +335,13 @@ Usage::
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
     # query GRASS GIS itself for its Python package path
     grass_cmd = [executable, "--config", "python_path"]
@@ -294,6 +355,9 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -316,9 +380,17 @@ Usage::
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
     # define GRASS-Python environment
     sys.path.append(process.stdout.strip())
@@ -345,6 +417,11 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -353,6 +430,10 @@ Usage::
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
     gs.message("Current GRASS GIS 8 environment:")
 =======
 <<<<<<< HEAD
@@ -421,10 +502,13 @@ Usage::
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 9f683ad6d3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
     gs.message("Current GRASS GIS 8 environment:")
 =======
     gs.message('Current GRASS GIS 8 environment:')
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -469,6 +553,25 @@ Usage::
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+    gs.message("Current GRASS GIS 8 environment:")
+=======
+    gs.message('Current GRASS GIS 8 environment:')
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+    gs.message('Current GRASS GIS 8 environment:')
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    gs.message("Current GRASS GIS 8 environment:")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -478,6 +581,7 @@ Usage::
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
     print(gs.gisenv())
 
     gs.message("Available raster maps:")
@@ -511,6 +615,13 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 (C) 2010-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -553,9 +664,23 @@ Usage::
 =======
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
@@ -568,10 +693,13 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -590,10 +718,13 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -675,6 +806,28 @@ Usage::
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+=======
+(C) 2010-2021 by the GRASS Development Team
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+(C) 2010-2022 by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
+=======
+=======
+(C) 2010-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
 =======
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -684,6 +837,7 @@ Usage::
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
+>>>>>>> main
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -879,9 +1033,15 @@ def setup_runtime_env(gisbase):
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
     The function tries to determine path tp GRASS GIS installation so that the
     returned path can be used for setup of environmental variable for GRASS runtime.
@@ -1264,6 +1424,8 @@ def setup_runtime_env(gisbase):
 <<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 
     If *path* is not provided and no relevant environmental variables are set, the
     default relative path search is performed.
@@ -1422,12 +1584,16 @@ def init(path, location=None, mapset=None, grass_path=None):
         import grass.script as gs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
         session = gs.setup.init(
             "~/grassdata/nc_spm_08/user1",
             grass_path="/usr/lib/grass",
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         gisrc = gs.setup.init("/usr/bin/grass8",
@@ -1436,6 +1602,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
         # ... use GRASS modules here
         # end the session
         session.finish()
@@ -1467,8 +1635,11 @@ def init(path, location=None, mapset=None, grass_path=None):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
     # Support ~ in the path for user home directory.
     path = Path(path).expanduser()
     # A simple existence test. The directory, whatever it is, should exist.
@@ -1490,6 +1661,7 @@ def init(path, location=None, mapset=None, grass_path=None):
             )
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     # add addons to the PATH
     # copied and simplified from lib/init/grass.py
@@ -1507,6 +1679,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 
     # If environment is not provided, use the global one.
     if not env:
@@ -1952,10 +2126,16 @@ def init(path, location=None, mapset=None, grass_path=None):
 
         # ... setup GISBASE and sys.path before import
         import grass.script as gs
+<<<<<<< HEAD
         session = gs.setup.init(
             "~/grassdata/nc_spm_08/user1",
             grass_path="/usr/lib/grass",
         )
+=======
+        gisrc = gs.setup.init("/usr/bin/grass8",
+                              "/home/john/grassdata",
+                              "nc_spm_08", "user1")
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
         # ... use GRASS modules here
         # end the session
         session.finish()
@@ -1985,6 +2165,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     from grass.grassdb.checks import get_mapset_invalid_reason, is_mapset_valid
     from grass.grassdb.manage import resolve_mapset_path
 
+<<<<<<< HEAD
     # Support ~ in the path for user home directory.
     path = Path(path).expanduser()
     # A simple existence test. The directory, whatever it is, should exist.
@@ -2005,6 +2186,21 @@ def init(path, location=None, mapset=None, grass_path=None):
                 ),
             )
         )
+=======
+    # add addons to the PATH
+    # copied and simplified from lib/init/grass.py
+    if mswin:
+        config_dirname = "GRASS8"
+        config_dir = os.path.join(os.getenv("APPDATA"), config_dirname)
+    else:
+        config_dirname = ".grass8"
+        config_dir = os.path.join(os.getenv("HOME"), config_dirname)
+    addon_base = os.path.join(config_dir, "addons")
+    os.environ["GRASS_ADDON_BASE"] = addon_base
+    if not mswin:
+        os.environ["PATH"] += os.pathsep + os.path.join(addon_base, "scripts")
+    os.environ["PATH"] += os.pathsep + os.path.join(addon_base, "bin")
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
     setup_runtime_env(grass_path)
 
@@ -2273,6 +2469,8 @@ def init(path, location=None, mapset=None, grass_path=None):
     if it exists. If GRASSBIN environmental variable exists and it is an existing
     executable, the executable is queried for the path.
 =======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 
     The function tries to determine path tp GRASS GIS installation so that the
     returned path can be used for setup of environmental variable for GRASS runtime.
@@ -2933,6 +3131,8 @@ def init(path, location=None, mapset=None, grass_path=None):
     setup_runtime_env(grass_path)
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     # TODO: lock the mapset?
     os.environ["GIS_LOCK"] = str(os.getpid())
 
@@ -3042,6 +3242,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 
     setup_runtime_env(grass_path)
 
+>>>>>>> main
     # TODO: lock the mapset?
     env["GIS_LOCK"] = str(os.getpid())
 
@@ -3095,11 +3296,19 @@ class SessionHandle:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
     Do not create objects of this class directly. Use the *init* function
     to get a session object.
 
@@ -3185,9 +3394,15 @@ class SessionHandle:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     @property
     def env(self):
         return self._env
@@ -3232,6 +3447,13 @@ class SessionHandle:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -3239,6 +3461,7 @@ class SessionHandle:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
     def __enter__(self):
         """Enter the context manager context.
 

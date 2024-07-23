@@ -909,9 +909,15 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int v5dSizeofGrid(const v5dstruct *v, int time UNUSED, int var)
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
@@ -959,6 +965,14 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int v5dSizeofGrid(const v5dstruct *v, int time, int var)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -968,6 +982,7 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     return v->Nr * v->Nc * v->Nl[var] * v->CompressMode;
 }

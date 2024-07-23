@@ -126,6 +126,11 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,9 +167,19 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     struct vector cls_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
     /* index 1 */
     struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
@@ -197,6 +212,9 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 =======
 >>>>>>> osgeo-main
@@ -248,6 +266,9 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
@@ -427,9 +448,89 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+    struct vector cls_clay[POLYGON_DIMENSION] = {{0.0}};
+=======
+    struct vector cls_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    /* index 1 */
+    struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 2 */
+    struct vector cls_silty_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 3 */
+    struct vector cls_sandy_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 4 */
+    struct vector cls_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 5 */
+    struct vector cls_silty_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 6 */
+    struct vector cls_sand[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 7 */
+    struct vector cls_loamy_sand[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 8 */
+    struct vector cls_sandy_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 9 */
+    struct vector cls_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 10 */
+    struct vector cls_silt_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 11 */
+<<<<<<< HEAD
+    struct vector cls_silt[POLYGON_DIMENSION] = {{0.0}};
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    struct vector cls_silt[POLYGON_DIMENSION] = {{.sand = 0.0}};
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+=======
+=======
+=======
+    struct vector cls_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 1 */
+    struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 2 */
+    struct vector cls_silty_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 3 */
+    struct vector cls_sandy_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 4 */
+    struct vector cls_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 5 */
+    struct vector cls_silty_clay_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 6 */
+    struct vector cls_sand[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 7 */
+    struct vector cls_loamy_sand[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 8 */
+    struct vector cls_sandy_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 9 */
+    struct vector cls_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 10 */
+    struct vector cls_silt_loam[POLYGON_DIMENSION] = {{.sand = 0.0}};
+    /* index 11 */
+    struct vector cls_silt[POLYGON_DIMENSION] = {{.sand = 0.0}};
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     struct vector cls_clay[POLYGON_DIMENSION] = {{0.0}};
     /* index 1 */
     struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{0.0}};
@@ -457,14 +558,18 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 =======
     struct vector cls_silt[POLYGON_DIMENSION] = {{.sand = 0.0}};
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
->>>>>>> 488180fefd (Fix missing function prototypes (#2727))
+>>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 =======
 =======
@@ -504,12 +609,16 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
     if ((sand_input + clay_input + silt_input) <= 10.0) {
         sand_input = sand_input * 100.0;

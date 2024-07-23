@@ -108,12 +108,17 @@ def main():
     for line in decode(s).splitlines():
         if line == output:
 <<<<<<< HEAD
+            if gs.overwrite():
+                gs.warning(
+=======
+<<<<<<< HEAD
             if grass.overwrite():
                 grass.warning(
 =======
             if gs.overwrite():
                 gs.warning(
 >>>>>>> osgeo-main
+>>>>>>> main
                     _("Table <%s> already exists and will be overwritten") % output
                 )
                 gs.write_command(

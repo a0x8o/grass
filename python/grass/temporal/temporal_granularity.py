@@ -28,10 +28,14 @@ for details.
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
@@ -100,15 +104,26 @@ from collections import OrderedDict
 <<<<<<< HEAD
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
+=======
+=======
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> main
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 import ast
 from collections import OrderedDict
 from functools import reduce

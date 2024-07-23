@@ -24,10 +24,14 @@ import wx
 
 from wx.lib import plot
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from wxplot.base import BasePlotFrame, PlotIcons
 from gui_core.toolbars import BaseToolbar, BaseIcons
 from gui_core.wrap import StockCursor
@@ -474,7 +478,11 @@ class ProfileFrame(BasePlotFrame):
                 statstr = "Profile of %s\n\n" % rast
 
                 iterable = (i[1] for i in self.raster[r]["datalist"])
+<<<<<<< HEAD
+                a = np.fromiter(iterable, np.float)
+=======
                 a = np.fromiter(iterable, float)
+>>>>>>> main
 
                 statstr += "n: %f\n" % a.size
                 statstr += "minimum: %f\n" % np.amin(a)

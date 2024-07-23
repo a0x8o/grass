@@ -34,10 +34,14 @@ for details.
 import os
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from grass.pygrass import messages
 from grass.script.utils import decode
 

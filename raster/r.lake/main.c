@@ -343,9 +343,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                 /* Checking presence of water. */
 =======
                 /* Cheking presence of water. */
@@ -393,6 +399,14 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                /* Cheking presence of water. */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
                 /* Cheking presence of water. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -402,6 +416,7 @@ int main(int argc, char *argv[])
                 /* Cheking presence of water. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
                 if (is_near_water(water_window) == 1) {
                     if (in_terran[row][col] < water_level) {
                         out_water[row][col] = water_level - in_terran[row][col];

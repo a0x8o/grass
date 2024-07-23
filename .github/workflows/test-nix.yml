@@ -31,10 +31,28 @@ jobs:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Install nix
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        uses: DeterminateSystems/nix-installer-action@7993355175c2765e5733dae74f3e0786fe0e5c4f # v12
+=======
         uses: DeterminateSystems/nix-installer-action@ab6bcb2d5af0e904d04aea750e2089e9dc4cbfdd # v13
+>>>>>>> main
 
       - name: Setup cachix
         uses: cachix/cachix-action@ad2ddac53f961de1989924296a1f236fcfbaa4fc # v15
+=======
+        uses: DeterminateSystems/nix-installer-action@v12
+
+      - name: Setup cachix
+        uses: cachix/cachix-action@v15
+>>>>>>> 3986103fdf (CI: add nix package build test (#3906))
+=======
+        uses: DeterminateSystems/nix-installer-action@7993355175c2765e5733dae74f3e0786fe0e5c4f # v12
+
+      - name: Setup cachix
+        uses: cachix/cachix-action@ad2ddac53f961de1989924296a1f236fcfbaa4fc # v15
+>>>>>>> ab79e435cc (CI(deps): Pin dependencies (#3932))
         with:
           name: osgeo-grass
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'

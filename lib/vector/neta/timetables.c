@@ -381,9 +381,15 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                           int v, int route, int rows UNUSED, int update,
 =======
                           int v, int route, int rows, int update,
@@ -431,6 +437,14 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                          int v, int route, int rows, int update,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
                           int v, int route, int rows, int update,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -440,6 +454,7 @@ void NetA_update_dijkstra(int old_conns, int new_conns, int to, int new_dst,
                           int v, int route, int rows, int update,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
                           neta_timetable_result *result, dglHeap_s *heap)
 {
     if (result->dst[new_conns][to] == -1 ||

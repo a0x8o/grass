@@ -351,9 +351,15 @@ static void setup_map(map *m)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 static void setup_map(map *m UNUSED)
 =======
 static void setup_map(map *m)
@@ -401,6 +407,14 @@ static void setup_map(map *m)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+static void setup_map(map *m)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 static void setup_map(map *m)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -410,6 +424,7 @@ static void setup_map(map *m)
 static void setup_map(map *m)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 }
 
@@ -788,9 +803,15 @@ void create_history(const char *dst, expression *e)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void create_history(const char *dst UNUSED, expression *e UNUSED)
 =======
 void create_history(const char *dst, expression *e)
@@ -838,6 +859,14 @@ void create_history(const char *dst, expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void create_history(const char *dst, expression *e)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void create_history(const char *dst, expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -847,6 +876,7 @@ void create_history(const char *dst, expression *e)
 void create_history(const char *dst, expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 }
 

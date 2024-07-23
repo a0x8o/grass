@@ -1240,10 +1240,20 @@ class VectorColorTable(ColorTable):
 
     def CheckMapset(self) -> bool:
         """Check if current vector is in current mapset"""
+<<<<<<< HEAD
+        if (
+            gs.find_file(name=self.inmap, element="vector")["mapset"]
+            == gs.gisenv()["MAPSET"]
+        ):
+            return True
+        else:
+            return False
+=======
         return bool(
             gs.find_file(name=self.inmap, element="vector")["mapset"]
             == gs.gisenv()["MAPSET"]
         )
+>>>>>>> main
 
     def NoConnection(self, vectorName):
         dlg = wx.MessageDialog(

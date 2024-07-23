@@ -72,9 +72,15 @@ void dglResetStats(dglGraph_s *pgraph)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void dglResetStats(dglGraph_s *pgraph UNUSED)
 =======
 void dglResetStats(dglGraph_s *pgraph)
@@ -122,6 +128,14 @@ void dglResetStats(dglGraph_s *pgraph)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void dglResetStats(dglGraph_s *pgraph)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void dglResetStats(dglGraph_s *pgraph)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -131,6 +145,7 @@ void dglResetStats(dglGraph_s *pgraph)
 void dglResetStats(dglGraph_s *pgraph)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 #ifdef DGL_STATS
     pgraph->clkAddEdge = 0;
@@ -1168,9 +1183,15 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void dglFreeSPReport(dglGraph_s *pgraph UNUSED, dglSPReport_s *pSPReport)
 =======
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
@@ -1218,6 +1239,14 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1227,6 +1256,7 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     int iArc;
 
@@ -1662,9 +1692,15 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT UNUSED)
 =======
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
@@ -1712,6 +1748,14 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1721,6 +1765,7 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 }
 
@@ -1809,9 +1854,15 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void dglIOContextRelease(dglIOContext_s *pIO UNUSED)
 =======
 void dglIOContextRelease(dglIOContext_s *pIO)
@@ -1859,6 +1910,14 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void dglIOContextRelease(dglIOContext_s *pIO)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void dglIOContextRelease(dglIOContext_s *pIO)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1868,6 +1927,7 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 void dglIOContextRelease(dglIOContext_s *pIO)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 }
 

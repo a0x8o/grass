@@ -149,9 +149,15 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int Nviz_get_focus(nv_data *data UNUSED, float *x, float *y, float *z)
 =======
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
@@ -199,6 +205,14 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -208,6 +222,7 @@ int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 int Nviz_get_focus(nv_data *data, float *x, float *y, float *z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     float realto[3];
 
@@ -260,9 +275,15 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int Nviz_set_focus(nv_data *data UNUSED, float x, float y, float z)
 =======
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
@@ -310,6 +331,14 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Nviz_set_focus(nv_data *data, float x, float y, float z)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -319,6 +348,7 @@ int Nviz_set_focus(nv_data *data, float x, float y, float z)
 int Nviz_set_focus(nv_data *data, float x, float y, float z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     float realto[3];
 
@@ -369,9 +399,15 @@ int Nviz_has_focus(nv_data *data)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int Nviz_has_focus(nv_data *data UNUSED)
 =======
 int Nviz_has_focus(nv_data *data)
@@ -419,6 +455,14 @@ int Nviz_has_focus(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Nviz_has_focus(nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 int Nviz_has_focus(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -428,6 +472,7 @@ int Nviz_has_focus(nv_data *data)
 int Nviz_has_focus(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     float realto[3];
 
@@ -485,9 +530,15 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int Nviz_get_zrange(nv_data *data UNUSED, float *min, float *max)
 =======
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
@@ -535,6 +586,14 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Nviz_get_zrange(nv_data *data, float *min, float *max)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -544,6 +603,7 @@ int Nviz_get_zrange(nv_data *data, float *min, float *max)
 int Nviz_get_zrange(nv_data *data, float *min, float *max)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     GS_get_zrange_nz(min, max);
     return 1;
@@ -586,9 +646,15 @@ float Nviz_get_longdim(nv_data *data)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 float Nviz_get_longdim(nv_data *data UNUSED)
 =======
 float Nviz_get_longdim(nv_data *data)
@@ -636,6 +702,14 @@ float Nviz_get_longdim(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+float Nviz_get_longdim(nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 float Nviz_get_longdim(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -645,6 +719,7 @@ float Nviz_get_longdim(nv_data *data)
 float Nviz_get_longdim(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     float dim;
 

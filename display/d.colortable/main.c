@@ -285,9 +285,15 @@ int main(int argc, char **argv)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         /* first 5 pixels draw null color */
 =======
         /* fisrt 5 pixels draw null color */
@@ -335,6 +341,14 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        /* fisrt 5 pixels draw null color */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
         /* fisrt 5 pixels draw null color */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -344,6 +358,7 @@ int main(int argc, char **argv)
         /* fisrt 5 pixels draw null color */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
         y_box[1] = -1;
         y_box[3] = 1;
         x_box[2] = (dots_per_col - 6);

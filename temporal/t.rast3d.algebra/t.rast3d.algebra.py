@@ -74,10 +74,14 @@
 import sys
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 
 def main():

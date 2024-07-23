@@ -15,10 +15,14 @@ from datetime import datetime
 from multiprocessing import Process
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 from grass.exceptions import CalledModuleError
 
 from .core import (

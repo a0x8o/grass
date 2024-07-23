@@ -171,10 +171,16 @@
 import copy
 
 <<<<<<< HEAD
+import grass.script as gs
+
+############################################################################
+=======
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 
 def main():
@@ -227,7 +233,11 @@ def main():
 
     if not maps:
         dbif.close()
+<<<<<<< HEAD
+        gs.warning(_("Space time raster dataset <%s> is empty") % sp.get_id())
+=======
         gs.warning(_("Space time raster dataset <{}> is empty").format(sp.get_id()))
+>>>>>>> main
         return
 
     output_strds = tgis.check_new_stds(output, "strds", dbif=dbif, overwrite=overwrite)
@@ -323,14 +333,21 @@ def main():
     for proc in proc_list:
         if proc.returncode != 0:
             gs.error(
+<<<<<<< HEAD
+                _("Error running module: %\n    stderr: %s")
+                % (proc.get_bash(), proc.outputs.stderr)
+=======
                 _("Error running module: {mod}\n    stderr: {error}").format(
                     mod=proc.get_bash(), error=proc.outputs.stderr
                 )
+>>>>>>> main
             )
             error += 1
 
     if error > 0:
         gs.fatal(_("Error running modules."))
+<<<<<<< HEAD
+=======
 
     # Open a new space time raster dataset
     if not output_exists or (overwrite and not flags["e"]):
@@ -352,6 +369,7 @@ def main():
     # Append to existing
     elif output_exists and flags["e"]:
         output_strds = tgis.open_old_stds(output, "strds", dbif)
+>>>>>>> main
 
     num_maps = len(new_maps)
     # collect empty maps to remove them
@@ -377,6 +395,23 @@ def main():
         output_strds.register_map(raster_map, dbif)
 
     # Update the spatio-temporal extent and the metadata table entries
+<<<<<<< HEAD
+    new_sp.update_from_registered_maps(dbif)
+    gs.percent(1, 1, 1)
+
+    # Remove empty maps
+    if len(empty_maps) > 0:
+        names = ""
+        count = 0
+        for map in empty_maps:
+            if count == 0:
+                count += 1
+                names += "%s" % (map.get_name())
+            else:
+                names += ",%s" % (map.get_name())
+
+        gs.run_command("g.remove", flags="f", type="raster", name=names, quiet=True)
+=======
     output_strds.update_from_registered_maps(dbif)
     gs.percent(1, 1, 1)
 
@@ -392,6 +427,7 @@ def main():
             name=",".join([raster_map.get_name() for raster_map in empty_maps]),
             quiet=True,
         )
+>>>>>>> main
 
     dbif.close()
 

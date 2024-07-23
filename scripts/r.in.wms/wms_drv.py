@@ -842,10 +842,14 @@ class WMTSRequestMgr(BaseRequestMgr):
         # http://www.landesvermessung.sachsen.de/geoserver/gwc/service/wmts?:
         if s.getcode() == "EPSG:4326" and s.encoding in {"uri", "urn"}:
 <<<<<<< HEAD
+            gs.warning("switch")
+=======
+<<<<<<< HEAD
             grass.warning("switch")
 =======
             gs.warning("switch")
 >>>>>>> osgeo-main
+>>>>>>> main
             (tl_corner["minx"], tl_corner["maxy"]) = (
                 tl_corner["maxy"],
                 tl_corner["minx"],

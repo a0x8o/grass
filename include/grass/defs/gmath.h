@@ -159,9 +159,15 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 /* solver algorithms and helper functions */
 =======
 /* solver algoithms and helper functions */
@@ -209,6 +215,14 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+/* solver algoithms and helper functions */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 /* solver algoithms and helper functions */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -218,6 +232,7 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 /* solver algoithms and helper functions */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 extern void G_math_gauss_elimination(double **, double *, int);
 extern void G_math_lu_decomposition(double **, double *, int);
 extern int G_math_cholesky_decomposition(double **, int, int);

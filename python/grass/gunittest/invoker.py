@@ -195,6 +195,14 @@ class GrassTestFilesInvoker:
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -203,6 +211,7 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
         shutil.copy(
             os.path.join(gisdbase, location, "PERMANENT", "DEFAULT_WIND"),
             os.path.join(mapset_dir, "WIND"),
@@ -289,6 +298,11 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 =======
@@ -311,9 +325,15 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -368,6 +388,19 @@ class GrassTestFilesInvoker:
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+=======
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -375,6 +408,7 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+>>>>>>> main
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -419,9 +453,15 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                 stderr = (
                     f"Process has timed out in {timeout}s and produced no error "
                     "output.\n"
@@ -472,6 +512,14 @@ class GrassTestFilesInvoker:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -481,6 +529,7 @@ class GrassTestFilesInvoker:
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
             # Return code is None if the process times out.
             # Rest of the code expects success to evaluate as False.
             # So, we assign a failing return code.
@@ -513,9 +562,16 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
         encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,9 +687,31 @@ class GrassTestFilesInvoker:
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+        stdout, stderr = p.communicate()
+        returncode = p.returncode
+<<<<<<< HEAD
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+<<<<<<< HEAD
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+=======
+=======
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -659,6 +737,12 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 923408bf7e (libpython: Save and load benchmark results (#1711))
 =======
@@ -671,6 +755,12 @@ class GrassTestFilesInvoker:
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
                     return decode(data, encoding=encoding)
 =======
 <<<<<<< HEAD
@@ -727,10 +817,13 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -752,6 +845,9 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -762,10 +858,13 @@ class GrassTestFilesInvoker:
 >>>>>>> 5fb05831cc (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
                     return decode(data, encoding=encoding)
 =======
                     return decode(stdout, encoding=encoding)
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0bd7d818a8 (pythonlib: Remove star imports (#1546))
@@ -808,9 +907,31 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+                    return decode(data, encoding=encoding)
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+=======
+                    return decode(stdout, encoding=encoding)
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 033a57360f (libpython: Save and load benchmark results (#1711))
+=======
+=======
+                    return decode(data, encoding=encoding)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):

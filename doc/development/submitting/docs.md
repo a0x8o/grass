@@ -209,9 +209,15 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 image is displayed as shrunk, both **width** and **height** HTML parameters
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters
@@ -259,6 +265,14 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
+>>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
+=======
+=======
+image is displayed as shrinked, both **width** and **height** HTML parameters
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -268,6 +282,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+>>>>>>> main
 (values must be calculated according to the picture size!) should be set:
 
 ```html

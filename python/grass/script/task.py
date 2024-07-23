@@ -44,9 +44,13 @@ for details.
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -60,6 +64,9 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -84,9 +91,18 @@ for details.
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+>>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 import os
 import re
 import sys

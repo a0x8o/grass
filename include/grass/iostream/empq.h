@@ -94,9 +94,15 @@ class ExtendedEltMergeType;
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 // enables printing inserts
 =======
 // enables priting inserts
@@ -144,6 +150,14 @@ class ExtendedEltMergeType;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+// enables priting inserts
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 // enables priting inserts
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -153,6 +167,7 @@ class ExtendedEltMergeType;
 // enables priting inserts
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 // #define EMPQ_PRINT_INSERT
 
 // enables printing deletes
@@ -193,9 +208,15 @@ class ExtendedEltMergeType;
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 // enable printing the size of the EMPQ and nb of active streams
 =======
 // enable priting the size of the EMPQ and nb of active streams
@@ -243,6 +264,14 @@ class ExtendedEltMergeType;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+// enable priting the size of the EMPQ and nb of active streams
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 // enable priting the size of the EMPQ and nb of active streams
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -252,6 +281,7 @@ class ExtendedEltMergeType;
 // enable priting the size of the EMPQ and nb of active streams
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 // on fillpq() amd on empty_buff_0
 // #define EMPQ_PRINT_SIZE
 
@@ -373,9 +403,15 @@ public:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     em_pqueue(long N UNUSED) { em_pqueue(); }; // N not used
 =======
     em_pqueue(long N) { em_pqueue(); }; // N not used
@@ -423,6 +459,14 @@ public:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    em_pqueue(long N) { em_pqueue(); }; // N not used
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
     em_pqueue(long N) { em_pqueue(); }; // N not used
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -432,6 +476,7 @@ public:
     em_pqueue(long N) { em_pqueue(); }; // N not used
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 
 #ifdef SAVE_MEMORY
     // create an empq, initialize its pq with im and insert amis in

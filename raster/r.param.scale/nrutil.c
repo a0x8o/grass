@@ -199,6 +199,14 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -207,6 +215,7 @@ float **submatrix(float **a, int oldrl, int oldrh, int oldcl, int oldch,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
                   int newrl, int newcl)
 {
     int i, j, nrow = oldrh - oldrl + 1, ncol = oldcl - newcl;
@@ -383,9 +392,15 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void free_f3tensor(float ***t, int nrl, int nrh UNUSED, int ncl, int nch UNUSED,
                    int ndl, int ndh UNUSED)
 =======
@@ -409,9 +424,13 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
                    int ndh)
@@ -424,6 +443,9 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -442,9 +464,15 @@ void free_f3tensor(float ***t, int nrl, int nrh, int ncl, int nch, int ndl,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 {
     G_free((FREE_ARG)(t[nrl][ncl] + ndl - NR_END));
     G_free((FREE_ARG)(t[nrl] + ncl - NR_END));

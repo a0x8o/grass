@@ -1751,10 +1751,14 @@ class RasterLegend(InstructionObject):
                 cols = 1
 
 <<<<<<< HEAD
+            rinfo = gs.raster_info(raster)
+=======
+<<<<<<< HEAD
             rinfo = grass.raster_info(raster)
 =======
             rinfo = gs.raster_info(raster)
 >>>>>>> osgeo-main
+>>>>>>> main
             if rinfo["datatype"] in {"DCELL", "FCELL"}:
                 minim, maxim = rinfo["min"], rinfo["max"]
                 rows = ceil(maxim / cols)

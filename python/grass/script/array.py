@@ -112,6 +112,8 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 import numpy as np
 =======
@@ -122,12 +124,30 @@ import numpy as np
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+>>>>>>> main
+=======
+from __future__ import absolute_import
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+import numpy
+<<<<<<< HEAD
+=======
+import numpy as np
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+import numpy as np
+=======
+<<<<<<< HEAD
 =======
 from __future__ import absolute_import
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import numpy
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 
 from .utils import try_remove
 from . import core as gcore

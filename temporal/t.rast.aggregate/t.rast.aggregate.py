@@ -112,10 +112,14 @@
 # %end
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as gcore
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 

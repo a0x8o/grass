@@ -54,10 +54,14 @@ def main():
         # Message is formulated in the way that it does not mislead
         # in case where a map of the same name is in another mapset.
 <<<<<<< HEAD
+        gs.fatal(
+=======
+<<<<<<< HEAD
         gscript.fatal(
 =======
         gs.fatal(
 >>>>>>> osgeo-main
+>>>>>>> main
             _("Vector map <{name}> not found in the current mapset ({mapset})").format(
                 name=map, mapset=mapset
             )
@@ -88,10 +92,14 @@ def main():
     driver = f["driver"]
 
 <<<<<<< HEAD
+    gs.message(
+=======
+<<<<<<< HEAD
     gscript.message(
 =======
     gs.message(
 >>>>>>> osgeo-main
+>>>>>>> main
         _("Removing table <%s> linked to layer <%s> of vector map <%s>")
         % (table, layer, map)
     )

@@ -249,9 +249,15 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     i = first; /* stmt not necessary */
 =======
     i = first; /* stmt not necssary */
@@ -299,6 +305,14 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    i = first; /* stmt not necssary */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
     i = first; /* stmt not necssary */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -308,6 +322,7 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
     i = first; /* stmt not necssary */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 
     do {
         if (!skip) {

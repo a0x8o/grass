@@ -3,6 +3,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -45,11 +47,14 @@ timestamp='2022-01-09'
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268 # see below for rationale
 
 timestamp='2024-01-01'
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +62,7 @@ timestamp='2024-01-01'
 =======
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -69,6 +75,8 @@ timestamp='2024-01-01'
 timestamp='2022-01-09'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +92,7 @@ timestamp='2022-01-09'
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -95,6 +104,8 @@ timestamp='2022-01-09'
 
 timestamp='2022-01-09'
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +139,7 @@ timestamp='2022-01-09'
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -188,6 +200,8 @@ Originally written by Per Bothner.
 Copyright 1992-2024 Free Software Foundation, Inc.
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,16 +229,14 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> osgeo-main
 Copyright 1992-2024 Free Software Foundation, Inc.
 =======
+>>>>>>> main
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -274,6 +286,7 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -681,6 +694,8 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 <<<<<<< HEAD
 	# Japanese Language versions have a version number like '4.1.3-JL'.
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +748,7 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -741,6 +757,10 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 	# Japanese Language versions have a version number like `4.1.3-JL'.
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +777,7 @@ case $UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION in
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 	SUN_REL=`echo "$UNAME_RELEASE" | sed -e 's/-/_/'`
 	GUESS=sparc-sun-sunos$SUN_REL
 	;;
@@ -1206,6 +1227,8 @@ EOF
 	UNAME_PROCESSOR=`uname -p`
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1233,16 +1256,14 @@ EOF
 >>>>>>> osgeo-main
 	UNAME_PROCESSOR=`uname -p`
 =======
+>>>>>>> main
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 	UNAME_PROCESSOR=`/usr/bin/uname -p`
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1292,6 +1313,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	case $UNAME_PROCESSOR in
 	    amd64)
 		UNAME_PROCESSOR=x86_64 ;;
@@ -1356,6 +1378,8 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1393,6 +1417,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     x86_64:[Mm]anagarm:*:*|i?86:[Mm]anagarm:*:*)
 	GUESS="$UNAME_MACHINE-pc-managarm-mlibc"
 	;;
@@ -1400,19 +1425,19 @@ EOF
 	GUESS="$UNAME_MACHINE-unknown-managarm-mlibc"
 	;;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1457,12 +1482,15 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     *:Minix:*:*)
 	GUESS=$UNAME_MACHINE-unknown-minix
 	;;
     aarch64:Linux:*:*)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1502,6 +1530,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	set_cc_for_build
 	CPU=$UNAME_MACHINE
 	LIBCABI=$LIBC
@@ -1524,21 +1553,21 @@ EOF
 	fi
 	GUESS=$CPU-unknown-linux-$LIBCABI
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> main
 =======
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1590,6 +1619,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	;;
     aarch64_be:Linux:*:*)
 	UNAME_MACHINE=aarch64_be
@@ -1658,6 +1688,8 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1696,6 +1728,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     kvx:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
@@ -1707,21 +1740,21 @@ EOF
 	;;
     loongarch32:Linux:*:* | loongarch64:Linux:*:*)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> main
 =======
     loongarch32:Linux:*:* | loongarch64:Linux:*:* | loongarchx32:Linux:*:*)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
     loongarch32:Linux:*:* | loongarch64:Linux:*:* | loongarchx32:Linux:*:*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1773,6 +1806,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
 	;;
     m32r*:Linux:*:*)
@@ -1910,12 +1944,15 @@ EOF
 	fi
 	GUESS=$CPU-pc-linux-$LIBCABI
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1930,6 +1967,11 @@ EOF
 	fi
 	GUESS=$UNAME_MACHINE-pc-linux-$LIBCABI
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1996,6 +2038,7 @@ EOF
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 	;;
     xtensa*:Linux:*:*)
 	GUESS=$UNAME_MACHINE-unknown-linux-$LIBC
@@ -2161,6 +2204,8 @@ EOF
     PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2186,34 +2231,13 @@ EOF
 >>>>>>> osgeo-main
     PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
 =======
+>>>>>>> main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
-    PENTIUM:*:4.0*:*)	# Unisys 'ClearPath HMP IX 4000' SVR4/MP effort
-=======
->>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
-=======
->>>>>>> osgeo-main
-=======
->>>>>>> osgeo-main
-=======
-=======
->>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
     PENTIUM:*:4.0*:*)	# Unisys `ClearPath HMP IX 4000' SVR4/MP effort
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 >>>>>>> main
 =======
     PENTIUM:*:4.0*:*)	# Unisys `ClearPath HMP IX 4000' SVR4/MP effort
@@ -2230,6 +2254,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 			# says <Richard.M.Bartel@ccMail.Census.GOV>
 	GUESS=i586-unisys-sysv4
 	;;
@@ -2278,6 +2303,8 @@ EOF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2317,11 +2344,14 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     ppc:Haiku:*:*)	# Haiku running on Apple PowerPC
 	GUESS=powerpc-apple-haiku
 	;;
     *:Haiku:*:*)	# Haiku modern gcc (not bound by BeOS compat)
 	GUESS=$UNAME_MACHINE-unknown-haiku
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2329,6 +2359,7 @@ EOF
 =======
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2338,6 +2369,8 @@ EOF
 	GUESS=x86_64-unknown-haiku
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2353,6 +2386,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2361,6 +2395,8 @@ EOF
     x86_64:Haiku:*:*)
 	GUESS=x86_64-unknown-haiku
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2394,6 +2430,7 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	;;
     SX-4:SUPER-UX:*:*)
 	GUESS=sx4-nec-superux$UNAME_RELEASE
@@ -2572,6 +2609,8 @@ EOF
 	;;
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2600,14 +2639,12 @@ EOF
 	GUESS=$UNAME_MACHINE-unknown-ironclad
 	;;
 =======
+>>>>>>> main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -2650,6 +2687,7 @@ EOF
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 esac
 
 # Do we have a guess based on uname results?

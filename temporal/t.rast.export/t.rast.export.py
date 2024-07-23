@@ -107,10 +107,14 @@
 import os
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 
 ############################################################################
@@ -138,10 +142,14 @@ def main():
 
     if _type and _format in {"pack", "AAIGrid"}:
 <<<<<<< HEAD
+        gs.warning(
+=======
+<<<<<<< HEAD
         grass.warning(
 =======
         gs.warning(
 >>>>>>> osgeo-main
+>>>>>>> main
             _("Type options is not working with pack format, it will be skipped")
         )
         if kws:

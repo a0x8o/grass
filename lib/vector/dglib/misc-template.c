@@ -58,9 +58,15 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph,
                                dglEdgeTraverser_s *pT UNUSED,
                                dglEdgePrioritizer_s *pEP UNUSED)
@@ -85,9 +91,13 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
                                dglEdgePrioritizer_s *pEP)
@@ -100,6 +110,9 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -118,9 +131,15 @@ int DGL_EDGE_T_INITIALIZE_FUNC(dglGraph_s *pGraph, dglEdgeTraverser_s *pT,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 #if defined(_DGL_V1)
     pGraph->iErrno = DGL_ERR_NotSupported;
@@ -402,9 +421,15 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT UNUSED)
 =======
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
@@ -452,6 +477,14 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -461,6 +494,7 @@ void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 void DGL_EDGESET_T_RELEASE_FUNC(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 {
 }
 

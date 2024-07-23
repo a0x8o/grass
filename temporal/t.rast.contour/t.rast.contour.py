@@ -120,7 +120,7 @@ import copy
 import sys
 <<<<<<< HEAD
 
-import grass.script as gscript
+import grass.script as gs
 from grass.exceptions import FatalError
 
 =======

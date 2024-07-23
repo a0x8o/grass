@@ -51,10 +51,14 @@
 # %end
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as grass
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 
@@ -106,10 +110,14 @@ def main():
 
             if not select:
 <<<<<<< HEAD
+                gs.fatal(
+=======
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
+>>>>>>> main
                     _("Unable to run v.db.select for vector map <%s> with layer %s")
                     % (vector_name, layer)
                 )

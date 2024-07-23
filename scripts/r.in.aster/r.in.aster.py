@@ -172,6 +172,11 @@ def main():
 
     # cleanup
 <<<<<<< HEAD
+    gs.message(_("Cleaning up ..."))
+    gs.try_remove(tempfile)
+    gs.message(_("Done."))
+=======
+<<<<<<< HEAD
     grass.message(_("Cleaning up ..."))
     grass.try_remove(tempfile)
     grass.message(_("Done."))
@@ -180,6 +185,7 @@ def main():
     gs.try_remove(tempfile)
     gs.message(_("Done."))
 >>>>>>> osgeo-main
+>>>>>>> main
 
 
 def import_aster(proj, srcfile, tempfile, output, band):

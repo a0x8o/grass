@@ -47,10 +47,14 @@
 
 
 <<<<<<< HEAD
+import grass.script as gs
+=======
+<<<<<<< HEAD
 import grass.script as gscript
 =======
 import grass.script as gs
 >>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 

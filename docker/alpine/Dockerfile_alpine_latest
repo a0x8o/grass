@@ -36,6 +36,13 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+# without PDAL
+
+>>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
+=======
 # without PDAL
 
 >>>>>>> osgeo-main
@@ -43,6 +50,7 @@ LABEL maintainer="peter.zamb@gmail.com,neteler@osgeo.org"
 # without PDAL
 
 >>>>>>> osgeo-main
+>>>>>>> main
 # PACKAGES VERSIONS
 ARG PYTHON_VERSION=3
 
@@ -223,9 +231,13 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     rm -rf /usr/local/grass83/demolocation; \
     rm -rf /usr/local/grass83/fonts; \
     rm -rf /usr/local/grass83/gui; \
@@ -237,12 +249,18 @@ RUN echo "  => Configure and compile grass";\
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
     rm -rf /usr/local/grass80/demolocation; \
     rm -rf /usr/local/grass80/fonts; \
     rm -rf /usr/local/grass80/gui; \
     rm -rf /usr/local/grass80/share;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -256,9 +274,15 @@ RUN echo "  => Configure and compile grass";\
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 
 
 # Unset environmental variables to avoid later compilation issues

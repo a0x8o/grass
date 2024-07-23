@@ -136,10 +136,14 @@ def main():
             found = True
             if ctype not in {"INTEGER", "DOUBLE PRECISION"}:
 <<<<<<< HEAD
+                gs.fatal(_("Column <%s> is not numeric") % cname)
+=======
+<<<<<<< HEAD
                 gscript.fatal(_("Column <%s> is not numeric") % cname)
 =======
                 gs.fatal(_("Column <%s> is not numeric") % cname)
 >>>>>>> osgeo-main
+>>>>>>> main
     if not found:
         gs.fatal(_("Column <%s> not found in table <%s>") % (column, table))
 
@@ -174,10 +178,14 @@ def main():
     if tmpf.read(1) == "":
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
+            gs.fatal(_("Table <%s> contains no data.") % table)
+=======
+<<<<<<< HEAD
             gscript.fatal(_("Table <%s> contains no data.") % table)
 =======
             gs.fatal(_("Table <%s> contains no data.") % table)
 >>>>>>> osgeo-main
+>>>>>>> main
         tmpf.close()
 
     # calculate statistics
@@ -208,10 +216,14 @@ def main():
     if N <= 0:
         if output_format in {"plain", "shell"}:
 <<<<<<< HEAD
+            gs.fatal(_("No non-null values found"))
+=======
+<<<<<<< HEAD
             gscript.fatal(_("No non-null values found"))
 =======
             gs.fatal(_("No non-null values found"))
 >>>>>>> osgeo-main
+>>>>>>> main
         else:
             # We produce valid JSON with a value for n even when the query returned
             # no rows or when all values are nulls.

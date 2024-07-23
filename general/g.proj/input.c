@@ -132,6 +132,12 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 =======
@@ -184,6 +190,19 @@ int input_wkt(char *wktfile)
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> e4a266d5e1 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
@@ -191,6 +210,7 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
+>>>>>>> main
         size_t wktlen;
 
         wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -214,6 +234,10 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> main
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -266,9 +290,24 @@ int input_wkt(char *wktfile)
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+<<<<<<< HEAD
+>>>>>>> e4a266d5e1 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	size_t wktlen;
 
 	wktlen = fread(buff, 1, sizeof(buff), infd);
@@ -300,9 +339,13 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
+>>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 >>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
 =======
         size_t wktlen;
@@ -324,9 +367,13 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
         size_t wktlen;
 
@@ -337,6 +384,9 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -350,9 +400,15 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
         wktlen = fread(buff, 1, sizeof(buff), infd);
         if (wktlen == sizeof(buff))
             G_fatal_error(_("Input WKT definition is too long"));
@@ -373,10 +429,13 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -395,6 +454,9 @@ int input_wkt(char *wktfile)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -431,9 +493,24 @@ int input_wkt(char *wktfile)
 =======
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
+>>>>>>> b3579a4902 (g.proj: fix reading input WKT (#1582))
+>>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
     }
     else
         G_fatal_error(_("Unable to open file '%s' for reading"), wktfile);

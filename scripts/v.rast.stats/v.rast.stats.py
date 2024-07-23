@@ -424,10 +424,14 @@ def set_up_columns(vector, layer, percentile, colprefix, basecols, dbfdriver, c)
         if currcolumn in gs.vector_columns(vector, layer).keys():
             if not c:
 <<<<<<< HEAD
+                gs.fatal(
+=======
+<<<<<<< HEAD
                 grass.fatal(
 =======
                 gs.fatal(
 >>>>>>> osgeo-main
+>>>>>>> main
                     (_("Cannot create column <%s> (already present). ") % currcolumn)
                     + _("Use -c flag to update values in this column.")
                 )

@@ -12,10 +12,20 @@ for details.
 import copy
 from ctypes import byref
 from datetime import datetime
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 
 from grass.lib import gis, rtree, vector
 from grass.script import core
 
+<<<<<<< HEAD
+=======
+from grass.script import core
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 from .abstract_dataset import (
     AbstractDatasetComparisonKeyEndTime,
     AbstractDatasetComparisonKeyStartTime,
@@ -30,6 +40,17 @@ from .temporal_granularity import (
     compute_absolute_time_granularity,
 )
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from grass.lib import vector
+from grass.lib import rtree
+from grass.lib import gis
+from ctypes import byref
+
+>>>>>>> 85b047f439 (style: Fixes manual-from-import (PLR0402) (#3949))
+=======
+>>>>>>> 4f1b897788 (style(temporal): Sort and group imports (#3959))
 # Uncomment this to detect the error
 core.set_raise_on_error(True)
 

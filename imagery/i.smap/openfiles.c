@@ -20,6 +20,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 =======
@@ -62,6 +66,15 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -69,6 +82,7 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 {
     FILE *fd;
@@ -105,9 +119,15 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 =======
 
 =======
@@ -124,7 +144,26 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 <<<<<<< HEAD
+>>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
+{
+    FILE *fd;
+    struct Ref Ref; /* subgroup reference list */
+    int n;
+    char **err;
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+<<<<<<< HEAD
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
 
 =======
@@ -184,15 +223,19 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
-
-=======
->>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
->>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
     if (!I_get_subgroup_ref(parms->group, parms->subgroup, &Ref))
         G_fatal_error(
             _("Unable to read REF file for subgroup <%s> in group <%s>"),
@@ -288,6 +331,33 @@ int openfiles(struct parms *parms, struct files *files, struct SigSet *S)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+
+    fd = I_fopen_sigset_file_old(parms->sigfile);
+    if (fd == NULL)
+        G_fatal_error(_("Unable to read signature file <%s>"), parms->sigfile);
+
+    if (I_ReadSigSet(fd, S) < 0 || Ref.nfiles != S->nbands)
+        G_fatal_error(_("Signature file <%s> is invalid"), parms->sigfile);
+
+    if (S->ClassSig == NULL || S->title == NULL)
+        G_fatal_error(_("Signature file <%s> is empty"), parms->sigfile);
+
+    fclose(fd);
+
+    err = I_SortSigSetBySemanticLabel(S, &Ref);
+    if (err)
+        G_fatal_error(_("Signature - group member semantic label mismatch.\n"
+                        "Extra signatures for bands: %s\n"
+                        "Imagery group bands without signatures: %s"),
+                      err[0] ? err[0] : _("none"), err[1] ? err[1] : _("none"));
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 
     fd = I_fopen_sigset_file_old(parms->sigfile);
     if (fd == NULL)

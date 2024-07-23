@@ -47,9 +47,15 @@ sudo singularity build grass_development.simg singularity/debian/singularity_deb
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 sudo singularity build grass_gis.simg singularity/debian/singularity_debian
 =======
 sudo singularity build grass_development.simg singularity/debian/singularity_debian
@@ -97,6 +103,14 @@ sudo singularity build grass_development.simg singularity/debian/singularity_deb
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+sudo singularity build grass_development.simg singularity/debian/singularity_debian
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 sudo singularity build grass_development.simg singularity/debian/singularity_debian
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -106,6 +120,7 @@ sudo singularity build grass_development.simg singularity/debian/singularity_deb
 sudo singularity build grass_development.simg singularity/debian/singularity_debian
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 ```
 
 __To build a stable version__:
@@ -145,9 +160,15 @@ git checkout remotes/origin/releasebranch_8_2
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 git checkout {tag or branch}
 =======
 git checkout remotes/origin/releasebranch_8_2
@@ -195,6 +216,14 @@ git checkout remotes/origin/releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+git checkout remotes/origin/releasebranch_8_2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 git checkout remotes/origin/releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -204,6 +233,7 @@ git checkout remotes/origin/releasebranch_8_2
 git checkout remotes/origin/releasebranch_8_2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 ```
 
 and build and enter with:
@@ -241,9 +271,15 @@ sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 sudo singularity build grass_gis.simg singularity/debian/singularity_debian
 =======
 sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
@@ -291,6 +327,14 @@ sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -300,6 +344,7 @@ sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
 sudo singularity build grass_8_2.simg singularity/debian/singularity_debian
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 ```
 
 The image can be used as:
@@ -337,9 +382,15 @@ singularity exec containers/grass_8.2.simg grass --version
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 singularity exec containers/grass_gis.simg grass --version
 =======
 singularity exec containers/grass_8.2.simg grass --version
@@ -387,6 +438,14 @@ singularity exec containers/grass_8.2.simg grass --version
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+singularity exec containers/grass_8.2.simg grass --version
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 singularity exec containers/grass_8.2.simg grass --version
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -396,4 +455,5 @@ singularity exec containers/grass_8.2.simg grass --version
 singularity exec containers/grass_8.2.simg grass --version
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 ```

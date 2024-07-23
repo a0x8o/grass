@@ -431,9 +431,15 @@ struct Format_info_offset {
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
        collection) 6 (7. feature in geometry collection: multiPolygon) 2
 =======
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
@@ -481,6 +487,14 @@ struct Format_info_offset {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+       colletion) 6 (7. feature in geometry collection: multiPolygon) 2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -490,6 +504,7 @@ struct Format_info_offset {
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
        (3. polygon) 4 (5. ring in the polygon)
 
        Example 2: geometry collection FID '1' containing one point, one
@@ -727,9 +742,15 @@ struct Format_info_pg {
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
        \brief SQL where statement (of filter features)
 =======
        \brief SQL where statement (fo filter features)
@@ -777,6 +798,14 @@ struct Format_info_pg {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+       \brief SQL where statement (fo filter features)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
        \brief SQL where statement (fo filter features)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -786,6 +815,7 @@ struct Format_info_pg {
        \brief SQL where statement (fo filter features)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
      */
     char *where;
     /*!
@@ -1007,9 +1037,15 @@ struct Plus_head {
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
        Because Plus_head is available to all relevant
 =======
        Because Plus_head is available to all releveant
@@ -1057,6 +1093,14 @@ struct Plus_head {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+       Because Plus_head is available to all releveant
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
        Because Plus_head is available to all releveant
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1066,6 +1110,7 @@ struct Plus_head {
        Because Plus_head is available to all releveant
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
        functions
      */
     int off_t_size;

@@ -94,6 +94,14 @@ from __future__ import print_function
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -102,6 +110,7 @@ from __future__ import print_function
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 import http
 import os
 import re
@@ -179,7 +188,25 @@ from six.moves.urllib.error import HTTPError, URLError
 
 >>>>>>> osgeo-main
 import grass.script as gscript
+<<<<<<< HEAD
+=======
+import grass.script as gs
+>>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+import grass.script as gs
+=======
+from six.moves.urllib import request as urlrequest
+from six.moves.urllib.error import HTTPError, URLError
+
+from six.moves.urllib import request as urlrequest
+from six.moves.urllib.error import HTTPError, URLError
+
+import grass.script as gscript
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 from grass.exceptions import CalledModuleError
 
 HEADERS = {
@@ -208,10 +235,14 @@ def get_extensions():
     fo.close()
 
 <<<<<<< HEAD
+    libgis_rev = gs.version()["libgis_revision"]
+=======
+<<<<<<< HEAD
     libgis_rev = gscript.version()["libgis_revision"]
 =======
     libgis_rev = gs.version()["libgis_revision"]
 >>>>>>> osgeo-main
+>>>>>>> main
     ret = []
     for tnode in tree.findall("task"):
         gnode = tnode.find("libgis")

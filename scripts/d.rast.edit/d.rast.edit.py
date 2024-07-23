@@ -92,10 +92,14 @@ except ImportError:
             arg = sys.argv[1]
             if arg[0:2] == "--" or arg in {"help", "-help"}:
 <<<<<<< HEAD
+                gs.parser()
+=======
+<<<<<<< HEAD
                 grass.parser()
 =======
                 gs.parser()
 >>>>>>> osgeo-main
+>>>>>>> main
     # Either we didn't call g.parser, or it returned
     # At this point, there's nothing to be done except re-raise the exception
     raise
