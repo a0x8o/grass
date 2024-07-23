@@ -14,6 +14,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -32,6 +39,14 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -68,6 +83,8 @@ class InteractiveMap:
         import folium
 
         self._folium = folium
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -187,6 +204,7 @@ class InteractiveMap:
 
         self._folium = folium
 =======
+<<<<<<< HEAD
 #            This program is free software under the GNU Gernal Public
 #            License (>=v2). Read teh file COPYING that comes with GRASS
 =======
@@ -242,6 +260,11 @@ class InteractiveMap:
         import folium
 
         self._folium = folium
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
         # Store height and width
         self.width = width
@@ -264,7 +287,13 @@ class InteractiveMap:
 =======
 >>>>>>> 83bcaf56ef (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         self._tmp_dir = tempfile.TemporaryDirectory()
 
         # Remember original environment; all environments used
@@ -281,6 +310,14 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -296,6 +333,8 @@ class InteractiveMap:
 
         # Create Folium Map
         self.map = self._folium.Map(
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -355,6 +394,7 @@ class InteractiveMap:
         self.map = self._folium.Map(
 >>>>>>> 2ee8fe98e4 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
         )
@@ -373,6 +413,11 @@ class InteractiveMap:
 =======
         self.map = self._folium.Map(
 >>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             width=self.width,
             height=self.height,
             location=center,
@@ -386,6 +431,13 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -410,6 +462,8 @@ class InteractiveMap:
         self._finalizer = weakref.finalize(
             self, clean_up, [Path(self.rcfile_psmerc), Path(self.rcfile_wgs84)]
         )
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -526,9 +580,15 @@ class InteractiveMap:
 =======
 >>>>>>> 83bcaf56ef (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 >>>>>>> 434bf28e3d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
     def add_vector(self, name):
         """Imports vector into temporary WGS84 location,
@@ -576,6 +636,7 @@ class InteractiveMap:
         """
 >>>>>>> 83bcaf56ef (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
         Arguments:
             name -- a positional-only parameter; name of vector to be added
             to map as a string"""
@@ -585,6 +646,17 @@ class InteractiveMap:
                          positional-only parameter
         """
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+        :param str name: name of vector to be added to map;
+                         positional-only parameter
+        """
+>>>>>>> osgeo-main
+=======
+        :param str name: name of vector to be added to map;
+                         positional-only parameter
+        """
+>>>>>>> osgeo-main
+>>>>>>> main
 
         # Find full name of vector
         file_info = gs.find_file(name, element="vector")
@@ -598,6 +670,13 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -705,6 +784,8 @@ class InteractiveMap:
 
     def show(self):
         """This function returns a folium figure object with a GRASS raster
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -934,6 +1015,7 @@ class InteractiveMap:
         """This function returns a folium figure object with a GRASS raster
 >>>>>>> 2ee8fe98e4 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+<<<<<<< HEAD
 =======
         mapset = file_info["mapset"]
         new_name = full_name.replace("@", "_")
@@ -1044,6 +1126,11 @@ class InteractiveMap:
 =======
         """This function returns a folium figure object with a GRASS raster
 >>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         overlayed on a basemap.
 
         If map has layer control enabled, additional layers cannot be
@@ -1080,11 +1167,19 @@ class InteractiveMap:
         fig = self._folium.Figure(width=self.width, height=self.height)
 >>>>>>> 2ee8fe98e4 (libraster: fix Rast_legal_bandref() (#1796))
 =======
+<<<<<<< HEAD
         fig = folium.Figure(width=self.width, height=self.height)
 >>>>>>> 434bf28e3d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
         fig = self._folium.Figure(width=self.width, height=self.height)
 >>>>>>> 877945a9e8 (libraster: fix Rast_legal_bandref() (#1796))
+=======
+        fig = self._folium.Figure(width=self.width, height=self.height)
+>>>>>>> osgeo-main
+=======
+        fig = self._folium.Figure(width=self.width, height=self.height)
+>>>>>>> osgeo-main
+>>>>>>> main
         # Add map to figure
         fig.add_child(self.map)
 
@@ -1106,7 +1201,13 @@ class InteractiveMap:
 =======
 >>>>>>> 83bcaf56ef (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
     def save(self, filename):
         """Save map as an html map.
@@ -1119,6 +1220,10 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 =======
 >>>>>>> 01a506d3d3 (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
@@ -1132,6 +1237,12 @@ class InteractiveMap:
 =======
 >>>>>>> 83bcaf56ef (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
+<<<<<<< HEAD
 >>>>>>> 434bf28e3d (libpython: Support benchmarks of non-parallel runs better (#1733))
 =======
 >>>>>>> 165e1d768b (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main

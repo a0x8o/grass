@@ -75,6 +75,9 @@ int read_rules(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -113,6 +116,14 @@ int read_rules(FILE *fp)
     for (;;) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+>>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+>>>>>>> osgeo-main
     for (line = 1;; line++) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -138,7 +149,13 @@ int read_rules(FILE *fp)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     for (line = 1;; line++) {
 =======
@@ -152,6 +169,10 @@ int read_rules(FILE *fp)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -194,6 +215,7 @@ int read_rules(FILE *fp)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     for (;;) {
 =======
     for (line = 1;; line++) {
@@ -209,6 +231,11 @@ int read_rules(FILE *fp)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         if (isatty(fileno(fp)))
             fprintf(stderr, "> ");
 

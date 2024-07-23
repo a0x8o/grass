@@ -669,6 +669,9 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -716,6 +719,16 @@ char *AMI_STREAM<T>::sprint()
              (long)stream_len());
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
+             (long)stream_len());
+=======
+>>>>>>> osgeo-main
+=======
+    snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
+             (long)stream_len());
+=======
+>>>>>>> osgeo-main
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -742,7 +755,13 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     sprintf(desc, "[AMI_STREAM %s %ld]", path, (long)stream_len());
 =======
@@ -757,6 +776,10 @@ char *AMI_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -808,6 +831,7 @@ char *AMI_STREAM<T>::sprint()
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     snprintf(desc, sizeof(desc), "[AMI_STREAM %s %ld]", path,
              (long)stream_len());
 =======
@@ -823,6 +847,11 @@ char *AMI_STREAM<T>::sprint()
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     return desc;
 }
 

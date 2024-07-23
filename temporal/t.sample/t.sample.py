@@ -66,7 +66,15 @@
 # % description: Check for spatial topological overlap
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 

@@ -942,6 +942,9 @@ int G_spawn(const char *command, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -983,6 +986,14 @@ int G_spawn(const char *command, ...)
     for (;;) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+>>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+>>>>>>> osgeo-main
     for (i = 0;; i++) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1008,7 +1019,13 @@ int G_spawn(const char *command, ...)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     for (i = 0;; i++) {
 =======
@@ -1022,6 +1039,10 @@ int G_spawn(const char *command, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1071,6 +1092,7 @@ int G_spawn(const char *command, ...)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     for (;;) {
 =======
     for (i = 0;; i++) {
@@ -1085,6 +1107,11 @@ int G_spawn(const char *command, ...)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         const char *arg = va_arg(va, const char *);
 
         args[num_args++] = arg;

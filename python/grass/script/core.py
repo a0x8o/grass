@@ -31,6 +31,9 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 (C) 2008-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -73,6 +76,7 @@ Usage:
 =======
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+<<<<<<< HEAD
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 8df9861e42 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -84,6 +88,11 @@ Usage:
 >>>>>>> 1c3b930edc (r.terrafow: explicit use of default constructors (#2660))
 =======
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 (C) 2008-2024 by the GRASS Development Team
 =======
 (C) 2008-2021 by the GRASS Development Team
@@ -96,6 +105,13 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -114,6 +130,13 @@ Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -195,6 +218,7 @@ Usage:
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
+<<<<<<< HEAD
 >>>>>>> eb0df723eb (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
@@ -215,6 +239,17 @@ Usage:
 (C) 2008-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> c7dc67a478 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+(C) 2008-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
+=======
+=======
+(C) 2008-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
+>>>>>>> main
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
@@ -271,7 +306,13 @@ from grass.exceptions import ScriptError, CalledModuleError
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 from grass.grassdb.manage import resolve_mapset_path
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -284,6 +325,10 @@ from grass.grassdb.manage import resolve_mapset_path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -308,12 +353,18 @@ from grass.grassdb.manage import resolve_mapset_path
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 from grass.grassdb.manage import resolve_mapset_path
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
 
 # subprocess wrapper that uses shell on Windows
@@ -402,11 +453,11 @@ def _make_unicode(val, enc):
     """
     if val is None or enc is None:
         return val
+
+    if enc == "default":
+        return decode(val)
     else:
-        if enc == "default":
-            return decode(val)
-        else:
-            return decode(val, encoding=enc)
+        return decode(val, encoding=enc)
 
 
 def get_commands(*, env=None):
@@ -496,9 +547,7 @@ def get_real_command(cmd):
         if os.path.splitext(cmd)[1] == ".py":
             cmd = cmd[:-3]
         # PATHEXT is necessary to check on Windows (force lowercase)
-        pathext = list(
-            map(lambda x: x.lower(), os.environ["PATHEXT"].split(os.pathsep))
-        )
+        pathext = [x.lower() for x in os.environ["PATHEXT"].split(os.pathsep)]
         if ".py" not in pathext:
             # we assume that PATHEXT contains always '.py'
             os.environ["PATHEXT"] = ".py;" + os.environ["PATHEXT"]
@@ -1033,12 +1082,23 @@ def debug(msg, debug=1):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
     """Display a debugging message using `g.message -d`.
 
     The visibility of a debug message at runtime is controlled by
@@ -1077,7 +1137,13 @@ def debug(msg, debug=1):
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     :param env: dictionary with system environment variables (`os.environ` by default)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1090,6 +1156,10 @@ def debug(msg, debug=1):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1114,12 +1184,18 @@ def debug(msg, debug=1):
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
     :param env: dictionary with system environment variables (`os.environ` by default)
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     """
     if debug_level() >= debug:
         # TODO: quite a random hack here, do we need it somewhere else too?
@@ -1336,6 +1412,9 @@ def parser():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1366,6 +1445,14 @@ def parser():
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+=======
+>>>>>>> osgeo-main
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+=======
+>>>>>>> osgeo-main
+=======
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 =======
 >>>>>>> osgeo-main
@@ -1459,6 +1546,7 @@ def parser():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 =======
     https://grass.osgeo.org/grass80/manuals/parser_standard_options.html
@@ -1476,6 +1564,17 @@ def parser():
     https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    https://grass.osgeo.org/grass-devel/manuals/parser_standard_options.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
     """
     if not os.getenv("GISBASE"):
         print("You must be in GRASS GIS to run this program.", file=sys.stderr)
@@ -1552,9 +1651,7 @@ def tempname(length, lowercase=False):
     if not lowercase:
         chars += string.ascii_uppercase
     random_part = "".join(random.choice(chars) for _ in range(length))
-    randomname = "tmp_" + random_part
-
-    return randomname
+    return "tmp_" + random_part
 
 
 def _compare_projection(dic):
@@ -1737,9 +1834,8 @@ def compare_key_value_text_files(
             # We compare the sum of the entries
             if abs(sum(dict_a[key]) - sum(dict_b[key])) > precision:
                 return False
-        else:
-            if dict_a[key] != dict_b[key]:
-                return False
+        elif dict_a[key] != dict_b[key]:
+            return False
     return True
 
 
@@ -1764,7 +1860,7 @@ def gisenv(env=None):
 # interface to g.region
 
 
-def locn_is_latlong(env=None):
+def locn_is_latlong(env=None) -> bool:
     """Tests if location is lat/long. Value is obtained
     by checking the "g.region -pu" projection code.
 
@@ -1772,10 +1868,7 @@ def locn_is_latlong(env=None):
     """
     s = read_command("g.region", flags="pu", env=env)
     kv = parse_key_val(s, ":")
-    if kv["projection"].split(" ")[0] == "3":
-        return True
-    else:
-        return False
+    return kv["projection"].split(" ")[0] == "3"
 
 
 def region(region3d=False, complete=False, env=None):
@@ -1853,8 +1946,8 @@ def region_env(region3d=False, flags=None, env=None, **kwargs):
     )
     with open(windfile, "r") as fd:
         grass_region = ""
-        for line in fd.readlines():
-            key, value = map(lambda x: x.strip(), line.split(":", 1))
+        for line in fd:
+            key, value = (x.strip() for x in line.split(":", 1))
             if kwargs and key not in {"proj", "zone"}:
                 continue
             if (
@@ -2138,13 +2231,12 @@ def list_grouped(
                         name,
                     ]
                 }
+        elif mapset in result:
+            result[mapset].append(name)
         else:
-            if mapset in result:
-                result[mapset].append(name)
-            else:
-                result[mapset] = [
-                    name,
-                ]
+            result[mapset] = [
+                name,
+            ]
 
     return result
 

@@ -35,6 +35,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -76,6 +79,14 @@ void (*Cxl_func)(void);
 void (*Cxl_func)(void);
 =======
 >>>>>>> osgeo-main
+=======
+void (*Cxl_func)(void);
+=======
+>>>>>>> osgeo-main
+=======
+void (*Cxl_func)(void);
+=======
+>>>>>>> osgeo-main
 void (*Cxl_func)();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -101,7 +112,13 @@ void (*Cxl_func)(void);
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 void (*Cxl_func)();
 =======
@@ -115,6 +132,10 @@ void (*Cxl_func)(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -164,6 +185,7 @@ void (*Cxl_func)();
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 void (*Cxl_func)(void);
 =======
 void (*Cxl_func)();
@@ -178,6 +200,11 @@ void (*Cxl_func)();
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
 static int Cxl = 0;
 

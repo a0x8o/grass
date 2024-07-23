@@ -200,7 +200,17 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs):
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+                _("Unable to export vector map <%s> as GML with v.out.ogr" % name)
+            )
+=======
+            gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
+>>>>>>> osgeo-main
+>>>>>>> main
 
         tar.add(name + ".xml")
         tar.add(name + ".xsd")
@@ -234,7 +244,15 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs):
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to export vector map <%s> as GPKG with v.out.ogr" % name)
             )
 
@@ -381,7 +399,7 @@ def export_stds(
 
     if rows:
         if type_ == "strds":
-            if format_ == "GTiff" or format_ == "AAIGrid":
+            if format_ in {"GTiff", "AAIGrid"}:
                 _export_raster_maps_as_gdal(
                     rows, tar, list_file, new_cwd, fs, format_, datatype, **kwargs
                 )

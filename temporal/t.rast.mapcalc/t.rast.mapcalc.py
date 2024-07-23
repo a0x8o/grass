@@ -73,7 +73,15 @@
 # % description: Check the spatial topology of temporally related maps and process only spatially related maps
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 

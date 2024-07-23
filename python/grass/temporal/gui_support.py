@@ -10,7 +10,15 @@ for details.
 :authors: Soeren Gebbert
 """
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 from .core import get_available_temporal_mapsets, init_dbif
 from .factory import dataset_factory

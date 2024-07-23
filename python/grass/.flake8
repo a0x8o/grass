@@ -26,6 +26,9 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +69,7 @@ ignore =
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
 >>>>>>> e4a266d5e1 (g.proj: fix reading input WKT (#1582))
 =======
 >>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
@@ -73,6 +77,15 @@ ignore =
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     E722, # do not use bare 'except'
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -90,8 +103,11 @@ ignore =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> main
 =======
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
@@ -119,7 +135,14 @@ ignore =
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5c97872ced (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     E722, # do not use bare 'except'
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
@@ -186,6 +209,7 @@ ignore =
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 47ada2c507 (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
     E722, # do not use bare 'except'
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
 =======
@@ -203,6 +227,15 @@ ignore =
 =======
 >>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
 >>>>>>> 95f198e1e0 (g.proj: fix reading input WKT (#1582))
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 7e7871fd90 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
+>>>>>>> main
 
 per-file-ignores =
     # C wrappers call libgis.G_gisinit before importing other modules.
@@ -246,7 +279,13 @@ per-file-ignores =
 =======
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
 >>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     temporal/abstract_map_dataset.py: E501
     temporal/abstract_space_time_dataset.py: W605, E501, F841, E722
     temporal/aggregation.py: E501
@@ -271,6 +310,14 @@ per-file-ignores =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 >>>>>>> osgeo-main
 =======
@@ -281,6 +328,8 @@ per-file-ignores =
     temporal/temporal_topology_dataset_connector.py: E501, E722
     temporal/temporal_vector_algebra.py: E741, E501, F841
     temporal/univar_statistics.py: E501
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -320,6 +369,7 @@ per-file-ignores =
     temporal/univar_statistics.py: E501
 >>>>>>> be93d1fccc (g.proj: fix reading input WKT (#1582))
 =======
+<<<<<<< HEAD
     temporal/*.py: E501, F841
     temporal/abstract_space_time_dataset.py: W605, E501, F841
     temporal/temporal_algebra.py: E741, E501, F841
@@ -335,6 +385,11 @@ per-file-ignores =
 =======
     temporal/univar_statistics.py: E501
 >>>>>>> d752fc407c (g.proj: fix reading input WKT (#1582))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     pygrass/tests/benchmark.py: E501, E402, F401, F821

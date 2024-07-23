@@ -875,9 +875,15 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
 =======
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
@@ -925,12 +931,24 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
                    struct Cell_head *w, geosurf *defsurf)
 {
     const char *mapset;
@@ -1014,9 +1032,15 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         v.lightson = 1; /* always true, currently */
 =======
         v.lightson = 1; /* always true, curently */
@@ -1064,12 +1088,24 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         v.lightson = 1; /* always true, curently */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        v.lightson = 1; /* always true, curently */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        v.lightson = 1; /* always true, curently */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
 
         if (gv->lights[0].position[W] == 1) {
             /* local */
@@ -1130,9 +1166,15 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         return (G_put_3dview(vname, &v, w));
 =======
         return (G_put_3dview(vname, mapset, &v, w));
@@ -1180,12 +1222,24 @@ int Gs_save_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
         return (G_put_3dview(vname, mapset, &v, w));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        return (G_put_3dview(vname, mapset, &v, w));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        return (G_put_3dview(vname, mapset, &v, w));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
     }
     else {
         return (-1);
@@ -1235,9 +1289,15 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd UNUSED,
 =======
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
@@ -1285,12 +1345,24 @@ int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+int Gs_load_3dview(const char *vname, geoview *gv, geodisplay *gd,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
                    struct Cell_head *w, const geosurf *defsurf)
 {
     const char *mapset;

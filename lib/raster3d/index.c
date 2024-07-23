@@ -63,6 +63,9 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -104,6 +107,14 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
             if (indexLength > (int)sizeof(long) * map->nTiles) {
 =======
 >>>>>>> osgeo-main
+=======
+            if (indexLength > (int)sizeof(long) * map->nTiles) {
+=======
+>>>>>>> osgeo-main
+=======
+            if (indexLength > (int)sizeof(long) * map->nTiles) {
+=======
+>>>>>>> osgeo-main
             if (indexLength > sizeof(long) * map->nTiles) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -129,7 +140,13 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
             if (indexLength > sizeof(long) * map->nTiles) {
 =======
@@ -143,6 +160,10 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -192,6 +213,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
             if (indexLength > (int)sizeof(long) * map->nTiles) {
 =======
             if (indexLength > sizeof(long) * map->nTiles) {
@@ -206,6 +228,11 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
                 /*->index large enough? */
                 tmp2 = Rast3d_malloc(indexLength);
@@ -243,6 +270,9 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -284,6 +314,14 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
             if (indexLength > (int)sizeof(long) * map->nTiles)
 =======
 >>>>>>> osgeo-main
+=======
+            if (indexLength > (int)sizeof(long) * map->nTiles)
+=======
+>>>>>>> osgeo-main
+=======
+            if (indexLength > (int)sizeof(long) * map->nTiles)
+=======
+>>>>>>> osgeo-main
             if (indexLength > sizeof(long) * map->nTiles)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -309,7 +347,13 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
             if (indexLength > sizeof(long) * map->nTiles)
 =======
@@ -323,6 +367,10 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -372,6 +420,7 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
             if (indexLength > (int)sizeof(long) * map->nTiles)
 =======
             if (indexLength > sizeof(long) * map->nTiles)
@@ -386,6 +435,11 @@ static int Rast3d_readIndex(RASTER3D_Map *map)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
                 Rast3d_free(tmp2);
         } /* END RLE */
 

@@ -103,7 +103,15 @@
 # % description: Register Null maps
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as gcore
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 
@@ -138,7 +146,15 @@ def main():
 
     if sampler_sp.get_temporal_type() != sp.get_temporal_type():
         dbif.close()
+<<<<<<< HEAD
         gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+=======
+<<<<<<< HEAD
+        gcore.fatal(_("Input and aggregation dataset must have the same temporal type"))
+=======
+        gs.fatal(_("Input and aggregation dataset must have the same temporal type"))
+>>>>>>> osgeo-main
+>>>>>>> main
 
     # Check if intervals are present
     if sampler_sp.temporal_extent.get_map_time() != "interval":

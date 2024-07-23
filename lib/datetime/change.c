@@ -20,6 +20,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -58,6 +61,14 @@ static void make_incr(DateTime *, int, int, DateTime *);
 static void make_incr(DateTime *, int, int, DateTime *);
 =======
 >>>>>>> osgeo-main
+=======
+static void make_incr(DateTime *, int, int, DateTime *);
+=======
+>>>>>>> osgeo-main
+=======
+static void make_incr(DateTime *, int, int, DateTime *);
+=======
+>>>>>>> osgeo-main
 static void make_incr();
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -83,7 +94,13 @@ static void make_incr(DateTime *, int, int, DateTime *);
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 static void make_incr();
 =======
@@ -97,6 +114,10 @@ static void make_incr(DateTime *, int, int, DateTime *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -139,6 +160,7 @@ static void make_incr();
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 static void make_incr(DateTime *, int, int, DateTime *);
 =======
 static void make_incr();
@@ -154,6 +176,11 @@ static void make_incr();
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
 /*!
  * \brief

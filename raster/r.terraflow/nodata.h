@@ -76,6 +76,9 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -117,6 +120,14 @@ public:
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 >>>>>>> osgeo-main
+=======
+        snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+>>>>>>> osgeo-main
+=======
+        snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+>>>>>>> osgeo-main
         sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -142,7 +153,13 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         sprintf(buf, CCLABEL_FMT, p.label);
 =======
@@ -156,6 +173,10 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -205,6 +226,7 @@ public:
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
         sprintf(buf, CCLABEL_FMT, p.label);
@@ -219,6 +241,11 @@ public:
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         return buf;
     }
 

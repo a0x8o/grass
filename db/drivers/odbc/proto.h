@@ -20,6 +20,9 @@ int close_connection();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -58,6 +61,14 @@ cursor *alloc_cursor(void);
 cursor *alloc_cursor(void);
 =======
 >>>>>>> osgeo-main
+=======
+cursor *alloc_cursor(void);
+=======
+>>>>>>> osgeo-main
+=======
+cursor *alloc_cursor(void);
+=======
+>>>>>>> osgeo-main
 cursor *alloc_cursor();
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -83,7 +94,13 @@ cursor *alloc_cursor(void);
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 cursor *alloc_cursor();
 =======
@@ -97,6 +114,10 @@ cursor *alloc_cursor(void);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -139,6 +160,7 @@ cursor *alloc_cursor();
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 cursor *alloc_cursor(void);
 =======
 cursor *alloc_cursor();
@@ -154,6 +176,11 @@ cursor *alloc_cursor();
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 void free_cursor(cursor *c);
 
 /* describe.c */

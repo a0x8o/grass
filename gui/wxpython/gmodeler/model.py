@@ -475,12 +475,9 @@ class Model:
         #     item.SetId(i)
         #     i += 1
 
-    def IsValid(self):
+    def IsValid(self) -> bool:
         """Return True if model is valid"""
-        if self.Validate():
-            return False
-
-        return True
+        return not self.Validate()
 
     def Validate(self):
         """Validate model, return None if model is valid otherwise
@@ -493,7 +490,7 @@ class Model:
             cmd = action.GetLog(string=False)
 
             task = GUI(show=None).ParseCommand(cmd=cmd)
-            errList += map(lambda x: cmd[0] + ": " + x, task.get_cmd_error())
+            errList += (cmd[0] + ": " + x for x in task.get_cmd_error())
 
             # check also variables
             for opt in cmd[1:]:
@@ -695,7 +692,7 @@ class Model:
                     parent=parent,
                     message=_("Variables below not defined:")
                     + "\n\n"
-                    + "\n".join(map(lambda x: "%s: %s (%s)" % (x[0], x[1], x[2]), err)),
+                    + "\n".join(f"{x[0]}: {x[1]} ({x[2]})" for x in err),
                 )
                 return
 
@@ -735,9 +732,7 @@ class Model:
 
                 # split condition
                 # TODO: this part needs some better solution
-                condVar, condText = map(
-                    lambda x: x.strip(), re.split(r"\s* in \s*", cond)
-                )
+                condVar, condText = (x.strip() for x in re.split(r"\s* in \s*", cond))
                 pattern = re.compile("%" + condVar)
                 # for vars()[condVar] in eval(condText): ?
                 vlist = []
@@ -822,12 +817,9 @@ class Model:
         for item in self.items:
             item.Update()
 
-    def IsParameterized(self):
+    def IsParameterized(self) -> bool:
         """Return True if model is parameterized"""
-        if self.Parameterize():
-            return True
-
-        return False
+        return bool(self.Parameterize())
 
     def Parameterize(self):
         """Return parameterized options"""
@@ -949,12 +941,10 @@ class ModelObject:
 
         result = []
         for rel in self.rels:
-            if fdir == "from":
-                if rel.GetFrom() == self:
-                    result.append(rel)
-            else:
-                if rel.GetTo() == self:
-                    result.append(rel)
+            if fdir == "from" and rel.GetFrom() == self:
+                result.append(rel)
+            elif rel.GetTo() == self:
+                result.append(rel)
 
         return result
 
@@ -1042,10 +1032,7 @@ class ModelAction(ModelObject, ogl.DividedShape):
         if cmd:
             self.task = GUI(show=None).ParseCommand(cmd=cmd)
         else:
-            if task:
-                self.task = task
-            else:
-                self.task = None
+            self.task = task or None
 
         self.propWin = None
 
@@ -2029,9 +2016,7 @@ class ProcessModelFile:
         :param value:
         """
         value = value.replace("&lt;", "<")
-        value = value.replace("&gt;", ">")
-
-        return value
+        return value.replace("&gt;", ">")
 
     def _getNodeText(self, node, tag, default=""):
         """Get node text"""
@@ -2344,8 +2329,7 @@ class WriteModelFile:
         :param value: string to be escaped as XML
         :return: a XML-valid string
         """
-        value = saxutils.escape(value)
-        return value
+        return saxutils.escape(value)
 
     def _header(self):
         """Write header"""
@@ -3187,7 +3171,15 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3706,6 +3698,10 @@ class WritePythonFile(WriteScriptFile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -4756,10 +4752,16 @@ class WritePythonFile(WriteScriptFile):
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -5302,9 +5304,7 @@ class WritePythonFile(WriteScriptFile):
                         value = '"' + value + '"'
                     cond = pattern.sub(value, cond)
             if isinstance(item, ModelLoop):
-                condVar, condText = map(
-                    lambda x: x.strip(), re.split(r"\s* in \s*", cond)
-                )
+                condVar, condText = (x.strip() for x in re.split(r"\s* in \s*", cond))
                 cond = "%sfor %s in " % (" " * self.indent, condVar)
                 if condText[0] == "`" and condText[-1] == "`":
                     task = GUI(show=None).ParseCommand(cmd=utils.split(condText[1:-1]))
@@ -6179,26 +6179,35 @@ def cleanup():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
                 r"""    %s("g.remove", flags="f", type="raster",
                 name=%s)
 """
-                % (run_command, ",".join(map(lambda x: '"' + x + '"', rast)))
+                % (run_command, ",".join(f'"{x}"' for x in rast3d))
             )
         if vect:
             self.fd.write(
                 r"""    %s("g.remove", flags="f", type="vector",
                 name=%s)
 """
-                % (run_command, ",".join(map(lambda x: '"' + x + '"', vect)))
+                % (run_command, ",".join(('"' + x + '"' for x in vect)))
             )
         if rast3d:
             self.fd.write(
                 r"""    %s("g.remove", flags="f", type="raster_3d",
                 name=%s)
 """
+<<<<<<< HEAD
+                % (run_command, ",".join(f'"{x}"' for x in rast3d))
+=======
                 % (run_command, ",".join(map(lambda x: '"' + x + '"', rast3d)))
 =======
                 r"""    run_command("g.remove", flags="f", type="raster",
@@ -6237,7 +6246,15 @@ def cleanup():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
@@ -6265,6 +6282,10 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -6283,9 +6304,16 @@ def cleanup():
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
             )
         if not rast and not vect and not rast3d:
             self.fd.write("    pass\n")
@@ -6298,6 +6326,10 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
         for item in self.model.GetItems(ModelAction):
 =======
         for item in self.model.GetItems():
@@ -6324,7 +6356,13 @@ def cleanup():
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         modelVars = self.model.GetVariables()
         for item in self.model.GetItems(ModelAction):
             modelParams = item.GetParameterizedParams()
@@ -6376,12 +6414,23 @@ def cleanup():
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
             self._writeItem(item, variables=item.GetParameterizedParams())
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -6657,9 +6706,6 @@ class ModelParamDialog(wx.Dialog):
 
         return errList
 
-    def DeleteIntermediateData(self):
+    def DeleteIntermediateData(self) -> bool:
         """Check if to detele intermediate data"""
-        if self.interData.IsShown() and self.interData.IsChecked():
-            return True
-
-        return False
+        return bool(self.interData.IsShown() and self.interData.IsChecked())

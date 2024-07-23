@@ -153,7 +153,17 @@ def main():
                 )
             )
         elif not coords and not cats:
+<<<<<<< HEAD
             gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
+=======
+<<<<<<< HEAD
+            gscript.warning(
+                _("With stvds you have to use 'coordinates' or 'cats' option")
+            )
+=======
+            gs.warning(_("With stvds you have to use 'coordinates' or 'cats' option"))
+>>>>>>> osgeo-main
+>>>>>>> main
     title = None
     if options["title"]:
         title = options["title"]

@@ -107,8 +107,18 @@ def main():
 
     for line in decode(s).splitlines():
         if line == output:
+<<<<<<< HEAD
             if gs.overwrite():
                 gs.warning(
+=======
+<<<<<<< HEAD
+            if grass.overwrite():
+                grass.warning(
+=======
+            if gs.overwrite():
+                gs.warning(
+>>>>>>> osgeo-main
+>>>>>>> main
                     _("Table <%s> already exists and will be overwritten") % output
                 )
                 gs.write_command(
@@ -119,7 +129,7 @@ def main():
                 gs.fatal(_("Table <%s> already exists") % output)
 
     # treat DB as real vector map...
-    layer = db_table if db_table else None
+    layer = db_table or None
 
     vopts = {}
     if options["encoding"]:

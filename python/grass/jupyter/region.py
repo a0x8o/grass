@@ -197,16 +197,13 @@ class RegionManagerFor2D:
                         vector=name, env=self._env
                     )
                     self._extent_set = True
-            else:
-                if not self._resolution_set and not self._extent_set:
-                    self._env["GRASS_REGION"] = gs.region_env(
-                        raster=name, env=self._env
-                    )
-                    self._extent_set = True
-                    self._resolution_set = True
-                elif not self._resolution_set:
-                    self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
-                    self._resolution_set = True
+            elif not self._resolution_set and not self._extent_set:
+                self._env["GRASS_REGION"] = gs.region_env(raster=name, env=self._env)
+                self._extent_set = True
+                self._resolution_set = True
+            elif not self._resolution_set:
+                self._env["GRASS_REGION"] = gs.region_env(align=name, env=self._env)
+                self._resolution_set = True
         except CalledModuleError:
             return
 
@@ -242,9 +239,15 @@ class RegionManagerFor2D:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 class RegionManagerForSeries:
     """Region manager for SeriesMap"""
 
@@ -357,11 +360,21 @@ class RegionManagerForSeries:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
 class RegionManagerFor3D:
     """Region manager for 3D displays (gets region from m.nviz.image command)"""
 

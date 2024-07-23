@@ -162,6 +162,9 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -203,6 +206,14 @@ static void main_loop(void)
         unsigned long delay = 0;
 =======
 >>>>>>> osgeo-main
+=======
+        unsigned long delay = 0;
+=======
+>>>>>>> osgeo-main
+=======
+        unsigned long delay = 0;
+=======
+>>>>>>> osgeo-main
         unsigned long delay;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -228,7 +239,13 @@ static void main_loop(void)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         unsigned long delay;
 =======
@@ -242,6 +259,10 @@ static void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -291,6 +312,7 @@ static void main_loop(void)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
         unsigned long delay = 0;
 =======
         unsigned long delay;
@@ -305,6 +327,11 @@ static void main_loop(void)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
         while (XPending(dpy) > 0) {
             XEvent event;
@@ -402,6 +429,9 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -443,6 +473,14 @@ static int read_bmp_header(const unsigned char *p)
     if (get_4(&p) != (unsigned int)i_width * i_height * 4)
 =======
 >>>>>>> osgeo-main
+=======
+    if (get_4(&p) != (unsigned int)i_width * i_height * 4)
+=======
+>>>>>>> osgeo-main
+=======
+    if (get_4(&p) != (unsigned int)i_width * i_height * 4)
+=======
+>>>>>>> osgeo-main
     if (get_4(&p) != i_width * i_height * 4)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -468,7 +506,13 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     if (get_4(&p) != i_width * i_height * 4)
 =======
@@ -482,6 +526,10 @@ static int read_bmp_header(const unsigned char *p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -531,6 +579,7 @@ static int read_bmp_header(const unsigned char *p)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     if (get_4(&p) != (unsigned int)i_width * i_height * 4)
 =======
     if (get_4(&p) != i_width * i_height * 4)
@@ -545,6 +594,11 @@ static int read_bmp_header(const unsigned char *p)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         return 0;
 
     if (size != HEADER_SIZE + i_width * i_height * 4)

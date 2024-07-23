@@ -77,12 +77,23 @@ from __future__ import print_function
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
 import io
 from contextlib import redirect_stdout
 import sys
@@ -123,7 +134,15 @@ class PyShellWindow(wx.Panel):
             "parent": self,
             "id": wx.ID_ANY,
             "introText": self.intro,
+<<<<<<< HEAD
             "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
+=======
+<<<<<<< HEAD
+            "locals": {"gs": grass, "AddLayer": self.AddLayer, "help": self.Help},
+=======
+            "locals": {"gs": gs, "AddLayer": self.AddLayer, "help": self.Help},
+>>>>>>> osgeo-main
+>>>>>>> main
         }
         # useStockId (available since wxPython 4.0.2) should be False on macOS
         if sys.platform == "darwin" and CheckWxVersion([4, 0, 2]):

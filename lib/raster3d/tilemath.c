@@ -361,6 +361,9 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -402,6 +405,14 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
         if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
 =======
 >>>>>>> osgeo-main
+=======
+        if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
+=======
+>>>>>>> osgeo-main
+=======
+        if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
+=======
+>>>>>>> osgeo-main
         if (tileSize <= maxSize * 1024)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -427,7 +438,13 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         if (tileSize <= maxSize * 1024)
 =======
@@ -441,6 +458,10 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -490,6 +511,7 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
         if (maxSize < 0 || tileSize <= (unsigned int)maxSize * 1024)
 =======
         if (tileSize <= maxSize * 1024)
@@ -504,6 +526,11 @@ void Rast3d_compute_optimal_tile_dimension(RASTER3D_Region *region, int type,
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             break;
 
         /* Compute weighted tile sizes. Take care that the tile size is computed

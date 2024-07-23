@@ -66,7 +66,15 @@
 # % description: Remove stds, unregister maps from temporal database and delete them from mapset
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 # lazy imports at the end of the file
 

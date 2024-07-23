@@ -71,7 +71,15 @@
 import copy
 import sys
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 
@@ -142,10 +150,24 @@ def main():
     # Do some checks before computation
     for _map in gap_list:
         if not _map.get_precedes() or not _map.get_follows():
+<<<<<<< HEAD
             gs.fatal(_("Unable to determine successor and predecessor of a gap."))
 
         if len(_map.get_precedes()) > 1:
             gs.warning(
+=======
+<<<<<<< HEAD
+            grass.fatal(_("Unable to determine successor and predecessor of a gap."))
+
+        if len(_map.get_precedes()) > 1:
+            grass.warning(
+=======
+            gs.fatal(_("Unable to determine successor and predecessor of a gap."))
+
+        if len(_map.get_precedes()) > 1:
+            gs.warning(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("More than one successor of the gap found. Using the first found.")
             )
 
@@ -211,9 +233,8 @@ def main():
                             "Please use another base name." % (_id)
                         )
                     )
-                else:
-                    if new_map.is_in_db(dbif):
-                        overwrite_flags[new_id] = True
+                elif new_map.is_in_db(dbif):
+                    overwrite_flags[new_id] = True
 
             map_names.append(new_map.get_name())
             map_positions.append(position)

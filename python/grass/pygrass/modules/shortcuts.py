@@ -59,7 +59,7 @@ class MetaModule:
 
     def __init__(self, prefix, cls=None):
         self.prefix = prefix
-        self.cls = cls if cls else Module
+        self.cls = cls or Module
 
     def __dir__(self):
         return [
@@ -88,6 +88,9 @@ class MetaModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -118,6 +121,14 @@ class MetaModule:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+=======
+>>>>>>> osgeo-main
+=======
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+=======
+>>>>>>> osgeo-main
+=======
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 =======
 >>>>>>> osgeo-main
@@ -211,6 +222,7 @@ class MetaModule:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 =======
 # https://grass.osgeo.org/grass80/manuals/full_index.html
@@ -228,6 +240,17 @@ class MetaModule:
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
 # [ d.* | db.* | g.* | i.* | m.* | ps.* | r.* | r3.* | t.* | v.* ]
 #
 #  d.*	display commands

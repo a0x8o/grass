@@ -111,7 +111,15 @@
 # % description: Register Null maps
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as gcore
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 ############################################################################
 
@@ -175,7 +183,7 @@ def main():
         if has_end_time is True:
             if start_time >= end_time:
                 break
-        else:
+        else:  # noqa: PLR5501
             if start_time > end_time:
                 break
 

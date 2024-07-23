@@ -10,6 +10,13 @@ for details.
 import datetime
 import os
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import grass.script
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 import grass.temporal as tgis
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test

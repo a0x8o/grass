@@ -42,6 +42,9 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -83,6 +86,14 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 >>>>>>> osgeo-main
+=======
+double brent_iterate(double (*f)(double), double x_lower, double x_upper,
+=======
+>>>>>>> osgeo-main
+=======
+double brent_iterate(double (*f)(double), double x_lower, double x_upper,
+=======
+>>>>>>> osgeo-main
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -108,7 +119,13 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
@@ -122,6 +139,10 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -171,6 +192,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
@@ -185,6 +207,11 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
                      int maxiter);
 double kernel1(double d, double rs, double lambda);
 double segno(double x);

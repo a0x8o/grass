@@ -38,9 +38,15 @@ void scan_cats(const struct Map_info *Map, int field, const char *style,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 void scan_cats(struct Map_info *Map, int field, const char *style,
 =======
 void scan_cats(const struct Map_info *Map, int field, const char *style,
@@ -88,12 +94,24 @@ void scan_cats(const struct Map_info *Map, int field, const char *style,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 void scan_cats(const struct Map_info *Map, int field, const char *style,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+void scan_cats(const struct Map_info *Map, int field, const char *style,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+void scan_cats(const struct Map_info *Map, int field, const char *style,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
                const char *rules, const struct FPRange *range,
                struct Colors *colors)
 {

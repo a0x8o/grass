@@ -40,6 +40,9 @@ int M__hold_signals(int hold)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -81,6 +84,14 @@ int M__hold_signals(int hold)
     void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
 =======
 >>>>>>> osgeo-main
+=======
+    void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
+=======
+>>>>>>> osgeo-main
+=======
+    void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
+=======
+>>>>>>> osgeo-main
     void (*sig)() = hold ? SIG_IGN : SIG_DFL;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -106,7 +117,13 @@ int M__hold_signals(int hold)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     void (*sig)() = hold ? SIG_IGN : SIG_DFL;
 =======
@@ -120,6 +137,10 @@ int M__hold_signals(int hold)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -169,6 +190,7 @@ int M__hold_signals(int hold)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     void (*sig)(int) = hold ? SIG_IGN : SIG_DFL;
 =======
     void (*sig)() = hold ? SIG_IGN : SIG_DFL;
@@ -183,6 +205,11 @@ int M__hold_signals(int hold)
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
     signal(SIGINT, sig);
 

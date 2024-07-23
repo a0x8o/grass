@@ -224,6 +224,9 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -260,6 +263,14 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 =======
+            loops = 2**16 - 1
+=======
+>>>>>>> osgeo-main
+=======
+            loops = 2**16 - 1
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -276,6 +287,10 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -329,6 +344,7 @@ class GifWriter:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
             loops = 2**16 - 1
@@ -345,6 +361,11 @@ class GifWriter:
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             # bb = ""
             # application extension should not be used
             # (the extension interprets zero loops
@@ -814,9 +835,15 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         raise OSError("File not found: " + str(filename))
 =======
         raise IOError("File not found: " + str(filename))
@@ -864,12 +891,24 @@ def readGif(filename, asNumpy=True):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
 =======
+<<<<<<< HEAD
 >>>>>>> 461452897e (Dockerfile: fix broken lib link (#1625))
 =======
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> c540dfdbde (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
+>>>>>>> main
 
     # Load file using PIL
     pilIm = PIL.Image.open(filename)
@@ -1329,8 +1368,7 @@ class NeuQuant:
     def inxsearch(self, r, g, b):
         """Search for BGR values 0..255 and return colour index"""
         dists = self.colormap[:, :3] - np.array([r, g, b])
-        a = np.argmin((dists * dists).sum(1))
-        return a
+        return np.argmin((dists * dists).sum(1))
 
 
 if __name__ == "__main__":

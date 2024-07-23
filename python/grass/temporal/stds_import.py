@@ -33,7 +33,15 @@ import os
 import os.path
 import tarfile
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as gscript
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 from grass.exceptions import CalledModuleError
 
 from .core import get_current_mapset, get_tgis_message_interface
@@ -89,7 +97,15 @@ def _import_raster_maps_from_gdal(
                 )
 
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to import/link raster map <%s> from file %s.")
                 % (name, filename)
             )
@@ -102,7 +118,17 @@ def _import_raster_maps_from_gdal(
                     "r.colors", map=name, rules=filename, overwrite=gs.overwrite()
                 )
             except CalledModuleError:
+<<<<<<< HEAD
                 gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
+=======
+<<<<<<< HEAD
+                gscript.fatal(
+                    _("Unable to set the color rules for raster map <%s>.") % name
+                )
+=======
+                gs.fatal(_("Unable to set the color rules for raster map <%s>.") % name)
+>>>>>>> osgeo-main
+>>>>>>> main
 
     # Set the computational region from the last map imported
     if set_current_region is True:
@@ -130,7 +156,15 @@ def _import_raster_maps(maplist, set_current_region=False):
             )
 
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to unpack raster map <%s> from file %s.") % (name, filename)
             )
 
@@ -160,7 +194,15 @@ def _import_vector_maps_from_gml(maplist, overr, exp, location, link):
             )
 
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to import vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -190,7 +232,15 @@ def _import_vector_maps(maplist):
             )
 
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to unpack vector map <%s> from file %s.") % (name, filename)
             )
 
@@ -319,7 +369,17 @@ def import_stds(
 
         if not gs.compare_key_value_text_files(temp_name, proj_name_tmp, sep="="):
             if overr:
+<<<<<<< HEAD
                 gs.warning(_("Projection information does not match. Proceeding..."))
+=======
+<<<<<<< HEAD
+                gscript.warning(
+                    _("Projection information does not match. Proceeding...")
+                )
+=======
+                gs.warning(_("Projection information does not match. Proceeding..."))
+>>>>>>> osgeo-main
+>>>>>>> main
             else:
                 diff = "".join(gs.diff_files(temp_name, proj_name))
                 gs.warning(
@@ -329,7 +389,15 @@ def import_stds(
                         "\n{diff}"
                     ).format(diff=diff)
                 )
+<<<<<<< HEAD
                 gs.fatal(_("Projection information does not match. Aborting."))
+=======
+<<<<<<< HEAD
+                gscript.fatal(_("Projection information does not match. Aborting."))
+=======
+                gs.fatal(_("Projection information does not match. Aborting."))
+>>>>>>> osgeo-main
+>>>>>>> main
 
     # Create a new location based on the projection information and switch
     # into it
@@ -363,7 +431,15 @@ def import_stds(
         try:
             gs.run_command("t.connect", flags="d")
         except CalledModuleError:
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Unable to create default temporal database in new location %s")
                 % location
             )
@@ -447,7 +523,15 @@ def import_stds(
             or "semantic_type" not in init
             or "number_of_maps" not in init
         ):
+<<<<<<< HEAD
             gs.fatal(
+=======
+<<<<<<< HEAD
+            gscript.fatal(
+=======
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Key words %(t)s, %(s)s or %(n)s not found in init file.")
                 % {"t": "temporal_type", "s": "semantic_type", "n": "number_of_maps"}
             )
@@ -464,14 +548,30 @@ def import_stds(
             format_ = init["format"]
 
         if stds_type != type_:
+<<<<<<< HEAD
             gs.fatal(_("The archive file is of wrong space time dataset type"))
+=======
+<<<<<<< HEAD
+            gscript.fatal(_("The archive file is of wrong space time dataset type"))
+=======
+            gs.fatal(_("The archive file is of wrong space time dataset type"))
+>>>>>>> osgeo-main
+>>>>>>> main
 
         # Check the existence of the files
         if format_ == "GTiff":
             for row in maplist:
                 filename = row["filename"] + ".tif"
                 if not os.path.exists(filename):
+<<<<<<< HEAD
                     gs.fatal(
+=======
+<<<<<<< HEAD
+                    gscript.fatal(
+=======
+                    gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                         _("Unable to find GeoTIFF raster file <%s> in archive.")
                         % filename
                     )
@@ -479,7 +579,15 @@ def import_stds(
             for row in maplist:
                 filename = row["filename"] + ".asc"
                 if not os.path.exists(filename):
+<<<<<<< HEAD
                     gs.fatal(
+=======
+<<<<<<< HEAD
+                    gscript.fatal(
+=======
+                    gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                         _("Unable to find AAIGrid raster file <%s> in archive.")
                         % filename
                     )
@@ -487,7 +595,15 @@ def import_stds(
             for row in maplist:
                 filename = row["filename"] + ".xml"
                 if not os.path.exists(filename):
+<<<<<<< HEAD
                     gs.fatal(
+=======
+<<<<<<< HEAD
+                    gscript.fatal(
+=======
+                    gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                         _("Unable to find GML vector file <%s> in archive.") % filename
                     )
         elif format_ == "pack":
@@ -497,7 +613,15 @@ def import_stds(
                 else:
                     filename = row["filename"] + ".pack"
                 if not os.path.exists(filename):
+<<<<<<< HEAD
                     gs.fatal(
+=======
+<<<<<<< HEAD
+                    gscript.fatal(
+=======
+                    gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                         _("Unable to find GRASS package file <%s> in archive.")
                         % filename
                     )
@@ -518,7 +642,7 @@ def import_stds(
 
         # Import the maps
         if type_ == "strds":
-            if format_ == "GTiff" or format_ == "AAIGrid":
+            if format_ in {"GTiff", "AAIGrid"}:
                 _import_raster_maps_from_gdal(
                     maplist,
                     overr,

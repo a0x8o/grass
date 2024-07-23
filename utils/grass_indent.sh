@@ -27,6 +27,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 case "$(uname)" in
 =======
 <<<<<<< HEAD
@@ -63,7 +66,16 @@ case "$(uname)" in
 case "$(uname)" in
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+case "$(uname)" in
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> main
 case "$(uname)" in 
 =======
 case "$(uname)" in
@@ -76,6 +88,10 @@ case "$(uname)" in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -102,6 +118,7 @@ case "$(uname)" in
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 case "$(uname)" in 
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -109,6 +126,11 @@ case "$(uname)" in
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
  Darwin | *BSD*)
   INDENT=$(which gindent)
   ;;

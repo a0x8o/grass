@@ -27,6 +27,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -68,6 +71,14 @@ float rem(long int, long int); /* remainder function */
 float rem(long int, long int); /* remainder function */
 =======
 >>>>>>> osgeo-main
+=======
+float rem(long int, long int); /* remainder function */
+=======
+>>>>>>> osgeo-main
+=======
+float rem(long int, long int); /* remainder function */
+=======
+>>>>>>> osgeo-main
 float rem(); /* remainder function */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -93,7 +104,13 @@ float rem(long int, long int); /* remainder function */
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 float rem(); /* remainder function */
 =======
@@ -107,6 +124,10 @@ float rem(long int, long int); /* remainder function */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -156,6 +177,7 @@ float rem(); /* remainder function */
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 float rem(long int, long int); /* remainder function */
 =======
 float rem(); /* remainder function */
@@ -170,6 +192,11 @@ float rem(); /* remainder function */
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
 /* normalized coordinates of bar-chart components */
 

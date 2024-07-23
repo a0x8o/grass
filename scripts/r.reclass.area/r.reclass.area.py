@@ -113,7 +113,15 @@ def reclass(inf, outf, lim, clump, diag, les):
             if gs.find_file(clumpfile)["name"]:
                 gs.fatal(_("Temporary raster map <%s> exists") % clumpfile)
         if diagonal:
+<<<<<<< HEAD
             gs.message(
+=======
+<<<<<<< HEAD
+            grass.message(
+=======
+            gs.message(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("Generating a clumped raster file including diagonal neighbors...")
             )
             gs.run_command("r.clump", flags="d", input=infile, output=clumpfile)
@@ -142,7 +150,15 @@ def reclass(inf, outf, lim, clump, diag, les):
     TMPRAST.append(recfile)
 
     sflags = "aln"
+<<<<<<< HEAD
     if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+=======
+<<<<<<< HEAD
+    if grass.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+=======
+    if gs.raster_info(infile)["datatype"] in {"FCELL", "DCELL"}:
+>>>>>>> osgeo-main
+>>>>>>> main
         sflags += "i"
     p1 = gs.pipe_command("r.stats", flags=sflags, input=(clumpfile, infile), sep=";")
     p2 = gs.feed_command("r.reclass", input=clumpfile, output=recfile, rules="-")
@@ -165,11 +181,27 @@ def reclass(inf, outf, lim, clump, diag, les):
     p2.wait()
     if p2.returncode != 0:
         if lesser:
+<<<<<<< HEAD
             gs.fatal(
                 _("No areas of size less than or equal to %f hectares found.") % limit
             )
         else:
             gs.fatal(
+=======
+<<<<<<< HEAD
+            grass.fatal(
+                _("No areas of size less than or equal to %f hectares found.") % limit
+            )
+        else:
+            grass.fatal(
+=======
+            gs.fatal(
+                _("No areas of size less than or equal to %f hectares found.") % limit
+            )
+        else:
+            gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                 _("No areas of size greater than or equal to %f hectares found.")
                 % limit
             )

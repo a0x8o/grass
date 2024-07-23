@@ -157,6 +157,9 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -198,6 +201,14 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
         if (map->indexNbytesUsed > (int)sizeof(long))
 =======
 >>>>>>> osgeo-main
+=======
+        if (map->indexNbytesUsed > (int)sizeof(long))
+=======
+>>>>>>> osgeo-main
+=======
+        if (map->indexNbytesUsed > (int)sizeof(long))
+=======
+>>>>>>> osgeo-main
         if (map->indexNbytesUsed > sizeof(long))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -223,7 +234,13 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         if (map->indexNbytesUsed > sizeof(long))
 =======
@@ -237,6 +254,10 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -286,6 +307,7 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
         if (map->indexNbytesUsed > (int)sizeof(long))
 =======
         if (map->indexNbytesUsed > sizeof(long))
@@ -300,6 +322,11 @@ void *Rast3d_open_cell_old(const char *name, const char *mapset,
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             Rast3d_fatal_error(
                 _("Rast3d_open_cell_old: index does not fit into long"));
 

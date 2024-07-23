@@ -562,6 +562,9 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -609,6 +612,16 @@ static FILE *create_temp_file(const char *name, char **tmpname)
             (size_t)nsizc) {
 =======
 >>>>>>> osgeo-main
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
+            (size_t)nsizc) {
+=======
+>>>>>>> osgeo-main
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
+            (size_t)nsizc) {
+=======
+>>>>>>> osgeo-main
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) != nsizc) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -635,7 +648,13 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) != nsizc) {
 =======
@@ -650,6 +669,10 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -701,6 +724,7 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
         if (fwrite(zero_array_cell, sizeof(FCELL), nsizc, fp) !=
             (size_t)nsizc) {
 =======
@@ -716,6 +740,11 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             clean();
             G_fatal_error(_("Error writing temporary file <%s>"), *tmpname);
         }

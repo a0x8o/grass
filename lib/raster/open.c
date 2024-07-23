@@ -483,6 +483,9 @@ void Rast_set_cell_format(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -524,6 +527,14 @@ void Rast_set_cell_format(int n)
     if (R__.nbytes > (int)sizeof(CELL))
 =======
 >>>>>>> osgeo-main
+=======
+    if (R__.nbytes > (int)sizeof(CELL))
+=======
+>>>>>>> osgeo-main
+=======
+    if (R__.nbytes > (int)sizeof(CELL))
+=======
+>>>>>>> osgeo-main
     if (R__.nbytes > sizeof(CELL))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -549,7 +560,13 @@ void Rast_set_cell_format(int n)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     if (R__.nbytes > sizeof(CELL))
 =======
@@ -563,6 +580,10 @@ void Rast_set_cell_format(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -612,6 +633,7 @@ void Rast_set_cell_format(int n)
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     if (R__.nbytes > (int)sizeof(CELL))
 =======
     if (R__.nbytes > sizeof(CELL))
@@ -626,6 +648,11 @@ void Rast_set_cell_format(int n)
 >>>>>>> 7dcf663571 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         R__.nbytes = sizeof(CELL);
 }
 

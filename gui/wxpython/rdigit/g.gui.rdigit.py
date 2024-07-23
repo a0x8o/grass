@@ -116,7 +116,7 @@ def main():
             self._mapObj = self.GetMap()
 
             # load raster map
-            self._addLayer(name=new_map if new_map else edit_map)
+            self._addLayer(name=new_map or edit_map)
 
             # switch toolbar
             self.AddToolbar("rdigit", fixed=True)
@@ -210,6 +210,23 @@ def main():
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            self.rdigit.quitDigitizer.connect(self.Close)
+=======
+            self.rdigit.quitDigitizer.connect(self.Close)
+>>>>>>> osgeo-main
+=======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+<<<<<<< HEAD
+>>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -306,23 +323,22 @@ def main():
             )
         else:
             kwargs["edit_map"] = edit_map
-    else:
-        if kwargs["base_map"]:
-            base_map = gs.find_file(
-                name=kwargs["base_map"],
-                element="raster",
-                mapset=mapset,
-            )["fullname"]
-            if not base_map:
-                gs.fatal(
-                    _(
-                        "Base raster map <{}> not found in "
-                        "current mapset.".format(
-                            options["base"],
-                        ),
+    elif kwargs["base_map"]:
+        base_map = gs.find_file(
+            name=kwargs["base_map"],
+            element="raster",
+            mapset=mapset,
+        )["fullname"]
+        if not base_map:
+            gs.fatal(
+                _(
+                    "Base raster map <{}> not found in "
+                    "current mapset.".format(
+                        options["base"],
                     ),
-                )
-            kwargs["base_map"] = base_map
+                ),
+            )
+        kwargs["base_map"] = base_map
 
     # allow immediate rendering
     driver = UserSettings.Get(

@@ -112,11 +112,25 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+import numpy as np
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
+import numpy as np
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
 from __future__ import absolute_import
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 import numpy
+<<<<<<< HEAD
 =======
 import numpy as np
 >>>>>>> d880ec0a6d (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
@@ -131,6 +145,9 @@ from __future__ import absolute_import
 import numpy
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> main
 
 from .utils import try_remove
 from . import core as gcore
@@ -328,7 +345,7 @@ class array3d(np.memmap):
         flags = None
 
         if kind == "f":
-            if size != 4 and size != 8:
+            if size not in {4, 8}:
                 raise ValueError(_("Invalid FP size <%d>") % size)
         elif kind in "biu":
             if size not in {1, 2, 4, 8}:

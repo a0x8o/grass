@@ -696,7 +696,7 @@ static int find_best_neighbor(struct ngbr_stats *Ri, struct reg_stats *Ri_rs,
                               int clear_cand, struct globals *globals)
 {
     int n, n_ngbrs, no_check, cmp;
-    struct rc ngbr_rc, next, *pngbr_rc;
+    struct rc ngbr_rc = {0}, next = {0}, *pngbr_rc = NULL;
     struct rclist rilist;
     double tempsim;
     int neighbors[8][2];
@@ -893,7 +893,7 @@ double calculate_shape(struct reg_stats *rsi, struct reg_stats *rsk,
     double smooth, compact;
     int pl, pbbox, count;
     double bboxdiag;
-    int pl1, pl2, count1, count2;
+    int pl1 = 0, pl2 = 0, count1 = 0, count2 = 0;
     int e1, n1, s1, w1, e2, n2, s2, w2, ns_extent, ew_extent;
 
     pl = pl1 + pl2 - nshared;
@@ -989,7 +989,7 @@ static int search_neighbors(struct ngbr_stats *Ri, struct reg_stats *Ri_rs,
 int update_band_vals(int row, int col, struct reg_stats *rs,
                      struct globals *globals)
 {
-    struct rc next, ngbr_rc;
+    struct rc next = {0}, ngbr_rc = {0};
     int neighbors[8][2];
     int rid, count, n;
 
@@ -1031,9 +1031,15 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
         char buf[100];
         snprintf(buf, sizeof(buf), "%" PRI_LONG, globals->min_reg_size);
         G_fatal_error(_("Region stats should go in tree, %d >= %s"), rs->count,
@@ -1059,7 +1065,13 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
         G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
                       rs->count, globals->min_reg_size);
@@ -1071,6 +1083,10 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1089,9 +1105,15 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     }
 
     Segment_get(&globals->rid_seg, (void *)&rid, row, col);
@@ -1588,7 +1610,7 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
         ret = 1;
     else if (globals->min_reg_size == 3) {
         int n, rid;
-        struct rc ngbr_rc;
+        struct rc ngbr_rc = {0};
         int neighbors[8][2];
 
         globals->find_neighbors(row, col, neighbors);
@@ -1631,7 +1653,7 @@ static int calculate_reg_stats(int row, int col, struct reg_stats *rs,
         /* rs->id must be set */
         struct pavl_table *rc_check_tree; /* cells already checked */
         int n, rid;
-        struct rc ngbr_rc, *pngbr_rc, next;
+        struct rc ngbr_rc = {0}, *pngbr_rc = NULL, next = {0};
         struct rclist rilist;
         int neighbors[8][2];
         int no_check;

@@ -232,7 +232,15 @@ def main():
     gs.verbose(_("Creating temporary project for <%s>...") % GDALdatasource)
     # creating a new location with r.in.gdal requires a sanitized env
     env = os.environ.copy()
+<<<<<<< HEAD
     env = gs.sanitize_mapset_environment(env)
+=======
+<<<<<<< HEAD
+    env = grass.sanitize_mapset_environment(env)
+=======
+    env = gs.sanitize_mapset_environment(env)
+>>>>>>> osgeo-main
+>>>>>>> main
     parameters = {
         "input": GDALdatasource,
         "output": output,
@@ -270,7 +278,15 @@ def main():
         )
 
     # import into temp location
+<<<<<<< HEAD
     gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+=======
+<<<<<<< HEAD
+    grass.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+=======
+    gs.verbose(_("Importing <%s> to temporary project...") % GDALdatasource)
+>>>>>>> osgeo-main
+>>>>>>> main
     parameters = {
         "input": GDALdatasource,
         "output": output,

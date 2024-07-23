@@ -184,9 +184,15 @@ class Settings:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
                 "singleWinPanesLayoutPos": {
                     "enabled": False,
                     "pos": "",
@@ -237,12 +243,24 @@ class Settings:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
                 "singleWindow": {"enabled": False},
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                "singleWindow": {"enabled": False},
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+                "singleWindow": {"enabled": False},
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+>>>>>>> main
             },
             #
             # datacatalog
@@ -308,7 +326,13 @@ class Settings:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
                 "singleWindow": {"enabled": True},
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -321,6 +345,10 @@ class Settings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -345,12 +373,18 @@ class Settings:
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
                 "singleWindow": {"enabled": True},
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
             },
             #
             # language
@@ -1107,7 +1141,7 @@ class Settings:
 
         try:
             line = ""
-            for line in fd.readlines():
+            for line in fd:
                 line = line.rstrip("%s" % os.linesep)
                 group, key = line.split(self.sep)[0:2]
                 kv = line.split(self.sep)[2:]
@@ -1188,7 +1222,7 @@ class Settings:
                         value = float(value)
                     except ValueError:
                         pass
-        else:  # -> write settings
+        else:  # -> write settings  # noqa: PLR5501
             if isinstance(value, type(())):  # -> color
                 value = str(value[0]) + ":" + str(value[1]) + ":" + str(value[2])
 
@@ -1218,13 +1252,13 @@ class Settings:
             if subkey is None:
                 if key is None:
                     return settings[group]
-                else:
-                    return settings[group][key]
-            else:
-                if isinstance(subkey, tuple) or isinstance(subkey, list):
-                    return settings[group][key][subkey[0]][subkey[1]]
-                else:
-                    return settings[group][key][subkey]
+
+                return settings[group][key]
+
+            if isinstance(subkey, (list, tuple)):
+                return settings[group][key][subkey[0]][subkey[1]]
+
+            return settings[group][key][subkey]
 
         except KeyError:
             print(
@@ -1255,13 +1289,16 @@ class Settings:
             if subkey is None:
                 if key is None:
                     settings[group] = value
-                else:
-                    settings[group][key] = value
-            else:
-                if isinstance(subkey, tuple) or isinstance(subkey, list):
-                    settings[group][key][subkey[0]][subkey[1]] = value
-                else:
-                    settings[group][key][subkey] = value
+                    return
+                settings[group][key] = value
+                return
+
+            if isinstance(subkey, (list, tuple)):
+                settings[group][key][subkey[0]][subkey[1]] = value
+                return
+            settings[group][key][subkey] = value
+            return
+
         except KeyError:
             raise GException(
                 "%s '%s:%s:%s'" % (_("Unable to set "), group, key, subkey)
@@ -1377,14 +1414,15 @@ def GetDisplayVectSettings():
     else:
         settings.append("fcolor=none")
 
-    settings.append(
-        "width=%s" % UserSettings.Get(group="vectorLayer", key="line", subkey="width")
-    )
-    settings.append(
-        "icon=%s" % UserSettings.Get(group="vectorLayer", key="point", subkey="symbol")
-    )
-    settings.append(
-        "size=%s" % UserSettings.Get(group="vectorLayer", key="point", subkey="size")
+    settings.extend(
+        (
+            "width=%s"
+            % UserSettings.Get(group="vectorLayer", key="line", subkey="width"),
+            "icon=%s"
+            % UserSettings.Get(group="vectorLayer", key="point", subkey="symbol"),
+            "size=%s"
+            % UserSettings.Get(group="vectorLayer", key="point", subkey="size"),
+        )
     )
     types = []
     for ftype in ["point", "line", "boundary", "centroid", "area", "face"]:

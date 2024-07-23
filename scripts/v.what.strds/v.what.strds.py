@@ -82,7 +82,15 @@ class Sample:
         elif date == "end":
             output = str(self.end).split(" ")[0].replace("-", "_")
         else:
+<<<<<<< HEAD
             gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+=======
+<<<<<<< HEAD
+            grass.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+=======
+            gs.fatal("The values accepted by printDay in Sample are: 'start', 'end'")
+>>>>>>> osgeo-main
+>>>>>>> main
         if self.granu:
             if self.granu.find("minute") != -1 or self.granu.find("second") != -1:
                 output += "_" + str(self.start).split(" ")[1].replace(":", "_")
@@ -115,7 +123,7 @@ def main():
             _("Attribute table of vector {name} will be updated...").format(name=input)
         )
 
-    if where == "" or where == " " or where == "\n":
+    if where in {"", " ", "\n"}:
         where = None
 
     overwrite = gs.overwrite()
@@ -263,7 +271,15 @@ def main():
                 )
             except CalledModuleError:
                 dbif.close()
+<<<<<<< HEAD
                 gs.fatal(
+=======
+<<<<<<< HEAD
+                grass.fatal(
+=======
+                gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
                     _("Unable to add column %s to vector map <%s> ")
                     % (column_string, output)
                 )

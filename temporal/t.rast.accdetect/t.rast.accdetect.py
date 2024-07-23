@@ -135,7 +135,15 @@
 # % description: Reverse time direction in cyclic accumulation
 # %end
 
+<<<<<<< HEAD
 import grass.script as gs
+=======
+<<<<<<< HEAD
+import grass.script as grass
+=======
+import grass.script as gs
+>>>>>>> osgeo-main
+>>>>>>> main
 
 # lazy imports at the end of the file
 
@@ -458,7 +466,7 @@ def main():
                             curr_map,
                             indicator_mid,
                         )
-                else:
+                else:  # noqa: PLR5501
                     if i == 0:
                         prev_map = curr_map
                         subexpr1 = "null()"

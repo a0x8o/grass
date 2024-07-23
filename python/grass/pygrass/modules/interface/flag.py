@@ -26,7 +26,17 @@ class Flag:
         self.value = False
         diz = read.element2dict(xflag) if xflag is not None else diz
         self.name = diz["name"]
+<<<<<<< HEAD
         self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
+=======
+<<<<<<< HEAD
+        self.special = (
+            True if self.name in {"verbose", "overwrite", "quiet", "run"} else False
+        )
+=======
+        self.special = self.name in {"verbose", "overwrite", "quiet", "run"}
+>>>>>>> osgeo-main
+>>>>>>> main
         self.description = diz.get("description", None)
         self.default = diz.get("default", None)
         self.guisection = diz.get("guisection", None)

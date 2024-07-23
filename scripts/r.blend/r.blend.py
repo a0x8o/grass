@@ -125,8 +125,18 @@ def main():
         gs.run_command("r.support", map=output, history="")
         gs.run_command("r.support", map=output, history=os.environ["CMDLINE"])
     else:
+<<<<<<< HEAD
         gs.message(_("Done. Use the following command to visualize the result:"))
         gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+=======
+<<<<<<< HEAD
+        gscript.message(_("Done. Use the following command to visualize the result:"))
+        gscript.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+=======
+        gs.message(_("Done. Use the following command to visualize the result:"))
+        gs.message(_("d.rgb r=%s.r g=%s.g b=%s.b") % (output, output, output))
+>>>>>>> osgeo-main
+>>>>>>> main
 
 
 if __name__ == "__main__":

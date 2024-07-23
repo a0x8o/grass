@@ -222,7 +222,15 @@ def main():
     new_database_subst = substitute_db(new_database)
 
     if old_database_subst == new_database_subst and old_schema == new_schema:
+<<<<<<< HEAD
         gs.fatal(_("Old and new database connection is identical. Nothing to do."))
+=======
+<<<<<<< HEAD
+        gscript.fatal(_("Old and new database connection is identical. Nothing to do."))
+=======
+        gs.fatal(_("Old and new database connection is identical. Nothing to do."))
+>>>>>>> osgeo-main
+>>>>>>> main
 
     mapset = gs.gisenv()["MAPSET"]
 
@@ -237,7 +245,15 @@ def main():
     for vect in vectors:
         vect = "%s@%s" % (vect, mapset)
         i += 1
+<<<<<<< HEAD
         gs.message(
+=======
+<<<<<<< HEAD
+        gscript.message(
+=======
+        gs.message(
+>>>>>>> osgeo-main
+>>>>>>> main
             _("%s\nReconnecting vector map <%s> (%d of %d)...\n%s")
             % ("-" * 80, vect, i, num_vectors, "-" * 80)
         )
@@ -316,6 +332,7 @@ def main():
                         % (table, vect, str(layer))
                     )
 
+<<<<<<< HEAD
             else:
                 if database != new_database_subst:
                     gs.warning(
@@ -325,7 +342,17 @@ def main():
                             "match."
                         )
                         % layer
+=======
+            elif database != new_database_subst:
+                gs.warning(
+                    _(
+                        "Layer <%d> will not be reconnected "
+                        "because database or schema do not "
+                        "match."
+>>>>>>> main
                     )
+                    % layer
+                )
     return 0
 
 

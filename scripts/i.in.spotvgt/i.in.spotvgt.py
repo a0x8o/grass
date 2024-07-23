@@ -124,8 +124,18 @@ def main():
     also = flags["a"]
 
     # check for gdalinfo (just to check if installation is complete)
+<<<<<<< HEAD
     if not gs.find_program("gdalinfo", "--help"):
         gs.fatal(
+=======
+<<<<<<< HEAD
+    if not gscript.find_program("gdalinfo", "--help"):
+        gscript.fatal(
+=======
+    if not gs.find_program("gdalinfo", "--help"):
+        gs.fatal(
+>>>>>>> osgeo-main
+>>>>>>> main
             _("'gdalinfo' not found, install GDAL tools first (http://www.gdal.org)")
         )
 

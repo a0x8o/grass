@@ -184,6 +184,9 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 =======
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
@@ -225,6 +228,14 @@ char *MEM_STREAM<T>::sprint()
     snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+=======
+>>>>>>> osgeo-main
+=======
+    snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
+=======
+>>>>>>> osgeo-main
     sprintf(buf, "[MEM_STREAM %d]", stream_len());
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -250,7 +261,13 @@ char *MEM_STREAM<T>::sprint()
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 =======
     sprintf(buf, "[MEM_STREAM %d]", stream_len());
 =======
@@ -264,6 +281,10 @@ char *MEM_STREAM<T>::sprint()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -313,6 +334,7 @@ char *MEM_STREAM<T>::sprint()
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
+<<<<<<< HEAD
     snprintf(buf, sizeof(buf), "[MEM_STREAM %d]", stream_len());
 =======
     sprintf(buf, "[MEM_STREAM %d]", stream_len());
@@ -327,6 +349,11 @@ char *MEM_STREAM<T>::sprint()
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
     return buf;
 }
 

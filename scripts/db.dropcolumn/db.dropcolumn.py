@@ -86,9 +86,21 @@ def main():
         gs.fatal(_("Column <%s> not found in table") % column)
 
     if not force:
+<<<<<<< HEAD
         gs.message(_("Column <%s> would be deleted.") % column)
         gs.message("")
         gs.message(
+=======
+<<<<<<< HEAD
+        gscript.message(_("Column <%s> would be deleted.") % column)
+        gscript.message("")
+        gscript.message(
+=======
+        gs.message(_("Column <%s> would be deleted.") % column)
+        gs.message("")
+        gs.message(
+>>>>>>> osgeo-main
+>>>>>>> main
             _("You must use the force flag (-f) to actually remove it. Exiting.")
         )
         return 0

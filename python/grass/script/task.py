@@ -44,7 +44,13 @@ for details.
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -57,6 +63,10 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -81,12 +91,18 @@ for details.
 =======
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
+<<<<<<< HEAD
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 >>>>>>> a7c34931b5 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 4fa4b4b8fe (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+>>>>>>> main
 import os
 import re
 import sys
@@ -236,9 +252,8 @@ class grassTask:
             if isinstance(val, (list, tuple)):
                 if value in val:
                     return p
-            else:
-                if p[element] == value:
-                    return p
+            elif p[element] == value:
+                return p
 
         if raiseError:
             raise ValueError(
@@ -517,8 +532,7 @@ class processTask:
         """Get node text"""
         p = node.find(tag)
         if p is not None:
-            res = " ".join(p.text.split())
-            return res
+            return " ".join(p.text.split())
 
         return default
 
@@ -536,15 +550,12 @@ def convert_xml_to_utf8(xml_text):
     m = re.match(pattern, xml_text)
     if m is None:
         return xml_text.encode("utf-8") if xml_text else None
-    #
     enc = m.groups()[0]
 
     # modify: change the encoding to "utf-8", for correct parsing
     xml_text_utf8 = xml_text.decode(enc.decode("ascii")).encode("utf-8")
     p = re.compile(b'encoding="' + enc + b'"', re.IGNORECASE)
-    xml_text_utf8 = p.sub(b'encoding="utf-8"', xml_text_utf8)
-
-    return xml_text_utf8
+    return p.sub(b'encoding="utf-8"', xml_text_utf8)
 
 
 def get_interface_description(cmd):
@@ -597,13 +608,12 @@ def get_interface_description(cmd):
         )
 
     desc = convert_xml_to_utf8(cmdout)
-    desc = desc.replace(
+    return desc.replace(
         b"grass-interface.dtd",
         os.path.join(os.getenv("GISBASE"), "gui", "xml", "grass-interface.dtd").encode(
             "utf-8"
         ),
     )
-    return desc
 
 
 def parse_interface(name, parser=processTask, blackList=None):
