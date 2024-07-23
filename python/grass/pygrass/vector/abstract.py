@@ -20,10 +20,7 @@ test_vector_name = "abstract_doctest_map"
 
 def is_open(c_mapinfo):
     """Return if the Vector is open"""
-    return (
-        c_mapinfo.contents.open != 0
-        and c_mapinfo.contents.open != libvect.VECT_CLOSED_CODE
-    )
+    return c_mapinfo.contents.open not in {0, libvect.VECT_CLOSED_CODE}
 
 
 # =============================================
@@ -299,7 +296,7 @@ class Info:
         if self.name:
             if self.mapset == "":
                 mapset = utils.get_mapset_vector(self.name, self.mapset)
-                self.mapset = mapset if mapset else ""
+                self.mapset = mapset or ""
                 return bool(mapset)
             return bool(utils.get_mapset_vector(self.name, self.mapset))
         else:
@@ -358,7 +355,7 @@ class Info:
         See more examples in the documentation of the ``read`` and ``write``
         methods
         """
-        self.mode = mode if mode else self.mode
+        self.mode = mode or self.mode
         with_z = libvect.WITH_Z if with_z else libvect.WITHOUT_Z
         # check if map exists or not
         if not self.exist() and self.mode != "w":
@@ -396,8 +393,8 @@ class Info:
             # create a link
             link = Link(
                 layer,
-                link_name if link_name else self.name,
-                tab_name if tab_name else self.name,
+                link_name or self.name,
+                tab_name or self.name,
                 link_key,
                 link_db,
                 link_driver,
@@ -438,6 +435,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "The databse link for layer %d of <%s> references layer %d."
 =======
 <<<<<<< HEAD
@@ -458,6 +456,8 @@ class Info:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     "The database link for layer %d of <%s> references layer %d."
@@ -471,6 +471,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -505,6 +506,11 @@ class Info:
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "The databse link for layer %d of <%s> references layer %d."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "The databse link for layer %d of <%s> references layer %d."
@@ -546,8 +552,8 @@ class Info:
                 str_err = "Error when trying to close the map with Vect_close"
                 raise GrassError(str_err)
             if (
-                self.c_mapinfo.contents.mode == libvect.GV_MODE_RW
-                or self.c_mapinfo.contents.mode == libvect.GV_MODE_WRITE
+                self.c_mapinfo.contents.mode
+                in {libvect.GV_MODE_RW, libvect.GV_MODE_WRITE}
             ) and build:
                 self.build()
 

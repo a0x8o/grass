@@ -11,6 +11,7 @@ for details.
 
 import collections
 import os
+from pathlib import Path
 import shutil
 import subprocess
 import sys
@@ -48,8 +49,7 @@ import collections
 # TODO: this might be more extend then update
 def update_keyval_file(filename, module, returncode):
     if os.path.exists(filename):
-        with open(filename, "r") as keyval_file:
-            keyval = text_to_keyvalue(keyval_file.read(), sep="=")
+        keyval = text_to_keyvalue(Path(filename).read_text(), sep="=")
     else:
         keyval = {}
 
@@ -71,8 +71,7 @@ def update_keyval_file(filename, module, returncode):
     keyval["returncode"] = returncode
     keyval["test_file_authors"] = test_file_authors
 
-    with open(filename, "w") as keyval_file:
-        keyval_file.write(keyvalue_to_text(keyval))
+    Path(filename).write_text(keyvalue_to_text(keyval))
     return keyval
 
 
@@ -151,6 +150,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -193,6 +193,11 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -283,6 +288,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -307,9 +313,12 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +371,10 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -384,6 +397,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 =======
 <<<<<<< HEAD
@@ -404,6 +418,8 @@ class GrassTestFilesInvoker:
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 stderr = (
@@ -420,6 +436,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -454,6 +471,11 @@ class GrassTestFilesInvoker:
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
@@ -476,6 +498,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -507,6 +530,13 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
 =======
 >>>>>>> osgeo-main
 =======
@@ -545,6 +575,7 @@ class GrassTestFilesInvoker:
 
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +632,8 @@ class GrassTestFilesInvoker:
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -609,6 +642,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +692,10 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+                    return decode(data, encoding=encoding)
+=======
+>>>>>>> osgeo-main
+=======
                     return decode(data, encoding=encoding)
 =======
 >>>>>>> osgeo-main
@@ -688,6 +726,9 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -703,6 +744,7 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -767,6 +809,8 @@ class GrassTestFilesInvoker:
 >>>>>>> e2f520cfc3 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 except UnicodeError:
                     pass
             if isinstance(data, bytes):
@@ -776,16 +820,14 @@ class GrassTestFilesInvoker:
         stdout = try_decode(stdout, encodings=encodings)
         stderr = try_decode(stderr, encodings=encodings)
 
-        with open(stdout_path, "w") as stdout_file:
-            stdout_file.write(stdout)
+        Path(stdout_path).write_text(stdout)
         with open(stderr_path, "w") as stderr_file:
             if type(stderr) == "bytes":
                 stderr_file.write(decode(stderr))
+            elif isinstance(stderr, str):
+                stderr_file.write(stderr)
             else:
-                if isinstance(stderr, str):
-                    stderr_file.write(stderr)
-                else:
-                    stderr_file.write(stderr.encode("utf8"))
+                stderr_file.write(stderr.encode("utf8"))
         self._file_anonymizer.anonymize([stdout_path, stderr_path])
 
         test_summary = update_keyval_file(
@@ -870,18 +912,17 @@ class GrassTestFilesInvoker:
 
         # TODO: move this to some (new?) reporter
         # TODO: add basic summary of linked files so that the page is not empty
-        with open(os.path.join(results_dir, "index.html"), "w") as main_index:
-            main_index.write(
-                "<html><body>"
-                "<h1>Tests for &lt;{location}&gt;"
-                " using &lt;{type}&gt; type tests</h1>"
-                "<ul>"
-                '<li><a href="testsuites.html">Results by testsuites</a>'
-                " (testsuite directories)</li>"
-                '<li><a href="testfiles.html">Results by test files</a></li>'
-                "<ul>"
-                "</body></html>".format(location=location, type=location_type)
-            )
+        Path(os.path.join(results_dir, "index.html")).write_text(
+            "<html><body>"
+            "<h1>Tests for &lt;{location}&gt;"
+            " using &lt;{type}&gt; type tests</h1>"
+            "<ul>"
+            '<li><a href="testsuites.html">Results by testsuites</a>'
+            " (testsuite directories)</li>"
+            '<li><a href="testfiles.html">Results by test files</a></li>'
+            "<ul>"
+            "</body></html>".format(location=location, type=location_type)
+        )
 
         testsuite_dir_reporter = TestsuiteDirReporter(
             main_page_name="testsuites.html",

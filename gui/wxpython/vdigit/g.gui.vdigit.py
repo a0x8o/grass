@@ -107,6 +107,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +178,9 @@ def main():
 =======
             self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
 =======
+            self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
+>>>>>>> osgeo-main
+=======
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +188,9 @@ def main():
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame

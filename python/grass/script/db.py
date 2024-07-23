@@ -31,6 +31,7 @@ from __future__ import absolute_import
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -73,6 +74,11 @@ from __future__ import absolute_import
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
@@ -251,7 +257,7 @@ def db_select(sql=None, filename=None, table=None, env=None, **args):
         fatal(_("Fetching data failed"))
 
     ofile = open(fname)
-    result = [tuple(x.rstrip(os.linesep).split(args["sep"])) for x in ofile.readlines()]
+    result = [tuple(x.rstrip(os.linesep).split(args["sep"])) for x in ofile]
     ofile.close()
     try_remove(fname)
 

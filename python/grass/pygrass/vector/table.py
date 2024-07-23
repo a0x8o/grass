@@ -37,6 +37,7 @@ from grass.lib.ctypes_preamble import ReturnString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +81,11 @@ from grass.lib.ctypes_preamble import ReturnString
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -1206,7 +1212,7 @@ class Table:
         :type force: bool
         """
 
-        cur = cursor if cursor else self.conn.cursor()
+        cur = cursor or self.conn.cursor()
         if self.exist(cursor=cur):
             used = db_table_in_vector(self.name)
             if used is not None and len(used) > 0 and not force:
@@ -1265,8 +1271,8 @@ class Table:
 
         """
         try:
-            sqlc = sql_code if sql_code else self.filters.get_sql()
-            cur = cursor if cursor else self.conn.cursor()
+            sqlc = sql_code or self.filters.get_sql()
+            cur = cursor or self.conn.cursor()
             if many and values:
                 return cur.executemany(sqlc, values)
             return cur.execute(sqlc, values) if values else cur.execute(sqlc)
@@ -1283,7 +1289,7 @@ class Table:
         :param cursor: the cursor to connect, if None it use the cursor
                        of connection table object
         """
-        cur = cursor if cursor else self.conn.cursor()
+        cur = cursor or self.conn.cursor()
         return table_exist(cur, self.name)
 
     def insert(self, values, cursor=None, many=False):
@@ -1298,7 +1304,7 @@ class Table:
         :param many: True to run executemany function
         :type many: bool
         """
-        cur = cursor if cursor else self.conn.cursor()
+        cur = cursor or self.conn.cursor()
         if many:
             return cur.executemany(self.columns.insert_str, values)
         return cur.execute(self.columns.insert_str, values)
@@ -1317,7 +1323,7 @@ class Table:
                        of connection table object
         :type cursor: Cursor object
         """
-        cur = cursor if cursor else self.conn.cursor()
+        cur = cursor or self.conn.cursor()
         vals = list(values) + [
             key,
         ]
@@ -1337,7 +1343,7 @@ class Table:
         :type cursor: Cursor object
 
         """
-        cur = cursor if cursor else self.conn.cursor()
+        cur = cursor or self.conn.cursor()
         coldef = ",\n".join(["%s %s" % col for col in cols])
         if name:
             newname = name

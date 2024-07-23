@@ -193,6 +193,7 @@ class BasePlotFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -235,6 +236,11 @@ class BasePlotFrame(wx.Frame):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -644,7 +650,7 @@ class BasePlotFrame(wx.Frame):
         )
 
         btnval = dlg.ShowModal()
-        if btnval == wx.ID_SAVE or btnval == wx.ID_OK or btnval == wx.ID_CANCEL:
+        if btnval in {wx.ID_SAVE, wx.ID_OK, wx.ID_CANCEL}:
             dlg.Destroy()
 
     def PlotOptions(self, event):
@@ -662,7 +668,7 @@ class BasePlotFrame(wx.Frame):
         )
         btnval = dlg.ShowModal()
 
-        if btnval == wx.ID_SAVE or btnval == wx.ID_OK or btnval == wx.ID_CANCEL:
+        if btnval in {wx.ID_SAVE, wx.ID_OK, wx.ID_CANCEL}:
             dlg.Destroy()
         self.Update()
 

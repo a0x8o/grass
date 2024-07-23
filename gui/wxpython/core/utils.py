@@ -29,6 +29,7 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,11 @@ import operator
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -159,7 +165,7 @@ def GetLayerNameFromCmd(dcmd, fullyQualified=False, param=None, layerType=None):
     if len(dcmd) < 1:
         return mapname, False
 
-    if "d.grid" == dcmd[0]:
+    if dcmd[0] == "d.grid":
         mapname = "grid"
     elif "d.geodesic" in dcmd[0]:
         mapname = "geodesic"
@@ -347,7 +353,7 @@ def ListOfMapsets(get="ordered"):
     :return: list of mapsets
     :return: [] on error
     """
-    if get == "all" or get == "ordered":
+    if get in {"all", "ordered"}:
         ret = RunCommand("g.mapsets", read=True, quiet=True, flags="l", sep="newline")
         if not ret:
             return []
@@ -356,7 +362,7 @@ def ListOfMapsets(get="ordered"):
         if get == "all":
             return mapsets_all
 
-    if get == "accessible" or get == "ordered":
+    if get in {"accessible", "ordered"}:
         ret = RunCommand("g.mapsets", read=True, quiet=True, flags="p", sep="newline")
         if not ret:
             return []
@@ -718,7 +724,7 @@ def _parseFormats(output, writableOnly=False):
         patt = re.compile(r"\(rw\+?\)$", re.IGNORECASE)
 
     for line in output.splitlines():
-        key, name = map(lambda x: x.strip(), line.strip().split(":", 1))
+        key, name = (x.strip() for x in line.strip().split(":", 1))
         if writableOnly and not patt.search(key):
             continue
 
@@ -899,10 +905,10 @@ def StoreEnvVariable(key, value=None, envFile=None):
         except OSError as e:
             sys.stderr.write(_("Unable to open file '%s'\n") % envFile)
             return
-        for line in fd.readlines():
+        for line in fd:
             line = line.rstrip(os.linesep)
             try:
-                k, v = map(lambda x: x.strip(), line.split(" ", 1)[1].split("=", 1))
+                k, v = (x.strip() for x in line.split(" ", 1)[1].split("=", 1))
             except Exception as e:
                 sys.stderr.write(
                     _("%s: line skipped - unable to parse '%s'\nReason: %s\n")
@@ -1136,7 +1142,7 @@ def autoCropImageFromFile(filename):
         return wx.Image(filename)
 
 
-def isInRegion(regionA, regionB):
+def isInRegion(regionA, regionB) -> bool:
     """Tests if 'regionA' is inside of 'regionB'.
 
     For example, region A is a display region and region B is some reference
@@ -1156,15 +1162,12 @@ def isInRegion(regionA, regionB):
     :return: True if region A is inside of region B
     :return: False otherwise
     """
-    if (
+    return bool(
         regionA["s"] >= regionB["s"]
         and regionA["n"] <= regionB["n"]
         and regionA["w"] >= regionB["w"]
         and regionA["e"] <= regionB["e"]
-    ):
-        return True
-
-    return False
+    )
 
 
 def do_doctest_gettext_workaround():
@@ -1238,8 +1241,7 @@ def unregisterPid(pid):
 def get_shell_pid(env=None):
     """Get shell PID from the GIS environment or None"""
     try:
-        shell_pid = int(grass.gisenv(env=env)["PID"])
-        return shell_pid
+        return int(grass.gisenv(env=env)["PID"])
     except (KeyError, ValueError) as error:
         Debug.msg(
             1, "No PID for GRASS shell (assuming no shell running): {}".format(error)
@@ -1247,11 +1249,9 @@ def get_shell_pid(env=None):
         return None
 
 
-def is_shell_running():
+def is_shell_running() -> bool:
     """Return True if a separate shell is registered in the GIS environment"""
-    if get_shell_pid() is None:
-        return False
-    return True
+    return get_shell_pid() is not None
 
 
 def parse_mapcalc_cmd(command):

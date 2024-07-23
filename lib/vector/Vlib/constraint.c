@@ -86,6 +86,7 @@ int Vect_set_constraint_region(struct Map_info *Map, double n, double s,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 =======
 <<<<<<< HEAD
@@ -106,6 +107,8 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_constraint_box(struct Map_info *Map, struct bound_box *Box)
@@ -119,6 +122,7 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -153,6 +157,11 @@ int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_get_constraint_box(const struct Map_info *Map, struct bound_box *Box)

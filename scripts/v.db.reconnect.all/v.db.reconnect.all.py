@@ -324,16 +324,15 @@ def main():
                         % (table, vect, str(layer))
                     )
 
-            else:
-                if database != new_database_subst:
-                    gs.warning(
-                        _(
-                            "Layer <%d> will not be reconnected "
-                            "because database or schema do not "
-                            "match."
-                        )
-                        % layer
+            elif database != new_database_subst:
+                gs.warning(
+                    _(
+                        "Layer <%d> will not be reconnected "
+                        "because database or schema do not "
+                        "match."
                     )
+                    % layer
+                )
     return 0
 
 

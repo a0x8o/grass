@@ -58,6 +58,7 @@ import six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -100,6 +101,11 @@ import six
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -723,8 +729,7 @@ class TreeCtrlComboPopup(ListCtrlComboPopup):
 
         data = {"node": node, "mapset": mapset}
 
-        item = self.seltree.AppendItem(parent, text=value, data=data)
-        return item
+        return self.seltree.AppendItem(parent, text=value, data=data)
 
     def OnKeyUp(self, event):
         """Enables to select items using keyboard
@@ -814,14 +819,13 @@ class TreeCtrlComboPopup(ListCtrlComboPopup):
 
         if self.multiple:
             self.value.append(fullName)
-        else:
-            if self.nmaps > 1:  # see key_desc
-                if len(self.value) >= self.nmaps:
-                    self.value = [fullName]
-                else:
-                    self.value.append(fullName)
-            else:
+        elif self.nmaps > 1:  # see key_desc
+            if len(self.value) >= self.nmaps:
                 self.value = [fullName]
+            else:
+                self.value.append(fullName)
+        else:
+            self.value = [fullName]
 
     def _onItemConfirmed(self, event):
         item = event.GetItem()
@@ -2069,6 +2073,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2110,6 +2115,11 @@ class GdalSelect(wx.Panel):
                 if "PostgreSQL" in db_formats:
 =======
 >>>>>>> osgeo-main
+=======
+                db_formats = self.dbFormats.values()
+                if "PostgreSQL" in db_formats:
+=======
+>>>>>>> osgeo-main
                 if "PostgreSQL" in self.dbFormats.values():
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -2120,6 +2130,7 @@ class GdalSelect(wx.Panel):
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2171,6 +2182,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     self.dbWidgets["format"].SetStringSelection("PostgreSQL")
@@ -2469,6 +2482,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # v.external returns info for individual bands, however projection is shared by all bands ->
                 # (it is possible to take first line)
 =======
@@ -2490,6 +2504,8 @@ class GdalSelect(wx.Panel):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 # v.external returns info for individual bands, however projection is
@@ -2505,6 +2521,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2516,9 +2533,12 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 # v.external returns info for individual bands, however projection is shared by all bands ->
                 # (it is possible to take first line)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2545,12 +2565,14 @@ class GdalSelect(wx.Panel):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
                 lines = ret.splitlines()
                 projectionMatch = "0"
                 if lines:
-                    bandNumber, bandType, projectionMatch = map(
-                        lambda x: x.strip(), lines[0].split(",")
+                    bandNumber, bandType, projectionMatch = (
+                        x.strip() for x in lines[0].split(",")
                     )
 
             return projectionMatch
@@ -2579,8 +2601,8 @@ class GdalSelect(wx.Panel):
 
             layerId = 1
             for line in ret.splitlines():
-                layerName, featureType, projectionMatch, geometryColumn = map(
-                    lambda x: x.strip(), line.split(",")
+                layerName, featureType, projectionMatch, geometryColumn = (
+                    x.strip() for x in line.split(",")
                 )
                 projectionMatchCaption = getProjMatchCaption(projectionMatch)
                 grassName = GetValidLayerName(layerName)
@@ -2593,52 +2615,43 @@ class GdalSelect(wx.Panel):
                     (layerId, layerName, featureType, int(projectionMatch), grassName)
                 )
                 layerId += 1
-        else:
-            if self._sourceType == "file":
-                baseName = os.path.basename(dsn)
+        elif self._sourceType == "file":
+            baseName = os.path.basename(dsn)
+            grassName = GetValidLayerName(baseName.split(".", -1)[0])
+            projectionMatch = hasRastSameProjAsLocation(dsn)
+            projectionMatchCaption = getProjMatchCaption(projectionMatch)
+            listData.append((layerId, baseName, projectionMatchCaption, grassName))
+            data.append((layerId, baseName, int(projectionMatch), grassName))
+        elif self._sourceType == "dir":
+            ext = self.dirWidgets["extension"].GetValue()
+            for filename in glob.glob(
+                os.path.join(dsn, "%s") % self._getExtPatternGlob(ext)
+            ):
+                baseName = os.path.basename(filename)
                 grassName = GetValidLayerName(baseName.split(".", -1)[0])
-                projectionMatch = hasRastSameProjAsLocation(dsn)
+                projectionMatch = hasRastSameProjAsLocation(filename)
                 projectionMatchCaption = getProjMatchCaption(projectionMatch)
                 listData.append((layerId, baseName, projectionMatchCaption, grassName))
                 data.append((layerId, baseName, int(projectionMatch), grassName))
-            elif self._sourceType == "dir":
-                ext = self.dirWidgets["extension"].GetValue()
-                for filename in glob.glob(
-                    os.path.join(dsn, "%s") % self._getExtPatternGlob(ext)
-                ):
-                    baseName = os.path.basename(filename)
-                    grassName = GetValidLayerName(baseName.split(".", -1)[0])
-                    projectionMatch = hasRastSameProjAsLocation(filename)
-                    projectionMatchCaption = getProjMatchCaption(projectionMatch)
-                    listData.append(
-                        (layerId, baseName, projectionMatchCaption, grassName)
-                    )
-                    data.append((layerId, baseName, int(projectionMatch), grassName))
-                    layerId += 1
-            elif (
-                self.dbWidgets["format"].GetStringSelection() == "PostGIS Raster driver"
-            ):
-                rasters = self._getPGDBRasters(dsn)
-                for raster in rasters:
-                    grassName = GetValidLayerName(raster)
-                    projectionMatch = hasRastSameProjAsLocation(dsn, table=raster)
-                    projectionMatchCaption = getProjMatchCaption(projectionMatch)
-                    listData.append(
-                        (layerId, raster, projectionMatchCaption, grassName)
-                    )
-                    data.append((layerId, raster, int(projectionMatch), grassName))
-                    layerId += 1
-            elif self.dbWidgets["format"].GetStringSelection() == "Rasterlite":
-                rasters = self._getRasterliteDBRasters(dsn)
-                for raster in rasters:
-                    grassName = GetValidLayerName(raster)
-                    projectionMatch = hasRastSameProjAsLocation(dsn)
-                    projectionMatchCaption = getProjMatchCaption(projectionMatch)
-                    listData.append(
-                        (layerId, raster, projectionMatchCaption, grassName)
-                    )
-                    data.append((layerId, raster, int(projectionMatch), grassName))
-                    layerId += 1
+                layerId += 1
+        elif self.dbWidgets["format"].GetStringSelection() == "PostGIS Raster driver":
+            rasters = self._getPGDBRasters(dsn)
+            for raster in rasters:
+                grassName = GetValidLayerName(raster)
+                projectionMatch = hasRastSameProjAsLocation(dsn, table=raster)
+                projectionMatchCaption = getProjMatchCaption(projectionMatch)
+                listData.append((layerId, raster, projectionMatchCaption, grassName))
+                data.append((layerId, raster, int(projectionMatch), grassName))
+                layerId += 1
+        elif self.dbWidgets["format"].GetStringSelection() == "Rasterlite":
+            rasters = self._getRasterliteDBRasters(dsn)
+            for raster in rasters:
+                grassName = GetValidLayerName(raster)
+                projectionMatch = hasRastSameProjAsLocation(dsn)
+                projectionMatchCaption = getProjMatchCaption(projectionMatch)
+                listData.append((layerId, raster, projectionMatchCaption, grassName))
+                data.append((layerId, raster, int(projectionMatch), grassName))
+                layerId += 1
 
         # emit signal
         self.reloadDataRequired.emit(listData=listData, data=data)
@@ -2719,17 +2732,15 @@ class GdalSelect(wx.Panel):
                 cmd = "v.external.out"
             else:
                 cmd = "r.external.out"
-        else:
-            if self.link:
-                if self.ogr:
-                    cmd = "v.external"
-                else:
-                    cmd = "r.external"
+        elif self.link:
+            if self.ogr:
+                cmd = "v.external"
             else:
-                if self.ogr:
-                    cmd = "v.in.ogr"
-                else:
-                    cmd = "r.in.gdal"
+                cmd = "r.external"
+        elif self.ogr:
+            cmd = "v.in.ogr"
+        else:
+            cmd = "r.in.gdal"
 
         RunCommand("g.manual", entry=cmd)
 
@@ -3146,12 +3157,11 @@ class CoordinatesSelect(Panel):
 
             self.registered = True
             self._giface.GetMapDisplay().Raise()
-        else:
-            if self.mapWin and self.mapWin.UnregisterMouseEventHandler(
-                wx.EVT_LEFT_DOWN, self._onMapClickHandler
-            ):
-                self.registered = False
-                return
+        elif self.mapWin and self.mapWin.UnregisterMouseEventHandler(
+            wx.EVT_LEFT_DOWN, self._onMapClickHandler
+        ):
+            self.registered = False
+            return
 
     def drawCleanUp(self):
         if self.drawMapWin:
@@ -3284,6 +3294,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 =======
 <<<<<<< HEAD
@@ -3304,6 +3315,8 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> 44b23be1c2 (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         """Check if selected map in 'input' widget is the same as selected map in
@@ -3318,6 +3331,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -3352,6 +3366,11 @@ class VectorCategorySelect(wx.Panel):
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> b4039859b5 (Dockerfile: fix broken lib link (#1625))
+=======
+=======
+        """Check if selected map in 'input' widget is the same as selected map in lmgr"""
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
@@ -3380,27 +3399,22 @@ class VectorCategorySelect(wx.Panel):
         return False
 
     def _onClick(self, evt=None):
-        if self.task is not None:
-            if not self._chckMap():
-                self.buttonVecSelect.SetValue(False)
-                return
-        else:
-            if not self._isMapSelected():
-                self.buttonVecSelect.SetValue(False)
-                return
-        if self._vectorSelect is None:
-            if self.mapdisp:
-                if self.buttonVecSelect.IsEnabled():
-                    switcher = self.mapdisp.GetToolSwitcher()
-                    switcher.ToolChanged(self.buttonVecSelect.GetId())
+        if (self.task is not None and not self._chckMap()) or not self._isMapSelected():
+            self.buttonVecSelect.SetValue(False)
+            return
 
-                self._vectorSelect = VectorSelectBase(self.mapdisp, self.giface)
-                if not self.mapdisp.GetWindow().RegisterMouseEventHandler(
-                    wx.EVT_LEFT_DOWN, self._onMapClickHandler, "cross"
-                ):
-                    return
-                self.registered = True
-                self.mapdisp.Raise()
+        if self._vectorSelect is None and self.mapdisp:
+            if self.buttonVecSelect.IsEnabled():
+                switcher = self.mapdisp.GetToolSwitcher()
+                switcher.ToolChanged(self.buttonVecSelect.GetId())
+
+            self._vectorSelect = VectorSelectBase(self.mapdisp, self.giface)
+            if not self.mapdisp.GetWindow().RegisterMouseEventHandler(
+                wx.EVT_LEFT_DOWN, self._onMapClickHandler, "cross"
+            ):
+                return
+            self.registered = True
+            self.mapdisp.Raise()
         else:
             self.OnClose()
 
@@ -3421,16 +3435,10 @@ class VectorCategorySelect(wx.Panel):
         if event == "unregistered":
             return
 
-        if self.task is None:
-            if not self._isMapSelected():
-                self.OnClose()
-            else:
-                self.catsField.SetValue(self._vectorSelect.GetLineStringSelectedCats())
+        if (self.task is None and not self._isMapSelected()) or not self._chckMap():
+            self.OnClose()
         else:
-            if not self._chckMap():
-                self.OnClose()
-            else:
-                self.catsField.SetValue(self._vectorSelect.GetLineStringSelectedCats())
+            self.catsField.SetValue(self._vectorSelect.GetLineStringSelectedCats())
 
     def GetTextWin(self):
         return self.catsField
@@ -3471,6 +3479,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
 
         items = []
@@ -3495,6 +3504,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         super().__init__(parent, id, size=size, **kwargs)
@@ -3524,6 +3535,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -3537,6 +3549,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 self._append_mapset_signatures(mapset, element, items)
@@ -3554,6 +3568,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3568,6 +3583,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         # A workaround to list signature files before a separate
@@ -3583,6 +3600,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3606,6 +3624,9 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
         try:
             from grass.lib.imagery import (
                 I_SIGFILE_TYPE_SIG,
@@ -3618,6 +3639,7 @@ class SignatureSelect(wx.ComboBox):
                 _("Unable to import C imagery library functions: %s\n") % e
             )
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3691,11 +3713,14 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3715,6 +3740,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         else:
             return
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
@@ -3723,6 +3750,7 @@ class SignatureSelect(wx.ComboBox):
         for n in range(count):
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3746,6 +3774,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -3780,6 +3810,7 @@ class SignatureSelect(wx.ComboBox):
             sig_type = I_SIGFILE_TYPE_SIGSET
         else:
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3815,10 +3846,13 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
         for n in range(count):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3852,6 +3886,10 @@ class SignatureSelect(wx.ComboBox):
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
+=======
+            items.append(grass.decode(sig_list[n]))
+        I_free_signatures_list(count, ctypes.byref(sig_list))
+>>>>>>> osgeo-main
 =======
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))

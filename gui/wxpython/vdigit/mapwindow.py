@@ -145,6 +145,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tools = {
             ord("P"): {
                 "event": wx.CommandEvent(id=self.toolbar.addPoint),
@@ -244,6 +245,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         default_tools = {
@@ -449,6 +452,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -457,6 +461,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -548,6 +554,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -565,6 +572,8 @@ class VDigitWindow(BufferedMapWindow):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             if tool:
@@ -852,7 +861,7 @@ class VDigitWindow(BufferedMapWindow):
                     # highlight feature & re-draw map
                     if not self.parent.dialogs["attributes"].IsShown():
                         self.parent.dialogs["attributes"].Show()
-                else:
+                else:  # noqa: PLR5501
                     if (
                         self.parent.dialogs["attributes"]
                         and self.parent.dialogs["attributes"].IsShown()
@@ -879,7 +888,7 @@ class VDigitWindow(BufferedMapWindow):
                     # highlight feature & re-draw map
                     if not self.parent.dialogs["category"].IsShown():
                         self.parent.dialogs["category"].Show()
-                else:
+                else:  # noqa: PLR5501
                     if self.parent.dialogs["category"].IsShown():
                         self.parent.dialogs["category"].Hide()
 
@@ -1144,29 +1153,26 @@ class VDigitWindow(BufferedMapWindow):
             if nselected > 0:
                 self.digit.GetDisplay().SetSelected(selected)
 
+        # -> moveLine || deleteLine, etc. (select by point/box)
+        elif action == "moveLine" and len(self.digit.GetDisplay().GetSelected()) > 0:
+            nselected = 0
+        elif action == "deleteArea":
+            nselected = int(
+                self.digit.GetDisplay().SelectAreaByPoint(pos1)["area"] != -1
+            )
         else:
-            # -> moveLine || deleteLine, etc. (select by point/box)
-            if action == "moveLine" and len(self.digit.GetDisplay().GetSelected()) > 0:
-                nselected = 0
+            if action == "moveLine":
+                drawSeg = True
             else:
-                if action == "deleteArea":
-                    nselected = int(
-                        self.digit.GetDisplay().SelectAreaByPoint(pos1)["area"] != -1
-                    )
-                else:
-                    if action == "moveLine":
-                        drawSeg = True
-                    else:
-                        drawSeg = False
+                drawSeg = False
 
-                    nselected = self.digit.GetDisplay().SelectLinesByBox(
-                        bbox=(pos1, pos2), drawSeg=drawSeg
-                    )
-                    if nselected == 0:
-                        nselected = int(
-                            self.digit.GetDisplay().SelectLineByPoint(pos1)["line"]
-                            != -1
-                        )
+            nselected = self.digit.GetDisplay().SelectLinesByBox(
+                bbox=(pos1, pos2), drawSeg=drawSeg
+            )
+            if nselected == 0:
+                nselected = int(
+                    self.digit.GetDisplay().SelectLineByPoint(pos1)["line"] != -1
+                )
 
         if nselected > 0:
             if action in {"moveLine", "moveVertex"} and hasattr(self, "moveInfo"):
@@ -1209,14 +1215,14 @@ class VDigitWindow(BufferedMapWindow):
                 # -> move line || move vertex
                 self.UpdateMap(render=False)
 
-        else:  # no vector object found
-            if not (
-                action in {"moveLine", "moveVertex"}
-                and hasattr(self, "moveInfo")
-                and len(self.moveInfo["id"]) > 0
-            ):
-                # avoid left-click when features are already selected
-                self.UpdateMap(render=False, renderVector=False)
+        # no vector object found
+        elif not (
+            action in {"moveLine", "moveVertex"}
+            and hasattr(self, "moveInfo")
+            and len(self.moveInfo["id"]) > 0
+        ):
+            # avoid left-click when features are already selected
+            self.UpdateMap(render=False, renderVector=False)
 
     def OnLeftUpModifyLine(self, event):
         """Left mouse button released - vector digitizer split line,
@@ -1304,10 +1310,9 @@ class VDigitWindow(BufferedMapWindow):
                     )
                 else:
                     self.layerTmp.SetCmd(dVectTmp)
-            else:
-                if self.layerTmp:
-                    self.Map.DeleteLayer(self.layerTmp)
-                    self.layerTmp = None
+            elif self.layerTmp:
+                self.Map.DeleteLayer(self.layerTmp)
+                self.layerTmp = None
 
             self.UpdateMap(render=True, renderVector=True)
 
@@ -1524,14 +1529,11 @@ class VDigitWindow(BufferedMapWindow):
                     < 0
                 ):
                     return
-            else:
-                if (
-                    self.digit.CopyCats(
-                        self.copyCatsList, self.copyCatsIds, copyAttrb=True
-                    )
-                    < 0
-                ):
-                    return
+            elif (
+                self.digit.CopyCats(self.copyCatsList, self.copyCatsIds, copyAttrb=True)
+                < 0
+            ):
+                return
 
             del self.copyCatsList
             del self.copyCatsIds

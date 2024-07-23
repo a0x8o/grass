@@ -49,6 +49,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -97,6 +98,11 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
     size_t it; /* iterator */
 =======
 >>>>>>> osgeo-main
+=======
+    long i;    /* find token number */
+    size_t it; /* iterator */
+=======
+>>>>>>> osgeo-main
     long i;  /* find token number */
     long it; /* iterator */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -115,6 +121,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -126,6 +133,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     long i;  /* find token number */
     long it; /* iterator */
 =======
@@ -133,6 +142,7 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
     size_t it; /* iterator */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +200,8 @@ char **split_arg(char *linea, char separatore, long *numerotoken)
 >>>>>>> 446049deb7 (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     long num;

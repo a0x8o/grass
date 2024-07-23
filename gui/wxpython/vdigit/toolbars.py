@@ -193,6 +193,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
 =======
 <<<<<<< HEAD
@@ -213,6 +214,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     "Delete selected point(s), line(s), boundary(ies) or "
@@ -227,6 +230,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -261,6 +265,11 @@ class VDigitToolbar(BaseToolbar):
                     "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "Delete selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+D)"
@@ -304,6 +313,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
 =======
 <<<<<<< HEAD
@@ -324,6 +334,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     "Move selected point(s), line(s), boundary(ies) or "
@@ -338,6 +350,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -372,6 +385,11 @@ class VDigitToolbar(BaseToolbar):
                     "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                    "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "Move selected point(s), line(s), boundary(ies) or centroid(s) (Ctrl+M)"
@@ -624,6 +642,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -643,6 +662,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         if self.toolSwitcher and event:
@@ -657,6 +678,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -686,6 +708,10 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -706,6 +732,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if event:
             BaseToolbar.OnTool(self, event)
 =======
@@ -727,6 +754,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -740,6 +769,7 @@ class VDigitToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -751,9 +781,12 @@ class VDigitToolbar(BaseToolbar):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if event:
             BaseToolbar.OnTool(self, event)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,6 +811,8 @@ class VDigitToolbar(BaseToolbar):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -991,16 +1026,12 @@ class VDigitToolbar(BaseToolbar):
         """
         self._enableTool(self.redo, enable)
 
-    def _enableTool(self, tool, enable):
+    def _enableTool(self, tool, enable: bool):
         if not self.FindById(tool):
             return
 
-        if enable:
-            if self.GetToolEnabled(tool) is False:
-                self.EnableTool(tool, True)
-        else:
-            if self.GetToolEnabled(tool) is True:
-                self.EnableTool(tool, False)
+        if self.GetToolEnabled(tool) is not bool(enable):
+            self.EnableTool(tool, bool(enable))
 
     def GetAction(self, type="desc"):
         """Get current action info"""

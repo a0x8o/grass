@@ -67,6 +67,7 @@ int centroids(int fd, /* File descriptor of map layer to process */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (method > 0) { /* acccumulate row, col weights */
 =======
 <<<<<<< HEAD
@@ -87,6 +88,8 @@ int centroids(int fd, /* File descriptor of map layer to process */
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             if (method > 0) { /* accumulate row, col weights */
@@ -100,6 +103,7 @@ int centroids(int fd, /* File descriptor of map layer to process */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (method > 0) { /* acccumulate row, col weights */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -134,6 +138,11 @@ int centroids(int fd, /* File descriptor of map layer to process */
             if (method > 0) { /* acccumulate row, col weights */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+            if (method > 0) { /* acccumulate row, col weights */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             if (method > 0) { /* acccumulate row, col weights */

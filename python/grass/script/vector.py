@@ -38,6 +38,7 @@ from .core import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from grass.exceptions import CalledModuleError, ScriptError
 =======
@@ -89,10 +90,15 @@ from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 3ab33fc0b6 (pythonlib: Remove star imports (#1546))
 =======
 =======
+>>>>>>> osgeo-main
+=======
 =======
 
 from grass.exceptions import CalledModuleError, ScriptError
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 
 from grass.exceptions import CalledModuleError, ScriptError
@@ -500,8 +506,7 @@ def vector_what(
         return data
 
     # lazy import
-    global json
-    global orderedDict
+    global json, orderedDict
     if json is None:
         import json
     if orderedDict is None:

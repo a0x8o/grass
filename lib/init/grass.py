@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -65,6 +66,8 @@
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
@@ -76,6 +79,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -95,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -143,6 +150,11 @@
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> 918f6991c4 (i.maxlik: fix crash when classification result is NULL (#2724))
+=======
+=======
+# COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
@@ -474,6 +486,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 =======
 <<<<<<< HEAD
@@ -494,6 +507,8 @@ def help_message(default_gui):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                 "options: arch,build,compiler,date,path,python_path,revision,"
@@ -508,6 +523,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -542,6 +558,11 @@ def help_message(default_gui):
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
@@ -610,6 +631,7 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -620,6 +642,8 @@ def get_grass_config_dir():
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     # The code is in sync with grass.app.runtime (but not the same).
 =======
 <<<<<<< HEAD
@@ -627,6 +651,9 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -636,9 +663,12 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -650,6 +680,7 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
@@ -669,6 +700,8 @@ def get_grass_config_dir():
 =======
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -689,6 +722,7 @@ def get_grass_config_dir():
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +791,8 @@ def get_grass_config_dir():
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         win_conf_path = os.getenv("APPDATA")
@@ -794,6 +830,7 @@ def get_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -835,6 +872,10 @@ def get_grass_config_dir():
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
 >>>>>>> osgeo-main
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
         grass_config_dirname = ".grass8"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -843,6 +884,7 @@ def get_grass_config_dir():
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,6 +954,11 @@ def get_grass_config_dir():
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
@@ -960,6 +1007,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1006,6 +1054,10 @@ def create_tmp(user, gis_lock):
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
         tmpdir = os.path.join(
             tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
         )
@@ -1017,6 +1069,9 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1036,6 +1091,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1063,6 +1119,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         try:
@@ -1085,6 +1143,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1131,6 +1190,10 @@ def create_tmp(user, gis_lock):
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
 >>>>>>> osgeo-main
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
             tmpdir = os.path.join(
                 tmp, "grass8-%(user)s-%(lock)s" % {"user": user, "lock": gis_lock}
             )
@@ -1142,6 +1205,9 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1161,6 +1227,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -1188,6 +1255,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             try:
@@ -1211,6 +1280,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1261,6 +1331,11 @@ def create_tmp(user, gis_lock):
                 tmpdir_name=tmpdir_name
 =======
 >>>>>>> da1bbb9bd2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
+>>>>>>> osgeo-main
 =======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
@@ -1277,6 +1352,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1288,9 +1364,12 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1309,9 +1388,12 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1340,6 +1422,8 @@ def create_tmp(user, gis_lock):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             )
@@ -1550,20 +1634,18 @@ def check_gui(expected_gui):
             if msg:
                 warning(_("{}\nSwitching to text based interface mode.").format(msg))
                 grass_gui = "text"
-
-    else:
-        # Display a message if a graphical interface was expected
-        if expected_gui != "text":
-            # Set the interface mode to text
-            warning(
-                _(
-                    "It appears that the X Windows system is not active.\n"
-                    "A graphical based user interface is not supported.\n"
-                    "(DISPLAY variable is not set.)\n"
-                    "Switching to text based interface mode."
-                )
+    # Display a message if a graphical interface was expected
+    elif expected_gui != "text":
+        # Set the interface mode to text
+        warning(
+            _(
+                "It appears that the X Windows system is not active.\n"
+                "A graphical based user interface is not supported.\n"
+                "(DISPLAY variable is not set.)\n"
+                "Switching to text based interface mode."
             )
-            grass_gui = "text"
+        )
+        grass_gui = "text"
     return grass_gui
 
 
@@ -1609,12 +1691,10 @@ def create_location(gisdbase, location, geostring):
         fatal(err.value.strip('"').strip("'").replace("\\n", os.linesep))
 
 
-def can_create_location(gisdbase, location):
+def can_create_location(gisdbase, location) -> bool:
     """Checks if location can be created"""
     path = os.path.join(gisdbase, location)
-    if os.path.exists(path):
-        return False
-    return True
+    return not os.path.exists(path)
 
 
 def cannot_create_location_reason(gisdbase, location):
@@ -1749,6 +1829,40 @@ def set_mapset(
                 else:
                     suggestion = _("Maybe you meant a different directory.")
                 fatal("{reason}\n{suggestion}".format(**locals()))
+<<<<<<< HEAD
+            # 'path' is not valid and the user wants to create
+            # mapset on the fly
+            # check if 'location_name' is a valid GRASS location
+            elif not is_location_valid(gisdbase, location_name):
+                if not (tmp_location or tmp_mapset):
+                    # 'location_name' is not a valid GRASS location
+                    # and user requested its creation, so we parsed
+                    # the path wrong and need to move one level
+                    # and use 'PERMANENT' mapset
+                    # (we already got that right in case of tmploc)
+                    gisdbase = os.path.join(gisdbase, location_name)
+                    location_name = mapset
+                    mapset = "PERMANENT"
+                if tmp_mapset:
+                    suggestion = get_location_invalid_suggestion(
+                        gisdbase, location_name
+                    )
+                    reason = get_location_invalid_reason(gisdbase, location_name)
+                    if suggestion:
+                        fatal("{reason}\n{suggestion}".format(**locals()))
+                    else:
+                        fatal(reason)
+                if not can_create_location(gisdbase, location_name):
+                    fatal(cannot_create_location_reason(gisdbase, location_name))
+                # create new location based on the provided EPSG/...
+                if not geofile:
+                    fatal(_("Provide CRS to create a project"))
+                if not tmp_location:
+                    # Report report only when new location is not temporary.
+                    message(
+                        _("Creating new GRASS GIS project <{}>...").format(
+                            location_name
+=======
             else:
                 # 'path' is not valid and the user wants to create
                 # mapset on the fly
@@ -1798,6 +1912,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1840,6 +1955,11 @@ def set_mapset(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1888,6 +2008,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 =======
@@ -1909,6 +2030,8 @@ def set_mapset(
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                                     " Did you mean to create a new project?"
@@ -1930,6 +2053,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1941,9 +2065,12 @@ def set_mapset(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1968,6 +2095,8 @@ def set_mapset(
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             )
@@ -1991,9 +2120,65 @@ def set_mapset(
                     s = readfile(
                         os.path.join(
                             gisdbase, location_name, "PERMANENT", "DEFAULT_WIND"
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
                         )
                     )
-                    writefile(os.path.join(path, "WIND"), s)
+                create_location(gisdbase, location_name, geofile)
+            else:
+                # 'location_name' is a valid GRASS location,
+                # create new mapset
+                if os.path.isfile(path):
+                    # not a valid mapset, but dir exists, assuming
+                    # broken/incomplete mapset
+                    fatal(
+                        _(
+                            "Unable to create new mapset <{mapset}>"
+                            " because <{path}> is a file."
+                        ).format(mapset=mapset, path=path)
+                    )
+                elif os.path.isdir(path):
+                    # not a valid mapset, but dir exists, assuming
+                    # broken/incomplete mapset
+                    warning(
+                        _(
+                            "The mapset <{}> is missing the WIND file"
+                            " (computational region). It will be"
+                            " fixed now. Note that this warning"
+                            " may become an error in future versions."
+                        ).format(mapset)
+                    )
+                else:
+                    if geofile:
+                        fatal(
+                            _(
+                                "No CRS is needed for creating mapset <{mapset}>, "
+                                "but <{geofile}> was provided as CRS."
+                                " Did you mean to create a new project?"
+                            ).format(mapset=mapset, geofile=geofile)
+                        )
+                    if not tmp_mapset:
+                        message(
+                            _("Creating new GRASS GIS mapset <{}>...").format(mapset)
+                        )
+                    # create mapset directory
+                    os.mkdir(path)
+                    if tmp_mapset:
+                        # The tmp location is handled by (re-)using the
+                        # tmpdir, but we need to take care of the tmp
+                        # mapset which is only a subtree in an existing
+                        # location. We simply remove the tree at exit.
+                        # All mapset cleaning functions should succeed
+                        # because they are called before exit or registered
+                        # only later (and thus called before this one).
+                        # (Theoretically, they could be disabled if that's
+                        # just cleaning a files in the mapset directory.)
+                        atexit.register(lambda: shutil.rmtree(path, ignore_errors=True))
+                # make directory a mapset, add the region
+                # copy PERMANENT/DEFAULT_WIND to <mapset>/WIND
+                s = readfile(
+                    os.path.join(gisdbase, location_name, "PERMANENT", "DEFAULT_WIND")
+                )
+                writefile(os.path.join(path, "WIND"), s)
         add_mapset_to_gisrc(gisrc, gisdbase, location_name, mapset)
     else:
         fatal(
@@ -2972,7 +3157,7 @@ def print_params(params):
 
     # check if we are dealing with parameters which require dev files
     dev_params = ["arch", "compiler", "build", "date"]
-    if any([param in dev_params for param in params]):
+    if any(param in dev_params for param in params):
         plat = gpath("include", "Make", "Platform.make")
         if not os.path.exists(plat):
             fatal(_("Please install the GRASS GIS development package"))
@@ -3015,7 +3200,7 @@ def print_params(params):
             date_str = "#define GRASS_HEADERS_DATE "
             gdate = gpath("include", "grass", "version.h")
             with open(gdate) as filegdate:
-                for line in filegdate.readlines():
+                for line in filegdate:
                     if line.startswith(date_str):
                         sys.stdout.write(
                             "{}\n".format(
@@ -3463,25 +3648,24 @@ def main():
         else:
             # Use the last used mapset.
             set_mapset(gisrc=gisrc, arg=last_mapset_path)
+    # Mapset was specified in command line parameters.
+    elif params.tmp_location:
+        # tmp loc requires other things to be set as well
+        set_mapset(
+            gisrc=gisrc,
+            geofile=params.geofile,
+            create_new=True,
+            tmp_location=params.tmp_location,
+            tmpdir=tmpdir,
+        )
+    elif params.create_new and params.geofile:
+        set_mapset(
+            gisrc=gisrc, arg=params.mapset, geofile=params.geofile, create_new=True
+        )
+    elif params.tmp_mapset:
+        set_mapset(gisrc=gisrc, arg=params.mapset, tmp_mapset=params.tmp_mapset)
     else:
-        # Mapset was specified in command line parameters.
-        if params.tmp_location:
-            # tmp loc requires other things to be set as well
-            set_mapset(
-                gisrc=gisrc,
-                geofile=params.geofile,
-                create_new=True,
-                tmp_location=params.tmp_location,
-                tmpdir=tmpdir,
-            )
-        elif params.create_new and params.geofile:
-            set_mapset(
-                gisrc=gisrc, arg=params.mapset, geofile=params.geofile, create_new=True
-            )
-        elif params.tmp_mapset:
-            set_mapset(gisrc=gisrc, arg=params.mapset, tmp_mapset=params.tmp_mapset)
-        else:
-            set_mapset(gisrc=gisrc, arg=params.mapset, create_new=params.create_new)
+        set_mapset(gisrc=gisrc, arg=params.mapset, create_new=params.create_new)
 
     # Set GISDBASE, LOCATION_NAME, MAPSET, LOCATION from $GISRC
     # e.g. wxGUI startup screen writes to the gisrc file,
@@ -3545,7 +3729,7 @@ def main():
                 )
             if sh in {"csh", "tcsh"}:
                 shell_process = csh_startup(mapset_settings.full_mapset, grass_env_file)
-            elif sh in {"zsh"}:
+            elif sh == "zsh":
                 shell_process = sh_like_startup(
                     mapset_settings.full_mapset,
                     mapset_settings.location,

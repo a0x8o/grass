@@ -401,7 +401,6 @@ class Instruction:
         else:
             page["Orientation"] = orientation
 
-        #
         return True
 
     def SendToRead(self, instruction, text, **kwargs):
@@ -1918,8 +1917,7 @@ class Raster(InstructionObject):
         self.instruction = dict(self.defaultInstruction)
 
     def __str__(self):
-        instr = string.Template("raster $raster").substitute(self.instruction)
-        return instr
+        return string.Template("raster $raster").substitute(self.instruction)
 
     def Read(self, instruction, text):
         """Read instruction and save information"""
@@ -2089,7 +2087,7 @@ class VProperties(InstructionObject):
                     "    rgbcolumn $rgbcolumn\n"
                 ).substitute(dic)
             vInstruction += string.Template("    fcolor $fcolor\n").substitute(dic)
-        else:
+        else:  # noqa: PLR5501
             if dic["rgbcolumn"]:
                 vInstruction += string.Template(
                     "    rgbcolumn $rgbcolumn\n"

@@ -26,6 +26,7 @@ PRETTY_TEMPLATE = (
     "    date: %ad%n"
     "    message: |-%n      %s"
 )
+CONFIG_DIRECTORY = Path("utils")
 
 
 def remove_excluded_changes(changes, exclude):
@@ -77,6 +78,7 @@ def split_to_categories(changes, categories):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -96,6 +98,8 @@ def split_to_categories(changes, categories):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 def print_section_heading_2(text, file=None):
@@ -115,6 +119,7 @@ def print_section_heading_3(text, file=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -144,6 +149,10 @@ def print_section_heading_3(text, file=None):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -166,6 +175,7 @@ def print_category(category, changes, file=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print(f"### {category}", file=file)
 =======
 <<<<<<< HEAD
@@ -214,12 +224,17 @@ def print_category(category, changes, file=None):
     print_section_heading_3(category, file=file)
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+    print_section_heading_3(category, file=file)
+<<<<<<< HEAD
+>>>>>>> osgeo-main
     bot_file = Path("utils") / "known_bot_names.txt"
     known_bot_names = bot_file.read_text().splitlines()
     visible = []
     hidden = []
     overflow = []
     max_section_length = 25
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,9 +251,12 @@ def print_category(category, changes, file=None):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
     print(f"### {category}", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,10 +278,14 @@ def print_category(category, changes, file=None):
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
     print(f"### {category}", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +300,8 @@ def print_category(category, changes, file=None):
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     for item in sorted(items):
@@ -303,7 +327,7 @@ def print_category(category, changes, file=None):
         for item in itertools.chain(overflow, hidden):
             print(f"  * {item}", file=file)
         print("\n</details>")
-    print("")
+    print()
 
 
 def print_by_category(changes, categories, file=None):
@@ -331,7 +355,7 @@ def print_support(file=None):
         for member in data:
             supporters.append(f"""[{member['name']}]({member['profile']})""")
         print(", ".join(supporters))
-        print("")
+        print()
 
 
 def adjust_after(lines):
@@ -385,6 +409,7 @@ def print_notes(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     print("## What's Changed", file=file)
 =======
 <<<<<<< HEAD
@@ -404,6 +429,8 @@ def print_notes(
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     print_section_heading_2("Highlights", file=file)
@@ -420,6 +447,7 @@ def print_notes(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -436,10 +464,16 @@ def print_notes(
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     print_section_heading_2("What's Changed", file=file)
 =======
     print("## What's Changed", file=file)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,11 +520,16 @@ def print_notes(
     print("## What's Changed", file=file)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    print("## What's Changed", file=file)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     changes_by_category = split_to_categories(changes, categories=categories)
     print_by_category(changes_by_category, categories=categories, file=file)
     if after:
         print(after)
-        print("")
+        print()
     print(binder_badge(end_tag))
 
 
@@ -558,18 +597,17 @@ def notes_from_git_log(start_tag, end_tag, categories, exclude):
     if not commits:
         raise RuntimeError("No commits retrieved from git log (try different tags)")
 
-    config_directory = Path("utils")
     svn_name_by_git_author = csv_to_dict(
-        config_directory / "svn_name_git_author.csv",
+        CONFIG_DIRECTORY / "svn_name_git_author.csv",
         key="git_author",
         value="svn_name",
     )
     github_name_by_svn_name = csv_to_dict(
-        config_directory / "svn_name_github_name.csv",
+        CONFIG_DIRECTORY / "svn_name_github_name.csv",
         key="svn_name",
         value="github_name",
     )
-    github_name_by_git_author_file = config_directory / "git_author_github_name.csv"
+    github_name_by_git_author_file = CONFIG_DIRECTORY / "git_author_github_name.csv"
     github_name_by_git_author = csv_to_dict(
         github_name_by_git_author_file,
         key="git_author",
@@ -635,9 +673,8 @@ def create_release_notes(args):
             check=True,
         ).stdout.strip()
 
-    config_directory = Path("utils")
-    with open(config_directory / "release.yml", encoding="utf-8") as file:
-        config = yaml.safe_load(file.read())["notes"]
+    config_file = CONFIG_DIRECTORY / "release.yml"
+    config = yaml.safe_load(config_file.read_text(encoding="utf-8"))["notes"]
 
     if args.backend == "api":
         notes_from_gh_api(
@@ -683,8 +720,7 @@ def main():
     args = parser.parse_args()
     if args.backend == "check":
         config_file = Path("utils") / "release.yml"
-        with open(config_file, encoding="utf-8") as file:
-            config = yaml.safe_load(file.read())
+        config = yaml.safe_load(Path(config_file).read_text(encoding="utf-8"))
         has_match = False
         for category in config["notes"]["categories"]:
             if re.match(category["regexp"], args.branch):

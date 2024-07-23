@@ -85,6 +85,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -119,6 +120,10 @@ def is_location_valid(path, location=None):
     :param path: Path to a Location or to a GRASS GIS database directory
 =======
 >>>>>>> osgeo-main
+=======
+    :param path: Path to a Location or to a GRASS GIS database directory
+=======
+>>>>>>> osgeo-main
     :param database: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -127,6 +132,7 @@ def is_location_valid(path, location=None):
 =======
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +181,8 @@ def is_location_valid(path, location=None):
 >>>>>>> 3df9e1b372 (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     :param location: name of a Location if not part of *path*
@@ -196,6 +204,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -230,6 +239,10 @@ def is_location_valid(path, location=None):
         path = os.path.join(path, location)
 =======
 >>>>>>> osgeo-main
+=======
+        path = os.path.join(path, location)
+=======
+>>>>>>> osgeo-main
         path = os.path.join(location)
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -238,6 +251,7 @@ def is_location_valid(path, location=None):
 =======
         path = os.path.join(path, location)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,27 +302,25 @@ def is_location_valid(path, location=None):
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     return os.access(os.path.join(path, "PERMANENT", "DEFAULT_WIND"), os.F_OK)
 
 
-def is_mapset_current(database, location, mapset):
+def is_mapset_current(database, location, mapset) -> bool:
     """Return True if the given GRASS Mapset is the current mapset"""
     genv = gisenv()
-    if (
+    return bool(
         database == genv["GISDBASE"]
         and location == genv["LOCATION_NAME"]
         and mapset == genv["MAPSET"]
-    ):
-        return True
-    return False
+    )
 
 
-def is_location_current(database, location):
+def is_location_current(database, location) -> bool:
     """Return True if the given GRASS Location is the current location"""
     genv = gisenv()
-    if database == genv["GISDBASE"] and location == genv["LOCATION_NAME"]:
-        return True
-    return False
+    return bool(database == genv["GISDBASE"] and location == genv["LOCATION_NAME"])
 
 
 def is_current_user_mapset_owner(mapset_path):
@@ -413,15 +425,13 @@ def get_mapset_lock_info(mapset_path):
     return info
 
 
-def can_start_in_mapset(mapset_path, ignore_lock=False):
+def can_start_in_mapset(mapset_path, ignore_lock: bool = False) -> bool:
     """Check if a mapset from a gisrc file is usable for new session"""
-    if not is_mapset_valid(mapset_path):
-        return False
-    if not is_current_user_mapset_owner(mapset_path):
-        return False
-    if not ignore_lock and is_mapset_locked(mapset_path):
-        return False
-    return True
+    return not (
+        (not is_mapset_valid(mapset_path))
+        or (not is_current_user_mapset_owner(mapset_path))
+        or (not ignore_lock and is_mapset_locked(mapset_path))
+    )
 
 
 def get_reason_id_mapset_not_usable(mapset_path):
@@ -811,9 +821,7 @@ def get_reasons_grassdb_not_removable(grassdb):
     locations = []
     for g_location in g_locations:
         locations.append((grassdb, g_location))
-    messages = get_reasons_locations_not_removable(locations)
-
-    return messages
+    return get_reasons_locations_not_removable(locations)
 
 
 def get_list_of_locations(dbase):

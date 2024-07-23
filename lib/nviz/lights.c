@@ -191,6 +191,7 @@ int Nviz_new_light(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param data nviz data
  */
 void Nviz_draw_model(nv_data *data)
@@ -213,6 +214,8 @@ void Nviz_draw_model(nv_data *data)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
    \param data nviz data [unused]
@@ -230,6 +233,7 @@ void Nviz_draw_model(nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -241,10 +245,13 @@ void Nviz_draw_model(nv_data *data)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
    \param data nviz data
  */
 void Nviz_draw_model(nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +276,8 @@ void Nviz_draw_model(nv_data *data)
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
