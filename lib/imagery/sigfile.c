@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -69,10 +70,13 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
    Returns a pointer to FILE for writing signature file.
    Use fclose on the pointer to close after use.
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +95,8 @@
    Use fclose on the pointer to close after use.
 
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -117,6 +123,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -134,10 +141,13 @@
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
    Returns a pointer to FILE for writing signature file.
    Use fclose on the pointer to close after use.
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +195,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
    \param name signature filename
 
    \return pointer to FILE
@@ -207,6 +219,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -268,6 +281,10 @@ FILE *I_fopen_signature_file_new(const char *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     char dir[GNAME_MAX];
     FILE *fd;
 
@@ -276,6 +293,7 @@ FILE *I_fopen_signature_file_new(const char *name)
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIG);
     fd = G_fopen_new_misc(dir, "sig", name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,6 +403,8 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> osgeo-main
+=======
     char element[GNAME_MAX];
 =======
     char dir[GNAME_MAX];
@@ -397,6 +417,7 @@ FILE *I_fopen_signature_file_new(const char *name)
     fd = G_fopen_new_misc(dir, "sig", name);
 
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 >>>>>>> 4d7f752c19 (ci: Ignore paths in CodeQL (#1778))
 =======
 =======
@@ -407,6 +428,10 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     return fd;
 }
 
@@ -428,6 +453,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -455,9 +481,12 @@ FILE *I_fopen_signature_file_new(const char *name)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -508,6 +537,8 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
    Use fully qualified names for signatures from other mapsets.
 
    Returns a pointer to FILE with signature. Use fclose on the pointer
@@ -526,6 +557,7 @@ FILE *I_fopen_signature_file_new(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -549,12 +581,16 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
    Use fully qualified names for signatures from other mapsets
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -633,6 +669,8 @@ FILE *I_fopen_signature_file_new(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
    \param name signature filename
 
@@ -657,6 +695,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -699,6 +738,10 @@ FILE *I_fopen_signature_file_old(const char *name)
     char dir[GNAME_MAX];
 =======
 >>>>>>> osgeo-main
+=======
+    char dir[GNAME_MAX];
+=======
+>>>>>>> osgeo-main
     char element[GNAME_MAX];
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -707,6 +750,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
     char dir[GNAME_MAX];
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -781,6 +825,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     FILE *fd;
 
     if (G_unqualified_name(name, NULL, sig_name, sig_mapset) == 0)
@@ -801,6 +847,7 @@ FILE *I_fopen_signature_file_old(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -851,6 +898,11 @@ FILE *I_fopen_signature_file_old(const char *name)
     fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
 =======
 >>>>>>> osgeo-main
+=======
+    I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIG);
+    fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
+=======
+>>>>>>> osgeo-main
     I__get_signatures_element(element, I_SIGFILE_TYPE_SIG);
     fd = G_fopen_old(element, sig_name, sig_mapset);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -862,6 +914,7 @@ FILE *I_fopen_signature_file_old(const char *name)
     I_get_signatures_dir(dir, I_SIGFILE_TYPE_SIG);
     fd = G_fopen_old_misc(dir, "sig", sig_name, sig_mapset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +996,8 @@ FILE *I_fopen_signature_file_old(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     return fd;
 }

@@ -463,6 +463,7 @@ int write_vtk_cat_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                        int layer, int *types, int typenum, int dp)
 =======
 <<<<<<< HEAD
@@ -493,6 +494,8 @@ int write_vtk_cat_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                        int layer, int *types, int typenum, int dp UNUSED)
 =======
                        int layer, int *types, int typenum, int dp)
@@ -505,6 +508,7 @@ int write_vtk_cat_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                        int layer, int *types, int typenum, int dp)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -558,6 +562,11 @@ int write_vtk_cat_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                       int layer, int *types, int typenum, int dp)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     int type, cat, i, k, centroid;
     static struct line_pnts *Points;
@@ -672,6 +681,7 @@ char *get_att(char *name, int cat, struct field_info *Fi, dbDriver *Driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               int ncol)
 =======
 <<<<<<< HEAD
@@ -702,6 +712,8 @@ char *get_att(char *name, int cat, struct field_info *Fi, dbDriver *Driver,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
               int ncol UNUSED)
 =======
               int ncol)
@@ -714,6 +726,7 @@ char *get_att(char *name, int cat, struct field_info *Fi, dbDriver *Driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
               int ncol)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -767,6 +780,11 @@ char *get_att(char *name, int cat, struct field_info *Fi, dbDriver *Driver,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+              int ncol)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     char buf[2000];
     int more;
@@ -826,6 +844,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       int layer, int *types, int typenum, int dp)
 =======
 <<<<<<< HEAD
@@ -856,6 +875,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                       int layer, int *types, int typenum, int dp UNUSED)
 =======
                       int layer, int *types, int typenum, int dp)
@@ -868,6 +889,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                       int layer, int *types, int typenum, int dp)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -921,6 +943,11 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                      int layer, int *types, int typenum, int dp)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     int type, cat, i, k, centroid;
     struct line_cats *Cats;
@@ -1036,6 +1063,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1076,11 +1104,14 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
                 progress++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 progress++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,12 +1132,15 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
                 progress++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,6 +1206,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
                 /*For every available vector type */
                 for (k = 0; k < typenum; k++) {
@@ -1321,6 +1357,7 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1344,11 +1381,14 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #if 0
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1396,6 +1436,8 @@ int write_vtk_db_data(FILE *ascii, struct Map_info *Map, VTKInfo *info,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 /* ************************************************************************* */
 /* This function writes attribute table fields as VTK labels            **** */
 /* ************************************************************************* */
@@ -1421,6 +1463,7 @@ int write_vtk(FILE *ascii, struct Map_info *Map, int layer, int *types,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               int typenum, int dp, double scale, int numatts, int labels)
 =======
 <<<<<<< HEAD
@@ -1451,6 +1494,8 @@ int write_vtk(FILE *ascii, struct Map_info *Map, int layer, int *types,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
               int typenum, int dp, double scale, int numatts, int labels UNUSED)
 =======
               int typenum, int dp, double scale, int numatts, int labels)
@@ -1463,6 +1508,7 @@ int write_vtk(FILE *ascii, struct Map_info *Map, int layer, int *types,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
               int typenum, int dp, double scale, int numatts, int labels)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1516,6 +1562,11 @@ int write_vtk(FILE *ascii, struct Map_info *Map, int layer, int *types,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+              int typenum, int dp, double scale, int numatts, int labels)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     VTKInfo *info;
     VTKTypeInfo **typeinfo;

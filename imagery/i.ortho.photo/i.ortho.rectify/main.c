@@ -136,6 +136,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     c->description = _("Use current region settings in target location "
                        "(def.=calculate smallest area)");
 =======
@@ -167,6 +168,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     c->description =
         _("Use current region settings in target project (location) "
           "(def.=calculate smallest area)");
@@ -182,6 +185,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -199,9 +203,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
     c->description = _("Use current region settings in target location "
                        "(def.=calculate smallest area)");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +247,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     a = G_define_flag();
     a->key = 'a';
@@ -303,6 +312,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning(_("Location: %s"), G_location());
 =======
 <<<<<<< HEAD
@@ -333,6 +343,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         G_warning(_("Project (location): %s"), G_location());
 =======
         G_warning(_("Location: %s"), G_location());
@@ -345,6 +357,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_warning(_("Location: %s"), G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -398,6 +411,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_warning(_("Location: %s"), G_location());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         G_warning(_("Mapset: %s"), G_mapset());
         G_fatal_error(_("Could not read REF file for group <%s>"), group.name);
     }
@@ -517,6 +535,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
                           G_mapset());
 =======
@@ -548,6 +567,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                 G_warning(_("target project (location) %s, mapset %s:"),
                           G_location(), G_mapset());
 =======
@@ -562,6 +583,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -579,9 +601,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
                 G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
                           G_mapset());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +645,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                 G_warning("<%s>", result);
                 G_fatal_error(_("Orthorectification cancelled."));
             }
@@ -638,6 +665,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
                           G_mapset());
 =======
@@ -669,6 +697,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                 G_warning(_("target project (location) %s, mapset %s:"),
                           G_location(), G_mapset());
 =======
@@ -683,6 +713,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -700,9 +731,12 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
                 G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
                           G_mapset());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,6 +775,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                 G_warning("<%s>", angle->answer);
                 G_fatal_error(_("Orthorectification cancelled."));
             }

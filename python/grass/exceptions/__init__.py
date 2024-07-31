@@ -85,6 +85,7 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -146,6 +147,11 @@ class CalledModuleError(subprocess.CalledProcessError):
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.

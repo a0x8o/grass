@@ -121,6 +121,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* Output information useful for debuging
 =======
 <<<<<<< HEAD
@@ -151,6 +152,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     /* Output information useful for debugging
 =======
     /* Output information useful for debuging
@@ -163,6 +166,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /* Output information useful for debuging
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -216,6 +220,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    /* Output information useful for debuging
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
        include/vect/dig_structs.h
      */
     G_debug(1,

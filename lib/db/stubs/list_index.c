@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@ int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int db__driver_list_indexes(dbString *tableName UNUSED,
                             dbIndex **indexes UNUSED, int *count UNUSED)
 =======
@@ -55,6 +58,7 @@ int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -108,6 +112,11 @@ int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_list_indexes(dbString *tableName, dbIndex **indexes, int *count)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     db_procedure_not_implemented("db_list_indexes");
     return DB_FAILED;

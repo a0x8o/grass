@@ -20,6 +20,7 @@ DSTDIR = $(ETC)/python/grass/benchmark
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -62,6 +63,10 @@ MODULES = app plots results runners __main__
 MODULES = app plots results runners __main__
 =======
 >>>>>>> osgeo-main
+=======
+MODULES = app plots results runners __main__
+=======
+>>>>>>> osgeo-main
 MODULES = plots results runners
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -70,6 +75,7 @@ MODULES = app plots results runners __main__
 =======
 MODULES = app plots results runners __main__
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +150,8 @@ MODULES = app plots results runners __main__
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 PYFILES := $(patsubst %,$(DSTDIR)/%.py,$(MODULES) __init__)
 PYCFILES := $(patsubst %,$(DSTDIR)/%.pyc,$(MODULES) __init__)

@@ -79,6 +79,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     loc_opt->description = _("Name of the target location");
 =======
 <<<<<<< HEAD
@@ -109,6 +110,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     loc_opt->description = _("Name of the target project (location)");
 =======
     loc_opt->description = _("Name of the target location");
@@ -121,6 +124,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     loc_opt->description = _("Name of the target location");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -174,6 +178,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    loc_opt->description = _("Name of the target location");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     mapset_opt = G_define_standard_option(G_OPT_M_MAPSET);
     mapset_opt->required = NO;
@@ -254,6 +263,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Target location [%s] not found\n"), location);
 =======
 <<<<<<< HEAD
@@ -284,6 +294,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         G_fatal_error(_("Target project (location) [%s] not found\n"),
                       location);
 =======
@@ -297,6 +309,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Target location [%s] not found\n"), location);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -350,6 +363,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_fatal_error(_("Target location [%s] not found\n"), location);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     }
 
     /*Report the contents of the ELEVATION file as in the GROUP */
@@ -446,6 +464,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_message(_("Group [%s] in location [%s] mapset [%s] now uses "
                     "elevation map [%s]"),
                   group, G_location(), G_mapset(), elev_opt->answer);
@@ -482,6 +501,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         G_message(
             _("Group [%s] in project (location) [%s] mapset [%s] now uses "
               "elevation map [%s]"),
@@ -507,6 +528,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -524,6 +546,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
         G_message(_("Group [%s] in location [%s] mapset [%s] now uses "
                     "elevation map [%s]"),
                   group, G_location(), G_mapset(), elev_opt->answer);
@@ -532,6 +556,7 @@ int main(int argc, char *argv[])
         G_fatal_error(_("Mapset [%s] in target location [%s] - %s "), mapset,
                       location,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +595,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                       stat == 0 ? _("permission denied\n") : _("not found\n"));
     }
 

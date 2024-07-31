@@ -23,6 +23,7 @@ Status: Motion passed, 29 March 2021
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99,6 +100,11 @@ The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (c
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these languages have evolved significantly in the last 10–20 years. There is, however, no clearly stated policy of supported language standard(s), nor mechanism to update this policy when needed or wanted. This result in uncertainty for contributors for what may be allowed and solutions that may not be optimal.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
 The code base of GRASS GIS consists today (Feb. 2021) of predominantly C code
 (ca 50 %), Python (ca 30 %) and a smaller amount of C++ (ca 5 %). Each of these
@@ -152,10 +158,13 @@ provide better cross platform support and possibly safer code.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -268,6 +277,7 @@ provide better cross platform support and possibly safer code.
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +632,8 @@ provide better cross platform support and possibly safer code.
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 Regarding C, there are three standards that may be considered: C99, C11 and
 C17. C99 never really reached full support on key platforms, this is
@@ -658,6 +670,7 @@ good for C17.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -726,11 +739,16 @@ good for C17.
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to
 consider. The platform and compiler support for all of these are significantly
 better. However, C++11 is at this date in general considered the standard and
 until compelling reasons argue otherwise, the C++11 standard should be policy of
 the GRASS GIS project.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,6 +788,9 @@ the GRASS GIS project.
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to consider. The platform and compiler support for all of these are significantly better. However, C++11 is at this date in general considered the standard and until compelling reasons argue otherwise, the C++11 standard should be policy of the GRASS GIS project.
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -777,6 +798,7 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,6 +823,8 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to consider. The platform and compiler support for all of these are significantly better. However, C++11 is at this date in general considered the standard and until compelling reasons argue otherwise, the C++11 standard should be policy of the GRASS GIS project.
 =======
@@ -819,6 +843,7 @@ the GRASS GIS project.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -882,6 +907,8 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 ## Proposed Language Standards Support
 
@@ -904,6 +931,7 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -983,6 +1011,11 @@ Regarding C++, there are the C++98, C++03, C++11, C++14 and C++17 standards to c
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 C11 with core (mandatory) features [brief summary](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
 
 Optional features may be used if availability is tested with macro, and if not
@@ -1004,8 +1037,11 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1023,6 +1059,7 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,9 +1085,12 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1104,8 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1088,6 +1130,7 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1226,3 +1269,5 @@ C++11 [summary](https://en.wikipedia.org/wiki/C%2B%2B11)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main

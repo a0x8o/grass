@@ -86,6 +86,7 @@ static void read_hersh(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -145,6 +146,11 @@ static void read_hersh(const char *filename)
         int c;
 =======
 >>>>>>> osgeo-main
+=======
+        unsigned int i, idx, count;
+        int c;
+=======
+>>>>>>> osgeo-main
         unsigned int idx, count;
         int c, i;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -156,6 +162,7 @@ static void read_hersh(const char *filename)
         unsigned int i, idx, count;
         int c;
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +188,8 @@ static void read_hersh(const char *filename)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
         unsigned int idx, count;
         int c, i;
 =======
@@ -188,6 +197,7 @@ static void read_hersh(const char *filename)
         int c;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,6 +285,8 @@ static void read_hersh(const char *filename)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
         switch (c = fgetc(fp)) {
         case '\r':
@@ -362,6 +374,7 @@ static void read_fontmap(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   "Try running 'g.mkfontcap -o'",
 =======
 <<<<<<< HEAD
@@ -392,6 +405,8 @@ static void read_fontmap(const char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                   "Try running 'g.mkfontcap --overwrite'",
 =======
                   "Try running 'g.mkfontcap -o'",
@@ -404,6 +419,7 @@ static void read_fontmap(const char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   "Try running 'g.mkfontcap -o'",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -457,6 +473,11 @@ static void read_fontmap(const char *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                  "Try running 'g.mkfontcap -o'",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                   buf, strerror(errno));
         return;
     }

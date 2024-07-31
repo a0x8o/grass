@@ -89,6 +89,7 @@ class MetaModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -140,6 +141,10 @@ class MetaModule:
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 =======
 >>>>>>> osgeo-main
+=======
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+=======
+>>>>>>> osgeo-main
 # https://grass.osgeo.org/grass80/manuals/full_index.html
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -148,6 +153,7 @@ class MetaModule:
 =======
 # https://grass.osgeo.org/grass-devel/manuals/full_index.html
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +257,11 @@ class MetaModule:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+# https://grass.osgeo.org/grass-devel/manuals/full_index.html
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 # [ d.* | db.* | g.* | i.* | m.* | ps.* | r.* | r3.* | t.* | v.* ]
 #
 #  d.*	display commands

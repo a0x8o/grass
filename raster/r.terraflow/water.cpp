@@ -50,6 +50,7 @@ char *labelElevType::printLabel(const labelElevType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -101,6 +102,10 @@ char *labelElevType::printLabel(const labelElevType &p)
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+>>>>>>> osgeo-main
     sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -109,6 +114,7 @@ char *labelElevType::printLabel(const labelElevType &p)
 =======
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,11 +140,14 @@ char *labelElevType::printLabel(const labelElevType &p)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(buf, CCLABEL_FMT, p.label);
 =======
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +228,8 @@ char *labelElevType::printLabel(const labelElevType &p)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     return buf;
 }
 
@@ -379,6 +390,7 @@ char *waterType::printLabel(const waterType &p)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -430,6 +442,10 @@ char *waterType::printLabel(const waterType &p)
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+>>>>>>> osgeo-main
     sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -438,6 +454,7 @@ char *waterType::printLabel(const waterType &p)
 =======
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,11 +480,14 @@ char *waterType::printLabel(const waterType &p)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(buf, CCLABEL_FMT, p.label);
 =======
     snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,6 +568,8 @@ char *waterType::printLabel(const waterType &p)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     return buf;
 }
 
@@ -630,6 +652,7 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AMI_STREAM<boundaryType> *boundaryStr)
 =======
 <<<<<<< HEAD
@@ -660,6 +683,8 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
                         AMI_STREAM<boundaryType> *boundaryStr UNUSED)
 =======
                         AMI_STREAM<boundaryType> *boundaryStr)
@@ -672,6 +697,7 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         AMI_STREAM<boundaryType> *boundaryStr)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -725,6 +751,11 @@ void generateWatersheds(AMI_STREAM<waterWindowType> **waterWindows,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        AMI_STREAM<boundaryType> *boundaryStr)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     AMI_err ae;
     waterWindowType *winp, prevWin;

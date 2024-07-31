@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
    \author Lars Ahlzen <lars ahlzen.com> (original contributor)
 =======
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
@@ -61,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -114,6 +118,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \author Lars Ahlzen <lars ahlzen.com> (original contibutor)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
    \author Glynn Clements
  */
 

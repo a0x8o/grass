@@ -652,6 +652,7 @@ int LZ4_compressBound(int isize)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int LZ4_sizeofState()
 =======
 <<<<<<< HEAD
@@ -682,6 +683,8 @@ int LZ4_sizeofState()
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int LZ4_sizeofState(void)
 =======
 int LZ4_sizeofState()
@@ -694,6 +697,7 @@ int LZ4_sizeofState()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int LZ4_sizeofState()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -747,6 +751,11 @@ int LZ4_sizeofState()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int LZ4_sizeofState()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     return LZ4_STREAMSIZE;
 }
@@ -2570,6 +2579,7 @@ int LZ4_uncompress_unknownOutputSize(const char *source, char *dest, int isize,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int LZ4_sizeofStreamState()
 =======
 <<<<<<< HEAD
@@ -2600,6 +2610,8 @@ int LZ4_sizeofStreamState()
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int LZ4_sizeofStreamState(void)
 =======
 int LZ4_sizeofStreamState()
@@ -2612,6 +2624,7 @@ int LZ4_sizeofStreamState()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int LZ4_sizeofStreamState()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2665,6 +2678,11 @@ int LZ4_sizeofStreamState()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int LZ4_sizeofStreamState()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     return LZ4_STREAMSIZE;
 }

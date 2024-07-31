@@ -219,6 +219,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
 =======
 <<<<<<< HEAD
@@ -249,6 +250,8 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
             if (sscanf(buff, "%d%d", &catn, &cat) != 2) {
 =======
             if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
@@ -261,6 +264,7 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -314,6 +318,11 @@ int Vect_read_ascii(FILE *ascii, struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            if (sscanf(buff, "%u%u", &catn, &cat) != 2) {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                 G_warning(_("Error reading categories: [%s]"), buff);
                 return -1;
             }
@@ -1002,6 +1011,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* write outter ring */
 =======
 <<<<<<< HEAD
@@ -1032,6 +1042,8 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
             /* write outer ring */
 =======
             /* write outter ring */
@@ -1044,6 +1056,7 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* write outter ring */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1097,6 +1110,11 @@ int Vect_write_ascii(FILE *ascii, FILE *att, struct Map_info *Map, int ver,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* write outter ring */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             Vect_sfa_line_astext(Points, GV_BOUNDARY, 0, dp,
                                  ascii); /* boundary is always 2D */
             /* get isles (holes) -> inner rings */

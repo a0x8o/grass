@@ -250,6 +250,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -301,6 +302,10 @@ int main(int argc, char *argv[])
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
 =======
 >>>>>>> osgeo-main
+=======
+        if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
+=======
+>>>>>>> osgeo-main
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != ncols)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -309,6 +314,7 @@ int main(int argc, char *argv[])
 =======
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,11 +340,14 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != ncols)
 =======
         if (fread(rast, Rast_cell_size(data_type), ncols, ft) != (size_t)ncols)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,6 +428,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
             G_fatal_error(_("Read from file error: %s"), strerror(errno));
         Rast_put_row(cf, rast, data_type);
         G_fseek(ft, sz, SEEK_CUR);

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_create_index(dbIndex *index)
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@ int db__driver_create_index(dbIndex *index)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int db__driver_create_index(dbIndex *index UNUSED)
 =======
 int db__driver_create_index(dbIndex *index)
@@ -54,6 +57,7 @@ int db__driver_create_index(dbIndex *index)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_create_index(dbIndex *index)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -107,6 +111,11 @@ int db__driver_create_index(dbIndex *index)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_create_index(dbIndex *index)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     return DB_OK;
 }

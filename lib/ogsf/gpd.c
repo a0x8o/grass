@@ -223,6 +223,7 @@ void gpd_obj(geosurf *gs, gvstyle *style, Point3 pt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 =======
 <<<<<<< HEAD
@@ -253,6 +254,8 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast UNUSED)
 =======
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
@@ -265,6 +268,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -318,6 +322,11 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     float site[4], konst;
     int src, check;
@@ -425,6 +434,7 @@ int gpd_2dsite(geosite *gp, geosurf *gs, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 =======
 <<<<<<< HEAD
@@ -455,6 +465,8 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast UNUSED)
 =======
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
@@ -467,6 +479,7 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -520,6 +533,11 @@ int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int gpd_3dsite(geosite *gp, float xo, float yo, int do_fast)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     float site[4], tz;
     int check;

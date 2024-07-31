@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -63,6 +64,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
@@ -75,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -128,6 +132,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \param sprod double -- the scalar produkt between the velocity vector and the
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points
@@ -169,6 +178,7 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param sprod double -- the scalar produkt between the velocity vector and the
 =======
 <<<<<<< HEAD
@@ -199,6 +209,8 @@ double N_full_upwinding(double sprod, double distance, double D)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
  * \param sprod double -- the scalar product between the velocity vector and the
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
@@ -211,6 +223,7 @@ double N_full_upwinding(double sprod, double distance, double D)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \param sprod double -- the scalar produkt between the velocity vector and the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -264,6 +277,11 @@ double N_full_upwinding(double sprod, double distance, double D)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \param sprod double -- the scalar produkt between the velocity vector and the
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
  * normal vector between two points \param distance double -- distance between
  * two points \param D double -- diffusion/dispersion tensor part between two
  * points

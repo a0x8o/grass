@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_bind_update(dbCursor *cursor)
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ int db__driver_bind_update(dbCursor *cursor)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int db__driver_bind_update(dbCursor *cursor UNUSED)
 =======
 int db__driver_bind_update(dbCursor *cursor)
@@ -60,6 +63,7 @@ int db__driver_bind_update(dbCursor *cursor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_bind_update(dbCursor *cursor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -113,6 +117,11 @@ int db__driver_bind_update(dbCursor *cursor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_bind_update(dbCursor *cursor)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     db_procedure_not_implemented("db_bind_update");
     return DB_FAILED;

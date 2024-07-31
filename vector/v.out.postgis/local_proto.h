@@ -30,6 +30,7 @@ char *create_pgfile(const char *, const char *, const char *, char **, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_columns(const struct Map_info *, const char *, const char *,
                    const char *);
 =======
@@ -61,6 +62,8 @@ void check_columns(const struct Map_info *, const char *, const char *,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 void check_columns(struct Map_info *, const char *, const char *, const char *);
 =======
 void check_columns(const struct Map_info *, const char *, const char *,
@@ -74,6 +77,7 @@ void check_columns(const struct Map_info *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -91,9 +95,12 @@ void check_columns(const struct Map_info *, const char *, const char *,
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
 void check_columns(const struct Map_info *, const char *, const char *,
                    const char *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,5 +139,7 @@ void check_columns(const struct Map_info *, const char *, const char *,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #endif /* __LOCAL_PROTO_V_OUT_POSTGIS__ */

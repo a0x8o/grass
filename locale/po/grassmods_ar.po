@@ -91645,6 +91645,7 @@ msgstr "اسم خريطة الراستر المخرجة"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -91665,6 +91666,8 @@ msgstr "اسم خريطة الراستر المخرجة"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #, fuzzy, c-format
 #~ msgid "Unable to create new location <%s>"
 #~ msgstr "%s:لم يتم إنشاء الجدول"
@@ -91881,6 +91884,7 @@ msgstr "اسم خريطة الراستر المخرجة"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -91901,6 +91905,8 @@ msgstr "اسم خريطة الراستر المخرجة"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 #: ../scripts/r.fillnulls/r.fillnulls.py:161
 msgid "A user raster mask (MASK) is present. Saving it..."
@@ -93787,6 +93793,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -93815,6 +93822,9 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 #, fuzzy
 #~ msgid ""
 #~ "Creates a raster map from LAS LiDAR points using univariate statistics "

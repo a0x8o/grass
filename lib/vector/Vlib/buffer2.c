@@ -144,6 +144,7 @@ static void line_coefficients(double x1, double y1, double x2, double y2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -167,10 +168,13 @@ static void line_coefficients(double x1, double y1, double x2, double y2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
  * !!!!!!!!!!!!!!!! FIX THIS TOLERANCE CONSTANTS BAD (and UGLY) CODE !!!!!!!!!
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +219,8 @@ static void line_coefficients(double x1, double y1, double x2, double y2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
  * !!!!!!!!!!!!!!!! FIX THIS TOLLERANCE CONSTANTS BAD (and UGLY) CODE !!!!!!!!!
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
  */
@@ -1127,6 +1133,7 @@ void Vect_line_buffer2(const struct line_pnts *Points, double da, double db,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1188,6 +1195,11 @@ void Vect_line_buffer2(const struct line_pnts *Points, double da, double db,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     /* initializations */
     tPoints = Vect_new_line_struct();
@@ -1242,6 +1254,7 @@ void Vect_line_buffer2(const struct line_pnts *Points, double da, double db,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1271,6 +1284,8 @@ void Vect_line_buffer2(const struct line_pnts *Points, double da, double db,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 void Vect_area_buffer2(struct Map_info *Map, int area, double da, double db,
                        double dalpha, int round, int caps, double tol,
                        struct line_pnts **oPoints, struct line_pnts ***iPoints,
@@ -1284,6 +1299,7 @@ void Vect_area_buffer2(struct Map_info *Map, int area, double da, double db,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1329,6 +1345,10 @@ void Vect_area_buffer2(struct Map_info *Map, int area, double da, double db,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 void Vect_area_buffer2(const struct Map_info *Map, int area, double da,
                        double db, double dalpha, int round, int caps,
                        double tol, struct line_pnts **oPoints,
@@ -1344,6 +1364,7 @@ void Vect_area_buffer2(const struct Map_info *Map, int area, double da,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1405,6 +1426,11 @@ void Vect_area_buffer2(const struct Map_info *Map, int area, double da,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     struct line_pnts *tPoints, *outer;
     struct line_pnts **isles;
@@ -1465,6 +1491,8 @@ void Vect_area_buffer2(const struct Map_info *Map, int area, double da,
    \param round make corners round
    \param tol maximum distance between theoretical arc and output segments
    \param[out] oPoints output polygon outer border (ccw order)
+
+   \note Currently only handles buffers with rounded corners (round = 1)
  */
 void Vect_point_buffer2(double px, double py, double da, double db,
                         double dalpha, int round, double tol,
@@ -1474,13 +1502,13 @@ void Vect_point_buffer2(double px, double py, double da, double db,
     double angular_tol, angular_step, phi1;
     int j, nsegments;
 
-    G_debug(2, "Vect_point_buffer()");
+    G_debug(2, "%s()", __func__);
 
     *oPoints = Vect_new_line_struct();
 
     dalpha *= PI / 180; /* convert dalpha from degrees to radians */
 
-    if (round || (!round)) {
+    if (round) {
         angular_tol = angular_tolerance(tol, da, db);
 
         nsegments = (int)(2 * PI / angular_tol) + 1;

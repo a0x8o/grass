@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34,11 +35,14 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #            Anna Petrasova <kratochanna AT gmail>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +90,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #
 # PURPOSE:   This module contains functions for interactive visualizations
 #            in Jupyter Notebooks.
@@ -101,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
 =======
 <<<<<<< HEAD
@@ -131,6 +138,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 # COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
 =======
 # COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
@@ -143,6 +152,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -196,6 +206,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 #
 #            This program is free software under the GNU General Public
 #            License (>=v2). Read the file COPYING that comes with GRASS
@@ -212,6 +227,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -241,12 +257,20 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 """Interactive visualizations map with folium or ipyleaflet"""
 
 import base64
 import json
 from pathlib import Path
 from .reprojection_renderer import ReprojectionRenderer
+from .utils import (
+    get_region_bounds_latlon,
+    reproject_region,
+    update_region,
+    get_location_proj_string,
+)
 
 
 def get_backend(interactive_map):
@@ -275,6 +299,7 @@ class Layer:  # pylint: disable=too-few-public-methods
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -320,6 +345,10 @@ class Layer:  # pylint: disable=too-few-public-methods
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 """Interactive visualizations map with folium"""
 
 from .reprojection_renderer import ReprojectionRenderer
@@ -343,6 +372,7 @@ class Raster:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -404,6 +434,11 @@ class Raster:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     """
 
     def __init__(
@@ -428,6 +463,7 @@ class Raster:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -457,6 +493,8 @@ class Raster:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         param str name: layer name
         param str title: title of layer to display in layer control legend
         param bool use_region: use computational region of current mapset
@@ -475,6 +513,7 @@ class Raster:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -520,6 +559,10 @@ class Raster:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         param str name: raster name
         param str title: title of raster to display in layer control legend
         param bool use_region: use computational region of current mapset
@@ -544,6 +587,7 @@ class Raster:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -605,6 +649,11 @@ class Raster:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         self._title = title
         if not self._title:
             self._title = self._name
@@ -626,6 +675,7 @@ class Raster:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -655,6 +705,8 @@ class Raster:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 
 class Raster(Layer):
@@ -691,6 +743,7 @@ class Raster(Layer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -736,6 +789,10 @@ class Raster(Layer):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         # Render overlay
         # By doing this here instead of in add_to, we avoid rendering
         # twice if added to multiple maps. This mimics the behavior
@@ -753,6 +810,7 @@ class Raster(Layer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -782,6 +840,8 @@ class Raster(Layer):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     def add_to(self, interactive_map):
         """Add raster to map object which is an instance of either
         folium.Map or ipyleaflet.Map"""
@@ -821,6 +881,7 @@ class Vector(Layer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -866,6 +927,10 @@ class Vector(Layer):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     def add_to(self, folium_map):
         """Add raster to folium map with folium.raster_layers.ImageOverlay()
 
@@ -896,6 +961,7 @@ class Vector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -957,6 +1023,11 @@ class Vector:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     Basic Usage:
     >>> m = folium.Map()
@@ -973,6 +1044,7 @@ class Vector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1002,6 +1074,8 @@ class Vector:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     >>> m = ipyleaflet.Map()
     >>> gj.Vector("roadsmajor").add_to(m)
@@ -1016,6 +1090,7 @@ class Vector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1061,6 +1136,10 @@ class Vector:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     """
 
     def __init__(
@@ -1083,6 +1162,7 @@ class Vector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1112,6 +1192,8 @@ class Vector:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         """Reproject GRASS vector and export to GeoJSON."""
         super().__init__(name, title, use_region, saved_region, renderer, **kwargs)
         self._filename = self._renderer.render_vector(name)
@@ -1154,6 +1236,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1199,6 +1282,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         """Reproject GRASS vector and export to folium-ready PNG. Also computes bounding
         box for PNG overlay in folium map.
 
@@ -1247,6 +1334,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1308,6 +1396,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     Basic Usage:
 
@@ -1336,6 +1429,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1365,6 +1459,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         map_backend=None,
     ):
         """Creates a blank folium/ipyleaflet map centered on g.region.
@@ -1385,6 +1481,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1430,6 +1527,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     ):
         """Creates a blank folium map centered on g.region.
 
@@ -1446,6 +1547,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1507,6 +1609,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         "Stamen Watercolor", "Mapbox Bright", "Mapbox Control Room", "CartoDB positron",
         "CartoDB dark_matter") as well as custom tileset URL (i.e.
         "http://{s}.yourtiles.com/{z}/{x}/{y}.png"). For more information, visit
@@ -1523,6 +1630,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1552,6 +1660,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         In case of ipyleaflet, only the tileset name and not the URL is
         currently supported.
 =======
@@ -1564,6 +1674,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1609,6 +1720,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         Raster and vector data are always reprojected to Pseudo-Mercator.
         With use_region=True or saved_region=myregion, the region extent
@@ -1637,6 +1752,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1666,6 +1782,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         :param str map_backend: "ipyleaflet" or "folium" or None
         """
         self._ipyleaflet = None
@@ -1717,6 +1835,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1762,6 +1881,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         """
         import folium  # pylint: disable=import-outside-toplevel
 
@@ -1777,6 +1900,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1838,6 +1962,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         # Store height and width
         self.width = width
@@ -1854,6 +1983,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1883,6 +2013,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         if self._ipyleaflet:
             basemap = xyzservices.providers.query_name(tiles)
             if API_key and basemap.get("accessToken"):
@@ -1908,6 +2040,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1953,6 +2086,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         # Create Folium Map
         self.map = self._folium.Map(
             width=self.width,
@@ -1971,6 +2108,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2032,8 +2170,14 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         # Set LayerControl default
         self.layer_control_object = None
+        self.region_rectangle = None
 
         self._renderer = ReprojectionRenderer(
             use_region=use_region, saved_region=saved_region
@@ -2052,6 +2196,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         adds to folium map.
 =======
 <<<<<<< HEAD
@@ -2082,6 +2227,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         adds to map.
 =======
         adds to folium map.
@@ -2094,6 +2241,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         adds to folium map.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2147,6 +2295,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        adds to folium map.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         :param str name: name of vector to be added to map;
                          positional-only parameter
@@ -2162,6 +2315,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :**kwargs: keyword arguments passed to folium.GeoJson()
 =======
 <<<<<<< HEAD
@@ -2192,6 +2346,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         :**kwargs: keyword arguments passed to GeoJSON overlay
 =======
         :**kwargs: keyword arguments passed to folium.GeoJson()
@@ -2204,6 +2360,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         :**kwargs: keyword arguments passed to folium.GeoJson()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2257,6 +2414,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        :**kwargs: keyword arguments passed to folium.GeoJson()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         """
         Vector(name, title=title, renderer=self._renderer, **kwargs).add_to(self.map)
 
@@ -2273,6 +2435,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         exports as png and overlays on folium map.
 =======
 <<<<<<< HEAD
@@ -2303,6 +2466,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         exports as png and overlays on a map.
 =======
         exports as png and overlays on folium map.
@@ -2315,6 +2480,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         exports as png and overlays on folium map.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2368,6 +2534,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        exports as png and overlays on folium map.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         Color table for the raster can be modified with `r.colors` before calling
         this function.
@@ -2390,6 +2561,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
 =======
 <<<<<<< HEAD
@@ -2420,6 +2592,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         :**kwargs: keyword arguments passed to image overlay
 =======
         :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
@@ -2432,6 +2606,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2485,6 +2660,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        :**kwargs: keyword arguments passed to folium.raster_layers.ImageOverlay()
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         """
         Raster(name, title=title, renderer=self._renderer, **kwargs).add_to(self.map)
 
@@ -2502,6 +2682,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2530,12 +2711,15 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         A Layer Control is added by default. Call this function to customize
         layer control object. Accepts keyword arguments to be passed to leaflet
         layer control object"""
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2558,6 +2742,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         Accepts keyword arguments to be passed to layer control object"""
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 
@@ -2565,6 +2751,112 @@ class InteractiveMap:
             self.layer_control_object = self._folium.LayerControl(**kwargs)
         else:
             self.layer_control_object = self._ipyleaflet.LayersControl(**kwargs)
+
+    def draw_computational_region(self):
+        """
+        Allow users to draw the computational region and modify it.
+        """
+        import ipywidgets as widgets  # pylint: disable=import-outside-toplevel
+
+        region_mode_button = widgets.ToggleButton(
+            icon="square-o",
+            description="",
+            value=False,
+            tooltip="Click to show and edit computational region",
+            layout=widgets.Layout(width="40px", margin="0px 0px 0px 0px"),
+        )
+
+        save_button = widgets.Button(
+            description="Update region",
+            tooltip="Click to update region",
+            disabled=True,
+        )
+        bottom_output_widget = widgets.Output(
+            layout={
+                "width": "100%",
+                "max_height": "300px",
+                "overflow": "auto",
+                "display": "none",
+            }
+        )
+
+        changed_region = {}
+        save_button_control = None
+
+        def update_output(region):
+            with bottom_output_widget:
+                bottom_output_widget.clear_output()
+                print(
+                    _(
+                        "Region changed to: n={n}, s={s}, e={e}, w={w} "
+                        "nsres={nsres} ewres={ewres}"
+                    ).format(**region)
+                )
+
+        def on_rectangle_change(value):
+            save_button.disabled = False
+            bottom_output_widget.layout.display = "none"
+            latlon_bounds = value["new"][0]
+            changed_region["north"] = latlon_bounds[2]["lat"]
+            changed_region["south"] = latlon_bounds[0]["lat"]
+            changed_region["east"] = latlon_bounds[2]["lng"]
+            changed_region["west"] = latlon_bounds[0]["lng"]
+
+        def toggle_region_mode(change):
+            nonlocal save_button_control
+
+            if change["new"]:
+                region_bounds = get_region_bounds_latlon()
+                self.region_rectangle = self._ipyleaflet.Rectangle(
+                    bounds=region_bounds,
+                    color="red",
+                    fill_color="red",
+                    fill_opacity=0.5,
+                    draggable=True,
+                    transform=True,
+                    rotation=False,
+                    name="Computational region",
+                )
+                self.region_rectangle.observe(on_rectangle_change, names="locations")
+                self.map.fit_bounds(region_bounds)
+                self.map.add(self.region_rectangle)
+
+                save_button_control = self._ipyleaflet.WidgetControl(
+                    widget=save_button, position="topright"
+                )
+                self.map.add(save_button_control)
+            else:
+                if self.region_rectangle:
+                    self.region_rectangle.transform = False
+                    self.map.remove(self.region_rectangle)
+                    self.region_rectangle = None
+
+                save_button.disabled = True
+
+                if save_button_control:
+                    self.map.remove(save_button_control)
+                bottom_output_widget.layout.display = "none"
+
+        def save_region(_change):
+            from_proj = "+proj=longlat +datum=WGS84 +no_defs"
+            to_proj = get_location_proj_string()
+            reprojected_region = reproject_region(changed_region, from_proj, to_proj)
+            new = update_region(reprojected_region)
+            bottom_output_widget.layout.display = "block"
+            update_output(new)
+
+        region_mode_button.observe(toggle_region_mode, names="value")
+        save_button.on_click(save_region)
+
+        region_mode_control = self._ipyleaflet.WidgetControl(
+            widget=region_mode_button, position="topright"
+        )
+        self.map.add(region_mode_control)
+
+        output_control = self._ipyleaflet.WidgetControl(
+            widget=bottom_output_widget, position="bottomleft"
+        )
+        self.map.add(output_control)
 
     def show(self):
         """This function returns a folium figure or ipyleaflet map object
@@ -2578,6 +2870,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2623,6 +2916,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         Accepts keyword arguments to be passed to folium.LayerControl()"""
 
         self.layer_control = True
@@ -2642,6 +2939,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2703,10 +3001,20 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         If map has layer control enabled, additional layers cannot be
         added after calling show()."""
+<<<<<<< HEAD
+        if self._ipyleaflet:
+            self.draw_computational_region()
+=======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2747,6 +3055,12 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+<<<<<<< HEAD
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         self.map.fit_bounds(self._renderer.get_bbox())
 
         if not self.layer_control_object:
@@ -2772,6 +3086,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2817,6 +3132,10 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         if self.layer_control:
             self.map.add_child(self.layer_control_object)
         # Create Figure
@@ -2837,6 +3156,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2898,6 +3218,11 @@ class InteractiveMap:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     def save(self, filename):
         """Save map as an html map.

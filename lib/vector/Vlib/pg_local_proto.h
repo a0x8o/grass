@@ -68,6 +68,7 @@ struct feat_parts {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 =======
 <<<<<<< HEAD
@@ -98,6 +99,8 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int Vect__get_area_points_pg(struct Map_info *, const plus_t *, int,
 =======
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
@@ -110,6 +113,7 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -163,6 +167,11 @@ int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect__get_area_points_pg(const struct Map_info *, const plus_t *, int,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                              struct line_pnts *);
 
 /* build_pg.c */

@@ -33,6 +33,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -94,10 +95,15 @@ import os
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +143,9 @@ from pathlib import Path
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 import unittest
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -150,6 +159,7 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +243,8 @@ from pathlib import Path
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 import grass.jupyter as gj
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
@@ -256,6 +268,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -298,6 +311,10 @@ def can_import_folium():
         import folium  # noqa
 =======
 >>>>>>> osgeo-main
+=======
+        import folium  # noqa
+=======
+>>>>>>> osgeo-main
         import folium
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -306,6 +323,7 @@ def can_import_folium():
 =======
         import folium  # noqa
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +398,18 @@ def can_import_folium():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+        return True
+    except ImportError:
+        return False
+
+
+def can_import_ipyleaflet():
+    """Test ipyleaflet import to see if test can be run."""
+    try:
+        import ipyleaflet  # noqa
+>>>>>>> osgeo-main
 
         return True
     except ImportError:
@@ -436,6 +466,14 @@ class TestDisplay(TestCase):
         self.files.append(filename)
         interactive_map.save(filename)
         self.assertFileExists(filename)
+
+    @unittest.skipIf(not can_import_ipyleaflet(), "Cannot import ipyleaflet")
+    def test_draw_computational_region(self):
+        """Test the draw_computational_region method."""
+        # Create InteractiveMap
+        interactive_map = gj.InteractiveMap()
+        interactive_map.draw_computational_region()
+        self.assertTrue(callable(interactive_map.draw_computational_region))
 
 
 if __name__ == "__main__":

@@ -56,6 +56,7 @@ void parse_args(int argc, char **argv, struct _options *options,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _("Override projection check (use current location's projection)");
     flags->override->description = _("Assume that the dataset has the same "
                                      "projection as the current location");
@@ -88,6 +89,8 @@ void parse_args(int argc, char **argv, struct _options *options,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         _("Override projection check (use current project's CRS)");
     flags->override->description =
         _("Assume that the dataset has the same "
@@ -105,6 +108,7 @@ void parse_args(int argc, char **argv, struct _options *options,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -122,10 +126,13 @@ void parse_args(int argc, char **argv, struct _options *options,
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
         _("Override projection check (use current location's projection)");
     flags->override->description = _("Assume that the dataset has the same "
                                      "projection as the current location");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +171,8 @@ void parse_args(int argc, char **argv, struct _options *options,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     flags->proj = G_define_flag();
     flags->proj->key = 'j';

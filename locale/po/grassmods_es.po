@@ -28600,6 +28600,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28632,6 +28633,9 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 #, c-format
 msgid "Unable to access target location/mapset %s/%s"
 msgstr ""
@@ -28646,6 +28650,7 @@ msgstr ""
 
 #: ../imagery/i.ortho.photo/i.ortho.target/main.c:97
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28677,6 +28682,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #, c-format
 msgid "Unable to access target location/mapset %s/%s"
 msgstr ""
@@ -42528,6 +42535,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -42589,6 +42597,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 #: ../locale/scriptstrings/g.copyall_to_translate.c:9
 #, fuzzy
@@ -52994,6 +53007,7 @@ msgstr "tabla de colores"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -53036,6 +53050,11 @@ msgstr "tabla de colores"
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../locale/scriptstrings/v.scatterplot_to_translate.c:59
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 #: ../locale/scriptstrings/v.scatterplot_to_translate.c:60
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 #, fuzzy
@@ -53056,6 +53075,7 @@ msgstr "dato nulo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -53101,6 +53121,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 #: ../locale/scriptstrings/r.null.all_to_translate.c:5
 #: ../locale/scriptstrings/r.mask_to_translate.c:5
@@ -53112,6 +53134,7 @@ msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53150,6 +53173,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #: ../locale/scriptstrings/v.scatterplot_to_translate.c:61
 #: ../locale/scriptstrings/v.scatterplot_to_translate.c:62
@@ -77282,6 +77307,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -77343,6 +77369,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 #: ../display/d.text/main.c:181
 msgid "Line spacing"
@@ -82708,12 +82739,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -82736,6 +82770,7 @@ msgstr ""
 #, c-format
 msgid "DONE: compressed file is %lu %s (%.2f%%) larger"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82831,6 +82866,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #: ../raster/r.compress/main.c:228
 msgid "same size"
@@ -87708,6 +87745,7 @@ msgstr "\"-\" para leer reglas desde entrada estándar (stdin)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Offset for color rule values"
 msgstr ""
 =======
@@ -87755,6 +87793,10 @@ msgid "Offset for color rule values"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Offset for color rule values"
+msgstr ""
+>>>>>>> osgeo-main
 
 #: ../raster/r.colors/edit_colors.c:139 ../raster/r.colors/edit_colors.c:148
 msgid "New value = (old value + offset) * scale"
@@ -87769,6 +87811,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Scale for color rule values"
 msgstr ""
 =======
@@ -87816,6 +87859,10 @@ msgid "Scale for color rule values"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Scale for color rule values"
+msgstr ""
+>>>>>>> osgeo-main
 
 #: ../raster/r.colors/edit_colors.c:284 ../raster/r.colors/edit_colors.c:318
 #, c-format
@@ -87913,6 +87960,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to open color rule"
 msgstr ""
 =======
@@ -87960,6 +88008,10 @@ msgid "Unable to open color rule"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Unable to open color rule"
+msgstr ""
+>>>>>>> osgeo-main
 
 #: ../raster/r.colors/rules.c:179
 #, c-format
@@ -89685,12 +89737,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -89715,6 +89770,7 @@ msgstr ""
 #, c-format
 msgid "Failed parsing <%s>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89816,6 +89872,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #: ../raster/r.geomorphon/main.c:302
 #, c-format
@@ -89832,12 +89890,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -89849,6 +89910,7 @@ msgstr ""
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89911,6 +89973,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #: ../raster/r.geomorphon/main.c:354
 msgid "Search radius size must cover at least 1 cell"
@@ -89947,6 +90011,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -89957,12 +90022,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 msgid "Failed writing profile data"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90022,6 +90090,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
 #: ../raster/r.geomorphon/main.c:751
 msgid "Failed to profile the computation, please check the parameters"
@@ -90036,6 +90106,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -90091,6 +90162,11 @@ msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#, c-format
+msgid "Internal error in %s()"
+msgstr ""
+>>>>>>> osgeo-main
 
 #: ../raster/r.proj/bordwalk.c:92 ../raster/r.proj/bordwalk.c:139
 #, c-format
@@ -94018,6 +94094,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -94038,6 +94115,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #, c-format
 #~ msgid "Unable to create new location <%s>"
 #~ msgstr "No se puede crear nueva Localización <%s>"
@@ -94263,6 +94342,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -94283,6 +94363,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 #~ msgid ""
 #~ "Remove all registered maps from the temporal and also from the spatial "
 #~ "database"
@@ -97705,6 +97787,7 @@ msgstr "No hay un controlador de bases de datos (DB) definido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -100488,6 +100571,8 @@ msgstr "No se puede inicializar archivo temporal"
 msgid "eading the input map -%s- and -%s- and creating some temporary files..."
 msgstr "leyendo mapa de entrada -%s y -%s- y creando algunos archivos temporales..."
 =======
+=======
+>>>>>>> osgeo-main
 
 msgid "OGR datasource name"
 msgstr "Nombre de fuente de datos OGR"
@@ -101439,7 +101524,10 @@ msgstr ""
 "Puede cambiar el histórico mediante comandos:\n"
 "history -w; history -r %s/.bash_history; HISTFILE=%s/.bash_history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
 msgid "Key columns differ"
 msgstr "Diferencia de columnas clave"
@@ -101475,6 +101563,7 @@ msgstr "Grados omega iniciales de cámara (balanceo, roll)"
 
 msgid "Initial Camera Phi (pitch) degrees"
 msgstr "Grados Phi iniciales de Cámara (cabeceo, pitch)"
+<<<<<<< HEAD
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 msgid "<%s> not found"
@@ -101754,6 +101843,9 @@ msgstr "Grados Phi iniciales de Cámara (cabeceo, pitch)"
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 <<<<<<< HEAD
 #~ msgid "Key columns differ"
 #~ msgstr "Diferencia de columnas clave"
@@ -101834,6 +101926,7 @@ msgstr "El número de banda de entrada debería ser 15"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -101851,10 +101944,13 @@ msgstr "El número de banda de entrada debería ser 15"
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
 msgid "The input band number should be 15"
 msgstr "El número de banda de entrada debería ser 15"
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101893,6 +101989,8 @@ msgstr "El número de banda de entrada debería ser 15"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 msgid "%s=%s,%s: files are the same, no copy required"
 msgstr "%s=%s,%s: los archivos son los mismos, no se requiere ninguna copia"
 
@@ -101909,6 +102007,7 @@ msgstr "El mapa vectorial <%s> es 3D. Use opciones de creación de capa específ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -101970,3 +102069,8 @@ msgstr "El mapa vectorial <%s> es 3D. Use opciones de creación de capa específ
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main

@@ -7,18 +7,22 @@
 #include <grass/glocale.h>
 #include "local_proto.h"
 
-#define NL    012
-#define TAB   011
-#define BACK  0134
-#define MTEXT 1024
+#define NL       012
+#define TAB      011
+#define BACK     0134
+#define MTEXT    1024
 
-#define TOP   0
-#define CENT  1
-#define BOT   2
-#define LEFT  0
-#define RITE  2
-#define YES   1
-#define NO    0
+#define TOP      0
+#define CENT     1
+#define BOT      2
+#define LEFT     0
+#define RITE     2
+#define YES      1
+#define NO       0
+
+#define BUFFSIZE 128
+#define FONTSIZE 256
+#define WORDSIZE 50
 
 static double east;
 static double north;
@@ -33,8 +37,12 @@ static int highlight_width;
 static int opaque;
 static double width, rotation;
 static char text[MTEXT];
-static char font[256];
+static char font[FONTSIZE];
 static const char *std_font;
+
+static char buff_fmt[WORDSIZE];
+static char font_fmt[WORDSIZE];
+static char word_fmt[WORDSIZE];
 
 static int ymatch(char *);
 static int xmatch(char *);
@@ -67,7 +75,12 @@ int initialize_options(void)
 
 int do_labels(FILE *infile, int do_rotation)
 {
-    char buff[128];
+    char buff[BUFFSIZE];
+
+    snprintf(buff_fmt, sizeof(buff_fmt), "%%*s %%%ds", BUFFSIZE - 1);
+    snprintf(font_fmt, sizeof(font_fmt), "%%*s %%%ds", FONTSIZE - 1);
+    snprintf(word_fmt, sizeof(word_fmt), "%%%ds %%%ds", WORDSIZE - 1,
+             WORDSIZE - 1);
 
     initialize_options();
 
@@ -84,7 +97,7 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "yof", 3))
             sscanf(text, "%*s %d", &yoffset);
         else if (!strncmp(text, "col", 3)) {
-            sscanf(text, "%*s %s", buff);
+            sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&color, buff);
         }
         else if (!strncmp(text, "siz", 3))
@@ -94,15 +107,15 @@ int do_labels(FILE *infile, int do_rotation)
         else if (!strncmp(text, "wid", 3))
             sscanf(text, "%*s %lf", &width);
         else if (!strncmp(text, "bac", 3)) {
-            sscanf(text, "%*s %s", buff);
+            sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&background, buff);
         }
         else if (!strncmp(text, "bor", 3)) {
-            sscanf(text, "%*s %s", buff);
+            sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&border, buff);
         }
         else if (!strncmp(text, "opa", 3)) {
-            sscanf(text, "%*s %s", buff);
+            sscanf(text, buff_fmt, buff);
             if (!strncmp(buff, "YES", 3))
                 opaque = YES;
             else
@@ -115,7 +128,7 @@ int do_labels(FILE *infile, int do_rotation)
             }
         }
         else if (!strncmp(text, "fon", 3)) {
-            if (sscanf(text, "%*s %s", font) != 1 || !strcmp(font, "standard"))
+            if (sscanf(text, font_fmt, font) != 1 || !strcmp(font, "standard"))
                 strcpy(font, std_font);
         }
         else if (!strncmp(text, "rot", 3)) {
@@ -123,7 +136,7 @@ int do_labels(FILE *infile, int do_rotation)
                 sscanf(text, "%*s %lf", &rotation);
         }
         else if (!strncmp(text, "hco", 3)) {
-            sscanf(text, "%*s %s", buff);
+            sscanf(text, buff_fmt, buff);
             set_RGBA_from_str(&highlight_color, buff);
         }
         else if (!strncmp(text, "hwi", 3))
@@ -452,7 +465,7 @@ int scan_ref(char *buf)
         if (buf[i] >= 'A' && buf[i] <= 'Z')
             buf[i] += 'a' - 'A';
     xref = yref = CENT;
-    switch (sscanf(buf, "%s%s", word1, word2)) {
+    switch (sscanf(buf, word_fmt, word1, word2)) {
     case 2:
         if (!(xmatch(word2) || ymatch(word2)))
             return 0;
@@ -467,6 +480,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
@@ -499,11 +513,19 @@ int scan_ref(char *buf)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         FALLTHROUGH;
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
         FALLTHROUGH;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    case EOF:
+=======
+>>>>>>> osgeo-main
 =======
     case 1:
         if (xmatch(word1) || ymatch(word1))
@@ -517,6 +539,7 @@ int scan_ref(char *buf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -534,10 +557,15 @@ int scan_ref(char *buf)
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> 7f1fd5e3ad (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
     case 1:
         if (xmatch(word1) || ymatch(word1))
             return 1;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,6 +604,9 @@ int scan_ref(char *buf)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> a610274a1c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     default:
         return 0;
     }

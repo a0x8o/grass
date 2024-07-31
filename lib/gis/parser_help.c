@@ -112,6 +112,7 @@ static void usage(FILE *fp, int markers)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G__print_keywords(fp, NULL);
 =======
 <<<<<<< HEAD
@@ -142,6 +143,8 @@ static void usage(FILE *fp, int markers)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         G__print_keywords(fp, NULL, FALSE);
 =======
         G__print_keywords(fp, NULL);
@@ -154,6 +157,7 @@ static void usage(FILE *fp, int markers)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G__print_keywords(fp, NULL);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -207,6 +211,11 @@ static void usage(FILE *fp, int markers)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G__print_keywords(fp, NULL);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         fprintf(fp, "\n");
     }
 

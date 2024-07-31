@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
  * background. With do_bg=0 compute position of all legend graphic item and draw
 =======
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
@@ -54,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * background. Eith do_bg=0 compute position of all legend graphic item and draw
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -107,6 +111,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * background. Eith do_bg=0 compute position of all legend graphic item and draw
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
  * all.
  *
  * Copyright (C) 2016 by Adam Laza, GSoC 2016, and the GRASS Development Team

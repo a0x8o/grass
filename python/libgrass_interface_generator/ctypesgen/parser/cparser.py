@@ -137,6 +137,7 @@ class CParser(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """A parse error occured.
 =======
 <<<<<<< HEAD
@@ -167,6 +168,8 @@ class CParser(object):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         """A parse error occurred.
 =======
         """A parse error occured.
@@ -179,6 +182,7 @@ class CParser(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         """A parse error occured.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -232,6 +236,11 @@ class CParser(object):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        """A parse error occured.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
         The default implementation prints `lineno` and `message` to stderr.
         The parser will try to recover from errors by synchronising at the

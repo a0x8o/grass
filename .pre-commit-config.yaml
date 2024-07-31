@@ -38,10 +38,14 @@ repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
 <<<<<<< HEAD
+<<<<<<< HEAD
     rev: v0.5.1
 =======
     rev: v0.5.4
 >>>>>>> main
+=======
+    rev: v0.5.5
+>>>>>>> osgeo-main
     hooks:
       # Run the linter.
       - id: ruff

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_describe_table(dbString *name, dbTable **table)
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 int db__driver_describe_table(dbString *name UNUSED, dbTable **table UNUSED)
 =======
 int db__driver_describe_table(dbString *name, dbTable **table)
@@ -54,6 +57,7 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_describe_table(dbString *name, dbTable **table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -107,6 +111,11 @@ int db__driver_describe_table(dbString *name, dbTable **table)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_describe_table(dbString *name, dbTable **table)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     db_procedure_not_implemented("db_describe_table");
     return DB_FAILED;

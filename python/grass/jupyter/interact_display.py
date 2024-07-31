@@ -15,12 +15,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -40,6 +43,7 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47,6 +51,8 @@ from pathlib import Path
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -83,6 +89,7 @@ class InteractiveMap:
         import folium
 
         self._folium = folium
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,11 +272,14 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
         # Store height and width
         self.width = width
         self.height = height
         # Make temporary folder for all our files
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +304,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         self._tmp_dir = tempfile.TemporaryDirectory()
 
         # Remember original environment; all environments used
@@ -311,6 +323,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -318,6 +331,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -333,6 +348,7 @@ class InteractiveMap:
 
         # Create Folium Map
         self.map = self._folium.Map(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,11 +434,14 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
             width=self.width,
             height=self.height,
             location=center,
             tiles="cartodbpositron",
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,6 +457,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -462,6 +483,7 @@ class InteractiveMap:
         self._finalizer = weakref.finalize(
             self, clean_up, [Path(self.rcfile_psmerc), Path(self.rcfile_wgs84)]
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,11 +611,14 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     def add_vector(self, name):
         """Imports vector into temporary WGS84 location,
         re-formats to a GeoJSON and adds to folium map.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,11 +682,17 @@ class InteractiveMap:
         """
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        :param str name: name of vector to be added to map;
+                         positional-only parameter
+        """
+>>>>>>> osgeo-main
 
         # Find full name of vector
         file_info = gs.find_file(name, element="vector")
         full_name = file_info["fullname"]
         name = file_info["name"]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,6 +708,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -784,6 +817,7 @@ class InteractiveMap:
 
     def show(self):
         """This function returns a folium figure object with a GRASS raster
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1131,6 +1165,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
         overlayed on a basemap.
 
         If map has layer control enabled, additional layers cannot be
@@ -1147,6 +1183,7 @@ class InteractiveMap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fig = self._folium.Figure(width=self.width, height=self.height)
 =======
         fig = folium.Figure(width=self.width, height=self.height)
@@ -1180,10 +1217,14 @@ class InteractiveMap:
         fig = self._folium.Figure(width=self.width, height=self.height)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        fig = self._folium.Figure(width=self.width, height=self.height)
+>>>>>>> osgeo-main
         # Add map to figure
         fig.add_child(self.map)
 
         return fig
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1208,6 +1249,8 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
     def save(self, filename):
         """Save map as an html map.
@@ -1215,6 +1258,7 @@ class InteractiveMap:
         :param str filename: name of html file
         """
         self.map.save(filename)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,3 +1290,5 @@ class InteractiveMap:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main

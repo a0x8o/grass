@@ -54,6 +54,7 @@ from gui_core.prompt import GPromptSTC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 <<<<<<< HEAD
@@ -84,6 +85,8 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 from gui_core.wrap import Button, ClearButton, StaticText
 =======
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
@@ -96,6 +99,7 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -149,6 +153,11 @@ from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+from gui_core.wrap import Button, ClearButton, StaticText, StaticBox
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 from core.settings import UserSettings
 
 
@@ -259,6 +268,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -288,6 +298,8 @@ class GConsoleWindow(wx.SplitterWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 
         self.btnClear.Bind(wx.EVT_BUTTON, self.OnClear)
         self.btnOutputSave.Bind(wx.EVT_BUTTON, self.OnOutputSave)
@@ -301,6 +313,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -346,6 +359,10 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         self.btnCmdExportHistory = Button(parent=self.panelOutput, id=wx.ID_ANY)
         self.btnCmdExportHistory.SetLabel(_("&Export history"))
         self.btnCmdExportHistory.SetToolTip(
@@ -372,6 +389,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
@@ -433,6 +451,11 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
         self._layout()
 
@@ -731,6 +754,7 @@ class GConsoleWindow(wx.SplitterWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +817,11 @@ class GConsoleWindow(wx.SplitterWindow):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
     def OnCmdExportHistory(self, event):
         """Export the history of executed commands stored
         in a .wxgui_history file to a selected file."""

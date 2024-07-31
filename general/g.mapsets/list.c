@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void list_available_mapsets(const char **mapset_name, int nmapsets,
                             const char *fs)
 {
@@ -48,6 +49,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 // Function to initialize a JSON object with a mapsets array
 static JSON_Object *initialize_json_object(void)
 {
@@ -58,6 +61,7 @@ static JSON_Object *initialize_json_object(void)
 void list_available_mapsets(const char **mapset_name, int nmapsets,
                             const char *fs)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +94,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
     int n;
 
     G_message(_("Available mapsets:"));
@@ -132,6 +138,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -157,6 +164,8 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 // Function to serialize and print JSON object
 static void serialize_and_print_json_object(JSON_Value *root_value)
 {
@@ -199,6 +208,7 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +239,9 @@ void list_available_mapsets(const char **mapset_name, int nmapsets,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 void list_accessible_mapsets(const char *fs)
 {
     int n;
@@ -239,6 +252,7 @@ void list_accessible_mapsets(const char *fs)
         /* match each mapset to its numeric equivalent */
         fprintf(stdout, "%s", name);
         if (G_get_mapset_name(n + 1)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +303,9 @@ void list_accessible_mapsets(const char *fs)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             if (strcmp(fs, "newline") == 0)
                 fprintf(stdout, "\n");
             else if (strcmp(fs, "space") == 0)
