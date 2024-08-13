@@ -204,6 +204,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tlocation = self.MakeTextCtrl("newLocation")
 =======
 <<<<<<< HEAD
@@ -234,6 +235,8 @@ class DatabasePage(TitledPage):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         self.tlocation = self.MakeTextCtrl("newProject")
@@ -249,6 +252,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -302,6 +306,11 @@ class DatabasePage(TitledPage):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        self.tlocation = self.MakeTextCtrl("newLocation")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
@@ -2446,7 +2455,7 @@ class SummaryPage(TitledPage):
             finishButton = wx.FindWindowById(wx.ID_FORWARD)
             if ret == 0:
                 if datum != "":
-                    projlabel = projlabel + "+datum=%s" % datum
+                    projlabel += "+datum=%s" % datum
                 self.lproj4string.SetLabel(projlabel.replace(" +", os.linesep + "+"))
                 finishButton.Enable(True)
             else:

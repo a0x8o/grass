@@ -83,6 +83,7 @@ class GPrompt:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +151,11 @@ class GPrompt:
 =======
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
 
     def _readHistory(self):
         """Get list of commands from history file"""
@@ -161,6 +167,7 @@ class GPrompt:
                     env["GISDBASE"],
                     env["LOCATION_NAME"],
                     env["MAPSET"],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +210,9 @@ class GPrompt:
                     ".wxgui_history",
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                    ".wxgui_history",
+>>>>>>> osgeo-main
 =======
                     ".wxgui_history",
 >>>>>>> osgeo-main
@@ -352,6 +362,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -383,14 +394,16 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         # read history file
         self._loadHistory()
         if giface:
             giface.currentMapsetChanged.connect(self._loadHistory)
-            giface.entryToHistoryAdded.connect(self._addEntryToCmdHistoryBuffer)
-            giface.entryFromHistoryRemoved.connect(
-                self._removeEntryFromCmdHistoryBuffer
+            giface.entryToHistoryAdded.connect(
+                lambda entry: self._addEntryToCmdHistoryBuffer(entry)
             )
+<<<<<<< HEAD
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 <<<<<<< HEAD
@@ -448,6 +461,15 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
+=======
+            giface.entryFromHistoryRemoved.connect(
+                lambda index: self._removeEntryFromCmdHistoryBuffer(index)
+            )
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
@@ -590,6 +612,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._showHint()
 =======
 <<<<<<< HEAD
@@ -620,6 +643,8 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             wx.CallAfter(self._showHint)
@@ -635,6 +660,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             self._showHint()
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -688,6 +714,11 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            self._showHint()
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
             self._showHint()
@@ -825,7 +856,7 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
             else:
                 delimiter = char
             parts.append(delimiter + textLeft.rpartition(char)[2])
-        return min(parts, key=len)
+        return min(parts, key=lambda x: len(x))
 
     def ShowList(self):
         """Show sorted auto-completion list if it is not empty"""
@@ -869,9 +900,9 @@ class GPromptSTC(GPrompt, wx.stc.StyledTextCtrl):
 
             # move through command history list index values
             if event.GetKeyCode() == wx.WXK_UP:
-                self.cmdindex = self.cmdindex - 1
+                self.cmdindex -= 1
             if event.GetKeyCode() == wx.WXK_DOWN:
-                self.cmdindex = self.cmdindex + 1
+                self.cmdindex += 1
             self.cmdindex = max(self.cmdindex, 0)
             self.cmdindex = min(self.cmdindex, len(self.cmdbuffer) - 1)
 

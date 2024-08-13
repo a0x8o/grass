@@ -40,6 +40,7 @@ Bug fix (9/12/2010) by Daniel:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -101,6 +102,11 @@ Bug fix (9/12/2010) by Daniel:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -299,12 +305,12 @@ def write_cpp(bands, values, sensor, folder):
         # Get minimum wavelength with spectral response
         c = maxresponse_idx
         while c > 0 and fi[c - 1] > rthresh:
-            c = c - 1
+            c -= 1
         min_wavelength = np.ceil(li[0] * 1000 + (2.5 * c))
         # Get maximum wavelength with spectral response
         c = maxresponse_idx
         while c < len(fi) - 1 and fi[c + 1] > rthresh:
-            c = c + 1
+            c += 1
         max_wavelength = np.floor(li[0] * 1000 + (2.5 * c))
         print("   %s (%inm - %inm)" % (bands[b], min_wavelength, max_wavelength))
 
@@ -321,12 +327,12 @@ def write_cpp(bands, values, sensor, folder):
             # Get minimum wavelength with spectral response
             c = maxresponse_idx
             while c > 0 and fi[c - 1] > rthresh:
-                c = c - 1
+                c -= 1
             min_wavelength = np.ceil(li[0] * 1000 + (2.5 * c))
             # Get maximum wavelength with spectral response
             c = maxresponse_idx
             while c < len(fi) - 1 and fi[c + 1] > rthresh:
-                c = c + 1
+                c += 1
             max_wavelength = np.floor(li[0] * 1000 + (2.5 * c))
             print("   %s (%inm - %inm)" % (bands[b], min_wavelength, max_wavelength))
 

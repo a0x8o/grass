@@ -17,6 +17,7 @@ outline in one of two modes:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -42,11 +43,14 @@ outline in one of two modes:
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 <li> point: as a series of horizon
 heights in the specified directions from the given point(s). The results are
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +99,8 @@ heights in the specified directions from the given point(s). The results are
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 <li> single point: as a series of horizon
@@ -212,6 +218,7 @@ is the angle in degrees with the direction. If you use <b>r.horizon</b>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 in the single point mode this option will be ignored.
 =======
 <<<<<<< HEAD
@@ -242,6 +249,8 @@ in the single point mode this option will be ignored.
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 in the point mode this option will be ignored.
@@ -257,6 +266,7 @@ in the single point mode this option will be ignored.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 in the single point mode this option will be ignored.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -310,6 +320,11 @@ in the single point mode this option will be ignored.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+in the single point mode this option will be ignored.
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 in the single point mode this option will be ignored.
@@ -337,6 +352,7 @@ you use <b>r.horizon</b> in the raster map mode this option will be ignored.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -366,9 +382,12 @@ you use <b>r.horizon</b> in the raster map mode this option will be ignored.
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,10 +441,13 @@ you use <b>r.horizon</b> in the raster map mode this option will be ignored.
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 <p>At the moment the elevation and maximum distance must be measured in meters,
 even if you use geographical coordinates (longitude/latitude). If your
 projection is based on distance (easting and northing), these too must
 be in meters. The buffer parameters must be in the same units as the
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +491,8 @@ measured in degree unit).
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 raster coordinates (e.g., for latitude-longitude buffers are
@@ -488,6 +512,7 @@ be in meters. The buffer parameters must be in the same units as the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -501,9 +526,12 @@ be in meters. The buffer parameters must be in the same units as the
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,12 +572,15 @@ be in meters. The buffer parameters must be in the same units as the
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 raster coordinates (e.g., for latitude-longitude locations buffers are
 measured in degree unit).
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,8 +638,12 @@ measured in degree unit).
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
-<h2>METHOD</h2>
+<h2>NOTES</h2>
+
+<h3>Method</h3>
 
 The calculation method is based on the method used in <b>r.sun</b>
 to calculate shadows. It starts at a very shallow angle and walks
@@ -631,6 +666,34 @@ The output with the <b>-d</b> flag is azimuth degree (-90 to 90, where
 
 <p> All horizon values are positive (or zero). While negative values are
 in theory possible, <b>r.horizon</b> currently does not support them.
+
+
+<h3>Performance</h3>
+Parallel processing is implemented for the raster mode.
+To enable parallel processing, the user can specify the number of threads
+to be used with the <b>nprocs</b> parameter.
+Figures below show benchmark results running on
+Intel® Core™ i5-13600K CPU @ 3.5GHz.
+See benchmark scripts
+in the source code for more details.
+
+<p>
+The iterations of the algorithm used in <b>r.horizon</b>
+depends on the topography. As a result, the benchmark results may vary
+depending on the topography of the study area.
+
+<div align="center" style="margin: 10px">
+  <img src="rhorizon_raster_time.png"
+  alt="time for r.horizon with different map sizes" border="0">
+  <img src="rhorizon_raster_speedup.png"
+  alt="speedup for r.horizon with different map sizes" border="0">
+  <img src="rhorizon_raster_efficiency.png"
+  alt="efficiency for r.horizon with different map sizes" border="0">
+  <br>
+  <i>Figure: Benchmark shows execution time, parallel speedup and
+    efficiency for different numbers of cells (1M, 2M, 4M, and 8M).</i>
+</div>
+
 
 <h2>EXAMPLES</h2>
 
@@ -758,6 +821,7 @@ Thomas Huld, Joint Research Centre of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -808,6 +872,10 @@ the European Commission, Ispra, Italy
 =======
 >>>>>>> osgeo-main
 =======
+the European Commission, Ispra, Italy
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 the European Commission, Ispra, Italy 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -820,6 +888,7 @@ the European Commission, Ispra, Italy
 the European Commission, Ispra, Italy
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,6 +976,8 @@ the European Commission, Ispra, Italy
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 <br>
@@ -937,6 +1008,7 @@ European Commission, Ispra, Italy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -989,6 +1061,10 @@ European Commission, Ispra, Italy
 <a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a>
 =======
 >>>>>>> osgeo-main
+=======
+<a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a>
+=======
+>>>>>>> osgeo-main
 <a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a> 
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -997,6 +1073,7 @@ European Commission, Ispra, Italy
 =======
 <a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a>
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1025,11 +1102,14 @@ European Commission, Ispra, Italy
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 <a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a> 
 =======
 <a href="mailto:Marcel.Suri@jrc.it">Marcel.Suri@jrc.it</a>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1105,5 +1185,7 @@ European Commission, Ispra, Italy
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main

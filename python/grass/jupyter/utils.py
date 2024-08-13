@@ -1,8 +1,10 @@
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
+#            Riya Saxena <29riyasaxena AT gmail>
 #
 # PURPOSE:   This module contains utility functions for InteractiveMap.
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +151,32 @@
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+>>>>>>> osgeo-main
+=======
+# COPYRIGHT: (C) 2021-2024 Caitlin Haedrich, and by the GRASS Development Team
+=======
+=======
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+=======
+# COPYRIGHT: (C) 2021 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
+>>>>>>> 6b58199776 (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+=======
+=======
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+# COPYRIGHT: (C) 2021-2022 Caitlin Haedrich, and by the GRASS Development Team
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 #
 #            This program is free software under the GNU General Public
@@ -171,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 """Utility functions warpping existing processes in a suitable way"""
@@ -213,11 +242,19 @@
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 """Utility functions warpping existing processes in a suitable way"""
+import tempfile
+import json
+import os
+import multiprocessing
+
 from pathlib import Path
 =======
 import os
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +280,8 @@ import os
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -258,6 +297,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -277,9 +317,12 @@ import os
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 """Utility functions warpping existing processes in a suitable way"""
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +368,8 @@ import os
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 import grass.script as gs
@@ -348,6 +393,7 @@ def get_region(env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -403,6 +449,11 @@ def get_region(env=None):
     Additionally, it adds long key names.
 =======
 >>>>>>> osgeo-main
+=======
+
+    Additionally, it adds long key names.
+=======
+>>>>>>> osgeo-main
     Adds long key names.
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
@@ -413,6 +464,7 @@ def get_region(env=None):
 
     Additionally, it adds long key names.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +544,8 @@ def get_region(env=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     """
@@ -537,6 +591,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -566,9 +621,12 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +678,8 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     # reproject all corners, otherwise reproj. region may be underestimated
@@ -645,6 +705,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -671,12 +732,16 @@ def reproject_region(region, from_proj, to_proj):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
     proj_input = "{east} {north}\n{west} {south}".format(**region)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +821,8 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     proc = gs.start_command(
@@ -790,6 +857,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -819,9 +887,12 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +944,8 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         raise RuntimeError(
@@ -901,6 +974,7 @@ def reproject_region(region, from_proj, to_proj):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -956,7 +1030,221 @@ def reproject_region(region, from_proj, to_proj):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     return region
+
+
+def reproject_latlon(coord):
+    """Reproject coordinates
+
+    :param coord: coordinates given as tuple (latitude, longitude)
+    :return: reprojected coordinates (returned as tuple)
+    """
+    # Prepare the input coordinate string
+    coord_str = f"{coord[1]} {coord[0]}\n"
+
+    # Start the m.proj command
+    proc = gs.start_command(
+        "m.proj",
+        input="-",
+        flags="i",
+        separator=",",
+        stdin=gs.PIPE,
+        stdout=gs.PIPE,
+        stderr=gs.PIPE,
+    )
+
+    proc.stdin.write(gs.encode(coord_str))
+    proc.stdin.close()
+    proc.stdin = None
+    proj_output, _ = proc.communicate()
+
+    output = gs.decode(proj_output).splitlines()
+    east, north, elev = map(float, output[0].split(","))
+
+    return east, north, elev
+
+
+def _style_table(html_content):
+    """
+    Use to style table displayed in popup.
+
+    :param html_content: HTML content to be displayed
+
+    :return str: formatted HTML content
+    """
+    css = """
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 12px;
+            font-family: Arial, sans-serif;
+        }
+        th {
+            background-color: #666666;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+        td {
+            padding-left: 3px;
+            padding-right: 3px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        td:last-child {
+            text-align: right;
+        }
+    </style>
+    """
+    return f"{css}{html_content}"
+
+
+def _format_nested_table(attributes):
+    """
+    Format nested attributes into an HTML table row.
+
+    :param attributes: Dictionary of nested attributes to format.
+
+    :return: str: HTML formatted string containing rows for each non-empty attribute.
+    """
+    nested_table = ""
+    for sub_key, sub_value in attributes.items():
+        if sub_value:
+            nested_table += f"""
+            <tr>
+            <td>{sub_key}</td>
+            <td>{sub_value}</td>
+            </tr>
+            """
+    return nested_table
+
+
+def _format_regular_output(items):
+    """
+    Format attributes into an HTML table.
+
+    :param items: List of key-value pairs (tuples) to process.
+
+    :return: str: HTML formatted string containing rows for specified attributes.
+    """
+    regular_output = ""
+    for key, value in items:
+        if key in {"Category", "Layer"}:
+            regular_output += f"""
+            <tr>
+            <td>{key}</td>
+            <td>{value}</td>
+            </tr>
+            """
+    return regular_output
+
+
+def query_raster(coord, raster_list):
+    """
+    Queries raster data at specified coordinates.
+
+    :param coord: Coordinates given as a tuple (latitude, longitude).
+    :param list raster_list: List of raster names to query.
+
+    :return: str: HTML formatted string containing the results of the raster queries.
+    """
+    output_list = ["""<table>"""]
+
+    for raster in raster_list:
+        raster_output = gs.raster.raster_what(map=raster, coord=coord)
+
+        output = f"""<tr>
+        <th colspan='2'>Raster: {raster}</th></tr>"""
+
+        if raster in raster_output[0]:
+            if "value" in raster_output[0][raster]:
+                value = raster_output[0][raster]["value"]
+                output += f"""
+                <tr>
+                <td>Value</td>
+                <td>{value}</td>
+                </tr>
+                """
+            items = raster_output[0][raster].items()
+            formatted_output = _format_regular_output(items)
+            output += formatted_output
+
+        output_list.append(output)
+
+    if len(output_list) == 1:
+        return ""
+
+    output_list.extend(("</table>", "<br>"))
+    final_output = "".join(output_list)
+    return _style_table(final_output)
+
+
+def _process_vector_output(vector, coord, distance):
+    """
+    Process the output of a vector query.
+
+    :param vector: Name of the vector map to query.
+    :param coord: Coordinates given as a tuple for querying.
+    :param distance: Distance within which to query the vector attributes.
+
+    :return: str: HTML formatted string containing the vector output, including regular
+                   attributes and any nested attribute tables.
+    """
+    vector_output = gs.vector.vector_what(map=vector, coord=coord, distance=distance)
+    if len(vector_output[0]) <= 2:
+        return ""
+
+    items = list(vector_output[0].items())
+    attributes_output = ""
+    regular_output = _format_regular_output(items)
+
+    for key, value in items:
+        if key == "Attributes" and isinstance(value, dict):
+            attributes_output = _format_nested_table(value)
+
+    vector_html = f"""
+    <tr>
+    <th colspan='2'>
+    Vector: {vector}
+    </th>
+    </tr>
+    """
+    return vector_html + attributes_output + regular_output
+
+
+def query_vector(coord, vector_list, distance):
+    """
+    Queries vector data at specified coordinates.
+
+    :param coord: Coordinates given as a tuple (latitude, longitude).
+    :param list vector_list: List of vector names to query.
+    :param distance: Distance within which to query the vector attributes.
+
+    :return: str: HTML formatted string containing the results of the vector queries.
+    """
+    output_list = ["<table>"]
+
+    for vector in vector_list:
+        vector_html = _process_vector_output(vector, coord, distance)
+        if vector_html:
+            output_list.append(vector_html)
+
+    if len(output_list) == 1:
+        return ""
+
+    output_list.extend(("</table>", "<br>"))
+    final_output = "".join(output_list)
+    return _style_table(final_output)
 
 
 def estimate_resolution(raster, mapset, location, dbase, env):
@@ -966,6 +1254,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
     :param str mapset: mapset of raster
     :param str location: name of source location
     :param str dbase: path to source database
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,6 +1308,9 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
         raise RuntimeError("reprojecting region: m.proj error: " + stderr)
     enws = gs.decode(proj_output).split(os.linesep)
     elon, nlat, unused = enws[0].split(" ")
@@ -1027,6 +1319,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
     region["north"] = nlat
     region["west"] = wlon
     region["south"] = slat
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1052,6 +1345,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1081,6 +1376,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1162,6 +1458,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     :param dict env: target environment
@@ -1186,6 +1484,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1215,9 +1514,12 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1571,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         "r.proj",
@@ -1293,6 +1597,7 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1319,12 +1624,16 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
         "r.proj", flags="g", input=raster, dbase=dbase, location=location, env=env
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,6 +1713,8 @@ def estimate_resolution(raster, mapset, location, dbase, env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     ).strip()
@@ -1448,6 +1759,7 @@ def setup_location(name, path, epsg, src_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1477,9 +1789,12 @@ def setup_location(name, path, epsg, src_env):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1531,6 +1846,8 @@ def setup_location(name, path, epsg, src_env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     set_target_region(src_env, new_env)
@@ -1554,6 +1871,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -1583,10 +1901,13 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=tgt_env)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1627,10 +1948,13 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=new_env)
 >>>>>>> 7896e1a53f (wxGUI/Single-Window: New change page event for AuiNotebook (#1780))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1656,6 +1980,8 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1672,6 +1998,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1691,10 +2018,13 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     region = get_region(env=src_env)
     from_proj = get_location_proj_string(src_env)
     to_proj = get_location_proj_string(env=tgt_env)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1740,6 +2070,8 @@ def set_target_region(src_env, tgt_env):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     new_region = reproject_region(region, from_proj, to_proj)
@@ -1766,6 +2098,7 @@ def set_target_region(src_env, tgt_env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1827,6 +2160,10 @@ def set_target_region(src_env, tgt_env):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1887,6 +2224,7 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1913,10 +2251,52 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+
+
+def save_vector(name, geo_json):
+    """Saves the user drawn vector.
+
+    :param geo_json: name of the geojson file to be saved
+    :param name: name with which vector should be saved
+    """
+    with tempfile.NamedTemporaryFile(
+        suffix=".geojson", delete=False, mode="w"
+    ) as temp_file:
+        temp_filename = temp_file.name
+        for each in geo_json["features"]:
+            each["properties"].clear()
+        json.dump(geo_json, temp_file)
+    gs.run_command("v.import", input=temp_filename, output=name)
+    os.remove(temp_filename)
+
+
+def get_number_of_cores(requested, env=None):
+    """Get the number of cores to use for multiprocessing.
+
+    :param int requested: Desired number of cores.
+    :param dict env: Optional process environment.
+
+    :return int: Number of cores to use, constrained by system availability.
+    """
+    nprocs = gs.gisenv(env).get("NPROCS")
+    if nprocs is not None:
+        return int(nprocs)
+
+    try:
+        num_cores = len(os.sched_getaffinity(0))
+    except AttributeError:
+        num_cores = multiprocessing.cpu_count()
+    return min(requested, max(1, num_cores - 1))
+>>>>>>> osgeo-main
 
 
 def get_region_bounds_latlon():
-    """Gets the current computational region bounds in latlon."""
+    """Gets the current computational region bounds in latlon.
+
+    :return list of tuples: represent the southwest and northeast
+                            corners of the region in (latitude, longitude) format.
+    """
     region = gs.parse_command("g.region", flags="gbp")
     return [
         (float(region["ll_s"]), float(region["ll_w"])),
@@ -1927,6 +2307,7 @@ def get_region_bounds_latlon():
 def update_region(region):
     """Updates the computational region bounds.
 
+    :param dict region: region dictionary
     :return: the new region
     """
     current = gs.region()
@@ -1953,8 +2334,7 @@ def save_gif(
     text_size=12,
     text_color="gray",
 ):
-    """
-    Creates a GIF animation
+    """Creates a GIF animation
 
     param list input_files: list of paths to source
     param str output_filename: destination gif filename
@@ -2021,6 +2401,7 @@ def save_gif(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2037,6 +2418,8 @@ def save_gif(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2087,6 +2470,7 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
         return (round(default_height * region_width / region_height), default_height)
     return (default_width, round(default_width * region_height / region_width))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2147,6 +2531,10 @@ def get_rendering_size(region, width, height, default_width=600, default_height=
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

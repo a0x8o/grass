@@ -11,6 +11,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 =======
 <<<<<<< HEAD
@@ -41,6 +42,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 -,Ivan Shmakov,<ivan siamics.net>,Russia,1gray,yes,-
@@ -56,6 +59,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -109,6 +113,11 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+-,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 -,Ivan Shmakov,<ivan theory.asu.ru>,Russia,1gray,yes,-
@@ -131,6 +140,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
 =======
 <<<<<<< HEAD
@@ -161,6 +171,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 -,Yann Chemin,<dr.yann.chemin gmail.com>,France,ychemin,yes,0000-0001-9232-5512
@@ -176,6 +188,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -229,6 +242,11 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+-,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 -,Yann Chemin,<yann.chemin gmail.com>,Philippines,ychemin,yes,0000-0001-9232-5512
@@ -257,6 +275,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
 =======
 <<<<<<< HEAD
@@ -287,6 +306,8 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,0000-0002-2363-8002
@@ -302,6 +323,7 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -355,6 +377,11 @@ cvs_id,name,email,country,osgeo_id,rfc2_agreed,orcid
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+-,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 -,Ondřej Pešek,<pesej.ondrek gmail.com>,Czech Republic,pesekon2,yes,-

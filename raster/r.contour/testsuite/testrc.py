@@ -10,6 +10,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -43,6 +44,9 @@ Purpose:    Tests r.contour and its flags/options.
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main

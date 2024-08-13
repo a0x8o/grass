@@ -59,6 +59,7 @@ struct menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -102,6 +103,8 @@ struct weight_functions
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 };
 
 <<<<<<< HEAD
@@ -115,6 +118,7 @@ struct weight_functions
     char *text;			/* weight types display - full description */
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -139,6 +143,32 @@ enum out_type {
 
 enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 
+=======
+enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+};
+
+struct weight_functions {
+    char *name; /* name  of the weight type */
+    char *text; /* weight types display - full description */
+};
+
+<<<<<<< HEAD
+enum out_type {
+    T_FLOAT	= 1,
+    T_INT	= 2,
+    T_COUNT	= 3,
+    T_COPY	= 4,
+    T_SUM	= 5
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+};
+
+enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
+
+<<<<<<< HEAD
 =======
 enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 
@@ -404,6 +434,9 @@ enum out_type { T_FLOAT = 1, T_INT = 2, T_COUNT = 3, T_COPY = 4, T_SUM = 5 };
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -511,6 +544,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     size_t size;
 =======
 <<<<<<< HEAD
@@ -541,6 +575,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     size_t size, in_buf_size, out_buf_size;
@@ -556,6 +592,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     size_t size;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -609,6 +646,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    size_t size;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     size_t size;
@@ -635,6 +677,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -664,9 +707,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,6 +764,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     struct {
@@ -745,6 +793,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -790,6 +839,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -813,6 +865,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -826,9 +879,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +936,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     } parm;
@@ -939,6 +997,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -961,6 +1020,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1009,6 +1070,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1067,6 +1129,11 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> osgeo-main
 
     parm.method = G_define_option();
     parm.method->key = "method";
@@ -1075,6 +1142,7 @@ int main(int argc, char *argv[])
     parm.method->answer = "average";
     p = G_malloc(1024);
     for (n = 0; menu[n].name; n++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,11 +1170,14 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         if (n)
             strcat(p, ",");
         else
             *p = 0;
         strcat(p, menu[n].name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1152,6 +1223,8 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     }
     parm.method->options = p;
     parm.method->description = _("Neighborhood operation");
@@ -1169,6 +1242,7 @@ int main(int argc, char *argv[])
                "gaussian;%s;"
                "exponential;%s;"
                "file;%s;",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1217,11 +1291,15 @@ int main(int argc, char *argv[])
 =======
                _("No weighting"), _("Gaussian weighting function"),
 >>>>>>> osgeo-main
+=======
+               _("No weighting"), _("Gaussian weighting function"),
+>>>>>>> osgeo-main
                _("Exponential weighting function"),
                _("File with a custom weighting matrix"));
     parm.weighting_function->description = _("Weighting function");
     parm.weighting_function->multiple = NO;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,6 +1365,11 @@ int main(int argc, char *argv[])
 >>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+>>>>>>> osgeo-main
 =======
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
@@ -1316,6 +1399,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1363,10 +1447,13 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1387,6 +1474,8 @@ int main(int argc, char *argv[])
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1415,6 +1504,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1434,10 +1524,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1466,10 +1559,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     parm.weighting_factor->description =
         _("Factor used in the selected weighting function (ignored for none "
           "and file)");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1527,6 +1623,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1562,6 +1660,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1626,6 +1725,8 @@ int main(int argc, char *argv[])
 >>>>>>> ff88ef2b50 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> f3a6d92ee7 (r.report: add default units, change to full unit names (#1666))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -1680,6 +1781,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1710,9 +1812,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1772,6 +1877,8 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     sscanf(parm.nprocs->answer, "%d", &ncb.threads);
     if (ncb.threads < 1) {
         G_fatal_error(_("<%d> is not valid number of threads."), ncb.threads);
@@ -1784,6 +1891,7 @@ int main(int argc, char *argv[])
                     "threads setting."));
     ncb.threads = 1;
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1830,6 +1938,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     if (ncb.threads > 1 && G_find_raster("MASK", G_mapset()) != NULL) {
@@ -1862,10 +1972,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1934,6 +2047,7 @@ int main(int argc, char *argv[])
                       parm.weighting_function->answer,
                       parm.weighting_factor->key);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,6 +2265,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -2240,6 +2356,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2277,6 +2394,43 @@ int main(int argc, char *argv[])
 	read_weights(parm.weight->answer);
 	weights = 1;
     }
+    else if (strcmp(parm.weighting_function->answer, "none")) {
+	G_verbose_message(_("Computing %s weights..."),
+			      parm.weighting_function->answer);
+	compute_weights(parm.weighting_function->answer,
+	                atof(parm.weighting_factor->answer));
+	weights = 1;
+>>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+=======
+        read_weights(parm.weight->answer);
+        weights = 1;
+    }
+    else if (strcmp(parm.weighting_function->answer, "none")) {
+        G_verbose_message(_("Computing %s weights..."),
+                          parm.weighting_function->answer);
+        compute_weights(parm.weighting_function->answer,
+                        atof(parm.weighting_factor->answer));
+        weights = 1;
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+    }
+>>>>>>> osgeo-main
+=======
+        read_weights(parm.weight->answer);
+        weights = 1;
+    }
+    else if (strcmp(parm.weighting_function->answer, "none")) {
+        G_verbose_message(_("Computing %s weights..."),
+                          parm.weighting_function->answer);
+        compute_weights(parm.weighting_function->answer,
+                        atof(parm.weighting_factor->answer));
+        weights = 1;
+=======
+=======
+>>>>>>> 1dffc5dfd4 (r.report: add default units, change to full unit names (#1666))
+	read_weights(parm.weight->answer);
+	weights = 1;
+    }
+<<<<<<< HEAD
     else if (strcmp(parm.weighting_function->answer, "none")) {
 	G_verbose_message(_("Computing %s weights..."),
 			      parm.weighting_function->answer);
@@ -2624,6 +2778,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     copycolr = 0;
     have_weights_mask = 0;
@@ -2636,6 +2793,7 @@ int main(int argc, char *argv[])
         RASTER_MAP_TYPE otype =
             output_type(map_type, weights, menu[method].otype);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2681,9 +2839,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2735,6 +2896,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         out->name = output_name;
@@ -2786,6 +2949,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2831,6 +2995,9 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -2878,6 +3045,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2891,9 +3059,12 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2945,6 +3116,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -3062,6 +3235,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             outputs[i].buf[brow_idx * ncols + col] =
 =======
 <<<<<<< HEAD
@@ -3092,6 +3266,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             outputs[i].buf[(size_t)brow_idx * ncols + col] =
@@ -3107,6 +3283,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             outputs[i].buf[brow_idx * ncols + col] =
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3160,6 +3337,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            outputs[i].buf[brow_idx * ncols + col] =
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             outputs[i].buf[brow_idx * ncols + col] =
@@ -3188,6 +3370,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
 =======
 <<<<<<< HEAD
@@ -3218,6 +3401,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                         DCELL *rp = &out->buf[(size_t)brow_idx * ncols + col];
@@ -3233,6 +3418,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         DCELL *rp = &out->buf[brow_idx * ncols + col];
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3286,6 +3472,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        DCELL *rp = &out->buf[brow_idx * ncols + col];
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                         DCELL *rp = &out->buf[brow_idx * ncols + col];

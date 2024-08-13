@@ -89,6 +89,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -150,6 +151,11 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive(size_t inMem)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -185,6 +191,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // This metod initialized the PQ based on the memory passed
 =======
 <<<<<<< HEAD
@@ -215,6 +222,8 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 // This method initialized the PQ based on the memory passed
@@ -230,6 +239,7 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // This metod initialized the PQ based on the memory passed
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -283,6 +293,11 @@ EMPQueueAdaptive<T, Key>::EMPQueueAdaptive()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+// This metod initialized the PQ based on the memory passed
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 // This metod initialized the PQ based on the memory passed

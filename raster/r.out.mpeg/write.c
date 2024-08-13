@@ -204,6 +204,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   int quality, int y_rows, int y_cols, int fly)
 =======
 <<<<<<< HEAD
@@ -234,6 +235,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                   int quality, int y_rows UNUSED, int y_cols UNUSED, int fly)
@@ -249,6 +252,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   int quality, int y_rows, int y_cols, int fly)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -307,16 +311,25 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
                   int quality, int y_rows, int y_cols, int fly)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+                  int quality, int y_rows, int y_cols, int fly)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     FILE *fp;
     char dir[1000], *enddir;
     int i, dirlen = 0;
+    size_t len;
 
     if (NULL == (fp = fopen(mpfilename, "w")))
         G_fatal_error(_("Unable to create temporary files."));
 
     if (!fly) {
-        strcpy(dir, yfiles[0]);
+        len = G_strlcpy(dir, yfiles[0], sizeof(dir));
+        if (len >= sizeof(dir)) {
+            G_fatal_error(_("Directory <%s> too long"), yfiles[0]);
+        }
         enddir = strrchr(dir, '/');
 
         if (enddir) {

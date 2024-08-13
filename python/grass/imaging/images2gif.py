@@ -226,6 +226,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -276,6 +277,10 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 =======
+            loops = 2**16 - 1
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -285,6 +290,7 @@ class GifWriter:
 =======
             loops = 2**16 - 1
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +378,8 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             # bb = ""
@@ -637,7 +645,7 @@ class GifWriter:
                     fp.write(d)
 
             # Prepare for next round
-            frames = frames + 1
+            frames += 1
 
         fp.write(";")  # end gif
         return frames
@@ -823,6 +831,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -853,6 +862,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         raise OSError("File not found: " + str(filename))
@@ -868,6 +879,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -921,6 +933,11 @@ def readGif(filename, asNumpy=True):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
         raise IOError("File not found: " + str(filename))
@@ -1137,14 +1154,14 @@ class NeuQuant:
 
     def geta(self, alpha, rad):
         try:
-            return self.a_s[(alpha, rad)]
+            return self.a_s[alpha, rad]
         except KeyError:
             length = rad * 2 - 1
             mid = length / 2
             q = np.array(list(range(mid - 1, -1, -1)) + list(range(-1, mid)))
             a = alpha * (rad * rad - q * q) / (rad * rad)
             a[mid] = 0
-            self.a_s[(alpha, rad)] = a
+            self.a_s[alpha, rad] = a
             return a
 
     def alterneigh(self, alpha, rad, i, b, g, r):

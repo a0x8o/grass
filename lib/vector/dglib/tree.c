@@ -63,6 +63,7 @@ void dglTreeNodeCancel(void *pvNode, void *pvParam UNUSED)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
 =======
 <<<<<<< HEAD
@@ -93,6 +94,8 @@ int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB,
@@ -109,6 +112,7 @@ int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -162,6 +166,11 @@ int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int dglTreeNodeCompare(const void *pvNodeA, const void *pvNodeB, void *pvParam)
@@ -232,6 +241,7 @@ int dglTreeNode2Compare(const void *pvNode2A, const void *pvNode2B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         void *pvParam)
 =======
 <<<<<<< HEAD
@@ -262,6 +272,8 @@ int dglTreeNode2Compare(const void *pvNode2A, const void *pvNode2B,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                         void *pvParam UNUSED)
@@ -277,6 +289,7 @@ int dglTreeNode2Compare(const void *pvNode2A, const void *pvNode2B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -330,6 +343,11 @@ int dglTreeNode2Compare(const void *pvNode2A, const void *pvNode2B,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                         void *pvParam)
@@ -396,6 +414,7 @@ void dglTreeEdgeCancel(void *pvEdge, void *pvParam UNUSED)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
 =======
 <<<<<<< HEAD
@@ -426,6 +445,8 @@ int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB,
@@ -442,6 +463,7 @@ int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -495,6 +517,11 @@ int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int dglTreeEdgeCompare(const void *pvEdgeA, const void *pvEdgeB, void *pvParam)
@@ -559,6 +586,7 @@ int dglTreeTouchI32Compare(const void *pvTouchI32A, const void *pvTouchI32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            void *pvParam)
 =======
 <<<<<<< HEAD
@@ -589,6 +617,8 @@ int dglTreeTouchI32Compare(const void *pvTouchI32A, const void *pvTouchI32B,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                            void *pvParam UNUSED)
@@ -604,6 +634,7 @@ int dglTreeTouchI32Compare(const void *pvTouchI32A, const void *pvTouchI32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                            void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -657,6 +688,11 @@ int dglTreeTouchI32Compare(const void *pvTouchI32A, const void *pvTouchI32B,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                           void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                            void *pvParam)
@@ -723,6 +759,7 @@ int dglTreePredistCompare(const void *pvPredistA, const void *pvPredistB,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           void *pvParam)
 =======
 <<<<<<< HEAD
@@ -753,6 +790,8 @@ int dglTreePredistCompare(const void *pvPredistA, const void *pvPredistB,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                           void *pvParam UNUSED)
@@ -768,6 +807,7 @@ int dglTreePredistCompare(const void *pvPredistA, const void *pvPredistB,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                           void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -821,6 +861,11 @@ int dglTreePredistCompare(const void *pvPredistA, const void *pvPredistB,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                          void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                           void *pvParam)
@@ -887,6 +932,7 @@ int dglTreeNodePri32Compare(const void *pvNodePri32A, const void *pvNodePri32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             void *pvParam)
 =======
 <<<<<<< HEAD
@@ -917,6 +963,8 @@ int dglTreeNodePri32Compare(const void *pvNodePri32A, const void *pvNodePri32B,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             void *pvParam UNUSED)
@@ -932,6 +980,7 @@ int dglTreeNodePri32Compare(const void *pvNodePri32A, const void *pvNodePri32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -985,6 +1034,11 @@ int dglTreeNodePri32Compare(const void *pvNodePri32A, const void *pvNodePri32B,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             void *pvParam)
@@ -1054,6 +1108,7 @@ int dglTreeEdgePri32Compare(const void *pvEdgePri32A, const void *pvEdgePri32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             void *pvParam)
 =======
 <<<<<<< HEAD
@@ -1084,6 +1139,8 @@ int dglTreeEdgePri32Compare(const void *pvEdgePri32A, const void *pvEdgePri32B,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             void *pvParam UNUSED)
@@ -1099,6 +1156,7 @@ int dglTreeEdgePri32Compare(const void *pvEdgePri32A, const void *pvEdgePri32B,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             void *pvParam)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1152,6 +1210,11 @@ int dglTreeEdgePri32Compare(const void *pvEdgePri32A, const void *pvEdgePri32B,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            void *pvParam)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             void *pvParam)
@@ -1203,6 +1266,7 @@ static void *_tree_malloc(struct libavl_allocator *allocator,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1264,6 +1328,11 @@ static void *_tree_malloc(struct libavl_allocator *allocator,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

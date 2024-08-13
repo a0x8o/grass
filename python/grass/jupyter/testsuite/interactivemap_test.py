@@ -34,6 +34,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99,10 +100,15 @@ import os
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import sys
 import unittest
 from pathlib import Path
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +152,9 @@ from pathlib import Path
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 import unittest
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -159,6 +168,7 @@ from pathlib import Path
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +253,8 @@ from pathlib import Path
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 import grass.jupyter as gj
@@ -269,6 +281,7 @@ def can_import_folium():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -315,6 +328,10 @@ def can_import_folium():
         import folium  # noqa
 =======
 >>>>>>> osgeo-main
+=======
+        import folium  # noqa
+=======
+>>>>>>> osgeo-main
         import folium
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
 =======
@@ -323,6 +340,7 @@ def can_import_folium():
 =======
         import folium  # noqa
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +417,8 @@ def can_import_folium():
 >>>>>>> osgeo-main
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 
         return True
     except ImportError:
@@ -466,6 +486,22 @@ class TestDisplay(TestCase):
         self.files.append(filename)
         interactive_map.save(filename)
         self.assertFileExists(filename)
+
+    @unittest.skipIf(not can_import_ipyleaflet(), "Cannot import ipyleaflet")
+    def test_query_button(self):
+        # Create InteractiveMap with ipyleaflet backend
+        interactive_map = gj.InteractiveMap(map_backend="ipyleaflet")
+        interactive_map.add_raster("elevation")
+        interactive_map.add_vector("roadsmajor")
+        interactive_map.add_query_button()
+        self.assertIsNotNone(interactive_map.map)
+        self.assertTrue(interactive_map.query_mode is False)
+        # Toggle query button to activate
+        interactive_map.query_mode = True
+        self.assertTrue(interactive_map.query_mode)
+        # Toggle query button to deactivate
+        interactive_map.query_mode = False
+        self.assertFalse(interactive_map.query_mode)
 
     @unittest.skipIf(not can_import_ipyleaflet(), "Cannot import ipyleaflet")
     def test_draw_computational_region(self):

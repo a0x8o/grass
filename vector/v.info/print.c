@@ -187,6 +187,7 @@ void print_topo(struct Map_info *Map, enum OutputFormat format,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void print_columns(const struct Map_info *Map, const char *input_opt,
 =======
 <<<<<<< HEAD
@@ -217,6 +218,8 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void print_columns(struct Map_info *Map, const char *input_opt,
@@ -232,6 +235,7 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -285,6 +289,11 @@ void print_columns(const struct Map_info *Map, const char *input_opt,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void print_columns(const struct Map_info *Map, const char *input_opt,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void print_columns(const struct Map_info *Map, const char *input_opt,
@@ -414,6 +423,7 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -439,11 +449,14 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     fprintf(stdout, "project=%s\n", G_location());
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +505,8 @@ void print_shell(struct Map_info *Map, const char *field_opt,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     fprintf(stdout, "database=%s\n", G_gisdbase());
@@ -745,6 +760,7 @@ void print_info(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 =======
 <<<<<<< HEAD
@@ -775,6 +791,8 @@ void print_info(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     G_saprintf(line, "%-17s%s", _("Project:"), G_location());
@@ -790,6 +808,7 @@ void print_info(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -843,6 +862,11 @@ void print_info(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_saprintf(line, "%-17s%s", _("Location:"), G_location());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_saprintf(line, "%-17s%s", _("Location:"), G_location());

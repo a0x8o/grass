@@ -24,6 +24,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -71,6 +72,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
@@ -88,6 +91,7 @@ extend-exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -107,11 +111,14 @@ extend-exclude = '''
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
 =======
 target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +190,11 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+target-version = ['py37', 'py38', 'py39', 'py310']
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -221,6 +233,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     | python/libgrass_interface_generator/
@@ -261,12 +274,15 @@ exclude = '''
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
     # at the time of writing.
     # https://github.com/psf/black/issues/1244
     | python/grass/pygrass/utils.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,12 +306,15 @@ exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
     | python/libgrass_interface_generator/
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,6 +401,11 @@ exclude = '''
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    | python/libgrass_interface_generator/
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     | python/libgrass_interface_generator/
@@ -569,12 +593,9 @@ ignore = [
     "PERF401", # manual-list-comprehension
     "PERF402", # manual-list-copy
     "PERF403", # manual-dict-comprehension
-    "PIE790",  # unnecessary-placeholder
     "PIE794",  # duplicate-class-field-definition
     "PIE808",  # unnecessary-range-start
     "PIE810",  # multiple-starts-ends-with
-    "PLC0206", # dict-index-missing-items
-    "PLC0414", # useless-import-alias
     "PLC0415", # import-outside-top-level
     "PLC1901", # compare-to-empty-string
     "PLC2701", # import-private-name
@@ -596,6 +617,7 @@ ignore = [
     "PLR1714", # repeated-equality-comparison
     "PLR1733", # unnecessary-dict-index-lookup
     "PLR2004", # magic-value-comparison
+<<<<<<< HEAD
     "PLR2044", # empty-comment
     "PLR5501", # collapsible-else-if
 =======
@@ -603,9 +625,10 @@ ignore = [
     "PLR2004", # magic-value-comparison
 >>>>>>> main
     "PLR6104", # non-augmented-assignment
+=======
+>>>>>>> osgeo-main
     "PLR6201", # literal-membership
     "PLR6301", # no-self-use
-    "PLW0127", # self-assigning-variable
     "PLW0406", # import-self
     "PLW0602", # global-variable-not-assigned
     "PLW0603", # global-statement
@@ -647,6 +670,7 @@ ignore = [
     "PTH204",  # os-path-getmtime
     "PTH207",  # glob
 <<<<<<< HEAD
+<<<<<<< HEAD
     "RET50",   # flake8-return (RET)
 =======
     "RET501", # unnecessary-return-none
@@ -657,6 +681,15 @@ ignore = [
     "RET507", # superfluous-else-continue
     "RET508", # superfluous-else-break
 >>>>>>> main
+=======
+    "RET501",  # unnecessary-return-none
+    "RET502",  # implicit-return-value
+    "RET503",  # implicit-return
+    "RET505",  # superfluous-else-return
+    "RET506",  # superfluous-else-raise
+    "RET507",  # superfluous-else-continue
+    "RET508",  # superfluous-else-break
+>>>>>>> osgeo-main
     "RSE102",  # unnecessary-paren-on-raise-exception
     "RUF002",  # ambiguous-unicode-character-docstring
     "RUF003",  # ambiguous-unicode-character-comment
@@ -665,7 +698,6 @@ ignore = [
     "RUF013",  # unnecessary-iterable-allocation-for-first-element
     "RUF015",  # unnecessary-iterable-allocation-for-first-element
     "RUF019",  # unnecessary-key-check
-    "RUF021",  # parenthesize-chained-operators
     "RUF027",  # missing-f-string-syntax
     "RUF100",  # unused-noqa
     "S101",    #assert
@@ -723,7 +755,6 @@ ignore = [
     "UP030",   # format-literals
     "UP031",   # printf-string-formatting
     "UP032",   # f-string
-    "UP034",   # extraneous-parentheses
     "UP036",   # outdated-version-block
 <<<<<<< HEAD
     "W391",    # too-many-newlines-at-end-of-file
@@ -736,13 +767,16 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 # See https://docs.astral.sh/ruff/settings/#lint_per-file-ignores
+# "A005", # builtin-module-shadowing
 # "INT002", # f-string-in-get-text-func-call
 # "INT001", # format-in-get-text-func-call
 # "INT003", # printf-in-get-text-func-call
+# "PLW0108", # unnecessary-lambda
 # Ignore `E402` (import violations) in all `__init__.py` files
 "*/testsuite/**.py" = ["PT009", "PT027"]
 "__init__.py" = ["E402"]
 "general/g.parser/test.py" = ["INT003"]
+"gui/**" = ["PLW0108"] # See https://github.com/OSGeo/grass/issues/4124
 "gui/wxpython/animation/dialogs.py" = ["INT002"]
 "gui/wxpython/animation/temporal_manager.py" = ["INT003"]
 "gui/wxpython/core/debug.py" = ["INT002"]
@@ -759,6 +793,7 @@ ignore = [
 "gui/wxpython/iclass/dialogs.py" = ["INT003"]
 "gui/wxpython/iclass/frame.py" = ["FLY002", "INT003"]
 "gui/wxpython/iclass/plots.py" = ["INT003"]
+"gui/wxpython/iclass/statistics.py" = ["A005"]
 "gui/wxpython/image2target/ii2t_gis_set.py" = ["INT003"]
 "gui/wxpython/iscatt/controllers.py" = ["INT003"]
 "gui/wxpython/iscatt/dialogs.py" = ["INT003"]
@@ -786,8 +821,12 @@ ignore = [
 "gui/wxpython/web_services/widgets.py" = ["INT003"]
 "gui/wxpython/wxgui.py" = ["INT002"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 "gui/wxpython/wxplot/profile.py" = ["NPY001"]
 =======
+=======
+"gui/wxpython/wxplot/profile.py" = ["A005"]
+>>>>>>> osgeo-main
 "lib/imagery/testsuite/test_imagery_sigsetfile.py" = ["FURB152"]
 >>>>>>> main
 "lib/init/grass.py" = ["INT003"]
@@ -802,6 +841,7 @@ ignore = [
 "python/grass/jupyter/testsuite/interactivemap_test.py" = ["PGH004"]
 "python/grass/jupyter/testsuite/map_test.py" = ["PGH004"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 "python/grass/pygrass/raster/__init__.py" = ["NPY002"]
 "python/grass/pygrass/raster/category.py" = ["INT002"]
 "python/grass/pygrass/raster/testsuite/test_numpy.py" = ["NPY002"]
@@ -811,12 +851,19 @@ ignore = [
 "python/grass/pygrass/vector/testsuite/test_table.py" = ["NPY002", "PLW0108"]
 "python/grass/pygrass/vector/testsuite/test_vector3d.py" = ["NPY002"]
 =======
+=======
+"python/grass/pydispatch/signal.py" = ["A005"]
+>>>>>>> osgeo-main
 "python/grass/pygrass/raster/category.py" = ["INT002"]
 "python/grass/pygrass/vector/__init__.py" = ["INT003"]
 "python/grass/pygrass/vector/geometry.py" = ["PYI024"]
 "python/grass/pygrass/vector/sql.py" = ["FLY002"]
 "python/grass/pygrass/vector/testsuite/test_table.py" = ["PLW0108"]
+<<<<<<< HEAD
 >>>>>>> main
+=======
+"python/grass/script/array.py" = ["A005"]
+>>>>>>> osgeo-main
 "python/grass/script/raster.py" = ["INT003"]
 "python/grass/temporal/abstract_space_time_dataset.py" = ["INT003"]
 "python/grass/temporal/aggregation.py" = ["INT003"]
@@ -903,6 +950,7 @@ timeout = 300
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -931,6 +979,8 @@ timeout = 300
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 markers = [
@@ -945,6 +995,7 @@ markers = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -980,6 +1031,11 @@ markers = [
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 
 [tool.bandit]
@@ -987,7 +1043,10 @@ markers = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 exclude_dirs = [
@@ -998,6 +1057,7 @@ exclude_dirs = [
 ]
 skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> main
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
@@ -1112,6 +1172,8 @@ skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
 <<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
@@ -1125,8 +1187,11 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1136,6 +1201,9 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main

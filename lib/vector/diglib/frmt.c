@@ -19,6 +19,7 @@
 
 #include <grass/vector.h>
 #include <grass/glocale.h>
+#include <grass/gis.h>
 
 /*!
    \brief Read external vector format file
@@ -34,6 +35,7 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
     char buff[2001], buf1[2001];
     char *ptr;
     int frmt = -1;
+    size_t len;
 
     G_debug(3, "dig_read_frmt_ascii()");
 
@@ -46,7 +48,11 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
             return -1;
         }
 
-        strcpy(buf1, buff);
+        len = G_strlcpy(buf1, buff, sizeof(buf1));
+        if (len >= sizeof(buf1)) {
+            G_warning(_("Line <%s> is too long"), buff);
+            return -1;
+        }
         buf1[ptr - buff] = '\0';
 
         ptr++; /* Search for the start of text */
@@ -98,7 +104,11 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
             continue;
         }
 
-        strcpy(buf1, buff);
+        len = G_strlcpy(buf1, buff, sizeof(buf1));
+        if (len >= sizeof(buf1)) {
+            G_warning(_("Line <%s> is too long"), buff);
+            return -1;
+        }
         buf1[ptr - buff] = '\0';
 
         ptr++; /* Search for the start of text */
@@ -164,6 +174,7 @@ int dig_read_frmt_ascii(FILE *dascii, struct Format_info *finfo)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 <<<<<<< HEAD
@@ -194,6 +205,8 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int dig_write_frmt_ascii(FILE *dascii UNUSED, struct Format_info *finfo UNUSED,
@@ -210,6 +223,7 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -263,6 +277,11 @@ int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int dig_write_frmt_ascii(FILE *dascii, struct Format_info *finfo, int format)

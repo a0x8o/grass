@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_points(const struct Map_info *Map, int area,
 =======
 <<<<<<< HEAD
@@ -76,6 +77,8 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_area_points(struct Map_info *Map, int area,
@@ -91,6 +94,7 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_get_area_points(const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -144,6 +148,11 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_get_area_points(const struct Map_info *Map, int area,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_get_area_points(const struct Map_info *Map, int area,
@@ -191,6 +200,7 @@ int Vect_get_area_points(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
 =======
 <<<<<<< HEAD
@@ -221,6 +231,8 @@ int Vect_get_isle_points(const struct Map_info *Map, int isle,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_isle_points(struct Map_info *Map, int isle,
@@ -236,6 +248,7 @@ int Vect_get_isle_points(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -289,6 +302,11 @@ int Vect_get_isle_points(const struct Map_info *Map, int isle,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_get_isle_points(const struct Map_info *Map, int isle,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_get_isle_points(const struct Map_info *Map, int isle,
@@ -376,6 +394,7 @@ int Vect_get_area_centroid(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_boundaries(const struct Map_info *Map, int area,
                              struct ilist *List)
 =======
@@ -407,6 +426,8 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_area_boundaries(struct Map_info *Map, int area, struct ilist *List)
@@ -423,6 +444,7 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -442,9 +464,12 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int Vect_get_area_boundaries(const struct Map_info *Map, int area,
                              struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +509,8 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
@@ -533,6 +560,7 @@ int Vect_get_area_boundaries(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
                              struct ilist *List)
 =======
@@ -564,6 +592,8 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_isle_boundaries(struct Map_info *Map, int isle, struct ilist *List)
@@ -580,6 +610,7 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -599,9 +630,12 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
                              struct ilist *List)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -641,6 +675,8 @@ int Vect_get_isle_boundaries(const struct Map_info *Map, int isle,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
@@ -813,6 +849,7 @@ double Vect_get_area_perimeter(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 =======
 <<<<<<< HEAD
@@ -843,6 +880,8 @@ int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_point_in_area(double x, double y, struct Map_info *Map, int area,
@@ -858,6 +897,7 @@ int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -911,6 +951,11 @@ int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_point_in_area(double x, double y, const struct Map_info *Map, int area,
@@ -1016,6 +1061,7 @@ double Vect_get_area_area(struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_area_cats(const struct Map_info *Map, int area,
                        struct line_cats *Cats)
 =======
@@ -1047,6 +1093,8 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect_get_area_cats(struct Map_info *Map, int area, struct line_cats *Cats)
@@ -1063,6 +1111,7 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1082,9 +1131,12 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int Vect_get_area_cats(const struct Map_info *Map, int area,
                        struct line_cats *Cats)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,6 +1176,8 @@ int Vect_get_area_cats(const struct Map_info *Map, int area,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 {
@@ -1201,6 +1255,7 @@ int Vect_get_area_cat(struct Map_info *Map, int area, int field)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -1231,6 +1286,8 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect__get_area_points(struct Map_info *Map, const plus_t *lines,
@@ -1246,6 +1303,7 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1299,6 +1357,11 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
@@ -1344,6 +1407,7 @@ int Vect__get_area_points(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 =======
 <<<<<<< HEAD
@@ -1374,6 +1438,8 @@ int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Vect__get_area_points_nat(struct Map_info *Map, const plus_t *lines,
@@ -1389,6 +1455,7 @@ int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1442,6 +1509,11 @@ int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect__get_area_points_nat(const struct Map_info *Map, const plus_t *lines,

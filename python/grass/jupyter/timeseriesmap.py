@@ -1,11 +1,12 @@
 # MODULE:    grass.jupyter.timeseriesmap
 #
 # AUTHOR(S): Caitlin Haedrich <caitlin DOT haedrich AT gmail>
+#            Riya Saxena <29riyasaxena AT gmail>
 #
 # PURPOSE:   This module contains functions for visualizing raster and vector
 #            space-time datasets in Jupyter Notebooks
 #
-# COPYRIGHT: (C) 2022 Caitlin Haedrich, and by the GRASS Development Team
+# COPYRIGHT: (C) 2022-2024 Caitlin Haedrich, and by the GRASS Development Team
 #
 #           This program is free software under the GNU General Public
 #           License (>=v2). Read the file COPYING that comes with GRASS
@@ -14,6 +15,7 @@
 
 import os
 import shutil
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,11 +53,14 @@ import shutil
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,10 +111,13 @@ import shutil
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 import grass.script as gs
 
 from .map import Map
 from .region import RegionManagerForTimeSeries
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,10 +184,16 @@ from .utils import save_gif
 from .baseseriesmap import BaseSeriesMap
 >>>>>>> osgeo-main
 =======
+from .utils import save_gif
+<<<<<<< HEAD
+from .baseseriesmap import BaseSeriesMap
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,9 +213,12 @@ from .baseseriesmap import BaseSeriesMap
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +273,8 @@ from .baseseriesmap import BaseSeriesMap
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -379,6 +398,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -404,11 +424,14 @@ class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     # pylint: disable=duplicate-code
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +480,8 @@ class TimeSeriesMap(BaseSeriesMap):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -609,48 +634,36 @@ class TimeSeriesMap(BaseSeriesMap):
         if self._legend:
             self._render_legend(img)
 
+    def _render_worker(self, date, layer, filename):
+        """Function to render a single layer."""
+        shutil.copyfile(self.base_file, filename)
+        if layer == "None":
+            self._render_blank_layer(filename)
+        else:
+            self._render_layer(layer, filename)
+        return date, filename
+
     def render(self):
-        """Renders image for each time-step in space-time dataset.
-
-        Save PNGs to temporary directory. Must be run before creating a visualization
-        (i.e. show or save). Can be time-consuming to run with large
-        space-time datasets.
-        """
-
-        self._render()
+        """Renders image for each time-step in space-time dataset."""
         if not self._baseseries_added:
             raise RuntimeError(
                 "Cannot render space time dataset since none has been added."
-                "Use TimeSeriesMap.add_raster_series() or "
+                " Use TimeSeriesMap.add_raster_series() or "
                 "TimeSeriesMap.add_vector_series() to add dataset"
             )
 
         # Create name for empty layers
-        # Random name needed to avoid potential conflict with layer names
-        # A new random_name_none is created each time the render function is run,
-        # and any existing random_name_none file will be ignored
         random_name_none = gs.append_random("none", 8) + ".png"
 
-        # Render each layer
+        # Prepare tasks with tuples
+        tasks = []
         for date, layer in self._date_layer_dict.items():
             if layer == "None":
-                # Create file
                 filename = os.path.join(self._tmpdir.name, random_name_none)
-                self._base_filename_dict[date] = filename
-                # Render blank layer if it hasn't been done already
-                if not os.path.exists(filename):
-                    shutil.copyfile(self.base_file, filename)
-                    self._render_blank_layer(filename)
             else:
-                # Create file
                 filename = os.path.join(self._tmpdir.name, f"{layer}.png")
-                # Copying the base_file ensures that previous results are overwritten
-                shutil.copyfile(self.base_file, filename)
-                self._base_filename_dict[date] = filename
-                # Render image
-                self._render_layer(layer, filename)
-
-        self._layers_rendered = True
+            tasks.append((date, layer, filename))
+        self._render(tasks)
 
     def save(
         self,
@@ -686,6 +699,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +762,11 @@ class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -769,6 +788,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -830,6 +850,11 @@ class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -852,6 +877,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -881,6 +907,8 @@ class TimeSeriesMap(BaseSeriesMap):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         input_files = []
@@ -906,6 +934,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -951,6 +980,10 @@ class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -993,6 +1026,7 @@ class TimeSeriesMap(BaseSeriesMap):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,6 +1088,11 @@ class TimeSeriesMap(BaseSeriesMap):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

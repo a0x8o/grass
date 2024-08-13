@@ -174,6 +174,7 @@ Use function names which fulfill the official GNU naming convention:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Instead of naming a function like: MyNewFunction() use underscores for seperation
 =======
 <<<<<<< HEAD
@@ -204,6 +205,8 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Instead of naming a function like: MyNewFunction() use underscores for separation
@@ -219,6 +222,7 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Instead of naming a function like: MyNewFunction() use underscores for seperation
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -272,6 +276,11 @@ Instead of naming a function like: MyNewFunction() use underscores for seperatio
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+Instead of naming a function like: MyNewFunction() use underscores for seperation
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 Instead of naming a function like: MyNewFunction() use underscores for seperation
@@ -387,6 +396,7 @@ G_message() output is not expected to be sent to pipe or file.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Always use the gettext macros with _("") for user messages, example:
 =======
 <<<<<<< HEAD
@@ -417,6 +427,8 @@ Always use the gettext macros with _("") for user messages, example:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 Messages aiming at the user should be marked for translation. Output meant for
@@ -440,6 +452,7 @@ Always use the gettext macros with _("") for user messages, example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Always use the gettext macros with _("") for user messages, example:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -493,6 +506,11 @@ Always use the gettext macros with _("") for user messages, example:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+Always use the gettext macros with _("") for user messages, example:
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 Always use the gettext macros with _("") for user messages, example:
@@ -517,6 +535,7 @@ hint to translators about meaning or use of cumbersome or obscure message. First
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 word in the comment must be GTC - GRASS translation comment,
 =======
 <<<<<<< HEAD
@@ -547,6 +566,8 @@ word in the comment must be GTC - GRASS translation comment,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 word in the comment must be GTC: GRASS translation comment,
@@ -562,6 +583,7 @@ word in the comment must be GTC - GRASS translation comment,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 word in the comment must be GTC - GRASS translation comment,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -615,6 +637,11 @@ word in the comment must be GTC - GRASS translation comment,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+word in the comment must be GTC - GRASS translation comment,
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 word in the comment must be GTC - GRASS translation comment,
@@ -636,6 +663,7 @@ Example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* GTC A name of a projection */
 =======
 <<<<<<< HEAD
@@ -666,6 +694,8 @@ Example:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 /* GTC: Name of a projection */
@@ -681,6 +711,7 @@ Example:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* GTC A name of a projection */
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -734,6 +765,11 @@ Example:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+/* GTC A name of a projection */
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 /* GTC A name of a projection */
@@ -755,6 +791,7 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -784,6 +821,8 @@ Any message with a noun in plural form has to pass `n_()` macro, even if for the
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 English language is not required! The syntax is
@@ -817,6 +856,7 @@ G_message( n_("Remove map", "Remove maps", count));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -862,6 +902,10 @@ G_message( n_("Remove map", "Remove maps", count));
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -886,6 +930,7 @@ See [locale/README](../../../locale/README) for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -947,6 +992,11 @@ See [locale/README](../../../locale/README) for details.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1021,6 +1071,7 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1050,6 +1101,8 @@ These index manual pages are autogenerated during the build process of GRASS GIS
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 ## Source Code Formatting
@@ -1097,6 +1150,7 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -1142,6 +1196,10 @@ GRASS_CLANG_FORMAT="clang-format-15" ./utils/grass_clang_format.sh
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1184,6 +1242,7 @@ or `man indent` for explanation of individual switches.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -1245,6 +1304,11 @@ or `man indent` for explanation of individual switches.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======

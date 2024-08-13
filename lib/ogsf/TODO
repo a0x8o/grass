@@ -39,6 +39,7 @@ You are right that there is a problem with normals for surfaces with values
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 the surface to disapear for larger values of z for higher resolution/higher
 =======
 <<<<<<< HEAD
@@ -69,6 +70,8 @@ the surface to disapear for larger values of z for higher resolution/higher
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 the surface to disappear for larger values of z for higher resolution/higher
@@ -84,6 +87,7 @@ the surface to disapear for larger values of z for higher resolution/higher
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -137,6 +141,11 @@ the surface to disapear for larger values of z for higher resolution/higher
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+the surface to disapear for larger values of z for higher resolution/higher
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 the surface to disapear for larger values of z for higher resolution/higher

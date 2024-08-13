@@ -176,7 +176,7 @@ def main():
                     False,
                     dbif,
                 )
-                aggreagated_map_name = aggreagated_map_name + "_0"
+                aggreagated_map_name += "_0"
                 if new_map is None:
                     continue
                 # We overwrite the raster_maps list

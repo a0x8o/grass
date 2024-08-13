@@ -102,6 +102,7 @@ int Nviz_draw_cplane(nv_data *data, int bound1, int bound2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void cp_draw(nv_data *data, int current, int surf1, int surf2)
 =======
 <<<<<<< HEAD
@@ -132,6 +133,8 @@ void cp_draw(nv_data *data, int current, int surf1, int surf2)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 void cp_draw(nv_data *data, int current UNUSED, int surf1, int surf2)
@@ -147,6 +150,7 @@ void cp_draw(nv_data *data, int current, int surf1, int surf2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void cp_draw(nv_data *data, int current, int surf1, int surf2)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -200,6 +204,11 @@ void cp_draw(nv_data *data, int current, int surf1, int surf2)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void cp_draw(nv_data *data, int current, int surf1, int surf2)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void cp_draw(nv_data *data, int current, int surf1, int surf2)
@@ -374,6 +383,7 @@ int Nviz_get_cplane_translation(nv_data *data, int id, float *dx, float *dy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Nviz_set_fence_color(nv_data *data, int type)
 =======
 <<<<<<< HEAD
@@ -404,6 +414,8 @@ int Nviz_set_fence_color(nv_data *data, int type)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 int Nviz_set_fence_color(nv_data *data UNUSED, int type)
@@ -419,6 +431,7 @@ int Nviz_set_fence_color(nv_data *data, int type)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Nviz_set_fence_color(nv_data *data, int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -472,6 +485,11 @@ int Nviz_set_fence_color(nv_data *data, int type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Nviz_set_fence_color(nv_data *data, int type)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Nviz_set_fence_color(nv_data *data, int type)

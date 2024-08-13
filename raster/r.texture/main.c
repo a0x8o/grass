@@ -320,6 +320,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -385,6 +386,11 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+    threads = G_set_omp_num_threads(parm.nproc);
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
     threads = atoi(parm.nproc->answer);
 #if defined(_OPENMP)
     /* Set the number of threads */
@@ -398,11 +404,13 @@ int main(int argc, char *argv[])
         threads = 1;
     }
 #endif
+>>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set, threads);
 =======
 <<<<<<< HEAD
     execute_texture(data, &dim, measure_menu, measure_idx, &out_set);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,6 +429,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     /* *************************************************************************************************
@@ -433,6 +443,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -447,6 +458,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
      *or co-occurrence matrix. The image is analyzed for piece, every piece is
@@ -458,6 +471,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -487,6 +501,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+     *or co-occurrence matrix. The image is analized for piece, every piece is
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      *or co-occurrence matrix. The image is analized for piece, every piece is
@@ -503,6 +522,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -523,12 +543,15 @@ int main(int argc, char *argv[])
 >>>>>>> main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
     for (i = 0; i < dim.n_outputs; i++) {
         Rast_close(outfd[i]);
         Rast_short_history(mapname[i], "raster", &history);
         Rast_command_history(&history);
         Rast_write_history(mapname[i], &history);
+        Rast_free_history(&history);
     }
 
     /* Free allocated memory */

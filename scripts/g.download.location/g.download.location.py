@@ -134,6 +134,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # full relative path, but the directory name is diffrent now.
 =======
 <<<<<<< HEAD
@@ -164,6 +165,8 @@ def main(options, unused_flags):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
             # full relative path, but the directory name is different now.
@@ -179,6 +182,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # full relative path, but the directory name is diffrent now.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -232,6 +236,11 @@ def main(options, unused_flags):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            # full relative path, but the directory name is diffrent now.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             # full relative path, but the directory name is diffrent now.
@@ -263,6 +272,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "The dowloaded file is not a valid GRASS Location."
 =======
 <<<<<<< HEAD
@@ -293,6 +303,8 @@ def main(options, unused_flags):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     "The downloaded file is not a valid GRASS Location."
@@ -308,6 +320,7 @@ def main(options, unused_flags):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "The dowloaded file is not a valid GRASS Location."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -361,6 +374,11 @@ def main(options, unused_flags):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    "The dowloaded file is not a valid GRASS Location."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "The dowloaded file is not a valid GRASS Location."

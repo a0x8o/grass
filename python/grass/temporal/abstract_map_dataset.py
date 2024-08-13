@@ -1025,6 +1025,7 @@ class AbstractMapDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1088,11 @@ class AbstractMapDataset(AbstractDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -1320,7 +1326,6 @@ class AbstractMapDataset(AbstractDataset):
         Currently only implemented in RasterDataset. Otherwise
         silently pass.
         """
-        pass
 
     def set_semantic_label(self, semantic_label):
         """Set semantic label identifier
