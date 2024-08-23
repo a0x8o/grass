@@ -74,6 +74,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -101,10 +102,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         super().__init__(*args, **kargs)
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +155,8 @@ class Category(list):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -238,6 +244,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
@@ -270,6 +277,8 @@ class Category(list):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -290,6 +299,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -311,10 +321,13 @@ class Category(list):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         return super(Category, self).__setitem__(
             self._chk_index(index), self._chk_value(value)
         )
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +368,8 @@ class Category(list):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -424,13 +439,13 @@ class Category(list):
         libraster.Rast_free_cats(ctypes.byref(self.c_cats))
 
     def get_cat(self, index):
-        return self.__getitem__(index)
+        return self[index]
 
     def set_cat(self, index, value):
         if index is None:
             self.append(value)
-        elif index < self.__len__():
-            self.__setitem__(index, value)
+        elif index < (len(self)):
+            self[index] = value
         else:
             raise TypeError("Index outside range.")
 
@@ -449,7 +464,7 @@ class Category(list):
         # reset only the C struct
         libraster.Rast_init_cats("", ctypes.byref(self.c_cats))
         # write to the c struct
-        for cat in self.__iter__():
+        for cat in iter(self):
             label, min_cat, max_cat = cat
             if max_cat is None:
                 max_cat = min_cat
@@ -501,7 +516,7 @@ class Category(list):
         self._read_cats()
 
     def ncats(self):
-        return self.__len__()
+        return len(self)
 
     def set_cats_fmt(self, fmt, m1, a1, m2, a2):
         """Not implemented yet.
@@ -511,6 +526,7 @@ class Category(list):
         raise ImplementationError("set_cats_fmt() is not implemented yet.")
 
     def read_rules(self, filename, sep=":"):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,10 +567,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +620,8 @@ class Category(list):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -648,6 +669,7 @@ class Category(list):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -675,10 +697,13 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         """Copy categories from a rules file, default separator is ':', the
 =======
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +754,8 @@ class Category(list):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         """Copy categories from a rules file, default separetor is ':', the
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
         columns must be: min and/or max and label. ::
@@ -745,7 +772,7 @@ class Category(list):
         :param str sep: the separator used to divide values and category
         """
         cats = []
-        for cat in self.__iter__():
+        for cat in iter(self):
             if cat[-1] is None:
                 cat = cat[:-1]
             cats.append(sep.join([str(i) for i in cat]))

@@ -66,6 +66,7 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -126,6 +127,11 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
         min_Sig = I_NewClassSig(&min_S);
 =======
 >>>>>>> osgeo-main
+=======
+        I_InitSigSet(&min_S, nbands);
+        min_Sig = I_NewClassSig(&min_S);
+=======
+>>>>>>> osgeo-main
 	I_InitSigSet(&min_S, nbands);
 	min_Sig = I_NewClassSig(&min_S);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -137,6 +143,7 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
         I_InitSigSet(&min_S, nbands);
         min_Sig = I_NewClassSig(&min_S);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +227,8 @@ void subcluster(struct SigSet *S, int Class_Index, int *Max_num,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -581,6 +590,7 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -612,9 +622,12 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -667,6 +680,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -692,6 +707,7 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -737,6 +753,9 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -760,6 +779,7 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -775,9 +795,12 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -830,6 +853,8 @@ static void reduce_order(struct ClassSig *Sig, int nbands, int *min_ii,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -921,6 +946,7 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -952,9 +978,12 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1036,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1032,6 +1063,7 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1077,6 +1109,9 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -1100,6 +1135,7 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1115,9 +1151,12 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1170,6 +1209,8 @@ static double distance(struct SubSig *SubSig1, struct SubSig *SubSig2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

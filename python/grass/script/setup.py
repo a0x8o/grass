@@ -44,6 +44,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -99,6 +100,8 @@ Usage::
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     executable = "grass"
     if sys.platform.startswith("win"):
         # MS Windows
@@ -125,10 +128,13 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -168,6 +174,7 @@ Usage::
         version = "@GRASS_VERSION_MAJOR@.@GRASS_VERSION_MINOR@"
         executable = f"/Applications/GRASS-{version}.app/Contents/Resources/bin/grass"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +292,8 @@ Usage::
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -317,6 +326,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -338,10 +348,13 @@ Usage::
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     # query GRASS GIS itself for its Python package path
     grass_cmd = [executable, "--config", "python_path"]
     process = subprocess.run(grass_cmd, check=True, text=True, stdout=subprocess.PIPE)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,10 +386,13 @@ Usage::
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     # query GRASS GIS itself for its Python package path
     grass_cmd = [executable, "--config", "python_path"]
     process = subprocess.run(grass_cmd, check=True, text=True, stdout=subprocess.PIPE)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +439,8 @@ Usage::
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -458,6 +476,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -517,6 +536,10 @@ Usage::
     gs.message("Current GRASS GIS 8 environment:")
 =======
 >>>>>>> osgeo-main
+=======
+    gs.message("Current GRASS GIS 8 environment:")
+=======
+>>>>>>> osgeo-main
     gs.message('Current GRASS GIS 8 environment:')
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -525,6 +548,7 @@ Usage::
 =======
     gs.message("Current GRASS GIS 8 environment:")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +654,11 @@ Usage::
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    gs.message("Current GRASS GIS 8 environment:")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     gs.message("Current GRASS GIS 8 environment:")
@@ -680,6 +709,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 (C) 2010-2023 by the GRASS Development Team
@@ -745,10 +775,13 @@ Usage::
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 (C) 2010-2024 by the GRASS Development Team
 =======
 (C) 2010-2021 by the GRASS Development Team
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +799,8 @@ Usage::
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -791,6 +826,7 @@ Usage::
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -806,11 +842,14 @@ Usage::
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 (C) 2010-2022 by the GRASS Development Team
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 (C) 2010-2023 by the GRASS Development Team
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,6 +955,11 @@ Usage::
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+(C) 2010-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 (C) 2010-2023 by the GRASS Development Team
@@ -974,6 +1018,7 @@ def set_gui_path():
 
 def get_install_path(path=None):
     """Get path to GRASS installation usable for setup of environmental variables.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1132,6 +1177,8 @@ def setup_runtime_env(gisbase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1391,8 +1438,11 @@ def init(path, location=None, mapset=None, *, grass_path=None, env=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1524,10 +1574,13 @@ def setup_runtime_env(gisbase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f30700108 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1683,6 +1736,7 @@ def init(path, location=None, mapset=None, grass_path=None):
     as long as the object is used as a context manager or the *finish* method
     of the object is called explicitly. Using methods of the session object is
     preferred over calling the function :func:`finish`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2367,6 +2421,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
     Basic usage::
 
@@ -2428,6 +2484,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 
     setup_runtime_env(grass_path)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3141,6 +3198,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
     # TODO: lock the mapset?
     os.environ["GIS_LOCK"] = str(os.getpid())
 
@@ -3250,6 +3309,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 
     setup_runtime_env(grass_path)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3367,6 +3427,8 @@ def init(path, location=None, mapset=None, grass_path=None):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     # TODO: lock the mapset?
     env["GIS_LOCK"] = str(os.getpid())
 
@@ -3379,6 +3441,7 @@ def init(path, location=None, mapset=None, grass_path=None):
 class SessionHandle:
     """Object used to manage GRASS sessions.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3435,6 +3498,9 @@ class SessionHandle:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -3508,6 +3574,7 @@ class SessionHandle:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3537,6 +3604,8 @@ class SessionHandle:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3557,6 +3626,7 @@ class SessionHandle:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3602,6 +3672,10 @@ class SessionHandle:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

@@ -1519,6 +1519,7 @@ class Grammar(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
 =======
 <<<<<<< HEAD
@@ -1549,6 +1550,8 @@ class Grammar(object):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1567,6 +1570,7 @@ class Grammar(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1620,6 +1624,11 @@ class Grammar(object):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.

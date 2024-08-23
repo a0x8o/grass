@@ -72,6 +72,7 @@ void G_get_window(struct Cell_head *window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
 =======
 <<<<<<< HEAD
@@ -102,6 +103,8 @@ void G_get_window(struct Cell_head *window)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -120,6 +123,7 @@ void G_get_window(struct Cell_head *window)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -173,6 +177,11 @@ void G_get_window(struct Cell_head *window)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G__read_Cell_head_array(tokens, &st->dbwindow, 0);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G__read_Cell_head_array(tokens, &st->dbwindow, 0);
@@ -275,6 +284,7 @@ void G_get_element_window(struct Cell_head *window, const char *element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -329,6 +339,10 @@ void G_unset_window(void)
 =======
 >>>>>>> osgeo-main
 =======
+void G_unset_window(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 void G_unset_window()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -341,6 +355,7 @@ void G_unset_window()
 void G_unset_window(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +444,8 @@ void G_unset_window(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

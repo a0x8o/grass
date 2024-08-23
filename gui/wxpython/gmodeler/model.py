@@ -38,7 +38,7 @@ import re
 import mimetypes
 import time
 
-import xml.etree.ElementTree as etree
+import xml.etree.ElementTree as ET
 from xml.sax import saxutils
 
 import wx
@@ -323,7 +323,7 @@ class Model:
         """
         # parse workspace file
         try:
-            gxmXml = ProcessModelFile(etree.parse(filename))
+            gxmXml = ProcessModelFile(ET.parse(filename))
         except Exception as e:
             raise GException("{}".format(e))
 
@@ -1577,7 +1577,7 @@ class ModelDataSingle(ModelData, ogl.EllipseShape):
         :param width, height: dimension of the shape
         :param x, y: position of the shape
         """
-        ogl.EllipseShape.__init__(self, width, height)
+        ogl.EllipseShape(self, width, height)
         if self.parent.GetCanvas():
             self.SetCanvas(self.parent.GetCanvas())
 
@@ -1592,7 +1592,7 @@ class ModelDataSeries(ModelData, ogl.CompositeShape):
         :param width, height: dimension of the shape
         :param x, y: position of the shape
         """
-        ogl.CompositeShape.__init__(self)
+        ogl.CompositeShape(self)
         if self.parent.GetCanvas():
             self.SetCanvas(self.parent.GetCanvas())
 
@@ -2635,6 +2635,7 @@ class WriteScriptFile(ABC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3189,6 +3190,10 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> osgeo-main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3702,6 +3707,7 @@ if __name__ == "__main__":
 
 class WritePythonFile(WriteScriptFile):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4773,6 +4779,8 @@ class WritePythonFile(WriteScriptFile):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6158,6 +6166,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -6205,6 +6214,8 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6260,6 +6271,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6278,6 +6290,10 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6316,6 +6332,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6353,11 +6370,15 @@ def cleanup():
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             )
         if not rast and not vect and not rast3d:
             self.fd.write("    pass\n")
 
         self.fd.write("\ndef main(options, flags):\n")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6404,6 +6425,8 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6429,6 +6452,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6478,6 +6502,11 @@ def cleanup():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

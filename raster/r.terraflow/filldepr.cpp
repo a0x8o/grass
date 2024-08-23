@@ -85,6 +85,7 @@ elevation_type *fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
                                     cclabel_type maxWatersheds)
 =======
@@ -116,6 +117,8 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -137,6 +140,7 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -158,9 +162,12 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
                                     cclabel_type maxWatersheds)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +208,8 @@ elevation_type *ext_fill_depression(AMI_STREAM<boundaryType> *boundaryStr,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

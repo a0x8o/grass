@@ -585,8 +585,23 @@ class GConsole(wx.EvtHandler):
 
                 if len(command) == 1:
                     if command[0].startswith("g.gui."):
-                        import imp
                         import inspect
+                        import importlib.util
+                        import importlib.machinery
+
+                        def load_source(modname, filename):
+                            loader = importlib.machinery.SourceFileLoader(
+                                modname, filename
+                            )
+                            spec = importlib.util.spec_from_file_location(
+                                modname, filename, loader=loader
+                            )
+                            module = importlib.util.module_from_spec(spec)
+                            # Module is always executed and not cached in sys.modules.
+                            # Uncomment the following line to cache the module.
+                            # sys.modules[module.__name__] = module
+                            loader.exec_module(module)
+                            return module
 
                         pyFile = command[0]
                         if sys.platform == "win32":
@@ -601,7 +616,7 @@ class GConsole(wx.EvtHandler):
                                 parent=self._guiparent,
                                 message=_("Module <%s> not found.") % command[0],
                             )
-                        pymodule = imp.load_source(command[0].replace(".", "_"), pyPath)
+                        pymodule = load_source(command[0].replace(".", "_"), pyPath)
                         pymain = inspect.getfullargspec(pymodule.main)
                         if pymain and "giface" in pymain.args:
                             pymodule.main(self._giface)
@@ -772,6 +787,7 @@ class GConsole(wx.EvtHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -797,10 +813,13 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             status = Status.ABORTED
 =======
 =======
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,9 +845,12 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             status = "aborted"
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,11 +868,14 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 061ba6c577 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -931,6 +956,8 @@ class GConsole(wx.EvtHandler):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -952,6 +979,7 @@ class GConsole(wx.EvtHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -977,10 +1005,13 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             status = Status.FAILED
 =======
 =======
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1006,9 +1037,12 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             status = "failed"
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1026,11 +1060,14 @@ class GConsole(wx.EvtHandler):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 061ba6c577 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c9839e72f7 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1111,6 +1148,8 @@ class GConsole(wx.EvtHandler):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

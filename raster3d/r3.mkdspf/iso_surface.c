@@ -35,6 +35,7 @@ static void normalize(float n[3]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
                      int quiet)
 =======
@@ -66,6 +67,8 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -86,6 +89,7 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -107,9 +111,12 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
                      int quiet)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +157,8 @@ void viz_iso_surface(void *g3map, RASTER3D_Region *g3reg, cmndln_info *linefax,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

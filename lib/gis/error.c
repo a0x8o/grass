@@ -383,6 +383,7 @@ void G_init_logging(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprintf(buf, "%s/GIS_ERROR_LOG", G__home());
 =======
 <<<<<<< HEAD
@@ -413,6 +414,8 @@ void G_init_logging(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -431,6 +434,7 @@ void G_init_logging(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         sprintf(buf, "%s/GIS_ERROR_LOG", G__home());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -484,6 +488,11 @@ void G_init_logging(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        sprintf(buf, "%s/GIS_ERROR_LOG", G__home());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         sprintf(buf, "%s/GIS_ERROR_LOG", G__home());

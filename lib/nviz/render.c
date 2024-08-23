@@ -171,6 +171,7 @@ int Nviz_create_render_window(struct render_window *rwin, void *display,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -242,24 +243,27 @@ int Nviz_create_render_window(struct render_window *rwin, void *display,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                               int width, int height)
 {
 #if defined(OPENGL_X11)
-    int attributeList[] = {
-        GLX_RGBA,
-        GLX_RED_SIZE,
-        1,
-        GLX_GREEN_SIZE,
-        1,
-        GLX_BLUE_SIZE,
-        1,
-        GLX_DEPTH_SIZE,
-        1,
+    int attributeList[] = {GLX_RGBA,
+                           GLX_RED_SIZE,
+                           1,
+                           GLX_GREEN_SIZE,
+                           1,
+                           GLX_BLUE_SIZE,
+                           1,
+                           GLX_DEPTH_SIZE,
+                           1,
 #if !defined(OPENGL_FBO)
-        GLX_DOUBLEBUFFER,
+                           GLX_DOUBLEBUFFER,
 #endif
-        None
-    };
+                           None};
     XVisualInfo *v;
 
     rwin->displayId = XOpenDisplay((char *)display);
@@ -292,21 +296,19 @@ int Nviz_create_render_window(struct render_window *rwin, void *display,
     XFree(v);
 #elif defined(OPENGL_AQUA)
 #if defined(OPENGL_AGL)
-    int attributeList[] = {
-        AGL_RGBA,
-        AGL_RED_SIZE,
-        1,
-        AGL_GREEN_SIZE,
-        1,
-        AGL_BLUE_SIZE,
-        1,
-        AGL_DEPTH_SIZE,
-        1,
+    int attributeList[] = {AGL_RGBA,
+                           AGL_RED_SIZE,
+                           1,
+                           AGL_GREEN_SIZE,
+                           1,
+                           AGL_BLUE_SIZE,
+                           1,
+                           AGL_DEPTH_SIZE,
+                           1,
 #if !defined(OPENGL_FBO)
-        AGL_DOUBLEBUFFER,
+                           AGL_DOUBLEBUFFER,
 #endif
-        AGL_NONE
-    };
+                           AGL_NONE};
 
     /* TODO: open mac display */
 

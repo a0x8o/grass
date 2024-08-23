@@ -115,6 +115,7 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -175,6 +176,11 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
         (size_t)res != nofBytes) {
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = read(map->data_fd, xdr, nofBytes)) < 0 ||
+        (size_t)res != nofBytes) {
+=======
+>>>>>>> osgeo-main
     if (read(map->data_fd, xdr, nofBytes) != nofBytes) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -191,6 +197,7 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
         (size_t)res != nofBytes) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +296,8 @@ static int Rast3d_readTileUncompressed(RASTER3D_Map *map, int tileIndex,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

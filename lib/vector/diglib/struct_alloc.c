@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -101,6 +102,10 @@ struct P_node *dig_alloc_node(void)
 =======
 >>>>>>> osgeo-main
 =======
+struct P_node *dig_alloc_node(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 struct P_node *dig_alloc_node()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -113,6 +118,7 @@ struct P_node *dig_alloc_node()
 struct P_node *dig_alloc_node(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +207,8 @@ struct P_node *dig_alloc_node(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -321,6 +329,7 @@ int dig_alloc_nodes(struct Plus_head *Plus, int add)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -375,6 +384,10 @@ struct P_line *dig_alloc_line(void)
 =======
 >>>>>>> osgeo-main
 =======
+struct P_line *dig_alloc_line(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 struct P_line *dig_alloc_line()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -387,6 +400,7 @@ struct P_line *dig_alloc_line()
 struct P_line *dig_alloc_line(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +489,8 @@ struct P_line *dig_alloc_line(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -637,6 +653,7 @@ int dig_alloc_isles(struct Plus_head *Plus, int add)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -691,6 +708,10 @@ struct P_area *dig_alloc_area(void)
 =======
 >>>>>>> osgeo-main
 =======
+struct P_area *dig_alloc_area(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 struct P_area *dig_alloc_area()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -703,6 +724,7 @@ struct P_area *dig_alloc_area()
 struct P_area *dig_alloc_area(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -791,6 +813,8 @@ struct P_area *dig_alloc_area(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -849,6 +873,7 @@ void dig_free_area(struct P_area *Area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -903,6 +928,10 @@ struct P_isle *dig_alloc_isle(void)
 =======
 >>>>>>> osgeo-main
 =======
+struct P_isle *dig_alloc_isle(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 struct P_isle *dig_alloc_isle()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -915,6 +944,7 @@ struct P_isle *dig_alloc_isle()
 struct P_isle *dig_alloc_isle(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +1033,8 @@ struct P_isle *dig_alloc_isle(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1205,6 +1237,7 @@ int dig_isle_alloc_line(struct P_isle *isle, int add)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1232,10 +1265,13 @@ int dig_isle_alloc_line(struct P_isle *isle, int add)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int dig_out_of_memory(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,6 +1318,8 @@ int dig_out_of_memory(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

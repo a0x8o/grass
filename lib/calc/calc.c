@@ -25,6 +25,7 @@ int columns;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void handle_fpe(int n)
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ static void handle_fpe(int n)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -73,6 +76,7 @@ static void handle_fpe(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static void handle_fpe(int n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -126,6 +130,11 @@ static void handle_fpe(int n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+static void handle_fpe(int n)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 static void handle_fpe(int n)

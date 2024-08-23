@@ -305,6 +305,7 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (n->level > 0) { /* it is not leaf -> destroy childs */
 =======
 <<<<<<< HEAD
@@ -335,6 +336,8 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -353,6 +356,7 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     if (n->level > 0) { /* it is not leaf -> destroy childs */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -406,6 +410,11 @@ void RTreeDestroyNode(struct RTree_Node *n, int nodes)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    if (n->level > 0) { /* it is not leaf -> destroy childs */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     if (n->level > 0) { /* it is not leaf -> destroy childs */

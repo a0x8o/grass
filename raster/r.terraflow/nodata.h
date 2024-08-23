@@ -47,8 +47,8 @@ public: /* struct, so members public */
                                              * this cell */
 public:
     nodataType(dimension_type gi, dimension_type gj, cclabel_type glab)
-        : ijBaseType(gi, gj), label(glab), valid(true){};
-    nodataType() : valid(false){};
+        : ijBaseType(gi, gj), label(glab), valid(true) {};
+    nodataType() : valid(false) {};
     void invalidate() { valid = false; }
     elevation_type getElevation()
     {
@@ -59,6 +59,7 @@ public:
     static char *printLabel(const nodataType &p)
     {
         static char buf[8];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +139,10 @@ public:
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 =======
 >>>>>>> osgeo-main
+=======
+        snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
+=======
+>>>>>>> osgeo-main
         sprintf(buf, CCLABEL_FMT, p.label);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -146,6 +151,7 @@ public:
 =======
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,11 +183,14 @@ public:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         sprintf(buf, CCLABEL_FMT, p.label);
 =======
         snprintf(buf, sizeof(buf), CCLABEL_FMT, p.label);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +273,8 @@ public:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

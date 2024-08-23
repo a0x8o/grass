@@ -13,7 +13,7 @@ import os
 import datetime
 from pathlib import Path
 from xml.sax import saxutils
-import xml.etree.ElementTree as et
+import xml.etree.ElementTree as ET
 import subprocess
 import collections
 import re
@@ -199,7 +199,7 @@ def get_svn_info():
         rc = p.poll()
         info = {}
         if not rc:
-            root = et.fromstring(stdout)
+            root = ET.fromstring(stdout)
             # TODO: get also date if this make sense
             # expecting only one <entry> element
             entry = root.find("entry")
@@ -257,7 +257,7 @@ def get_svn_path_authors(path, from_date=None):
         stdout, stderr = p.communicate()
         rc = p.poll()
         if not rc:
-            root = et.fromstring(stdout)
+            root = ET.fromstring(stdout)
             # TODO: get also date if this make sense
             # expecting only one <entry> element
             author_nodes = root.iterfind("*/author")
@@ -677,6 +677,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesHtmlReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -707,6 +708,8 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -725,6 +728,7 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(GrassTestFilesHtmlReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -778,6 +782,11 @@ class GrassTestFilesHtmlReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        super(GrassTestFilesHtmlReporter, self).end_file_test(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         super(GrassTestFilesHtmlReporter, self).end_file_test(
@@ -1050,6 +1059,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -1080,6 +1090,8 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1098,6 +1110,7 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1151,6 +1164,11 @@ class GrassTestFilesKeyValueReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        super(GrassTestFilesKeyValueReporter, self).end_file_test(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         super(GrassTestFilesKeyValueReporter, self).end_file_test(
@@ -1268,6 +1286,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -1339,6 +1358,11 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
         self._stream.write("Running {file}...\n".format(file=module.file_path))
         # get the above line and all previous ones to the report
         self._stream.flush()
@@ -1359,6 +1383,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(GrassTestFilesTextReporter, self).end_file_test(
 =======
 <<<<<<< HEAD
@@ -1389,6 +1414,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1407,6 +1434,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(GrassTestFilesTextReporter, self).end_file_test(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1460,6 +1488,11 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        super(GrassTestFilesTextReporter, self).end_file_test(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         super(GrassTestFilesTextReporter, self).end_file_test(
@@ -1505,6 +1538,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1554,10 +1588,13 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1579,6 +1616,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1610,6 +1649,7 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1631,10 +1671,13 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1666,10 +1709,13 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             self._stream.write(f"FAILED {module.file_path}")
             if timed_out:
                 self._stream.write(f" - Timeout >{timed_out}s")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1728,6 +1774,8 @@ class GrassTestFilesTextReporter(GrassTestFilesCountingReporter):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

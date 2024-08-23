@@ -44,6 +44,7 @@ from subprocess import PIPE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -105,6 +106,11 @@ from subprocess import PIPE
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -132,6 +138,7 @@ from .open_stds import open_old_stds
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import grass.script as gs
 from grass.pygrass.modules import Module
 =======
@@ -163,6 +170,8 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -181,6 +190,7 @@ from grass.pygrass.modules import Module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -202,9 +212,12 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 import grass.script as gs
 from grass.pygrass.modules import Module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +258,8 @@ from grass.pygrass.modules import Module
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -267,10 +282,13 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Compute univariate statistics for a map of a space time raster or raster3d dataset
 
     :param registered_map_info: dict or db row with tgis info for a registered map
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     """Compute univariate statistics for a map of a space time raster or raster3d
@@ -289,6 +307,9 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
 
     :param registered_map_info: dict or db row with tgis info for a registered map
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -378,6 +399,7 @@ def print_gridded_dataset_univar_statistics(
     :param where: A temporal database where statement
     :param extended: If True compute extended statistics
     :param no_header: Suppress the printing of column names
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -938,6 +960,8 @@ def print_gridded_dataset_univar_statistics(
     :param where: A temporal database where statement
     :param extended: If True compute extended statistics
     :param no_header: Suppress the printing of column names
+=======
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     :param fs: Field separator
     :param nprocs: Number of cores to use for processing
@@ -1091,6 +1115,7 @@ def print_gridded_dataset_univar_statistics(
         string += f'{fs}{stats["n"]}'
         if "median" in stats:
             string += f'{fs}{stats["first_quartile"]}{fs}{stats["median"]}'
+<<<<<<< HEAD
             string += f'{fs}{stats["third_quartile"]}{fs}{stats["percentile_90"]}'
         string += eol
     return string
@@ -2162,6 +2187,8 @@ def print_gridded_dataset_univar_statistics(
         if "median" in stats:
             string += f'{fs}{stats["first_quartile"]}{fs}{stats["median"]}'
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2228,6 +2255,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2281,6 +2309,10 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     # We need a database interface
     dbif = SQLDatabaseInterfaceConnection()
     dbif.connect()
@@ -2290,6 +2322,7 @@ def print_gridded_dataset_univar_statistics(
     if output is not None:
         out_file = open(output, "w")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2339,6 +2372,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2389,6 +2424,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2410,6 +2446,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     strds_cols = (
         "id,start_time,end_time,semantic_label"
         if type == "strds"
@@ -2418,6 +2456,7 @@ def print_gridded_dataset_univar_statistics(
     rows = sp.get_registered_maps(strds_cols, where, "start_time", dbif)
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2458,6 +2497,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2513,6 +2554,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
 =======
 <<<<<<< HEAD
@@ -2543,6 +2585,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2569,6 +2613,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2622,6 +2667,11 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             cols.extend(["first_quartile", "median", "third_quartile", "percentile_90"])
@@ -2664,6 +2714,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2691,11 +2742,14 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         percentile=percentile,
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2745,6 +2799,8 @@ def print_gridded_dataset_univar_statistics(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

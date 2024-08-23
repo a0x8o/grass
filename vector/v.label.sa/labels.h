@@ -54,6 +54,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
 =======
 <<<<<<< HEAD
@@ -84,6 +85,8 @@ struct _label {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -102,6 +105,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -155,6 +159,11 @@ struct _label {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    struct line_pnts *skyline; /**< The skyline of the text, as an offest
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     struct line_pnts *skyline; /**< The skyline of the text, as an offest
@@ -195,6 +204,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int type; /**< The feture type (point, line, area) */
 =======
 <<<<<<< HEAD
@@ -225,6 +235,8 @@ struct _label {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -243,6 +255,7 @@ struct _label {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int type; /**< The feture type (point, line, area) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -296,6 +309,11 @@ struct _label {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    int type; /**< The feture type (point, line, area) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     int type; /**< The feture type (point, line, area) */

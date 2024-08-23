@@ -192,6 +192,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -251,6 +252,10 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
         if ((size_t)nat_off_t == port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t == port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         if (nat_off_t == port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -259,6 +264,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         if ((size_t)nat_off_t == port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,11 +296,14 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if (nat_off_t == port_off_t_size) {
 =======
         if ((size_t)nat_off_t == port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +386,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -405,6 +416,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -464,6 +476,10 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
         else if ((size_t)nat_off_t > port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t > port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         else if (nat_off_t > port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -472,6 +488,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         else if ((size_t)nat_off_t > port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,11 +520,14 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         else if (nat_off_t > port_off_t_size) {
 =======
         else if ((size_t)nat_off_t > port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,6 +610,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -641,6 +663,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -700,6 +723,10 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -708,6 +735,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,11 +767,14 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         else if (nat_off_t < port_off_t_size) {
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +857,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -855,6 +888,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -914,6 +948,10 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t >= port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         if (nat_off_t >= port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -922,6 +960,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         if ((size_t)nat_off_t >= port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -953,11 +992,14 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if (nat_off_t >= port_off_t_size) {
 =======
         if ((size_t)nat_off_t >= port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,6 +1082,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1090,6 +1134,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1149,6 +1194,10 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1157,6 +1206,7 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1188,11 +1238,14 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         else if (nat_off_t < port_off_t_size) {
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1275,6 +1328,8 @@ int dig__fread_port_O(off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1700,6 +1755,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1755,11 +1811,14 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         if ((size_t)nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
         }
         else if ((size_t)nat_off_t > port_off_t_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1795,10 +1854,13 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1844,6 +1906,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1869,6 +1933,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1891,10 +1956,13 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1951,11 +2019,16 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
         if ((size_t)nat_off_t == port_off_t_size) {
             if (dig_fwrite(buf, port_off_t_size, cnt, fp) == cnt)
                 return 1;
         }
         else if ((size_t)nat_off_t > port_off_t_size) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1987,10 +2060,13 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2058,6 +2134,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2097,6 +2175,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2156,6 +2235,10 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2164,6 +2247,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2195,11 +2279,14 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         else if (nat_off_t < port_off_t_size) {
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,6 +2369,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2311,6 +2400,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2370,6 +2460,10 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
         if ((size_t)nat_off_t >= port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        if ((size_t)nat_off_t >= port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         if (nat_off_t >= port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2378,6 +2472,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         if ((size_t)nat_off_t >= port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2409,11 +2504,14 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if (nat_off_t >= port_off_t_size) {
 =======
         if ((size_t)nat_off_t >= port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2496,6 +2594,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2532,6 +2632,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2591,6 +2692,10 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
         else if ((size_t)nat_off_t < port_off_t_size) {
 =======
 >>>>>>> osgeo-main
+=======
+        else if ((size_t)nat_off_t < port_off_t_size) {
+=======
+>>>>>>> osgeo-main
         else if (nat_off_t < port_off_t_size) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2599,6 +2704,7 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2630,11 +2736,14 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         else if (nat_off_t < port_off_t_size) {
 =======
         else if ((size_t)nat_off_t < port_off_t_size) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2717,6 +2826,8 @@ int dig__fwrite_port_O(const off_t *buf, size_t cnt, struct gvfile *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3034,6 +3145,7 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3090,6 +3202,10 @@ void dig_init_portable(struct Port_info *port, int byte_order)
     for (i = 0; i < (size_t)nat_off_t; i++) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (i = 0; i < (size_t)nat_off_t; i++) {
+=======
+>>>>>>> osgeo-main
     for (i = 0; i < nat_off_t; i++) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3098,6 +3214,7 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 =======
     for (i = 0; i < (size_t)nat_off_t; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3129,11 +3246,14 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     for (i = 0; i < nat_off_t; i++) {
 =======
     for (i = 0; i < (size_t)nat_off_t; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3210,6 +3330,8 @@ void dig_init_portable(struct Port_info *port, int byte_order)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3262,6 +3384,7 @@ int dig_set_cur_port(struct Port_info *port)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3316,6 +3439,10 @@ int dig__byte_order_out(void)
 =======
 >>>>>>> osgeo-main
 =======
+int dig__byte_order_out(void)
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 int dig__byte_order_out()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3328,6 +3455,7 @@ int dig__byte_order_out()
 int dig__byte_order_out(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3416,6 +3544,8 @@ int dig__byte_order_out(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

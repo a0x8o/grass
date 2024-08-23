@@ -218,6 +218,7 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -249,9 +250,12 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +308,8 @@ int I_find_subgroup_file2(const char *group, const char *subgroup,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -324,6 +330,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +390,10 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     G_debug(1, "I_find_signature(): type=%d name=%s mapset=%s", type, name,
             mapset);
@@ -392,6 +403,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
     /* We do not search for a specific file as file name is up to signature type
      */
     return G_find_file(sdir, name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +451,9 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
@@ -459,6 +474,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +581,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -609,6 +627,7 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -640,9 +659,12 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,6 +717,8 @@ const char *I_find_signature(I_SIGFILE_TYPE type, char *name, const char *mapset
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -715,6 +739,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +799,10 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
     G_debug(1, "I_find_signature2(): type=%d name=%s mapset=%s", type, name,
             mapset);
@@ -781,6 +810,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
     I_get_signatures_dir(sdir, type);
 
     return G_find_file2(sdir, name, mapset);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +858,9 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char *mapset) {
     char selem[GNAME_MAX]; /* 'signatures/type\0' */
 =======
@@ -846,6 +879,7 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +980,8 @@ const char *I_find_signature2(I_SIGFILE_TYPE type, const char *name, const char 
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

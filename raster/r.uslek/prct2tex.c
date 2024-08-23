@@ -131,6 +131,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -186,6 +187,8 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     struct vector cls_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
     /* index 1 */
     struct vector cls_sandy_clay[POLYGON_DIMENSION] = {{.sand = 0.0}};
@@ -220,10 +223,13 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -272,6 +278,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +552,8 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -578,6 +587,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
@@ -591,6 +601,11 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
 =======
+=======
+=======
+    struct vector cls_silt[POLYGON_DIMENSION] = {{.sand = 0.0}};
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 =======
 =======
     struct vector cls_silt[POLYGON_DIMENSION] = {{.sand = 0.0}};
@@ -641,6 +656,7 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
 <<<<<<< HEAD
@@ -651,6 +667,8 @@ int prct2tex(double sand_input, double clay_input, double silt_input)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

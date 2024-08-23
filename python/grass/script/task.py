@@ -30,6 +30,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -57,11 +58,14 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,10 +119,12 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 import os
 import re
 import sys
-import xml.etree.ElementTree as etree
+import xml.etree.ElementTree as ET
 from xml.parsers import expat
 
 from grass.exceptions import ScriptError
@@ -126,6 +132,12 @@ from .utils import decode, split
 from .core import Popen, PIPE, get_real_command
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 ETREE_EXCEPTIONS = (etree.ParseError, expat.ExpatError)
 =======
 try:
@@ -145,6 +157,10 @@ else:
 if sys.version_info.major >= 3:
     unicode = str
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 
 
 class grassTask:
@@ -179,7 +195,7 @@ class grassTask:
         if path is not None:
             try:
                 processTask(
-                    tree=etree.fromstring(get_interface_description(path)), task=self
+                    tree=ET.fromstring(get_interface_description(path)), task=self
                 )
             except ScriptError as e:
                 self.errorMsg = e.value
@@ -639,7 +655,7 @@ def parse_interface(name, parser=processTask, blackList=None):
     :param blackList:
     """
     try:
-        tree = etree.fromstring(get_interface_description(name))
+        tree = ET.fromstring(get_interface_description(name))
     except ETREE_EXCEPTIONS as error:
         raise ScriptError(
             _("Cannot parse interface description of<{name}> module: {error}").format(

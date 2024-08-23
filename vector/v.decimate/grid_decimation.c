@@ -92,6 +92,7 @@ void grid_decimation_create_list_with_point(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     struct DecimationPoint *point, size_t npoints)
 =======
 <<<<<<< HEAD
@@ -122,6 +123,8 @@ void grid_decimation_create_list_with_point(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -140,6 +143,7 @@ void grid_decimation_create_list_with_point(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     struct DecimationPoint *point, size_t npoints)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -193,6 +197,11 @@ void grid_decimation_create_list_with_point(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    struct DecimationPoint *point, size_t npoints)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     struct DecimationPoint *point, size_t npoints)

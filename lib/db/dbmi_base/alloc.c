@@ -77,6 +77,7 @@ void *db_malloc(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \return pointer to allocated memmory
 =======
 <<<<<<< HEAD
@@ -107,6 +108,8 @@ void *db_malloc(int n)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -125,6 +128,7 @@ void *db_malloc(int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \return pointer to allocated memmory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -178,6 +182,11 @@ void *db_malloc(int n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \return pointer to allocated memmory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \return pointer to allocated memmory
@@ -224,6 +233,7 @@ void *db_calloc(int n, int m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \return pointer to allocated memmory
 =======
 <<<<<<< HEAD
@@ -254,6 +264,8 @@ void *db_calloc(int n, int m)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -272,6 +284,7 @@ void *db_calloc(int n, int m)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \return pointer to allocated memmory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -325,6 +338,11 @@ void *db_calloc(int n, int m)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \return pointer to allocated memmory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \return pointer to allocated memmory

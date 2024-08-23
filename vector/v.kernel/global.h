@@ -45,6 +45,7 @@ double gaussian2dByTerms(double d, double term1, double term2);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -104,6 +105,10 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 >>>>>>> osgeo-main
+=======
+double brent_iterate(double (*f)(double), double x_lower, double x_upper,
+=======
+>>>>>>> osgeo-main
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -112,6 +117,7 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,11 +149,14 @@ double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 double brent_iterate(double (*f)(double), double x_lower, double x_upper,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +239,8 @@ double brent_iterate(double (*f)(), double x_lower, double x_upper,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

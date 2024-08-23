@@ -201,6 +201,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 =======
@@ -232,6 +233,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -252,6 +255,7 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -273,9 +277,12 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 double *maxNS, double *maxEW, struct element_grow **mat,
                 int CBordo)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +323,8 @@ double pianOriz(double **punti, int obsNum, double *minNS, double *minEW,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -456,6 +465,7 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -517,6 +527,11 @@ void free_structmatrix(struct element_grow **m, long nrl, long nrh, long ncl,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

@@ -520,9 +520,9 @@ int region_growing(struct globals *globals)
                             }
                         }
                     } /* end if < threshold */
-                }     /* end pathflag */
-            }         /* next col */
-        }             /* next row */
+                } /* end pathflag */
+            } /* next col */
+        } /* next row */
         G_percent(1, 1, 1);
 
         /* finished one pass for processing candidate pixels */
@@ -844,7 +844,7 @@ static int find_best_neighbor(struct ngbr_stats *Ri, struct reg_stats *Ri_rs,
                     }
                 }
             }
-        } while (n--);                     /* end do loop - next neighbor */
+        } while (n--); /* end do loop - next neighbor */
     } while (rclist_drop(&rilist, &next)); /* while there are cells to check */
 
     /* clean up */
@@ -1011,6 +1011,7 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
                       rs->count, globals->min_reg_size);
 =======
@@ -1042,6 +1043,8 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1064,6 +1067,7 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1085,9 +1089,12 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         G_fatal_error(_("Region stats should go in tree, %d >= %" PRI_LONG ""),
                       rs->count, globals->min_reg_size);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1128,6 +1135,8 @@ int update_band_vals(int row, int col, struct reg_stats *rs,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

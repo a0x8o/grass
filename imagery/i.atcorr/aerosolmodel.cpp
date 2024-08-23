@@ -496,6 +496,7 @@ void AerosolModel::save()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   coefficients, single scattering albedo, phase function, assymetry factor)
 =======
 <<<<<<< HEAD
@@ -526,6 +527,8 @@ void AerosolModel::save()
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -544,6 +547,7 @@ void AerosolModel::save()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   coefficients, single scattering albedo, phase function, assymetry factor)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -597,6 +601,11 @@ void AerosolModel::save()
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+  coefficients, single scattering albedo, phase function, assymetry factor)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
   coefficients, single scattering albedo, phase function, assymetry factor)

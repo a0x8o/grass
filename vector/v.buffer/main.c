@@ -371,6 +371,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -430,6 +431,10 @@ int main(int argc, char *argv[])
         G_fatal_error(_("The column option requires a valid layer."));
 =======
 >>>>>>> osgeo-main
+=======
+        G_fatal_error(_("The column option requires a valid layer."));
+=======
+>>>>>>> osgeo-main
         G_fatal_error(_("The bufcol option requires a valid layer."));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -438,6 +443,7 @@ int main(int argc, char *argv[])
 =======
         G_fatal_error(_("The column option requires a valid layer."));
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,11 +475,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         G_fatal_error(_("The bufcol option requires a valid layer."));
 =======
         G_fatal_error(_("The column option requires a valid layer."));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,6 +565,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

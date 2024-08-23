@@ -148,6 +148,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tools = {
             ord("P"): {
                 "event": wx.CommandEvent(id=self.toolbar.addPoint),
@@ -257,6 +258,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -467,6 +470,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -483,6 +487,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -579,6 +585,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -609,6 +616,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

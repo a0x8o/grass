@@ -90,6 +90,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -140,6 +141,10 @@ def is_location_valid(path, location=None):
     :param path: Path to a Location or to a GRASS GIS database directory
 =======
 >>>>>>> osgeo-main
+=======
+    :param path: Path to a Location or to a GRASS GIS database directory
+=======
+>>>>>>> osgeo-main
     :param database: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -148,6 +153,7 @@ def is_location_valid(path, location=None):
 =======
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +230,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -252,6 +260,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -302,6 +311,10 @@ def is_location_valid(path, location=None):
         path = os.path.join(path, location)
 =======
 >>>>>>> osgeo-main
+=======
+        path = os.path.join(path, location)
+=======
+>>>>>>> osgeo-main
         path = os.path.join(location)
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -310,6 +323,7 @@ def is_location_valid(path, location=None):
 =======
         path = os.path.join(path, location)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +400,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

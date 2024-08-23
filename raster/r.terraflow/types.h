@@ -74,7 +74,7 @@ typedef int bfs_depth_type;
 static const bfs_depth_type DEPTH_INITIAL = 1;
 
 #define IS_BOUNDARY(i, j, nr, nc) \
-    (((i) == 0) || ((i) == ((nr)-1)) || ((j) == 0) || ((j) == ((nc)-1)))
+    (((i) == 0) || ((i) == ((nr) - 1)) || ((j) == 0) || ((j) == ((nc) - 1)))
 
 /* ---------------------------------------------------------------------- */
 
@@ -105,6 +105,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
@@ -163,9 +164,15 @@ public:
 =======
 >>>>>>> osgeo-main
 =======
+    static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
+    static cclabel_type getLabelCount() { return label + 1; }
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +252,8 @@ public:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -270,6 +279,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -288,6 +298,8 @@ public:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -309,6 +321,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -330,11 +343,14 @@ public:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
     static cclabel_type getLabelInit() { return cclabel_type(LABEL_START); }
     static cclabel_type getLabelCount() { return label + 1; }
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +419,8 @@ public:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     static void setLabelCount(int n) { label = n - 1; }
     static void reset() { label = getLabelInit(); }
 };
@@ -412,8 +430,8 @@ public:
 class ijBaseType {
 public:
     dimension_type i, j;
-    ijBaseType() : i(-1), j(-1){};
-    ijBaseType(dimension_type gi, dimension_type gj) : i(gi), j(gj){};
+    ijBaseType() : i(-1), j(-1) {};
+    ijBaseType(dimension_type gi, dimension_type gj) : i(gi), j(gj) {};
     friend int operator==(const ijBaseType &a, const ijBaseType &b)
     {
         return (compare(a, b) == 0);

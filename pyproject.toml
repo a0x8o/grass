@@ -25,6 +25,7 @@ line-length = 88
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -72,6 +73,8 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -92,6 +95,7 @@ extend-exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e946d8e472 (Dockerfile: fix broken lib link (#1625))
 =======
@@ -113,11 +117,14 @@ extend-exclude = '''
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 target-version = ['py36', 'py37', 'py38', 'py39']
 =======
 target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +197,11 @@ target-version = ['py37', 'py38', 'py39', 'py310']
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+target-version = ['py37', 'py38', 'py39', 'py310']
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 target-version = ['py37', 'py38', 'py39', 'py310']
@@ -234,6 +246,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     | python/libgrass_interface_generator/
@@ -276,12 +289,15 @@ exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     | python/grass/ctypes/
     # Bug in Black related to r-string prefix capitalization reformats
     # a line in this file unnecessarily. File is however fully Black-formatted
     # at the time of writing.
     # https://github.com/psf/black/issues/1244
     | python/grass/pygrass/utils.py
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,12 +324,15 @@ exclude = '''
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 =======
     | python/libgrass_interface_generator/
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,18 +430,21 @@ exclude = '''
     | python/libgrass_interface_generator/
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+    | python/libgrass_interface_generator/
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 )
 '''
 
 [tool.ruff]
-required-version = ">=0.5.0"
+required-version = ">=0.6.0"
 
 builtins = ["_"]
 
 # In addition to the standard set of exclusions, omit the following files or folders.
 extend-exclude = ["python/libgrass_interface_generator"]
-# In addition to the standard set of inclusions, include `.ipynb` files.
-extend-include = ["*.ipynb"]
 
 [tool.ruff.lint]
 # See https://docs.astral.sh/ruff/rules/
@@ -505,11 +527,7 @@ ignore = [
     "B904",    # raise-without-from-inside-except
     "B909",    # loop-iterator-mutation
     "BLE001",  # blind-except
-    "C400",    # unnecessary-generator-list
-    "C401",    # unnecessary-generator-set
-    "C403",    # unnecessary-list-comprehension-set
     "C404",    # unnecessary-list-comprehension-dict
-    "C405",    # unnecessary-literal-set
     "C414",    # unnecessary-double-cast-or-process
     "C416",    # unnecessary-comprehension
 <<<<<<< HEAD
@@ -599,10 +617,7 @@ ignore = [
     "PLC0415", # import-outside-top-level
     "PLC1901", # compare-to-empty-string
     "PLC2701", # import-private-name
-    "PLC2801", # unnecessary-dunder-call
     "PLE0704", # misplaced-bare-raise
-    "PLR0124", # comparison-with-itself
-    "PLR0202", # no-classmethod-decorator
     "PLR0904", # too-many-public-methods
     "PLR0911", # too-many-return-statements
     "PLR0912", # too-many-branches
@@ -614,8 +629,11 @@ ignore = [
     "PLR1702", # too-many-nested-blocks
     "PLR1704", # redefined-argument-from-local
 <<<<<<< HEAD
+<<<<<<< HEAD
     "PLR1714", # repeated-equality-comparison
     "PLR1733", # unnecessary-dict-index-lookup
+=======
+>>>>>>> osgeo-main
     "PLR2004", # magic-value-comparison
 <<<<<<< HEAD
     "PLR2044", # empty-comment
@@ -629,7 +647,6 @@ ignore = [
 >>>>>>> osgeo-main
     "PLR6201", # literal-membership
     "PLR6301", # no-self-use
-    "PLW0406", # import-self
     "PLW0602", # global-variable-not-assigned
     "PLW0603", # global-statement
     "PLW0604", # global-at-module-level
@@ -638,7 +655,7 @@ ignore = [
     "PLW1514", # unspecified-encoding
     "PLW1641", # eq-without-hash
     "PLW2901", # redefined-loop-name
-    "PLW3201", # nested-min-max
+    "PLW3201", # bad-dunder-method-name
     "PT001",   # pytest-fixture-incorrect-parentheses-style
     "PT004",   # pytest-missing-fixture-name-underscore
     "PT006",   # pytest-parametrize-names-wrong-type
@@ -691,16 +708,14 @@ ignore = [
     "RET508",  # superfluous-else-break
 >>>>>>> osgeo-main
     "RSE102",  # unnecessary-paren-on-raise-exception
-    "RUF002",  # ambiguous-unicode-character-docstring
     "RUF003",  # ambiguous-unicode-character-comment
     "RUF005",  # collection-literal-concatenation
     "RUF012",  # mutable-class-default
-    "RUF013",  # unnecessary-iterable-allocation-for-first-element
     "RUF015",  # unnecessary-iterable-allocation-for-first-element
     "RUF019",  # unnecessary-key-check
     "RUF027",  # missing-f-string-syntax
     "RUF100",  # unused-noqa
-    "S101",    #assert
+    "S101",    # assert
     "S108",    # hardcoded-temp-file
     "S110",    # try-except-pass
     "S112",    # try-except-continue
@@ -751,7 +766,6 @@ ignore = [
     "TRY300",  # try-consider-else
     "TRY301",  # raise-within-try
     "UP015",   # redundant-open-modes
-    "UP018",   # native-literals
     "UP030",   # format-literals
     "UP031",   # printf-string-formatting
     "UP032",   # f-string
@@ -761,7 +775,6 @@ ignore = [
 =======
 >>>>>>> main
     "W605",    # invalid-escape-sequence
-    "YTT204",  # sys-version-info-minor-cmp-int
 ]
 
 
@@ -951,6 +964,7 @@ timeout = 300
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -979,6 +993,8 @@ timeout = 300
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -996,6 +1012,7 @@ markers = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -1026,6 +1043,11 @@ markers = [
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 <<<<<<< HEAD
@@ -1044,7 +1066,10 @@ markers = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1057,6 +1082,7 @@ exclude_dirs = [
 ]
 skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> main
@@ -1174,6 +1200,8 @@ skips = ["B324", "B110", "B101", "B112", "B311", "B404", "B603"]
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 exclude_dirs = ["./testsuite", "*/tests/*", "*/testsuite/*", "utils/test_generate_last_commit_file.py"]
 <<<<<<< HEAD
 skips = ["B324","B110", "B101", "B112", "B311", "B404", "B603"]
@@ -1188,8 +1216,11 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1202,7 +1233,10 @@ skips = ["B324","B110", "B101", "B112", "B311", "B404"]
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

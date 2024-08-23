@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![CentOS](https://github.com/OSGeo/grass/workflows/CentOS/badge.svg)](https://github.com/OSGeo/grass/actions?query=workflow%3ACentOS)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 [![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -51,6 +52,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -77,6 +80,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # GRASS GIS Repository
 >>>>>>> 0b33f0923a (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
@@ -135,11 +139,14 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 # GRASS GIS Repository
 >>>>>>> 0b33f0923a (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
 <<<<<<< HEAD
 >>>>>>> c7f651af83 (ci: Remove duplication in Ubuntu workflow, keep test job only (#1749))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,12 +169,15 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 [![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> 5c730e3bfc (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,12 +200,15 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 [![CentOS](https://github.com/OSGeo/grass/workflows/CentOS/badge.svg)](https://github.com/OSGeo/grass/actions?query=workflow%3ACentOS)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 [![Join the chat at https://gitter.im/grassgis/community](https://badges.gitter.im/grassgis/community.svg)](https://gitter.im/grassgis/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 67fc38245a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,6 +288,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 ## Description
 
@@ -283,6 +298,7 @@ a Geographic Information System used for geospatial data management and
 analysis, image processing, graphics/map production, spatial modeling, and
 visualization.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,12 +435,20 @@ Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+Launch this repository in Binder and experiment with GRASS's Python API in
+Jupyter Notebooks by clicking the button below:
+=======
+>>>>>>> osgeo-main
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
 =======
 Launch this repository in Binder and experiment with GRASS's Python API in
 Jupyter Notebooks by clicking the button below:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +486,8 @@ Jupyter Notebooks by clicking the button below:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OSGeo/grass/main?labpath=doc%2Fnotebooks%2Fjupyter_example.ipynb)
 
@@ -477,6 +503,7 @@ Jupyter Notebooks by clicking the button below:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
@@ -512,30 +539,10 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
 >>>>>>> osgeo-main
-
-[![Binder](https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667)](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-## How to get write access here
->>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
-=======
-## Contributing
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
-=======
 >>>>>>> osgeo-main
 
 [![Binder](https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667)](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb)
@@ -548,6 +555,34 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 =======
 ## Contributing
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+Launch this repository in Binder and experiment with GRASS's Python API in Jupyter Notebooks by clicking the button below:
+=======
+>>>>>>> osgeo-main
+
+[![Binder](https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667)](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fjupyter_example.ipynb)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+## How to get write access here
+>>>>>>> 4fcbd3f967 (Add Binder badge/button to readme (#1628))
+=======
+## Contributing
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -568,6 +603,7 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 =======
 ## Contributing
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,6 +708,8 @@ Launch this repository in Binder and experiment with GRASS's Python API in Jupyt
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -710,6 +748,7 @@ Want to become a core developer? See
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -759,10 +798,13 @@ Want to become a core developer? See
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,6 +826,8 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -815,6 +859,7 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -843,12 +888,15 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install) in the Wiki.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are
 detailed [compile instructions](https://grasswiki.osgeo.org/wiki/Compile_and_Install)
 in the Wiki.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,10 +928,13 @@ in the Wiki.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -945,6 +996,8 @@ Yes, you should really read [INSTALL.md](INSTALL.md). In addition, there are det
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -978,6 +1031,7 @@ containing the source code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1049,6 +1103,10 @@ containing the source code):
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
 A. Docker image **without graphical user interface - wxGUI**.
 
 =======
@@ -1060,6 +1118,7 @@ A. Docker image **without graphical user interface - wxGUI**.
 ```bash
 docker build -t grassgis .
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,6 +1172,8 @@ docker build -t grassgis .
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 ```
 docker build -t grassgis80 .
 <<<<<<< HEAD
@@ -1123,6 +1184,7 @@ docker build -t grassgis80 .
 ```bash
 docker build -t grassgis .
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,9 +1216,12 @@ docker build -t grassgis .
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 ```bash
 docker build -t grassgis .
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1295,8 @@ docker build -t grassgis80 .
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1263,6 +1330,7 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1322,6 +1390,10 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 =======
 >>>>>>> osgeo-main
+=======
+    --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
+=======
+>>>>>>> osgeo-main
     --env HOME=/data/ grassgis80 grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1330,6 +1402,7 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 =======
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1435,6 +1508,11 @@ docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
@@ -1469,6 +1547,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1524,11 +1603,14 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis` is the name of the image while the second
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,6 +1646,8 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1585,6 +1669,7 @@ Note that the first `grassgis80` is the name of the image while the second
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1606,12 +1691,15 @@ Note that the first `grassgis80` is the name of the image while the second
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis80 \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis80` is the name of the image while the second
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1643,12 +1731,15 @@ Note that the first `grassgis80` is the name of the image while the second
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis` is the name of the image while the second
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1680,12 +1771,15 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
         grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
 ```
 
 Note that the first `grassgis` is the name of the image while the second
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1738,6 +1832,8 @@ Note that the first `grassgis` is the name of the image while the second
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1769,6 +1865,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1828,6 +1925,10 @@ docker run -it --rm --user=$(id -u):$(id -g) \
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 =======
 >>>>>>> osgeo-main
+=======
+        grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
+=======
+>>>>>>> osgeo-main
         grassgis80 grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1836,6 +1937,7 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 =======
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,6 +2043,11 @@ docker run -it --rm --user=$(id -u):$(id -g) \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
@@ -1994,6 +2101,7 @@ make distclean
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2027,9 +2135,12 @@ make distclean
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 ## Thanks to all contributors ❤
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2062,10 +2173,13 @@ make distclean
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 [![GRASS contributors](https://contrib.rocks/image?repo=OSGeo/grass "GRASS contributors")](https://github.com/OSGeo/grass/graphs/contributors)
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2105,6 +2219,8 @@ make distclean
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2156,6 +2272,7 @@ make pdfdocs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -2171,9 +2288,12 @@ make pdfdocs
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2226,6 +2346,8 @@ make pdfdocs
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

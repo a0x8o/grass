@@ -69,6 +69,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -128,6 +129,10 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
         if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
 >>>>>>> osgeo-main
+=======
+        if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
+=======
+>>>>>>> osgeo-main
         if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -136,6 +141,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
         if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,11 +173,14 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
         if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +263,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -289,6 +300,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -348,6 +360,10 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
             if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
 >>>>>>> osgeo-main
+=======
+            if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
+=======
+>>>>>>> osgeo-main
             if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -356,6 +372,7 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
             if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,11 +404,14 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             if ((eltLength >= RASTER3D_LONG_LENGTH) && (*dest != 0))
 =======
             if ((eltLength >= (int)RASTER3D_LONG_LENGTH) && (*dest != 0))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,6 +494,8 @@ void Rast3d_long_decode(unsigned char *source, long *dst, int nofNums,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

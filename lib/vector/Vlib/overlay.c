@@ -111,6 +111,7 @@ int Vect_overlay(struct Map_info *AMap, int atype, struct ilist *AList,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
                      struct ilist *AAList, struct Map_info *BMap, int btype,
                      struct ilist *BList, struct ilist *BAList,
@@ -143,6 +144,8 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -166,6 +169,7 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -187,10 +191,13 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
                      struct ilist *AAList, struct Map_info *BMap, int btype,
                      struct ilist *BList, struct ilist *BAList,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +238,8 @@ int Vect_overlay_and(struct Map_info *AMap, int atype, struct ilist *AList,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

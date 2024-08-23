@@ -235,6 +235,7 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -289,6 +290,10 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 =======
 >>>>>>> osgeo-main
 =======
+#include <stdio.h>
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 #include <stdio.h> 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -301,6 +306,7 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #include <stdio.h>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +395,8 @@ AC_RUN_IFELSE([AC_LANG_SOURCE([[
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -600,6 +608,7 @@ AC_DEFUN([SC_ENABLE_SHARED], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	AC_DEFINE(STATIC_BUILD, 1, [define for Windows static build])
 =======
 <<<<<<< HEAD
@@ -630,6 +639,8 @@ AC_DEFUN([SC_ENABLE_SHARED], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -648,6 +659,7 @@ AC_DEFUN([SC_ENABLE_SHARED], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	AC_DEFINE(STATIC_BUILD, 1, [define for Windows static build])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -701,6 +713,11 @@ AC_DEFUN([SC_ENABLE_SHARED], [
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+	AC_DEFINE(STATIC_BUILD, 1, [define for Windows static build])
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 	AC_DEFINE(STATIC_BUILD, 1, [define for Windows static build])
@@ -833,6 +850,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 =======
@@ -864,6 +882,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -884,6 +904,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -905,9 +926,12 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	    AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,6 +972,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -986,6 +1012,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 =======
@@ -1017,6 +1044,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1037,6 +1066,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1058,9 +1088,12 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	    AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,6 +1134,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1151,6 +1186,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 	    # TODO: add optional pthread support with any combination of:
@@ -1202,6 +1238,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1222,6 +1260,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1243,11 +1282,14 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 	    # TODO: add optional pthread support with any combination of: 
 =======
 	    # TODO: add optional pthread support with any combination of:
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1279,11 +1321,14 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	    # TODO: add optional pthread support with any combination of: 
 =======
 	    # TODO: add optional pthread support with any combination of:
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1330,10 +1375,13 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 	    # CFLAGS="$CFLAGS -pthread"
 	    # LDFLAGS="$LDFLAGS -lpthread"
 	    # AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    # AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1448,11 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1443,6 +1496,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    # AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    # AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 =======
@@ -1474,6 +1528,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1494,6 +1550,7 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1515,9 +1572,12 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	    # AC_DEFINE(_REENTRANT, 1, [define _REENTRANT flag (for SunOS)])
 	    # AC_DEFINE(_POSIX_PTHREAD_SEMANTICS, 1, [enable threading extensions on Solaris])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1558,6 +1618,8 @@ AC_DEFUN([SC_CONFIG_CFLAGS], [
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1613,6 +1675,7 @@ dnl to enable Clang detection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1624,6 +1687,8 @@ dnl to enable Clang detection
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1728,6 +1793,7 @@ AC_DEFUN([LOC_OPENMP],
 
 dnl -------------------- / OpenMP ---------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fce97d24c8 (Fix missing function prototypes (#2727))
@@ -2103,6 +2169,11 @@ dnl -------------------- / OpenMP ---------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 dnl -------------------- OpenMP -----------------------------------------------
 dnl OpenMP code borrowed and modified from Autoconf 2.71 (AC_OPENMP)
 dnl to enable Clang detection
@@ -2253,6 +2324,7 @@ dnl -------------------- / OpenMP ---------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -2298,6 +2370,10 @@ dnl -------------------- / OpenMP ---------------------------------------------
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

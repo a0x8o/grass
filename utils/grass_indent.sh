@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 case "$(uname)" in
@@ -88,11 +89,17 @@ case "$(uname)" in
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+case "$(uname)" in
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 case "$(uname)" in 
 =======
 case "$(uname)" in
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +152,8 @@ case "$(uname)" in
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

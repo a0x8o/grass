@@ -162,6 +162,7 @@ class MainToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -261,6 +262,11 @@ class MainToolbar(BaseToolbar):
                 if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
 >>>>>>> osgeo-main
 =======
+                i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
+                if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> osgeo-main
+=======
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -270,10 +276,13 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -314,6 +323,7 @@ class MainToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -413,6 +423,11 @@ class MainToolbar(BaseToolbar):
             if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
 >>>>>>> osgeo-main
 =======
+            i_tool_name = get_tool_name(i_tool_data[0])
+<<<<<<< HEAD
+            if not i_tool_name or i_tool_name in {"cats_mgr", "sel_pol_mode"}:
+>>>>>>> osgeo-main
+=======
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -422,10 +437,13 @@ class MainToolbar(BaseToolbar):
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -563,6 +581,7 @@ class EditingToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -590,10 +609,13 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 i_tool_name = get_tool_name(i_tool_data[0])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +662,8 @@ class EditingToolbar(BaseToolbar):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -676,6 +700,7 @@ class EditingToolbar(BaseToolbar):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -703,10 +728,13 @@ class EditingToolbar(BaseToolbar):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             i_tool_name = get_tool_name(i_tool_data[0])
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -753,6 +781,8 @@ class EditingToolbar(BaseToolbar):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

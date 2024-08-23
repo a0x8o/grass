@@ -153,6 +153,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -214,6 +215,11 @@ class GrassTestFilesInvoker:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -315,6 +321,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -353,9 +360,12 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +447,10 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
             stdout = p.stdout
             stderr = p.stderr
             returncode = p.returncode
@@ -462,6 +476,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 =======
 <<<<<<< HEAD
@@ -492,6 +507,8 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -513,6 +530,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -566,6 +584,11 @@ class GrassTestFilesInvoker:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 stderr = f"Process has timed out in {timeout}s and produced no error output.\n"
@@ -596,6 +619,7 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -634,6 +658,13 @@ class GrassTestFilesInvoker:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        encodings = [_get_encoding(), "utf8", "latin-1", "ascii"]
+
 =======
 >>>>>>> osgeo-main
 =======
@@ -693,6 +724,7 @@ class GrassTestFilesInvoker:
 
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,6 +812,8 @@ class GrassTestFilesInvoker:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         def try_decode(data, encodings):
             """Try to decode data (bytes) using one of encodings
 
@@ -788,6 +822,7 @@ class GrassTestFilesInvoker:
             """
             for encoding in encodings:
                 try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,6 +887,10 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+                    return decode(data, encoding=encoding)
+=======
+>>>>>>> osgeo-main
+=======
                     return decode(data, encoding=encoding)
 =======
 >>>>>>> osgeo-main
@@ -898,12 +937,15 @@ class GrassTestFilesInvoker:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -921,6 +963,7 @@ class GrassTestFilesInvoker:
                     return decode(stdout, encoding=encoding)
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> 57aff3a06a (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1061,8 @@ class GrassTestFilesInvoker:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

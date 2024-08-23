@@ -292,6 +292,7 @@ void RTreeDestroyTree(struct RTree *t)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Search in an RTree for all data retangles that overlap or touch the
 =======
 <<<<<<< HEAD
@@ -322,6 +323,8 @@ void RTreeDestroyTree(struct RTree *t)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -340,6 +343,7 @@ void RTreeDestroyTree(struct RTree *t)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    Search in an RTree for all data retangles that overlap or touch the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -393,6 +397,11 @@ void RTreeDestroyTree(struct RTree *t)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   Search in an RTree for all data retangles that overlap or touch the
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    Search in an RTree for all data retangles that overlap or touch the

@@ -53,6 +53,7 @@
 # % required: create, edit
 # % requires: base, create
 # %end
+from __future__ import annotations
 
 import os
 
@@ -145,6 +146,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,9 +210,16 @@ def main():
 >>>>>>> osgeo-main
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
+=======
+<<<<<<< HEAD
+            self.rdigit.quitDigitizer.connect(self.Close)
+>>>>>>> osgeo-main
+=======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8c89098fcc (wxGUI: fix layout flag assert in wms dialog (#1764))
@@ -218,9 +227,13 @@ def main():
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 >>>>>>> osgeo-main
 =======
+>>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> osgeo-main
+=======
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8f5c741ca6 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -276,6 +289,9 @@ def main():
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -309,11 +325,12 @@ def main():
                 render=True,
             )
 
-        def OnMapCreated(self, name, ltype):
+        def OnMapCreated(self, name, ltype, add: bool | None = None):
             """Add new created raster layer into map
 
             :param str name: map name
             :param str ltype: layer type
+            :param bool add: unused
             """
             self._mapObj.Clean()
             self._addLayer(name=name, ltype=ltype)

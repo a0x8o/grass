@@ -40,6 +40,7 @@ repos:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rev: v0.5.1
 =======
     rev: v0.5.4
@@ -50,10 +51,12 @@ repos:
 =======
     rev: v0.5.7
 >>>>>>> osgeo-main
+=======
+    rev: v0.6.2
+>>>>>>> osgeo-main
     hooks:
       # Run the linter.
       - id: ruff
-        types_or: [python, pyi, jupyter]
         args: [--fix, --preview]
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.41.0
@@ -78,7 +81,7 @@ repos:
                 .*/testsuite/.*
           )
   - repo: https://github.com/pre-commit/mirrors-clang-format
-    rev: v17.0.6
+    rev: v18.1.8
     hooks:
       - id: clang-format
         types_or: [c, c++, javascript, json, objective-c]
