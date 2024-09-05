@@ -76,6 +76,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param kwargs: wx.Panel attribures
 =======
 <<<<<<< HEAD
@@ -106,6 +107,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -127,6 +130,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         :param kwargs: wx.Panel attribures
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,6 +184,11 @@ class MapPanel(SingleMapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        :param kwargs: wx.Panel attribures
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         :param kwargs: wx.Panel attribures
@@ -255,6 +264,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,10 +302,13 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 <<<<<<< HEAD
         self.statusbarManager.SetMode(8)  # goto GCP
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +396,12 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -548,6 +567,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -581,9 +601,12 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +660,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -664,6 +689,7 @@ class MapPanel(SingleMapPanel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -696,12 +722,16 @@ class MapPanel(SingleMapPanel):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
             self.toolbars["map"] = MapToolbar(self, self._toolSwitcher, self._giface)
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 03a790ad9a (wxGUI: refactoring: build GUI tools' status bars based on wx.StatusBar widget (#1689))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -783,6 +813,8 @@ class MapPanel(SingleMapPanel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -19,11 +19,9 @@
  * \date 2006-2008
  */
 
-#include <stdio.h>
-#include <stdlib.h>
 #include <stdarg.h>
-#include <unistd.h>
-#include <assert.h>
+#include <stdio.h>
+
 #include <grass/gis.h>
 
 /**
@@ -32,6 +30,8 @@
  * <b>Note:</b> The use of <i>snprintf()</i>/<i>G_snprintf()</i> is
  * discouraged in favour of calculating how long the string will be and
  * allocating enough memory!
+ *
+ * \deprecated Use C99 standard function snprintf() instead.
  *
  * \param[in] str input string
  * \param[in] size length of string
@@ -48,7 +48,10 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
     count = vsnprintf(str, size, fmt, ap);
     va_end(ap);
 
+<<<<<<< HEAD
+=======
     /* Windows' vsnprintf() doesn't always NUL-terminate the buffer */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +130,10 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
     if (count >= 0 && (unsigned int)count == size)
 =======
 >>>>>>> osgeo-main
+=======
+    if (count >= 0 && (unsigned int)count == size)
+=======
+>>>>>>> osgeo-main
     if (count == size)
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -135,6 +142,7 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 =======
     if (count >= 0 && (unsigned int)count == size)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,11 +177,14 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     if (count == size)
 =======
     if (count >= 0 && (unsigned int)count == size)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,7 +268,10 @@ int G_snprintf(char *str, size_t size, const char *fmt, ...)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         str[--count] = '\0';
 
+>>>>>>> 3ecb21a9ab (wxpyimgview: explicit conversion to int (#2704))
     return count;
 }

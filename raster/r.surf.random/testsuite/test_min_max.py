@@ -19,6 +19,7 @@ AUTHOR(S): Vaclav Petras <wenzeslaus gmail com>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PURPOSE:   Test of min and max paramters
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ PURPOSE:   Test of min and max paramters
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -70,6 +73,7 @@ PURPOSE:   Test of min and max paramters
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 PURPOSE:   Test of min and max paramters
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -123,6 +127,11 @@ PURPOSE:   Test of min and max paramters
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+PURPOSE:   Test of min and max paramters
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 PURPOSE:   Test of min and max paramters
@@ -160,6 +169,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
 
 =======
@@ -191,6 +201,8 @@ import os
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -212,6 +224,7 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -235,9 +248,12 @@ import os
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 import os
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +295,8 @@ import os
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -320,6 +338,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -349,6 +368,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -370,6 +391,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -415,6 +437,10 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -447,6 +473,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -508,6 +535,11 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -551,6 +583,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -580,6 +613,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -601,6 +636,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -646,6 +682,10 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -676,6 +716,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -737,6 +778,11 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -779,6 +825,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
             reference=dict(min=min_value, max=max_value),
@@ -806,6 +853,8 @@ class MinMaxTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             reference={"min": -3.20423, "max": 5.68621},
 =======
 =======
@@ -815,6 +864,9 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -826,6 +878,7 @@ class MinMaxTestCase(TestCase):
 =======
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,10 +969,14 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
             reference=dict(min=min_value, max=max_value),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -942,6 +999,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -974,6 +1033,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 =======
 <<<<<<< HEAD
@@ -1004,6 +1064,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1030,6 +1092,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1083,6 +1146,11 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
@@ -1132,6 +1200,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 =======
 <<<<<<< HEAD
@@ -1162,6 +1231,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1188,6 +1259,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1241,6 +1313,11 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             "r.surf.random", min=min_value, max=max_value, output=self.output, flags="i"
@@ -1277,6 +1354,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1306,6 +1384,8 @@ class MinMaxTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1333,6 +1413,7 @@ class MinMaxTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1378,6 +1459,10 @@ class MinMaxTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

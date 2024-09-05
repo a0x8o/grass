@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # % label: Raster map withh zones to compute statistics for
 # % description: Raster map withh zones to compute statistics for (needs to be CELL)
 =======
@@ -81,6 +82,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -104,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -127,9 +131,12 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 # % label: Raster map withh zones to compute statistics for
 # % description: Raster map withh zones to compute statistics for (needs to be CELL)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +178,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -1354,6 +1354,7 @@ class Boundary(Line):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1416,6 +1417,11 @@ class Boundary(Line):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
 =======

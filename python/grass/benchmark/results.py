@@ -67,6 +67,7 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -112,6 +113,8 @@ def save_results_to_file(results, filename):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     Path(filename).write_text(text, encoding="utf-8")
 =======
 =======
@@ -124,6 +127,9 @@ def save_results_to_file(results, filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -139,6 +145,7 @@ def save_results_to_file(results, filename):
 =======
     with open(filename, "w", encoding="utf-8") as file:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +223,8 @@ def save_results_to_file(results, filename):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -258,6 +267,7 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     return load_results(Path(filename).read_text(encoding="utf-8"))
@@ -353,6 +363,13 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
+    return load_results(Path(filename).read_text(encoding="utf-8"))
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -360,9 +377,12 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -377,8 +397,11 @@ def load_results_from_file(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -404,6 +427,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -443,6 +467,9 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -468,6 +495,7 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a4c9b5af1d (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
@@ -490,11 +518,14 @@ def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 def join_results(results, prefixes=None):
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 def join_results(results, prefixes=None, select=None, prefixes_as_labels=False):
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,6 +594,10 @@ def join_results(results, prefixes=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -609,6 +644,7 @@ def join_results(results, prefixes=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -670,6 +706,10 @@ def join_results(results, prefixes=None):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -720,6 +760,7 @@ def join_results_from_files(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -735,6 +776,9 @@ def join_results_from_files(
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -795,6 +839,7 @@ def join_results_from_files(
 >>>>>>> 953489b535 (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -962,6 +1007,8 @@ def join_results_from_files(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

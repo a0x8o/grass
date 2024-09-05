@@ -228,6 +228,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -286,6 +287,10 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 =======
+            loops = 2**16 - 1
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -295,6 +300,7 @@ class GifWriter:
 =======
             loops = 2**16 - 1
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,6 +390,8 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -841,6 +849,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -871,6 +880,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -892,6 +903,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -945,6 +957,11 @@ def readGif(filename, asNumpy=True):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
         raise IOError("File not found: " + str(filename))

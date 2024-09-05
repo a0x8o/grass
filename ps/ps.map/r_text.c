@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -83,9 +84,12 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 extern char *get_color_name();
 extern int get_color_number();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,11 +119,14 @@ extern int get_color_number();
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,12 +161,15 @@ extern int get_color_number();
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 extern char *get_color_name();
 extern int get_color_number();
 
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +235,8 @@ extern int get_color_number();
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -23,6 +23,7 @@ from __future__ import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -84,6 +85,11 @@ from __future__ import (
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -136,6 +142,7 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -197,6 +204,11 @@ from grass.pygrass.modules.grid.split import split_region_tiles
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -720,6 +732,7 @@ class GridModule:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -781,6 +794,11 @@ class GridModule:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

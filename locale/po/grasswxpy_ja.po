@@ -18224,6 +18224,7 @@ msgstr "ラスターカテゴリー値またはパーセントの入力 "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18252,6 +18253,8 @@ msgstr "ラスターカテゴリー値またはパーセントの入力 "
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/modules/colorrules.py:983
 #: ../gui/wxpython/modules/colorrules.py:1685
 #: ../gui/wxpython/modules/colorrules.py:1691
@@ -18261,6 +18264,7 @@ msgstr "範囲"
 =======
 #: ../gui/wxpython/location_wizard/wizard.py:186
 msgid "Change"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18288,6 +18292,8 @@ msgid "Change"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -18609,6 +18615,7 @@ msgid "This option is required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -18634,6 +18641,8 @@ msgid "This option is required"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -22010,6 +22019,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -22071,6 +22081,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23098,6 +23113,7 @@ msgstr "警告"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23159,6 +23175,11 @@ msgstr "警告"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23277,6 +23298,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -23325,6 +23347,11 @@ msgid "Text properties"
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/main_window/frame.py:921 ../gui/wxpython/lmgr/frame.py:798
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/main_window/frame.py:921 ../gui/wxpython/lmgr/frame.py:798
 =======
@@ -23360,6 +23387,7 @@ msgid "Text properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23397,11 +23425,15 @@ msgid "Text properties"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/mapwin/decorations.py:226
 msgid "Remove scale bar"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23445,6 +23477,8 @@ msgid "Remove scale bar"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -23469,6 +23503,7 @@ msgstr "実行するモデルの選択"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -23511,6 +23546,11 @@ msgstr "実行するモデルの選択"
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/main_window/frame.py:1140 ../gui/wxpython/lmgr/frame.py:1003
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/main_window/frame.py:1140 ../gui/wxpython/lmgr/frame.py:1003
 =======
@@ -23718,6 +23758,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -23746,6 +23787,9 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -23989,6 +24033,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
 =======
@@ -24020,6 +24065,8 @@ msgid "Histogram Tool"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -24335,6 +24382,7 @@ msgid "Histogram Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/wxplot/histogram.py:43
 msgid "Histogram Tool"
@@ -24379,6 +24427,11 @@ msgid "Histogram Tool"
 msgid "Histogram Tool"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+#: ../gui/wxpython/wxplot/histogram.py:43
+msgid "Histogram Tool"
+>>>>>>> osgeo-main
 =======
 =======
 #: ../gui/wxpython/wxplot/histogram.py:43
@@ -24763,6 +24816,7 @@ msgid "Training"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -24788,6 +24842,8 @@ msgid "Training"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -28443,6 +28499,7 @@ msgid "Interactive editing and digitization of vector maps."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28475,6 +28532,9 @@ msgid "Interactive editing and digitization of vector maps."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -28546,6 +28606,7 @@ msgid "Add action (GRASS command) to model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -28571,6 +28632,8 @@ msgid "Add action (GRASS command) to model"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -28687,6 +28750,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -28703,6 +28767,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -28845,6 +28911,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -28870,6 +28937,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -29231,6 +29300,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -29273,6 +29343,11 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/lmgr/frame.py:141
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/lmgr/frame.py:141
 =======
@@ -29326,6 +29401,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -29338,6 +29414,8 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -29359,6 +29437,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29419,6 +29498,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -29444,6 +29525,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -29473,6 +29555,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -29494,6 +29578,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -29539,6 +29624,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -30218,6 +30307,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -30260,6 +30350,11 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/dbmgr/dialogs.py:80
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/dbmgr/dialogs.py:80
 =======
@@ -30446,6 +30541,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -30474,6 +30570,9 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -30742,6 +30841,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -30784,6 +30884,11 @@ msgstr ""
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/animation/utils.py:210
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/animation/utils.py:210
 =======
@@ -31082,6 +31187,7 @@ msgstr "ファイル"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -31110,6 +31216,9 @@ msgstr "ファイル"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -31641,6 +31750,7 @@ msgid "Lat/long projections"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -32005,6 +32115,8 @@ msgid "Example"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -32371,6 +32483,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -32428,12 +32541,18 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/animation/provider.py:562
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 #: ../gui/wxpython/animation/provider.py:559
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Overlaying map layers"
 =======
 #: ../gui/wxpython/gui_core/wrap.py:210
 msgid "&Clear"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32753,6 +32872,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -35066,6 +35187,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -35086,6 +35208,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -35114,6 +35238,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -35140,11 +35265,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #~ msgid "Show comp. extent"
 #~ msgstr "編集範囲表示"
 =======
 #: ../gui/wxpython/psmap/g.gui.psmap.py:51
 msgid "Cartographic Composer - GRASS GIS"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35189,6 +35317,9 @@ msgid "Cartographic Composer - GRASS GIS"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -35325,6 +35456,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -35350,6 +35482,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -36157,6 +36291,7 @@ msgstr "GRASS ロケーションを作成しますか <%s>?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -36204,6 +36339,10 @@ msgstr "GRASS ロケーションを作成しますか <%s>?"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 #~ msgid "Create new location?"
 #~ msgstr "新しいロケーションを作成しますか？"
 
@@ -36232,6 +36371,7 @@ msgstr "新しいロケーションを作成しますか？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -36248,6 +36388,8 @@ msgstr "新しいロケーションを作成しますか？"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -36660,6 +36802,7 @@ msgstr "新しいロケーションを作成しますか？"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -36701,6 +36844,9 @@ msgstr "新しいロケーションを作成しますか？"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main

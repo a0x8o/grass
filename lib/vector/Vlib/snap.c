@@ -95,6 +95,7 @@ static int find_item(int id, const struct RTree_Rect *rect UNUSED, void *list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -124,10 +125,13 @@ static int find_item(int id, const struct RTree_Rect *rect UNUSED, void *list)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 static int add_item(int id, const struct RTree_Rect *rect UNUSED, void *list)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +179,8 @@ static int add_item(int id, const struct RTree_Rect *rect UNUSED, void *list)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -306,6 +312,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -363,6 +370,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -370,6 +379,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
     XPNT *XPnts;            /* Array of points */
     NEW *New = NULL;        /* Array of new points */
     int anew = 0, nnew;     /* allocated new points, number of new points */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,10 +418,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +471,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -491,6 +506,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -515,10 +531,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +599,10 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -587,6 +610,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
     XPNT *XPnts;            /* Array of points */
     NEW *New = NULL;        /* Array of new points */
     int anew = 0, nnew;     /* allocated new points, number of new points */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -621,10 +645,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,6 +720,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -745,6 +774,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -785,12 +815,15 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,10 +858,13 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +933,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -943,6 +981,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -989,11 +1028,14 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nvertices++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1023,12 +1065,15 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             nvertices++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1142,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1163,6 +1210,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1209,11 +1257,14 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         nanchors++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         nanchors++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1243,12 +1294,15 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
         nanchors++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1317,6 +1371,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1371,6 +1427,7 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1417,11 +1474,14 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 ntosnap++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 ntosnap++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,12 +1511,15 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
                 ntosnap++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1525,6 +1588,8 @@ static void Vect_snap_lines_list_kdtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1782,6 +1847,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1839,6 +1905,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -1846,6 +1914,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
     XPNT *XPnts;            /* Array of points */
     NEW *New = NULL;        /* Array of new points */
     int anew = 0, nnew;     /* allocated new points , number of new points */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1884,10 +1953,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1934,6 +2006,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1967,6 +2041,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1991,10 +2066,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2056,6 +2134,10 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
     int point;              /* index in points array */
     int nsnapped, ncreated; /* number of snapped verices, number of new vertices
                                (on segments) */
@@ -2063,6 +2145,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
     XPNT *XPnts;            /* Array of points */
     NEW *New = NULL;        /* Array of new points */
     int anew = 0, nnew;     /* allocated new points , number of new points */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2097,10 +2180,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2169,6 +2255,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2231,6 +2319,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2271,12 +2360,15 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2311,10 +2403,13 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,6 +2478,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2428,6 +2525,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2474,11 +2572,14 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nvertices++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2508,12 +2609,15 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             nvertices++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2582,6 +2686,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2658,6 +2764,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2704,11 +2811,14 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         nanchors++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         nanchors++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2738,12 +2848,15 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
         nanchors++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2812,6 +2925,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2870,6 +2985,7 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2916,11 +3032,14 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 ntosnap++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 ntosnap++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2950,12 +3069,15 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
                 ntosnap++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3024,6 +3146,8 @@ static void Vect_snap_lines_list_rtree(struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3339,6 +3463,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3385,11 +3510,14 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     int nvertices;      /* number of vertices */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
     int nvertices;      /* number of vertices */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3419,12 +3547,15 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
     int nvertices;      /* number of vertices */
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3493,6 +3624,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3565,6 +3698,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3605,12 +3739,15 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
     nvertices = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3645,10 +3782,13 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     nvertices = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3717,6 +3857,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3762,6 +3904,7 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3808,11 +3951,14 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             nvertices++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             nvertices++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3842,12 +3988,15 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
             nvertices++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3916,6 +4065,8 @@ int Vect_snap_line(struct Map_info *Map, struct ilist *reflist,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

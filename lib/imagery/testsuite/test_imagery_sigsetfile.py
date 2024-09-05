@@ -22,6 +22,7 @@ for details
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -79,6 +80,11 @@ for details
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 
 =======
@@ -115,6 +121,7 @@ import shutil
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -160,6 +167,9 @@ import shutil
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -185,6 +195,7 @@ import ctypes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -202,9 +213,12 @@ import ctypes
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +272,8 @@ import ctypes
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -291,6 +307,7 @@ from grass.lib.gis import G_mapset_path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -345,6 +362,10 @@ from grass.lib.raster import Rast_write_semantic_label
 from grass.lib.raster import Rast_write_semantic_label
 =======
 >>>>>>> osgeo-main
+=======
+from grass.lib.raster import Rast_write_semantic_label
+=======
+>>>>>>> osgeo-main
 from grass.lib.raster import Rast_write_bandref
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -353,6 +374,7 @@ from grass.lib.raster import Rast_write_semantic_label
 =======
 from grass.lib.raster import Rast_write_semantic_label
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,6 +452,8 @@ from grass.lib.raster import Rast_write_semantic_label
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -461,6 +485,7 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -515,6 +540,10 @@ from grass.lib.imagery import (
     I_SortSigSetBySemanticLabel,
 =======
 >>>>>>> osgeo-main
+=======
+    I_SortSigSetBySemanticLabel,
+=======
+>>>>>>> osgeo-main
     I_SortSigSetByBandref,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -523,6 +552,7 @@ from grass.lib.imagery import (
 =======
     I_SortSigSetBySemanticLabel,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,6 +630,8 @@ from grass.lib.imagery import (
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -630,6 +662,7 @@ from grass.lib.imagery import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -684,6 +717,10 @@ from grass.lib.imagery import (
     ReturnString,
 =======
 >>>>>>> osgeo-main
+=======
+    ReturnString,
+=======
+>>>>>>> osgeo-main
     String,
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -692,6 +729,7 @@ from grass.lib.imagery import (
 =======
     ReturnString,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,6 +807,8 @@ from grass.lib.imagery import (
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -803,6 +843,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -876,11 +917,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         cls.sig_dir = f"{cls.mpath}/signatures/sigset/{cls.sig_name}"
 
     @classmethod
     def tearDownClass(cls):
         shutil.rmtree(cls.sig_dir, ignore_errors=True)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +979,9 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -962,6 +1011,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -985,12 +1035,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         cls.sig_dir = f"{cls.mpath}/signatures/sigset/{cls.sig_name}"
 
     @classmethod
     def tearDownClass(cls):
         shutil.rmtree(cls.sig_dir, ignore_errors=True)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1106,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1088,6 +1145,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1131,10 +1189,13 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def test_roundtrip_sigset_v1_one_label(self):
         """Test writing and reading back sigset file (v1)
         with a single label and fully qualified sigfile name"""
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1182,10 +1243,13 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def test_roundtrip_sigset_v1_one_band(self):
         """Test writing and reading back sigset file (v1)
         with a single band and fully qualified sigfile name"""
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1277,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1235,6 +1301,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1258,10 +1325,13 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     def test_roundtrip_sigset_v1_one_label(self):
         """Test writing and reading back sigset file (v1)
         with a single label and fully qualified sigfile name"""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1309,6 +1379,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1344,6 +1416,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1417,11 +1490,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1474,6 +1552,9 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -1500,6 +1581,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1523,12 +1605,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1591,6 +1676,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1628,6 +1717,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1682,6 +1772,10 @@ class SigSetFileTestCase(TestCase):
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
 >>>>>>> osgeo-main
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+=======
+>>>>>>> osgeo-main
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -1690,6 +1784,7 @@ class SigSetFileTestCase(TestCase):
 =======
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1767,6 +1862,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1803,6 +1900,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1836,9 +1934,12 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1892,6 +1993,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1919,6 +2022,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1957,6 +2061,9 @@ class SigSetFileTestCase(TestCase):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
         bandref = utils.decode(ctypes.cast(Sn.bandrefs[0], ctypes.c_char_p).value)
         self.assertEqual(bandref, "The_Doors")
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -1964,6 +2071,7 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2036,6 +2144,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2073,6 +2183,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2138,6 +2249,11 @@ class SigSetFileTestCase(TestCase):
         """Reading back should fail as semantic label length exceeds limit"""
 =======
 >>>>>>> osgeo-main
+=======
+    def test_read_fail_sigset_v1_one_label(self):
+        """Reading back should fail as semantic label length exceeds limit"""
+=======
+>>>>>>> osgeo-main
     def test_read_fail_sigset_v1_one_band(self):
         """Reading back should fail as band reference exceeds limit"""
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -2149,6 +2265,7 @@ class SigSetFileTestCase(TestCase):
     def test_read_fail_sigset_v1_one_label(self):
         """Reading back should fail as semantic label length exceeds limit"""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2233,6 +2350,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2268,6 +2387,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2341,11 +2461,16 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(tempname(252).encode())
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2398,6 +2523,9 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -2424,6 +2552,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2447,12 +2576,15 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(tempname(252).encode())
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2515,6 +2647,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2552,6 +2688,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2606,6 +2743,10 @@ class SigSetFileTestCase(TestCase):
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
 >>>>>>> osgeo-main
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+=======
+>>>>>>> osgeo-main
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -2614,6 +2755,7 @@ class SigSetFileTestCase(TestCase):
 =======
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2691,6 +2833,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2728,6 +2872,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2793,6 +2938,11 @@ class SigSetFileTestCase(TestCase):
         """Test writing and reading back sigset (v1) with two labels"""
 =======
 >>>>>>> osgeo-main
+=======
+    def test_roundtrip_sigset_v1_two_labels(self):
+        """Test writing and reading back sigset (v1) with two labels"""
+=======
+>>>>>>> osgeo-main
     def test_roundtrip_sigset_v1_two_bands(self):
         """Test writing and reading back sigset (v1) with two bands"""
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -2804,6 +2954,7 @@ class SigSetFileTestCase(TestCase):
     def test_roundtrip_sigset_v1_two_labels(self):
         """Test writing and reading back sigset (v1) with two labels"""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2888,6 +3039,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2923,6 +3076,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2996,12 +3150,17 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.semantic_labels[1] = ctypes.create_string_buffer(b"The_Who")
         So.ClassSig[0].used = 1
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3054,6 +3213,9 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -3081,6 +3243,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3104,6 +3267,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         So.title = ReturnString("Signature title")
         So.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         So.semantic_labels[1] = ctypes.create_string_buffer(b"The_Who")
@@ -3111,6 +3276,7 @@ class SigSetFileTestCase(TestCase):
         So.ClassSig[0].classnum = 2
         So.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3173,6 +3339,10 @@ class SigSetFileTestCase(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3214,6 +3384,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3268,6 +3439,10 @@ class SigSetFileTestCase(TestCase):
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 =======
 >>>>>>> osgeo-main
+=======
+        sig_stat = os.stat(f"{self.sig_dir}/sig")
+=======
+>>>>>>> osgeo-main
         sig_stat = os.stat(self.sigfile_name)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3276,6 +3451,7 @@ class SigSetFileTestCase(TestCase):
 =======
         sig_stat = os.stat(f"{self.sig_dir}/sig")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3353,6 +3529,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3388,6 +3566,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3421,9 +3600,12 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3477,6 +3659,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3508,6 +3692,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3553,6 +3738,9 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -3579,6 +3767,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3596,9 +3785,12 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3652,6 +3844,8 @@ class SigSetFileTestCase(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3694,6 +3888,7 @@ class SigSetFileTestCase(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3748,6 +3943,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
+=======
+class SortSigSetBySemanticLabelTest(TestCase):
+=======
+>>>>>>> osgeo-main
 class SortSigSetByBandrefTest(TestCase):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -3756,6 +3955,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3833,6 +4033,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3862,6 +4064,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3905,10 +4108,13 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         cls.semantic_label1 = "The_Doors"
         cls.map2 = tempname(10)
         cls.semantic_label2 = "The_Who"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3956,10 +4162,13 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         cls.bandref1 = "The_Doors"
         cls.map2 = tempname(10)
         cls.bandref2 = "The_Who"
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3987,6 +4196,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4009,6 +4220,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4032,10 +4244,13 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         cls.semantic_label1 = "The_Doors"
         cls.map2 = tempname(10)
         cls.semantic_label2 = "The_Who"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4083,6 +4298,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4113,6 +4330,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4178,6 +4396,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
         Rast_write_semantic_label(cls.map2, cls.semantic_label2)
 =======
 >>>>>>> osgeo-main
+=======
+        Rast_write_semantic_label(cls.map1, cls.semantic_label1)
+        Rast_write_semantic_label(cls.map2, cls.semantic_label2)
+=======
+>>>>>>> osgeo-main
         Rast_write_bandref(cls.map1, cls.bandref1)
         Rast_write_bandref(cls.map2, cls.bandref2)
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -4189,6 +4412,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         Rast_write_semantic_label(cls.map1, cls.semantic_label1)
         Rast_write_semantic_label(cls.map2, cls.semantic_label2)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4273,6 +4497,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4320,6 +4546,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4393,11 +4620,16 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4450,6 +4682,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -4476,6 +4711,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4499,12 +4735,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4567,6 +4806,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4603,6 +4846,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4657,6 +4901,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 =======
 >>>>>>> osgeo-main
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+=======
+>>>>>>> osgeo-main
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -4665,6 +4913,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4742,6 +4991,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4799,6 +5050,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4872,11 +5124,16 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4929,6 +5186,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -4955,6 +5215,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4978,12 +5239,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Troggs")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5046,6 +5310,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5082,6 +5350,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5136,6 +5405,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 =======
 >>>>>>> osgeo-main
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+=======
+>>>>>>> osgeo-main
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5144,6 +5417,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5221,6 +5495,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5260,6 +5536,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5314,6 +5591,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
     def test_missing_label(self):
 =======
 >>>>>>> osgeo-main
+=======
+    def test_missing_label(self):
+=======
+>>>>>>> osgeo-main
     def test_missing_bandref(self):
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5322,6 +5603,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
     def test_missing_label(self):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5399,6 +5681,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5441,6 +5725,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5514,11 +5799,16 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5571,6 +5861,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -5597,6 +5890,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5620,12 +5914,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5688,6 +5985,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5724,6 +6025,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5778,6 +6080,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 =======
 >>>>>>> osgeo-main
+=======
+        ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
+=======
+>>>>>>> osgeo-main
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -5786,6 +6092,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5863,6 +6170,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5892,6 +6201,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5925,9 +6235,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5981,6 +6294,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6005,6 +6320,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6065,6 +6381,11 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        )
+        self.assertEqual(ref_err, f"The_Doors,{self.map3}")
+=======
+>>>>>>> osgeo-main
 =======
         )
         self.assertEqual(ref_err, f"The_Doors,{self.map3}")
@@ -6099,6 +6420,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6122,9 +6444,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         )
         self.assertEqual(ref_err, f"The_Doors,{self.map3}")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6159,9 +6484,12 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         )
         self.assertEqual(ref_err, f"The_Doors,{self.map3}")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6209,6 +6537,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6258,6 +6588,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6331,11 +6662,16 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6388,6 +6724,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -6414,6 +6753,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6437,12 +6777,15 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6505,6 +6848,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6541,6 +6888,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6614,12 +6962,17 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
         semantic_label = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
         self.assertEqual(semantic_label, "The_Doors")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6672,6 +7025,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -6697,6 +7053,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6720,6 +7077,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
         self.assertFalse(bool(ret))
         semantic_label = utils.decode(
@@ -6727,6 +7086,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         )
         self.assertEqual(semantic_label, "The_Doors")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6789,6 +7149,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6849,6 +7213,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6922,12 +7287,17 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6980,6 +7350,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -7007,6 +7380,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7030,6 +7404,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -7037,6 +7413,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7099,6 +7476,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7139,6 +7520,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7200,6 +7582,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7238,6 +7624,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7279,6 +7666,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
@@ -7288,6 +7677,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         # Static items
         self.assertEqual(S.ClassSig[0].SubSig[0].pi, 3.14)
         # Reordered items
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7344,6 +7734,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7366,6 +7758,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7389,6 +7782,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         semantic_label1 = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -7398,6 +7793,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         )
         self.assertEqual(semantic_label2, "The_Who")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7460,6 +7856,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7523,6 +7923,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7596,12 +7997,17 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
         S.ClassSig[0].used = 1
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7654,6 +8060,9 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -7681,6 +8090,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7704,6 +8114,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         S.title = ReturnString("Signature title")
         S.semantic_labels[0] = ctypes.create_string_buffer(b"The_Who")
         S.semantic_labels[1] = ctypes.create_string_buffer(b"The_Doors")
@@ -7711,6 +8123,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         S.ClassSig[0].classnum = 2
         S.ClassSig[0].title = ReturnString("1st class")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7773,6 +8186,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7813,6 +8230,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -7874,6 +8292,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7912,6 +8334,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7953,6 +8376,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         ret = I_SortSigSetByBandref(ctypes.byref(S), ctypes.byref(R))
 =======
         ret = I_SortSigSetBySemanticLabel(ctypes.byref(S), ctypes.byref(R))
@@ -7962,6 +8387,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         # Static items
         self.assertEqual(S.ClassSig[0].SubSig[0].pi, 3.14)
         # Reordered items
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8018,6 +8444,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8040,6 +8468,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8063,6 +8492,8 @@ class SortSigSetBySemanticLabelTest(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         semantic_label1 = utils.decode(
             ctypes.cast(S.semantic_labels[0], ctypes.c_char_p).value
         )
@@ -8072,6 +8503,7 @@ class SortSigSetBySemanticLabelTest(TestCase):
         )
         self.assertEqual(semantic_label2, "The_Doors")
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8134,6 +8566,10 @@ class SortSigSetBySemanticLabelTest(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

@@ -2383,6 +2383,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Illegal n-s resolution value for 3D: %g"
 msgstr ""
@@ -2429,12 +2430,16 @@ msgstr ""
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 #, c-format
 msgid "Illegal n-s resolution value for 3D: %g"
 msgstr ""
 
 #: ../lib/gis/adj_cellhd.c:184
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2469,6 +2474,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3859,6 +3866,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3888,6 +3896,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4120,6 +4130,7 @@ msgstr "<%s> στο mapset <%s>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4150,6 +4161,9 @@ msgstr "<%s> στο mapset <%s>"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -4237,6 +4251,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -4262,6 +4277,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4584,6 +4601,7 @@ msgid "Invalid offset (%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4625,11 +4643,15 @@ msgid "Invalid offset (%"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/vector/Vlib/write_pg.c:348 ../lib/vector/Vlib/write_ogr.c:140
 msgid "Unable to delete feature"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4664,6 +4686,8 @@ msgid "Unable to delete feature"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9198,6 +9222,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9227,6 +9252,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9509,6 +9536,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -9554,6 +9582,10 @@ msgid ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -12945,6 +12977,7 @@ msgstr "[%s]: Δεν υπάρχει τέτοιο χρώμα"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13023,6 +13056,8 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -13221,6 +13256,7 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -13254,6 +13290,10 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13332,6 +13372,7 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -13373,6 +13414,9 @@ msgstr "Αδυναμία ανοίγματος κεφαλικού (header) αρχ
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main

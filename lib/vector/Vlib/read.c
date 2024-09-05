@@ -57,6 +57,7 @@ static int format2(struct Map_info *Map UNUSED, struct line_pnts *line_p UNUSED,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int (*Read_next_line_array[][3])() = {
 =======
 <<<<<<< HEAD
@@ -87,6 +88,8 @@ static int (*Read_next_line_array[][3])() = {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -109,6 +112,7 @@ static int (*Read_next_line_array[][3])() = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static int (*Read_next_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -162,6 +166,11 @@ static int (*Read_next_line_array[][3])() = {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+static int (*Read_next_line_array[][3])() = {
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 static int (*Read_next_line_array[][3])() = {
@@ -196,6 +205,7 @@ static int (*Read_next_line_array[][3])() = {
 #endif
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +263,8 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -302,6 +314,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -325,6 +338,8 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 static int (*Read_line_array[])() = {V2_read_line_nat
 #ifdef HAVE_OGR
                                      ,
@@ -340,6 +355,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
                                      ,
                                      format
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +397,8 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -415,6 +433,7 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -444,10 +463,13 @@ static int (*Read_line_array[])() = {V2_read_line_nat
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int Vect_get_next_line_id(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +517,8 @@ int Vect_get_next_line_id(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -549,6 +573,7 @@ int Vect_get_next_line_id(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 <<<<<<< HEAD
@@ -579,6 +604,8 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -600,6 +627,7 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -653,6 +681,11 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
@@ -719,6 +752,7 @@ int Vect_read_next_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 <<<<<<< HEAD
@@ -749,6 +783,8 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -770,6 +806,7 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -823,6 +860,11 @@ int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_read_line(const struct Map_info *Map, struct line_pnts *line_p,
@@ -936,6 +978,7 @@ int Vect_node_alive(struct Map_info *Map, int node)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -965,10 +1008,13 @@ int Vect_node_alive(struct Map_info *Map, int node)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int Vect_area_alive(struct Map_info *Map, int area)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1016,6 +1062,8 @@ int Vect_area_alive(struct Map_info *Map, int area)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1061,6 +1109,7 @@ int Vect_area_alive(const struct Map_info *Map, int area)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1090,10 +1139,13 @@ int Vect_area_alive(const struct Map_info *Map, int area)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int Vect_isle_alive(struct Map_info *Map, int isle)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1141,6 +1193,8 @@ int Vect_isle_alive(struct Map_info *Map, int isle)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1188,6 +1242,7 @@ int Vect_isle_alive(const struct Map_info *Map, int isle)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1217,10 +1272,13 @@ int Vect_isle_alive(const struct Map_info *Map, int isle)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 off_t Vect_get_line_offset(struct Map_info *Map, int line)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1268,6 +1326,8 @@ off_t Vect_get_line_offset(struct Map_info *Map, int line)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -40,6 +40,7 @@ struct options {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int print; /* print only */
     int sql;   /* print only sql statements */
     int total; /* print totals */
@@ -72,6 +73,8 @@ struct options {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -98,6 +101,7 @@ struct options {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -121,10 +125,13 @@ struct options {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     int print; /* print only */
     int sql;   /* print only sql statements */
     int total; /* print totals */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +173,8 @@ struct options {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

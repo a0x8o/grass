@@ -121,6 +121,7 @@ class TestTRastAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 =======
         self.runModule("t.remove", flags="rf", inputs="R", quiet=True)
@@ -154,6 +155,9 @@ class TestTRastAlgebra(TestCase):
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        self.runModule("t.remove", flags="df", inputs="R", quiet=True)
+>>>>>>> osgeo-main
 =======
         self.runModule("t.remove", flags="df", inputs="R", quiet=True)
 >>>>>>> osgeo-main
@@ -178,6 +182,7 @@ class TestTRastAlgebra(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 =======
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D", quiet=True)
@@ -211,6 +216,9 @@ class TestTRastAlgebra(TestCase):
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
+>>>>>>> osgeo-main
 =======
         cls.runModule("t.remove", flags="df", inputs="A,B,C,D", quiet=True)
 >>>>>>> osgeo-main

@@ -116,6 +116,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):
@@ -180,6 +181,10 @@ class MapWindowProperties:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -223,6 +228,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -251,6 +257,8 @@ class MapWindowProperties:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -584,6 +592,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 =======
 <<<<<<< HEAD
@@ -614,6 +623,8 @@ class MapWindowBase:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -636,6 +647,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -689,6 +701,11 @@ class MapWindowBase:
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        @deprecated This method is deprecated. Use Signal with coordinates as parameters.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.

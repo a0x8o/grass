@@ -231,6 +231,7 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     i = first; /* stmt not necssary */
 =======
 <<<<<<< HEAD
@@ -261,6 +262,8 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -282,6 +285,7 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     i = first; /* stmt not necssary */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -335,6 +339,11 @@ int make_perimeter(struct line_pnts *points, IClass_perimeter *perimeter,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    i = first; /* stmt not necssary */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     i = first; /* stmt not necssary */

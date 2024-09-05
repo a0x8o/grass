@@ -29,6 +29,7 @@ PYDIR = $(ETC)/python/grass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -116,10 +117,15 @@ PYDIR = $(ETC)/python/grass
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 SUBDIRS = \
 	app \
 	benchmark \
 	exceptions \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,10 +169,13 @@ SUBDIRS = \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 	experimental \
 =======
 SUBDIRS = \
 	app \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,11 +204,14 @@ SUBDIRS = \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 	benchmark \
 	exceptions \
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +271,8 @@ SUBDIRS = \
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -290,6 +304,7 @@ SUBDIRS = \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -351,10 +366,15 @@ SUBDIRS = \
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 	semantic_label \
 	temporal \
 	utils
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,6 +404,8 @@ SUBDIRS = \
 	temporal \
 	utils
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -419,6 +441,7 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -436,12 +459,15 @@ SUBDIRS = app exceptions script ctypes grassdb temporal pygrass pydispatch imagi
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydispatch imaging gunittest bandref jupyter
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
 	temporal \
 	utils
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,10 +502,13 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	semantic_label \
 	temporal \
 	utils
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +583,8 @@ SUBDIRS = app benchmark exceptions script ctypes grassdb temporal pygrass pydisp
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

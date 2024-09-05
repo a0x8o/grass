@@ -71,6 +71,7 @@ public:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 =======
 <<<<<<< HEAD
@@ -106,16 +107,22 @@ public:
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive() {};
 =======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
     EMPQueueAdaptive(long N UNUSED) : EMPQueueAdaptive(){};
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,9 +150,13 @@ public:
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -193,6 +204,9 @@ public:
 =======
     EMPQueueAdaptive(long N) : EMPQueueAdaptive(){};
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+>>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))

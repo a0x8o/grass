@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
@@ -92,10 +93,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # COPYRIGHT:    (C) 2000-2024 by the GRASS Development Team
 =======
 # COPYRIGHT:    (C) 2000-2022 by the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +118,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -141,6 +147,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -215,6 +222,11 @@
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+# COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 # COPYRIGHT:    (C) 2000-2023 by the GRASS Development Team
@@ -266,6 +278,7 @@ import uuid
 import unicodedata
 import argparse
 import json
+from pathlib import Path
 
 
 # mechanism meant for debugging this script (only)
@@ -378,17 +391,12 @@ def fatal(msg):
 
 def readfile(path):
     debug("Reading %s" % path)
-    f = open(path, "r")
-    s = f.read()
-    f.close()
-    return s
+    return Path(path).read_text()
 
 
 def writefile(path, s):
     debug("Writing %s" % path)
-    f = open(path, "w")
-    f.write(s)
-    f.close()
+    Path(path).write_text(s)
 
 
 def call(cmd, **kwargs):
@@ -561,6 +569,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 =======
 <<<<<<< HEAD
@@ -591,6 +600,8 @@ def help_message(default_gui):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -613,6 +624,7 @@ def help_message(default_gui):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -666,6 +678,11 @@ def help_message(default_gui):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "options: arch,build,compiler,date,path,python_path,revision,svn_revision,version"
@@ -751,6 +768,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -778,6 +796,8 @@ def create_grass_config_dir():
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     from grass.app.runtime import get_grass_config_dir
 
     try:
@@ -794,6 +814,9 @@ def create_grass_config_dir():
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -801,6 +824,7 @@ def create_grass_config_dir():
 =======
 <<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,9 +846,12 @@ def create_grass_config_dir():
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,6 +879,8 @@ def create_grass_config_dir():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
@@ -865,6 +894,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 =======
@@ -884,6 +914,8 @@ def create_grass_config_dir():
 =======
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -912,6 +944,7 @@ def create_grass_config_dir():
     if WINDOWS:
         grass_config_dirname = f"GRASS{GRASS_VERSION_MAJOR}"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,6 +1053,8 @@ def create_grass_config_dir():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1068,6 +1103,7 @@ def create_grass_config_dir():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1131,6 +1167,10 @@ def create_grass_config_dir():
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 =======
 >>>>>>> osgeo-main
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+=======
+>>>>>>> osgeo-main
         grass_config_dirname = ".grass8"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1139,6 +1179,7 @@ def create_grass_config_dir():
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,6 +1286,11 @@ def create_grass_config_dir():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         grass_config_dirname = f".grass{GRASS_VERSION_MAJOR}"
@@ -1311,6 +1357,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1371,6 +1418,10 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
 =======
         tmpdir = os.path.join(tmp, tmpdir_name)
 =======
@@ -1399,6 +1450,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1416,11 +1468,14 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1477,6 +1532,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1509,6 +1566,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1569,6 +1627,10 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            tmpdir = os.path.join(tmp, tmpdir_name)
+=======
+>>>>>>> osgeo-main
 =======
             tmpdir = os.path.join(tmp, tmpdir_name)
 =======
@@ -1597,6 +1659,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1614,11 +1677,14 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
             tmpdir = os.path.join(tmp, tmpdir_name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,6 +1741,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1708,6 +1776,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1778,6 +1847,11 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
+                tmpdir_name=tmpdir_name
+=======
+>>>>>>> osgeo-main
 =======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
@@ -1808,6 +1882,7 @@ def create_tmp(user, gis_lock):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1831,9 +1906,12 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1868,9 +1946,12 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             _("Unable to create temporary directory <{tmpdir_name}>! Exiting.").format(
                 tmpdir_name=tmpdir_name
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1918,6 +1999,8 @@ def create_tmp(user, gis_lock):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2414,6 +2497,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2475,6 +2559,11 @@ def set_mapset(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2537,6 +2626,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 =======
@@ -2568,6 +2658,8 @@ def set_mapset(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2597,6 +2689,7 @@ def set_mapset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2620,9 +2713,12 @@ def set_mapset(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                                     " Did you mean to create a new location?"
                                 ).format(mapset=mapset, geofile=geofile)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2664,6 +2760,8 @@ def set_mapset(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

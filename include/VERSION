@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 3
@@ -61,6 +62,9 @@ dev
 5
 >>>>>>> osgeo-main
 =======
+5
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 3777db3c7d (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -76,6 +80,9 @@ dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -94,6 +101,7 @@ dev
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,10 +206,13 @@ dev
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 0
 dev
 2021
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +242,8 @@ dev
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 3
 dev
 <<<<<<< HEAD
@@ -245,6 +258,7 @@ dev
 =======
 2023
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +366,11 @@ dev
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+2023
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 2023

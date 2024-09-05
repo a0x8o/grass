@@ -89,6 +89,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    specifies the maxiumum number of vertices that a polygon can
 =======
 <<<<<<< HEAD
@@ -119,6 +120,8 @@ that exists in a vector file will have the same HREF tag.
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -140,6 +143,7 @@ that exists in a vector file will have the same HREF tag.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	    specifies the maxiumum number of vertices that a polygon can
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -193,6 +197,11 @@ that exists in a vector file will have the same HREF tag.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+	    specifies the maxiumum number of vertices that a polygon can
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 	    specifies the maxiumum number of vertices that a polygon can

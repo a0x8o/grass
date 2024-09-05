@@ -38,6 +38,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -96,6 +97,10 @@ CREATE VIEW raster_view_abs_time AS SELECT
 =======
 >>>>>>> osgeo-main
 =======
+            FROM raster_base A1, raster_absolute_time A2,
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_absolute_time A2, 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -108,6 +113,7 @@ CREATE VIEW raster_view_abs_time AS SELECT
             FROM raster_base A1, raster_absolute_time A2,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +203,8 @@ CREATE VIEW raster_view_abs_time AS SELECT
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -239,6 +247,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -297,6 +306,10 @@ CREATE VIEW raster_view_rel_time AS SELECT
 =======
 >>>>>>> osgeo-main
 =======
+            FROM raster_base A1, raster_relative_time A2,
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
             FROM raster_base A1, raster_relative_time A2, 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -309,6 +322,7 @@ CREATE VIEW raster_view_rel_time AS SELECT
             FROM raster_base A1, raster_relative_time A2,
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,6 +412,8 @@ CREATE VIEW raster_view_rel_time AS SELECT
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

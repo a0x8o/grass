@@ -130,6 +130,7 @@ class OptTable(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -191,6 +192,11 @@ class OptTable(object):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======

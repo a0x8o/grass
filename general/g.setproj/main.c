@@ -287,6 +287,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                  * recurively, to allow input of options for
 =======
 <<<<<<< HEAD
@@ -317,6 +318,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -338,6 +341,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                  * recurively, to allow input of options for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -391,6 +395,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                 * recurively, to allow input of options for
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                  * recurively, to allow input of options for
@@ -430,6 +439,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         /* if legal ellips. exist, ask wether or not to change
 =======
 <<<<<<< HEAD
@@ -460,6 +470,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -481,6 +493,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         /* if legal ellips. exist, ask wether or not to change
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -534,6 +547,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        /* if legal ellips. exist, ask wether or not to change
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                         /* if legal ellips. exist, ask wether or not to change

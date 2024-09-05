@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 =======
 <<<<<<< HEAD
@@ -43,6 +44,8 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -64,6 +67,7 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -117,6 +121,11 @@ void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void copy_tabs(const struct Map_info *, int, int, struct Map_info *);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void copy_tabs(const struct Map_info *, int, int, struct Map_info *);

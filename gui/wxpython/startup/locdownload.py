@@ -73,8 +73,8 @@ LOCATIONS = [
     },
     {
         "label": "Natural Earth Dataset in WGS84",
-        "url": "https://zenodo.org/record/3968936/files/natural-earth-dataset.tar.gz",
-        "size": "207 MB",
+        "url": "https://zenodo.org/records/13370131/files/natural_earth_dataset.zip",
+        "size": "121.3 MB",
         "epsg": "4326",
         "license": "ODC Public Domain Dedication and License 1.0",
         "maintainer": "Brendan Harmon (brendan.harmon@gmail.com)",
@@ -82,6 +82,7 @@ LOCATIONS = [
 ]
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,10 +126,13 @@ LOCATIONS = [
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 class RedirectText:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +180,8 @@ class RedirectText:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -251,6 +257,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -280,6 +287,8 @@ class RedirectText(object):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -301,6 +310,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -346,6 +356,10 @@ class RedirectText(object):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

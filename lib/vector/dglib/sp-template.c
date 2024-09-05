@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 =======
@@ -85,6 +86,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -110,6 +113,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -133,9 +137,12 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
                                  dglInt32_t nStart)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +184,8 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -211,6 +220,7 @@ int DGL_SP_CACHE_INITIALIZE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 <<<<<<< HEAD
@@ -241,6 +251,8 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -262,6 +274,7 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -315,6 +328,11 @@ void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void DGL_SP_CACHE_RELEASE_FUNC(dglGraph_s *pgraph, dglSPCache_s *pCache)

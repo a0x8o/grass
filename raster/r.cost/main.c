@@ -527,6 +527,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         total_cells = nrows * ncols;
 =======
 <<<<<<< HEAD
@@ -557,6 +558,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -578,6 +581,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         total_cells = nrows * ncols;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -631,6 +635,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        total_cells = nrows * ncols;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         total_cells = nrows * ncols;

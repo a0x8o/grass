@@ -421,6 +421,7 @@ int gvld_isosurf(geovol *gvl)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int gvld_wire_isosurf(geovol *gvl)
 =======
 <<<<<<< HEAD
@@ -451,6 +452,8 @@ int gvld_wire_isosurf(geovol *gvl)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -472,6 +475,7 @@ int gvld_wire_isosurf(geovol *gvl)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int gvld_wire_isosurf(geovol *gvl)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -525,6 +529,11 @@ int gvld_wire_isosurf(geovol *gvl)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int gvld_wire_isosurf(geovol *gvl)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int gvld_wire_isosurf(geovol *gvl)

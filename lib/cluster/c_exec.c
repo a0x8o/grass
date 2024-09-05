@@ -52,6 +52,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -115,6 +116,10 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 =======
 >>>>>>> osgeo-main
+=======
+                   int (*checkpoint)(struct Cluster *, int), int *interrupted)
+=======
+>>>>>>> osgeo-main
                    int (*checkpoint)(), int *interrupted)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -123,6 +128,7 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,11 +163,14 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                    int (*checkpoint)(), int *interrupted)
 =======
                    int (*checkpoint)(struct Cluster *, int), int *interrupted)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +254,8 @@ int I_cluster_exec(struct Cluster *C, int maxclass, int iterations,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

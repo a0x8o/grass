@@ -430,6 +430,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -493,6 +494,10 @@ int OUTGR(void)
             if (read_val != (size_t)nsizc) {
 =======
 >>>>>>> osgeo-main
+=======
+            if (read_val != (size_t)nsizc) {
+=======
+>>>>>>> osgeo-main
             if (read_val != nsizc) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -501,6 +506,7 @@ int OUTGR(void)
 =======
             if (read_val != (size_t)nsizc) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,11 +541,14 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             if (read_val != nsizc) {
 =======
             if (read_val != (size_t)nsizc) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,6 +632,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -680,6 +691,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -731,10 +743,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val =
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +772,8 @@ int OUTGR(void)
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -793,6 +810,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val < 0) {
@@ -826,6 +844,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -833,6 +853,7 @@ int OUTGR(void)
         read_val =
             fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl, Tmp_fd_z);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,10 +888,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +960,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1015,6 +1041,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1066,10 +1093,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1092,6 +1122,8 @@ int OUTGR(void)
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1128,6 +1160,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dx);
         if (read_val < 0) {
@@ -1161,6 +1194,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dx);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1168,6 +1203,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1202,10 +1238,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,6 +1310,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1349,6 +1390,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1400,10 +1442,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1426,6 +1471,8 @@ int OUTGR(void)
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1462,6 +1509,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dy);
         if (read_val < 0) {
@@ -1495,6 +1543,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dy);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1502,6 +1552,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,10 +1587,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1605,6 +1659,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1683,6 +1739,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1734,10 +1791,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1760,6 +1820,8 @@ int OUTGR(void)
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1796,6 +1858,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dz);
         if (read_val < 0) {
@@ -1829,6 +1892,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_dz);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1836,6 +1901,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_dz);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1870,10 +1936,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1939,6 +2008,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2017,6 +2088,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2068,10 +2140,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2094,6 +2169,8 @@ int OUTGR(void)
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2130,6 +2207,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xx);
         if (read_val < 0) {
@@ -2163,6 +2241,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xx);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2170,6 +2250,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xx);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2204,10 +2285,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2273,6 +2357,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2351,6 +2437,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2402,10 +2489,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2428,6 +2518,8 @@ int OUTGR(void)
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2464,6 +2556,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_yy);
         if (read_val < 0) {
@@ -2497,6 +2590,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_yy);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2504,6 +2599,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_yy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2538,10 +2634,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2607,6 +2706,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2685,6 +2786,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2736,10 +2838,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2762,6 +2867,8 @@ int OUTGR(void)
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2798,6 +2905,7 @@ int OUTGR(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xy);
         if (read_val < 0) {
@@ -2831,6 +2939,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         read_val = fread(data, sizeof(float), nsizr * nsizc * nsizl, Tmp_fd_xy);
         if (read_val < 0) {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -2838,6 +2948,7 @@ int OUTGR(void)
         read_val = fread(data, sizeof(float), (size_t)nsizr * nsizc * nsizl,
                          Tmp_fd_xy);
         if (read_val != (size_t)nsizr * nsizc * nsizl) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2872,10 +2983,13 @@ int OUTGR(void)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2941,6 +3055,8 @@ int OUTGR(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

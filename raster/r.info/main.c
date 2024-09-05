@@ -65,6 +65,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -119,6 +120,10 @@ int main(int argc, char **argv)
     char *units, *vdatum, *semantic_label;
 =======
 >>>>>>> osgeo-main
+=======
+    char *units, *vdatum, *semantic_label;
+=======
+>>>>>>> osgeo-main
     char *units, *vdatum, *bandref;
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -127,6 +132,7 @@ int main(int argc, char **argv)
 =======
     char *units, *vdatum, *semantic_label;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +210,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -320,6 +328,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -374,6 +383,10 @@ int main(int argc, char **argv)
     semantic_label = Rast_read_semantic_label(name, "");
 =======
 >>>>>>> osgeo-main
+=======
+    semantic_label = Rast_read_semantic_label(name, "");
+=======
+>>>>>>> osgeo-main
     bandref = Rast_read_bandref(name, "");
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 =======
@@ -382,6 +395,7 @@ int main(int argc, char **argv)
 =======
     semantic_label = Rast_read_semantic_label(name, "");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +473,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -516,6 +532,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         compose_line(out, "Location: %s", G_location());
 =======
 <<<<<<< HEAD
@@ -546,6 +563,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -567,6 +586,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         compose_line(out, "Location: %s", G_location());
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -620,6 +640,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        compose_line(out, "Location: %s", G_location());
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         compose_line(out, "Location: %s", G_location());
@@ -675,6 +700,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -708,9 +734,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,6 +793,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -794,6 +825,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -839,6 +871,9 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -866,6 +901,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -883,9 +919,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +978,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1446,6 +1487,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1468,6 +1510,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 switch (format) {
                 case PLAIN:
                     /*Create the r.info timestamp string */
@@ -1478,6 +1522,7 @@ int main(int argc, char **argv)
                     break;
                 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1541,6 +1586,8 @@ int main(int argc, char **argv)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1552,6 +1599,7 @@ int main(int argc, char **argv)
                 /*Create the r.info timestamp string */
                 fprintf(out, "timestamp=\"%s\"\n", timebuff);
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1603,6 +1651,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1630,6 +1680,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1646,6 +1697,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1732,6 +1785,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1746,6 +1800,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1769,6 +1825,7 @@ int main(int argc, char **argv)
                 fprintf(out, "comments=\"");
                 for (i = 0; i < Rast_history_length(&hist); i++)
                     fprintf(out, "%s", Rast_history_line(&hist, i));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1814,6 +1871,9 @@ int main(int argc, char **argv)
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 		/*Create the r.info timestamp string */
 		fprintf(out, "timestamp=\"%s\"\n", timebuff);
 
@@ -1836,6 +1896,7 @@ int main(int argc, char **argv)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2027,6 +2088,10 @@ int main(int argc, char **argv)
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+                fprintf(out, "\"\n");
+>>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))
+>>>>>>> osgeo-main
 =======
                 fprintf(out, "\"\n");
 >>>>>>> f541ee3b09 (libpython: Save and load benchmark results (#1711))

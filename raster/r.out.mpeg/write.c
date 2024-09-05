@@ -206,6 +206,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   int quality, int y_rows, int y_cols, int fly)
 =======
 <<<<<<< HEAD
@@ -236,6 +237,8 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -257,6 +260,7 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                   int quality, int y_rows, int y_cols, int fly)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -310,6 +314,11 @@ void write_params(char *mpfilename, char *yfiles[], char *outfile, int frames,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                  int quality, int y_rows, int y_cols, int fly)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                   int quality, int y_rows, int y_cols, int fly)

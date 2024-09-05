@@ -89,6 +89,7 @@ struct Site *nextone(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -150,6 +151,11 @@ struct Site *nextone(void)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
@@ -493,6 +499,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -539,11 +546,14 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         nconnected = 0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         nconnected = 0;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,12 +583,15 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
         nconnected = 0;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +660,8 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -688,6 +703,7 @@ int readbounds(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -734,11 +750,14 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 nconnected++;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                 nconnected++;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,12 +787,15 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
                 nconnected++;
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +864,8 @@ int readbounds(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

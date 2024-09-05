@@ -79,6 +79,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -108,6 +109,8 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -129,6 +132,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -174,6 +178,10 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -205,6 +213,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -234,6 +243,8 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -255,6 +266,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -300,6 +312,10 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -337,6 +353,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +416,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -432,6 +454,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -493,6 +516,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -542,6 +570,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +633,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -637,6 +671,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -698,6 +733,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -755,6 +795,7 @@ MacOSX users may go here to download precompiled libraries etc.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 © _GRASS Development Team 1997-2023_
 =======
 <<<<<<< HEAD
@@ -785,6 +826,8 @@ MacOSX users may go here to download precompiled libraries etc.:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -806,6 +849,7 @@ MacOSX users may go here to download precompiled libraries etc.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 © _GRASS Development Team 1997-2023_
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -859,6 +903,11 @@ MacOSX users may go here to download precompiled libraries etc.:
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+© _GRASS Development Team 1997-2023_
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 © _GRASS Development Team 1997-2023_

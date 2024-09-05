@@ -413,6 +413,7 @@ struct Format_info_offset {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
 =======
 <<<<<<< HEAD
@@ -443,6 +444,8 @@ struct Format_info_offset {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -464,6 +467,7 @@ struct Format_info_offset {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -517,6 +521,11 @@ struct Format_info_offset {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+       colletion) 6 (7. feature in geometry collection: multiPolygon) 2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
        colletion) 6 (7. feature in geometry collection: multiPolygon) 2
@@ -751,6 +760,7 @@ struct Format_info_pg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        \brief SQL where statement (fo filter features)
 =======
 <<<<<<< HEAD
@@ -781,6 +791,8 @@ struct Format_info_pg {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -802,6 +814,7 @@ struct Format_info_pg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        \brief SQL where statement (fo filter features)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -855,6 +868,11 @@ struct Format_info_pg {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+       \brief SQL where statement (fo filter features)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
        \brief SQL where statement (fo filter features)
@@ -1073,6 +1091,7 @@ struct Plus_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        Because Plus_head is available to all releveant
 =======
 <<<<<<< HEAD
@@ -1103,6 +1122,8 @@ struct Plus_head {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1124,6 +1145,7 @@ struct Plus_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        Because Plus_head is available to all releveant
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1177,6 +1199,11 @@ struct Plus_head {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+       Because Plus_head is available to all releveant
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
        Because Plus_head is available to all releveant

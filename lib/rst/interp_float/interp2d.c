@@ -80,6 +80,7 @@ int IL_grid_calc_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double *ertot,                  /*!< total interpolating func. error */
 =======
 <<<<<<< HEAD
@@ -110,6 +111,8 @@ int IL_grid_calc_2d(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -131,6 +134,7 @@ int IL_grid_calc_2d(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     double *ertot,                  /*!< total interpolating func. error */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -184,6 +188,11 @@ int IL_grid_calc_2d(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    double *ertot,                  /*!< total interpolating func. error */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     double *ertot,                  /*!< total interpolating func. error */

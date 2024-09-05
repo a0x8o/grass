@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -66,6 +69,7 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -119,6 +123,11 @@ void c_range(DCELL *result, DCELL *values, int n, const void *closure)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void c_range(DCELL *result, DCELL *values, int n, const void *closure)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void c_range(DCELL *result, DCELL *values, int n, const void *closure)

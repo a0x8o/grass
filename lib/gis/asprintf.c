@@ -134,6 +134,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -197,6 +198,10 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
         if (count >= 0 && (size_t)count < osize)
 =======
 >>>>>>> osgeo-main
+=======
+        if (count >= 0 && (size_t)count < osize)
+=======
+>>>>>>> osgeo-main
         if (count >= 0 && count < osize)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -205,6 +210,7 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
         if (count >= 0 && (size_t)count < osize)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,11 +245,14 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         if (count >= 0 && count < osize)
 =======
         if (count >= 0 && (size_t)count < osize)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +336,8 @@ int G_rasprintf(char **out, size_t *size, const char *fmt, ...)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

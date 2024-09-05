@@ -202,6 +202,7 @@ static void evaluate_constant(expression *e)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static void evaluate_variable(expression *e)
 =======
 <<<<<<< HEAD
@@ -232,6 +233,8 @@ static void evaluate_variable(expression *e)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -253,6 +256,7 @@ static void evaluate_variable(expression *e)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static void evaluate_variable(expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -306,6 +310,11 @@ static void evaluate_variable(expression *e)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+static void evaluate_variable(expression *e)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 static void evaluate_variable(expression *e)

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -44,6 +45,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -96,6 +99,7 @@ void merge_threads(struct Cell_stats **thread_statf, int nprocs, int nfiles)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -141,6 +145,10 @@ void merge_threads(struct Cell_stats **thread_statf, int nprocs, int nfiles)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -220,6 +228,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -274,6 +283,10 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
                             &n, &n, Rast_get_c_cat((CELL *)&n, &pcats), cats);
 =======
 >>>>>>> osgeo-main
+=======
+                            &n, &n, Rast_get_c_cat((CELL *)&n, &pcats), cats);
+=======
+>>>>>>> osgeo-main
                             &n, &n, Rast_get_c_cat((CELL *) &n, &pcats), cats);
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -282,6 +295,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
                             &n, &n, Rast_get_c_cat((CELL *)&n, &pcats), cats);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +373,8 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -389,6 +405,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -454,6 +471,11 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
         else {
 =======
 >>>>>>> osgeo-main
+=======
+        }
+        else {
+=======
+>>>>>>> osgeo-main
         } else {
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -464,6 +486,7 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
         }
         else {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +568,8 @@ int support(char **names, struct Cell_stats *statf, int nfiles,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

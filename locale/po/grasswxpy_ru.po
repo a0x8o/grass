@@ -26,6 +26,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -46,6 +47,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -65,6 +68,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -85,6 +89,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7794,6 +7800,7 @@ msgid "Text properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7835,11 +7842,15 @@ msgid "Text properties"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/mapwin/decorations.py:226
 msgid "Remove scale bar"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7874,6 +7885,8 @@ msgid "Remove scale bar"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7906,6 +7919,7 @@ msgid "Scale bar properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7947,11 +7961,15 @@ msgid "Scale bar properties"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/mapwin/decorations.py:239
 msgid "Remove north arrow"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7986,6 +8004,8 @@ msgid "Remove north arrow"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8077,6 +8097,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -8105,6 +8126,9 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -13891,6 +13915,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/locdownload.py:563
 msgid "Location Download"
 msgstr ""
@@ -13915,11 +13940,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/locdownload.py:422
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:584
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13967,6 +13995,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14000,6 +14030,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14023,10 +14054,13 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/locdownload.py:563
 msgid "Location Download"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14068,6 +14102,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14106,6 +14142,7 @@ msgstr "Отмена загрузки"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:80
 msgid "Invalid mapset name"
 msgstr ""
@@ -14138,6 +14175,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14164,6 +14203,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14187,10 +14227,13 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/guiutils.py:80
 msgid "Invalid mapset name"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14232,6 +14275,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14262,6 +14307,7 @@ msgstr "Имя для нового набора:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
 =======
@@ -14297,12 +14343,15 @@ msgid "Unable to create new mapset: {}"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:134 ../gui/wxpython/menustrings.py:250
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:638
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:1042
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14339,6 +14388,8 @@ msgid "Unable to create new mapset: {}"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14369,6 +14420,7 @@ msgid "Unable to create new mapset: {}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
@@ -14426,6 +14478,11 @@ msgid "Unable to create new mapset: {}"
 #: ../gui/wxpython/startup/guiutils.py:186
 msgid "Unable to create new mapset: {}"
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/startup/guiutils.py:186
+msgid "Unable to create new mapset: {}"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:212
@@ -14437,6 +14494,7 @@ msgstr "Вы хотите создать новую область GRASS <%s>?"
 #: ../gui/wxpython/image2target/ii2t_gis_set.py:537
 msgid "Import data?"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14486,6 +14544,8 @@ msgid "Import data?"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14534,6 +14594,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:269
 msgid "Unable to rename selected mapset"
 msgstr ""
@@ -14558,10 +14619,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:234
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14606,6 +14670,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14632,6 +14698,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14655,10 +14722,13 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/guiutils.py:269
 msgid "Unable to rename selected mapset"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14700,6 +14770,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14729,6 +14801,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -14749,6 +14822,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14769,6 +14844,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -14789,6 +14865,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14845,6 +14923,7 @@ msgstr "Ошибка"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -14857,6 +14936,8 @@ msgstr "Ошибка"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14878,6 +14959,7 @@ msgstr "Ошибка"
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14938,6 +15020,8 @@ msgstr "Ошибка"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14963,6 +15047,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14992,6 +15077,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15014,6 +15101,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15059,6 +15147,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -15101,6 +15193,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:323
 msgid "Unable to rename selected location"
 msgstr ""
@@ -15139,6 +15232,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:288
 #, fuzzy
 msgid "Unable to rename selected project"
@@ -15146,6 +15241,7 @@ msgstr "Не удалось переименовать выбранный наб
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15182,6 +15278,8 @@ msgstr "Не удалось переименовать выбранный наб
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15222,6 +15320,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -15255,6 +15354,10 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -15285,6 +15388,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -15326,6 +15430,9 @@ msgstr ""
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -15354,6 +15461,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15375,10 +15483,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "Не удалось переименовать набор.\n"
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15423,6 +15534,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15446,6 +15559,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -15491,6 +15605,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -15533,6 +15651,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:414
 msgid "Unable to delete selected mapsets"
 msgstr ""
@@ -15571,6 +15690,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:378
 msgid "Unable to delete selected mapsets"
 msgstr "Не удалось удалить выбранные наборы"
@@ -15579,6 +15700,7 @@ msgstr "Не удалось удалить выбранные наборы"
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15615,6 +15737,8 @@ msgstr "Не удалось удалить выбранные наборы"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15645,6 +15769,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
@@ -15691,12 +15816,17 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/guiutils.py:414
 msgid "Unable to delete selected mapsets"
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:430
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15749,6 +15879,9 @@ msgstr ""
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -15780,6 +15913,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #: ../gui/wxpython/startup/guiutils.py:435
 msgid "Delete selected mapsets"
@@ -15818,6 +15952,8 @@ msgid "Delete selected mapsets"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "Продолжить удаление одного или нескольких наборов?\n"
 "\n"
 "{deletes}\n"
@@ -15828,6 +15964,7 @@ msgid "Delete selected mapsets"
 msgid "Delete selected mapsets"
 msgstr "Удалить выбранные наборы"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15913,6 +16050,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 #: ../gui/wxpython/startup/guiutils.py:435
 msgid "Delete selected mapsets"
@@ -15927,6 +16066,7 @@ msgid "Error when deleting mapsets"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15955,6 +16095,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16010,6 +16152,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:499
 msgid "Unable to delete selected locations"
 msgstr ""
@@ -16048,6 +16191,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:463
 #, fuzzy
 msgid "Unable to delete selected projects"
@@ -16058,6 +16203,7 @@ msgstr "Не удалось удалить выбранные наборы"
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16094,6 +16240,8 @@ msgstr "Не удалось удалить выбранные наборы"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16123,6 +16271,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16146,12 +16295,15 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/guiutils.py:499
 msgid "Unable to delete selected locations"
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:515
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16193,6 +16345,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16223,6 +16377,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16244,10 +16399,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "Продолжить удаление одного или нескольких наборов?\n"
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16292,6 +16450,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16331,6 +16491,7 @@ msgstr "Ошибка при удалении областей"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -16413,6 +16574,10 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 #: ../gui/wxpython/startup/guiutils.py:520
 msgid "Delete selected locations"
@@ -16429,6 +16594,7 @@ msgstr ""
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16488,6 +16654,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16539,6 +16707,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:572
 msgid "Unable to delete selected GRASS database"
 msgstr ""
@@ -16563,10 +16732,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:536
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16611,6 +16783,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16637,6 +16811,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -16660,10 +16835,13 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 #: ../gui/wxpython/startup/guiutils.py:572
 msgid "Unable to delete selected GRASS database"
 msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16705,6 +16883,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16741,6 +16921,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:585
 msgid "Delete selected GRASS database"
 =======
@@ -16764,10 +16945,13 @@ msgid "Delete selected GRASS database"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:549
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16818,6 +17002,8 @@ msgid "Delete selected GRASS database"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:550
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Delete selected GRASS database"
@@ -16825,6 +17011,7 @@ msgstr "Удаление выбранной базы данных GRASS"
 =======
 #: ../gui/wxpython/startup/guiutils.py:585
 msgid "Delete selected GRASS database"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16893,11 +17080,17 @@ msgid "Delete selected GRASS database"
 #: ../gui/wxpython/startup/guiutils.py:585
 msgid "Delete selected GRASS database"
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/startup/guiutils.py:585
+msgid "Delete selected GRASS database"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:597
 msgid "Error when deleting GRASS database"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16941,6 +17134,8 @@ msgid "Error when deleting GRASS database"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -17010,6 +17205,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/startup/guiutils.py:641
 msgid "Mapset is in use"
 =======
@@ -17033,10 +17229,13 @@ msgid "Mapset is in use"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:603
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17087,6 +17286,8 @@ msgid "Mapset is in use"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/startup/guiutils.py:604
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid "Mapset is in use"
@@ -17094,6 +17295,7 @@ msgstr "Набор используется"
 =======
 #: ../gui/wxpython/startup/guiutils.py:641
 msgid "Mapset is in use"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17162,11 +17364,17 @@ msgid "Mapset is in use"
 #: ../gui/wxpython/startup/guiutils.py:641
 msgid "Mapset is in use"
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/startup/guiutils.py:641
+msgid "Mapset is in use"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/startup/guiutils.py:653
 msgid "Error when removing lock file"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17210,6 +17418,8 @@ msgid "Error when removing lock file"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -17970,6 +18180,7 @@ msgstr "Номер категории"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -18323,6 +18534,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 #: ../gui/wxpython/dbmgr/base.py:2369 ../gui/wxpython/dbmgr/dialogs.py:802
 msgid "Length"
@@ -18646,6 +18859,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -18694,6 +18908,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -19196,6 +19415,7 @@ msgstr "Строки: %d"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:56
 msgid "Attribute Table Manager - GRASS GIS"
 =======
@@ -19219,11 +19439,14 @@ msgid "Attribute Table Manager - GRASS GIS"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #: ../gui/wxpython/location_wizard/dialogs.py:202
 #: ../gui/wxpython/location_wizard/dialogs.py:594
 =======
 =======
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19271,6 +19494,8 @@ msgid "Attribute Table Manager - GRASS GIS"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -19455,6 +19680,7 @@ msgid "Attribute Table Manager - GRASS GIS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:56
 msgid "Attribute Table Manager - GRASS GIS"
@@ -19514,11 +19740,17 @@ msgid "Attribute Table Manager - GRASS GIS"
 #: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:56
 msgid "Attribute Table Manager - GRASS GIS"
 >>>>>>> osgeo-main
+=======
+=======
+#: ../gui/wxpython/dbmgr/g.gui.dbmgr.py:56
+msgid "Attribute Table Manager - GRASS GIS"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/web_services/widgets.py:136
 msgid " Requested data settings "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19553,6 +19785,8 @@ msgid " Requested data settings "
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -26949,6 +27183,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -26988,6 +27223,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -27058,6 +27295,7 @@ msgstr "Файл EPSG:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -27115,6 +27353,11 @@ msgstr "Файл EPSG:"
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+#: ../gui/wxpython/gui_core/preferences.py:1873
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 #: ../gui/wxpython/gui_core/preferences.py:1826
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 msgid ""
@@ -27122,6 +27365,7 @@ msgid ""
 =======
 #: ../gui/wxpython/gui_core/preferences.py:1773
 msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string directly."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27197,6 +27441,11 @@ msgid "Load EPSG codes (be patient), enter EPSG code or insert PROJ string direc
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -27629,6 +27878,7 @@ msgid "Do you want to quit GRASS GIS?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27670,6 +27920,9 @@ msgid "Do you want to quit GRASS GIS?"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../gui/wxpython/gui_core/dialogs.py:2448
@@ -27679,6 +27932,7 @@ msgstr "Выбрать шрифт:"
 #: ../gui/wxpython/gui_core/dialogs.py:2479
 msgid "Character encoding:"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27737,6 +27991,11 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 msgstr ""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -28010,6 +28269,7 @@ msgstr "Скопировать выбранные файлы"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -28052,6 +28312,11 @@ msgstr "Скопировать выбранные файлы"
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#: ../gui/wxpython/gui_core/query.py:135 ../gui/wxpython/gui_core/query.py:139
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 #: ../gui/wxpython/gui_core/query.py:135 ../gui/wxpython/gui_core/query.py:139
 =======
@@ -28097,6 +28362,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -28125,6 +28391,9 @@ msgstr ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -37453,6 +37722,7 @@ msgstr "подписи:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -37528,6 +37798,8 @@ msgstr "Создать новую область?"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -38047,6 +38319,7 @@ msgstr "Создать новую область?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -38063,6 +38336,8 @@ msgstr "Создать новую область?"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -38132,6 +38407,7 @@ msgstr "Создать новую область?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -38162,6 +38438,8 @@ msgstr "Создать новую область?"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

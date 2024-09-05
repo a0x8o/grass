@@ -31,6 +31,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60,11 +61,14 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +125,8 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 import os
 import re
 import sys
@@ -133,6 +139,12 @@ from .core import Popen, PIPE, get_real_command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
@@ -158,6 +170,10 @@ if sys.version_info.major >= 3:
     unicode = str
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main

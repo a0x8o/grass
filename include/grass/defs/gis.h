@@ -199,6 +199,7 @@ char *G_double_to_basename_format(double, size_t, size_t);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -259,6 +260,10 @@ char *G_get_basename_separator(void);
 char *G_get_basename_separator(void);
 =======
 >>>>>>> osgeo-main
+=======
+char *G_get_basename_separator(void);
+=======
+>>>>>>> osgeo-main
 char *G_get_basename_separator();
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -267,6 +272,7 @@ char *G_get_basename_separator();
 =======
 char *G_get_basename_separator(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,11 +307,14 @@ char *G_get_basename_separator(void);
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 char *G_get_basename_separator();
 =======
 char *G_get_basename_separator(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +392,8 @@ char *G_get_basename_separator();
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -652,6 +663,7 @@ void G_free_ilist(struct ilist *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -715,6 +727,10 @@ struct ilist *G_new_ilist(void);
 struct ilist *G_new_ilist(void);
 =======
 >>>>>>> osgeo-main
+=======
+struct ilist *G_new_ilist(void);
+=======
+>>>>>>> osgeo-main
 struct ilist *G_new_ilist();
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -723,6 +739,7 @@ struct ilist *G_new_ilist();
 =======
 struct ilist *G_new_ilist(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,11 +774,14 @@ struct ilist *G_new_ilist(void);
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 struct ilist *G_new_ilist();
 =======
 struct ilist *G_new_ilist(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -845,6 +865,8 @@ struct ilist *G_new_ilist();
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -913,6 +935,7 @@ void G_list_element(const char *, const char *, const char *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -976,6 +999,10 @@ void G_list_element(const char *, const char *, const char *,
                     int (*)(const char *, const char *, char *));
 =======
 >>>>>>> osgeo-main
+=======
+                    int (*)(const char *, const char *, char *));
+=======
+>>>>>>> osgeo-main
                     int (*)(const char *, const char *, const char *));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -984,6 +1011,7 @@ void G_list_element(const char *, const char *, const char *,
 =======
                     int (*)(const char *, const char *, char *));
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,11 +1046,14 @@ void G_list_element(const char *, const char *, const char *,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                     int (*)(const char *, const char *, const char *));
 =======
                     int (*)(const char *, const char *, char *));
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1106,6 +1137,8 @@ void G_list_element(const char *, const char *, const char *,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1204,6 +1237,7 @@ int G_make_mapset_object_group_tmp(const char *);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 int G_make_mapset_object_group_basedir(const char *, const char *);
@@ -1252,6 +1286,10 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 int G_make_mapset_object_group_basedir(const char *, const char *);
 =======
 >>>>>>> osgeo-main
+=======
+int G_make_mapset_object_group_basedir(const char *, const char *);
+=======
+>>>>>>> osgeo-main
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 int G_make_mapset_object_group_basedir(const char *, const char *);
@@ -1259,6 +1297,7 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 =======
 int G_make_mapset_object_group_basedir(const char *, const char *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1346,6 +1385,8 @@ int G_make_mapset_object_group_basedir(const char *, const char *);
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1655,6 +1696,7 @@ int G_put_3dview(const char *, const char *, const struct G_3dview *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1716,6 +1758,11 @@ int G_put_3dview(const char *, const char *, const struct G_3dview *,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

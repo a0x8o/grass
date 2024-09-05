@@ -27349,6 +27349,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -27410,6 +27411,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -39476,6 +39482,7 @@ msgid "image collections"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39517,11 +39524,15 @@ msgid "image collections"
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../locale/scriptstrings/i.band_to_translate.c:6
 msgid "Name of band reference identifier (example: S2_1)"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39556,6 +39567,8 @@ msgid "Name of band reference identifier (example: S2_1)"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -49016,6 +49029,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -49077,6 +49091,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -58771,6 +58790,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58791,6 +58811,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -58810,6 +58832,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -58830,6 +58853,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -59112,6 +59137,7 @@ msgstr[0] ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -59140,6 +59166,9 @@ msgstr[0] ""
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -78806,6 +78835,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -78853,6 +78883,10 @@ msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 msgid "Coordinates to profile"
 msgstr ""
@@ -78884,6 +78918,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -78900,12 +78935,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "Profile output file name (\"-\" for stdout)"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:271
 msgid "Profile output format"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78968,6 +79006,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -79001,6 +79041,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
@@ -79056,6 +79097,11 @@ msgid "Failed to open output file <%s>: %d (%s)"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#, c-format
+msgid "Failed to open output file <%s>: %d (%s)"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 #, c-format
 msgid "Failed to open output file <%s>: %d (%s)"
@@ -79110,6 +79156,7 @@ msgstr "알려지지 않은 출력 자료형"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -79126,12 +79173,15 @@ msgstr "알려지지 않은 출력 자료형"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "Profile data has been written"
 msgstr ""
 
 #: ../raster/r.geomorphon/main.c:655
 msgid "Failed writing profile data"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79194,6 +79244,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -79217,6 +79269,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, c-format
 msgid "Internal error in %s()"
 msgstr ""
@@ -79272,6 +79325,11 @@ msgid "Internal error in %s()"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+#, c-format
+msgid "Internal error in %s()"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 #, c-format
 msgid "Internal error in %s()"
@@ -83341,6 +83399,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -83361,6 +83420,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -83502,6 +83563,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -83522,6 +83584,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -85626,6 +85690,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Can not read control points for group <%s>"
 msgstr "그룹 <%s>를 위한 제어점을 읽을 수 없습니다"
 
@@ -85664,6 +85729,8 @@ msgstr "각 셀의 값은 그 주변 벡터 점 또는 도심에 할당된 속�
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -85735,6 +85802,7 @@ msgstr "각 셀의 값은 그 주변 벡터 점 또는 도심에 할당된 속�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -85758,6 +85826,8 @@ msgstr "각 셀의 값은 그 주변 벡터 점 또는 도심에 할당된 속�
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 msgid "Can not read control points for group <%s>"
 msgstr "그룹 <%s>를 위한 제어점을 읽을 수 없습니다"
 
@@ -85768,6 +85838,7 @@ msgid "Makes each cell value a function of the attribute values assigned to the 
 msgstr "각 셀의 값은 그 주변 벡터 점 또는 도심에 할당된 속성값들의 함수가 되며, 새 셀의 값은 출력 래스터 지도에 저장됩니다."
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85809,6 +85880,8 @@ msgstr "각 셀의 값은 그 주변 벡터 점 또는 도심에 할당된 속�
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -198,6 +198,7 @@ int init_vars(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -227,10 +228,13 @@ int init_vars(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     do_points = (size_t)nrows * ncols;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +282,8 @@ int init_vars(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -351,6 +357,7 @@ int init_vars(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MASK_flag = (do_points < nrows * ncols);
 =======
 <<<<<<< HEAD
@@ -381,6 +388,8 @@ int init_vars(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -402,6 +411,7 @@ int init_vars(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     MASK_flag = (do_points < nrows * ncols);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -455,6 +465,11 @@ int init_vars(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    MASK_flag = (do_points < nrows * ncols);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     MASK_flag = (do_points < nrows * ncols);
@@ -595,6 +610,7 @@ int init_vars(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -624,10 +640,13 @@ int init_vars(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     first_astar = first_cum = 0;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +694,8 @@ int init_vars(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

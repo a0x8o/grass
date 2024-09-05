@@ -1077,6 +1077,7 @@ int get_horz_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 =======
 <<<<<<< HEAD
@@ -1107,6 +1108,8 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1128,6 +1131,7 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1181,6 +1185,11 @@ int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int get_diag_intersects(geosurf *gs, float *bgn, float *end, float *dir)

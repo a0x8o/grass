@@ -34,6 +34,7 @@ void write_into_legend_file(const char *legfile, const char *icon,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             int *frequencies, const char *topo)
 =======
 <<<<<<< HEAD
@@ -64,6 +65,8 @@ void write_into_legend_file(const char *legfile, const char *icon,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -85,6 +88,7 @@ void write_into_legend_file(const char *legfile, const char *icon,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             int *frequencies, const char *topo)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -138,6 +142,11 @@ void write_into_legend_file(const char *legfile, const char *icon,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            int *frequencies, const char *topo)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             int *frequencies, const char *topo)
@@ -184,6 +193,7 @@ void write_into_legend_file(const char *legfile, const char *icon,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -213,10 +223,13 @@ void write_into_legend_file(const char *legfile, const char *icon,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         fprintf(fd, "< %.*f|", n_places, breakpoints[0]);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +277,8 @@ void write_into_legend_file(const char *legfile, const char *icon,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -309,6 +324,7 @@ void write_into_legend_file(const char *legfile, const char *icon,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -338,6 +354,8 @@ void write_into_legend_file(const char *legfile, const char *icon,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -375,6 +393,7 @@ void write_into_legend_file(const char *legfile, const char *icon,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -420,6 +439,10 @@ void write_into_legend_file(const char *legfile, const char *icon,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

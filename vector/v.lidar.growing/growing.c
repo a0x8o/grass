@@ -18,6 +18,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    FILE *fsite)
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -69,6 +72,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                    FILE *fsite)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -122,6 +126,11 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                   FILE *fsite)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                    FILE *fsite)
@@ -180,6 +189,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -237,6 +247,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -275,10 +287,13 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -311,6 +326,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -341,6 +357,8 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -368,6 +386,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
             continue;
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +444,11 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
         cont++;
 
         table = db_get_cursor_table(&cursor);
@@ -453,6 +477,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
         if (!(ltype & GV_POINT))
             continue;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +557,11 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
         table = db_get_cursor_table(&cursor);
 
         ID_column = db_get_table_column(table, 0);
@@ -558,6 +588,7 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
         if (!(ltype & GV_POINT))
             continue;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +656,10 @@ void P_Aux_to_Coor(struct Map_info *In, struct Map_info *Out, dbDriver *driver,
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -115,6 +116,10 @@
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 void *get_cell_ptr(void *array, int cols, int row, int col,
                    RASTER_MAP_TYPE map_type)
 {
@@ -122,6 +127,7 @@ void *get_cell_ptr(void *array, int cols, int row, int col,
                                       Rast_cell_size(map_type));
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +179,9 @@ void *get_cell_ptr(void *array, int cols, int row, int col,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -190,6 +199,7 @@ void *get_cell_ptr(void *array, int cols, int row, int col,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +298,8 @@ void *get_cell_ptr(void *array, int cols, int row, int col,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -334,6 +346,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast_set_null_value(array, nrows * ncols, map_type);
 =======
 <<<<<<< HEAD
@@ -364,6 +377,8 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -388,6 +403,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast_set_null_value(array, nrows * ncols, map_type);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -441,6 +457,11 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        Rast_set_null_value(array, nrows * ncols, map_type);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         Rast_set_null_value(array, nrows * ncols, map_type);
@@ -483,6 +504,7 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -522,10 +544,13 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +621,10 @@ int blank_array(void *array, int nrows, int ncols, RASTER_MAP_TYPE map_type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -720,6 +749,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -785,6 +815,11 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
                             "option specified!"));
 =======
 >>>>>>> osgeo-main
+=======
+            G_fatal_error(_("Unable to calculate percentile without the pth "
+                            "option specified!"));
+=======
+>>>>>>> osgeo-main
             G_fatal_error(_("Unable to calculate percentile without the pth option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -795,6 +830,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
             G_fatal_error(_("Unable to calculate percentile without the pth "
                             "option specified!"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,6 +912,8 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -911,6 +949,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -976,6 +1015,11 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
                             "option specified!"));
 =======
 >>>>>>> osgeo-main
+=======
+            G_fatal_error(_("Unable to calculate trimmed mean without the trim "
+                            "option specified!"));
+=======
+>>>>>>> osgeo-main
             G_fatal_error(_("Unable to calculate trimmed mean without the trim option specified!"));
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -986,6 +1030,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
             G_fatal_error(_("Unable to calculate trimmed mean without the trim "
                             "option specified!"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1067,6 +1112,8 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1116,6 +1163,7 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1155,10 +1203,13 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1229,6 +1280,10 @@ void point_binning_set(struct PointBinning *point_binning, char *method,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1272,6 +1327,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1337,6 +1393,11 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
                     -1); /* fill with NULLs */
 =======
 >>>>>>> osgeo-main
+=======
+        blank_array(point_binning->min_array, rows, cols, rtype,
+                    -1); /* fill with NULLs */
+=======
+>>>>>>> osgeo-main
         blank_array(point_binning->min_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1347,6 +1408,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
         blank_array(point_binning->min_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1428,6 +1490,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1457,6 +1521,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1522,6 +1587,11 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
                     -1); /* fill with NULLs */
 =======
 >>>>>>> osgeo-main
+=======
+        blank_array(point_binning->max_array, rows, cols, rtype,
+                    -1); /* fill with NULLs */
+=======
+>>>>>>> osgeo-main
         blank_array(point_binning->max_array, rows, cols, rtype, -1);   /* fill with NULLs */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1532,6 +1602,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
         blank_array(point_binning->max_array, rows, cols, rtype,
                     -1); /* fill with NULLs */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1613,6 +1684,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1659,6 +1732,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1732,6 +1806,10 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
         point_binning->bin_eigenvalues) {
         G_debug(2, "allocating index_array");
@@ -1742,6 +1820,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,6 +1872,9 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
     if (point_binning->bin_z_index ||
         point_binning->bin_cnt_index || point_binning->bin_eigenvalues) {
 =======
@@ -1814,6 +1896,7 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1924,6 +2007,8 @@ void point_binning_allocate(struct PointBinning *point_binning, int rows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1966,6 +2051,7 @@ void point_binning_free(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2031,6 +2117,11 @@ void point_binning_free(struct PointBinning *point_binning,
         point_binning->bin_eigenvalues) {
 =======
 >>>>>>> osgeo-main
+=======
+    if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
+        point_binning->bin_eigenvalues) {
+=======
+>>>>>>> osgeo-main
     if (point_binning->bin_z_index ||
         point_binning->bin_cnt_index || point_binning->bin_eigenvalues) {
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -2042,6 +2133,7 @@ void point_binning_free(struct PointBinning *point_binning,
     if (point_binning->bin_z_index || point_binning->bin_cnt_index ||
         point_binning->bin_eigenvalues) {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2126,6 +2218,8 @@ void point_binning_free(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2158,6 +2252,7 @@ void point_binning_free(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2197,10 +2292,13 @@ void point_binning_free(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2271,6 +2369,10 @@ void point_binning_free(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2309,6 +2411,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2382,10 +2485,15 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     case METHOD_N: /* n is a straight copy */
         Rast_raster_cpy(raster_row,
                         ((char *)point_binning->n_array) +
                             ((size_t)row * cols * Rast_cell_size(CELL_TYPE)),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2438,6 +2546,9 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -2463,6 +2574,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2486,11 +2598,14 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     case METHOD_N: /* n is a straight copy */
         Rast_raster_cpy(raster_row,
                         ((char *)point_binning->n_array) +
                             ((size_t)row * cols * Rast_cell_size(CELL_TYPE)),
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2553,6 +2668,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2589,6 +2708,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2654,6 +2774,11 @@ void write_values(struct PointBinning *point_binning,
                         cols, rtype);
 =======
 >>>>>>> osgeo-main
+=======
+                            ((size_t)row * cols * Rast_cell_size(rtype)),
+                        cols, rtype);
+=======
+>>>>>>> osgeo-main
                         ((size_t)row * cols * Rast_cell_size(rtype)), cols,
                         rtype);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -2665,6 +2790,7 @@ void write_values(struct PointBinning *point_binning,
                             ((size_t)row * cols * Rast_cell_size(rtype)),
                         cols, rtype);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2749,6 +2875,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2778,6 +2906,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2839,6 +2968,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2880,6 +3013,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2928,6 +3062,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                         ((size_t)row * cols * Rast_cell_size(rtype)), cols,
                         rtype);
 =======
@@ -2944,6 +3080,7 @@ void write_values(struct PointBinning *point_binning,
     case METHOD_RANGE: /* (max-min) */
         ptr = raster_row;
         for (col = 0; col < cols; col++) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3014,6 +3151,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3040,6 +3179,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3063,12 +3203,15 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             size_t offset = ((size_t)row * cols + col) * Rast_cell_size(rtype);
             double min = Rast_get_d_value(
                 ((char *)point_binning->min_array) + offset, rtype);
             double max = Rast_get_d_value(
                 ((char *)point_binning->max_array) + offset, rtype);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3131,6 +3274,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3167,6 +3314,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3221,6 +3369,10 @@ void write_values(struct PointBinning *point_binning,
     case METHOD_MEAN: /* (sum / n) */
 =======
 >>>>>>> osgeo-main
+=======
+    case METHOD_MEAN: /* (sum / n) */
+=======
+>>>>>>> osgeo-main
     case METHOD_MEAN:          /* (sum / n) */
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -3229,6 +3381,7 @@ void write_values(struct PointBinning *point_binning,
 =======
     case METHOD_MEAN: /* (sum / n) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3306,6 +3459,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3334,6 +3489,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3367,9 +3523,12 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3423,6 +3582,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3450,6 +3611,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3495,6 +3657,9 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -3523,6 +3688,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -3540,9 +3706,12 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3596,6 +3765,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3630,6 +3801,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3703,6 +3875,10 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     case METHOD_STDDEV:    /*  sqrt(variance)        */
     case METHOD_VARIANCE:  /*  (sumsq - sum*sum/n)/n */
     case METHOD_COEFF_VAR: /*  100 * stdev / mean    */
@@ -3712,6 +3888,7 @@ void write_values(struct PointBinning *point_binning,
         break;
 
     case METHOD_MEDIAN: /* median, if only one point in cell we will use that */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3763,6 +3940,9 @@ void write_values(struct PointBinning *point_binning,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
     case METHOD_STDDEV:        /*  sqrt(variance)        */
     case METHOD_VARIANCE:      /*  (sumsq - sum*sum/n)/n */
     case METHOD_COEFF_VAR:     /*  100 * stdev / mean    */
@@ -3784,6 +3964,7 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3894,6 +4075,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3923,6 +4106,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3996,11 +4180,16 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         write_mode(bin_index_nodes, raster_row, point_binning->index_array, row,
                    cols);
         break;
 
     case METHOD_PERCENTILE: /* rank = (pth*(n+1))/100; interpolate linearly */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4053,6 +4242,9 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -4079,6 +4271,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4102,12 +4295,15 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         write_mode(bin_index_nodes, raster_row, point_binning->index_array, row,
                    cols);
         break;
 
     case METHOD_PERCENTILE: /* rank = (pth*(n+1))/100; interpolate linearly */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4170,6 +4366,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4205,6 +4405,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4278,6 +4479,10 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     case METHOD_SKEWNESS: /* skewness = sum(xi-mean)^3/(N-1)*s^3 */
         write_skewness(bin_index_nodes, raster_row, point_binning->index_array,
                        row, cols, rtype);
@@ -4309,6 +4514,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4324,6 +4530,9 @@ void write_values(struct PointBinning *point_binning,
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -4378,6 +4587,7 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4518,6 +4728,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4547,6 +4759,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4612,6 +4825,11 @@ void write_values(struct PointBinning *point_binning,
                  cols, rtype, point_binning->method);
 =======
 >>>>>>> osgeo-main
+=======
+        write_ev(bin_index_nodes, raster_row, point_binning->index_array, row,
+                 cols, rtype, point_binning->method);
+=======
+>>>>>>> osgeo-main
         write_ev(bin_index_nodes, raster_row, point_binning->index_array,
                  row, cols, rtype, point_binning->method);
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
@@ -4623,6 +4841,7 @@ void write_values(struct PointBinning *point_binning,
         write_ev(bin_index_nodes, raster_row, point_binning->index_array, row,
                  cols, rtype, point_binning->method);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4707,6 +4926,8 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4738,6 +4959,7 @@ void write_values(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4777,10 +4999,13 @@ void write_values(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4851,6 +5076,10 @@ void write_values(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4889,6 +5118,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4932,10 +5162,13 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         update_min(point_binning->min_array, cols, arr_row, arr_col, rtype, z);
     if (point_binning->bin_max)
         update_max(point_binning->max_array, cols, arr_row, arr_col, rtype, z);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4977,6 +5210,8 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5000,6 +5235,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5023,10 +5259,13 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         update_min(point_binning->min_array, cols, arr_row, arr_col, rtype, z);
     if (point_binning->bin_max)
         update_max(point_binning->max_array, cols, arr_row, arr_col, rtype, z);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5061,10 +5300,13 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         update_min(point_binning->min_array, cols, arr_row, arr_col, rtype, z);
     if (point_binning->bin_max)
         update_max(point_binning->max_array, cols, arr_row, arr_col, rtype, z);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5112,6 +5354,8 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5146,6 +5390,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -5219,11 +5464,16 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         update_bin_cnt_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, z);
     if (point_binning->bin_eigenvalues)
         update_bin_com_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, x, y, z);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5276,6 +5526,9 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -5302,6 +5555,7 @@ void update_value(struct PointBinning *point_binning,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5325,12 +5579,15 @@ void update_value(struct PointBinning *point_binning,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         update_bin_cnt_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, z);
     if (point_binning->bin_eigenvalues)
         update_bin_com_index(bin_index_nodes, point_binning->index_array, cols,
                              arr_row, arr_col, x, y, z);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5393,6 +5650,10 @@ void update_value(struct PointBinning *point_binning,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

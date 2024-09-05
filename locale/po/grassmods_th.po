@@ -71294,6 +71294,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Coordinates to profile"
 msgstr ""
 =======
@@ -71341,6 +71342,10 @@ msgid "Coordinates to profile"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Coordinates to profile"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 msgid "Coordinates to profile"
 msgstr ""
@@ -71375,6 +71380,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Profile output format"
 msgstr ""
 =======
@@ -71422,6 +71428,10 @@ msgid "Profile output format"
 msgstr ""
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Profile output format"
+msgstr ""
+>>>>>>> osgeo-main
 =======
 msgid "Profile output format"
 msgstr ""
@@ -75511,6 +75521,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -75531,6 +75542,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

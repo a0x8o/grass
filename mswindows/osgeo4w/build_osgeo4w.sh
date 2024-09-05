@@ -32,6 +32,7 @@ export C_INCLUDE_PATH=".:${OSGEO4W_ROOT_MSYS}/include:${SRC}/dist.${ARCH}/includ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 <<<<<<< HEAD
@@ -62,6 +63,8 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -83,6 +86,7 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -136,6 +140,11 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
@@ -209,6 +218,7 @@ export ARCH=x86_64-w64-mingw32
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 =======
 <<<<<<< HEAD
@@ -239,6 +249,8 @@ export ARCH=x86_64-w64-mingw32
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -261,6 +273,7 @@ export ARCH=x86_64-w64-mingw32
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -314,6 +327,11 @@ export ARCH=x86_64-w64-mingw32
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
