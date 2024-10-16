@@ -117,6 +117,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @useDefinedProjection.setter
     def useDefinedProjection(self, value):
@@ -181,6 +182,10 @@ class MapWindowProperties:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -229,6 +234,7 @@ class MapWindowProperties:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -257,6 +263,8 @@ class MapWindowProperties:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -555,10 +563,10 @@ class MapWindowBase:
         return True
 
     def Pixel2Cell(self, xyCoords):
-        raise NotImplementedError()
+        raise NotImplementedError
 
     def Cell2Pixel(self, enCoords):
-        raise NotImplementedError()
+        raise NotImplementedError
 
     def OnMotion(self, event):
         """Tracks mouse motion and update statusbar
@@ -593,6 +601,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 =======
 <<<<<<< HEAD
@@ -623,6 +632,8 @@ class MapWindowBase:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -648,6 +659,7 @@ class MapWindowBase:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -701,6 +713,11 @@ class MapWindowBase:
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        @deprecated This method is deprecated. Use Signal with coordinates as parameters.
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 =======
         @deprecated This method is deprecated. Use Signal with coordinates as parameters.
@@ -779,8 +796,8 @@ class MapWindowBase:
 
     def DisactivateWin(self):
         """Use when the class instance is hidden in MapFrame."""
-        raise NotImplementedError()
+        raise NotImplementedError
 
     def ActivateWin(self):
         """Used when the class instance is activated in MapFrame."""
-        raise NotImplementedError()
+        raise NotImplementedError

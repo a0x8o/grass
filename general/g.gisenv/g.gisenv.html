@@ -161,6 +161,7 @@ variable <em>GISRC</em>). If <b>store=mapset</b> is given then the
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 variables are stored in <tt>&lt;gisdbase&gt;/&lt;location&gt;/&lt;mapset&gt;/VAR</tt>
 after the current GRASS session is closed.
 
@@ -237,9 +238,44 @@ after the current GRASS session is closed.
 =======
 >>>>>>> osgeo-main
 =======
+variables are stored in <tt>&lt;gisdbase&gt;/&lt;project&gt;/&lt;mapset&gt;/VAR</tt>
+after the current GRASS session is closed.
+
+<<<<<<< HEAD
+<h2>EXAMPLES</h2>
+
+<h3>Cache for raster operations</h3>
+
+The maximum memory to be used, i.e. the cache size for raster rows, is set
+to 300 MB by default (GRASS variable <em>MEMORYMB</em>). To speed up
+raster operations, it is recommended to increase this setting if enough RAM
+is available. It is important to note that parallel processes will each
+consume this amount of RAM.
+
+Set the maximum memory to be used (in MB), i.e. the cache size for raster rows:
+
+<div class="code"><pre>
+# set to 6 GB (default: 300 MB)
+g.gisenv set="MEMORYMB=6000"
+</pre></div>
+
+<h3>Number of threads for parallel computing</h3>
+
+Set the number of threads for parallel computing:
+
+<div class="code"><pre>
+# set to use 12 threads (default: 1)
+g.gisenv set="NPROCS=12"
+</pre></div>
+
+=======
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 variables are stored in <tt>&lt;gisdbase&gt;/&lt;location&gt;/&lt;mapset&gt;/VAR</tt>
 after the current GRASS session is closed.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,16 +361,29 @@ after the current GRASS session is closed.
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+  
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 10cb905c76 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
@@ -390,6 +439,9 @@ after the current GRASS session is closed.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 <h3>GRASS Debugging</h3>
 
 To print debugging messages, the variable <em>DEBUG</em> must be set to level
@@ -430,7 +482,8 @@ from <a href="wxGUI.html">wxGUI</a>.
 </em>
 
 <p>
-See also <a href="variables.html">variables list</a>
+See also <a href="variables.html#list-of-selected-grass-gisenv-variables">
+list of selected GRASS gisenv variables</a>
 
 <h2>AUTHOR</h2>
 

@@ -148,6 +148,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +284,11 @@ def main():
             self.rdigit.quitDigitizer.connect(self.Close)
 >>>>>>> 0cc7cbf610 (style: Fixes some unnecessary-lambda (PLW0108) (#3956))
 =======
+=======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
             self.rdigit.quitDigitizer.connect(self.Close)
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
@@ -290,13 +296,21 @@ def main():
 <<<<<<< HEAD
 >>>>>>> 947f9098cd (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 19eb1e1772 (wxGUI: fix layout flag assert in wms dialog (#1764))
+=======
+>>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
+>>>>>>> osgeo-main
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
@@ -369,10 +383,8 @@ def main():
 
         if not edit_map:
             gs.fatal(
-                _(
-                    "Raster map <{}> not found in current mapset.".format(
-                        options["edit"],
-                    ),
+                _("Raster map <{}> not found in current mapset.").format(
+                    options["edit"],
                 ),
             )
         else:
@@ -385,11 +397,8 @@ def main():
         )["fullname"]
         if not base_map:
             gs.fatal(
-                _(
-                    "Base raster map <{}> not found in "
-                    "current mapset.".format(
-                        options["base"],
-                    ),
+                _("Base raster map <{}> not found in current mapset.").format(
+                    options["base"],
                 ),
             )
         kwargs["base_map"] = base_map

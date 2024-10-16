@@ -24,12 +24,13 @@ d.vect forests type=boundary
 
 ######## TODO: CHECK THIS:
 
-# MASK test
-g.copy rast=fields,MASK
+# Test with raster mask
+r.mask raster=fields
 r.li.patchdensity forests conf=movwindow7 output=forests_p_dens7mask --o
 d.erase
 d.rast.leg forests_p_dens7mask
-# -> no negative values! but MASK is respected
+r.mask -r
+# -> no negative values! but mask is respected
 
 # zero data test
 r.mapcalc "forests = 0"
@@ -54,6 +55,7 @@ SAMPLEAREA 0.0|0.0|1.0|1.0" > $HOME/.grass8/r.li/landsat_test
 g.region raster=lsat7_2002_40 -p
 r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 --> Result written to ASCII file <$HOME/.grass8/r.li/output/landsat_shannon>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +120,8 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 
@@ -125,6 +129,7 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +216,10 @@ r.li.shannon input=lsat7_2002_40 conf=landsat_test output=landsat_shannon
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))

@@ -80,6 +80,7 @@ int add_table(char *table, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -147,6 +148,10 @@ int add_table(char *table, char *name)
     if (res < 0 || (size_t)res >= buf_s) {
 =======
 >>>>>>> osgeo-main
+=======
+    if (res < 0 || (size_t)res >= buf_s) {
+=======
+>>>>>>> osgeo-main
     if (res >= buf_s) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -155,6 +160,7 @@ int add_table(char *table, char *name)
 =======
     if (res < 0 || (size_t)res >= buf_s) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,11 +198,14 @@ int add_table(char *table, char *name)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     if (res >= buf_s) {
 =======
     if (res < 0 || (size_t)res >= buf_s) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +290,8 @@ int add_table(char *table, char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

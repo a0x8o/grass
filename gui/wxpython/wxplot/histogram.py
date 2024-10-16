@@ -251,8 +251,7 @@ class HistogramPlotFrame(BasePlotFrame):
 
         if len(self.plotlist) > 0:
             return self.plotlist
-        else:
-            return None
+        return None
 
     def Update(self):
         """Update histogram after changing options"""

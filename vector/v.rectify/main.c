@@ -126,7 +126,9 @@ int main(int argc, char *argv[])
 
     if (grp->answer) {
         G_strip(grp->answer);
-        strcpy(group, grp->answer);
+        if (G_strlcpy(group, grp->answer, sizeof(group)) >= sizeof(group)) {
+            G_fatal_error(_("Group name <%s> is too long"), grp->answer);
+        }
     }
     else
         group[0] = '\0';
@@ -217,6 +219,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
 =======
 <<<<<<< HEAD
@@ -247,6 +250,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -271,6 +276,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -324,6 +330,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             G_warning(_("target LOCATION %s, MAPSET %s:"), G_location(),

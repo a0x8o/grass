@@ -308,7 +308,7 @@ class PsMapFrame(wx.Frame):
 
     def OnPDFFile(self, event):
         """Generate PDF from PS with ps2pdf if available"""
-        if not sys.platform == "win32":
+        if sys.platform != "win32":
             try:
                 p = gs.Popen(["ps2pdf"], stderr=gs.PIPE)
                 p.stderr.close()
@@ -513,6 +513,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except (IOError, OSError):
 =======
 <<<<<<< HEAD
@@ -543,6 +544,8 @@ class PsMapFrame(wx.Frame):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -567,6 +570,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             except (IOError, OSError):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -620,6 +624,11 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            except (IOError, OSError):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             except (IOError, OSError):
@@ -664,6 +673,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -697,6 +707,8 @@ class PsMapFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                         "You can download {program} {arch} version here."
                     ).format(
                         program=program,
@@ -706,6 +718,7 @@ class PsMapFrame(wx.Frame):
 =======
                     hyperlink="https://www.ghostscript.com/releases/gsdnld.html",
                     hyperlinkLabel=_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +776,10 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -799,6 +816,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -860,6 +878,11 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1359,8 +1382,7 @@ class PsMapFrame(wx.Frame):
             Y = y - H
         if rotation == 0:
             return Rect(x, y, *textExtent)
-        else:
-            return Rect(X, Y, abs(W), abs(H)).Inflate(h, h)
+        return Rect(X, Y, abs(W), abs(H)).Inflate(h, h)
 
     def makePSFont(self, textDict):
         """creates a wx.Font object from selected postscript font. To be

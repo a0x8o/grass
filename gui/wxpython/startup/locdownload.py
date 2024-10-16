@@ -97,6 +97,7 @@ LOCATIONS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -128,10 +129,13 @@ LOCATIONS = [
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 class RedirectText:
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +184,8 @@ class RedirectText:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -258,6 +264,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -287,6 +294,8 @@ class RedirectText(object):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -311,6 +320,7 @@ class RedirectText(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -356,6 +366,10 @@ class RedirectText(object):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -391,12 +405,12 @@ def reporthook(count, block_size, total_size):
     sys.stdout.write(
         _(
             "Download in progress, wait until it is finished "
-            "{0}%, {1} MB, {2} KB/s, {3:.0f} seconds passed".format(
-                percent,
-                progress_size / (1024 * 1024),
-                speed,
-                duration,
-            ),
+            "{0}%, {1} MB, {2} KB/s, {3:.0f} seconds passed"
+        ).format(
+            percent,
+            progress_size / (1024 * 1024),
+            speed,
+            duration,
         ),
     )
 
@@ -621,8 +635,7 @@ class LocationDownloadPanel(wx.Panel):
             )
             self.parent.download_button.SetLabel(label=_("Download"))
             return
-        else:
-            self._clearMessage()
+        self._clearMessage()
 
     def GetLocation(self):
         """Get the name of the last location downloaded by the user"""
@@ -731,9 +744,8 @@ class LocationDownloadDialog(wx.Dialog):
 
             if ret == wx.ID_NO:
                 return
-            else:
-                self.panel.thread.Terminate()
-                self.panel._change_download_btn_label()
+            self.panel.thread.Terminate()
+            self.panel._change_download_btn_label()
 
         if event:
             self.EndModal(wx.ID_CANCEL)

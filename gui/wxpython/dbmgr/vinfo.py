@@ -61,8 +61,7 @@ else:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
         enc = GetDbEncoding()
         return str(value, enc, errors="replace")
-    else:
-        return str(value)
+    return str(value)
 
 
 def GetDbEncoding():

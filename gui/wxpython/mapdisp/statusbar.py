@@ -68,6 +68,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -97,6 +98,8 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -122,6 +125,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -167,6 +171,10 @@ class SbManager:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -269,7 +277,7 @@ class SbManager:
         :param itemClasses list of classes of items to be disabled
         """
         for itemClass in itemClasses:
-            for i in range(0, len(self.statusbarItems.values())):
+            for i in range(len(self.statusbarItems.values())):
                 item = list(self.statusbarItems.values())[i]
                 if item.__class__ == itemClass:
                     self.disabledItems[i] = item
@@ -413,6 +421,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -483,6 +492,11 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    def SetMode(self, mode):
+        """Sets current mode and updates statusbar
+=======
+>>>>>>> osgeo-main
 =======
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
@@ -525,6 +539,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -550,9 +565,12 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,9 +608,12 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     def SetMode(self, mode):
         """Sets current mode and updates statusbar
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -641,6 +662,8 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -689,6 +712,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
     def OnContextMenu(self, event):
@@ -742,6 +766,8 @@ class SbManager:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def OnContextMenu(self, event):
         """Popup context menu enabling to choose a widget that will be shown in
         statusbar."""
@@ -749,6 +775,7 @@ class SbManager:
     def OnContextMenu(self, event):
         """Popup context menu enabling to choose a widget that will be shown in statusbar."""
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,9 +813,12 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     def OnContextMenu(self, event):
         """Popup context menu enabling to choose a widget that will be shown in statusbar."""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +858,8 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -897,6 +929,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
         def setSbItemProperty(idx):
@@ -954,6 +987,8 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -979,6 +1014,7 @@ class SbManager:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -998,9 +1034,12 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,6 +1099,8 @@ class SbManager:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1150,6 +1191,7 @@ class SbItem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Called when statusbar action is activated (e.g. through Map Display settings)."""
 =======
 <<<<<<< HEAD
@@ -1180,6 +1222,8 @@ class SbItem:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1205,6 +1249,7 @@ class SbItem:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         """Called when statusbar action is activated (e.g. through Map Display settings)."""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1258,6 +1303,11 @@ class SbItem:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        """Called when statusbar action is activated (e.g. through Map Display settings)."""
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         """Called when statusbar action is activated (e.g. through Map Display settings)."""
@@ -1339,6 +1389,7 @@ class SbRender(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1377,6 +1428,8 @@ class SbRender(SbItem):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1566,6 +1619,7 @@ class SbResolution(SbItem):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1585,9 +1639,12 @@ class SbResolution(SbItem):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1642,6 +1699,8 @@ class SbResolution(SbItem):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1857,10 +1916,8 @@ class SbGoTo(SbItem):
                         return "%s" % utils.Deg2DMS(
                             coord[0], coord[1], precision=precision
                         )
-                    else:
-                        return "%.*f; %.*f" % (precision, coord[0], precision, coord[1])
-                else:
-                    raise SbException(_("Error in projection (check the settings)"))
+                    return "%.*f; %.*f" % (precision, coord[0], precision, coord[1])
+                raise SbException(_("Error in projection (check the settings)"))
         elif self.mapFrame.GetMap().projinfo["proj"] == "ll" and format == "DMS":
             return "%s" % utils.Deg2DMS(
                 region["center_easting"],
@@ -2032,10 +2089,8 @@ class SbCoordinates(SbTextItem):
                     e, n = coord
                     if proj in {"ll", "latlong", "longlat"} and format == "DMS":
                         return utils.Deg2DMS(e, n, precision=precision)
-                    else:
-                        return "%.*f; %.*f" % (precision, e, precision, n)
-                else:
-                    raise SbException(_("Error in projection (check the settings)"))
+                    return "%.*f; %.*f" % (precision, e, precision, n)
+                raise SbException(_("Error in projection (check the settings)"))
         elif self.mapFrame.GetMap().projinfo["proj"] == "ll" and format == "DMS":
             return utils.Deg2DMS(e, n, precision=precision)
         else:
@@ -2086,8 +2141,7 @@ class SbRegionExtent(SbTextItem):
                 precision,
                 n,
             )
-        else:
-            return "%s - %s, %s - %s" % (w, e, s, n)
+        return "%s - %s, %s - %s" % (w, e, s, n)
 
     def ReprojectRegionFromMap(self, region, useDefinedProjection, precision, format):
         """Reproject region values
@@ -2136,21 +2190,19 @@ class SbRegionExtent(SbTextItem):
                         return self._formatRegion(
                             w=w, s=s, e=e, n=n, ewres=ewres, nsres=nsres
                         )
-                    else:
-                        w, s = coord1
-                        e, n = coord2
-                        ewres, nsres = coord3
-                        return self._formatRegion(
-                            w=w,
-                            s=s,
-                            e=e,
-                            n=n,
-                            ewres=ewres,
-                            nsres=nsres,
-                            precision=precision,
-                        )
-                else:
-                    raise SbException(_("Error in projection (check the settings)"))
+                    w, s = coord1
+                    e, n = coord2
+                    ewres, nsres = coord3
+                    return self._formatRegion(
+                        w=w,
+                        s=s,
+                        e=e,
+                        n=n,
+                        ewres=ewres,
+                        nsres=nsres,
+                        precision=precision,
+                    )
+                raise SbException(_("Error in projection (check the settings)"))
 
         elif self.mapFrame.GetMap().projinfo["proj"] == "ll" and format == "DMS":
             w, s = utils.Deg2DMS(
@@ -2197,8 +2249,7 @@ class SbCompRegionExtent(SbRegionExtent):
                 precision,
                 nsres,
             )
-        else:
-            return "%s - %s, %s - %s (%s, %s)" % (w, e, s, n, ewres, nsres)
+        return "%s - %s, %s - %s (%s, %s)" % (w, e, s, n, ewres, nsres)
 
     def _getRegion(self):
         """Returns computational region."""

@@ -63,6 +63,7 @@ import six
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
@@ -144,7 +145,14 @@ import six
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import ctypes
+
+from pathlib import Path
 
 import wx
 
@@ -378,8 +386,7 @@ class ListCtrlComboPopup(ComboPopup):
     def GetComboCtrl(self):
         if globalvar.wxPythonPhoenix:
             return super().GetComboCtrl()
-        else:
-            return self.GetCombo()
+        return self.GetCombo()
 
     def GetStringValue(self):
         """Get value as a string separated by commas"""
@@ -513,7 +520,7 @@ class ListCtrlComboPopup(ComboPopup):
             self.multiple = kargs["multiple"]
         if "onPopup" in kargs:
             self.onPopup = kargs["onPopup"]
-        if kargs.get("layerTree", None):
+        if kargs.get("layerTree"):
             self.filterItems = []  # reset
             ltype = kargs["type"]
             for layer in kargs["layerTree"].GetVisibleLayers(skipDigitized=True):
@@ -581,7 +588,7 @@ class TreeCtrlComboPopup(ListCtrlComboPopup):
             try:
                 self.seltree.EnsureVisible(item)
                 self.seltree.SelectItem(item)
-            except:
+            except Exception:
                 pass
 
     def _getElementList(self, element, mapsets=None, elements=None, exclude=False):
@@ -621,8 +628,7 @@ class TreeCtrlComboPopup(ListCtrlComboPopup):
             if elem not in elementdict:
                 self.AddItem(_("Not selectable element"), node=False)
                 return
-            else:
-                renamed_elements.append(elementdict[elem])
+            renamed_elements.append(elementdict[elem])
 
         if element in {"stds", "strds", "str3ds", "stvds"}:
             if not self.tgis_error:
@@ -1020,7 +1026,7 @@ class VectorDBInfo:
         :param layer: vector layer number
         """
         if layer not in self.layers:
-            raise GException(_("No table linked to layer <{}>.".format(layer)))
+            raise GException(_("No table linked to layer <{}>.").format(layer))
         return self.layers[layer]["table"]
 
     def GetDbSettings(self, layer):
@@ -1388,7 +1394,7 @@ class MapsetSelect(wx.ComboBox):
         style = 0
         # disabled, read-only widget has no TextCtrl children (TODO: rewrite)
         # if not new and not multiple:
-        ###     style = wx.CB_READONLY
+        #     style = wx.CB_READONLY
 
         wx.ComboBox.__init__(self, parent, id, size=size, style=style, **kwargs)
         self.searchPath = searchPath
@@ -1472,12 +1478,6 @@ class SubGroupSelect(wx.ComboBox):
         """Insert subgroups for defined group"""
         if not group:
             return
-        gisenv = gs.gisenv()
-        try:
-            name, mapset = group.split("@", 1)
-        except ValueError:
-            name = group
-            mapset = gisenv["MAPSET"]
 
         mlist = RunCommand("i.group", group=group, read=True, flags="sg").splitlines()
         try:
@@ -1663,7 +1663,7 @@ class GdalSelect(wx.Panel):
             labelText=_("File:"),
             dialogTitle=_("Choose file to import"),
             buttonText=_("Browse"),
-            startDirectory=os.getcwd(),
+            startDirectory=str(Path.cwd()),
             changeCallback=self.OnUpdate,
             fileMask=fileMask,
         )
@@ -1680,7 +1680,7 @@ class GdalSelect(wx.Panel):
             labelText=_("Directory:"),
             dialogTitle=_("Choose input directory"),
             buttonText=_("Browse"),
-            startDirectory=os.getcwd(),
+            startDirectory=str(Path.cwd()),
             changeCallback=self.OnUpdate,
         )
         browse.GetChildren()[1].SetName("GdalSelectDataSource")
@@ -1733,7 +1733,7 @@ class GdalSelect(wx.Panel):
             labelText=_("Name:"),
             dialogTitle=_("Choose file"),
             buttonText=_("Browse"),
-            startDirectory=os.getcwd(),
+            startDirectory=str(Path.cwd()),
             changeCallback=self.OnUpdate,
         )
         browse.GetChildren()[1].SetName("GdalSelectDataSource")
@@ -1768,7 +1768,7 @@ class GdalSelect(wx.Panel):
             labelText=_("Directory:"),
             dialogTitle=_("Choose input directory"),
             buttonText=_("Browse"),
-            startDirectory=os.getcwd(),
+            startDirectory=str(Path.cwd()),
             changeCallback=self.OnUpdate,
         )
         self.dbWidgets["dirbrowse"] = browse
@@ -2113,6 +2113,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2183,6 +2184,11 @@ class GdalSelect(wx.Panel):
                 if "PostgreSQL" in db_formats:
 =======
 >>>>>>> osgeo-main
+=======
+                db_formats = self.dbFormats.values()
+                if "PostgreSQL" in db_formats:
+=======
+>>>>>>> osgeo-main
                 if "PostgreSQL" in self.dbFormats.values():
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
 =======
@@ -2193,6 +2199,7 @@ class GdalSelect(wx.Panel):
                 db_formats = self.dbFormats.values()
                 if "PostgreSQL" in db_formats:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2275,6 +2282,8 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2545,18 +2554,18 @@ class GdalSelect(wx.Panel):
                         message=_(
                             "Getting raster <{table}> SRID from PostgreSQL"
                             " DB <{db}>, host <{host}> failed."
-                            " {error}.".format(
-                                table=table,
-                                db=self._getPDDBConnectionParam(
-                                    dsn,
-                                    conn_param="dbname",
-                                ),
-                                host=self._getPDDBConnectionParam(
-                                    dsn,
-                                    conn_param="host",
-                                ),
-                                error=gs.utils.decode(error),
+                            " {error}."
+                        ).format(
+                            table=table,
+                            db=self._getPDDBConnectionParam(
+                                dsn,
+                                conn_param="dbname",
                             ),
+                            host=self._getPDDBConnectionParam(
+                                dsn,
+                                conn_param="host",
+                            ),
+                            error=gs.utils.decode(error),
                         ),
                     )
                 if ret:
@@ -2584,6 +2593,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # v.external returns info for individual bands, however projection is shared by all bands ->
                 # (it is possible to take first line)
 =======
@@ -2615,6 +2625,8 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2641,6 +2653,7 @@ class GdalSelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2666,9 +2679,12 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 # v.external returns info for individual bands, however projection is shared by all bands ->
                 # (it is possible to take first line)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2711,6 +2727,8 @@ class GdalSelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2956,17 +2974,17 @@ class GdalSelect(wx.Panel):
                 parent=self,
                 message=_(
                     "Getting list of tables from PostgreSQL DB <{db}>,"
-                    " host <{host}> failed. {error}.".format(
-                        db=self._getPGDBConnectionParam(
-                            dsn,
-                            conn_param="dbname",
-                        ),
-                        host=self._getPGDBConnectionParam(
-                            dsn,
-                            conn_param="host",
-                        ),
-                        error=gs.utils.decode(error),
+                    " host <{host}> failed. {error}."
+                ).format(
+                    db=self._getPGDBConnectionParam(
+                        dsn,
+                        conn_param="dbname",
                     ),
+                    host=self._getPGDBConnectionParam(
+                        dsn,
+                        conn_param="host",
+                    ),
+                    error=gs.utils.decode(error),
                 ),
             )
         if ret:
@@ -3048,17 +3066,17 @@ class GdalSelect(wx.Panel):
                         message=_(
                             "Getting list of tables columns data types"
                             " from PostGIS DB <{db}>, host <{host}> failed."
-                            " {error}.".format(
-                                db=self._getPGDBConnectionParam(
-                                    dsn,
-                                    conn_param="dbname",
-                                ),
-                                host=self._getPGDBConnectionParam(
-                                    dsn,
-                                    conn_param="host",
-                                ),
-                                error=gs.utils.decode(error),
+                            " {error}."
+                        ).format(
+                            db=self._getPGDBConnectionParam(
+                                dsn,
+                                conn_param="dbname",
                             ),
+                            host=self._getPGDBConnectionParam(
+                                dsn,
+                                conn_param="host",
+                            ),
+                            error=gs.utils.decode(error),
                         ),
                     )
                 if ret:
@@ -3078,8 +3096,8 @@ class GdalSelect(wx.Panel):
                 parent=self,
                 message=_(
                     "PostgreSQL DB <{psql}> program was not found."
-                    " Please, install it.".format(psql=self._psql)
-                ),
+                    " Please, install it."
+                ).format(psql=self._psql),
             )
         Debug.msg(3, f"GdalSelect._getPGDBRasters(): return {rasters}")
         return rasters
@@ -3183,7 +3201,7 @@ class ElementSelect(wx.Choice):
         if elements:
             values = []
             valuesDesc = []
-            for idx in range(0, len(self.values)):
+            for idx in range(len(self.values)):
                 value = self.values[idx]
                 if value in elements:
                     values.append(value)
@@ -3243,9 +3261,9 @@ class OgrTypeSelect(wx.Panel):
         sel = self.ftype.GetSelection()
         if sel == 0:
             return "point"
-        elif sel == 1:
+        if sel == 1:
             return "line"
-        elif sel == 2:
+        if sel == 2:
             return "boundary"
 
 
@@ -3451,6 +3469,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 =======
 <<<<<<< HEAD
@@ -3481,6 +3500,8 @@ class VectorCategorySelect(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3506,6 +3527,7 @@ class VectorCategorySelect(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -3559,6 +3581,11 @@ class VectorCategorySelect(wx.Panel):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        """Check if selected map in 'input' widget is the same as selected map in lmgr"""
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
         """Check if selected map in 'input' widget is the same as selected map in lmgr"""
@@ -3687,6 +3714,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SignatureSelect, self).__init__(parent, id, size=size, **kwargs)
 
         items = []
@@ -3729,6 +3757,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         super().__init__(parent, id, size=size, **kwargs)
         self.SetName("SignatureSelect")
         self.mapsets = mapsets
@@ -3761,6 +3791,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3785,6 +3816,8 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3813,6 +3846,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3838,6 +3872,8 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3864,6 +3900,7 @@ class SignatureSelect(wx.ComboBox):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3906,6 +3943,9 @@ class SignatureSelect(wx.ComboBox):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
         try:
             from grass.lib.imagery import (
                 I_SIGFILE_TYPE_SIG,
@@ -3918,6 +3958,7 @@ class SignatureSelect(wx.ComboBox):
                 _("Unable to import C imagery library functions: %s\n") % e
             )
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4042,11 +4083,14 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         # Extend here if a new signature type is introduced
         if element == "signatures/sig":
             sig_type = I_SIGFILE_TYPE_SIG
         elif element == "signatures/sigset":
             sig_type = I_SIGFILE_TYPE_SIGSET
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4089,6 +4133,8 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         else:
             return
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
@@ -4097,6 +4143,7 @@ class SignatureSelect(wx.ComboBox):
         for n in range(count):
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4136,6 +4183,8 @@ class SignatureSelect(wx.ComboBox):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4176,6 +4225,7 @@ class SignatureSelect(wx.ComboBox):
             sig_type = I_SIGFILE_TYPE_SIGSET
         else:
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4237,10 +4287,13 @@ class SignatureSelect(wx.ComboBox):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         list_ptr = ctypes.POINTER(ctypes.c_char_p)
         sig_list = list_ptr()
         count = I_signatures_list_by_type(sig_type, mapset, ctypes.byref(sig_list))
         for n in range(count):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4297,6 +4350,10 @@ class SignatureSelect(wx.ComboBox):
         I_free_signatures_list(count, ctypes.byref(sig_list))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            items.append(grass.decode(sig_list[n]))
+        I_free_signatures_list(count, ctypes.byref(sig_list))
+>>>>>>> osgeo-main
 =======
             items.append(grass.decode(sig_list[n]))
         I_free_signatures_list(count, ctypes.byref(sig_list))

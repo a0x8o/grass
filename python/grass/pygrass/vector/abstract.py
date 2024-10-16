@@ -303,8 +303,7 @@ class Info:
 >>>>>>> main
                 return bool(mapset)
             return bool(utils.get_mapset_vector(self.name, self.mapset))
-        else:
-            return False
+        return False
 
     def is_open(self):
         """Return if the Vector is open"""
@@ -444,6 +443,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "The databse link for layer %d of <%s> references layer %d."
 =======
 <<<<<<< HEAD
@@ -474,6 +474,8 @@ class Info:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -498,6 +500,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -551,6 +554,11 @@ class Info:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    "The databse link for layer %d of <%s> references layer %d."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "The databse link for layer %d of <%s> references layer %d."
@@ -603,14 +611,14 @@ class Info:
         if hasattr(self, "table") and self.table is not None:
             self.table.conn.close()
         if self.is_open():
-            if libvect.Vect_close(self.c_mapinfo) != 0:
-                str_err = "Error when trying to close the map with Vect_close"
-                raise GrassError(str_err)
             if (
                 self.c_mapinfo.contents.mode
                 in {libvect.GV_MODE_RW, libvect.GV_MODE_WRITE}
             ) and build:
                 self.build()
+            if libvect.Vect_close(self.c_mapinfo) != 0:
+                str_err = "Error when trying to close the map with Vect_close"
+                raise GrassError(str_err)
 
     def remove(self):
         """Remove vector map"""
@@ -620,16 +628,11 @@ class Info:
 
     def build(self):
         """Close the vector map and build vector Topology"""
-        self.close()
-        libvect.Vect_set_open_level(1)
-        if libvect.Vect_open_old2(self.c_mapinfo, self.name, self.mapset, "0") != 1:
-            str_err = "Error when trying to open the vector map."
-            raise GrassError(str_err)
-        # Vect_build returns 1 on success and 0 on error (bool approach)
-        if libvect.Vect_build(self.c_mapinfo) != 1:
-            str_err = "Error when trying build topology with Vect_build"
-            raise GrassError(str_err)
-        libvect.Vect_close(self.c_mapinfo)
+        if self.is_open():
+            # Vect_build returns 1 on success and 0 on error (bool approach)
+            if libvect.Vect_build(self.c_mapinfo) != 1:
+                str_err = "Error when trying build topology with Vect_build"
+                raise GrassError(str_err)
 
 
 if __name__ == "__main__":

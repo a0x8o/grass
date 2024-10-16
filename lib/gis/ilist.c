@@ -62,6 +62,7 @@ void G_free_ilist(struct ilist *list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -129,6 +130,10 @@ struct ilist *G_new_ilist(void)
 struct ilist *G_new_ilist(void)
 =======
 >>>>>>> osgeo-main
+=======
+struct ilist *G_new_ilist(void)
+=======
+>>>>>>> osgeo-main
 struct ilist *G_new_ilist()
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -137,6 +142,7 @@ struct ilist *G_new_ilist()
 =======
 struct ilist *G_new_ilist(void)
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,11 +180,14 @@ struct ilist *G_new_ilist(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 struct ilist *G_new_ilist()
 =======
 struct ilist *G_new_ilist(void)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +272,8 @@ struct ilist *G_new_ilist()
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

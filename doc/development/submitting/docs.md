@@ -192,6 +192,7 @@ with a width of 600 pixel but it is clickable in the manual page). If a larger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 <<<<<<< HEAD
@@ -222,6 +223,8 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -246,6 +249,7 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -299,6 +303,11 @@ image is displayed as shrinked, both **width** and **height** HTML parameters
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+image is displayed as shrinked, both **width** and **height** HTML parameters
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 image is displayed as shrinked, both **width** and **height** HTML parameters

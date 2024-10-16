@@ -157,6 +157,7 @@ static void c_to_if(long *t, const long *f)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -188,10 +189,13 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 /* IEEE single precision to Cray */
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,13 +252,15 @@ static void c_to_if(long *t, const long *f)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 /* IEEE single precison to Cray */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 static void if_to_c(long *t, const long *f)
 {
     if (*f != 0) {
         *t = (((*f & 0x8000000000000000) |
-               ((*f & 0x7f80000000000000) >> 7) + (16258 << 48)) |
+               ((*f & 0x7f80000000000000) >> 7) + (16258L << 48)) |
               (((*f & 0x007fffff00000000) >> 8) | (0x0000800000000000)));
         if ((*f << 1) == 0)
             *t = 0;
@@ -267,7 +273,7 @@ static void if_to_c(long *t, const long *f)
 #define IF_TO_C(T, F)                                                   \
     if (F != 0) {                                                       \
         T = (((F & 0x8000000000000000) |                                \
-              ((F & 0x7f80000000000000) >> 7) + (16258 << 48)) |        \
+              ((F & 0x7f80000000000000) >> 7) + (16258L << 48)) |       \
              (((F & 0x007fffff00000000) >> 8) | (0x0000800000000000))); \
         if ((F << 1) == 0)                                              \
             T = 0;                                                      \

@@ -173,6 +173,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -243,6 +244,11 @@ class Info:
         """Get semantic label identifier.
 =======
 >>>>>>> osgeo-main
+=======
+    def _get_semantic_label(self):
+        """Get semantic label identifier.
+=======
+>>>>>>> osgeo-main
     def _get_bandref(self):
         """Get band reference identifier.
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
@@ -254,6 +260,7 @@ class Info:
     def _get_semantic_label(self):
         """Get semantic label identifier.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +346,8 @@ class Info:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -370,6 +379,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -447,6 +457,10 @@ class Info:
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         semantic_label = libraster.Rast_read_semantic_label(self.name, self.mapset)
         if semantic_label:
             return utils.decode(semantic_label)
@@ -480,6 +494,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -495,6 +510,9 @@ class Info:
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> osgeo-main
 =======
@@ -552,6 +570,7 @@ class Info:
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,6 +712,8 @@ class Info:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -915,10 +936,10 @@ class RasterAbstractBase:
         if isinstance(key, slice):
             # Get the start, stop, and step from the slice
             return (self.get_row(ii) for ii in range(*key.indices(len(self))))
-        elif isinstance(key, tuple):
+        if isinstance(key, tuple):
             x, y = key
             return self.get(x, y)
-        elif isinstance(key, int):
+        if isinstance(key, int):
             if not self.is_open():
                 raise IndexError("Can not operate on a closed map. Call open() first.")
             if key < 0:  # Handle negative indices
@@ -930,8 +951,7 @@ class RasterAbstractBase:
                     )
                 )
             return self.get_row(key)
-        else:
-            fatal("Invalid argument type.")
+        fatal("Invalid argument type.")
 
     def __iter__(self):
         """Return a constructor of the class"""
@@ -960,8 +980,7 @@ class RasterAbstractBase:
 >>>>>>> main
                 return bool(mapset)
             return bool(utils.get_mapset_raster(self.name, self.mapset))
-        else:
-            return False
+        return False
 
     def is_open(self):
         """Return True if the map is open False otherwise.
@@ -1011,8 +1030,7 @@ class RasterAbstractBase:
 
         if mapset and mapset != gis_env["MAPSET"]:
             return "{name}@{mapset}".format(name=name, mapset=mapset)
-        else:
-            return name
+        return name
 
     def rename(self, newname):
         """Rename the map"""

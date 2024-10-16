@@ -1,6 +1,7 @@
 from tempfile import NamedTemporaryFile
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
+from grass.gunittest.utils import xfail_windows
 
 
 class TestNeighbors(TestCase):
@@ -194,6 +195,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -247,10 +249,13 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                    1 1 1
                    1 1 1
                    1 1 1
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,10 +307,13 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                    1 1 1 
                    1 1 1 
                    1 1 1 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +342,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -359,6 +369,7 @@ class TestNeighbors(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                    1 1 1 
                    1 1 1 
@@ -397,6 +408,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                    1 1 1 
                    1 1 1 
                    1 1 1 
@@ -405,6 +418,7 @@ class TestNeighbors(TestCase):
                    1 1 1
                    1 1 1
                    1 1 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,10 +456,13 @@ class TestNeighbors(TestCase):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +520,8 @@ class TestNeighbors(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -538,6 +557,7 @@ class TestNeighbors(TestCase):
                 "g.remove", flags="f", type="raster", name=",".join(cls.to_remove)
             )
 
+    @xfail_windows
     def test_sequential(self):
         """Test output with sequential filter type."""
         test_case = "test_sequential"
@@ -571,6 +591,7 @@ class TestNeighbors(TestCase):
             precision=1e-5,
         )
 
+    @xfail_windows
     def test_parallel(self):
         """Test output with parallel filter type."""
         test_case = "test_parallel"
@@ -604,6 +625,7 @@ class TestNeighbors(TestCase):
             precision=1e-5,
         )
 
+    @xfail_windows
     def test_sequential_null(self):
         """Test output with sequential filter type with null mode enabled."""
         test_case = "test_sequential_null"
@@ -637,6 +659,7 @@ class TestNeighbors(TestCase):
             precision=1e-5,
         )
 
+    @xfail_windows
     def test_parallel_null(self):
         """Test output with parallel filter type with null mode enabled."""
         test_case = "test_parallel_null"
@@ -697,6 +720,7 @@ class TestNeighbors(TestCase):
             precision=1e-5,
         )
 
+    @xfail_windows
     def test_multiple_filters(self):
         """Test output with multiple filters."""
         test_case = "test_multiple_filters"
@@ -730,6 +754,7 @@ class TestNeighbors(TestCase):
             precision=1e-5,
         )
 
+    @xfail_windows
     def test_repeated_filters(self):
         """Test output with repeated filters."""
         test_case = "test_repeated_filters"

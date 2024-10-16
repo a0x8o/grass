@@ -158,6 +158,7 @@ char *Vect_read_area_to_wkt2(struct Map_info *Map, int area, bool trim)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 =======
 <<<<<<< HEAD
@@ -188,6 +189,8 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -212,6 +215,7 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -265,6 +269,11 @@ unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 unsigned char *Vect_read_line_to_wkb(const struct Map_info *Map,

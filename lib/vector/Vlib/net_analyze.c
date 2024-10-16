@@ -37,6 +37,7 @@ static int clipper(dglGraph_s *pgraph, dglSPClipInput_s *pargIn,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    dglSPClipOutput_s *pargOut, void *pvarg)
 =======
 <<<<<<< HEAD
@@ -67,6 +68,8 @@ static int clipper(dglGraph_s *pgraph, dglSPClipInput_s *pargIn,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -91,6 +94,7 @@ static int clipper(dglGraph_s *pgraph, dglSPClipInput_s *pargIn,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                    dglSPClipOutput_s *pargOut, void *pvarg)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -144,6 +148,11 @@ static int clipper(dglGraph_s *pgraph, dglSPClipInput_s *pargIn,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                   dglSPClipOutput_s *pargOut, void *pvarg)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                    dglSPClipOutput_s *pargOut, void *pvarg)
@@ -320,6 +329,7 @@ static int find_shortest_path(struct Map_info *Map, int from, int to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * neares node and back! */
 =======
 <<<<<<< HEAD
@@ -350,6 +360,8 @@ static int find_shortest_path(struct Map_info *Map, int from, int to,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -374,6 +386,7 @@ static int find_shortest_path(struct Map_info *Map, int from, int to,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * neares node and back! */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -427,6 +440,11 @@ static int find_shortest_path(struct Map_info *Map, int from, int to,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+     * neares node and back! */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      * neares node and back! */
@@ -708,6 +726,7 @@ dglGraph_s *Vect_net_get_graph(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
 =======
 <<<<<<< HEAD
@@ -738,6 +757,8 @@ int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -762,6 +783,7 @@ int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -815,6 +837,11 @@ int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_net_get_line_cost(const struct Map_info *Map, int line, int direction,
@@ -1392,6 +1419,7 @@ find_shortest_path_coor(struct Map_info *Map, double fx, double fy, double fz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /* add the second node, the first of first segmet was alread
                      * added */
 =======
@@ -1423,6 +1451,8 @@ find_shortest_path_coor(struct Map_info *Map, double fx, double fy, double fz,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1449,6 +1479,7 @@ find_shortest_path_coor(struct Map_info *Map, double fx, double fy, double fz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1474,9 +1505,12 @@ find_shortest_path_coor(struct Map_info *Map, double fx, double fy, double fz,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                     /* add the second node, the first of first segmet was alread
                      * added */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1553,8 @@ find_shortest_path_coor(struct Map_info *Map, double fx, double fy, double fz,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

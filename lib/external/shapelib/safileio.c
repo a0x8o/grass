@@ -1,5 +1,4 @@
 /******************************************************************************
- * $Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $
  *
  * Project:  Shapelib
  * Purpose:  Default implementation of file io based on stdio.
@@ -8,73 +7,24 @@
  ******************************************************************************
  * Copyright (c) 2007, Frank Warmerdam
  *
- * This software is available under the following "MIT Style" license,
- * or at the option of the licensee under the LGPL (see COPYING).  This
- * option is discussed in more detail in shapelib.html.
- *
- * --
- *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
+ * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************
- *
- * $Log: safileio.c,v $
- * Revision 1.6  2018-06-15 19:56:32  erouault
- * * safileio.c: remove duplicate test. Patch by Jaroslav Fojtik.
- * Fixes http://bugzilla.maptools.org/show_bug.cgi?id=2744
- *
- * Revision 1.5  2016-12-05 12:44:05  erouault
- * * Major overhaul of Makefile build system to use autoconf/automake.
- *
- * * Warning fixes in contrib/
- *
- * Revision 1.4  2008-01-16 20:05:14  bram
- * Add file hooks that accept UTF-8 encoded filenames on some platforms.  Use
- *SASetupUtf8Hooks tosetup the hooks and check SHPAPI_UTF8_HOOKS for its
- *availability.  Currently, this is only available on the Windows platform that
- *decodes the UTF-8 filenames to wide character strings and feeds them to
- *_wfopen and _wremove.
- *
- * Revision 1.3  2007/12/18 18:28:11  bram
- * - create hook for client specific atof (bugzilla ticket 1615)
- * - check for NULL handle before closing cpCPG file, and close after reading.
- *
- * Revision 1.2  2007/12/15 20:25:30  bram
- * dbfopen.c now reads the Code Page information from the DBF file, and exports
- * this information as a string through the DBFGetCodePage function.  This is
- * either the number from the LDID header field ("LDID/<number>") or as the
- * content of an accompanying .CPG file.  When creating a DBF file, the code can
- * be set using DBFCreateEx.
- *
- * Revision 1.1  2007/12/06 06:56:41  fwarmerdam
- * new
  *
  */
 
 #include "shapefil.h"
 
+#include <assert.h>
 #include <math.h>
 #include <limits.h>
-#include <assert.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+<<<<<<< HEAD
+=======
 #include <stdio.h>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,12 +186,28 @@ SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 =======
 >>>>>>> osgeo-main
 =======
+SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+
+=======
+SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
 SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 =======
 SHP_CVSID("$Id: safileio.c,v 1.6 2018-06-15 19:56:32 erouault Exp $")
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +272,8 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #ifdef SHPAPI_UTF8_HOOKS
 #ifdef SHPAPI_WINDOWS
 #define WIN32_LEAN_AND_MEAN
@@ -315,6 +283,10 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 #endif
 #endif
 
+<<<<<<< HEAD
+static SAFile SADFOpen(const char *pszFilename, const char *pszAccess,
+                       void *pvUserData)
+=======
 /************************************************************************/
 /*                              SADFOpen()                              */
 /************************************************************************/
@@ -341,6 +313,7 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -377,6 +350,8 @@ SHP_CVSID("$Id: safileio.c,v 1.4 2008-01-16 20:05:14 bram Exp $")
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -404,6 +379,7 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -457,6 +433,17 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
 SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
@@ -465,6 +452,7 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -497,9 +485,14 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 <<<<<<< HEAD
 >>>>>>> 6b0657b022 (Fix missing function prototypes (#2727))
 =======
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
@@ -569,10 +562,17 @@ SAFile SADFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
+    (void)pvUserData;
     return (SAFile)fopen(pszFilename, pszAccess);
 }
 
+<<<<<<< HEAD
+static SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
+=======
 /************************************************************************/
 /*                              SADFRead()                              */
 /************************************************************************/
@@ -600,6 +600,7 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -693,10 +694,30 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,10 +791,17 @@ SAOffset SADFRead(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     return (SAOffset)fread(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
 
+<<<<<<< HEAD
+static SAOffset SADFWrite(const void *p, SAOffset size, SAOffset nmemb,
+                          SAFile file)
+=======
 /************************************************************************/
 /*                             SADFWrite()                              */
 /************************************************************************/
@@ -801,6 +829,7 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -894,10 +923,30 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,10 +1020,16 @@ SAOffset SADFWrite(void *p, SAOffset size, SAOffset nmemb, SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     return (SAOffset)fwrite(p, (size_t)size, (size_t)nmemb, (FILE *)file);
 }
 
+<<<<<<< HEAD
+static SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
+=======
 /************************************************************************/
 /*                              SADFSeek()                              */
 /************************************************************************/
@@ -1002,6 +1057,7 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1095,10 +1151,30 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,10 +1248,20 @@ SAOffset SADFSeek(SAFile file, SAOffset offset, int whence)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
+#if defined(_MSC_VER) && _MSC_VER >= 1400
+    return (SAOffset)_fseeki64((FILE *)file, (__int64)offset, whence);
+#else
     return (SAOffset)fseek((FILE *)file, (long)offset, whence);
+#endif
 }
 
+<<<<<<< HEAD
+static SAOffset SADFTell(SAFile file)
+=======
 /************************************************************************/
 /*                              SADFTell()                              */
 /************************************************************************/
@@ -1203,6 +1289,7 @@ SAOffset SADFTell(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1296,10 +1383,30 @@ SAOffset SADFTell(SAFile file)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,10 +1480,20 @@ SAOffset SADFTell(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
+#if defined(_MSC_VER) && _MSC_VER >= 1400
+    return (SAOffset)_ftelli64((FILE *)file);
+#else
     return (SAOffset)ftell((FILE *)file);
+#endif
 }
 
+<<<<<<< HEAD
+static int SADFFlush(SAFile file)
+=======
 /************************************************************************/
 /*                             SADFFlush()                              */
 /************************************************************************/
@@ -1404,6 +1521,7 @@ int SADFFlush(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1497,10 +1615,30 @@ int SADFFlush(SAFile file)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1574,10 +1712,16 @@ int SADFFlush(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     return fflush((FILE *)file);
 }
 
+<<<<<<< HEAD
+static int SADFClose(SAFile file)
+=======
 /************************************************************************/
 /*                             SADFClose()                              */
 /************************************************************************/
@@ -1605,6 +1749,7 @@ int SADFClose(SAFile file)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1698,10 +1843,30 @@ int SADFClose(SAFile file)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1775,10 +1940,16 @@ int SADFClose(SAFile file)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     return fclose((FILE *)file);
 }
 
+<<<<<<< HEAD
+static int SADRemove(const char *filename, void *pvUserData)
+=======
 /************************************************************************/
 /*                             SADFClose()                              */
 /************************************************************************/
@@ -1806,6 +1977,7 @@ int SADRemove(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1899,10 +2071,30 @@ int SADRemove(const char *filename)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1976,10 +2168,17 @@ int SADRemove(const char *filename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
+    (void)pvUserData;
     return remove(filename);
 }
 
+<<<<<<< HEAD
+static void SADError(const char *message)
+=======
 /************************************************************************/
 /*                              SADError()                              */
 /************************************************************************/
@@ -2007,6 +2206,7 @@ void SADError(const char *message)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2100,10 +2300,30 @@ void SADError(const char *message)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2177,10 +2397,16 @@ void SADError(const char *message)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     fprintf(stderr, "%s\n", message);
 }
 
+<<<<<<< HEAD
+void SASetupDefaultHooks(SAHooks *psHooks)
+=======
 /************************************************************************/
 /*                        SASetupDefaultHooks()                         */
 /************************************************************************/
@@ -2208,6 +2434,7 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2301,10 +2528,30 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
+
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> osgeo-main
+=======
 =======
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2378,6 +2625,9 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 {
     psHooks->FOpen = SADFOpen;
     psHooks->FRead = SADFRead;
@@ -2390,25 +2640,28 @@ void SASetupDefaultHooks(SAHooks *psHooks)
 
     psHooks->Error = SADError;
     psHooks->Atof = atof;
+    psHooks->pvUserData = NULL;
 }
 
 #ifdef SHPAPI_WINDOWS
 
+<<<<<<< HEAD
+static wchar_t *Utf8ToWideChar(const char *pszFilename)
+=======
 /************************************************************************/
 /*                          Utf8ToWideChar                              */
 /************************************************************************/
 
 const wchar_t *Utf8ToWideChar(const char *pszFilename)
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
-    int nMulti, nWide;
-    wchar_t *pwszFileName;
-
-    nMulti = strlen(pszFilename) + 1;
-    nWide = MultiByteToWideChar(CP_UTF8, 0, pszFilename, nMulti, 0, 0);
+    const int nMulti = (int)strlen(pszFilename) + 1;
+    const int nWide =
+        MultiByteToWideChar(CP_UTF8, 0, pszFilename, nMulti, 0, 0);
     if (nWide == 0) {
         return NULL;
     }
-    pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
+    wchar_t *pwszFileName = (wchar_t *)malloc(nWide * sizeof(wchar_t));
     if (pwszFileName == NULL) {
         return NULL;
     }
@@ -2424,10 +2677,17 @@ const wchar_t *Utf8ToWideChar(const char *pszFilename)
 /*                           SAUtf8WFOpen                               */
 /************************************************************************/
 
-SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
+static SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess,
+                           void *pvUserData)
 {
+    (void)pvUserData;
     SAFile file = NULL;
+<<<<<<< HEAD
+    wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
+    wchar_t *pwszAccess = Utf8ToWideChar(pszAccess);
+=======
     const wchar_t *pwszFileName, *pwszAccess;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2696,11 +2956,38 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
     pwszFileName = Utf8ToWideChar(pszFilename);
     pwszAccess = Utf8ToWideChar(pszAccess);
     if (pwszFileName != NULL && pwszAccess != NULL) {
+=======
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+    if (pwszFileName != NULL && pwszAccess != NULL) {
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+    if (pwszFileName != NULL && pwszFileName != NULL) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+    pwszFileName = Utf8ToWideChar(pszFilename);
+    pwszAccess = Utf8ToWideChar(pszAccess);
+    if (pwszFileName != NULL && pwszAccess != NULL) {
+>>>>>>> osgeo-main
 <<<<<<< HEAD
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2809,20 +3096,27 @@ SAFile SAUtf8WFOpen(const char *pszFilename, const char *pszAccess)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         file = (SAFile)_wfopen(pwszFileName, pwszAccess);
     }
-    free((wchar_t *)pwszFileName);
-    free((wchar_t *)pwszAccess);
+    free(pwszFileName);
+    free(pwszAccess);
     return file;
 }
 
+<<<<<<< HEAD
+static int SAUtf8WRemove(const char *pszFilename, void *pvUserData)
+=======
 /************************************************************************/
 /*                             SAUtf8WRemove()                          */
 /************************************************************************/
 
 int SAUtf8WRemove(const char *pszFilename)
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 {
-    const wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
+    (void)pvUserData;
+    wchar_t *pwszFileName = Utf8ToWideChar(pszFilename);
     int rc = -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2846,6 +3140,7 @@ int SAUtf8WRemove(const char *pszFilename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2894,11 +3189,14 @@ int SAUtf8WRemove(const char *pszFilename)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2931,12 +3229,15 @@ int SAUtf8WRemove(const char *pszFilename)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3014,29 +3315,33 @@ int SAUtf8WRemove(const char *pszFilename)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     if (pwszFileName != NULL) {
         rc = _wremove(pwszFileName);
     }
-    free((wchar_t *)pwszFileName);
+    free(pwszFileName);
     return rc;
 }
 
 #endif
 
 #ifdef SHPAPI_UTF8_HOOKS
+<<<<<<< HEAD
+#ifndef SHPAPI_WINDOWS
+#error "no implementations of UTF-8 hooks available for this platform"
+#endif
+=======
 
 /************************************************************************/
 /*                          SASetupUtf8Hooks()                          */
 /************************************************************************/
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 
 void SASetupUtf8Hooks(SAHooks *psHooks)
 {
-#ifdef SHPAPI_WINDOWS
     psHooks->FOpen = SAUtf8WFOpen;
     psHooks->Remove = SAUtf8WRemove;
-#else
-#error "no implementations of UTF-8 hooks available for this platform"
-#endif
     psHooks->FRead = SADFRead;
     psHooks->FWrite = SADFWrite;
     psHooks->FSeek = SADFSeek;
@@ -3047,5 +3352,4 @@ void SASetupUtf8Hooks(SAHooks *psHooks)
     psHooks->Error = SADError;
     psHooks->Atof = atof;
 }
-
 #endif

@@ -36,6 +36,7 @@ struct pq_node {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67,10 +68,13 @@ struct pq_node {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     size_t idx;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +123,8 @@ struct pq_node {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -222,6 +228,7 @@ struct orders {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -253,11 +260,14 @@ struct orders {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     size_t index;
     int uphill, downhill;
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +319,8 @@ struct orders {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -349,6 +361,7 @@ int cmp_orders(const void *a, const void *b)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 <<<<<<< HEAD
@@ -379,6 +392,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -403,6 +418,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -456,6 +472,11 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
@@ -524,6 +545,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(down_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -554,6 +576,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -578,6 +602,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -631,6 +656,11 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        if ((index_doer = pq_drop(down_pq)) == -1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
@@ -734,6 +764,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(up_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -764,6 +795,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -788,6 +821,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -841,6 +875,11 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        if ((index_doer = pq_drop(up_pq)) == -1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
@@ -959,6 +998,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(down_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -989,6 +1029,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1013,6 +1055,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1066,6 +1109,11 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        if ((index_doer = pq_drop(down_pq)) == -1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         if ((index_doer = pq_drop(down_pq)) == -1)
@@ -1176,6 +1224,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((index_doer = pq_drop(up_pq)) == -1)
 =======
 <<<<<<< HEAD
@@ -1206,6 +1255,8 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1230,6 +1281,7 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1283,6 +1335,11 @@ int do_flatarea(int index, CELL ele, CELL *alt_org, CELL *alt_new)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        if ((index_doer = pq_drop(up_pq)) == -1)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         if ((index_doer = pq_drop(up_pq)) == -1)

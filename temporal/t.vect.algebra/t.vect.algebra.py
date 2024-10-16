@@ -72,7 +72,6 @@ def main():
     expression = options["expression"]
     basename = options["basename"]
     spatial = flags["s"]
-    stdstype = "stvds"
 
     # Check for PLY istallation
     try:

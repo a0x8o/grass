@@ -25,6 +25,7 @@ int close_connection();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -89,6 +90,10 @@ cursor *alloc_cursor(void);
 cursor *alloc_cursor(void);
 =======
 >>>>>>> osgeo-main
+=======
+cursor *alloc_cursor(void);
+=======
+>>>>>>> osgeo-main
 cursor *alloc_cursor();
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -97,6 +102,7 @@ cursor *alloc_cursor();
 =======
 cursor *alloc_cursor(void);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,11 +140,14 @@ cursor *alloc_cursor(void);
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 cursor *alloc_cursor();
 =======
 cursor *alloc_cursor(void);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +226,8 @@ cursor *alloc_cursor();
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

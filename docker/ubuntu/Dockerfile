@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -47,6 +48,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+# syntax=docker/dockerfile:1.10@sha256:865e5dd094beca432e8c0a1d5e1c465db5f998dca4e439981029b3b81fb39ed5
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 # syntax=docker/dockerfile:1.9@sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f28
 =======
 =======
@@ -56,8 +64,11 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -70,6 +81,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,11 +145,15 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 # syntax=docker/dockerfile:1.8@sha256:d6d396f3780b1dd56a3acbc975f57bd2fc501989b50164c41387c42d04e780d0
 >>>>>>> osgeo-main
 =======
+# syntax=docker/dockerfile:1.8@sha256:d6d396f3780b1dd56a3acbc975f57bd2fc501989b50164c41387c42d04e780d0
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 # syntax=docker/dockerfile:1.7@sha256:a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,13 +195,18 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 # Note: This file must be kept in sync in ./Dockerfile and ./docker/ubuntu/Dockerfile.
 #       Changes to this file must be copied over to the other file.
 
 ARG GUI=without
 
-FROM ubuntu:22.04@sha256:adbb90115a21969d2fe6fa7f9af4253e16d45f8d4c1e930182610c4731962658 as common_start
+FROM ubuntu:22.04@sha256:58b87898e82351c6cf9cf5b9f3c20257bb9e2dcf33af051e12ce532d7f94e3fe as common_start
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann,Stefan Blumentrath"
 =======
@@ -205,6 +226,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -221,6 +243,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -246,6 +270,7 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -284,10 +309,13 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 LABEL maintainer="tawalika@mundialis.de,neteler@mundialis.de,weinmann@mundialis.de"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +353,8 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> osgeo-main
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -367,6 +397,7 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,10 +542,13 @@ ARG PDAL_VERSION=2.4.3
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 SHELL ["/bin/bash", "-c"]
 
 WORKDIR /tmp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,12 +601,24 @@ WORKDIR /tmp
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 ARG GUI
 
 # Todo: re-consider required dev packages for addons (~400MB in dev packages)
-ARG GRASS_RUN_PACKAGES="build-essential \
+ARG GRASS_RUN_PACKAGES="\
+    bison \
+    build-essential \
+    bzip2 \
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install -y --no-install-recommends --no-install-suggests \
+    build-essential \
     bison \
     bzip2 \
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +795,13 @@ RUN apt-get update && apt-get upgrade -y && \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+    cmake \
+<<<<<<< HEAD
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     curl \
     flex \
     g++ \
@@ -769,6 +822,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -806,9 +860,9 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     geos-bin \
-    proj-bin \
-    netcdf-bin \
     git \
     language-pack-en-base \
     libcairo2 \
@@ -817,28 +871,29 @@ RUN apt-get update && apt-get upgrade -y && \
     libfftw3-dev \
     libfreetype6 \
     libgdal-dev \
+    libgeos-dev \
+    libgsl-dev \
     libgsl27 \
     libjpeg-turbo8 \
     libjsoncpp-dev \
-    libmagic1 \
+    liblapacke-dev \
     libmagic-mgc \
+    libmagic1 \
     libncurses5 \
-    libopenblas-dev \
-    libopenblas-base \
-    libopenjp2-7 \
-    libomp5 \
     libomp-dev \
-    libgeos-dev \
-    libpdal-dev \
-    libproj-dev \
-    libpq-dev \
-    libgsl-dev \
+    libomp5 \
+    libopenblas-base \
+    libopenblas-dev \
+    libopenjp2-7 \
     libpdal-base13 \
+    libpdal-dev \
     libpdal-plugin-hdf \
     libpdal-plugins \
     libpdal-util13 \
     libpnglite0 \
+    libpq-dev \
     libpq5 \
+    libproj-dev \
     libpython3-all-dev \
     libreadline8 \
     libsqlite3-0 \
@@ -849,7 +904,9 @@ RUN apt-get update && apt-get upgrade -y && \
     mesa-utils \
     moreutils \
     ncurses-bin \
+    netcdf-bin \
     pdal \
+    proj-bin \
     proj-data \
     python-is-python3 \
     python3 \
@@ -869,6 +926,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -914,6 +972,10 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -993,6 +1055,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1054,6 +1117,11 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1093,6 +1161,7 @@ RUN apt-get update && apt-get upgrade -y && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1130,61 +1199,65 @@ RUN apt-get update && apt-get upgrade -y && \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     zlib1g \
     "
 ENV GRASS_RUN_PACKAGES=${GRASS_RUN_PACKAGES}
 
 # Define build packages
-ARG GRASS_BUILD_PACKAGES="cmake \
+ARG GRASS_BUILD_PACKAGES="\
+    cmake \
     libbz2-dev \
     libcairo2-dev \
     libfreetype6-dev \
-    zlib1g-dev \
+    libjpeg-dev \
+    libncurses5-dev \
     libnetcdf-dev \
     libopenjp2-7-dev \
-    libreadline-dev \
-    libjpeg-dev \
     libpnglite-dev \
+    libreadline-dev \
     libsqlite3-dev \
     libtiff-dev \
     libzstd-dev \
-    libncurses5-dev \
     mesa-common-dev \
     zlib1g-dev \
     "
 ENV GRASS_BUILD_PACKAGES=${GRASS_BUILD_PACKAGES}
 
-ARG GRASS_CONFIG="--with-cxx \
+ARG GRASS_CONFIG="\
   --enable-largefile \
-  --with-proj-share=/usr/share/proj \
+  --with-blas \
+  --with-bzlib \
+  --with-cairo --with-cairo-ldflags=-lfontconfig \
+  --with-cxx \
+  --with-fftw \
+  --with-freetype --with-freetype-includes=/usr/include/freetype2/ \
   --with-gdal=/usr/bin/gdal-config \
   --with-geos \
-  --with-sqlite \
-  --with-cairo --with-cairo-ldflags=-lfontconfig \
-  --with-freetype --with-freetype-includes=/usr/include/freetype2/ \
-  --with-fftw \
-  --with-postgres --with-postgres-includes=/usr/include/postgresql \
-  --with-netcdf \
-  --with-zstd \
-  --with-bzlib \
-  --with-pdal \
-  --without-mysql \
-  --with-blas \
   --with-lapack \
-  --with-readline \
+  --with-netcdf \
   --with-odbc \
   --with-openmp \
+  --with-pdal \
+  --with-postgres --with-postgres-includes=/usr/include/postgresql \
+  --with-proj-share=/usr/share/proj \
+  --with-readline \
+  --with-sqlite \
+  --with-zstd \
+  --without-mysql \
   "
 
-ARG GRASS_PYTHON_PACKAGES="pip \
-    setuptools \
+ARG GRASS_PYTHON_PACKAGES="\
+    Pillow \
+    matplotlib \
+    numpy \
+    pip \
+    ply \
+    psycopg2 \
     python-dateutil \
     python-magic \
-    numpy \
-    Pillow \
-    ply \
-    matplotlib \
-    psycopg2 \
+    setuptools \
   "
 ENV GRASS_PYTHON_PACKAGES=${GRASS_PYTHON_PACKAGES}
 
@@ -1196,31 +1269,33 @@ ENV GRASS_CONFIG=${GRASS_CONFIG}
 
 FROM common_start as grass_with_gui
 
-ARG GRASS_RUN_PACKAGES="${GRASS_RUN_PACKAGES} adwaita-icon-theme-full \
-  libglu1-mesa \
-  libgtk-3-0 \
-  libnotify4 \
-  libsdl2-2.0-0 \
-  libxtst6 \
-  librsvg2-common \
-  gettext \
+ARG GRASS_RUN_PACKAGES="${GRASS_RUN_PACKAGES} \
+  adwaita-icon-theme-full \
   freeglut3 \
+  gettext \
+  libglu1-mesa \
   libgstreamer-plugins-base1.0 \
+  libgtk-3-0 \
   libjpeg8 \
+  libnotify4 \
   libpng16-16 \
+  librsvg2-common \
+  libsdl2-2.0-0 \
   libsm6 \
   libtiff5 \
   libwebkit2gtk-4.0 \
+  libxtst6 \
 "
 # librsvg2-common \
 # (fix error (wxgui.py:7782): Gtk-WARNING **: 19:53:09.774:
 # Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
 # This may indicate that pixbuf loaders or the mime database could not be found.)
 
-ARG GRASS_BUILD_PACKAGES="${GRASS_BUILD_PACKAGES} adwaita-icon-theme-full \
+ARG GRASS_BUILD_PACKAGES="${GRASS_BUILD_PACKAGES} \
+  adwaita-icon-theme-full \
+  freeglut3-dev \
   libgl1-mesa-dev \
   libglu1-mesa-dev \
-  freeglut3-dev \
   libgstreamer-plugins-base1.0-dev \
   libgtk-3-dev \
   libjpeg-dev \
@@ -1233,10 +1308,11 @@ ARG GRASS_BUILD_PACKAGES="${GRASS_BUILD_PACKAGES} adwaita-icon-theme-full \
   libxtst-dev \
 "
 
-ARG GRASS_CONFIG="${GRASS_CONFIG} --with-opengl \
-  --with-x \
+ARG GRASS_CONFIG="${GRASS_CONFIG} \
   --with-nls \
+  --with-opengl \
   --with-readline \
+  --with-x \
   "
 ARG GRASS_PYTHON_PACKAGES="${GRASS_PYTHON_PACKAGES} wxPython"
 # If you do not use any Gnome Accessibility features, to suppress warning
@@ -1325,6 +1401,7 @@ WORKDIR /src/grass_build
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1386,11 +1463,16 @@ WORKDIR /src/grass_build
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
     zlib1g-dev
 
 RUN echo LANG="en_US.UTF-8" > /etc/default/locale
 RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,6 +1554,10 @@ RUN echo en_US.UTF-8 UTF-8 >> /etc/locale.gen && locale-gen
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 ## install laz-perf (missing from https://packages.ubuntu.com/)
 RUN apt-get install cmake
 WORKDIR /src
@@ -1484,6 +1570,7 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
     make && \
     make install
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1555,6 +1642,11 @@ RUN wget -q https://github.com/hobu/laz-perf/archive/${LAZ_PERF_VERSION}.tar.gz 
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -1608,6 +1700,7 @@ RUN mkdir vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
@@ -1676,11 +1769,17 @@ RUN mkdir vdatum && \
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 ## install pdal
 =======
 ## compile and install PDAL (not available on Debian/Ubuntu) with laz-perf enabled
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1735,6 +1834,8 @@ RUN mkdir vdatum && \
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1784,6 +1885,7 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1817,10 +1919,13 @@ RUN wget -q \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1896,10 +2001,15 @@ RUN wget -q \
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
       -DBUILD_PLUGIN_PGPOINTCLOUD=ON \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1937,12 +2047,15 @@ RUN wget -q \
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_SQLITE=ON \
       -DWITH_LASZIP=OFF \
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2011,6 +2124,8 @@ RUN wget -q \
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
       -DWITH_LAZPERF=ON \
       -DWITH_TESTS=ON && \
     make -j $NUMTHREADS && \
@@ -2024,6 +2139,7 @@ WORKDIR /src/grass_build
 # Cleanup potentially leftover GISRC file with wrong path to "demolocation"
 RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2100,6 +2216,11 @@ RUN rm -f /src/grass_build/dist.*/demolocation/.grassrc*
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2141,8 +2262,11 @@ ENV MYLDFLAGS "-s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2163,6 +2287,7 @@ ENV LD_LIBRARY_PATH "/usr/local/lib"
 =======
 =======
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2220,10 +2345,13 @@ ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #ENV LD_LIBRARY_PATH "/usr/local/lib"
 =======
 ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2284,10 +2412,14 @@ ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 12b43eb397 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
 ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2329,6 +2461,8 @@ ENV LD_LIBRARY_PATH "/usr/local/lib"
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 ENV LDFLAGS "$MYLDFLAGS"
 ENV CFLAGS "$MYCFLAGS"
 ENV CXXFLAGS "$MYCXXFLAGS"
@@ -2336,6 +2470,7 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 # Configure compile and install GRASS GIS
 ENV NUMTHREADS=4
 RUN make distclean || echo "nothing to clean"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2380,6 +2515,8 @@ RUN make distclean || echo "nothing to clean"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2471,9 +2608,14 @@ VOLUME /grassdb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
+=======
+CMD ["$GRASSBIN", "--version"]
+=======
+>>>>>>> osgeo-main
 =======
 CMD ["$GRASSBIN", "--version"]
 =======
@@ -2482,6 +2624,7 @@ CMD ["bash", "-c", "$GRASSBIN", "--version"]
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2752,6 +2895,8 @@ CMD ["bash", "-c", "$GRASSBIN", "--version"]
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 RUN /src/grass_build/configure \
   --with-cxx \
   --enable-largefile \
@@ -2839,6 +2984,7 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # test LAZ file
 RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" output="count_1" method="n" resolution=1 -g
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
@@ -2853,6 +2999,8 @@ RUN grass --tmp-location EPSG:25832 --exec r.in.pdal input="/tmp/simple.laz" out
 >>>>>>> osgeo-main
 >>>>>>> main
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2885,8 +3033,11 @@ VOLUME /grassdb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2907,6 +3058,7 @@ VOLUME /grassdb
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ab4f90615 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2966,6 +3118,8 @@ VOLUME /grassdb
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

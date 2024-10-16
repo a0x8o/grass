@@ -28,6 +28,8 @@ This program is free software under the GNU General Public License
 import os
 import sys
 
+from pathlib import Path
+
 try:
     import pwd
 
@@ -2030,6 +2032,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2059,6 +2062,8 @@ class PreferencesDialog(PreferencesBaseDialog):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2085,6 +2090,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2130,6 +2136,10 @@ class PreferencesDialog(PreferencesBaseDialog):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2199,8 +2209,6 @@ class PreferencesDialog(PreferencesBaseDialog):
 
     def OnLoadEpsgCodes(self, event):
         """Load EPSG codes from the file"""
-        win = self.FindWindowById(self.winId["projection:statusbar:projFile"])
-        path = win.GetValue()
         epsgCombo = self.FindWindowById(self.winId["projection:statusbar:epsg"])
         wx.BeginBusyCursor()
         try:
@@ -2599,28 +2607,27 @@ class CheckListMapset(ListCtrl, listmix.ListCtrlAutoWidthMixin, CheckListCtrlMix
         """Load data into list"""
         self.InsertColumn(0, _("Mapset"))
         self.InsertColumn(1, _("Owner"))
-        ### self.InsertColumn(2, _('Group'))
+        # self.InsertColumn(2, _('Group'))
         gisenv = gs.gisenv()
         locationPath = os.path.join(gisenv["GISDBASE"], gisenv["LOCATION_NAME"])
 
         for mapset in self.parent.all_mapsets_ordered:
             index = self.InsertItem(self.GetItemCount(), mapset)
-            mapsetPath = os.path.join(locationPath, mapset)
-            stat_info = os.stat(mapsetPath)
+            stat_info = Path(locationPath, mapset).stat()
             if havePwd:
                 try:
                     self.SetItem(index, 1, "%s" % pwd.getpwuid(stat_info.st_uid)[0])
                 except KeyError:
                     self.SetItem(index, 1, "nobody")
                 # FIXME: get group name
-                ### self.SetStringItem(index, 2, "%-8s" % stat_info.st_gid)
+                # self.SetStringItem(index, 2, "%-8s" % stat_info.st_gid)
             else:
                 # FIXME: no pwd under MS Windows (owner: 0, group: 0)
                 self.SetItem(index, 1, "%-8s" % stat_info.st_uid)
-                ### self.SetStringItem(index, 2, "%-8s" % stat_info.st_gid)
+                # self.SetStringItem(index, 2, "%-8s" % stat_info.st_gid)
 
         self.SetColumnWidth(col=0, width=wx.LIST_AUTOSIZE)
-        ### self.SetColumnWidth(col = 1, width = wx.LIST_AUTOSIZE)
+        # self.SetColumnWidth(col = 1, width = wx.LIST_AUTOSIZE)
 
     def OnCheckItem(self, index, flag):
         """Mapset checked/unchecked"""

@@ -736,11 +736,11 @@ class GlobalTemporalVar:
             and self.value is not None
         ):
             return "global"
-        elif self.boolean is not None:
+        if self.boolean is not None:
             return "boolean"
-        elif self.relationop is not None and self.topology != []:
+        if self.relationop is not None and self.topology != []:
             return "operator"
-        elif self.td is not None:
+        if self.td is not None:
             return "timediff"
 
     def get_type_value(self):
@@ -1204,7 +1204,7 @@ class TemporalAlgebraParser:
 
         for key, value in map_names.items():
             if value:
-                self.msgr.message(_("Removing un-needed or empty %s maps" % (key)))
+                self.msgr.message(_("Removing un-needed or empty %s maps") % (key))
                 self._remove_maps(value, key)
 
     def _remove_maps(self, namelist, map_type):
@@ -1284,15 +1284,9 @@ class TemporalAlgebraParser:
                         self.temporaltype = "absolute"
                     elif map_i.is_time_relative() and self.temporaltype is None:
                         self.temporaltype = "relative"
-                    elif map_i.is_time_absolute() and self.temporaltype == "relative":
-                        self.msgr.fatal(
-                            _(
-                                "Wrong temporal type of space time dataset "
-                                "<%s> <%s> time is required"
-                            )
-                            % (id_input, self.temporaltype)
-                        )
-                    elif map_i.is_time_relative() and self.temporaltype == "absolute":
+                    elif (
+                        map_i.is_time_absolute() and self.temporaltype == "relative"
+                    ) or (map_i.is_time_relative() and self.temporaltype == "absolute"):
                         self.msgr.fatal(
                             _(
                                 "Wrong temporal type of space time dataset "
@@ -1308,13 +1302,9 @@ class TemporalAlgebraParser:
             maplist = input
             # Create map_value as empty list item.
             for map_i in maplist:
-                if "map_value" not in dir(map_i):
+                if ("map_value" not in dir(map_i)) or clear:
                     map_i.map_value = []
-                elif clear:
-                    map_i.map_value = []
-                if "condition_value" not in dir(map_i):
-                    map_i.condition_value = []
-                elif clear:
+                if ("condition_value" not in dir(map_i)) or clear:
                     map_i.condition_value = []
         else:
             self.msgr.fatal(_("Wrong type of input " + str(input)))
@@ -2355,8 +2345,7 @@ class TemporalAlgebraParser:
                     inverselist.append(map_i)
         if inverse:
             return inverselist
-        else:
-            return resultlist
+        return resultlist
 
     def p_statement_assign(self, t):
         # The expression should always return a list of maps
@@ -2401,8 +2390,8 @@ class TemporalAlgebraParser:
                                     _(
                                         "The resulting space time dataset type <%(a)s> "
                                         "is different from the requested type <%(b)s>"
-                                        % ({"a": maps_stds_type, "b": self.stdstype})
                                     )
+                                    % ({"a": maps_stds_type, "b": self.stdstype})
                                 )
                         else:
                             map_type_2 = map_i.get_type()

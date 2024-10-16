@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void dglResetStats(dglGraph_s *pgraph)
 =======
 <<<<<<< HEAD
@@ -85,6 +86,8 @@ void dglResetStats(dglGraph_s *pgraph)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -109,6 +112,7 @@ void dglResetStats(dglGraph_s *pgraph)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void dglResetStats(dglGraph_s *pgraph)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -162,6 +166,11 @@ void dglResetStats(dglGraph_s *pgraph)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void dglResetStats(dglGraph_s *pgraph)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void dglResetStats(dglGraph_s *pgraph)
@@ -1202,6 +1211,7 @@ int dglMinimumSpanning(dglGraph_s *pgraphInput, dglGraph_s *pgraphOutput,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 =======
 <<<<<<< HEAD
@@ -1232,6 +1242,8 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1256,6 +1268,7 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1309,6 +1322,11 @@ void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void dglFreeSPReport(dglGraph_s *pgraph, dglSPReport_s *pSPReport)
@@ -1747,6 +1765,7 @@ int dglEdgeset_T_Initialize(dglEdgesetTraverser_s *pT, dglGraph_s *pGraph,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 =======
 <<<<<<< HEAD
@@ -1777,6 +1796,8 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1801,6 +1822,7 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1854,6 +1876,11 @@ void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void dglEdgeset_T_Release(dglEdgesetTraverser_s *pT)
@@ -1945,6 +1972,7 @@ int dglIOContextInitialize(dglGraph_s *pG, dglIOContext_s *pIO)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void dglIOContextRelease(dglIOContext_s *pIO)
 =======
 <<<<<<< HEAD
@@ -1975,6 +2003,8 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1999,6 +2029,7 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void dglIOContextRelease(dglIOContext_s *pIO)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2052,6 +2083,11 @@ void dglIOContextRelease(dglIOContext_s *pIO)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void dglIOContextRelease(dglIOContext_s *pIO)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void dglIOContextRelease(dglIOContext_s *pIO)

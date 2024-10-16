@@ -371,6 +371,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Degenerate is not ignored because it may be useful to see where it
          * is, but may be eliminated by min_area option */
         if (Points->n_points < 4)
@@ -515,6 +516,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -806,6 +809,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -822,6 +826,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -959,6 +965,7 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -989,6 +996,8 @@ int geom(OGRGeometryH hGeomAny, struct Map_info *Map, int field, int cat,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

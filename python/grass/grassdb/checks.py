@@ -92,6 +92,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -150,6 +151,10 @@ def is_location_valid(path, location=None):
     :param path: Path to a Location or to a GRASS GIS database directory
 =======
 >>>>>>> osgeo-main
+=======
+    :param path: Path to a Location or to a GRASS GIS database directory
+=======
+>>>>>>> osgeo-main
     :param database: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -158,6 +163,7 @@ def is_location_valid(path, location=None):
 =======
     :param path: Path to a Location or to a GRASS GIS database directory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +242,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -270,6 +278,7 @@ def is_location_valid(path, location=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -328,6 +337,10 @@ def is_location_valid(path, location=None):
         path = os.path.join(path, location)
 =======
 >>>>>>> osgeo-main
+=======
+        path = os.path.join(path, location)
+=======
+>>>>>>> osgeo-main
         path = os.path.join(location)
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
@@ -336,6 +349,7 @@ def is_location_valid(path, location=None):
 =======
         path = os.path.join(path, location)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +428,8 @@ def is_location_valid(path, location=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -453,7 +469,7 @@ def is_current_user_mapset_owner(mapset_path):
     # Mapset needs to be owned by user.
     if sys.platform == "win32":
         return True
-    stat_info = os.stat(mapset_path)
+    stat_info = Path(mapset_path).stat()
     mapset_uid = stat_info.st_uid
     return mapset_uid == os.getuid()
 
@@ -499,7 +515,7 @@ def is_first_time_user():
     genv = gisenv()
     if "LAST_MAPSET_PATH" in genv.keys():
         return genv["LAST_MAPSET_PATH"] == os.path.join(
-            os.getcwd(), cfg.unknown_location, cfg.unknown_mapset
+            Path.cwd(), cfg.unknown_location, cfg.unknown_mapset
         )
     return False
 
@@ -562,13 +578,13 @@ def get_reason_id_mapset_not_usable(mapset_path):
     if not os.path.exists(mapset_path):
         return "non-existent"
     # Check whether mapset is valid
-    elif not is_mapset_valid(mapset_path):
+    if not is_mapset_valid(mapset_path):
         return "invalid"
     # Check whether mapset is owned by current user
-    elif not is_current_user_mapset_owner(mapset_path):
+    if not is_current_user_mapset_owner(mapset_path):
         return "different-owner"
     # Check whether mapset is locked
-    elif is_mapset_locked(mapset_path):
+    if is_mapset_locked(mapset_path):
         return "locked"
     return None
 

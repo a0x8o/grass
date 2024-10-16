@@ -148,6 +148,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -177,6 +178,8 @@ class NotebookController:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -209,6 +212,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -254,6 +258,10 @@ class NotebookController:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -294,6 +302,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -323,6 +332,8 @@ class NotebookController:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -355,6 +366,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -400,6 +412,10 @@ class NotebookController:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -439,6 +455,7 @@ class NotebookController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -476,10 +493,16 @@ class NotebookController:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         except (
             TypeError
+<<<<<<< HEAD
+        ):  # documentation says 'index', but certain versions of wx require 'n'
+=======
         ) as e:  # documentation says 'index', but certain versions of wx require 'n'
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +578,13 @@ class NotebookController:
 >>>>>>> osgeo-main
         except TypeError as e:  # documentation says 'index', but certain versions of wx require 'n'
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+        except TypeError as e:  # documentation says 'index', but certain versions of wx require 'n'
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
             kwargs["n"] = kwargs["index"]
             del kwargs["index"]
             self.classObject.InsertPage(self.widget, *args, **kwargs)
@@ -572,8 +602,7 @@ class NotebookController:
             if ret:
                 del self.notebookPages[page]
             return ret
-        else:
-            return False
+        return False
 
     def RemovePage(self, page):
         """Delete page without deleting the associated window.
@@ -587,8 +616,7 @@ class NotebookController:
             if ret:
                 del self.notebookPages[page]
             return ret
-        else:
-            return False
+        return False
 
     def SetSelectionByName(self, page):
         """Set active notebook page.
@@ -819,7 +847,6 @@ class NumTextCtrl(TextCtrl):
     """Class derived from wx.TextCtrl for numerical values only"""
 
     def __init__(self, parent, **kwargs):
-        ##        self.precision = kwargs.pop('prec')
         TextCtrl.__init__(
             self, parent=parent, validator=NTCValidator(flag="DIGIT_ONLY"), **kwargs
         )
@@ -1137,7 +1164,7 @@ class TimeISOValidator(BaseValidator):
         if text:
             try:
                 datetime.strptime(text, "%Y-%m-%d")
-            except:
+            except ValueError:
                 self._notvalid()
                 return False
 
@@ -1199,8 +1226,7 @@ class SimpleValidator(Validator):
         if len(text) == 0:
             self.callback(ctrl)
             return False
-        else:
-            return True
+        return True
 
     def TransferToWindow(self):
         """Transfer data from validator to window.
@@ -1250,8 +1276,7 @@ class GenericValidator(Validator):
         if not self._condition(text):
             self._callback(ctrl)
             return False
-        else:
-            return True
+        return True
 
     def TransferToWindow(self):
         """Transfer data from validator to window."""
@@ -1568,8 +1593,7 @@ class GListCtrl(ListCtrl, listmix.ListCtrlAutoWidthMixin, CheckListCtrlMixin):
 
         if checked is not None:
             return tuple(data)
-        else:
-            return (tuple(data), tuple(checkedList))
+        return (tuple(data), tuple(checkedList))
 
     def LoadData(self, data=None, selectOne=True):
         """Load data into list"""
@@ -1649,6 +1673,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
 =======
 <<<<<<< HEAD
@@ -1679,6 +1704,8 @@ class SearchModuleWidget(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1703,6 +1730,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1756,6 +1784,11 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 parent=self, id=wx.ID_ANY, label="Choose a tool", size=(-1, 35)
@@ -1855,6 +1888,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         label = _("%d tools match") % len(commands)
 =======
 <<<<<<< HEAD
@@ -1885,6 +1919,8 @@ class SearchModuleWidget(wx.Panel):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1909,6 +1945,7 @@ class SearchModuleWidget(wx.Panel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         label = _("%d tools match") % len(commands)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1962,6 +1999,11 @@ class SearchModuleWidget(wx.Panel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        label = _("%d tools match") % len(commands)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         label = _("%d tools match") % len(commands)
@@ -2233,7 +2275,7 @@ class ManageSettingsWidget(wx.Panel):
             return data
 
         try:
-            fd = open(self.settingsFile, "r")
+            fd = open(self.settingsFile)
         except OSError:
             return data
 

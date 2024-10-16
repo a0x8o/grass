@@ -32,6 +32,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,11 +64,14 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +131,8 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 import os
 import re
 import sys
@@ -140,6 +146,12 @@ from .core import Popen, PIPE, get_real_command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
@@ -171,6 +183,10 @@ if sys.version_info.major >= 3:
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -238,8 +254,7 @@ class grassTask:
             name, ext = os.path.splitext(self.name)
             if ext in {".py", ".sh"}:
                 return name
-            else:
-                return self.name
+            return self.name
 
         return self.name
 
@@ -251,10 +266,8 @@ class grassTask:
         if self.label:
             if full:
                 return self.label + " " + self.description
-            else:
-                return self.label
-        else:
-            return self.description
+            return self.label
+        return self.description
 
     def get_keywords(self):
         """Get module's keywords"""
@@ -395,11 +408,7 @@ class grassTask:
 
     def has_required(self):
         """Check if command has at least one required parameter"""
-        for p in self.params:
-            if p.get("required", False):
-                return True
-
-        return False
+        return any(p.get("required", False) for p in self.params)
 
     def set_param(self, aParam, aValue, element="value"):
         """Set param value/values."""
