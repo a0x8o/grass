@@ -30,6 +30,7 @@ This program is free software under the GNU General Public License
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -61,11 +62,14 @@ This program is free software under the GNU General Public License
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +121,8 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -271,17 +277,15 @@ def convertRGB(rgb):
                 return name
         return str(rgb.Red()) + ":" + str(rgb.Green()) + ":" + str(rgb.Blue())
     # transform a GRASS named color or an r:g:b string into a wx.Colour tuple
-    else:
-        color = (
-            int(gs.parse_color(rgb)[0] * 255),
-            int(gs.parse_color(rgb)[1] * 255),
-            int(gs.parse_color(rgb)[2] * 255),
-        )
-        color = wx.Colour(*color)
-        if color.IsOk():
-            return color
-        else:
-            return None
+    color = (
+        int(gs.parse_color(rgb)[0] * 255),
+        int(gs.parse_color(rgb)[1] * 255),
+        int(gs.parse_color(rgb)[2] * 255),
+    )
+    color = wx.Colour(*color)
+    if color.IsOk():
+        return color
+    return None
 
 
 def PaperMapCoordinates(mapInstr, x, y, paperToMap=True, env=None):
@@ -307,18 +311,16 @@ def PaperMapCoordinates(mapInstr, x, y, paperToMap=True, env=None):
 
         if projInfo()["proj"] == "ll":
             return e, n
-        else:
-            return int(e), int(n)
+        return int(e), int(n)
 
-    else:
-        diffEW = x - region["w"]
-        diffNS = region["n"] - y
-        diffX = mapWidthPaper * diffEW / mapWidthEN
-        diffY = mapHeightPaper * diffNS / mapHeightEN
-        xPaper = mapInstr["rect"].GetX() + diffX
-        yPaper = mapInstr["rect"].GetY() + diffY
+    diffEW = x - region["w"]
+    diffNS = region["n"] - y
+    diffX = mapWidthPaper * diffEW / mapWidthEN
+    diffY = mapHeightPaper * diffNS / mapHeightEN
+    xPaper = mapInstr["rect"].GetX() + diffX
+    yPaper = mapInstr["rect"].GetY() + diffY
 
-        return xPaper, yPaper
+    return xPaper, yPaper
 
 
 def AutoAdjust(self, scaleType, rect, env, map=None, mapType=None, region=None):
@@ -516,9 +518,13 @@ def getRasterType(map):
         return rasterType
 =======
         return gs.raster_info(map)["datatype"]
+<<<<<<< HEAD
 >>>>>>> main
     else:
         return None
+=======
+    return None
+>>>>>>> osgeo-main
 
 
 def BBoxAfterRotation(w, h, angle):

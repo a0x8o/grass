@@ -162,6 +162,7 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -191,6 +192,8 @@ done manually, you can take an advantage of our [​CI](https://github.com/OSGeo
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -218,6 +221,7 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -263,6 +267,10 @@ have release branches 3.6 and 3.5, if you backport to 3.5, you should backport t
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -299,6 +307,7 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -360,6 +369,11 @@ You can also choose to backport only to the closest branch, in our example 8.2.
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -436,6 +450,7 @@ should first seek consent in the grass-dev mailing list (see below), then you ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 <<<<<<< HEAD
@@ -466,6 +481,8 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -490,6 +507,7 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -543,6 +561,11 @@ to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 to expand 'configure.in' and run subsequently `autoconf-2.69` (later versions

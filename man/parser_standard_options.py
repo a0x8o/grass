@@ -47,8 +47,7 @@ def parse_options(lines, startswith="Opt"):
         index = line.index("=")
         key = line[:index].strip()
         default = line[index + 1 :].strip()
-        if default.startswith("_("):
-            default = default[2:]
+        default = default.removeprefix("_(")
         return key, default
 
     def parse_glines(glines):
@@ -131,6 +130,7 @@ class OptTable(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -192,6 +192,11 @@ class OptTable(object):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
 =======

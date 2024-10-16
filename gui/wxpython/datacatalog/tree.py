@@ -171,6 +171,7 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +234,11 @@ def getLocationTree(gisdbase, location, queue, mapsets=None, lazy=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -391,13 +397,13 @@ class DataCatalogNode(DictFilterNode):
             owner = data["owner"] or _("name unknown")
             if data["current"]:
                 return _("{name}  (current)").format(**data)
-            elif data["is_different_owner"] and data["lock"]:
+            if data["is_different_owner"] and data["lock"]:
                 return _("{name}  (in use, owner: {owner})").format(
                     name=data["name"], owner=owner
                 )
-            elif data["lock"]:
+            if data["lock"]:
                 return _("{name}  (in use)").format(**data)
-            elif data["is_different_owner"]:
+            if data["is_different_owner"]:
                 return _("{name}  (owner: {owner})").format(
                     name=data["name"], owner=owner
                 )
@@ -529,6 +535,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +598,11 @@ class DataCatalogTree(TreeView):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -1243,6 +1255,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1272,6 +1285,8 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1297,6 +1312,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
@@ -1342,6 +1358,10 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1377,6 +1397,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1438,6 +1459,11 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -1479,6 +1505,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         caption=_("Map in a different location"),
 =======
 <<<<<<< HEAD
@@ -1509,6 +1536,8 @@ class DataCatalogTree(TreeView):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1533,6 +1562,7 @@ class DataCatalogTree(TreeView):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         caption=_("Map in a different location"),
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1586,6 +1616,11 @@ class DataCatalogTree(TreeView):
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        caption=_("Map in a different location"),
+>>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+>>>>>>> osgeo-main
 =======
 =======
                         caption=_("Map in a different location"),
@@ -1681,7 +1716,7 @@ class DataCatalogTree(TreeView):
         if node.data["type"] == "mapset":
             if node.data["current"]:
                 return wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOWTEXT)
-            elif node.data["lock"] or node.data["is_different_owner"]:
+            if node.data["lock"] or node.data["is_different_owner"]:
                 return wx.SystemSettings.GetColour(wx.SYS_COLOUR_GRAYTEXT)
         return wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOWTEXT)
 
@@ -2102,15 +2137,20 @@ class DataCatalogTree(TreeView):
                     )
                     if not new_name:
                         continue
-                callback = lambda gisrc2=gisrc2, gisrc=gisrc, cLayer=self.copy_layer[
-                    i
-                ], cMapset=self.copy_mapset[
-                    i
-                ], cMode=self.copy_mode, sMapset=self.selected_mapset[
-                    0
-                ], name=new_name: self._onDoneReprojection(
-                    env2, gisrc2, gisrc, cLayer, cMapset, cMode, sMapset, name
-                )
+
+                def callback(
+                    gisrc2=gisrc2,
+                    gisrc=gisrc,
+                    cLayer=self.copy_layer[i],
+                    cMapset=self.copy_mapset[i],
+                    cMode=self.copy_mode,
+                    sMapset=self.selected_mapset[0],
+                    name=new_name,
+                ):
+                    self._onDoneReprojection(
+                        env2, gisrc2, gisrc, cLayer, cMapset, cMode, sMapset, name
+                    )
+
                 dlg = CatalogReprojectionDialog(
                     self,
                     self._giface,
@@ -2771,8 +2811,7 @@ class DataCatalogTree(TreeView):
                         currentMapset = False
                         break
             return currentGrassDb, currentLocation, currentMapset
-        else:
-            return True, True, True
+        return True, True, True
 
     def _popupMenuLayer(self):
         """Create popup menu for layers"""

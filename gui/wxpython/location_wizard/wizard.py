@@ -38,6 +38,8 @@ import os
 import locale
 import functools
 
+from pathlib import Path
+
 import wx
 import wx.lib.mixins.listctrl as listmix
 from core import globalvar
@@ -207,6 +209,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tlocation = self.MakeTextCtrl("newLocation")
 =======
 <<<<<<< HEAD
@@ -237,6 +240,8 @@ class DatabasePage(TitledPage):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -261,6 +266,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -314,6 +320,11 @@ class DatabasePage(TitledPage):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        self.tlocation = self.MakeTextCtrl("newLocation")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
@@ -459,7 +470,10 @@ class DatabasePage(TitledPage):
     def OnBrowse(self, event):
         """Choose GRASS data directory"""
         dlg = wx.DirDialog(
-            self, _("Choose GRASS data directory:"), os.getcwd(), wx.DD_DEFAULT_STYLE
+            self,
+            _("Choose GRASS data directory:"),
+            str(Path.cwd()),
+            wx.DD_DEFAULT_STYLE,
         )
         if dlg.ShowModal() == wx.ID_OK:
             self.grassdatabase = dlg.GetPath()
@@ -727,7 +741,7 @@ class ProjectionsPage(TitledPage):
                 self.tproj.SetValue(self.proj)
                 nextButton.Enable(False)
                 return
-            elif self.proj.lower() == "ll":
+            if self.proj.lower() == "ll":
                 self.p4proj = "+proj=longlat"
             else:
                 self.p4proj = "+proj=" + self.proj.lower()
@@ -907,8 +921,7 @@ class ItemList(ListCtrl, listmix.ListCtrlAutoWidthMixin, listmix.ColumnSorterMix
 
         if ascending:
             return cmpVal
-        else:
-            return -cmpVal
+        return -cmpVal
 
     def GetListCtrl(self):
         """Used by listmix.ColumnSorterMixin"""
@@ -940,12 +953,10 @@ class ItemList(ListCtrl, listmix.ListCtrlAutoWidthMixin, listmix.ColumnSorterMix
         if len(data) > 0:
             if firstOnly:
                 return data[0]
-            else:
-                return data
-        elif firstOnly:
+            return data
+        if firstOnly:
             return None
-        else:
-            return []
+        return []
 
 
 class ProjParamsPage(TitledPage):
@@ -1634,7 +1645,7 @@ class GeoreferencedFilePage(TitledPage):
     def OnBrowse(self, event):
         """Choose file"""
         dlg = wx.FileDialog(
-            self, _("Select georeferenced file"), os.getcwd(), "", "*.*", wx.FD_OPEN
+            self, _("Select georeferenced file"), str(Path.cwd()), "", "*.*", wx.FD_OPEN
         )
         if dlg.ShowModal() == wx.ID_OK:
             path = dlg.GetPath()
@@ -1796,29 +1807,28 @@ class EPSGPage(TitledPage):
             if not self.epsgcode:
                 event.Veto()
                 return
-            else:
-                # check for datum transforms
-                ret = RunCommand(
-                    "g.proj", read=True, epsg=self.epsgcode, datum_trans="-1", flags="t"
-                )
+            # check for datum transforms
+            ret = RunCommand(
+                "g.proj", read=True, epsg=self.epsgcode, datum_trans="-1", flags="t"
+            )
 
-                if ret != "":
-                    dtrans = ""
-                    # open a dialog to select datum transform number
-                    dlg = SelectTransformDialog(self.parent.parent, transforms=ret)
+            if ret != "":
+                dtrans = ""
+                # open a dialog to select datum transform number
+                dlg = SelectTransformDialog(self.parent.parent, transforms=ret)
 
-                    if dlg.ShowModal() == wx.ID_OK:
-                        dtrans = dlg.GetTransform()
-                        if dtrans == "":
-                            dlg.Destroy()
-                            event.Veto()
-                            return "Datum transform is required."
-                    else:
+                if dlg.ShowModal() == wx.ID_OK:
+                    dtrans = dlg.GetTransform()
+                    if dtrans == "":
                         dlg.Destroy()
                         event.Veto()
                         return "Datum transform is required."
+                else:
+                    dlg.Destroy()
+                    event.Veto()
+                    return "Datum transform is required."
 
-                    self.parent.datum_trans = dtrans
+                self.parent.datum_trans = dtrans
             self.GetNext().SetPrev(self)
 
     def EnableNext(self, enable=True):
@@ -2016,55 +2026,51 @@ class IAUPage(TitledPage):
             if not self.epsgcode:
                 event.Veto()
                 return
-            else:
-                # check for datum transforms
-                ret = RunCommand(
-                    "g.proj",
-                    read=True,
-                    proj4=self.epsgparams,
-                    datum_trans="-1",
-                    flags="t",
-                )
+            # check for datum transforms
+            ret = RunCommand(
+                "g.proj",
+                read=True,
+                proj4=self.epsgparams,
+                datum_trans="-1",
+                flags="t",
+            )
 
-                if ret != "":
-                    dtrans = ""
-                    # open a dialog to select datum transform number
-                    dlg = SelectTransformDialog(self.parent.parent, transforms=ret)
+            if ret != "":
+                dtrans = ""
+                # open a dialog to select datum transform number
+                dlg = SelectTransformDialog(self.parent.parent, transforms=ret)
 
-                    if dlg.ShowModal() == wx.ID_OK:
-                        dtrans = dlg.GetTransform()
-                        if dtrans == "":
-                            dlg.Destroy()
-                            event.Veto()
-                            return "Datum transform is required."
-                    else:
+                if dlg.ShowModal() == wx.ID_OK:
+                    dtrans = dlg.GetTransform()
+                    if dtrans == "":
                         dlg.Destroy()
                         event.Veto()
                         return "Datum transform is required."
+                else:
+                    dlg.Destroy()
+                    event.Veto()
+                    return "Datum transform is required."
 
-                    self.parent.datum_trans = dtrans
-                    self.parent.epsgcode = self.epsgcode
-                    self.parent.epsgdesc = self.epsgdesc
+                self.parent.datum_trans = dtrans
+                self.parent.epsgcode = self.epsgcode
+                self.parent.epsgdesc = self.epsgdesc
 
-                # prepare +nadgrids or +towgs84 terms for Summary page. first
-                # convert them:
-                ret, projlabel, err = RunCommand(
-                    "g.proj",
-                    flags="jft",
-                    proj4=self.epsgparams,
-                    datum_trans=self.parent.datum_trans,
-                    getErrorMsg=True,
-                    read=True,
-                )
-                # splitting on space alone would break for grid files with
-                # space in pathname
-                for projterm in projlabel.split(" +"):
-                    if (
-                        projterm.find("towgs84=") != -1
-                        or projterm.find("nadgrids=") != -1
-                    ):
-                        self.custom_dtrans_string = " +%s" % projterm
-                        break
+            # prepare +nadgrids or +towgs84 terms for Summary page. first
+            # convert them:
+            ret, projlabel, err = RunCommand(
+                "g.proj",
+                flags="jft",
+                proj4=self.epsgparams,
+                datum_trans=self.parent.datum_trans,
+                getErrorMsg=True,
+                read=True,
+            )
+            # splitting on space alone would break for grid files with
+            # space in pathname
+            for projterm in projlabel.split(" +"):
+                if projterm.find("towgs84=") != -1 or projterm.find("nadgrids=") != -1:
+                    self.custom_dtrans_string = " +%s" % projterm
+                    break
 
             self.GetNext().SetPrev(self)
 
@@ -2118,7 +2124,7 @@ class IAUPage(TitledPage):
         """Define path for IAU code file"""
         path = os.path.dirname(self.tfile.GetValue())
         if not path:
-            path = os.getcwd()
+            path = str(Path.cwd())
 
         dlg = wx.FileDialog(
             parent=self,
@@ -2679,7 +2685,7 @@ class LocationWizard(wx.Object):
         """Get georeferencing information from tables in $GISBASE/etc/proj"""
 
         # read projection and parameters
-        f = open(os.path.join(globalvar.ETCDIR, "proj", "parms.table"), "r")
+        f = open(os.path.join(globalvar.ETCDIR, "proj", "parms.table"))
         self.projections = {}
         self.projdesc = {}
         for line in f:
@@ -2702,7 +2708,7 @@ class LocationWizard(wx.Object):
         f.close()
 
         # read datum definitions
-        f = open(os.path.join(globalvar.ETCDIR, "proj", "datum.table"), "r")
+        f = open(os.path.join(globalvar.ETCDIR, "proj", "datum.table"))
         self.datums = {}
         paramslist = []
         for line in f:
@@ -2720,7 +2726,7 @@ class LocationWizard(wx.Object):
         f.close()
 
         # read Earth-based ellipsiod definitions
-        f = open(os.path.join(globalvar.ETCDIR, "proj", "ellipse.table"), "r")
+        f = open(os.path.join(globalvar.ETCDIR, "proj", "ellipse.table"))
         self.ellipsoids = {}
         for line in f:
             line = line.expandtabs(1)
@@ -2736,9 +2742,7 @@ class LocationWizard(wx.Object):
         f.close()
 
         # read Planetary ellipsiod definitions
-        f = open(
-            os.path.join(globalvar.ETCDIR, "proj", "ellipse.table.solar.system"), "r"
-        )
+        f = open(os.path.join(globalvar.ETCDIR, "proj", "ellipse.table.solar.system"))
         self.planetary_ellipsoids = {}
         for line in f:
             line = line.expandtabs(1)
@@ -2754,7 +2758,7 @@ class LocationWizard(wx.Object):
         f.close()
 
         # read projection parameter description and parsing table
-        f = open(os.path.join(globalvar.ETCDIR, "proj", "desc.table"), "r")
+        f = open(os.path.join(globalvar.ETCDIR, "proj", "desc.table"))
         self.paramdesc = {}
         for line in f:
             line = line.strip()
@@ -2864,7 +2868,7 @@ class LocationWizard(wx.Object):
                 if not self.filepage.georeffile or not os.path.isfile(
                     self.filepage.georeffile
                 ):
-                    return _("File <%s> not found." % self.filepage.georeffile)
+                    return _("File <%s> not found.") % self.filepage.georeffile
 
                 grass.create_location(
                     dbase=self.startpage.grassdatabase,

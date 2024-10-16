@@ -4,6 +4,7 @@ Tests of start_command function family (location independent)
 
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
+from grass.gunittest.utils import xfail_windows
 
 from grass.script.core import start_command, PIPE, run_command, write_command
 from grass.script.core import read_command, find_program
@@ -85,6 +86,7 @@ class TestPythonModuleWithStdinStdout(TestCase):
     def tearDownClass(cls):
         cls.runModule("g.remove", type="raster", name=cls.raster, flags="f")
 
+    @xfail_windows
     def test_write_labels_unicode(self):
         """This tests if Python module works"""
         find_program("ls", "--version")
@@ -100,6 +102,7 @@ class TestPythonModuleWithStdinStdout(TestCase):
         self.assertEqual(res, "1:kůň\n2:kráva\n3:ovečka\n4:býk")
 =======
         self.assertEquals(res, "1:kůň\n2:kráva\n3:ovečka\n4:býk")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,8 +199,14 @@ class TestPythonModuleWithStdinStdout(TestCase):
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
         self.assertIsInstance(res, str)
 
+    @xfail_windows
     def test_write_labels_bytes(self):
         """This tests if Python module works"""
         write_command(

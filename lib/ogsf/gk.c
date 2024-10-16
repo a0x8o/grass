@@ -172,8 +172,8 @@ void gk_follow_frames(Viewnode *view, int numsteps, Keylist *keys, int step,
 
         GS_get_from(tmp);
         G_debug(3, "gk_follow_frames():");
-        G_debug(3, "  MASK: %lx", mask);
-        G_debug(3, "  FROM: %f %f %f", tmp[X], tmp[Y], tmp[Z]);
+        G_debug(3, "  mask: %lx", mask);
+        G_debug(3, "  from: %f %f %f", tmp[X], tmp[Y], tmp[Z]);
 
         /* ACS 1 line: was      GS_get_focus(tmp);
            with this kanimator works also for flythrough navigation
@@ -583,6 +583,7 @@ double get_2key_neighbors(int nvk, float time, float range, int loop,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -644,6 +645,11 @@ double get_2key_neighbors(int nvk, float time, float range, int loop,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

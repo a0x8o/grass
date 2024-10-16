@@ -24,6 +24,7 @@ char *OGR_list_write_drivers(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,11 @@ char *OGR_list_write_drivers(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -130,6 +136,7 @@ char *OGR_list_write_drivers(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,6 +199,11 @@ char *OGR_list_write_drivers(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -248,6 +260,24 @@ char *OGR_list_write_drivers(void)
         /* only fetch read/write drivers */
         if (!OGR_Dr_TestCapability(OGRGetDriver(i), ODrCCreateDataSource))
             continue;
+<<<<<<< HEAD
+
+        Ogr_driver = OGRGetDriver(i);
+        G_debug(2, "driver %d/%d : %s", i, OGRGetDriverCount(),
+                OGR_Dr_GetName(Ogr_driver));
+
+        list = G_realloc(list, (count + 1) * sizeof(char *));
+
+        /* chg white space to underscore in OGR driver names */
+        sprintf(buf, "%s", OGR_Dr_GetName(Ogr_driver));
+        G_strchg(buf, ' ', '_');
+        list[count++] = G_store(buf);
+        len += strlen(buf) + 1; /* + ',' */
+    }
+#endif
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
         Ogr_driver = OGRGetDriver(i);
         G_debug(2, "driver %d/%d : %s", i, OGRGetDriverCount(),
@@ -264,7 +294,8 @@ char *OGR_list_write_drivers(void)
 #endif
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 
-    qsort(list, count, sizeof(char *), cmp);
+    if (list)
+        qsort(list, count, sizeof(char *), cmp);
 
     if (len > 0) {
         ret = G_malloc((len + 1) * sizeof(char)); /* \0 */
@@ -299,6 +330,7 @@ char *default_driver(void)
 #else
     if (OGRGetDriverByName("GPKG")) {
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375,6 +407,11 @@ char *default_driver(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

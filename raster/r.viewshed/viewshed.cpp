@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 =======
 <<<<<<< HEAD
@@ -62,6 +63,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -86,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -139,6 +143,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * terrain. The terrain is NOT viewed as a tesselation of flat cells,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * terrain. The terrain is NOT viewed as a tesselation of flat cells,
@@ -402,6 +411,7 @@ MemoryVisibilityGrid *viewshed_in_memory(char *inputfname, GridHeader *hd,
         e.elev[0] = data[0][i];
         e.elev[1] = data[1][i];
         e.elev[2] = data[2][i];
+        e.angle = -1.0;
 
         if (!is_nodata(visgrid->grid->hd, data[1][i]) &&
             !is_point_outside_max_dist(*vp, *hd, sn.row, sn.col,
@@ -640,6 +650,7 @@ IOVisibilityGrid *viewshed_external(char *inputfname, GridHeader *hd,
         e.elev[0] = data[0][i];
         e.elev[1] = data[1][i];
         e.elev[2] = data[2][i];
+        e.angle = -1.0;
         if (!is_nodata(visgrid->hd, data[1][i]) &&
             !is_point_outside_max_dist(*vp, *hd, sn.row, sn.col,
                                        viewOptions.maxDist)) {

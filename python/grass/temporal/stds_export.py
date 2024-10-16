@@ -29,6 +29,7 @@ import os
 import shutil
 import tarfile
 import tempfile
+from pathlib import Path
 
 import grass.script as gs
 from grass.exceptions import CalledModuleError
@@ -126,7 +127,7 @@ def _export_raster_maps_as_gdal(
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
-            gs.fatal(_("Unable to export raster map <%s>" % name))
+            gs.fatal(_("Unable to export raster map <%s>") % name)
 
         tar.add(out_name)
 
@@ -138,10 +139,7 @@ def _export_raster_maps_as_gdal(
             shutil.rmtree(new_cwd)
             tar.close()
             gs.fatal(
-                _(
-                    "Unable to export color rules for raster "
-                    "map <%s> r.out.gdal" % name
-                )
+                _("Unable to export color rules for raster map <%s> r.out.gdal") % name
             )
 
         tar.add(out_name)
@@ -167,7 +165,7 @@ def _export_raster_maps(rows, tar, list_file, new_cwd, fs):
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
-            gs.fatal(_("Unable to export raster map <%s> with r.pack" % name))
+            gs.fatal(_("Unable to export raster map <%s> with r.pack") % name)
 
         tar.add(name + ".pack")
 
@@ -201,6 +199,7 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs):
             shutil.rmtree(new_cwd)
             tar.close()
 <<<<<<< HEAD
+<<<<<<< HEAD
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
 =======
 <<<<<<< HEAD
@@ -211,6 +210,9 @@ def _export_vector_maps_as_gml(rows, tar, list_file, new_cwd, fs):
             gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr" % name))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            gs.fatal(_("Unable to export vector map <%s> as GML with v.out.ogr") % name)
+>>>>>>> osgeo-main
 
         tar.add(name + ".xml")
         tar.add(name + ".xsd")
@@ -246,6 +248,7 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs):
             tar.close()
 <<<<<<< HEAD
             gs.fatal(
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             gscript.fatal(
@@ -254,6 +257,9 @@ def _export_vector_maps_as_gpkg(rows, tar, list_file, new_cwd, fs):
 >>>>>>> osgeo-main
 >>>>>>> main
                 _("Unable to export vector map <%s> as GPKG with v.out.ogr" % name)
+=======
+                _("Unable to export vector map <%s> as GPKG with v.out.ogr") % name
+>>>>>>> osgeo-main
             )
 
         tar.add(name + ".gpkg")
@@ -286,7 +292,7 @@ def _export_vector_maps(rows, tar, list_file, new_cwd, fs):
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
-            gs.fatal(_("Unable to export vector map <%s> with v.pack" % name))
+            gs.fatal(_("Unable to export vector map <%s> with v.pack") % name)
 
         tar.add(name + ".pack")
 
@@ -312,7 +318,7 @@ def _export_raster3d_maps(rows, tar, list_file, new_cwd, fs):
         except CalledModuleError:
             shutil.rmtree(new_cwd)
             tar.close()
-            gs.fatal(_("Unable to export raster map <%s> with r3.pack" % name))
+            gs.fatal(_("Unable to export raster map <%s> with r3.pack") % name)
 
         tar.add(name + ".pack")
 
@@ -368,7 +374,7 @@ def export_stds(
     """
 
     # Save current working directory path
-    old_cwd = os.getcwd()
+    old_cwd = Path.cwd()
 
     # Create the temporary directory and jump into it
     new_cwd = tempfile.mkdtemp(dir=directory)
@@ -420,9 +426,7 @@ def export_stds(
     # Write projection and metadata
     proj = gs.read_command("g.proj", flags="j")
 
-    proj_file = open(proj_file_name, "w")
-    proj_file.write(proj)
-    proj_file.close()
+    Path(proj_file_name).write_text(proj)
 
     init_file = open(init_file_name, "w")
     # Create the init string
@@ -449,9 +453,7 @@ def export_stds(
     init_file.close()
 
     metadata = gs.read_command("t.info", type=type_, input=sp.get_id())
-    metadata_file = open(metadata_file_name, "w")
-    metadata_file.write(metadata)
-    metadata_file.close()
+    Path(metadata_file_name).write_text(metadata)
 
     read_file = open(read_file_name, "w")
     if type_ == "strds":

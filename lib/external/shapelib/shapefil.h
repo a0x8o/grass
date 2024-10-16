@@ -2,7 +2,6 @@
 #define SHAPEFILE_H_INCLUDED
 
 /******************************************************************************
- * $Id$
  *
  * Project:  Shapelib
  * Purpose:  Primary include file for Shapelib.
@@ -10,6 +9,7 @@
  *
  ******************************************************************************
  * Copyright (c) 1999, Frank Warmerdam
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +64,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+ * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
+=======
+>>>>>>> osgeo-main
+=======
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 =======
 >>>>>>> osgeo-main
@@ -121,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -146,12 +151,15 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
  * Copyright (c) 2012-2013, Even Rouault <even dot rouault at mines-paris dot
  *org>
 =======
  * Copyright (c) 2012-2016, Even Rouault <even dot rouault at spatialys.com>
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,32 +256,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
  *
- * This software is available under the following "MIT Style" license,
- * or at the option of the licensee under the LGPL (see COPYING).  This
- * option is discussed in more detail in shapelib.html.
- *
- * --
- *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
+ * SPDX-License-Identifier: MIT OR LGPL-2.0-or-later
  ******************************************************************************
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +346,11 @@
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -493,6 +487,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
@@ -554,9 +549,15 @@
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
 =======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +617,8 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
  */
 
 #include <stdio.h>
@@ -627,6 +630,26 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/************************************************************************/
+/*           Version related macros (added in 1.6.0)                    */
+/************************************************************************/
+
+#define SHAPELIB_VERSION_MAJOR 1
+#define SHAPELIB_VERSION_MINOR 6
+#define SHAPELIB_VERSION_MICRO 0
+
+#define SHAPELIB_MAKE_VERSION_NUMBER(major, minor, micro) \
+    ((major) * 10000 + (minor) * 100 + (micro))
+
+#define SHAPELIB_VERSION_NUMBER                          \
+    SHAPELIB_MAKE_VERSION_NUMBER(SHAPELIB_VERSION_MAJOR, \
+                                 SHAPELIB_VERSION_MINOR, \
+                                 SHAPELIB_VERSION_MICRO)
+
+#define SHAPELIB_AT_LEAST(major, minor, micro) \
+    (SHAPELIB_VERSION_NUMBER >=                \
+     SHAPELIB_MAKE_VERSION_NUMBER(major, minor, micro))
 
 /************************************************************************/
 /*                        Configuration options.                        */
@@ -652,7 +675,7 @@ extern "C" {
 /*      various calling conventions on the Shapelib API.                */
 /*                                                                      */
 /*      To force __stdcall conventions (needed to call Shapelib         */
-/*      from Visual Basic and/or Dephi I believe) the makefile could    */
+/*      from Visual Basic and/or Delphi I believe) the makefile could   */
 /*      be modified to define:                                          */
 /*                                                                      */
 /*        /DSHPAPI_CALL=__stdcall                                       */
@@ -693,30 +716,10 @@ extern "C" {
 #endif
 
 /* -------------------------------------------------------------------- */
-/*      Macros for controlling CVSID and ensuring they don't appear     */
-/*      as unreferenced variables resulting in lots of warnings.        */
-/* -------------------------------------------------------------------- */
-#ifndef DISABLE_CVSID
-#if defined(__GNUC__) && __GNUC__ >= 4
-#define SHP_CVSID(string) \
-    static const char cpl_cvsid[] __attribute__((used)) = string;
-#else
-#define SHP_CVSID(string)                       \
-    static const char cpl_cvsid[] = string;     \
-    static const char *cvsid_aw()               \
-    {                                           \
-        return (cvsid_aw() ? NULL : cpl_cvsid); \
-    }
-#endif
-#else
-#define SHP_CVSID(string)
-#endif
-
-/* -------------------------------------------------------------------- */
 /*      On some platforms, additional file IO hooks are defined that    */
 /*      UTF-8 encoded filenames Unicode filenames                       */
 /* -------------------------------------------------------------------- */
-#if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
+#if defined(_WIN32)
 #define SHPAPI_WINDOWS
 #define SHPAPI_UTF8_HOOKS
 #endif
@@ -727,21 +730,27 @@ extern "C" {
 typedef int *SAFile;
 
 #ifndef SAOffset
+#if defined(_MSC_VER) && _MSC_VER >= 1400
+typedef unsigned __int64 SAOffset;
+#else
 typedef unsigned long SAOffset;
+#endif
 #endif
 
 typedef struct {
-    SAFile (*FOpen)(const char *filename, const char *access);
+    SAFile (*FOpen)(const char *filename, const char *access, void *pvUserData);
     SAOffset (*FRead)(void *p, SAOffset size, SAOffset nmemb, SAFile file);
-    SAOffset (*FWrite)(void *p, SAOffset size, SAOffset nmemb, SAFile file);
+    SAOffset (*FWrite)(const void *p, SAOffset size, SAOffset nmemb,
+                       SAFile file);
     SAOffset (*FSeek)(SAFile file, SAOffset offset, int whence);
     SAOffset (*FTell)(SAFile file);
     int (*FFlush)(SAFile file);
     int (*FClose)(SAFile file);
-    int (*Remove)(const char *filename);
+    int (*Remove)(const char *filename, void *pvUserData);
 
     void (*Error)(const char *message);
     double (*Atof)(const char *str);
+    void *pvUserData;
 } SAHooks;
 
 void SHPAPI_CALL SASetupDefaultHooks(SAHooks *psHooks);
@@ -784,6 +793,12 @@ typedef struct {
 } SHPInfo;
 
 typedef SHPInfo *SHPHandle;
+
+typedef struct {
+    int year;
+    int month;
+    int day;
+} SHPDate;
 
 /* -------------------------------------------------------------------- */
 /*      Shape types (nSHPType)                                          */
@@ -856,13 +871,13 @@ struct tagSHPObject {
 /* will be NULL as it is not necessary to keep the SHX file open */
 SHPHandle SHPAPI_CALL SHPOpen(const char *pszShapeFile, const char *pszAccess);
 SHPHandle SHPAPI_CALL SHPOpenLL(const char *pszShapeFile, const char *pszAccess,
-                                SAHooks *psHooks);
+                                const SAHooks *psHooks);
 SHPHandle SHPAPI_CALL SHPOpenLLEx(const char *pszShapeFile,
-                                  const char *pszAccess, SAHooks *psHooks,
+                                  const char *pszAccess, const SAHooks *psHooks,
                                   int bRestoreSHX);
 
 int SHPAPI_CALL SHPRestoreSHX(const char *pszShapeFile, const char *pszAccess,
-                              SAHooks *psHooks);
+                              const SAHooks *psHooks);
 
 /* If setting bFastMode = TRUE, the content of SHPReadObject() is owned by the
  * SHPHandle. */
@@ -875,16 +890,19 @@ void SHPAPI_CALL SHPSetFastModeReadObject(SHPHandle hSHP, int bFastMode);
 
 SHPHandle SHPAPI_CALL SHPCreate(const char *pszShapeFile, int nShapeType);
 SHPHandle SHPAPI_CALL SHPCreateLL(const char *pszShapeFile, int nShapeType,
-                                  SAHooks *psHooks);
-void SHPAPI_CALL SHPGetInfo(SHPHandle hSHP, int *pnEntities, int *pnShapeType,
-                            double *padfMinBound, double *padfMaxBound);
+                                  const SAHooks *psHooks);
+void SHPAPI_CALL SHPGetInfo(const SHPHandle hSHP, int *pnEntities,
+                            int *pnShapeType, double *padfMinBound,
+                            double *padfMaxBound);
 
-SHPObject SHPAPI_CALL1(*) SHPReadObject(SHPHandle hSHP, int iShape);
-int SHPAPI_CALL SHPWriteObject(SHPHandle hSHP, int iShape, SHPObject *psObject);
+SHPObject SHPAPI_CALL1(*) SHPReadObject(const SHPHandle hSHP, int iShape);
+int SHPAPI_CALL SHPWriteObject(SHPHandle hSHP, int iShape,
+                               const SHPObject *psObject);
 
 void SHPAPI_CALL SHPDestroyObject(SHPObject *psObject);
 void SHPAPI_CALL SHPComputeExtents(SHPObject *psObject);
 SHPObject SHPAPI_CALL1(*)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,11 +973,14 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,12 +1013,15 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1067,6 +1091,8 @@ SHPObject SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1102,6 +1128,7 @@ SHPObject SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1161,6 +1188,20 @@ SHPObject SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+    SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
+                          const double *padfY, const double *padfZ);
+
+int SHPAPI_CALL SHPRewindObject(const SHPHandle hSHP, SHPObject *psObject);
+
+void SHPAPI_CALL SHPClose(SHPHandle hSHP);
+void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
+
+=======
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
 
@@ -1169,6 +1210,7 @@ int SHPAPI_CALL SHPRewindObject(SHPHandle hSHP, SHPObject *psObject);
 void SHPAPI_CALL SHPClose(SHPHandle hSHP);
 void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1342,6 +1384,12 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
     SHPCreateSimpleObject(int nSHPType, int nVertices, const double *padfX,
                           const double *padfY, const double *padfZ);
@@ -1351,6 +1399,7 @@ int SHPAPI_CALL SHPRewindObject(SHPHandle hSHP, SHPObject *psObject);
 void SHPAPI_CALL SHPClose(SHPHandle hSHP);
 void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1388,6 +1437,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -1401,6 +1452,7 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1452,6 +1504,8 @@ void SHPAPI_CALL SHPWriteHeader(SHPHandle hSHP);
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1522,6 +1576,7 @@ SHPTree SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1538,20 +1593,34 @@ SHPTree SHPAPI_CALL1(*)
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   double *padfBoundsMin, double *padfBoundsMax);
+=======
+    SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
+                  const double *padfBoundsMin, const double *padfBoundsMax);
+>>>>>>> osgeo-main
 void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
 
 int SHPAPI_CALL SHPWriteTree(SHPTree *hTree, const char *pszFilename);
 
 int SHPAPI_CALL SHPTreeAddShapeId(SHPTree *hTree, SHPObject *psObject);
+<<<<<<< HEAD
 int SHPAPI_CALL SHPTreeRemoveShapeId(SHPTree *hTree, int nShapeId);
+=======
+>>>>>>> osgeo-main
 
 void SHPAPI_CALL SHPTreeTrimExtraNodes(SHPTree *hTree);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
     SHPTreeFindLikelyShapes(SHPTree *hTree, double *padfBoundsMin,
                             double *padfBoundsMax, int *);
 int SHPAPI_CALL SHPCheckBoundsOverlap(double *, double *, double *, double *,
                                       int);
+=======
+    SHPTreeFindLikelyShapes(const SHPTree *hTree, double *padfBoundsMin,
+                            double *padfBoundsMax, int *);
+int SHPAPI_CALL SHPCheckBoundsOverlap(const double *, const double *,
+                                      const double *, const double *, int);
+>>>>>>> osgeo-main
 
 int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
                                       double *padfBoundsMax, int *pnShapeCount);
@@ -1559,16 +1628,26 @@ int SHPAPI_CALL1(*) SHPSearchDiskTree(FILE *fp, double *padfBoundsMin,
 typedef struct SHPDiskTreeInfo *SHPTreeDiskHandle;
 
 SHPTreeDiskHandle SHPAPI_CALL SHPOpenDiskTree(const char *pszQIXFilename,
+<<<<<<< HEAD
                                               SAHooks *psHooks);
+=======
+                                              const SAHooks *psHooks);
+>>>>>>> osgeo-main
 
 void SHPAPI_CALL SHPCloseDiskTree(SHPTreeDiskHandle hDiskTree);
 
 int SHPAPI_CALL1(*)
+<<<<<<< HEAD
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 <<<<<<< HEAD
 
 =======
+=======
+    SHPSearchDiskTreeEx(const SHPTreeDiskHandle hDiskTree,
+                        double *padfBoundsMin, double *padfBoundsMax,
+                        int *pnShapeCount);
+>>>>>>> osgeo-main
 
 =======
 
@@ -1643,6 +1722,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1688,6 +1768,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     SHPCreateTree(SHPHandle hSHP, int nDimension, int nMaxDepth,
                   double *padfBoundsMin, double *padfBoundsMax);
 void SHPAPI_CALL SHPDestroyTree(SHPTree *hTree);
@@ -1719,6 +1801,7 @@ int SHPAPI_CALL1(*)
     SHPSearchDiskTreeEx(SHPTreeDiskHandle hDiskTree, double *padfBoundsMin,
                         double *padfBoundsMax, int *pnShapeCount);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2163,9 +2246,13 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
-                               SAHooks *psHooks);
+                               const SAHooks *psHooks);
 
 /* -------------------------------------------------------------------- */
 /*      SBN Search API                                                  */
@@ -2174,7 +2261,7 @@ int SHPAPI_CALL SHPWriteTreeLL(SHPTree *hTree, const char *pszFilename,
 typedef struct SBNSearchInfo *SBNSearchHandle;
 
 SBNSearchHandle SHPAPI_CALL SBNOpenDiskTree(const char *pszSBNFilename,
-                                            SAHooks *psHooks);
+                                            const SAHooks *psHooks);
 
 void SHPAPI_CALL SBNCloseDiskTree(SBNSearchHandle hSBN);
 
@@ -2201,6 +2288,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2249,11 +2337,28 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+=======
+    SBNSearchDiskTree(const SBNSearchHandle hSBN, const double *padfBoundsMin,
+                      const double *padfBoundsMax, int *pnShapeCount);
+
+int SHPAPI_CALL1(*)
+    SBNSearchDiskTreeInteger(const SBNSearchHandle hSBN, int bMinX, int bMinY,
+=======
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2286,12 +2391,15 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2361,6 +2469,8 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2395,6 +2505,7 @@ int SHPAPI_CALL1(*)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2622,10 +2733,28 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
+=======
+    SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+                             int bMaxX, int bMaxY, int *pnShapeCount);
+
+=======
+
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
+                             int bMaxX, int bMaxY, int *pnShapeCount);
+
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 
     SBNSearchDiskTreeInteger(SBNSearchHandle hSBN, int bMinX, int bMinY,
                              int bMaxX, int bMaxY, int *pnShapeCount);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2663,6 +2792,8 @@ int SHPAPI_CALL1(*)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -2671,6 +2802,7 @@ int SHPAPI_CALL1(*)
 
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2722,6 +2854,8 @@ int SHPAPI_CALL1(*)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2764,6 +2898,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2848,10 +2983,15 @@ typedef struct {
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+>>>>>>> osgeo-main
     int nRecordLength; /* Must fit on uint16 */
     int nHeaderLength; /* File header length (32) + field
                           descriptor length + spare space.
                           Must fit on uint16 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2907,6 +3047,9 @@ typedef struct {
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
     int nRecordLength;
     int nHeaderLength;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2916,6 +3059,7 @@ typedef struct {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2944,6 +3088,8 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2974,6 +3120,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3039,6 +3186,8 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3075,6 +3224,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3142,6 +3292,10 @@ typedef struct {
     char *pszHeader; /* Field descriptors */
 =======
 >>>>>>> osgeo-main
+=======
+    char *pszHeader; /* Field descriptors */
+=======
+>>>>>>> osgeo-main
     char *pszHeader;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3150,6 +3304,7 @@ typedef struct {
 =======
     char *pszHeader; /* Field descriptors */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3187,11 +3342,14 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     char *pszHeader;
 =======
     char *pszHeader; /* Field descriptors */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3276,6 +3434,8 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3328,6 +3488,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3364,10 +3525,13 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3428,6 +3592,8 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3458,6 +3624,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dd6a87c0fa (r.horizon manual - fix typo (#2794))
 =======
@@ -3505,11 +3672,15 @@ typedef struct {
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3601,6 +3772,11 @@ typedef struct {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
@@ -3652,6 +3828,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3711,6 +3888,8 @@ typedef enum {
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     FTDate,
     FTInvalid
 } DBFFieldType;
@@ -3723,6 +3902,7 @@ typedef enum {
 #define XBASE_FLDNAME_LEN_WRITE 10
 /* Normally only 254 characters should be used. We tolerate 255 historically */
 #define XBASE_FLD_MAX_WIDTH     255
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3770,6 +3950,11 @@ typedef enum {
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -3803,6 +3988,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
@@ -3813,6 +3999,8 @@ typedef enum {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3846,6 +4034,7 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -3864,6 +4053,57 @@ typedef enum {
 =======
 =======
 =======
+=======
+
+DBFHandle SHPAPI_CALL DBFOpen(const char *pszDBFFile, const char *pszAccess);
+DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszDBFFile, const char *pszAccess,
+                                const SAHooks *psHooks);
+DBFHandle SHPAPI_CALL DBFCreate(const char *pszDBFFile);
+DBFHandle SHPAPI_CALL DBFCreateEx(const char *pszDBFFile,
+                                  const char *pszCodePage);
+DBFHandle SHPAPI_CALL DBFCreateLL(const char *pszDBFFile,
+                                  const char *pszCodePage,
+                                  const SAHooks *psHooks);
+
+int SHPAPI_CALL DBFGetFieldCount(const DBFHandle psDBF);
+int SHPAPI_CALL DBFGetRecordCount(const DBFHandle psDBF);
+int SHPAPI_CALL DBFAddField(DBFHandle hDBF, const char *pszFieldName,
+                            DBFFieldType eType, int nWidth, int nDecimals);
+
+int SHPAPI_CALL DBFAddNativeFieldType(DBFHandle hDBF, const char *pszFieldName,
+                                      char chType, int nWidth, int nDecimals);
+
+int SHPAPI_CALL DBFDeleteField(DBFHandle hDBF, int iField);
+
+int SHPAPI_CALL DBFReorderFields(DBFHandle psDBF, const int *panMap);
+
+int SHPAPI_CALL DBFAlterFieldDefn(DBFHandle psDBF, int iField,
+                                  const char *pszFieldName, char chType,
+                                  int nWidth, int nDecimals);
+
+DBFFieldType SHPAPI_CALL DBFGetFieldInfo(const DBFHandle psDBF, int iField,
+                                         char *pszFieldName, int *pnWidth,
+                                         int *pnDecimals);
+
+int SHPAPI_CALL DBFGetFieldIndex(const DBFHandle psDBF,
+                                 const char *pszFieldName);
+
+=======
+=======
+    FTDate,
+>>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+    FTInvalid
+} DBFFieldType;
+
+/* Field descriptor/header size */
+#define XBASE_FLDHDR_SZ         32
+/* Shapelib read up to 11 characters, even if only 10 should normally be used */
+#define XBASE_FLDNAME_LEN_READ  11
+/* On writing, we limit to 10 characters */
+#define XBASE_FLDNAME_LEN_WRITE 10
+/* Normally only 254 characters should be used. We tolerate 255 historically */
+#define XBASE_FLD_MAX_WIDTH     255
+>>>>>>> osgeo-main
 
 DBFHandle SHPAPI_CALL DBFOpen(const char *pszDBFFile, const char *pszAccess);
 DBFHandle SHPAPI_CALL DBFOpenLL(const char *pszDBFFile, const char *pszAccess,
@@ -3896,6 +4136,7 @@ DBFFieldType SHPAPI_CALL DBFGetFieldInfo(DBFHandle psDBF, int iField,
 
 int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 
+<<<<<<< HEAD
 =======
 =======
     FTDate,
@@ -4507,6 +4748,9 @@ int SHPAPI_CALL DBFGetFieldIndex(DBFHandle psDBF, const char *pszFieldName);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -4526,7 +4770,10 @@ const char SHPAPI_CALL1(*)
     DBFReadStringAttribute(DBFHandle hDBF, int iShape, int iField);
 const char SHPAPI_CALL1(*)
     DBFReadLogicalAttribute(DBFHandle hDBF, int iShape, int iField);
-int SHPAPI_CALL DBFIsAttributeNULL(DBFHandle hDBF, int iShape, int iField);
+SHPDate SHPAPI_CALL DBFReadDateAttribute(DBFHandle hDBF, int iShape,
+                                         int iField);
+int SHPAPI_CALL DBFIsAttributeNULL(const DBFHandle hDBF, int iShape,
+                                   int iField);
 
 int SHPAPI_CALL DBFWriteIntegerAttribute(DBFHandle hDBF, int iShape, int iField,
                                          int nFieldValue);
@@ -4538,22 +4785,26 @@ int SHPAPI_CALL DBFWriteNULLAttribute(DBFHandle hDBF, int iShape, int iField);
 
 int SHPAPI_CALL DBFWriteLogicalAttribute(DBFHandle hDBF, int iShape, int iField,
                                          const char lFieldValue);
+int SHPAPI_CALL DBFWriteDateAttribute(DBFHandle hDBF, int iShape, int iField,
+                                      const SHPDate *dateFieldValue);
 int SHPAPI_CALL DBFWriteAttributeDirectly(DBFHandle psDBF, int hEntity,
-                                          int iField, void *pValue);
+                                          int iField, const void *pValue);
 const char SHPAPI_CALL1(*) DBFReadTuple(DBFHandle psDBF, int hEntity);
-int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity, void *pRawTuple);
+int SHPAPI_CALL DBFWriteTuple(DBFHandle psDBF, int hEntity,
+                              const void *pRawTuple);
 
-int SHPAPI_CALL DBFIsRecordDeleted(DBFHandle psDBF, int iShape);
+int SHPAPI_CALL DBFIsRecordDeleted(const DBFHandle psDBF, int iShape);
 int SHPAPI_CALL DBFMarkRecordDeleted(DBFHandle psDBF, int iShape,
                                      int bIsDeleted);
 
-DBFHandle SHPAPI_CALL DBFCloneEmpty(DBFHandle psDBF, const char *pszFilename);
+DBFHandle SHPAPI_CALL DBFCloneEmpty(const DBFHandle psDBF,
+                                    const char *pszFilename);
 
 void SHPAPI_CALL DBFClose(DBFHandle hDBF);
 void SHPAPI_CALL DBFUpdateHeader(DBFHandle hDBF);
-char SHPAPI_CALL DBFGetNativeFieldType(DBFHandle hDBF, int iField);
+char SHPAPI_CALL DBFGetNativeFieldType(const DBFHandle hDBF, int iField);
 
-const char SHPAPI_CALL1(*) DBFGetCodePage(DBFHandle psDBF);
+const char SHPAPI_CALL1(*) DBFGetCodePage(const DBFHandle psDBF);
 
 void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
                                         int nMM, int nDD);
@@ -4576,6 +4827,7 @@ void SHPAPI_CALL DBFSetLastModifiedDate(DBFHandle psDBF, int nYYSince1900,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 
@@ -4640,6 +4892,11 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 =======
 >>>>>>> osgeo-main
+=======
+
+void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -4651,6 +4908,7 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4745,6 +5003,8 @@ void SHPAPI_CALL DBFSetWriteEndOfFileChar(DBFHandle psDBF, int bWriteFlag);
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

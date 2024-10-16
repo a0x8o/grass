@@ -40,6 +40,7 @@ This program is free software under the GNU General Public License
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -71,10 +72,13 @@ This program is free software under the GNU General Public License
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 """  # noqa: E501
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +127,8 @@ This program is free software under the GNU General Public License
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -217,7 +223,7 @@ class DMonMap(Map):
         self.renderMgr = RenderMapMgr(self)
 
         # update legend file variable with the one d.mon uses
-        with open(monFile["env"], "r") as f:
+        with open(monFile["env"]) as f:
             lines = f.readlines()
             for line in lines:
                 if "GRASS_LEGEND_FILE" in line:
@@ -232,7 +238,7 @@ class DMonMap(Map):
 
         nlayers = 0
         try:
-            fd = open(self.cmdfile, "r")
+            fd = open(self.cmdfile)
             lines = fd.readlines()
             fd.close()
             # detect d.out.file, delete the line from the cmd file and export
@@ -443,14 +449,14 @@ class Layer:
     def __getattr__(self, name):
         if name == "cmd":
             return cmdtuple_to_list(self._maplayer.GetCmd())
-        elif hasattr(self._maplayer, name):
+        if hasattr(self._maplayer, name):
             return getattr(self._maplayer, name)
-        elif name == "maplayer":
+        if name == "maplayer":
             return self._maplayer
-        elif name == "type":
+        if name == "type":
             return self._maplayer.GetType()
             # elif name == 'ctrl':
-        elif name == "label":
+        if name == "label":
             return self._maplayer.GetName()
             # elif name == 'propwin':
 
@@ -495,8 +501,7 @@ class LayerList:
         layers = self.GetSelectedLayers()
         if len(layers) > 0:
             return layers[0]
-        else:
-            return None
+        return None
 
     def AddLayer(self, ltype, name=None, checked=None, opacity=1.0, cmd=None):
         """Adds a new layer to the layer list.
@@ -579,6 +584,7 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
@@ -614,7 +620,10 @@ class StandaloneMapDisplayGrassInterface(StandaloneGrassInterface):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +706,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
     """@implements GrassInterface"""
 =======
@@ -757,6 +768,7 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 =======
 >>>>>>> da7f79c3f9 (libpython: Save and load benchmark results (#1711))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,6 +930,8 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -937,6 +951,7 @@ class DMonGrassInterface(StandaloneMapDisplayGrassInterface):
 class DMonDisplay(FrameMixin, MapPanel):
     """Map display for wrapping map panel with d.mon mathods and frame methods"""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1022,10 +1037,14 @@ class DMonDisplay(FrameMixin, MapPanel):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 class DMonDisplay(FrameMixin, MapPanel):
     """Map display for wrapping map panel with d.mon mathods and frame methods"""
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1083,6 +1102,10 @@ class DMonDisplay(FrameMixin, MapPanel):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

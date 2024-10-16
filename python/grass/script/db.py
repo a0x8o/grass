@@ -36,6 +36,7 @@ from __future__ import absolute_import
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
@@ -97,6 +98,11 @@ from __future__ import absolute_import
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
@@ -328,8 +334,7 @@ def db_table_in_vector(table, mapset=".", env=None):
                 break
     if len(used) > 0:
         return used
-    else:
-        return None
+    return None
 
 
 def db_begin_transaction(driver):

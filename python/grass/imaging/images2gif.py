@@ -229,6 +229,7 @@ class GifWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -291,6 +292,10 @@ class GifWriter:
 =======
 >>>>>>> osgeo-main
 =======
+            loops = 2**16 - 1
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
             loops = 2 ** 16 - 1
 >>>>>>> 756514063b (Dockerfile: fix broken lib link (#1625))
@@ -300,6 +305,7 @@ class GifWriter:
 =======
             loops = 2**16 - 1
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,6 +404,8 @@ class GifWriter:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             # bb = ""
             # application extension should not be used
             # (the extension interprets zero loops
@@ -455,7 +463,7 @@ class GifWriter:
                 xy = (0, 0)
             if hasattr(xy, "__len__"):
                 if len(xy) == len(images):
-                    xy = [xxyy for xxyy in xy]
+                    xy = list(xy)
                 else:
                     raise ValueError("len(xy) doesn't match amount of images.")
             else:
@@ -784,7 +792,7 @@ def writeGifVisvis(
     # Check duration
     if hasattr(duration, "__len__"):
         if len(duration) == len(images):
-            duration = [d for d in duration]
+            duration = list(duration)
         else:
             raise ValueError("len(duration) doesn't match amount of images.")
     else:
@@ -850,6 +858,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         raise IOError("File not found: " + str(filename))
 =======
 <<<<<<< HEAD
@@ -880,6 +889,8 @@ def readGif(filename, asNumpy=True):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -904,6 +915,7 @@ def readGif(filename, asNumpy=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         raise IOError("File not found: " + str(filename))
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
@@ -957,6 +969,11 @@ def readGif(filename, asNumpy=True):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        raise IOError("File not found: " + str(filename))
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
         raise IOError("File not found: " + str(filename))
@@ -1391,9 +1408,8 @@ class NeuQuant:
         """
         if get_cKDTree():
             return self.quantize_with_scipy(image)
-        else:
-            print("Scipy not available, falling back to slower version.")
-            return self.quantize_without_scipy(image)
+        print("Scipy not available, falling back to slower version.")
+        return self.quantize_without_scipy(image)
 
     def quantize_with_scipy(self, image):
         w, h = image.size

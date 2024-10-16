@@ -278,6 +278,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -345,6 +346,10 @@ int main(int argc, char *argv[])
             min = INFINITY;
 =======
 >>>>>>> osgeo-main
+=======
+            min = INFINITY;
+=======
+>>>>>>> osgeo-main
             min = 1.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -353,6 +358,7 @@ int main(int argc, char *argv[])
 =======
             min = INFINITY;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,11 +396,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             min = 1.0 / 0.0;
 =======
             min = INFINITY;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,6 +496,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));
@@ -516,7 +527,6 @@ int main(int argc, char *argv[])
 
             mean = sum / n;
             sd = sqrt(sumsq / n - mean * mean);
-            eps = mean + 1.644854 * sd; /* 90% CI */
             eps = mean + 2.575829 * sd; /* 99% CI */
 
             if (eps > max)
@@ -715,6 +725,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -782,6 +793,10 @@ int main(int argc, char *argv[])
             min = INFINITY;
 =======
 >>>>>>> osgeo-main
+=======
+            min = INFINITY;
+=======
+>>>>>>> osgeo-main
             min = 1.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -790,6 +805,7 @@ int main(int argc, char *argv[])
 =======
             min = INFINITY;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,11 +843,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             min = 1.0 / 0.0;
 =======
             min = INFINITY;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,6 +943,8 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             max = 0;
             kd = G_malloc(minpnts * sizeof(double));
             ki = G_malloc(minpnts * sizeof(int));
@@ -953,7 +974,6 @@ int main(int argc, char *argv[])
 
             mean = sum / n;
             sd = sqrt(sumsq / n - mean * mean);
-            eps = mean + 1.644854 * sd; /* 90% CI */
             eps = mean + 2.575829 * sd; /* 99% CI */
 
             if (eps > max)

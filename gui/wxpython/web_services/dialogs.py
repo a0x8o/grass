@@ -91,6 +91,7 @@ class WSDialogBase(wx.Dialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -163,6 +164,8 @@ class WSDialogBase(wx.Dialog):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
 =======
@@ -177,6 +180,7 @@ class WSDialogBase(wx.Dialog):
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +310,8 @@ class WSDialogBase(wx.Dialog):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             "NASA GIBS WMTS": [
                 "http://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
                 "",
@@ -313,6 +319,7 @@ class WSDialogBase(wx.Dialog):
             ],
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +339,10 @@ class WSDialogBase(wx.Dialog):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -605,7 +616,6 @@ class WSDialogBase(wx.Dialog):
 
     def OnClose(self, event):
         """Close the dialog"""
-        """Close dialog"""
         if not self.IsModal():
             self.Destroy()
         event.Skip()
@@ -652,7 +662,7 @@ class WSDialogBase(wx.Dialog):
             self.Fit()
 
         self.statusbar.SetStatusText(
-            _("Connecting to <%s>..." % self.server.GetValue().strip())
+            _("Connecting to <$s>...") % self.server.GetValue().strip()
         )
 
         # number of panels already connected
@@ -738,14 +748,14 @@ class WSDialogBase(wx.Dialog):
             )
             self._showWsPanel(self.web_service_sel[self.choose_ws_rb.GetSelection()])
             self.statusbar.SetStatusText(
-                _("Connected to <%s>" % self.server.GetValue().strip())
+                _("Connected to <%s>") % self.server.GetValue().strip()
             )
             for btn in self.run_btns:
                 btn.Enable(True)
         # no web service found on server
         else:
             self.statusbar.SetStatusText(
-                _("Unable to connect to <%s>" % self.server.GetValue().strip())
+                _("Unable to connect to <%s>") % self.server.GetValue().strip()
             )
             for btn in self.run_btns:
                 btn.Enable(False)
@@ -1303,7 +1313,7 @@ class SaveWMSLayerDialog(wx.Dialog):
             not self.overwrite.IsChecked()
             and gs.find_file(self.output, "cell", ".")["fullname"]
         ):
-            msg = _("Output map <%s> already exists" % self.output)
+            msg = _("Output map <%s> already exists") % self.output
 
         if msg:
             GMessage(parent=self, message=msg)
@@ -1321,8 +1331,8 @@ class SaveWMSLayerDialog(wx.Dialog):
 
         if self.region_types["named"].GetValue():
             if not gs.find_file(reg_spl[0], "windows", reg_mapset)["fullname"]:
-                msg = _(
-                    "Region <%s> does not exist." % self.params["region"].GetValue()
+                msg = (
+                    _("Region <%s> does not exist.") % self.params["region"].GetValue()
                 )
                 GWarning(parent=self, message=msg)
                 return

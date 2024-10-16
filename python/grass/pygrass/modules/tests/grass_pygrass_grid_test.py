@@ -210,7 +210,7 @@ def test_patching_backend(tmp_path, patch_backend):
 
 @xfail_mp_spawn
 @pytest.mark.parametrize(
-    "width, height, processes",
+    ("width", "height", "processes"),
     [
         (None, None, max_processes()),
         (10, None, max_processes()),
@@ -259,6 +259,7 @@ def test_tiling(tmp_path, width, height, processes):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -296,12 +297,14 @@ def test_tiling(tmp_path, width, height, processes):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 
 @xfail_mp_spawn
 @pytest.mark.needs_solo_run
 @pytest.mark.parametrize(
-    "processes, backend",
+    ("processes", "backend"),
     [
         (1, "RasterRow"),
         (9, "RasterRow"),
@@ -347,6 +350,7 @@ def test_patching_error(tmp_path, processes, backend):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -392,6 +396,10 @@ def test_patching_error(tmp_path, processes, backend):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
