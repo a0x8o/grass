@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,11 +64,14 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #include <inttypes.h>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +124,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -198,6 +204,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_debug(3, "cidx %d head offset: %" PRI_OFF_T, i, dig_ftell(fp));
 =======
 <<<<<<< HEAD
@@ -228,6 +235,8 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -255,6 +264,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_debug(3, "cidx %d head offset: %" PRI_OFF_T, i, dig_ftell(fp));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -308,6 +318,11 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_debug(3, "cidx %d head offset: %" PRI_OFF_T, i, dig_ftell(fp));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_debug(3, "cidx %d head offset: %" PRI_OFF_T, i, dig_ftell(fp));
@@ -383,6 +398,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_debug(3, "cidx %d offset: %" PRI_OFF_T, i, ci->offset);
     }
 
@@ -416,6 +432,8 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -449,6 +467,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -476,11 +495,14 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         G_debug(3, "cidx %d offset: %" PRI_OFF_T, i, ci->offset);
     }
 
     G_debug(3, "cidx body offset %" PRI_OFF_T, dig_ftell(fp));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +546,8 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -558,6 +582,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param plus pointer to Plus_head strcuture
 =======
 <<<<<<< HEAD
@@ -588,6 +613,8 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -615,6 +642,7 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \param plus pointer to Plus_head strcuture
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -668,6 +696,11 @@ int dig_write_cidx_head(struct gvfile *fp, struct Plus_head *plus)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \param plus pointer to Plus_head strcuture
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \param plus pointer to Plus_head strcuture

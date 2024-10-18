@@ -258,6 +258,7 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
 =======
 <<<<<<< HEAD
@@ -288,6 +289,8 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -315,6 +318,7 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -368,6 +372,11 @@ void N_write_array_2d_to_rast(N_array_2d *array, char *name)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \param mask int - 0 = false, 1 = ture : if a mask is presenent, use it with
@@ -519,6 +528,7 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 =======
 <<<<<<< HEAD
@@ -549,6 +559,8 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -576,6 +588,7 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -629,6 +642,11 @@ N_array_3d *N_read_rast3d_to_array_3d(char *name, N_array_3d *array, int mask)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
@@ -770,6 +788,7 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 =======
 <<<<<<< HEAD
@@ -800,6 +819,8 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -827,6 +848,7 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -880,6 +902,11 @@ void N_write_array_3d_to_rast3d(N_array_3d *array, char *name, int mask)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         Rast3d_fatal_error(map, NULL, 0, _("Error closing g3d file"));

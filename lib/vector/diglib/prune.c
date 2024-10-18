@@ -94,6 +94,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int ij = 0,                      /* position of farest point */
         ja, jd, i, j, k, n, inu, it; /* indicateur de parcours du segment */
 
@@ -132,6 +133,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -182,6 +185,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -206,6 +210,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -312,6 +318,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else {              /* No point keeped : farest point  */
 =======
 <<<<<<< HEAD
@@ -342,6 +349,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -369,6 +378,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         else {              /* No point keeped : farest point  */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -422,6 +432,11 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        else {              /* No point keeped : farest point  */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         else {              /* No point keeped : farest point  */
@@ -469,6 +484,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Loding remaining points         */
 =======
 <<<<<<< HEAD
@@ -499,6 +515,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -526,6 +544,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* Loding remaining points         */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -579,6 +598,11 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* Loding remaining points         */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* Loding remaining points         */
@@ -656,6 +680,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                farest point */
 =======
 <<<<<<< HEAD
@@ -686,6 +711,8 @@ int dig_prune(struct line_pnts *points, double thresh)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -713,6 +740,7 @@ int dig_prune(struct line_pnts *points, double thresh)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                                                farest point */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -766,6 +794,11 @@ int dig_prune(struct line_pnts *points, double thresh)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                                                               farest point */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                                                                farest point */

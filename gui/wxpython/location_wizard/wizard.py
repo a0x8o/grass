@@ -210,6 +210,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tlocation = self.MakeTextCtrl("newLocation")
 =======
 <<<<<<< HEAD
@@ -240,6 +241,8 @@ class DatabasePage(TitledPage):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -267,6 +270,7 @@ class DatabasePage(TitledPage):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -320,6 +324,11 @@ class DatabasePage(TitledPage):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        self.tlocation = self.MakeTextCtrl("newLocation")
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         self.tlocation = self.MakeTextCtrl("newLocation")
@@ -1754,9 +1763,12 @@ class EPSGPage(TitledPage):
             self, data=None, columns=[_("Code"), _("Description"), _("Parameters")]
         )
 
-        # epsg.io hyperlink
+        # A hyperlink to a CRS database (PROJ related)
         self.tlink = HyperlinkCtrl(
-            self, id=wx.ID_ANY, label="epsg.io", url="https://epsg.io/"
+            self,
+            id=wx.ID_ANY,
+            label="spatialreference.org",
+            url="https://spatialreference.org/",
         )
         self.tlink.SetNormalColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_GRAYTEXT))
         self.tlink.SetVisitedColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_GRAYTEXT))
@@ -1838,14 +1850,14 @@ class EPSGPage(TitledPage):
     def OnTextChange(self, event):
         value = self.searchb.GetValue()
         if value == "":
-            self.tlink.SetURL("https://epsg.io/")
+            self.tlink.SetURL("https://spatialreference.org/")
             self.epsgcode = None
             self.epsgdesc = self.epsgparams = ""
             self.searchb.ChangeValue("")
             self.OnBrowseCodes(None)
             self.EnableNext(False)
         else:
-            self.tlink.SetURL(str("https://epsg.io/?q={0}".format(value)))
+            self.tlink.SetURL(f"https://spatialreference.org/ref/?&search={value}")
             data = self.epsglist.Search(index=[0, 1, 2], pattern=value, firstOnly=False)
             if data:
                 index = 0

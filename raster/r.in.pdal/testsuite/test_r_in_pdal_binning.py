@@ -32,6 +32,7 @@ import unittest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -113,10 +114,15 @@ import unittest
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 import shutil
 from tempfile import TemporaryDirectory
 
 from grass.script import core as grass
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +177,9 @@ from grass.script import core as grass
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -204,6 +213,7 @@ from grass.script import shutil_which
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -231,11 +241,14 @@ from grass.script import shutil_which
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 import shutil
 from tempfile import TemporaryDirectory
 
 from grass.script import core as grass
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +313,10 @@ from grass.script import core as grass
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -352,6 +369,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -414,6 +432,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("pdal") is None, "Cannot find pdal utility")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("pdal") is None, "Cannot find pdal utility")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("pdal") is None, "Cannot find pdal utility")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -422,6 +444,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("pdal") is None, "Cannot find pdal utility")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +524,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -564,6 +589,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -626,6 +652,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -634,6 +664,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +744,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -728,9 +761,14 @@ class BinningTest(TestCase):
 
         This is executed after each test run.
         """
-        self.runModule("g.remove", flags="f", type="raster", name=self.bin_raster)
-        self.runModule("g.remove", flags="f", type="raster", name=self.ref_raster)
+        self.runModule(
+            "g.remove",
+            flags="f",
+            type="raster",
+            name=(self.bin_raster, self.ref_raster),
+        )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -813,6 +851,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -821,6 +863,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -900,6 +943,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -952,6 +997,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1014,6 +1060,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1022,6 +1072,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,6 +1152,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1152,6 +1205,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1214,6 +1268,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1222,6 +1280,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1301,6 +1360,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1352,6 +1413,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1414,6 +1476,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1422,6 +1488,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1568,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1552,6 +1621,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1614,6 +1684,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1622,6 +1696,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1701,6 +1776,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1752,6 +1829,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1814,6 +1892,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -1822,6 +1904,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1901,6 +1984,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1952,6 +2037,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2014,6 +2100,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2022,6 +2112,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2101,6 +2192,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2152,6 +2245,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2214,6 +2308,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2222,6 +2320,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2301,6 +2400,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2352,6 +2453,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2414,6 +2516,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2422,6 +2528,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2501,6 +2608,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2552,6 +2661,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2614,6 +2724,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2622,6 +2736,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2701,6 +2816,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2752,6 +2869,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2814,6 +2932,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -2822,6 +2944,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2901,6 +3024,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2952,6 +3077,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3014,6 +3140,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -3022,6 +3152,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3101,6 +3232,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3152,6 +3285,7 @@ class BinningTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3214,6 +3348,10 @@ class BinningTest(TestCase):
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 =======
 >>>>>>> osgeo-main
+=======
+    @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
+=======
+>>>>>>> osgeo-main
     @unittest.skipIf(shutil_which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
 =======
@@ -3222,6 +3360,7 @@ class BinningTest(TestCase):
 =======
     @unittest.skipIf(shutil.which("r.in.pdal") is None, "Cannot find r.in.pdal")
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3301,6 +3440,8 @@ class BinningTest(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

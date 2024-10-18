@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -64,11 +65,14 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #include <inttypes.h>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +125,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -184,6 +190,7 @@ int dig__write_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "write coor size (%" PRI_OFF_T ") to head", Map->head.size);
 =======
 <<<<<<< HEAD
@@ -214,6 +221,8 @@ int dig__write_head(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -241,6 +250,7 @@ int dig__write_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(1, "write coor size (%" PRI_OFF_T ") to head", Map->head.size);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -294,6 +304,11 @@ int dig__write_head(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_debug(1, "write coor size (%" PRI_OFF_T ") to head", Map->head.size);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(1, "write coor size (%" PRI_OFF_T ") to head", Map->head.size);
@@ -360,6 +375,7 @@ int dig__write_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(2, "coor body offset %" PRI_OFF_T, dig_ftell(&(Map->dig_fp)));
 =======
 <<<<<<< HEAD
@@ -390,6 +406,8 @@ int dig__write_head(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -417,6 +435,7 @@ int dig__write_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(2, "coor body offset %" PRI_OFF_T, dig_ftell(&(Map->dig_fp)));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -470,6 +489,11 @@ int dig__write_head(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_debug(2, "coor body offset %" PRI_OFF_T, dig_ftell(&(Map->dig_fp)));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(2, "coor body offset %" PRI_OFF_T, dig_ftell(&(Map->dig_fp)));
@@ -591,6 +615,7 @@ int dig__read_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(2, "  coor size %" PRI_OFF_T, Map->head.size);
 =======
 <<<<<<< HEAD
@@ -621,6 +646,8 @@ int dig__read_head(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -648,6 +675,7 @@ int dig__read_head(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(2, "  coor size %" PRI_OFF_T, Map->head.size);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -701,6 +729,11 @@ int dig__read_head(struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_debug(2, "  coor size %" PRI_OFF_T, Map->head.size);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(2, "  coor size %" PRI_OFF_T, Map->head.size);

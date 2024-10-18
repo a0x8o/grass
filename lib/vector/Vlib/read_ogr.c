@@ -467,6 +467,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param[out] Points container used to store line pointes within
 =======
 <<<<<<< HEAD
@@ -497,6 +498,8 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -524,6 +527,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \param[out] Points container used to store line pointes within
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -577,6 +581,11 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \param[out] Points container used to store line pointes within
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \param[out] Points container used to store line pointes within
@@ -622,6 +631,7 @@ int read_next_line_ogr(struct Map_info *Map, struct line_pnts *line_p,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 <<<<<<< HEAD
@@ -652,6 +662,8 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -679,6 +691,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -732,6 +745,11 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
@@ -845,6 +863,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    \param[out] Points container used to store line pointes within
 =======
 <<<<<<< HEAD
@@ -875,6 +894,8 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -902,6 +923,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    \param[out] Points container used to store line pointes within
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -955,6 +977,11 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   \param[out] Points container used to store line pointes within
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    \param[out] Points container used to store line pointes within
@@ -1000,6 +1027,7 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1033,10 +1061,13 @@ int read_line(const struct Map_info *Map, OGRGeometryH hGeom, long offset,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int get_line_type(struct Map_info *Map, long fid)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1086,6 +1117,8 @@ int get_line_type(struct Map_info *Map, long fid)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -102,14 +102,14 @@ double trunca()
     for (i = 0; i < 83; i++) {
         if (rmu[i] > 0.8)
             break;
-        k = i - 1;
+        k = i;
     }
 
     int kk = 0;
     for (i = 0; i < 83; i++) {
         if (rmu[i] > 0.94)
             break;
-        kk = i - 1;
+        kk = i;
     }
 
     double aa =
@@ -118,7 +118,7 @@ double trunca()
     double x1 = (double)(log10(sixs_trunc.pha[kk]));
     double x2 = (double)acos(rmu[kk]);
 
-    for (i = kk + 1; i < 83; i++) {
+    for (i = kk; i < 83; i++) {
         double a;
         if (fabs(rmu[i] - 1) <= 1e-08)
             a = x1 - aa * x2;
@@ -445,9 +445,14 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
         /* compute position of the plane layer */
         double taup = tap + trp;
         iplane = -1;
-        for (int i = 0; i <= ntp; i++)
+        for (int i = 0; i <= ntp; i++) {
             if (taup >= h[i])
                 iplane = i;
+        }
+        if (iplane == -1) {
+            G_fatal_error(
+                _("Position of the plane layer could not be determined"));
+        }
 
         /* update the layer from the end to the position to update if necessary
          */
@@ -630,6 +635,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* inm2 is inialized with scattering computed at n-2
            i3 is inialized with primary scattering */
 =======
@@ -661,6 +667,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -690,6 +698,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -717,9 +726,12 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         /* inm2 is inialized with scattering computed at n-2
            i3 is inialized with primary scattering */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +775,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -929,6 +943,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /*  convergence test (geometrical serie) */
 =======
 <<<<<<< HEAD
@@ -959,6 +974,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -986,6 +1003,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /*  convergence test (geometrical serie) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1039,6 +1057,11 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /*  convergence test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /*  convergence test (geometrical serie) */
@@ -1116,6 +1139,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /* successful test (geometrical serie) */
 =======
 <<<<<<< HEAD
@@ -1146,6 +1170,8 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1173,6 +1199,7 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     /* successful test (geometrical serie) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1226,6 +1253,11 @@ void os(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    /* successful test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     /* successful test (geometrical serie) */
@@ -1463,9 +1495,14 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
         /* compute position of the plane layer */
         double taup = tap + trp;
         iplane = -1;
-        for (int i = 0; i <= ntp; i++)
+        for (int i = 0; i <= ntp; i++) {
             if (taup >= h[i])
                 iplane = i;
+        }
+        if (iplane == -1) {
+            G_fatal_error(
+                _("Position of the plane layer could not be determined"));
+        }
 
         /* update the layer from the end to the position to update if necessary
          */
@@ -1581,6 +1618,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1642,6 +1680,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1778,6 +1821,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* convergence test (geometrical serie) */
 =======
 <<<<<<< HEAD
@@ -1808,6 +1852,8 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1835,6 +1881,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* convergence test (geometrical serie) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1888,6 +1935,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* convergence test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* convergence test (geometrical serie) */
@@ -1962,6 +2014,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* successful test (geometrical serie) */
 =======
 <<<<<<< HEAD
@@ -1992,6 +2045,8 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2019,6 +2074,7 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 /* successful test (geometrical serie) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2072,6 +2128,11 @@ void iso(const double tamoy, const double trmoy, const double pizmoy,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                /* successful test (geometrical serie) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 /* successful test (geometrical serie) */
@@ -2272,6 +2333,7 @@ double chand(const double xtau, const GeomCond &geom)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Successive Orders of Scattering method (Deuzé et al, 1989).
 =======
 <<<<<<< HEAD
@@ -2302,6 +2364,8 @@ double chand(const double xtau, const GeomCond &geom)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2329,6 +2393,7 @@ double chand(const double xtau, const GeomCond &geom)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   Successive Orders of Scattering method (Deuzé et al, 1989).
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2382,6 +2447,11 @@ double chand(const double xtau, const GeomCond &geom)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+  Successive Orders of Scattering method (Deuzé et al, 1989).
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
   Successive Orders of Scattering method (Deuzé et al, 1989).

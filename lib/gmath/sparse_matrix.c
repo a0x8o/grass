@@ -55,6 +55,7 @@ int G_math_add_spvector(G_math_spvector **Asp, G_math_spvector *spvector,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 spvector, row);
 =======
 <<<<<<< HEAD
@@ -85,6 +86,8 @@ int G_math_add_spvector(G_math_spvector **Asp, G_math_spvector *spvector,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -112,6 +115,7 @@ int G_math_add_spvector(G_math_spvector **Asp, G_math_spvector *spvector,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 spvector, row);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -165,6 +169,11 @@ int G_math_add_spvector(G_math_spvector **Asp, G_math_spvector *spvector,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                spvector, row);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 spvector, row);
@@ -326,6 +335,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -397,6 +407,10 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
                 if (Asp[i]->index[k] == (unsigned int)j) {
 =======
 >>>>>>> osgeo-main
+=======
+                if (Asp[i]->index[k] == (unsigned int)j) {
+=======
+>>>>>>> osgeo-main
                 if (Asp[i]->index[k] == j) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -405,6 +419,7 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 =======
                 if (Asp[i]->index[k] == (unsigned int)j) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,11 +460,14 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 if (Asp[i]->index[k] == j) {
 =======
                 if (Asp[i]->index[k] == (unsigned int)j) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,6 +553,8 @@ void G_math_print_spmatrix(G_math_spvector **Asp, int rows)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -643,6 +663,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -711,6 +732,10 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
     for (i = 0; i < (unsigned int)rows; i++) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (i = 0; i < (unsigned int)rows; i++) {
+=======
+>>>>>>> osgeo-main
     for (i = 0; i < rows; i++) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -719,6 +744,7 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
     for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,11 +785,14 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     for (i = 0; i < rows; i++) {
 =======
     for (i = 0; i < (unsigned int)rows; i++) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -843,6 +872,8 @@ double **G_math_Asp_to_sband_matrix(G_math_spvector **Asp, int rows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

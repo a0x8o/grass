@@ -121,6 +121,7 @@ char *Vect_get_finfo_layer_name(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -154,10 +155,13 @@ char *Vect_get_finfo_layer_name(struct Map_info *Map)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 const char *Vect_get_finfo_format_info(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,8 @@ const char *Vect_get_finfo_format_info(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -269,6 +275,7 @@ const char *Vect_get_finfo_format_info(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -302,10 +309,13 @@ const char *Vect_get_finfo_format_info(const struct Map_info *Map)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 const char *Vect_get_finfo_geometry_type(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +365,8 @@ const char *Vect_get_finfo_geometry_type(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -463,6 +475,7 @@ const char *Vect_get_finfo_geometry_type(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 =======
 <<<<<<< HEAD
@@ -493,6 +506,8 @@ const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -520,6 +535,7 @@ const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -573,6 +589,11 @@ const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
@@ -636,6 +657,7 @@ const struct Format_info *Vect_get_finfo(const struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
 =======
 <<<<<<< HEAD
@@ -666,6 +688,8 @@ int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -693,6 +717,7 @@ int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -746,6 +771,11 @@ int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int Vect_get_finfo_topology_info(const struct Map_info *Map, char **toposchema,

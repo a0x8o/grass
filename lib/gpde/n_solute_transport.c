@@ -386,6 +386,7 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the solute transport data structure in three
 =======
 <<<<<<< HEAD
@@ -416,6 +417,8 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -443,6 +446,7 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \brief Alllocate memory for the solute transport data structure in three
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -496,6 +500,11 @@ N_data_star *N_callback_solute_transport_2d(void *solutedata, N_geom_data *geom,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \brief Alllocate memory for the solute transport data structure in three
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \brief Alllocate memory for the solute transport data structure in three
@@ -590,6 +599,7 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the solute transport data structure in two
 =======
 <<<<<<< HEAD
@@ -620,6 +630,8 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -647,6 +659,7 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \brief Alllocate memory for the solute transport data structure in two
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -700,6 +713,11 @@ N_solute_transport_data3d *N_alloc_solute_transport_data3d(int cols, int rows,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \brief Alllocate memory for the solute transport data structure in two
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \brief Alllocate memory for the solute transport data structure in two
@@ -940,6 +958,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 =======
 <<<<<<< HEAD
@@ -970,6 +989,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -997,6 +1018,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1050,6 +1072,11 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -1095,6 +1122,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \todo Change the tensor calculation to a mor realistic algorithm
 =======
 <<<<<<< HEAD
@@ -1125,6 +1153,8 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1152,6 +1182,7 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1205,6 +1236,11 @@ void N_calc_solute_transport_transmission_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \todo Change the tensor calculation to a mor realistic algorithm
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm
@@ -1301,6 +1337,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 =======
 <<<<<<< HEAD
@@ -1331,6 +1368,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1358,6 +1397,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1411,6 +1451,11 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * To compute the dispersivity tensor, the dispersivity lentghs and the gradient
@@ -1456,6 +1501,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \todo Change the tensor calculation to a mor realistic algorithm
 =======
 <<<<<<< HEAD
@@ -1486,6 +1532,8 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1513,6 +1561,7 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1566,6 +1615,11 @@ void N_calc_solute_transport_disptensor_2d(N_solute_transport_data2d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \todo Change the tensor calculation to a mor realistic algorithm
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \todo Change the tensor calculation to a mor realistic algorithm

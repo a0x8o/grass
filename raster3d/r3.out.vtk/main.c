@@ -267,6 +267,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /*Set the pointer to null so we noe later that these files are
 =======
 <<<<<<< HEAD
@@ -297,6 +298,8 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -324,6 +327,7 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /*Set the pointer to null so we noe later that these files are
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -377,6 +381,11 @@ void open_write_rgb_maps(input_maps *in, RASTER3D_Region region, FILE *fp,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /*Set the pointer to null so we noe later that these files are
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /*Set the pointer to null so we noe later that these files are

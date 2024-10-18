@@ -22,6 +22,7 @@ This file contains following sections:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Updating the message catalogs currently only works on
 =======
 Updating the message catalogs currently only works on 
@@ -55,6 +56,9 @@ Updating the message catalogs currently only works on
 Updating the message catalogs currently only works on
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+Updating the message catalogs currently only works on
+>>>>>>> osgeo-main
 =======
 Updating the message catalogs currently only works on
 >>>>>>> osgeo-main
@@ -128,6 +132,7 @@ NOTE3: Notices to translators can be added by placing
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* GTC A comma separated keyword list.
 =======
         /* GTC A comma separated keyword list. 
@@ -161,6 +166,9 @@ NOTE3: Notices to translators can be added by placing
         /* GTC A comma separated keyword list.
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        /* GTC A comma separated keyword list.
+>>>>>>> osgeo-main
 =======
         /* GTC A comma separated keyword list.
 >>>>>>> osgeo-main
@@ -196,6 +204,7 @@ NOTE4:  Any string containing a number that requires a correct plural form of
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         plural case", number)
 =======
         plural case", number) 
@@ -229,6 +238,9 @@ NOTE4:  Any string containing a number that requires a correct plural form of
         plural case", number)
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        plural case", number)
+>>>>>>> osgeo-main
 =======
         plural case", number)
 >>>>>>> osgeo-main
@@ -262,6 +274,7 @@ Wrong:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_warning( _("%d %s without geometry skipped"), n,
         n == 1 ? "feature" : "features");
 =======
@@ -306,6 +319,10 @@ Wrong:
         n == 1 ? "feature" : "features");
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+    G_warning( _("%d %s without geometry skipped"), n,
+        n == 1 ? "feature" : "features");
+>>>>>>> osgeo-main
 =======
     G_warning( _("%d %s without geometry skipped"), n,
         n == 1 ? "feature" : "features");
@@ -344,12 +361,15 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -372,6 +392,7 @@ Correct:
     /* Both of forms of singular case "%d file" or "One file" are correct.
     The choice between them is purely stylistic one. */
     G_warning( n_("One feature without geometry skipped",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +463,8 @@ Correct:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -472,6 +495,7 @@ Correct:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 All these messages strings will be then automatically
@@ -527,6 +551,11 @@ All these messages strings will be then automatically
 All these messages strings will be then automatically
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+
+All these messages strings will be then automatically
+>>>>>>> osgeo-main
 =======
 
 
@@ -575,6 +604,7 @@ can be found in gettext manual.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 How to prepare program source:
 =======
 How to prepare program source: 
@@ -608,6 +638,9 @@ How to prepare program source:
 How to prepare program source:
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+How to prepare program source:
+>>>>>>> osgeo-main
 =======
 How to prepare program source:
 >>>>>>> osgeo-main
@@ -656,12 +689,15 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -691,6 +727,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -740,6 +777,8 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -767,6 +806,7 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08401a0a3a (r.horizon manual - fix typo (#2794))
 =======
@@ -825,6 +865,11 @@ GENERAL TRANSLATION PROCEDURE (no programming required)
     Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+[4] Updated po files are taken from Transifex and merged into GRASS GIS source repo
+    (MO files are generated when compiling GRASS GIS)
+    Script: https://github.com/OSGeo/grass-addons/blob/grass8/utils/transifex_merge.sh
+>>>>>>> osgeo-main
 =======
 [4] Updated po files are taken from Transifex and merged into GRASS GIS source repo
     (MO files are generated when compiling GRASS GIS)
@@ -872,6 +917,7 @@ Semi-automated procedure:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
      
@@ -905,6 +951,9 @@ Semi-automated procedure:
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -942,6 +991,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3. Now translate the messages in the po/*.po files (using kbabel or
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or 
@@ -975,6 +1025,9 @@ TODO OLD    make update-po  merges new messages into existing *.po files
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+  3. Now translate the messages in the po/*.po files (using kbabel or
+>>>>>>> osgeo-main
 =======
   3. Now translate the messages in the po/*.po files (using kbabel or
 >>>>>>> osgeo-main
@@ -1007,6 +1060,7 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
       
@@ -1040,6 +1094,9 @@ TODO OLD    make update-po  merges new messages into existing *.po files
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -1112,6 +1169,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -1145,6 +1203,9 @@ DETAILED PROCEDURE :
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -1186,12 +1247,15 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1214,6 +1278,7 @@ DETAILED PROCEDURE :
         make pot
         make update-po
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,6 +1349,8 @@ DETAILED PROCEDURE :
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1319,6 +1386,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   3.b) Second CASE: Some messages have already been translated to
 =======
   3.b) Second CASE: Some messages have already been translated to 
@@ -1352,6 +1420,9 @@ DETAILED PROCEDURE :
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+  3.b) Second CASE: Some messages have already been translated to
+>>>>>>> osgeo-main
 =======
   3.b) Second CASE: Some messages have already been translated to
 >>>>>>> osgeo-main
@@ -1385,12 +1456,15 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1416,6 +1490,7 @@ DETAILED PROCEDURE :
        This will update the messages in all existing files in
        the .po/ directory.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1495,6 +1570,8 @@ DETAILED PROCEDURE :
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1523,6 +1600,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
    
@@ -1556,6 +1634,9 @@ DETAILED PROCEDURE :
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main
@@ -1600,12 +1681,15 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1629,6 +1713,7 @@ DETAILED PROCEDURE :
    After finishing the translation, save the files.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1702,6 +1787,8 @@ DETAILED PROCEDURE :
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1748,6 +1835,7 @@ DETAILED PROCEDURE :
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -1768,12 +1856,15 @@ DETAILED PROCEDURE :
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
    git diff file.c > file.diff
 
    Thanks for submitting.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1838,6 +1929,8 @@ DETAILED PROCEDURE :
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -16,10 +16,9 @@ This program is free software under the GNU General Public License
 """
 
 import os
-import sys
-
 import queue as Queue
-from math import sin, cos, pi, sqrt
+import sys
+from math import cos, pi, sin, sqrt
 
 import wx
 
@@ -29,25 +28,51 @@ except ImportError:
     import wx.lib.flatnotebook as FN
 
 import grass.script as gs
-
 from core import globalvar
-from gui_core.menu import Menu
-from core.gconsole import CmdThread, EVT_CMD_DONE
-from psmap.toolbars import PsMapToolbar
-from core.gcmd import RunCommand, GError, GMessage
+from core.gcmd import GError, GMessage, RunCommand
+from core.gconsole import EVT_CMD_DONE, CmdThread
 from core.settings import UserSettings
 from core.utils import PilImageToWxImage
-from gui_core.forms import GUI
-from gui_core.widgets import GNotebook
 from gui_core.dialogs import HyperlinkDialog
+from gui_core.forms import GUI
 from gui_core.ghelp import ShowAboutDialog
-from gui_core.wrap import ClientDC, PseudoDC, Rect, StockCursor, EmptyBitmap
-from psmap.menudata import PsMapMenuData
+from gui_core.menu import Menu
 from gui_core.toolbars import ToolSwitcher
+from gui_core.widgets import GNotebook
+from gui_core.wrap import ClientDC, EmptyBitmap, PseudoDC, Rect, StockCursor
 
-from psmap.dialogs import *
-from psmap.instructions import *
-from psmap.utils import *
+from psmap.dialogs import (
+    ImageDialog,
+    LabelsDialog,
+    LegendDialog,
+    MainVectorDialog,
+    MapDialog,
+    MapinfoDialog,
+    NorthArrowDialog,
+    PageSetupDialog,
+    PointDialog,
+    RasterDialog,
+    RectangleDialog,
+    ScalebarDialog,
+    TextDialog,
+)
+from psmap.instructions import InitMap, Instruction, NewId, SetResolution, PageSetup
+from psmap.menudata import PsMapMenuData
+from psmap.toolbars import PsMapToolbar
+from psmap.utils import (
+    AutoAdjust,
+    ComputeSetRegion,
+    GetMapBounds,
+    PaperMapCoordinates,
+    PILImage,
+    Rect2D,
+    Rect2DPP,
+    Rect2DPS,
+    UnitConversion,
+    convertRGB,
+    havePILImage,
+    projInfo,
+)
 
 
 class PsMapFrame(wx.Frame):
@@ -514,6 +539,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except (IOError, OSError):
 =======
 <<<<<<< HEAD
@@ -544,6 +570,8 @@ class PsMapFrame(wx.Frame):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -571,6 +599,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             except (IOError, OSError):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -624,6 +653,11 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            except (IOError, OSError):
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             except (IOError, OSError):
@@ -674,6 +708,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -709,6 +744,8 @@ class PsMapFrame(wx.Frame):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                         "You can download {program} {arch} version here."
                     ).format(
                         program=program,
@@ -718,6 +755,7 @@ class PsMapFrame(wx.Frame):
 =======
                     hyperlink="https://www.ghostscript.com/releases/gsdnld.html",
                     hyperlinkLabel=_(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +814,10 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -817,6 +859,7 @@ class PsMapFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -878,6 +921,11 @@ class PsMapFrame(wx.Frame):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

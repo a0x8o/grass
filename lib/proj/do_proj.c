@@ -712,6 +712,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* follwing code copied from proj_create_crs_to_crs_from_pj()
          * in proj src/4D_api.cpp
          * but using PROJ_SPATIAL_CRITERION_STRICT_CONTAINMENT */
@@ -744,6 +745,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -791,6 +794,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -818,10 +822,13 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         /* follwing code copied from proj_create_crs_to_crs_from_pj()
          * in proj src/4D_api.cpp
          * but using PROJ_SPATIAL_CRITERION_STRICT_CONTAINMENT */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -875,6 +882,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
         /* now use the current region as area of interest */
         operation_ctx =
@@ -883,6 +892,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
             PJ_DEFAULT_CTX, operation_ctx, xmin, ymin, xmax, ymax);
         proj_operation_factory_context_set_spatial_criterion(
             PJ_DEFAULT_CTX, operation_ctx,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1042,6 +1052,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1302,6 +1314,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1318,6 +1331,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1457,6 +1472,7 @@ int GPJ_init_transform(const struct pj_info *info_in,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -1487,6 +1503,8 @@ int GPJ_init_transform(const struct pj_info *info_in,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

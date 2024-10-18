@@ -229,6 +229,7 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * and occasionaly skips such cases. This is currently done for 2D only
 =======
 <<<<<<< HEAD
@@ -259,6 +260,8 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -286,6 +289,7 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * and occasionaly skips such cases. This is currently done for 2D only
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -339,6 +343,11 @@ int break_lines(struct Map_info *Map, struct ilist *List_break,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+     * and occasionaly skips such cases. This is currently done for 2D only
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      * and occasionaly skips such cases. This is currently done for 2D only

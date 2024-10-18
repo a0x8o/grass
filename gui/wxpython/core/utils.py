@@ -35,15 +35,23 @@ import operator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+from string import digits
+=======
+=======
+>>>>>>> 46f73513a8 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
 =======
@@ -124,6 +132,11 @@ import operator
 >>>>>>> osgeo-main
 import six
 >>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+=======
+import six
+>>>>>>> 584e61d06d (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> 9051310ffd (wxGUI/datacatalog: fix setting output vector/raster format (#1596))
+>>>>>>> osgeo-main
 
 from grass.script import core as grass
 from grass.script import task as gtask
@@ -1040,7 +1053,7 @@ rgb2str[str2rgb["violet"]] = "violet"
 
 
 def color_resolve(color):
-    if len(color) > 0 and color[0] in "0123456789":
+    if len(color) > 0 and color[0] in digits:
         rgb = tuple(map(int, color.split(":")))
         label = color
     else:

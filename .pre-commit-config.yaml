@@ -43,6 +43,7 @@ repos:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rev: v0.5.1
 =======
     rev: v0.5.4
@@ -61,6 +62,9 @@ repos:
 >>>>>>> osgeo-main
 =======
     rev: v0.6.9
+>>>>>>> osgeo-main
+=======
+    rev: v0.7.0
 >>>>>>> osgeo-main
     hooks:
       # Run the linter.
