@@ -1,6 +1,8 @@
 #! /bin/sh
 # Configuration validation subroutine script.
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,16 +67,21 @@ timestamp='2022-01-03'
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 #   Copyright 1992-2024 Free Software Foundation, Inc.
 
 # shellcheck disable=SC2006,SC2268,SC2162 # see below for rationale
 
-<<<<<<< HEAD
 timestamp='2024-05-27'
+<<<<<<< HEAD
+=======
 =======
 timestamp='2024-01-01'
 =======
@@ -234,12 +241,16 @@ timestamp='2022-01-03'
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -311,9 +322,9 @@ Report bugs and patches to <config-patches@gnu.org>."
 version="\
 GNU config.sub ($timestamp)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Copyright 1992-2024 Free Software Foundation, Inc.
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +464,7 @@ Copyright 1992-2022 Free Software Foundation, Inc.
 Copyright 1992-2022 Free Software Foundation, Inc.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -1902,6 +1914,8 @@ EOF
 		kernel=linux
 		os=`echo "$basic_os" | sed -e 's|linux|gnu|'`
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1961,15 +1975,21 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 		;;
 	managarm*)
 		kernel=managarm
 		os=`echo "$basic_os" | sed -e 's|managarm|mlibc|'`
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2066,10 +2086,14 @@ EOF
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 		;;
 	*)
 		kernel=
@@ -2492,9 +2516,9 @@ fi
 
 case $os in
 	# Sometimes we do "kernel-libc", so those need to count as OSes.
-<<<<<<< HEAD
-<<<<<<< HEAD
 	llvm* | musl* | newlib* | relibc* | uclibc*)
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2634,6 +2658,7 @@ case $os in
 	musl* | newlib* | relibc* | uclibc*)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+>>>>>>> main
 		;;
 	# Likewise for "kernel-abi"
 	eabi* | gnueabi*)
@@ -2646,7 +2671,6 @@ case $os in
 		;;
 	# Now accept the basic system types.
 	# Each alternative MUST end in a * to match a version number.
-<<<<<<< HEAD
 	  abug \
 	| aix* \
 	| amdhsa* \
@@ -2833,6 +2857,8 @@ case $os in
 	| xray* \
 	| zephyr* \
 	| zvmoe* )
+<<<<<<< HEAD
+=======
 =======
 	gnu* | android* | bsd* | mach* | minix* | genix* | ultrix* | irix* \
 	     | *vms* | esix* | aix* | cnk* | sunos | sunos[34]* \
@@ -3007,6 +3033,7 @@ case $os in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 		;;
 	# This one is extra strict with allowed versions
 	sco3.2v2 | sco3.2v[4-9]* | sco5v6*)
@@ -3064,12 +3091,15 @@ esac
 
 # As a final step for OS-related things, validate the OS-kernel combination
 # (given a valid OS), if there is a kernel.
-<<<<<<< HEAD
 case $kernel-$os-$obj in
 	linux-gnu*- | linux-android*- | linux-dietlibc*- | linux-llvm*- \
 		    | linux-mlibc*- | linux-musl*- | linux-newlib*- \
-<<<<<<< HEAD
 		    | linux-relibc*- | linux-uclibc*- | linux-ohos*- )
+<<<<<<< HEAD
+		;;
+	uclinux-uclibc*- | uclinux-gnu*- )
+		;;
+=======
 =======
 		    | linux-relibc*- | linux-uclibc*- )
 <<<<<<< HEAD
@@ -3294,16 +3324,22 @@ case $kernel-$os in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 	managarm-mlibc*- | managarm-kernel*- )
 		;;
 	windows*-msvc*-)
 		;;
 	-dietlibc*- | -llvm*- | -mlibc*- | -musl*- | -newlib*- | -relibc*- \
 		    | -uclibc*- )
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3410,10 +3446,14 @@ case $kernel-$os in
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+<<<<<<< HEAD
+>>>>>>> main
+=======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+>>>>>>> main
 		# These are just libc implementations, not actual OSes, and thus
 		# require a kernel.
 		echo "Invalid configuration '$1': libc '$os' needs explicit kernel." 1>&2
