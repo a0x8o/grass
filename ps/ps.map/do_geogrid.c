@@ -97,6 +97,8 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -165,6 +167,14 @@ int do_geogrid(void)
     for (; g >= south; g -= grid) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (; g >= south; g -= grid) {
+=======
+>>>>>>> osgeo-main
+=======
+    for (; g >= south; g -= grid) {
+=======
+>>>>>>> osgeo-main
     for (j = 0; g >= south; j++, g -= grid) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -173,6 +183,8 @@ int do_geogrid(void)
 =======
     for (; g >= south; g -= grid) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,11 +225,17 @@ int do_geogrid(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
     for (j = 0; g >= south; j++, g -= grid) {
 =======
     for (; g >= south; g -= grid) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,6 +315,10 @@ int do_geogrid(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -355,6 +377,8 @@ int do_geogrid(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -423,6 +447,14 @@ int do_geogrid(void)
     for (; g > west; g -= grid) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (; g > west; g -= grid) {
+=======
+>>>>>>> osgeo-main
+=======
+    for (; g > west; g -= grid) {
+=======
+>>>>>>> osgeo-main
     for (j = 0; g > west; j++, g -= grid) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -431,6 +463,8 @@ int do_geogrid(void)
 =======
     for (; g > west; g -= grid) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471,11 +505,17 @@ int do_geogrid(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
     for (j = 0; g > west; j++, g -= grid) {
 =======
     for (; g > west; g -= grid) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +595,10 @@ int do_geogrid(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -44,6 +44,8 @@ def benchmark(memory, label, results, reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -79,11 +81,17 @@ def benchmark(memory, label, results, reference):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +154,10 @@ def benchmark(memory, label, results, reference):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     slope = "benchmark_slope"
     aspect = "benchmark_aspect"
     pcurv = "benchmark_pcurv"
@@ -164,10 +176,13 @@ def benchmark(memory, label, results, reference):
     )
     results.append(bm.benchmark_nprocs(module, label=label, max_nprocs=20, repeat=10))
 
-    Module("g.remove", quiet=True, flags="f", type="raster", name=slope)
-    Module("g.remove", quiet=True, flags="f", type="raster", name=aspect)
-    Module("g.remove", quiet=True, flags="f", type="raster", name=pcurv)
-    Module("g.remove", quiet=True, flags="f", type="raster", name=tcurv)
+    Module(
+        "g.remove",
+        quiet=True,
+        flags="f",
+        type="raster",
+        name=(slope, aspect, pcurv, tcurv),
+    )
 
 
 def generate_map(rows, cols, fname):

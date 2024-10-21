@@ -932,6 +932,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1016,6 +1018,16 @@ static FILE *create_temp_file(const char *name, char **tmpname)
             (size_t)n_cols) {
 =======
 >>>>>>> osgeo-main
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
+            (size_t)n_cols) {
+=======
+>>>>>>> osgeo-main
+=======
+        if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
+            (size_t)n_cols) {
+=======
+>>>>>>> osgeo-main
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1025,6 +1037,8 @@ static FILE *create_temp_file(const char *name, char **tmpname)
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
             (size_t)n_cols) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1065,12 +1079,18 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) != n_cols) {
 =======
         if (fwrite(zero_array_cell, sizeof(FCELL), n_cols, fp) !=
             (size_t)n_cols) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1159,6 +1179,10 @@ static FILE *create_temp_file(const char *name, char **tmpname)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

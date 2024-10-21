@@ -185,6 +185,8 @@ int load_maps(int ele_fd, int acc_fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 =======
 <<<<<<< HEAD
@@ -215,6 +217,10 @@ int load_maps(int ele_fd, int acc_fd)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -242,6 +248,8 @@ int load_maps(int ele_fd, int acc_fd)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -295,6 +303,16 @@ int load_maps(int ele_fd, int acc_fd)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+    G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(1, "%" PRI_OFF_T " non-NULL cells", n_points);

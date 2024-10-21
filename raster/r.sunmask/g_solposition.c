@@ -80,6 +80,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             _("Unable to calculate sun position in un-projected locations. "
 =======
 <<<<<<< HEAD
@@ -110,6 +112,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -137,6 +143,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
             _("Unable to calculate sun position in un-projected locations. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -190,6 +198,16 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            _("Unable to calculate sun position in un-projected locations. "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+            _("Unable to calculate sun position in un-projected locations. "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             _("Unable to calculate sun position in un-projected locations. "
@@ -264,6 +282,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                 _("Unable to get projection info of current location"));
 =======
 <<<<<<< HEAD
@@ -285,6 +305,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -331,6 +355,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -353,6 +379,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -381,6 +411,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -405,6 +437,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -431,6 +467,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -453,6 +491,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -487,6 +529,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
         G_debug(1, "OUT: longitude: %f, latitude: %f", longitude, latitude);
 
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +637,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 _("Unable to get projection info of current location"));
 
         if ((in_unit_info = G_get_projunits()) == NULL)
@@ -645,6 +693,8 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -669,6 +719,10 @@ long calc_solar_position(double longitude, double latitude, double timezone,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

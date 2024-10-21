@@ -531,6 +531,8 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         /* Add weigth matrix of unknowns to NN */
 =======
 <<<<<<< HEAD
@@ -561,6 +563,10 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -588,6 +594,8 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* Add weigth matrix of unknowns to NN */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -641,6 +649,16 @@ int I_compute_ortho_equations(struct Ortho_Control_Points *cpz,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* Add weigth matrix of unknowns to NN */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        /* Add weigth matrix of unknowns to NN */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* Add weigth matrix of unknowns to NN */
@@ -777,6 +795,8 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                 double *z2, struct Ortho_Camera_File_Ref *cam_info, double XC,
                 double YC, double ZC, MATRIX M)
 =======
@@ -808,6 +828,10 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -837,6 +861,8 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -864,9 +890,15 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
                 double *z2, struct Ortho_Camera_File_Ref *cam_info, double XC,
                 double YC, double ZC, MATRIX M)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -910,6 +942,10 @@ int I_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1006,6 +1042,8 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                         double *z2, struct Ortho_Camera_File_Ref *cam_info,
                         double XC, double YC, double ZC, MATRIX M)
 =======
@@ -1037,6 +1075,10 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1067,6 +1109,8 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1094,9 +1138,15 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
                         double *z2, struct Ortho_Camera_File_Ref *cam_info,
                         double XC, double YC, double ZC, MATRIX M)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,6 +1190,10 @@ int I_inverse_ortho_ref(double e1, double n1, double z1, double *e2, double *n2,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

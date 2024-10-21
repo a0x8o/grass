@@ -90,6 +90,8 @@ class SuccessTest(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -161,6 +163,14 @@ class SuccessTest(TestCase):
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 =======
 >>>>>>> osgeo-main
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+=======
+>>>>>>> osgeo-main
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+=======
+>>>>>>> osgeo-main
             expression=f"{cls.b2}=5.0+rand(-1.0,1.0)",
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -169,6 +179,8 @@ class SuccessTest(TestCase):
 =======
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 021dfb5d52 (r.terrafow: explicit use of default constructors (#2660))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +314,16 @@ class SuccessTest(TestCase):
             expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
+=======
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
+=======
+=======
+            expression=f"{cls.b2}=if(row() == 3 && col() == 3, null(), 5.0+rand(-1.0,1.0))",
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
             flags="s",
             quiet=True,
         )
@@ -397,13 +419,12 @@ class SuccessTest(TestCase):
         cls.del_temp_region()
         shutil.rmtree(cls.sig_dir1, ignore_errors=True)
         shutil.rmtree(cls.sig_dir2, ignore_errors=True)
-        cls.runModule("g.remove", flags="f", type="raster", name=cls.b1, quiet=True)
-        cls.runModule("g.remove", flags="f", type="raster", name=cls.b2, quiet=True)
         cls.runModule(
-            "g.remove", flags="f", type="raster", name=cls.v1_class, quiet=True
-        )
-        cls.runModule(
-            "g.remove", flags="f", type="raster", name=cls.v2_class, quiet=True
+            "g.remove",
+            flags="f",
+            type="raster",
+            name=(cls.b1, cls.b2, cls.v1_class, cls.v2_class),
+            quiet=True,
         )
         cls.runModule("g.remove", flags="f", type="group", name=cls.group, quiet=True)
 

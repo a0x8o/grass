@@ -93,6 +93,8 @@ int load_rasters3d(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 int add_isosurfs(const struct GParams *params, nv_data *data)
 =======
 <<<<<<< HEAD
@@ -123,6 +125,10 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -150,6 +156,8 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int add_isosurfs(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -203,6 +211,16 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int add_isosurfs(const struct GParams *params, nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+int add_isosurfs(const struct GParams *params, nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int add_isosurfs(const struct GParams *params, nv_data *data)
@@ -413,6 +431,8 @@ int add_isosurfs(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 int add_slices(const struct GParams *params, nv_data *data)
 =======
 <<<<<<< HEAD
@@ -443,6 +463,10 @@ int add_slices(const struct GParams *params, nv_data *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -470,6 +494,8 @@ int add_slices(const struct GParams *params, nv_data *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int add_slices(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -523,6 +549,16 @@ int add_slices(const struct GParams *params, nv_data *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int add_slices(const struct GParams *params, nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+int add_slices(const struct GParams *params, nv_data *data)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int add_slices(const struct GParams *params, nv_data *data)

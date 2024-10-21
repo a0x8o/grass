@@ -166,6 +166,8 @@ void write_vtk_pointdata_header(FILE *fp, struct Cell_head region)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 =======
 <<<<<<< HEAD
@@ -196,6 +198,10 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -223,6 +229,8 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -276,6 +284,16 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
@@ -367,6 +385,8 @@ void write_vtk_structured_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 <<<<<<< HEAD
@@ -397,6 +417,10 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -424,6 +448,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -477,6 +503,16 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
@@ -571,6 +607,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         /*If Datafiltering should be supportet, we use Polygons to represent the
 =======
 <<<<<<< HEAD
@@ -601,6 +639,10 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -628,6 +670,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /*If Datafiltering should be supportet, we use Polygons to represent the
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -681,6 +725,16 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /*If Datafiltering should be supportet, we use Polygons to represent the
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        /*If Datafiltering should be supportet, we use Polygons to represent the
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /*If Datafiltering should be supportet, we use Polygons to represent the
@@ -726,6 +780,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         /*We creat a grid of quads, the corners of the quads are the datapoints
 =======
 <<<<<<< HEAD
@@ -756,6 +812,10 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -783,6 +843,8 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /*We creat a grid of quads, the corners of the quads are the datapoints
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -836,6 +898,16 @@ void write_vtk_polygonal_coordinates(int fd, FILE *fp, char *varname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /*We creat a grid of quads, the corners of the quads are the datapoints
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        /*We creat a grid of quads, the corners of the quads are the datapoints
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /*We creat a grid of quads, the corners of the quads are the datapoints

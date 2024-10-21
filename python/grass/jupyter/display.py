@@ -28,9 +28,15 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 import shutil
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -61,6 +67,8 @@ import shutil
 from IPython.display import Image
 =======
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,10 +172,18 @@ import tempfile
 =======
 import tempfile
 >>>>>>> osgeo-main
+=======
+import tempfile
+>>>>>>> osgeo-main
+=======
+import tempfile
+>>>>>>> osgeo-main
 import grass.script as gs
 
 
 class GrassRenderer:
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +261,14 @@ class GrassRenderer:
     """The grassRenderer class creates and displays GRASS maps in
     Jupyter Notebooks."""
 >>>>>>> osgeo-main
+=======
+    """The grassRenderer class creates and displays GRASS maps in
+    Jupyter Notebooks."""
+>>>>>>> osgeo-main
+=======
+    """The grassRenderer class creates and displays GRASS maps in
+    Jupyter Notebooks."""
+>>>>>>> osgeo-main
 
     def __init__(
         self,
@@ -255,6 +279,8 @@ class GrassRenderer:
         text_size=12,
         renderer="cairo",
     ):
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +407,16 @@ class GrassRenderer:
 =======
 
 >>>>>>> osgeo-main
+=======
+        """Initiates an instance of the GrassRenderer class."""
+=======
+
+>>>>>>> osgeo-main
+=======
+        """Initiates an instance of the GrassRenderer class."""
+=======
+
+>>>>>>> osgeo-main
         """Creates an instance of the GrassRenderer class.
 
         :param int height: height of map in pixels
@@ -393,6 +429,8 @@ class GrassRenderer:
 >>>>>>> 523219d6d4 (r.in.pdal: info.cpp also needs PDALCPPFLAGS (#1768))
 
         # Copy Environment
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,10 +511,16 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         if env:
             self._env = env.copy()
         else:
             self._env = os.environ.copy()
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,9 +555,15 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         # Environment Settings
         self._env["GRASS_RENDER_WIDTH"] = str(width)
         self._env["GRASS_RENDER_HEIGHT"] = str(height)
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +641,10 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         self._env["GRASS_TEXT_SIZE"] = str(text_size)
         self._env["GRASS_RENDER_IMMEDIATE"] = "cairo"
         self._env["GRASS_RENDER_FILE"] = str(filename)
@@ -619,6 +673,8 @@ class GrassRenderer:
         self._legend_file = os.path.join(self._tmpdir.name, "legend.txt")
         self._env["GRASS_LEGEND_FILE"] = str(self._legend_file)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,6 +802,10 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def run(self, module, **kwargs):
         """Run modules from "d." GRASS library"""
         # Check module is from display library then run
@@ -754,6 +814,8 @@ class GrassRenderer:
         else:
             raise ValueError("Module must begin with letter 'd'.")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -818,6 +880,10 @@ class GrassRenderer:
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     def show(self):
 <<<<<<< HEAD
         """Displays a PNG image of the map (non-interactive)"""
@@ -826,6 +892,8 @@ class GrassRenderer:
         from IPython.display import Image
 
 >>>>>>> 920471e340 (libraster: fix Rast_legal_bandref() (#1796))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -891,6 +959,10 @@ class GrassRenderer:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

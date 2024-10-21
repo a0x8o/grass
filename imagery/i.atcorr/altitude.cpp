@@ -288,6 +288,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -318,6 +320,10 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -345,6 +351,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -398,6 +406,16 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -443,6 +461,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             /* compute effective scale heigh */
 =======
 <<<<<<< HEAD
@@ -473,6 +493,10 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -500,6 +524,8 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -553,6 +579,16 @@ void Altitude::init(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* compute effective scale heigh */
@@ -670,6 +706,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             /* a scale heigh of 2km is assumed in case no value is given for
 =======
 <<<<<<< HEAD
@@ -700,6 +738,10 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -727,6 +769,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -780,6 +824,16 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+            /* a scale heigh of 2km is assumed in case no value is given for
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* a scale heigh of 2km is assumed in case no value is given for
@@ -825,6 +879,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             /* compute effective scale heigh */
 =======
 <<<<<<< HEAD
@@ -855,6 +911,10 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -882,6 +942,8 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* compute effective scale heigh */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -935,6 +997,16 @@ void Altitude::update_hv(AtmosModel &atms, const AerosolConcentration &aerocon)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+            /* compute effective scale heigh */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* compute effective scale heigh */

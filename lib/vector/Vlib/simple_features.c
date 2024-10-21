@@ -230,6 +230,8 @@ int Vect_sfa_line_astext(const struct line_pnts *Points, int type, int with_z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         /* write only outter/inner ring */
 =======
 <<<<<<< HEAD
@@ -260,6 +262,10 @@ int Vect_sfa_line_astext(const struct line_pnts *Points, int type, int with_z,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -287,6 +293,8 @@ int Vect_sfa_line_astext(const struct line_pnts *Points, int type, int with_z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* write only outter/inner ring */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -340,6 +348,16 @@ int Vect_sfa_line_astext(const struct line_pnts *Points, int type, int with_z,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* write only outter/inner ring */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
+=======
+        /* write only outter/inner ring */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* write only outter/inner ring */
@@ -411,6 +429,8 @@ int Vect_sfa_line_astext(const struct line_pnts *Points, int type, int with_z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
                             int with_z)
 =======
@@ -442,6 +462,10 @@ int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -471,6 +495,8 @@ int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -498,9 +524,15 @@ int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
 int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
                             int with_z)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +576,10 @@ int Vect_sfa_is_line_simple(const struct line_pnts *Points, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -620,6 +656,8 @@ int Vect_sfa_is_line_closed(const struct line_pnts *Points, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -653,10 +691,16 @@ int Vect_sfa_is_line_closed(const struct line_pnts *Points, int type,
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 int Vect_sfa_get_num_features(struct Map_info *Map)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +750,10 @@ int Vect_sfa_get_num_features(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
