@@ -2285,7 +2285,6 @@ class ProcessModelFile:
                     "size": size,
                     "text": text,
                     "id": int(node.get("id", -1)),
-                    "text": text,
                 }
             )
 
@@ -2619,6 +2618,7 @@ class WriteScriptFile(ABC):
     """Abstract class for scripts based on the model."""
 
     @abstractmethod
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3206,6 +3206,10 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> osgeo-main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3719,6 +3723,7 @@ if __name__ == "__main__":
 
 class WritePythonFile(WriteScriptFile):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4794,6 +4799,8 @@ class WritePythonFile(WriteScriptFile):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6190,6 +6197,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -6237,6 +6245,8 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6304,6 +6314,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6322,6 +6333,10 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6380,6 +6395,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6411,6 +6427,9 @@ def cleanup():
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -6448,6 +6467,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6496,6 +6516,8 @@ def cleanup():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         modelVars = self.model.GetVariables()
         for item in self.model.GetItems(ModelAction):
             modelParams = item.GetParameterizedParams()
@@ -6506,6 +6528,7 @@ def cleanup():
         for item in self.model.GetItems(ModelAction):
 =======
         for item in self.model.GetItems():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6570,6 +6593,11 @@ def cleanup():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

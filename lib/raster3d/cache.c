@@ -105,6 +105,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -185,6 +186,11 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes) {
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = read(map->cacheFD, tileBuf, nBytes)) < 0 ||
+        (size_t)res != nBytes) {
+=======
+>>>>>>> osgeo-main
     if (read(map->cacheFD, tileBuf, nBytes) != nBytes) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -201,6 +207,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +310,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -361,6 +370,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -441,6 +451,11 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes + sizeof(int)) {
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = read(map->cacheFD, xdr, nBytes + sizeof(int))) < 0 ||
+        (size_t)res != nBytes + sizeof(int)) {
+=======
+>>>>>>> osgeo-main
     if (read(map->cacheFD, xdr, nBytes + sizeof(int)) != nBytes + sizeof(int)) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -457,6 +472,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes + sizeof(int)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +575,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -600,6 +618,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -680,6 +699,11 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes + sizeof(int)) {
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = write(map->cacheFD, xdr, nBytes + sizeof(int))) < 0 ||
+        (size_t)res != nBytes + sizeof(int)) {
+=======
+>>>>>>> osgeo-main
     if (write(map->cacheFD, xdr, nBytes + sizeof(int)) !=
         nBytes + sizeof(int)) {
 <<<<<<< HEAD
@@ -698,6 +722,7 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
         (size_t)res != nBytes + sizeof(int)) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -803,6 +828,8 @@ static int cacheWrite_readFun(int tileIndex, void *tileBuf, void *closure)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -869,6 +896,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -949,6 +977,11 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
         (size_t)res != nBytes) {
 =======
 >>>>>>> osgeo-main
+=======
+    if ((res = write(map->cacheFD, tileBuf, nBytes)) < 0 ||
+        (size_t)res != nBytes) {
+=======
+>>>>>>> osgeo-main
     if (write(map->cacheFD, tileBuf, nBytes) != nBytes) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -965,6 +998,7 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
         (size_t)res != nBytes) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1067,6 +1101,8 @@ static int cacheWrite_writeFun(int tileIndex, const void *tileBuf,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

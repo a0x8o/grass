@@ -107,6 +107,7 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
 =======
@@ -138,6 +139,8 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -169,6 +172,7 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -198,9 +202,12 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     G_debug(3, "V1_rewrite_line_ogr(): type=%d offset=%" PRI_OFF_T, type,
             offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +252,8 @@ off_t V1_rewrite_line_ogr(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -314,6 +323,7 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 =======
 <<<<<<< HEAD
@@ -344,6 +354,8 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -374,6 +386,7 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -427,6 +440,11 @@ int V1_delete_line_ogr(struct Map_info *Map, off_t offset)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_warning(_("Invalid offset (%" PRI_OFF_T ")"), offset);

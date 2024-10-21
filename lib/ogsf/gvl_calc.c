@@ -436,6 +436,7 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* set egdes verts */
 =======
 <<<<<<< HEAD
@@ -466,6 +467,8 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -496,6 +499,7 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 /* set egdes verts */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -549,6 +553,11 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                /* set egdes verts */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 /* set egdes verts */
@@ -627,6 +636,7 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* set egdes verts */
 =======
 <<<<<<< HEAD
@@ -657,6 +667,8 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -687,6 +699,7 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 /* set egdes verts */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -740,6 +753,11 @@ void iso_calc_cube(geovol_isosurf *isosurf, int x, int y, int z,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                /* set egdes verts */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 /* set egdes verts */

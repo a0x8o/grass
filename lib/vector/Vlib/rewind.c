@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int rew_dummy(struct Map_info *Map)
 =======
 <<<<<<< HEAD
@@ -65,6 +66,8 @@ static int rew_dummy(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -95,6 +98,7 @@ static int rew_dummy(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static int rew_dummy(struct Map_info *Map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -148,6 +152,11 @@ static int rew_dummy(struct Map_info *Map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+static int rew_dummy(struct Map_info *Map)
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 static int rew_dummy(struct Map_info *Map)
@@ -200,6 +209,7 @@ static int rew_dummy(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 static int format(struct Map_info *Map)
 =======
 <<<<<<< HEAD
@@ -230,6 +240,8 @@ static int format(struct Map_info *Map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -260,6 +272,7 @@ static int format(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static int format(struct Map_info *Map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -313,6 +326,11 @@ static int format(struct Map_info *Map)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+static int format(struct Map_info *Map)
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 static int format(struct Map_info *Map)
@@ -373,6 +391,7 @@ static int format(struct Map_info *Map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -405,6 +424,10 @@ static int (*Rewind_array[][4])(struct Map_info *) = {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+static int (*Rewind_array[][4])(struct Map_info *) = {
+=======
+>>>>>>> osgeo-main
+=======
 static int (*Rewind_array[][4])(struct Map_info *) = {
 =======
 >>>>>>> osgeo-main
@@ -470,6 +493,7 @@ static int (*Rewind_array[][4])(struct Map_info *) = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a70512c8d (r.horizon manual - fix typo (#2794))
 =======
@@ -499,11 +523,14 @@ static int (*Rewind_array[][4])(struct Map_info *) = {
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 static int (*Rewind_array[][4])() = {
 =======
 static int (*Rewind_array[][4])(struct Map_info *) = {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,6 +617,8 @@ static int (*Rewind_array[][4])() = {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

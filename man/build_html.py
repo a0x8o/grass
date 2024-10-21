@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
@@ -84,10 +85,13 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 # (C) 2003-2024 Markus Neteler and the GRASS Development Team
 =======
 # (C) 2003-2022 Markus Neteler and the GRASS Development Team
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +113,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -145,6 +151,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
@@ -219,6 +226,11 @@
 >>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+# (C) 2003-2023 Markus Neteler and the GRASS Development Team
+>>>>>>> 6104ec7096 (i.maxlik: fix crash when classification result is NULL (#2724))
+>>>>>>> osgeo-main
 =======
 =======
 # (C) 2003-2023 Markus Neteler and the GRASS Development Team
@@ -711,10 +723,7 @@ def write_html_cmd_overview(f):
 
 
 def write_html_footer(f, index_url, year=None):
-    if year is None:
-        cur_year = default_year
-    else:
-        cur_year = year
+    cur_year = default_year if year is None else year
     f.write(
         footer_tmpl.substitute(
             grass_version=grass_version, index_url=index_url, year=cur_year

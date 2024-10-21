@@ -178,6 +178,7 @@ import xml.etree.ElementTree as etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +243,34 @@ if sys.version_info.major == 3 and sys.version_info.minor < 8:
 =======
 
 if sys.version_info.major == 3 and sys.version_info.minor < 8:
+=======
+=======
+=======
+
+if sys.version_info.major == 3 and sys.version_info.minor < 8:
+    from distutils.dir_util import copy_tree
+else:
+    from functools import partial
+
+    copy_tree = partial(shutil.copytree, dirs_exist_ok=True)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+
+if sys.version_info.major == 3 and sys.version_info.minor < 8:
+    from distutils.dir_util import copy_tree
+else:
+    from functools import partial
+
+    copy_tree = partial(shutil.copytree, dirs_exist_ok=True)
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
+
+<<<<<<< HEAD
+if sys.version_info < (3, 8):
+=======
+<<<<<<< HEAD
+if sys.version_info.major == 3 and sys.version_info.minor < 8:
+>>>>>>> 0f7db87b86 (r.in.pdal: use fabs for double values (#1752))
+>>>>>>> osgeo-main
     from distutils.dir_util import copy_tree
 else:
     from functools import partial
@@ -496,6 +525,7 @@ from six.moves.urllib.parse import urlparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
@@ -557,6 +587,11 @@ from six.moves.urllib.parse import urlparse
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -991,6 +1026,7 @@ def replace_shebang_win(python_file):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def replace_shebang_win(python_file):
     """
     Replaces "python" with "python3" in python files
@@ -1383,6 +1419,8 @@ def replace_shebang_win(python_file):
 
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 def urlretrieve(url, filename, *args, **kwargs):
     """Same function as 'urlretrieve', but with the ability to
     define headers.
@@ -1405,6 +1443,7 @@ def get_version_branch(major_version):
     if not, take branch for the previous version
     For the official repo we assume that at least one version branch is present"""
     version_branch = f"grass{major_version}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,6 +1490,8 @@ def get_version_branch(major_version):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1501,6 +1542,7 @@ def get_version_branch(major_version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1546,6 +1588,10 @@ def get_version_branch(major_version):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1689,6 +1735,7 @@ def download_addons_paths_file(url, response_format, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
@@ -1714,6 +1761,8 @@ def download_addons_paths_file(url, response_format, *args, **kwargs):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1834,6 +1883,7 @@ def etree_fromurl(url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gscript.fatal(
 =======
 <<<<<<< HEAD
@@ -1864,6 +1914,8 @@ def etree_fromurl(url):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1894,6 +1946,7 @@ def etree_fromurl(url):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         gscript.fatal(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1947,6 +2000,11 @@ def etree_fromurl(url):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        gscript.fatal(
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         gscript.fatal(
@@ -2006,6 +2064,7 @@ def check_progs():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2035,6 +2094,8 @@ def check_progs():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2065,6 +2126,7 @@ def check_progs():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2110,6 +2172,10 @@ def check_progs():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3014,6 +3080,7 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3043,6 +3110,8 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3086,6 +3155,7 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3131,6 +3201,10 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3201,6 +3275,7 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3262,6 +3337,11 @@ def get_multi_addon_addons_which_install_only_html_man_page():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3314,6 +3394,7 @@ def filter_multi_addon_addons(mlist):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     excutable module and doesn't need to check metadata.
 =======
 <<<<<<< HEAD
@@ -3344,6 +3425,8 @@ def filter_multi_addon_addons(mlist):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3374,6 +3457,7 @@ def filter_multi_addon_addons(mlist):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     excutable module and doesn't need to check metadata.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3427,6 +3511,11 @@ def filter_multi_addon_addons(mlist):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    excutable module and doesn't need to check metadata.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     excutable module and doesn't need to check metadata.
@@ -3509,6 +3598,7 @@ def install_module_xml(mlist):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3538,6 +3628,8 @@ def install_module_xml(mlist):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3571,6 +3663,7 @@ def install_module_xml(mlist):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3616,6 +3709,10 @@ def install_module_xml(mlist):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3662,6 +3759,7 @@ def install_module_xml(mlist):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3723,6 +3821,11 @@ def install_module_xml(mlist):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3852,6 +3955,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3913,6 +4017,11 @@ def install_extension_win(name):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3966,6 +4075,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4001,11 +4111,14 @@ def install_extension_win(name):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         f"grass{VERSION[0]}{VERSION[1]}/addons/"
         f"grass-{VERSION[0]}.{VERSION[1]}.{VERSION[2]}"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4059,6 +4172,8 @@ def install_extension_win(name):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4092,6 +4207,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4153,6 +4269,11 @@ def install_extension_win(name):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4231,6 +4352,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 =======
 <<<<<<< HEAD
@@ -4261,6 +4383,8 @@ def install_extension_win(name):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4291,6 +4415,7 @@ def install_extension_win(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
@@ -4344,6 +4469,11 @@ def install_extension_win(name):
 >>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
+>>>>>>> 7c10386e82 (g.proj: fix reading input WKT (#1582))
+>>>>>>> osgeo-main
 =======
 =======
             if re.search(r"^[d,db,g,i,m,p,ps,r,r3,s,t,v,wx]\..*[\.py,\.exe]$", file):
@@ -4730,6 +4860,7 @@ def install_extension_std_platforms(name, source, url, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -4788,10 +4919,13 @@ def install_extension_std_platforms(name, source, url, branch):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     path_to_src_code_message = _("Path to the source code:")
 =======
     source_url = "https://github.com/OSGeo/grass-addons/tree/master/grass8/"
 >>>>>>> 73a1a8ce38 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4813,6 +4947,8 @@ def install_extension_std_platforms(name, source, url, branch):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -4848,6 +4984,7 @@ def install_extension_std_platforms(name, source, url, branch):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -4914,6 +5051,10 @@ def install_extension_std_platforms(name, source, url, branch):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5418,6 +5559,7 @@ def update_manual_page(module):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5447,6 +5589,8 @@ def update_manual_page(module):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5480,6 +5624,7 @@ def update_manual_page(module):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -5525,6 +5670,10 @@ def update_manual_page(module):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -5571,6 +5720,7 @@ def update_manual_page(module):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5632,6 +5782,11 @@ def update_manual_page(module):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5747,6 +5902,7 @@ def resolve_xmlurl_prefix(url, source=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
@@ -5795,12 +5951,16 @@ def resolve_xmlurl_prefix(url, source=None):
     if source in {"official", "official_fork"}:
 >>>>>>> osgeo-main
 =======
+    if source in {"official", "official_fork"}:
+>>>>>>> osgeo-main
+=======
 =======
     gscript.debug("resolve_xmlurl_prefix(url={0}, source={1})".format(url, source))
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
     if source in ("official", "official_fork"):
 >>>>>>> 3309d04075 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5899,10 +6059,16 @@ def resolve_xmlurl_prefix(url, source=None):
         # Define branch to fetch from (latest or current version)
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+        # use pregenerated modules XML file
+        # Define branch to fetch from (latest or current version)
+<<<<<<< HEAD
+>>>>>>> osgeo-main
         version_branch = get_version_branch(VERSION[0])
 =======
         version_branch = get_version_branch(version[0])
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5943,11 +6109,14 @@ def resolve_xmlurl_prefix(url, source=None):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     if source in ("official", "official_fork"):
         # use pregenerated modules XML file
         # Define branch to fetch from (latest or current version)
         version_branch = get_version_branch(version[0])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6004,6 +6173,8 @@ def resolve_xmlurl_prefix(url, source=None):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6177,6 +6348,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6199,6 +6371,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6231,6 +6405,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 020d15913e (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -6260,9 +6435,12 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     >>> resolve_source_code('https://svn.osgeo.org/grass/grass-addons/grass8')
     ('svn', 'https://svn.osgeo.org/grass/grass-addons/grass8')
 >>>>>>> 227cbcebbf (Programmer's manual: update GRASS GIS arch drawing (#1610))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6300,6 +6478,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6398,6 +6578,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not url or url == GIT_URL:
 =======
         if not url:
@@ -6449,6 +6630,9 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 =======
         if not url or url == GIT_URL:
 >>>>>>> osgeo-main
+=======
+        if not url or url == GIT_URL:
+>>>>>>> osgeo-main
             # Set URL for the given GRASS version
             git_url = f"{GIT_URL}/{svn_reference}/src/{module_class}/{name}"
             return "official", git_url
@@ -6457,6 +6641,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
             url = url.rstrip("/")
             git_url = f"{url}/{svn_reference}/src/{module_class}/{name}"
             return "official_fork", git_url
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6535,6 +6720,11 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
 =======
@@ -6588,6 +6778,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message = None
 =======
 >>>>>>> f9d61299d7 (r.in.pdal: use fabs for double values (#1752))
@@ -6618,6 +6809,9 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
         message = None
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+        message = None
+>>>>>>> osgeo-main
 =======
         message = None
 >>>>>>> osgeo-main
@@ -6655,6 +6849,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except URLError as error:
                 message = error
 =======
@@ -6699,6 +6894,10 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
                 message = error
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            except URLError as error:
+                message = error
+>>>>>>> osgeo-main
 =======
             except URLError as error:
                 message = error
@@ -6742,6 +6941,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except URLError as error:
                 message = error
 =======
@@ -6786,6 +6986,10 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
                 message = error
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+            except URLError as error:
+                message = error
+>>>>>>> osgeo-main
 =======
             except URLError as error:
                 message = error
@@ -6835,6 +7039,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -6884,6 +7089,8 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
             except URLError:
                 pass
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
@@ -6892,6 +7099,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
     if fork:
         return "official_fork", url
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6951,6 +7159,10 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -6998,6 +7210,7 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7059,6 +7272,11 @@ def resolve_source_code(url=None, name=None, branch=None, fork=False):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7134,6 +7352,7 @@ def get_addons_paths(gg_addons_base_dir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Get and save addons paths from GRASS GIS Addons GitHub repo API
     as 'addons_paths.json' file in the gg_addons_base_dir. The file
     serves as a list of all addons, and their paths (required for
@@ -7170,6 +7389,8 @@ def get_addons_paths(gg_addons_base_dir):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7227,6 +7448,7 @@ def get_addons_paths(gg_addons_base_dir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7256,6 +7478,8 @@ def get_addons_paths(gg_addons_base_dir):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     """Get and save addons paths from GRASS GIS Addons GitHub repo API
     as 'addons_paths.json' file in the gg_addons_base_dir. The file
     serves as a list of all addons, and their paths (required for
@@ -7264,6 +7488,7 @@ def get_addons_paths(gg_addons_base_dir):
     :param str gg_addons_base_dir: dir path where addons are installed
     """
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7307,6 +7532,8 @@ def get_addons_paths(gg_addons_base_dir):
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     """Get and save addons paths from GRASS GIS Addons GitHub repo API
     as 'addons_paths.json' file in the gg_addons_base_dir. The file
     serves as a list of all addons, and their paths (required for
@@ -7315,6 +7542,7 @@ def get_addons_paths(gg_addons_base_dir):
     :param str gg_addons_base_dir: dir path where addons are installed
     """
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7377,6 +7605,8 @@ def get_addons_paths(gg_addons_base_dir):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     # Define branch to fetch from (latest or current version)
     addons_branch = get_version_branch(version[0])
     url = f"https://api.github.com/repos/OSGeo/grass-addons/git/trees/{addons_branch}?recursive=1"
@@ -7403,6 +7633,7 @@ def get_addons_paths(gg_addons_base_dir):
 get_addons_paths.json_file = "addons_paths.json"
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7472,6 +7703,11 @@ get_addons_paths.json_file = "addons_paths.json"
 
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+get_addons_paths.json_file = "addons_paths.json"
+
+
+>>>>>>> osgeo-main
 =======
 get_addons_paths.json_file = "addons_paths.json"
 
@@ -7608,6 +7844,7 @@ if __name__ == "__main__":
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7624,6 +7861,8 @@ if __name__ == "__main__":
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7640,6 +7879,7 @@ if __name__ == "__main__":
 <<<<<<< HEAD
     build_platform = grass_version["build_platform"].split("-", 1)[0]
 >>>>>>> 27faeed049 (r.in.pdal: use fabs for double values (#1752))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7699,6 +7939,10 @@ if __name__ == "__main__":
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+
+=======
+>>>>>>> osgeo-main
 =======
 
 =======

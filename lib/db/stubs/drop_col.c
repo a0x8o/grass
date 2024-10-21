@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_drop_column(dbString *tableName, dbString *columnName)
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ int db__driver_drop_column(dbString *tableName, dbString *columnName)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -79,6 +82,7 @@ int db__driver_drop_column(dbString *tableName, dbString *columnName)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_drop_column(dbString *tableName, dbString *columnName)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -132,6 +136,11 @@ int db__driver_drop_column(dbString *tableName, dbString *columnName)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_drop_column(dbString *tableName, dbString *columnName)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int db__driver_drop_column(dbString *tableName, dbString *columnName)

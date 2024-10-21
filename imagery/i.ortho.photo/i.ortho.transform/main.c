@@ -116,6 +116,7 @@ static int get_target(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprintf(buf, _("Target location <%s> not found"), location);
 =======
 <<<<<<< HEAD
@@ -146,6 +147,8 @@ static int get_target(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -176,6 +179,7 @@ static int get_target(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         sprintf(buf, _("Target location <%s> not found"), location);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -229,6 +233,11 @@ static int get_target(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        sprintf(buf, _("Target location <%s> not found"), location);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         sprintf(buf, _("Target location <%s> not found"), location);

@@ -35,6 +35,7 @@ int I_cluster_distinct(struct Cluster *, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -115,6 +116,11 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 =======
 >>>>>>> osgeo-main
+=======
+int I_cluster_exec(struct Cluster *, int, int, double, double, int,
+                   int (*)(struct Cluster *, int), int *);
+=======
+>>>>>>> osgeo-main
 int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
                    int *);
 <<<<<<< HEAD
@@ -133,6 +139,7 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int,
                    int (*)(struct Cluster *, int), int *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +245,8 @@ int I_cluster_exec(struct Cluster *, int, int, double, double, int, int (*)(),
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

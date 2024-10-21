@@ -62,6 +62,7 @@ int I_get_group(char *group)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -97,10 +98,13 @@ int I_get_group(char *group)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     stat = (fscanf(fd, "%255s", group) == 1);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +155,8 @@ int I_get_group(char *group)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -213,6 +219,7 @@ int I_get_subgroup(const char *group, char *subgroup)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -248,10 +255,13 @@ int I_get_subgroup(const char *group, char *subgroup)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     stat = (fscanf(fd, "%255s", subgroup) == 1);
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +312,8 @@ int I_get_subgroup(const char *group, char *subgroup)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -454,6 +466,7 @@ static int get_ref(const char *group, const char *subgroup, const char *gmapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         n = sscanf(buf, "%255s %255s %15s", name, mapset,
                    color); /* better use INAME_LEN */
 =======
@@ -485,6 +498,8 @@ static int get_ref(const char *group, const char *subgroup, const char *gmapset,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -517,6 +532,7 @@ static int get_ref(const char *group, const char *subgroup, const char *gmapset,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -546,9 +562,12 @@ static int get_ref(const char *group, const char *subgroup, const char *gmapset,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         n = sscanf(buf, "%255s %255s %15s", name, mapset,
                    color); /* better use INAME_LEN */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +612,8 @@ static int get_ref(const char *group, const char *subgroup, const char *gmapset,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -682,6 +703,7 @@ int I_init_ref_color_nums(struct Ref *ref)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ref->blu.n >= 0)
 =======
 <<<<<<< HEAD
@@ -712,6 +734,8 @@ int I_init_ref_color_nums(struct Ref *ref)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -742,6 +766,7 @@ int I_init_ref_color_nums(struct Ref *ref)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ref->blu.n >= 0)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -795,6 +820,11 @@ int I_init_ref_color_nums(struct Ref *ref)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        ref->blu.n >= 0)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         ref->blu.n >= 0)

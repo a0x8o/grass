@@ -144,6 +144,7 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* solver algoithms and helper functions */
 =======
 <<<<<<< HEAD
@@ -174,6 +175,8 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -204,6 +207,7 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* solver algoithms and helper functions */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -257,6 +261,11 @@ extern int G_math_solver_sparse_bicgstab(G_math_spvector **, double *, double *,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+/* solver algoithms and helper functions */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 /* solver algoithms and helper functions */

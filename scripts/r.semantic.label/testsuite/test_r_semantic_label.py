@@ -17,6 +17,7 @@ from grass.gunittest.main import test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -77,6 +80,7 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -130,6 +134,11 @@ from grass.gunittest.gmodules import SimpleModule, call_module
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+from grass.gunittest.gmodules import SimpleModule, call_module
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 from grass.gunittest.gmodules import SimpleModule, call_module
@@ -220,6 +229,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -249,6 +259,8 @@ class TestSemanticLabelsSystemDefined(TestCase):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -292,6 +304,7 @@ class TestSemanticLabelsSystemDefined(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -337,6 +350,10 @@ class TestSemanticLabelsSystemDefined(TestCase):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

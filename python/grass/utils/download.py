@@ -47,6 +47,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Lazy import to avoding potential circular dependency.
 =======
 <<<<<<< HEAD
@@ -77,6 +78,8 @@ def debug(*args, **kwargs):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -107,6 +110,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     # Lazy import to avoding potential circular dependency.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -160,6 +164,11 @@ def debug(*args, **kwargs):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    # Lazy import to avoding potential circular dependency.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     # Lazy import to avoding potential circular dependency.
@@ -228,6 +237,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tar.extractall(path=extract_dir)
 =======
 <<<<<<< HEAD
@@ -258,6 +268,8 @@ def extract_tar(name, directory, tmpdir):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -302,6 +314,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         tar.extractall(path=extract_dir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -355,6 +368,11 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        tar.extractall(path=extract_dir)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         tar.extractall(path=extract_dir)

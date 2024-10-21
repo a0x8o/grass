@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -110,6 +111,11 @@ FILE *I_fopen_group_init_new(char *);
 =======
 >>>>>>> osgeo-main
 =======
+FILE *I_fopen_group_init_old(char *);
+FILE *I_fopen_group_init_new(char *);
+=======
+>>>>>>> osgeo-main
+=======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 FILE *I_fopen_group_init_old();
 FILE *I_fopen_group_init_new();
@@ -126,6 +132,7 @@ FILE *I_fopen_group_init_old(char *);
 FILE *I_fopen_group_init_new(char *);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +232,8 @@ FILE *I_fopen_group_init_new();
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

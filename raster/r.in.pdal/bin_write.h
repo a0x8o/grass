@@ -43,6 +43,7 @@ void write_sum(void *, void *, void *, int, int, RASTER_MAP_TYPE);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -128,6 +129,10 @@ void write_sum(void *, void *, void *, int, int, RASTER_MAP_TYPE);
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 void write_variance(void *, void *, void *, void *, int, int, RASTER_MAP_TYPE,
                     int);
 void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
@@ -141,6 +146,7 @@ void write_trimmean(struct BinIndex *, void *, void *, int, int,
 void write_sidn(struct BinIndex *, void *, void *, int, int, int);
 void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
               int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +202,9 @@ void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -232,6 +241,7 @@ void write_median(struct BinIndex *, void *,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -261,10 +271,13 @@ void write_median(struct BinIndex *, void *,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 void write_variance(void *, void *, void *, void *, int, int, RASTER_MAP_TYPE,
                     int);
 void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +313,8 @@ void write_median(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 void write_mode(struct BinIndex *, void *, void *, int, int);
 void write_percentile(struct BinIndex *, void *, void *, int, int,
                       RASTER_MAP_TYPE, int);
@@ -308,6 +323,7 @@ void write_skewness(struct BinIndex *, void *, void *, int, int,
 void write_trimmean(struct BinIndex *, void *, void *, int, int,
                     RASTER_MAP_TYPE, double);
 void write_sidn(struct BinIndex *, void *, void *, int, int, int);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,10 +405,13 @@ void write_sidn(struct BinIndex *, void *, void *, int, int, int);
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 void write_ev(struct BinIndex *, void *, void *,
               int, int, RASTER_MAP_TYPE, int);
 
 >>>>>>> 9d4a079d2e (libcairodriver: enable Cairo with and without Fontconfig (#1697))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,9 +455,12 @@ void write_ev(struct BinIndex *, void *, void *,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
               int);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,6 +526,10 @@ void write_ev(struct BinIndex *, void *, void *, int, int, RASTER_MAP_TYPE,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

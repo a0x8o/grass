@@ -42,6 +42,7 @@ static double dist_squared(double, double, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 'node' must of course already exist space will be alloced to add 'line' to
 =======
 <<<<<<< HEAD
@@ -72,6 +73,8 @@ static double dist_squared(double, double, double, double);
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -102,6 +105,7 @@ static double dist_squared(double, double, double, double);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * 'node' must of course already exist space will be alloced to add 'line' to
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -155,6 +159,11 @@ static double dist_squared(double, double, double, double);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * 'node' must of course already exist space will be alloced to add 'line' to
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * 'node' must of course already exist space will be alloced to add 'line' to

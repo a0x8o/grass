@@ -328,6 +328,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* Cheking presence of water. */
 =======
 <<<<<<< HEAD
@@ -358,6 +359,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -388,6 +391,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 /* Cheking presence of water. */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -441,6 +445,11 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                /* Cheking presence of water. */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 /* Cheking presence of water. */

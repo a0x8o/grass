@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68,11 +69,14 @@
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 #include <cinttypes>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +130,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -477,6 +483,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -552,6 +559,10 @@ void record_args(int argc, char **argv)
     snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
+=======
+>>>>>>> osgeo-main
     sprintf(buf, "D8CUT=%f", opt->d8cut);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -560,6 +571,7 @@ void record_args(int argc, char **argv)
 =======
     snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,11 +615,14 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(buf, "D8CUT=%f", opt->d8cut);
 =======
     snprintf(buf, BUFSIZ, "D8CUT=%f", opt->d8cut);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +709,8 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -735,6 +752,7 @@ void record_args(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -810,6 +828,10 @@ void record_args(int argc, char **argv)
     snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
+=======
+>>>>>>> osgeo-main
     sprintf(buf, "Memory size: %s bytes", tmp);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -818,6 +840,7 @@ void record_args(int argc, char **argv)
 =======
     snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,11 +884,14 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(buf, "Memory size: %s bytes", tmp);
 =======
     snprintf(buf, BUFSIZ, "Memory size: %s bytes", tmp);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +978,8 @@ void record_args(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1054,6 +1082,7 @@ void printMaxSortSize(long nodata_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1083,6 +1112,8 @@ void printMaxSortSize(long nodata_count)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1117,6 +1148,7 @@ void printMaxSortSize(long nodata_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -1162,6 +1194,10 @@ void printMaxSortSize(long nodata_count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1210,6 +1246,7 @@ void printMaxSortSize(long nodata_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1271,6 +1308,11 @@ void printMaxSortSize(long nodata_count)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1395,6 +1437,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1470,6 +1513,10 @@ int main(int argc, char *argv[])
     snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
+=======
+>>>>>>> osgeo-main
     sprintf(buf, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1478,6 +1525,7 @@ int main(int argc, char *argv[])
 =======
     snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1521,11 +1569,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(buf, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 =======
     snprintf(buf, BUFSIZ, "%s=%s", STREAM_TMPDIR, opt->streamdir);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1663,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1743,6 +1796,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1818,6 +1872,10 @@ int main(int argc, char *argv[])
     snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
 =======
 >>>>>>> osgeo-main
+=======
+    snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
+=======
+>>>>>>> osgeo-main
     sprintf(path, "%s/flowStream", streamdir->answer);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1826,6 +1884,7 @@ int main(int argc, char *argv[])
 =======
     snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,11 +1928,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     sprintf(path, "%s/flowStream", streamdir->answer);
 =======
     snprintf(path, GPATH_MAX, "%s/flowStream", streamdir->answer);
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1960,6 +2022,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

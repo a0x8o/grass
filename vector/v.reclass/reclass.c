@@ -40,6 +40,7 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dbCatValArray *cvarr, int dissolve)
 =======
 <<<<<<< HEAD
@@ -70,6 +71,8 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -100,6 +103,7 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             dbCatValArray *cvarr, int dissolve)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -153,6 +157,11 @@ int reclass(struct Map_info *In, struct Map_info *Out, int type, int field,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            dbCatValArray *cvarr, int dissolve)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             dbCatValArray *cvarr, int dissolve)

@@ -21,6 +21,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int center;  /* neares center, initially -1 */
 =======
 <<<<<<< HEAD
@@ -51,6 +52,8 @@ typedef struct {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -81,6 +84,7 @@ typedef struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int center;  /* neares center, initially -1 */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -134,6 +138,11 @@ typedef struct {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    int center;  /* neares center, initially -1 */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     int center;  /* neares center, initially -1 */

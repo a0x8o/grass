@@ -470,6 +470,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 =======
 <<<<<<< HEAD
@@ -494,6 +495,8 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -522,6 +525,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -563,6 +567,11 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                "N_convert_array_2d_null_to_zero: %i valuess of type "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
@@ -597,6 +606,7 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
                 count);
     if (a->type == DCELL_TYPE)
         G_debug(2,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -661,10 +671,13 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 "N_convert_array_2d_null_to_zero: %i values of type "
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +758,11 @@ int N_convert_array_2d_null_to_zero(N_array_2d *a)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                "N_convert_array_2d_null_to_zero: %i valuess of type "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "N_convert_array_2d_null_to_zero: %i valuess of type "

@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    geometry, path to curent geometry in the feature. First 'part' number
 =======
 <<<<<<< HEAD
@@ -74,6 +75,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -104,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    geometry, path to curent geometry in the feature. First 'part' number
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -157,6 +161,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+   geometry, path to curent geometry in the feature. First 'part' number
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
    geometry, path to curent geometry in the feature. First 'part' number

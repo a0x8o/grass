@@ -144,6 +144,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -219,6 +220,10 @@ void main_loop(void)
     /* int icoub, nmult */;
 =======
 >>>>>>> osgeo-main
+=======
+    /* int icoub, nmult */;
+=======
+>>>>>>> osgeo-main
     int icoub /*, nmult */;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -227,6 +232,7 @@ void main_loop(void)
 =======
     /* int icoub, nmult */;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,11 +276,14 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     int icoub /*, nmult */;
 =======
     /* int icoub, nmult */;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +370,8 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -414,6 +425,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -486,6 +498,10 @@ void main_loop(void)
     /* icoub = 0; */
 =======
 >>>>>>> osgeo-main
+=======
+    /* icoub = 0; */
+=======
+>>>>>>> osgeo-main
     icoub = 0;
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -494,6 +510,7 @@ void main_loop(void)
 =======
     /* icoub = 0; */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,11 +554,14 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     icoub = 0;
 =======
     /* icoub = 0; */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +642,8 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -670,6 +692,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -745,6 +768,10 @@ void main_loop(void)
         /* ++icoub; */
 =======
 >>>>>>> osgeo-main
+=======
+        /* ++icoub; */
+=======
+>>>>>>> osgeo-main
         ++icoub;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -753,6 +780,7 @@ void main_loop(void)
 =======
         /* ++icoub; */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,11 +824,14 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
         ++icoub;
 =======
         /* ++icoub; */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +918,8 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1063,6 +1096,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             if (infil != NULL) { /* infiltration part */
 =======
 <<<<<<< HEAD
@@ -1093,6 +1127,8 @@ void main_loop(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1123,6 +1159,7 @@ void main_loop(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             if (infil != NULL) { /* infiltration part */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1176,6 +1213,11 @@ void main_loop(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            if (infil != NULL) { /* infiltration part */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             if (infil != NULL) { /* infiltration part */

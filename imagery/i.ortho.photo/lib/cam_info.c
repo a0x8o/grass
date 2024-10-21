@@ -77,6 +77,7 @@ int I_read_cam_info(FILE *fd, struct Ortho_Camera_File_Ref *cam_info)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 =======
@@ -108,6 +109,8 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -140,6 +143,7 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -169,9 +173,12 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
                     double Xf, double Yf)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +223,8 @@ int I_new_fid_point(struct Ortho_Camera_File_Ref *cam_info, char fid_id[30],
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

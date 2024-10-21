@@ -100,6 +100,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              double nullValue)
 =======
 <<<<<<< HEAD
@@ -130,6 +131,8 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -160,6 +163,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
              double nullValue)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -213,6 +217,11 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+             double nullValue)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
              double nullValue)
@@ -321,6 +330,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -396,6 +406,10 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
                         if (convertNull && IS_MISSING(value))
 =======
 >>>>>>> osgeo-main
+=======
+                        if (convertNull && IS_MISSING(value))
+=======
+>>>>>>> osgeo-main
                         if (convertNull && (value == MISSING))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -404,6 +418,7 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 =======
                         if (convertNull && IS_MISSING(value))
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,11 +462,14 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                         if (convertNull && (value == MISSING))
 =======
                         if (convertNull && IS_MISSING(value))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,6 +556,8 @@ void convert(char *openFile, RASTER3D_Region *region, int convertNull,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

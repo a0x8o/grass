@@ -28,6 +28,7 @@ without a focus on a specific part of the code.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -103,6 +104,8 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 =======
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 There are two testing mechanism in place, _pytest_ which is the modern way of testing
 GRASS GIS. Tests using _pytest_ are written just as any other Python tests.
 =======
@@ -127,12 +130,16 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 >>>>>>> 5cd58fa15c (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,9 +193,13 @@ GRASS GIS testsuite documentation: https://grass.osgeo.org/grass80/manuals/libpy
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 =======
+>>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
 GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html>
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
@@ -276,6 +287,9 @@ GRASS GIS testsuite documentation: <https://grass.osgeo.org/grass-devel/manuals/
 =======
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 
 In parallel, there is also custom unittest-based framework centered around
 _grass.gunittest_ package. These tests run in the NC sample datasets and can be
@@ -314,6 +328,7 @@ Since 2020: For a more advanced test suite, see
 
 Until 2019: For a more advanced test suite, see
 <http://fatra.cnr.ncsu.edu/grassgistests/summary_report/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,10 +399,13 @@ Until 2019: For a more advanced test suite, see
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -432,6 +450,8 @@ Until 2019: For a more advanced test suite, see
 <<<<<<< HEAD
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> bc7152a288 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
@@ -440,6 +460,9 @@ Until 2019: For a more advanced test suite, see
 >>>>>>> a3af1d0366 (Fix missing function prototypes (#2727))
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
+=======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
@@ -448,6 +471,7 @@ Until 2019: For a more advanced test suite, see
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +550,9 @@ Until 2019: For a more advanced test suite, see
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
+>>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 =======
 >>>>>>> bb9e769d49 (r.horizon manual - fix typo (#2794))

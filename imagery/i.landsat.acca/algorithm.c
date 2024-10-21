@@ -84,6 +84,7 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;
 =======
 <<<<<<< HEAD
@@ -114,6 +115,8 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -144,6 +147,7 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -197,6 +201,11 @@ double th_7 = 1.0;     /* Band 4/5 Ratio */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+;
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 ;

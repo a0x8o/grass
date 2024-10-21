@@ -53,6 +53,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Lat/Long locations are not supported by this module"));
 =======
 <<<<<<< HEAD
@@ -83,6 +84,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -113,6 +116,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Lat/Long locations are not supported by this module"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -166,6 +170,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_fatal_error(_("Lat/Long locations are not supported by this module"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_fatal_error(_("Lat/Long locations are not supported by this module"));

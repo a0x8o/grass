@@ -26,6 +26,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -98,12 +99,18 @@ msgstr ""
 =======
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+"POT-Creation-Date: 2024-05-23 03:37-0600\n"
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 "POT-Creation-Date: 2024-02-09 06:51-0700\n"
 >>>>>>> 196338e256 (wxpyimgview: explicit conversion to int (#2704))
 "PO-Revision-Date: 2023-11-04 10:23+0000\n"
 =======
 "POT-Creation-Date: 2021-02-17 23:13-0500\n"
 "PO-Revision-Date: 2022-05-23 10:50+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +189,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -237,6 +249,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -266,6 +279,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -296,6 +311,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -341,6 +357,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -975,6 +995,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1036,6 +1057,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1112,6 +1138,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1147,11 +1174,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "Unable to set current context (CGL error = %d)"
 msgstr ""
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1205,6 +1235,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1240,6 +1272,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1301,6 +1334,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3224,6 +3262,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3285,6 +3324,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -3505,6 +3549,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3540,11 +3585,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "G__open(read): mapset <%s> doesn't match xmapset <%s>"
 msgstr "G__open(read): mapset <%s> passt nicht zu xmapset <%s>."
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3598,6 +3646,8 @@ msgstr "G__open(read): mapset <%s> passt nicht zu xmapset <%s>."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3634,6 +3684,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3695,6 +3746,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4707,6 +4763,7 @@ msgstr "Datenbank Schema"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -4768,6 +4825,11 @@ msgstr "Datenbank Schema"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -4964,6 +5026,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5025,6 +5088,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5085,6 +5153,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5146,6 +5215,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5441,6 +5515,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5502,6 +5577,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5719,6 +5799,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -5780,6 +5861,11 @@ msgid ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5872,6 +5958,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -5888,6 +5975,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5921,6 +6010,7 @@ msgid ""
 "Unable to create signature file <%s> for subgroup <%s> of group <%s> - <%s> "
 "is not current mapset"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5977,6 +6067,9 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -6191,6 +6284,7 @@ msgstr ""
 
 #: ../lib/gis/view.c:169
 #, c-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6577,10 +6671,16 @@ msgid "Unable to open %s for writing"
 msgstr "Kann %s nicht zum Schreiben öffnen."
 =======
 >>>>>>> osgeo-main
+=======
+msgid "Unable to open %s for writing"
+msgstr "Kann %s nicht zum Schreiben öffnen."
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Neither %s (managed by d.mon command) nor %s (used for direct rendering) "
 "defined"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6620,6 +6720,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6682,6 +6784,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -6727,6 +6830,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -7008,6 +7115,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7037,6 +7145,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7121,6 +7231,7 @@ msgstr "Variable '%s' nicht gesetzt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7151,6 +7262,9 @@ msgstr "Variable '%s' nicht gesetzt"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> osgeo-main
@@ -7188,6 +7302,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7213,6 +7328,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7287,6 +7404,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7348,6 +7466,11 @@ msgid ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7399,6 +7522,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Your GRASS version does not fully support topology format %d.%d of the "
 "vector. Consider to rebuild topology or upgrade GRASS."
@@ -7431,6 +7555,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7473,6 +7599,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7502,10 +7629,13 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 msgid ""
 "Your GRASS version does not fully support topology format %d.%d of the "
 "vector. Consider to rebuild topology or upgrade GRASS."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7550,6 +7680,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7583,6 +7715,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Old topology format version %d.%d is not supported by this release. Try to "
 "rebuild topology using v.build or v.build.all module."
@@ -7615,6 +7748,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7647,6 +7782,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -7676,10 +7812,13 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 msgid ""
 "Old topology format version %d.%d is not supported by this release. Try to "
 "rebuild topology using v.build or v.build.all module."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7724,6 +7863,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7771,6 +7912,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7806,11 +7948,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "gettimeofday failed: %s"
 msgstr "gettimeofday fehlgeschlagen: %s"
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7864,6 +8009,8 @@ msgstr "gettimeofday fehlgeschlagen: %s"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -7899,6 +8046,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -7960,6 +8108,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -8289,6 +8442,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -8318,6 +8472,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -8350,6 +8506,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -8395,6 +8552,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -9344,6 +9505,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%d features without category skipped. To export also features without "
 "category use '%s=-1'."
@@ -9393,6 +9555,11 @@ msgid ""
 "category use '%s=-1'."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"%d features without category skipped. To export also features without "
+"category use '%s=-1'."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "%d features without category skipped. To export also features without "
@@ -9447,6 +9614,7 @@ msgid "Error while adding point to array. Out of memory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Fehler beim Hinzufügen eines Punktes zum Array. Nicht genügend "
 "Arbeitsspeicher."
@@ -9496,6 +9664,11 @@ msgstr ""
 "Arbeitsspeicher."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Fehler beim Hinzufügen eines Punktes zum Array. Nicht genügend "
+"Arbeitsspeicher."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Fehler beim Hinzufügen eines Punktes zum Array. Nicht genügend "
@@ -9630,6 +9803,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "More DB links defined for input vector map. Using only first DB link for "
 "output."
@@ -9679,6 +9853,11 @@ msgid ""
 "output."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"More DB links defined for input vector map. Using only first DB link for "
+"output."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "More DB links defined for input vector map. Using only first DB link for "
@@ -9774,6 +9953,7 @@ msgstr "Kann den OGR DBMI-Treiber nicht öffnen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -9790,6 +9970,8 @@ msgstr "Kann den OGR DBMI-Treiber nicht öffnen."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -9820,6 +10002,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9843,11 +10026,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 #: ../lib/vector/Vlib/field.c:885
 #, c-format
 msgid ""
 "Feature table <%s> has no primary key defined. Unable to define DB links."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9919,6 +10105,8 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/vector/Vlib/field.c:905
@@ -9936,6 +10124,7 @@ msgstr ""
 
 #: ../lib/vector/Vlib/field.c:1065
 msgid "Bug: attempt to update map which is not in current mapset"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9991,6 +10180,10 @@ msgstr ""
 "Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset ist."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset ist."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Bug: Versuch eine Karte zu aktualisieren, die nicht im aktuellen Mapset ist."
@@ -10088,6 +10281,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Connection to PostgreSQL database failed. Try to set up username/password by "
 "db.login."
@@ -10137,6 +10331,11 @@ msgid ""
 "db.login."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Connection to PostgreSQL database failed. Try to set up username/password by "
+"db.login."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Connection to PostgreSQL database failed. Try to set up username/password by "
@@ -10268,6 +10467,7 @@ msgid "Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Geändert"
 =======
 msgstr ""
@@ -10301,6 +10501,9 @@ msgstr "Geändert"
 msgstr "Geändert"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr "Geändert"
+>>>>>>> osgeo-main
 =======
 msgstr "Geändert"
 >>>>>>> osgeo-main
@@ -10455,6 +10658,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10471,6 +10675,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10501,6 +10707,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -10508,6 +10715,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10534,6 +10743,7 @@ msgstr ""
 "Ihre GRASS Version unterstützt nicht vollständig das Objekt-Indexformat %d."
 "%d der Vektoren. Versuchen Sie die Topologie zu erneuern oder GRASS zu "
 "aktualisieren."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10601,6 +10811,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10767,6 +10979,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -10795,11 +11008,14 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Vector map which is not in the current mapset cannot be opened for update"
 msgstr ""
 "Eine Karte, die sich nicht im aktuellen Mapset befindet, kann nicht zum "
 "Aktualisierung geöffnet werden."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10843,6 +11059,8 @@ msgstr "Eine Karte, die sich nicht im aktuellen Mapset befindet, kann nicht zum 
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -10887,6 +11105,7 @@ msgstr "Kann die Kategorieindex-Datei der Vektorkarte <%s> nicht öffnen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to open vector map <%s> on level %d. Try to rebuild vector topology "
 "with v.build."
@@ -10936,6 +11155,11 @@ msgid ""
 "with v.build."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to open vector map <%s> on level %d. Try to rebuild vector topology "
+"with v.build."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to open vector map <%s> on level %d. Try to rebuild vector topology "
@@ -11041,6 +11265,7 @@ msgid "Size of 'coor' file differs from value saved in topology file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Größe der 'coor' Datei unterscheidet sich von dem in der Topologie-Datei "
 "gespeicherten Wert."
@@ -11090,6 +11315,11 @@ msgstr ""
 "gespeicherten Wert."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Größe der 'coor' Datei unterscheidet sich von dem in der Topologie-Datei "
+"gespeicherten Wert."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Größe der 'coor' Datei unterscheidet sich von dem in der Topologie-Datei "
@@ -11160,6 +11390,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There exists more than one point on node <%d> with unique category in field  "
 "<%d>.\n"
 =======
@@ -11201,6 +11432,10 @@ msgid ""
 "<%d>.\n"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"There exists more than one point on node <%d> with unique category in field  "
+"<%d>.\n"
+>>>>>>> osgeo-main
 =======
 "There exists more than one point on node <%d> with unique category in field  "
 "<%d>.\n"
@@ -11346,6 +11581,7 @@ msgid "Illegal vector map name <%s>. May not contain '.' or 'NULL'."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
 =======
@@ -11387,6 +11623,10 @@ msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Darf nicht '.' oder 'NULL' enthalten."
@@ -11429,6 +11669,7 @@ msgid "Illegal vector map name <%s>. Must start with a letter."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
 =======
@@ -11470,6 +11711,10 @@ msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. Muss mit einem Buchstaben beginnen."
@@ -11516,6 +11761,7 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Zeichen '%c' ist nicht erlaubt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -11544,11 +11790,14 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. Zeichen '%c' ist nicht erlaubt."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Illegal vector map name <%s>. SQL keyword cannot be used as vector map name."
 msgstr ""
 "Ungültiger Name der Vektorkarte <%s>. SQL-Schlüsselwort darf nicht als "
 "Vektorkartenname benutzt werden."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11592,6 +11841,8 @@ msgstr "Ungültiger Name der Vektorkarte <%s>. SQL-Schlüsselwort darf nicht als
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -11676,6 +11927,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Requesting invalid feature from cache (%d). Number of features in cache: %d"
 =======
@@ -11717,6 +11969,10 @@ msgid ""
 "Requesting invalid feature from cache (%d). Number of features in cache: %d"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Requesting invalid feature from cache (%d). Number of features in cache: %d"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Requesting invalid feature from cache (%d). Number of features in cache: %d"
@@ -11859,6 +12115,7 @@ msgid "Unable to convert category string '%s' (from '%s') to category range"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Kann die Kategorie-Zeichenkette '%s' (von '%s') nicht in eine "
 "Kategoriespanne konvertieren."
@@ -11908,6 +12165,11 @@ msgstr ""
 "Kategoriespanne konvertieren."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Kann die Kategorie-Zeichenkette '%s' (von '%s') nicht in eine "
+"Kategoriespanne konvertieren."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Kann die Kategorie-Zeichenkette '%s' (von '%s') nicht in eine "
@@ -12191,6 +12453,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -12213,12 +12476,15 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid "Unable to rewrite feature/offset %"
 msgstr ""
 
 #: ../lib/vector/Vlib/write.c:266
 msgid "Unable to delete feature/offset %"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12284,6 +12550,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -12361,6 +12629,7 @@ msgid "Data type of column <%s> not supported (must be numeric)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
 =======
@@ -12402,6 +12671,10 @@ msgstr ""
 "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Spaltentyp der Spalte <%s> wird nicht unterstützt (muss numerisch sein)."
@@ -12448,6 +12721,7 @@ msgid "Database record for node %d (cat = %d) not found (cost set to 0)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Datenbankeintrag für Knoten %d (cat = %d) nicht gefunden (Kosten auf 0 "
 "gesetzt)."
@@ -12497,6 +12771,11 @@ msgstr ""
 "gesetzt)."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Datenbankeintrag für Knoten %d (cat = %d) nicht gefunden (Kosten auf 0 "
+"gesetzt)."
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Datenbankeintrag für Knoten %d (cat = %d) nicht gefunden (Kosten auf 0 "
@@ -12549,6 +12828,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -12577,10 +12857,13 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "There exists more than one point of node <%d> with unique category field  <"
 "%d>.\n"
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12624,6 +12907,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -12656,6 +12941,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -12678,11 +12964,14 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "Unable to find point representing intersection <%d> in unique categories "
 "field <%d>.\n"
 "Cost for the intersection was set to 0.\n"
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12739,6 +13028,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -12771,6 +13062,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
@@ -12793,11 +13085,14 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 "Unable to find node for point representing intersection <%d> in unique "
 "categories field <%d>.\n"
 "Cost for the intersection was set to 0.\n"
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12854,6 +13149,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -12884,6 +13181,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Database record for turn with cat = %d in not found. (The turn was skipped."
 =======
@@ -12925,6 +13223,10 @@ msgid ""
 "Database record for turn with cat = %d in not found. (The turn was skipped."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Database record for turn with cat = %d in not found. (The turn was skipped."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Database record for turn with cat = %d in not found. (The turn was skipped."
@@ -12981,6 +13283,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
 =======
@@ -13022,6 +13325,10 @@ msgid ""
 "incorrect results."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"The unique categories layer is not valid therefore you will probably get "
+"incorrect results."
+>>>>>>> osgeo-main
 =======
 "The unique categories layer is not valid therefore you will probably get "
 "incorrect results."
@@ -13064,6 +13371,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Database record for line %d (cat = %d, forward/both direction(s)) not found "
 "(cost was set to 0)"
@@ -13113,6 +13421,11 @@ msgid ""
 "(cost was set to 0)"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Database record for line %d (cat = %d, forward/both direction(s)) not found "
+"(cost was set to 0)"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Database record for line %d (cat = %d, forward/both direction(s)) not found "
@@ -13161,6 +13474,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Database record for line %d (cat = %d, backword direction) not found(cost "
 "was set to 0)"
@@ -13210,6 +13524,11 @@ msgid ""
 "was set to 0)"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Database record for line %d (cat = %d, backword direction) not found(cost "
+"was set to 0)"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Database record for line %d (cat = %d, backword direction) not found(cost "
@@ -13266,6 +13585,7 @@ msgstr "Graph wurde erstellt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -13282,6 +13602,8 @@ msgstr "Graph wurde erstellt."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -13312,6 +13634,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13319,6 +13642,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -13344,6 +13669,7 @@ msgid ""
 msgstr ""
 "Datenbankeintrag für Linie %d (cat = %d, rückwärts Richtung) nicht gefunden "
 "(Richtung der Linie übersprungen)."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13422,6 +13748,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 #: ../lib/vector/Vlib/net_build.c:937
 msgid "Cannot add network arc"
@@ -13485,6 +13813,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Random read is not supported by OGR for this layer. Unable to build topology."
 =======
@@ -13526,6 +13855,10 @@ msgid ""
 "Random read is not supported by OGR for this layer. Unable to build topology."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Random read is not supported by OGR for this layer. Unable to build topology."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Random read is not supported by OGR for this layer. Unable to build topology."
@@ -13651,6 +13984,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to build simple features from topogeometry data. Unsupported type %d."
 =======
@@ -13692,6 +14026,10 @@ msgid ""
 "Unable to build simple features from topogeometry data. Unsupported type %d."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to build simple features from topogeometry data. Unsupported type %d."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to build simple features from topogeometry data. Unsupported type %d."
@@ -13788,6 +14126,7 @@ msgid "Vect_segment_intersection() ERROR (collinear non vertical segments)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
 =======
@@ -13829,6 +14168,10 @@ msgstr ""
 "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgstr ""
+"Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
+>>>>>>> osgeo-main
 =======
 msgstr ""
 "Vect_segment_intersection() FEHLER (kollineare nicht vertikale Segmente)"
@@ -13900,6 +14243,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
 =======
@@ -13941,6 +14285,10 @@ msgid ""
 "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Cairo: input mask file has incorrect dimensions: expected: %dx%d got: %dx%d"
@@ -14133,6 +14481,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "DB connection <%s/%s> already exists. Re-run '%s' with '--%s' flag to "
 "overwrite existing settings."
@@ -14182,6 +14531,11 @@ msgid ""
 "overwrite existing settings."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"DB connection <%s/%s> already exists. Re-run '%s' with '--%s' flag to "
+"overwrite existing settings."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "DB connection <%s/%s> already exists. Re-run '%s' with '--%s' flag to "
@@ -14237,6 +14591,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Führe Tests für Spalten aus ++"
 =======
@@ -14275,6 +14630,10 @@ msgstr ""
 "++ Führe Tests für Spalten aus ++"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"\n"
+"++ Führe Tests für Spalten aus ++"
+>>>>>>> osgeo-main
 =======
 "\n"
 "++ Führe Tests für Spalten aus ++"
@@ -14331,6 +14690,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Teste das Kopieren von Spalten ++"
 =======
@@ -14369,6 +14729,10 @@ msgstr ""
 "++ Teste das Kopieren von Spalten ++"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"\n"
+"++ Teste das Kopieren von Spalten ++"
+>>>>>>> osgeo-main
 =======
 "\n"
 "++ Teste das Kopieren von Spalten ++"
@@ -14413,6 +14777,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Tests für das Kopieren von Spalten beendet ++"
 =======
@@ -14451,6 +14816,10 @@ msgstr ""
 "++ Tests für das Kopieren von Spalten beendet ++"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"\n"
+"++ Tests für das Kopieren von Spalten beendet ++"
+>>>>>>> osgeo-main
 =======
 "\n"
 "++ Tests für das Kopieren von Spalten beendet ++"
@@ -14495,6 +14864,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\n"
 "++ Führe Tests für Tabellen aus ++"
 =======
@@ -14533,6 +14903,10 @@ msgstr ""
 "++ Führe Tests für Tabellen aus ++"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+"\n"
+"++ Führe Tests für Tabellen aus ++"
+>>>>>>> osgeo-main
 =======
 "\n"
 "++ Führe Tests für Tabellen aus ++"
@@ -14677,6 +15051,7 @@ msgstr "Kann die Symbol-Linien-Koordinaten %s nicht lesen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -14705,10 +15080,13 @@ msgstr "Kann die Symbol-Linien-Koordinaten %s nicht lesen."
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Incorrect symbol name: '%s' (should be: group/name or group/name@mapset)"
 msgstr ""
 "Falscher Symbolname: '%s' (sollte sein: Gruppe/Name oder Gruppe/Name@Mapset)."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14752,6 +15130,8 @@ msgstr "Falscher Symbolname: '%s' (sollte sein: Gruppe/Name oder Gruppe/Name@Map
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -14885,6 +15265,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Map <{}> not found in current mapset"
 msgstr "Karte <{}> nicht im aktuellen Mapset <%s> gefunden."
 =======
@@ -14932,6 +15313,10 @@ msgid "Map <{}> not found in current mapset"
 msgstr "Karte <{}> nicht im aktuellen Mapset <%s> gefunden."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "Map <{}> not found in current mapset"
+msgstr "Karte <{}> nicht im aktuellen Mapset <%s> gefunden."
+>>>>>>> osgeo-main
 =======
 msgid "Map <{}> not found in current mapset"
 msgstr "Karte <{}> nicht im aktuellen Mapset <%s> gefunden."
@@ -15075,12 +15460,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15116,6 +15504,7 @@ msgstr ""
 #: ../lib/python/temporal/spatial_extent.py:763
 msgid ""
 "Projections are different. Unable to compute cover_2d for spatial extents"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15220,6 +15609,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -15292,6 +15683,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Start time must be of type datetime for %(type)s map <%(id)s> with layer: "
 "%(l)s"
@@ -15341,6 +15733,11 @@ msgid ""
 "%(l)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Start time must be of type datetime for %(type)s map <%(id)s> with layer: "
+"%(l)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Start time must be of type datetime for %(type)s map <%(id)s> with layer: "
@@ -15394,6 +15791,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
 =======
@@ -15435,6 +15833,10 @@ msgid ""
 "End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "End time must be of type datetime for %(type)s map <%(id)s> with layer: %(l)s"
@@ -15482,6 +15884,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "End time must be greater than start time for %(type)s map <%(id)s> with "
 "layer: %(l)s"
@@ -15531,6 +15934,11 @@ msgid ""
 "layer: %(l)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"End time must be greater than start time for %(type)s map <%(id)s> with "
+"layer: %(l)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "End time must be greater than start time for %(type)s map <%(id)s> with "
@@ -15589,6 +15997,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to update dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
@@ -15638,6 +16047,11 @@ msgid ""
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to update dataset <%(ds)s> of type %(type)s in the temporal database. "
+"The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to update dataset <%(ds)s> of type %(type)s in the temporal database. "
@@ -15686,6 +16100,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unsupported relative time unit type for %(type)s map <%(id)s> with layer "
 "%(l)s: %(u)s"
@@ -15735,6 +16150,11 @@ msgid ""
 "%(l)s: %(u)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unsupported relative time unit type for %(type)s map <%(id)s> with layer "
+"%(l)s: %(u)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unsupported relative time unit type for %(type)s map <%(id)s> with layer "
@@ -15788,6 +16208,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "End time must be greater than start time for %(typ)s map <%(id)s> with layer "
 "%(l)s"
@@ -15837,6 +16258,11 @@ msgid ""
 "%(l)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"End time must be greater than start time for %(typ)s map <%(id)s> with layer "
+"%(l)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "End time must be greater than start time for %(typ)s map <%(id)s> with layer "
@@ -15885,6 +16311,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map <%(id)s> with layer %(layer)s has incorrect time interval, start time is "
 "greater than end time"
@@ -15934,6 +16361,11 @@ msgid ""
 "greater than end time"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map <%(id)s> with layer %(layer)s has incorrect time interval, start time is "
+"greater than end time"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map <%(id)s> with layer %(layer)s has incorrect time interval, start time is "
@@ -15982,6 +16414,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map <%s> has incorrect time interval, start time is greater than end time"
 =======
@@ -16023,6 +16456,10 @@ msgid ""
 "Map <%s> has incorrect time interval, start time is greater than end time"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map <%s> has incorrect time interval, start time is greater than end time"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map <%s> has incorrect time interval, start time is greater than end time"
@@ -16071,6 +16508,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to delete dataset <%(ds)s> of type %(type)s from the temporal "
 "database. The mapset of the dataset does not match the current mapset"
@@ -16120,6 +16558,11 @@ msgid ""
 "database. The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to delete dataset <%(ds)s> of type %(type)s from the temporal "
+"database. The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to delete dataset <%(ds)s> of type %(type)s from the temporal "
@@ -16173,6 +16616,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to unregister dataset <%(ds)s> of type %(type)s from the temporal "
 "database. The mapset of the dataset does not match the current mapset"
@@ -16222,6 +16666,11 @@ msgid ""
 "database. The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to unregister dataset <%(ds)s> of type %(type)s from the temporal "
+"database. The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to unregister dataset <%(ds)s> of type %(type)s from the temporal "
@@ -16289,12 +16738,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16319,6 +16771,7 @@ msgstr "Ungültiger Datensatz-Name <{}>. Zeichen '.' ist nicht erlaubt."
 msgid ""
 "Space time %(sp)s dataset <%(name)s> is already in the database. Use the "
 "overwrite flag."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16390,6 +16843,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16420,6 +16875,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
 =======
@@ -16461,6 +16917,10 @@ msgid ""
 "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Overwriting space time %(sp)s dataset <%(name)s> and unregistering all maps"
@@ -16509,6 +16969,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map <%s> is already in temporal database, use overwrite flag to overwrite"
 =======
@@ -16550,6 +17011,10 @@ msgid ""
 "Map <%s> is already in temporal database, use overwrite flag to overwrite"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map <%s> is already in temporal database, use overwrite flag to overwrite"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map <%s> is already in temporal database, use overwrite flag to overwrite"
@@ -16656,12 +17121,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -16686,6 +17154,7 @@ msgstr ""
 #: ../lib/python/temporal/register.py:192
 msgid ""
 "The increment option will be ignored because of time stamps in input file"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16765,6 +17234,8 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/python/temporal/register.py:196
@@ -16782,6 +17253,7 @@ msgstr ""
 
 #: ../lib/python/temporal/register.py:238
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16845,6 +17317,11 @@ msgid ""
 "timestamp and the start time is not set."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to register %(t)s map <%(id)s> with layer %(l)s. The map has "
+"timestamp and the start time is not set."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to register %(t)s map <%(id)s> with layer %(l)s. The map has "
@@ -16893,6 +17370,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to register %(t)s map <%(id)s>. The map has no timestamp and the "
 "start time is not set."
@@ -16942,6 +17420,11 @@ msgid ""
 "start time is not set."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to register %(t)s map <%(id)s>. The map has no timestamp and the "
+"start time is not set."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to register %(t)s map <%(id)s>. The map has no timestamp and the "
@@ -17000,6 +17483,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
 "%(id)s> with layer %(l)s. Overwrite flag is not set."
@@ -17049,6 +17533,11 @@ msgid ""
 "%(id)s> with layer %(l)s. Overwrite flag is not set."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map is already registered in temporal database. Unable to update %(t)s map <"
+"%(id)s> with layer %(l)s. Overwrite flag is not set."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
@@ -17097,6 +17586,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
 "%(id)s>. Overwrite flag is not set."
@@ -17146,6 +17636,11 @@ msgid ""
 "%(id)s>. Overwrite flag is not set."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map is already registered in temporal database. Unable to update %(t)s map <"
+"%(id)s>. Overwrite flag is not set."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map is already registered in temporal database. Unable to update %(t)s map <"
@@ -17194,6 +17689,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to update %(t)s map <%(id)s> with layer %(l)s. The temporal types are "
 "different."
@@ -17243,6 +17739,11 @@ msgid ""
 "different."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to update %(t)s map <%(id)s> with layer %(l)s. The temporal types are "
+"different."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to update %(t)s map <%(id)s> with layer %(l)s. The temporal types are "
@@ -17319,6 +17820,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Set absolute valid time for map <%(id)s> with layer %(layer)s to %(start)s - "
 "%(end)s"
@@ -17368,6 +17870,11 @@ msgid ""
 "%(end)s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Set absolute valid time for map <%(id)s> with layer %(layer)s to %(start)s - "
+"%(end)s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Set absolute valid time for map <%(id)s> with layer %(layer)s to %(start)s - "
@@ -17421,6 +17928,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
 =======
@@ -17462,6 +17970,10 @@ msgid ""
 "Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Set relative valid time for map <%s> with layer %s to %i - %s with unit %s"
@@ -17546,6 +18058,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to shift dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
@@ -17595,6 +18108,11 @@ msgid ""
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to shift dataset <%(ds)s> of type %(type)s in the temporal database. "
+"The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to shift dataset <%(ds)s> of type %(type)s in the temporal database. "
@@ -17649,6 +18167,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to snap dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
@@ -17698,6 +18217,11 @@ msgid ""
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to snap dataset <%(ds)s> of type %(type)s in the temporal database. "
+"The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to snap dataset <%(ds)s> of type %(type)s in the temporal database. "
@@ -17746,6 +18270,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to rename dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
@@ -17795,6 +18320,11 @@ msgid ""
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to rename dataset <%(ds)s> of type %(type)s in the temporal database. "
+"The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to rename dataset <%(ds)s> of type %(type)s in the temporal database. "
@@ -17862,12 +18392,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -17893,6 +18426,7 @@ msgstr ""
 msgid ""
 "Only a map that was inserted in the temporal database can be registered in a "
 "space time dataset"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17975,6 +18509,8 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2177
@@ -17989,6 +18525,7 @@ msgstr ""
 
 #: ../lib/python/temporal/abstract_space_time_dataset.py:2199
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18052,6 +18589,11 @@ msgid ""
 "%(l)s are different"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Temporal type of space time dataset <%(id)s> and map <%(map)s> with layer "
+"%(l)s are different"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> with layer "
@@ -18100,6 +18642,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
 =======
@@ -18141,6 +18684,10 @@ msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Temporal type of space time dataset <%(id)s> and map <%(map)s> are different"
@@ -18188,6 +18735,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> with "
 "layer %(l)s are different"
@@ -18237,6 +18785,11 @@ msgid ""
 "layer %(l)s are different"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Relative time units of space time dataset <%(id)s> and map <%(map)s> with "
+"layer %(l)s are different"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> with "
@@ -18285,6 +18838,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> are "
 "different"
@@ -18334,6 +18888,11 @@ msgid ""
 "different"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Relative time units of space time dataset <%(id)s> and map <%(map)s> are "
+"different"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Relative time units of space time dataset <%(id)s> and map <%(map)s> are "
@@ -18396,6 +18955,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18424,10 +18984,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Unable to unregister map from dataset <%(ds)s> of type %(type)s in the "
 "temporal database. The mapset of the dataset does not match the current "
 "mapset"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18468,6 +19031,8 @@ msgid "Unable to unregister map from dataset <%(ds)s> of type %(type)s in the te
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -18498,6 +19063,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Map <%(map)s> with layer %(l)s is not registered in space time dataset <"
 "%(base)s>"
@@ -18547,6 +19113,11 @@ msgid ""
 "%(base)s>"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Map <%(map)s> with layer %(l)s is not registered in space time dataset <"
+"%(base)s>"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Map <%(map)s> with layer %(l)s is not registered in space time dataset <"
@@ -18600,6 +19171,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Update metadata, spatial and temporal extent from all registered maps of <%s>"
 =======
@@ -18641,6 +19213,10 @@ msgid ""
 "Update metadata, spatial and temporal extent from all registered maps of <%s>"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Update metadata, spatial and temporal extent from all registered maps of <%s>"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Update metadata, spatial and temporal extent from all registered maps of <%s>"
@@ -18694,6 +19270,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -18722,10 +19299,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Found more than a single map in a sample granule. Only the first map is used "
 "for computation. Use t.rast.aggregate.ds to create synchronous raster "
 "datasets."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18766,6 +19346,8 @@ msgid "Found more than a single map in a sample granule. Only the first map is u
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -18835,6 +19417,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Output granularity seems not to be valid. Please use one of the following "
 "values : {gr}"
@@ -18884,6 +19467,11 @@ msgid ""
 "values : {gr}"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Output granularity seems not to be valid. Please use one of the following "
+"values : {gr}"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Output granularity seems not to be valid. Please use one of the following "
@@ -18942,6 +19530,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Error vector maps with basename %s exist. Use --o flag to overwrite existing "
 "file"
@@ -18991,6 +19580,11 @@ msgid ""
 "file"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Error vector maps with basename %s exist. Use --o flag to overwrite existing "
+"file"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Error vector maps with basename %s exist. Use --o flag to overwrite existing "
@@ -19052,6 +19646,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Spatio-temporal topological operators are not supported in granularity "
 "algebra mode"
@@ -19101,6 +19696,11 @@ msgid ""
 "algebra mode"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Spatio-temporal topological operators are not supported in granularity "
+"algebra mode"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Spatio-temporal topological operators are not supported in granularity "
@@ -19168,6 +19768,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Wrong temporal type of space time dataset <"
 "%s>                                       <%s> time is required"
@@ -19247,6 +19848,11 @@ msgid ""
 "Wrong temporal type of space time dataset <"
 "%s>                                       <%s> time is required"
 >>>>>>> osgeo-main
+=======
+msgid ""
+"Wrong temporal type of space time dataset <"
+"%s>                                       <%s> time is required"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:1234
@@ -19255,6 +19861,7 @@ msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2213
 #, python-format
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19292,6 +19899,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "The resulting space time dataset type <%(a)s> is different from the "
 "requested type <%(b)s>"
@@ -19301,6 +19910,7 @@ msgstr ""
 msgid ""
 "Maps that should be registered in the resulting space time dataset have "
 "different types."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19383,6 +19993,8 @@ msgid ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2434
@@ -19392,6 +20004,7 @@ msgid "%s map <%s> not found in GRASS spatial database"
 msgstr ""
 
 #: ../lib/python/temporal/temporal_algebra.py:2440
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19455,6 +20068,11 @@ msgid ""
 "temporal GRASS database"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Wrong map type. TMAP only supports single maps that are registered in the "
+"temporal GRASS database"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Wrong map type. TMAP only supports single maps that are registered in the "
@@ -19541,6 +20159,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to initialize the temporal DBMI interface. Please use t.connect to "
 "specify the driver and the database string"
@@ -19620,6 +20239,11 @@ msgid ""
 "Unable to initialize the temporal DBMI interface. Please use t.connect to "
 "specify the driver and the database string"
 >>>>>>> osgeo-main
+=======
+msgid ""
+"Unable to initialize the temporal DBMI interface. Please use t.connect to "
+"specify the driver and the database string"
+>>>>>>> osgeo-main
 msgstr ""
 
 #: ../lib/python/temporal/core.py:654
@@ -19630,6 +20254,7 @@ msgid ""
 msgstr ""
 
 #: ../lib/python/temporal/core.py:659
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19667,6 +20292,8 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "Run t.upgrade command installed from GRASS Addons in order to upgrade your "
 "temporal database.\n"
@@ -19682,6 +20309,7 @@ msgid ""
 "start_time,end_time into text files and use t.register to register them "
 "again in new created space time datasets (t.create). After the backup remove "
 "the existing temporal database, a new one will be created automatically.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19758,6 +20386,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -20039,6 +20669,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Space time %(t)s dataset <%(sp)s> is already in the database. Use the "
 "overwrite flag."
@@ -20088,6 +20719,11 @@ msgid ""
 "overwrite flag."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Space time %(t)s dataset <%(sp)s> is already in the database. Use the "
+"overwrite flag."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Space time %(t)s dataset <%(sp)s> is already in the database. Use the "
@@ -20253,6 +20889,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to insert dataset <%(ds)s> of type %(type)s in the temporal database. "
 "The mapset of the dataset does not match the current mapset"
@@ -20302,6 +20939,11 @@ msgid ""
 "The mapset of the dataset does not match the current mapset"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to insert dataset <%(ds)s> of type %(type)s in the temporal database. "
+"The mapset of the dataset does not match the current mapset"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to insert dataset <%(ds)s> of type %(type)s in the temporal database. "
@@ -20355,6 +20997,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Raster map <%(name)s> is already in temporal database, use overwrite flag to "
 "overwrite"
@@ -20404,6 +21047,11 @@ msgid ""
 "overwrite"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Raster map <%(name)s> is already in temporal database, use overwrite flag to "
+"overwrite"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Raster map <%(name)s> is already in temporal database, use overwrite flag to "
@@ -20466,6 +21114,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to perform aggregation. Output raster map <%(name)s> exists and "
 "overwrite flag was not set"
@@ -20515,6 +21164,11 @@ msgid ""
 "overwrite flag was not set"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to perform aggregation. Output raster map <%(name)s> exists and "
+"overwrite flag was not set"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to perform aggregation. Output raster map <%(name)s> exists and "
@@ -20563,6 +21217,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The limit of open files (%i) was reached (%i). The module r.series will be "
 "run with flag z, to avoid open files limit exceeding."
@@ -20612,6 +21267,11 @@ msgid ""
 "run with flag z, to avoid open files limit exceeding."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"The limit of open files (%i) was reached (%i). The module r.series will be "
+"run with flag z, to avoid open files limit exceeding."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "The limit of open files (%i) was reached (%i). The module r.series will be "
@@ -20696,6 +21356,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
 =======
@@ -20737,6 +21398,10 @@ msgid ""
 "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Mapset <{mapset}> or Location <{location}> is invalid for an unknown reason"
@@ -20789,6 +21454,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<%s> is not a valid GRASS Location because PERMANENT Mapset does not have a "
 "DEFAULT_WIND file (default computational region)"
@@ -20838,6 +21504,11 @@ msgid ""
 "DEFAULT_WIND file (default computational region)"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"<%s> is not a valid GRASS Location because PERMANENT Mapset does not have a "
+"DEFAULT_WIND file (default computational region)"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "<%s> is not a valid GRASS Location because PERMANENT Mapset does not have a "
@@ -20891,6 +21562,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "<{location}> looks like a mapset, not a location. Did you mean just "
 "<{one_dir_up}>?"
@@ -20940,6 +21612,11 @@ msgid ""
 "<{one_dir_up}>?"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"<{location}> looks like a mapset, not a location. Did you mean just "
+"<{one_dir_up}>?"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "<{location}> looks like a mapset, not a location. Did you mean just "
@@ -20989,12 +21666,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -21026,6 +21706,7 @@ msgstr ""
 msgid ""
 "Name '{}' is reserved for direct read access to OGR layers. Please use "
 "another name for your mapset."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21118,6 +21799,8 @@ msgid ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -21148,6 +21831,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Mapset  <{mapset}> already exists. Please consider using another name for "
 "your mapset."
@@ -21197,6 +21881,11 @@ msgid ""
 "your mapset."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Mapset  <{mapset}> already exists. Please consider using another name for "
+"your mapset."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Mapset  <{mapset}> already exists. Please consider using another name for "
@@ -21245,6 +21934,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Location  <{location}> already exists. Please consider using another name "
 "for your location."
@@ -21294,6 +21984,11 @@ msgid ""
 "for your location."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Location  <{location}> already exists. Please consider using another name "
+"for your location."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Location  <{location}> already exists. Please consider using another name "
@@ -21347,12 +22042,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -21377,6 +22075,7 @@ msgstr "Mapset <{mapset}> ist das aktuellen Mapset."
 #, python-brace-format
 msgid "Mapset <{mapset}> is in use."
 msgstr "Mapset <{mapset}> ist in Gebrauch."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21448,6 +22147,8 @@ msgstr "Mapset <{mapset}> ist in Gebrauch."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -21521,6 +22222,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Install a newer version of PIL or Pillow to use this function (missing "
 "ImageOps module)"
@@ -21570,6 +22272,11 @@ msgid ""
 "ImageOps module)"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Install a newer version of PIL or Pillow to use this function (missing "
+"ImageOps module)"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Install a newer version of PIL or Pillow to use this function (missing "
@@ -21664,6 +22371,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebc6d3f683 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -21692,10 +22400,13 @@ msgstr ""
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 msgid ""
 "To run the module <%s> add underscore at the end of the option <%s> to avoid "
 "conflict with Python keywords. Underscore at the beginning is deprecated in "
 "GRASS GIS 7.0 and will be removed in version 7.1."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21736,6 +22447,8 @@ msgid "To run the module <%s> add underscore at the end of the option <%s> to av
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -21845,6 +22558,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Unable to write history for <%(map)s>. Raster map <%(map)s> not found in "
 "current mapset."
@@ -21894,6 +22608,11 @@ msgid ""
 "current mapset."
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Unable to write history for <%(map)s>. Raster map <%(map)s> not found in "
+"current mapset."
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Unable to write history for <%(map)s>. Raster map <%(map)s> not found in "
@@ -21963,6 +22682,7 @@ msgstr "Farbe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
 =======
@@ -22004,6 +22724,10 @@ msgid ""
 "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "Programmer error: '%(sql)s', '%(filename)s', or '%(table)s' must be provided"
@@ -22062,6 +22786,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "grass.script.array.read is deprecated and does not work on MS Windows, pass "
 "raster name in the constructor"
@@ -22111,6 +22836,11 @@ msgid ""
 "raster name in the constructor"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"grass.script.array.read is deprecated and does not work on MS Windows, pass "
+"raster name in the constructor"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "grass.script.array.read is deprecated and does not work on MS Windows, pass "
@@ -22168,6 +22898,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "grass.script.array3d.read is deprecated and does not work on MS Windows, "
 "pass 3D raster name in the constructor"
@@ -22217,6 +22948,11 @@ msgid ""
 "pass 3D raster name in the constructor"
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid ""
+"grass.script.array3d.read is deprecated and does not work on MS Windows, "
+"pass 3D raster name in the constructor"
+>>>>>>> osgeo-main
 =======
 msgid ""
 "grass.script.array3d.read is deprecated and does not work on MS Windows, "
@@ -22952,6 +23688,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23013,6 +23750,11 @@ msgid ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -23687,6 +24429,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -23748,6 +24491,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25228,6 +25976,7 @@ msgstr "Kann Datei mit Kontrollpunkten der Gruppe [%s in %s] nicht erzeugen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25285,6 +26034,11 @@ msgstr "Untergruppe <%s> der Gruppe <%s> ist leer\n"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+msgid "subgroup <%s> of group <%s> is empty\n"
+msgstr "Untergruppe <%s> der Gruppe <%s> ist leer\n"
+=======
+>>>>>>> osgeo-main
 =======
 msgid "subgroup <%s> of group <%s> is empty\n"
 msgstr "Untergruppe <%s> der Gruppe <%s> ist leer\n"
@@ -25623,6 +26377,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -25684,6 +26439,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25793,6 +26553,7 @@ msgstr "FEHLER: <%s> ist keine gültige GRASS location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -25854,6 +26615,11 @@ msgstr "FEHLER: <%s> ist keine gültige GRASS location"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -25912,6 +26678,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25941,6 +26708,8 @@ msgstr ""
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -25977,6 +26746,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -26022,6 +26792,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -26068,6 +26842,7 @@ msgstr "Vektorkarte <%s> ist nicht im Topologielevel geöffnet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -26129,6 +26904,11 @@ msgstr "Vektorkarte <%s> ist nicht im Topologielevel geöffnet."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26182,6 +26962,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Removing empty 3D raster maps"
 msgstr "Entfernen der leeren 3D Rasterkarte"
 =======
@@ -26213,6 +26994,8 @@ msgstr "Entfernen der leeren 3D Rasterkarte"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -26247,6 +27030,7 @@ msgstr "Entfernen der leeren 3D Rasterkarte"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -26276,9 +27060,12 @@ msgstr "Entfernen der leeren 3D Rasterkarte"
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 msgid "Removing empty 3D raster maps"
 msgstr "Entfernen der leeren 3D Rasterkarte"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26323,6 +27110,8 @@ msgstr "Entfernen der leeren 3D Rasterkarte"
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -28733,6 +29522,7 @@ msgstr "Zuviele Kategorien (%d), kann cat %d (Layer %d) nicht setzen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28762,6 +29552,8 @@ msgstr "Zuviele Kategorien (%d), kann cat %d (Layer %d) nicht setzen."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -28795,6 +29587,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -28840,6 +29633,10 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -28887,6 +29684,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -28948,6 +29746,11 @@ msgstr ""
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -29052,6 +29855,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -29131,6 +29935,8 @@ msgstr "Kann Header-Datei der Rasterkarte <%s@%s> nicht öffnen."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -30735,6 +31541,7 @@ msgstr "Kann Header-Datei der Rasterkarte <%s@%s> nicht öffnen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -30751,6 +31558,8 @@ msgstr "Kann Header-Datei der Rasterkarte <%s@%s> nicht öffnen."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -30833,6 +31642,7 @@ msgstr "Kann Header-Datei der Rasterkarte <%s@%s> nicht öffnen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -30863,6 +31673,8 @@ msgstr "Kann Header-Datei der Rasterkarte <%s@%s> nicht öffnen."
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

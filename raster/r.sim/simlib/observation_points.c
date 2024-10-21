@@ -85,6 +85,7 @@ void create_observation_points(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* Check region bounds befor inserting point */
 =======
 <<<<<<< HEAD
@@ -115,6 +116,8 @@ void create_observation_points(void)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -145,6 +148,7 @@ void create_observation_points(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* Check region bounds befor inserting point */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -198,6 +202,11 @@ void create_observation_points(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* Check region bounds befor inserting point */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* Check region bounds befor inserting point */

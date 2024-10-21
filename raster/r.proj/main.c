@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *                - output map cell edges and centers will coinside with those
 =======
 <<<<<<< HEAD
@@ -78,6 +79,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -108,6 +111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *                - output map cell edges and centers will coinside with those
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -161,6 +165,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+*                - output map cell edges and centers will coinside with those
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 *                - output map cell edges and centers will coinside with those
@@ -323,6 +332,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     module->description = _("Re-projects a raster map from given location to "
                             "the current location.");
 =======
@@ -354,6 +364,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -386,6 +398,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -415,9 +428,12 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     module->description = _("Re-projects a raster map from given location to "
                             "the current location.");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +478,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -599,6 +617,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_warning(_("Input and output locations are the same"));
 =======
 <<<<<<< HEAD
@@ -629,6 +648,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -659,6 +680,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_warning(_("Input and output locations are the same"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -712,6 +734,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_warning(_("Input and output locations are the same"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_warning(_("Input and output locations are the same"));
@@ -789,6 +816,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Mapset <%s> in input location <%s> - %s"), setname,
 =======
 <<<<<<< HEAD
@@ -819,6 +847,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -849,6 +879,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Mapset <%s> in input location <%s> - %s"), setname,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -902,6 +933,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_fatal_error(_("Mapset <%s> in input location <%s> - %s"), setname,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_fatal_error(_("Mapset <%s> in input location <%s> - %s"), setname,
@@ -958,6 +994,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_verbose_message(_("Checking location <%s> mapset <%s>"),
 =======
 <<<<<<< HEAD
@@ -988,6 +1025,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1018,6 +1057,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_verbose_message(_("Checking location <%s> mapset <%s>"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1071,6 +1111,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_verbose_message(_("Checking location <%s> mapset <%s>"),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_verbose_message(_("Checking location <%s> mapset <%s>"),
@@ -1133,6 +1178,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _("Raster map <%s> in location <%s> in mapset <%s> not found"),
 =======
 <<<<<<< HEAD
@@ -1163,6 +1209,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1193,6 +1241,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             _("Raster map <%s> in location <%s> in mapset <%s> not found"),
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1246,6 +1295,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            _("Raster map <%s> in location <%s> in mapset <%s> not found"),
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             _("Raster map <%s> in location <%s> in mapset <%s> not found"),
@@ -1338,6 +1392,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_fatal_error(_("Unable to work with unprojected data (xy location)"));
 =======
 <<<<<<< HEAD
@@ -1368,6 +1423,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1398,6 +1455,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_fatal_error(_("Unable to work with unprojected data (xy location)"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1451,6 +1509,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_fatal_error(_("Unable to work with unprojected data (xy location)"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_fatal_error(_("Unable to work with unprojected data (xy location)"));
@@ -1515,6 +1578,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_message(_("Input map <%s@%s> in location <%s>:"), inmap->answer,
 =======
 <<<<<<< HEAD
@@ -1545,6 +1609,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1575,6 +1641,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_message(_("Input map <%s@%s> in location <%s>:"), inmap->answer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1628,6 +1695,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_message(_("Input map <%s@%s> in location <%s>:"), inmap->answer,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_message(_("Input map <%s@%s> in location <%s>:"), inmap->answer,

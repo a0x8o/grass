@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int db__driver_list_tables(dbString **names, int *count, int system)
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -79,6 +82,7 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -132,6 +136,11 @@ int db__driver_list_tables(dbString **names, int *count, int system)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+int db__driver_list_tables(dbString **names, int *count, int system)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 int db__driver_list_tables(dbString **names, int *count, int system)

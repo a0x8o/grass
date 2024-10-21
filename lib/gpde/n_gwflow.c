@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the groundwater calculation data structure in 3
 =======
 <<<<<<< HEAD
@@ -68,6 +69,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -98,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \brief Alllocate memory for the groundwater calculation data structure in 3
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -151,6 +155,11 @@
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \brief Alllocate memory for the groundwater calculation data structure in 3
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \brief Alllocate memory for the groundwater calculation data structure in 3
@@ -308,6 +317,7 @@ void N_free_gwflow_data3d(N_gwflow_data3d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * \brief Alllocate memory for the groundwater calculation data structure in 2
 =======
 <<<<<<< HEAD
@@ -338,6 +348,8 @@ void N_free_gwflow_data3d(N_gwflow_data3d *data)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -368,6 +380,7 @@ void N_free_gwflow_data3d(N_gwflow_data3d *data)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * \brief Alllocate memory for the groundwater calculation data structure in 2
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -421,6 +434,11 @@ void N_free_gwflow_data3d(N_gwflow_data3d *data)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+ * \brief Alllocate memory for the groundwater calculation data structure in 2
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
  * \brief Alllocate memory for the groundwater calculation data structure in 2
@@ -862,6 +880,7 @@ N_data_star *N_callback_gwflow_2d(void *gwdata, N_geom_data *geom, int col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* If the aquifer is unconfied use an explicite scheme to solve
 =======
 <<<<<<< HEAD
@@ -892,6 +911,8 @@ N_data_star *N_callback_gwflow_2d(void *gwdata, N_geom_data *geom, int col,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -922,6 +943,7 @@ N_data_star *N_callback_gwflow_2d(void *gwdata, N_geom_data *geom, int col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* If the aquifer is unconfied use an explicite scheme to solve
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -975,6 +997,11 @@ N_data_star *N_callback_gwflow_2d(void *gwdata, N_geom_data *geom, int col,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* If the aquifer is unconfied use an explicite scheme to solve
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* If the aquifer is unconfied use an explicite scheme to solve

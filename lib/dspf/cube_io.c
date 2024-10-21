@@ -215,6 +215,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
 =======
 <<<<<<< HEAD
@@ -245,6 +246,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -275,6 +278,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -328,6 +332,11 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         fprintf(stderr, "Error reading display file offset %" PRI_OFF_T "\n",
@@ -381,6 +390,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Error (size) reading display file offset %" PRI_OFF_T "\n",
 =======
 <<<<<<< HEAD
@@ -411,6 +421,8 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -441,6 +453,7 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "Error (size) reading display file offset %" PRI_OFF_T "\n",
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -494,6 +507,11 @@ int read_cube(Cube_data *Cube, file_info *headfax)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                "Error (size) reading display file offset %" PRI_OFF_T "\n",
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 "Error (size) reading display file offset %" PRI_OFF_T "\n",

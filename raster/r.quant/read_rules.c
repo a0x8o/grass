@@ -110,6 +110,7 @@ int read_rules(const char *filename)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -182,6 +183,10 @@ int read_rules(const char *filename)
     for (;;) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (;;) {
+=======
+>>>>>>> osgeo-main
     for (line = 1;; line++) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -190,6 +195,7 @@ int read_rules(const char *filename)
 =======
     for (;;) {
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,11 +239,14 @@ int read_rules(const char *filename)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     for (line = 1;; line++) {
 =======
     for (;;) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +327,8 @@ int read_rules(const char *filename)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

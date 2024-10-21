@@ -66,6 +66,7 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* fisrt search for color table */
 =======
 <<<<<<< HEAD
@@ -96,6 +97,8 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -126,6 +129,7 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /* fisrt search for color table */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -179,6 +183,11 @@ int display_shape(struct Map_info *Map, int type, struct cat_list *Clist,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    /* fisrt search for color table */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     /* fisrt search for color table */

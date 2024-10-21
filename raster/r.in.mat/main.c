@@ -236,6 +236,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -299,12 +300,15 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                 if (fread(&map_name, sizeof(char), ncols, fp1) != (size_t)ncols)
                     G_fatal_error(_("Error reading data"));
             }
             else if (data_format == 0) { /* sigh.. */
                 if (fread(&map_name_d, sizeof(double), ncols, fp1) !=
                     (size_t)ncols)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,10 +356,13 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +412,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -442,6 +451,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -472,10 +482,13 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,12 +565,17 @@ int main(int argc, char *argv[])
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
                 if (fread(&map_name, sizeof(char), ncols, fp1) != (size_t)ncols)
                     G_fatal_error(_("Error reading data"));
             }
             else if (data_format == 0) { /* sigh.. */
                 if (fread(&map_name_d, sizeof(double), ncols, fp1) !=
                     (size_t)ncols)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,10 +619,13 @@ int main(int argc, char *argv[])
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -676,6 +697,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -766,6 +789,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -855,6 +879,11 @@ int main(int argc, char *argv[])
                     (size_t)ncols)
 =======
 >>>>>>> osgeo-main
+=======
+                if (fread(&map_title, sizeof(char), ncols, fp1) !=
+                    (size_t)ncols)
+=======
+>>>>>>> osgeo-main
                 if (fread(&map_title, sizeof(char), ncols, fp1) != ncols)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -864,6 +893,7 @@ int main(int argc, char *argv[])
                 if (fread(&map_title, sizeof(char), ncols, fp1) !=
                     (size_t)ncols)
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,12 +937,15 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 if (fread(&map_title, sizeof(char), ncols, fp1) != ncols)
 =======
                 if (fread(&map_title, sizeof(char), ncols, fp1) !=
                     (size_t)ncols)
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1002,6 +1035,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1042,6 +1077,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1117,6 +1153,10 @@ int main(int argc, char *argv[])
                     (size_t)ncols) /* note reusing variable */
 =======
 >>>>>>> osgeo-main
+=======
+                    (size_t)ncols) /* note reusing variable */
+=======
+>>>>>>> osgeo-main
                     ncols) /* note reusing variable */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1125,6 +1165,7 @@ int main(int argc, char *argv[])
 =======
                     (size_t)ncols) /* note reusing variable */
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1168,11 +1209,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                     ncols) /* note reusing variable */
 =======
                     (size_t)ncols) /* note reusing variable */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1259,6 +1303,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1324,6 +1370,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1399,6 +1446,10 @@ int main(int argc, char *argv[])
                           fp1) != (size_t)(mrows * ncols))
 =======
 >>>>>>> osgeo-main
+=======
+                          fp1) != (size_t)(mrows * ncols))
+=======
+>>>>>>> osgeo-main
                           fp1) != (mrows * ncols))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1407,6 +1458,7 @@ int main(int argc, char *argv[])
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1450,11 +1502,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                           fp1) != (mrows * ncols))
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1541,6 +1596,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1585,6 +1642,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1660,6 +1718,10 @@ int main(int argc, char *argv[])
                           fp1) != (size_t)(mrows * ncols))
 =======
 >>>>>>> osgeo-main
+=======
+                          fp1) != (size_t)(mrows * ncols))
+=======
+>>>>>>> osgeo-main
                           fp1) != (mrows * ncols))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1668,6 +1730,7 @@ int main(int argc, char *argv[])
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1711,11 +1774,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                           fp1) != (mrows * ncols))
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1802,6 +1868,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1846,6 +1914,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -1921,6 +1990,10 @@ int main(int argc, char *argv[])
                           fp1) != (size_t)(mrows * ncols))
 =======
 >>>>>>> osgeo-main
+=======
+                          fp1) != (size_t)(mrows * ncols))
+=======
+>>>>>>> osgeo-main
                           fp1) != (mrows * ncols))
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1929,6 +2002,7 @@ int main(int argc, char *argv[])
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1972,11 +2046,14 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                           fp1) != (mrows * ncols))
 =======
                           fp1) != (size_t)(mrows * ncols))
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2063,6 +2140,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

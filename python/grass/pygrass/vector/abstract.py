@@ -445,6 +445,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "The databse link for layer %d of <%s> references layer %d."
 =======
 <<<<<<< HEAD
@@ -475,6 +476,8 @@ class Info:
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -505,6 +508,7 @@ class Info:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     "The databse link for layer %d of <%s> references layer %d."
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -558,6 +562,11 @@ class Info:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    "The databse link for layer %d of <%s> references layer %d."
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     "The databse link for layer %d of <%s> references layer %d."
