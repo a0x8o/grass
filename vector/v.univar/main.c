@@ -19,7 +19,7 @@
 /* TODO
  * - add flag to weigh by line/boundary length and area size
  *   Roger Bivand on GRASS devel ml on July 2 2004
- *   http://lists.osgeo.org/pipermail/grass-dev/2004-July/014976.html
+ *   https://lists.osgeo.org/pipermail/grass-dev/2004-July/014976.html
  *   "[...] calculating weighted means, weighting by line length
  *   or area surface size [does not make sense]. I think it would be
  *   better to treat each line or area as a discrete, unweighted, unit
@@ -74,6 +74,7 @@ double sumsq = 0.0;
 double sumcb = 0.0;
 double sumqt = 0.0;
 double sum_abs = 0.0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +194,11 @@ double min = NAN;
 double max = NAN;
 =======
 >>>>>>> osgeo-main
+=======
+double min = NAN;
+double max = NAN;
+=======
+>>>>>>> osgeo-main
 double min = 0.0 / 0.0; /* init as nan */
 double max = 0.0 / 0.0;
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -204,6 +210,7 @@ double max = 0.0 / 0.0;
 double min = NAN;
 double max = NAN;
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +257,8 @@ double max = NAN;
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 double min = 0.0 / 0.0; /* init as nan */
 double max = 0.0 / 0.0;
 =======
@@ -257,6 +266,7 @@ double min = NAN;
 double max = NAN;
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,6 +361,8 @@ double max = 0.0 / 0.0;
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

@@ -87,6 +87,7 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Close alls open raster and 3d raster maps and free memory
 =======
 <<<<<<< HEAD
@@ -117,6 +118,8 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -150,6 +153,7 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Close alls open raster and 3d raster maps and free memory
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -203,6 +207,11 @@ int close_input_raster3d_map(RASTER3D_Map *map)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+/* Close alls open raster and 3d raster maps and free memory
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 /* Close alls open raster and 3d raster maps and free memory

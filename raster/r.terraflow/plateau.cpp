@@ -104,6 +104,7 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                dimension_type nr,
                                                dimension_type nc)
 =======
@@ -135,6 +136,8 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -170,6 +173,7 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -201,9 +205,12 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                                                dimension_type nr,
                                                dimension_type nc)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +256,8 @@ plateauType *detectPlateaus::getPlateauForward(dimension_type i,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -440,6 +449,7 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /* check boundaries that are also part of plateau (but didnt know it) */
 =======
 <<<<<<< HEAD
@@ -470,6 +480,8 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -503,6 +515,7 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /* check boundaries that are also part of plateau (but didnt know it) */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -556,6 +569,11 @@ void detectPlateaus::processWindow(dimension_type row, dimension_type col,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    /* check boundaries that are also part of plateau (but didnt know it) */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     /* check boundaries that are also part of plateau (but didnt know it) */

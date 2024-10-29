@@ -157,6 +157,7 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               const struct line_cats *Cats, int chcat, double size,
 =======
 <<<<<<< HEAD
@@ -187,6 +188,8 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -220,6 +223,7 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
               const struct line_cats *Cats, int chcat, double size,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -273,6 +277,11 @@ int draw_line(int ltype, int line, const struct line_pnts *Points,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+              const struct line_cats *Cats, int chcat, double size,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
               const struct line_cats *Cats, int chcat, double size,

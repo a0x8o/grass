@@ -311,7 +311,7 @@ class LRParser:
     # certain kinds of advanced parsing situations where the lexer and parser interact with
     # each other or change states (i.e., manipulation of scope, lexer states, etc.).
     #
-    # See:  http://www.gnu.org/software/bison/manual/html_node/Default-Reductions.html#Default-Reductions
+    # See:  https://www.gnu.org/software/bison/manual/html_node/Default-Reductions.html#Default-Reductions
     def set_defaulted_states(self):
         self.defaulted_states = {}
         for state, actions in self.action.items():
@@ -1524,6 +1524,7 @@ class Grammar(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
 =======
 <<<<<<< HEAD
@@ -1554,6 +1555,8 @@ class Grammar(object):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1587,6 +1590,7 @@ class Grammar(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1640,6 +1644,11 @@ class Grammar(object):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         self.UsedPrecedence = set() # Precedence rules that were actually used by the grammer.

@@ -102,10 +102,10 @@ protected:
 
 public:
     // allocate array mergeHeap, where the streams are stored in runList
-    ReplacementHeapBlock<T, Compare>(queue<MEM_STREAM<T> *> *runList);
+    ReplacementHeapBlock(queue<MEM_STREAM<T> *> *runList);
 
     // delete array mergeHeap
-    ~ReplacementHeapBlock<T, Compare>();
+    ~ReplacementHeapBlock();
 
     // is heap empty?
     int empty() const { return (size == 0); }
@@ -161,7 +161,7 @@ ReplacementHeapBlock<T, Compare>::ReplacementHeapBlock(
 
 /*****************************************************************/
 template <class T, class Compare>
-ReplacementHeapBlock<T, Compare>::~ReplacementHeapBlock<T, Compare>()
+ReplacementHeapBlock<T, Compare>::~ReplacementHeapBlock()
 {
 
     if (!empty()) {
@@ -234,6 +234,7 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert(i >= 0 && i < size && mergeHeap[i].run);
 =======
 <<<<<<< HEAD
@@ -264,6 +265,8 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -297,6 +300,7 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     assert(i >= 0 && i < size && mergeHeap[i].run);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -350,6 +354,11 @@ void ReplacementHeapBlock<T, Compare>::deleteRun(size_t i)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    assert(i >= 0 && i < size && mergeHeap[i].run);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     assert(i >= 0 && i < size && mergeHeap[i].run);
@@ -480,6 +489,7 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     assert(i >= 0 && i < size);
 =======
 <<<<<<< HEAD
@@ -510,6 +520,8 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -543,6 +555,7 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     assert(i >= 0 && i < size);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -596,6 +609,11 @@ void ReplacementHeapBlock<T, Compare>::heapify(size_t i)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    assert(i >= 0 && i < size);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     assert(i >= 0 && i < size);

@@ -153,6 +153,7 @@ int get_layer_proj(OGRLayerH Ogr_layer, struct Cell_head *cellhd,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
                   char *geom_col)
 =======
@@ -184,6 +185,8 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -219,6 +222,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -250,9 +254,12 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
                   char *geom_col)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +305,8 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -351,6 +360,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
 =======
 <<<<<<< HEAD
@@ -381,6 +391,8 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -414,6 +426,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -467,6 +480,11 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
@@ -564,6 +582,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
 =======
 <<<<<<< HEAD
@@ -594,6 +613,8 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -627,6 +648,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -680,6 +702,11 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         Ogr_layer = ds_getlayerbyindex(Ogr_ds, layers[layer]);
@@ -796,6 +823,7 @@ int cmp_layer_srs(ds_t Ogr_ds, int nlayers, int *layers, char **layer_names,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 <<<<<<< HEAD
@@ -826,6 +854,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -859,6 +889,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -912,6 +943,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
@@ -1001,6 +1037,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "format; cannot create new location."));
 =======
 <<<<<<< HEAD
@@ -1031,6 +1068,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1064,6 +1103,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             "format; cannot create new location."));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1117,6 +1157,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            "format; cannot create new location."));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             "format; cannot create new location."));
@@ -1174,6 +1219,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 G_fatal_error(_("Unable to create new location <%s>"), outloc);
             }
             G_message(_("Location <%s> created"), outloc);
@@ -1206,6 +1252,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1243,6 +1291,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1274,10 +1323,13 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                 G_fatal_error(_("Unable to create new location <%s>"), outloc);
             }
             G_message(_("Location <%s> created"), outloc);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,6 +1375,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1362,6 +1416,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ds_close(hDS);
 =======
 <<<<<<< HEAD
@@ -1392,6 +1447,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1425,6 +1482,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ds_close(hDS);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1478,6 +1536,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            ds_close(hDS);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             ds_close(hDS);
@@ -1552,6 +1615,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ds_close(hDS);
 =======
 <<<<<<< HEAD
@@ -1582,6 +1646,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1615,6 +1681,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 ds_close(hDS);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1668,6 +1735,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                ds_close(hDS);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 ds_close(hDS);
@@ -1749,6 +1821,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             strcpy(error_msg, _("Projection of dataset does not"
                                 " appear to match current location.\n\n"));
 =======
@@ -1780,6 +1853,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1816,6 +1891,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1847,9 +1923,12 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             strcpy(error_msg, _("Projection of dataset does not"
                                 " appear to match current location.\n\n"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1895,6 +1974,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1932,6 +2013,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     strcat(error_msg, _("Location PROJ_INFO is:\n"));
 =======
 <<<<<<< HEAD
@@ -1962,6 +2044,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1995,6 +2079,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     strcat(error_msg, _("Location PROJ_INFO is:\n"));
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2048,6 +2133,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    strcat(error_msg, _("Location PROJ_INFO is:\n"));
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     strcat(error_msg, _("Location PROJ_INFO is:\n"));
@@ -2109,6 +2199,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2138,6 +2229,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2184,6 +2277,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2229,6 +2323,10 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2291,6 +2389,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2352,6 +2451,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2478,6 +2582,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     strcat(error_msg, "Location PROJ_UNITS is:\n");
 =======
 <<<<<<< HEAD
@@ -2508,6 +2613,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2541,6 +2648,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     strcat(error_msg, "Location PROJ_UNITS is:\n");
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2594,6 +2702,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    strcat(error_msg, "Location PROJ_UNITS is:\n");
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     strcat(error_msg, "Location PROJ_UNITS is:\n");
@@ -2664,6 +2777,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2693,6 +2807,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2731,6 +2847,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2776,6 +2893,10 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2829,6 +2950,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -2890,6 +3012,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -2951,6 +3078,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ds_close(hDS);
 =======
 <<<<<<< HEAD
@@ -2981,6 +3109,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3014,6 +3144,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 ds_close(hDS);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3067,6 +3198,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                ds_close(hDS);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 ds_close(hDS);
@@ -3128,6 +3264,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3157,6 +3294,8 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -3192,6 +3331,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -3237,6 +3377,10 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -3287,6 +3431,7 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -3348,6 +3493,11 @@ void check_projection(struct Cell_head *cellhd, ds_t hDS, int layer,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

@@ -810,10 +810,7 @@ class Line(Geo):
 
         """
         # set direction
-        if forward:
-            direction = libvect.GV_FORWARD
-        else:
-            direction = libvect.GV_BACKWARD
+        direction = libvect.GV_FORWARD if forward else libvect.GV_BACKWARD
         # check if is a Line object
         if isinstance(line, Line):
             c_points = line.c_points
@@ -1353,6 +1350,7 @@ class Boundary(Line):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1415,6 +1413,11 @@ class Boundary(Line):
 >>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> c875f035a5 (Dockerfile: fix broken lib link (#1625))
+>>>>>>> osgeo-main
 =======
 =======
 =======

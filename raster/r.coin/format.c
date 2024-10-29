@@ -49,6 +49,7 @@ int format_double(double v, char *buf, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -125,6 +126,10 @@ int format_double(double v, char *buf, int n)
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 =======
 >>>>>>> osgeo-main
+=======
+    for (k = n; (ssize_t)strlen(buf) > n; k--) {
+=======
+>>>>>>> osgeo-main
     for (k = n; strlen(buf) > n; k--) {
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -133,6 +138,7 @@ int format_double(double v, char *buf, int n)
 =======
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,11 +185,14 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     for (k = n; strlen(buf) > n; k--) {
 =======
     for (k = n; (ssize_t)strlen(buf) > n; k--) {
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,6 +274,8 @@ int format_double(double v, char *buf, int n)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

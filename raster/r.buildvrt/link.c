@@ -100,6 +100,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int have_stats, struct R_stats *ostats, const char *title)
 =======
 <<<<<<< HEAD
@@ -130,6 +131,8 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -164,6 +167,7 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 int have_stats, struct R_stats *ostats, const char *title)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -217,6 +221,11 @@ void create_map(const struct input *inputs, int num_inputs, const char *output,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                int have_stats, struct R_stats *ostats, const char *title)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                 int have_stats, struct R_stats *ostats, const char *title)

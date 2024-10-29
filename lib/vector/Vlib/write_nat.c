@@ -128,6 +128,7 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 =======
 <<<<<<< HEAD
@@ -158,6 +159,8 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -191,6 +194,7 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -244,6 +248,11 @@ off_t V1_rewrite_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     G_debug(3, "V1_rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
@@ -539,6 +548,7 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "V1_restore_line_nat(): offset = %" PRI_OFF_T
             ", line (not used) = %" PRI_OFF_T,
 =======
@@ -570,6 +580,8 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -605,6 +617,7 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -636,9 +649,12 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
             "V1_restore_line_nat(): offset = %" PRI_OFF_T
             ", line (not used) = %" PRI_OFF_T,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +700,8 @@ int V1_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -766,6 +784,7 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_debug(
         3, "V2_restore_line_nat(): offset = %" PRI_OFF_T ", line = %" PRI_OFF_T,
         offset, line);
@@ -803,6 +822,8 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -848,6 +869,7 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -879,6 +901,8 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
     G_debug(
         3, "V2_restore_line_nat(): offset = %" PRI_OFF_T ", line = %" PRI_OFF_T,
         offset, line);
@@ -888,6 +912,7 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
             _("Attempt to access feature with invalid id (%" PRI_OFF_T ")"),
             line);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +958,8 @@ int V2_restore_line_nat(struct Map_info *Map, off_t offset, off_t line)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1037,6 +1064,7 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 =======
 <<<<<<< HEAD
@@ -1067,6 +1095,8 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1100,6 +1130,7 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1153,6 +1184,11 @@ off_t V1__write_line_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         G_debug(3, "V1__rewrite_line_nat(): offset = %" PRI_OFF_T, offset);
@@ -1629,6 +1665,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              int (*external_routine)(const struct Map_info *,
                                                      int))
 =======
@@ -1660,6 +1697,8 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1694,6 +1733,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -1725,9 +1765,12 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
                              int (*external_routine)(const struct Map_info *,
                                                      int))
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1773,6 +1816,8 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1819,6 +1864,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 =======
 <<<<<<< HEAD
@@ -1849,6 +1895,8 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1882,6 +1930,7 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1935,6 +1984,11 @@ int V2__add_line_to_topo_nat(struct Map_info *Map, off_t offset, int type,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             "V2__add_line_to_topo_nat(): offset = %" PRI_OFF_T

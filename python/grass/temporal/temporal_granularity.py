@@ -30,6 +30,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 240dcc86f4 (pythonlib: Remove star imports (#1546))
@@ -64,11 +65,15 @@ for details.
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+>>>>>>> osgeo-main
 from .datetime_math import compute_datetime_delta
 from .abstract_map_dataset import AbstractMapDataset
 =======
 from __future__ import print_function
 from .datetime_math import compute_datetime_delta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,12 +149,15 @@ from collections import OrderedDict
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 from functools import reduce
 from collections import OrderedDict
 >>>>>>> bdc1a9eff8 (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +188,8 @@ from collections import OrderedDict
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -670,7 +680,7 @@ def compute_absolute_time_granularity(maps):
         # Keep the temporal extent to compare to the following/next map
         previous_start, previous_end = start, end
 
-    # Create a list with a single time unit only
+    # Create a set with a single time unit only
     dlist = set()
     assigned_time_unit = None
     time_unit_multipliers = {
@@ -705,11 +715,8 @@ def compute_absolute_time_granularity(maps):
     if not dlist:
         return None
 
-    if len(dlist) > 1:
-        # Find greatest common divisor
-        granularity = gcd_list(dlist)
-    else:
-        granularity = dlist.pop()
+    # Find greatest common divisor to get a single time unit
+    granularity = gcd_list(dlist) if len(dlist) > 1 else dlist.pop()
 
     if granularity is None:
         return None

@@ -820,10 +820,7 @@ class AbstractMapDataset(AbstractDataset):
         else:
             start, end, unit = self.get_relative_time()
             new_start = start - increment
-            if end is None:
-                new_end = start + increment
-            else:
-                new_end = end + increment
+            new_end = start + increment if end is None else end + increment
 
             if update:
                 self.update_relative_time(new_start, new_end, unit, dbif=dbif)
@@ -1023,6 +1020,7 @@ class AbstractMapDataset(AbstractDataset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1083,11 @@ class AbstractMapDataset(AbstractDataset):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======

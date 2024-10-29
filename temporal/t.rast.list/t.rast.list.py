@@ -189,6 +189,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "A standard CSV separator (delimiter) is only one character long"
 =======
 <<<<<<< HEAD
@@ -219,6 +220,8 @@ def main():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -253,6 +256,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         "A standard CSV separator (delimiter) is only one character long"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -306,6 +310,11 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                        "A standard CSV separator (delimiter) is only one character long"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                         "A standard CSV separator (delimiter) is only one character long"
@@ -365,6 +374,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # the C API, the Python interface specs does not allow reseting the default
 =======
 <<<<<<< HEAD
@@ -395,6 +405,8 @@ def main():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -428,6 +440,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # the C API, the Python interface specs does not allow reseting the default
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -481,6 +494,11 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            # the C API, the Python interface specs does not allow reseting the default
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             # the C API, the Python interface specs does not allow reseting the default
@@ -592,6 +610,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 "Column '{name}' is not available with the method '{method}'"
 =======
 <<<<<<< HEAD
@@ -622,6 +641,8 @@ def main():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -656,6 +677,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                                 "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -709,6 +731,11 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                                "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                                 "Column '{name}' is not available with the method '{method}'"
@@ -776,6 +803,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Column '{name}' is not available with the method '{method}'"
 =======
 <<<<<<< HEAD
@@ -806,6 +834,8 @@ def main():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -840,6 +870,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             "Column '{name}' is not available with the method '{method}'"
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -893,6 +924,11 @@ def main():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                            "Column '{name}' is not available with the method '{method}'"
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             "Column '{name}' is not available with the method '{method}'"

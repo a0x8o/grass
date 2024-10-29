@@ -47,6 +47,7 @@ DCELL feature(double *coeff)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     double maxic, minic, /* Minimium and maximum curvature.      */
 =======
 <<<<<<< HEAD
@@ -77,6 +78,8 @@ DCELL feature(double *coeff)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -110,6 +113,7 @@ DCELL feature(double *coeff)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     double maxic, minic, /* Minimium and maximum curvature.      */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -163,6 +167,11 @@ DCELL feature(double *coeff)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    double maxic, minic, /* Minimium and maximum curvature.      */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     double maxic, minic, /* Minimium and maximum curvature.      */

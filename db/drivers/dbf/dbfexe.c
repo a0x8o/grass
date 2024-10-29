@@ -361,6 +361,7 @@ void get_col_def(SQLPSTMT *st, int col, int *type, int *width, int *decimals)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 <<<<<<< HEAD
@@ -391,6 +392,8 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -425,6 +428,7 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -478,6 +482,11 @@ void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 void eval_val(int tab, int row, int col, SQLPVALUE *inval, SQLPVALUE *val)

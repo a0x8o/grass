@@ -35,6 +35,7 @@ extern struct Ref ref;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -105,6 +106,10 @@ extern char **semantic_labels;
 extern char **semantic_labels;
 =======
 >>>>>>> osgeo-main
+=======
+extern char **semantic_labels;
+=======
+>>>>>>> osgeo-main
 extern char **bandrefs;
 >>>>>>> 268d757b7d (ci: Ignore paths in CodeQL (#1778))
 =======
@@ -113,6 +118,7 @@ extern char **semantic_labels;
 =======
 extern char **semantic_labels;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +200,8 @@ extern char **semantic_labels;
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

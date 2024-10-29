@@ -295,6 +295,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * parts, so that if each line part would be processed separetely, it could
 =======
 <<<<<<< HEAD
@@ -325,6 +326,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -358,6 +361,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * parts, so that if each line part would be processed separetely, it could
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -411,6 +415,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+     * parts, so that if each line part would be processed separetely, it could
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
      * parts, so that if each line part would be processed separetely, it could
@@ -797,6 +806,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'
 =======
 <<<<<<< HEAD
@@ -827,6 +837,8 @@ int main(int argc, char **argv)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -860,6 +872,7 @@ int main(int argc, char **argv)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -913,6 +926,11 @@ int main(int argc, char **argv)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        /* Go thourough all attached MPs and fill in info about MPs to 'lines'
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         /* Go thourough all attached MPs and fill in info about MPs to 'lines'

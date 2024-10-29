@@ -8,7 +8,6 @@ for details.
 """
 
 import datetime
-import os
 
 <<<<<<< HEAD
 =======

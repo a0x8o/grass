@@ -35,6 +35,7 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -72,11 +73,14 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
 =======
 >>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +149,8 @@ for details.
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 import os
 import re
 import sys
@@ -161,6 +167,12 @@ from .core import Popen, PIPE, get_real_command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
+=======
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 =======
 ETREE_EXCEPTIONS = (ET.ParseError, expat.ExpatError)
 =======
@@ -210,6 +222,10 @@ if sys.version_info.major >= 3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 4bd0126b6c (pythonlib: Remove star imports (#1546))
 >>>>>>> osgeo-main
@@ -349,8 +365,7 @@ class grassTask:
                 _("Parameter element '%(element)s' not found: '%(value)s'")
                 % {"element": element, "value": value}
             )
-        else:
-            return None
+        return None
 
     def get_flag(self, aFlag):
         """Find and return a flag by name
@@ -541,14 +556,8 @@ class processTask:
                 for ki in node_key_desc.findall("item"):
                     key_desc.append(ki.text)
 
-            if p.get("multiple", "no") == "yes":
-                multiple = True
-            else:
-                multiple = False
-            if p.get("required", "no") == "yes":
-                required = True
-            else:
-                required = False
+            multiple = p.get("multiple", "no") == "yes"
+            required = p.get("required", "no") == "yes"
 
             if (
                 self.task.blackList["enabled"]

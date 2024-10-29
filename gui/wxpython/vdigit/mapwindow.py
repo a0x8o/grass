@@ -153,6 +153,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tools = {
             ord("P"): {
                 "event": wx.CommandEvent(id=self.toolbar.addPoint),
@@ -262,6 +263,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -487,6 +490,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -503,6 +507,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -614,6 +620,7 @@ class VDigitWindow(BufferedMapWindow):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -644,6 +651,8 @@ class VDigitWindow(BufferedMapWindow):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -1243,10 +1252,7 @@ class VDigitWindow(BufferedMapWindow):
                 self.digit.GetDisplay().SelectAreaByPoint(pos1)["area"] != -1
             )
         else:
-            if action == "moveLine":
-                drawSeg = True
-            else:
-                drawSeg = False
+            drawSeg = action == "moveLine"
 
             nselected = self.digit.GetDisplay().SelectLinesByBox(
                 bbox=(pos1, pos2), drawSeg=drawSeg
@@ -1512,10 +1518,7 @@ class VDigitWindow(BufferedMapWindow):
                 GError(parent=self, message=_("No vector map selected for editing."))
 
             if mapName:
-                if self.toolbar.GetAction("type") == "line":
-                    line = True
-                else:
-                    line = False
+                line = self.toolbar.GetAction("type") == "line"
 
                 if len(self.polycoords) < 2:  # ignore 'one-point' lines
                     return

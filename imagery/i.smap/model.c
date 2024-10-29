@@ -52,6 +52,7 @@ void extract_init(struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* Test for symetric  matrix */
 =======
 <<<<<<< HEAD
@@ -82,6 +83,8 @@ void extract_init(struct SigSet *S)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -115,6 +118,7 @@ void extract_init(struct SigSet *S)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /* Test for symetric  matrix */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -168,6 +172,11 @@ void extract_init(struct SigSet *S)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+            /* Test for symetric  matrix */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
             /* Test for symetric  matrix */

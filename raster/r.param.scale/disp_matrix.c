@@ -37,6 +37,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -102,10 +103,13 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
                         /* Displays matrices used to solve a
                            set of linear equations in the form
 
                            _                        _      _  _      _  _
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +160,11 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -207,6 +216,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ebf041644a (r.horizon manual - fix typo (#2794))
 =======
@@ -217,6 +227,8 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -251,6 +263,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -272,6 +285,7 @@ void disp_matrix(double **a, double *x, double *z, int n)
 =======
 =======
 =======
+=======
                            | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
                            | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
                            |    :           :   ...   :    | .  | :  | =  | :  |
@@ -279,6 +293,24 @@ void disp_matrix(double **a, double *x, double *z, int n)
                            | a(n,0) a(n,1) ... a(n,n) |    | xn |    | zn |
                            -                        -      -  -      -  -
 
+=======
+                        /* Displays matrices used to solve a 
+                           set of linear equations in the form 
+=======
+                        /* Displays matrices used to solve a
+                           set of linear equations in the form
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+
+                           _                        _      _  _      _  _
+>>>>>>> osgeo-main
+                           | a(0,0) a(0,1) ... a(0,n) |    | x0 |    | z0 |
+                           | a(1,0) a(1,1) ... a(1,n) |    | x1 |    | z1 |
+                           |    :           :   ...   :    | .  | :  | =  | :  |
+                           |    :           :   ...   :    |    | :  |    | :  |
+                           | a(n,0) a(n,1) ... a(n,n) |    | xn |    | zn |
+                           -                        -      -  -      -  -
+
+<<<<<<< HEAD
 =======
                         /* Displays matrices used to solve a 
                            set of linear equations in the form 
@@ -607,6 +639,9 @@ void disp_matrix(double **a, double *x, double *z, int n)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -682,6 +717,7 @@ void disp_wind(CELL * z)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -719,11 +755,14 @@ void disp_wind(CELL * z)
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 extern int dummy_for_iso_compilers; /* suppress -Wempty-translation-unit */
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,6 +817,8 @@ extern int dummy_for_iso_compilers; /* suppress -Wempty-translation-unit */
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

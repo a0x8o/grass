@@ -2035,6 +2035,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2064,6 +2065,8 @@ class PreferencesDialog(PreferencesBaseDialog):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -2099,6 +2102,7 @@ class PreferencesDialog(PreferencesBaseDialog):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -2144,6 +2148,10 @@ class PreferencesDialog(PreferencesBaseDialog):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -2470,10 +2478,7 @@ class PreferencesDialog(PreferencesBaseDialog):
         """Enable/disable wheel zoom mode control"""
         choiceId = self.winId["display:mouseWheelZoom:selection"]
         choice = self.FindWindowById(choiceId)
-        if choice.GetSelection() == 2:
-            enable = False
-        else:
-            enable = True
+        enable = choice.GetSelection() != 2
         scrollId = self.winId["display:scrollDirection:selection"]
         self.FindWindowById(scrollId).Enable(enable)
 

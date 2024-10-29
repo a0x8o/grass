@@ -342,6 +342,7 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int do_profile(double e1, double e2, double n1, double n2, const char *name,
                int fd, int data_type)
 =======
@@ -373,6 +374,8 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -408,6 +411,7 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -439,9 +443,12 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 int do_profile(double e1, double e2, double n1, double n2, const char *name,
                int fd, int data_type)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,6 +494,8 @@ int do_profile(double e1, double e2, double n1, double n2, const char *name,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======

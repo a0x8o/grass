@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    forward costs), \param ncol column with costs for nodes (if NULL, do not use
    node costs), \param geo use geodesic calculation for length (LL), \param
    algorithm not used (in future code for algorithm)
@@ -87,6 +88,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -126,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -157,10 +161,13 @@
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
    forward costs), \param ncol column with costs for nodes (if NULL, do not use
    node costs), \param geo use geodesic calculation for length (LL), \param
    algorithm not used (in future code for algorithm)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +213,8 @@
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -245,6 +254,7 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              const char *ncol, int geo, int algorithm)
 =======
 <<<<<<< HEAD
@@ -275,6 +285,8 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -308,6 +320,7 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                              const char *ncol, int geo, int algorithm)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -361,6 +374,11 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                             const char *ncol, int geo, int algorithm)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                              const char *ncol, int geo, int algorithm)
@@ -795,6 +813,7 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("Database record for turn with cat = %d in not found. "
 =======
 <<<<<<< HEAD
@@ -825,6 +844,8 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -858,6 +879,7 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     _("Database record for turn with cat = %d in not found. "
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -911,6 +933,11 @@ int Vect_net_ttb_build_graph(struct Map_info *Map, int ltype, int afield,
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+                    _("Database record for turn with cat = %d in not found. "
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                     _("Database record for turn with cat = %d in not found. "

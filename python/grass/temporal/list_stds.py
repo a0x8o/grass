@@ -283,6 +283,7 @@ def _write_table(rows, column_names, output_format, separator, file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # No particular reason for this separator expect that this is the original behavior.
 =======
 <<<<<<< HEAD
@@ -313,6 +314,8 @@ def _write_table(rows, column_names, output_format, separator, file):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -347,6 +350,7 @@ def _write_table(rows, column_names, output_format, separator, file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # No particular reason for this separator expect that this is the original behavior.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -400,6 +404,11 @@ def _write_table(rows, column_names, output_format, separator, file):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+        # No particular reason for this separator expect that this is the original behavior.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         # No particular reason for this separator expect that this is the original behavior.
@@ -504,6 +513,7 @@ def _get_get_registered_maps_as_objects_delta_gran(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -543,11 +553,14 @@ def _get_get_registered_maps_as_objects_delta_gran(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +629,8 @@ def _get_get_registered_maps_as_objects_delta_gran(
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         if isinstance(map_object, list):
             if len(map_object) > 0:
                 map_object = map_object[0]
@@ -623,10 +638,7 @@ def _get_get_registered_maps_as_objects_delta_gran(
                 msgr.fatal(_("Empty entry in map list, this should not happen"))
 
         start, end = map_object.get_temporal_extent_as_tuple()
-        if end:
-            delta = end - start
-        else:
-            delta = None
+        delta = end - start if end else None
         delta_first = start - first_time
 
         if map_object.is_time_absolute():
@@ -775,6 +787,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -804,6 +817,8 @@ def _get_list_of_maps_stds(
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -842,6 +857,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -887,6 +903,10 @@ def _get_list_of_maps_stds(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -938,6 +958,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -999,6 +1020,11 @@ def _get_list_of_maps_stds(
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======

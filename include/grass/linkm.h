@@ -29,6 +29,7 @@ struct link_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     int max_ptr;        /* num of chunks alloced */
 =======
 <<<<<<< HEAD
@@ -59,6 +60,8 @@ struct link_head {
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -92,6 +95,7 @@ struct link_head {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int max_ptr;        /* num of chunks alloced */
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -145,6 +149,11 @@ struct link_head {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+    int max_ptr;        /* num of chunks alloced */
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     int max_ptr;        /* num of chunks alloced */

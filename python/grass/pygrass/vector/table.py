@@ -45,6 +45,7 @@ from grass.lib.ctypes_preamble import ReturnString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +108,11 @@ from grass.lib.ctypes_preamble import ReturnString
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -262,8 +268,7 @@ class Filters:
         """
         if not isinstance(number, int):
             raise ValueError("Must be an integer.")
-        else:
-            self._limit = "LIMIT {number}".format(number=number)
+        self._limit = "LIMIT {number}".format(number=number)
         return self
 
     def group_by(self, *groupby):
@@ -1389,10 +1394,7 @@ class Table:
         """
         cur = cursor or self.conn.cursor()
         coldef = ",\n".join(["%s %s" % col for col in cols])
-        if name:
-            newname = name
-        else:
-            newname = self.name
+        newname = name or self.name
         try:
             cur.execute(sql.CREATE_TAB.format(tname=newname, coldef=coldef))
             self.conn.commit()

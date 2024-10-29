@@ -181,6 +181,7 @@ out_sep = """1076,366545504,324050.96875,1077,1076,Zwe,366545512.376,324050.9723
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 out_json = """{"records":[
 =======
 <<<<<<< HEAD
@@ -211,6 +212,8 @@ out_json = """{"records":[
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -256,6 +259,7 @@ out_json = """{"records":[
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 out_json = """{"records":[
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
@@ -309,6 +313,11 @@ out_json = """{"records":[
 >>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+=======
+out_json = """{"records":[
+>>>>>>> 4d944b87c5 (WMS: replace broken URLs with alternative WMS (#1635))
+>>>>>>> osgeo-main
 =======
 =======
 out_json = """{"records":[

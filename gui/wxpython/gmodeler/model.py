@@ -833,10 +833,7 @@ class Model:
                 if gtype in {"raster", "vector", "mapset", "file", "region", "dir"}:
                     gisprompt = True
                     prompt = gtype
-                    if gtype == "raster":
-                        element = "cell"
-                    else:
-                        element = gtype
+                    element = "cell" if gtype == "raster" else gtype
                     ptype = "string"
                 else:
                     gisprompt = False
@@ -1102,10 +1099,7 @@ class ModelAction(ModelObject, ogl.DividedShape):
                     group="modeler", key="action", subkey=("width", "default")
                 )
             )
-        if self.isEnabled:
-            style = wx.SOLID
-        else:
-            style = wx.DOT
+        style = wx.SOLID if self.isEnabled else wx.DOT
 
         pen = wx.Pen(wx.BLACK, width, style)
         self.SetPen(pen)
@@ -1453,10 +1447,7 @@ class ModelData(ModelObject):
         self.SetLabel()
         for direction in ("from", "to"):
             for rel in self.GetRelations(direction):
-                if direction == "from":
-                    action = rel.GetTo()
-                else:
-                    action = rel.GetFrom()
+                action = rel.GetTo() if direction == "from" else rel.GetFrom()
 
                 task = GUI(show=None).ParseCommand(cmd=action.GetLog(string=False))
                 task.set_param(rel.GetLabel(), self.value)
@@ -1525,10 +1516,7 @@ class ModelData(ModelObject):
                     group="modeler", key="action", subkey=("width", "default")
                 )
             )
-        if self.intermediate:
-            style = wx.DOT
-        else:
-            style = wx.SOLID
+        style = wx.DOT if self.intermediate else wx.SOLID
 
         return wx.Pen(wx.BLACK, width, style)
 
@@ -1718,10 +1706,7 @@ class ModelItem(ModelObject):
 
     def _setPen(self):
         """Set pen"""
-        if self.isEnabled:
-            style = wx.SOLID
-        else:
-            style = wx.DOT
+        style = wx.SOLID if self.isEnabled else wx.DOT
 
         pen = wx.Pen(wx.BLACK, 1, style)
         self.SetPen(pen)
@@ -1986,10 +1971,7 @@ class ProcessModelFile:
         self.root = self.tree.getroot()
         # check if input is a valid GXM file
         if self.root is None or self.root.tag != "gxm":
-            if self.root is not None:
-                tagName = self.root.tag
-            else:
-                tagName = _("empty")
+            tagName = self.root.tag if self.root is not None else _("empty")
             raise GException(_("Details: unsupported tag name '{0}'.").format(tagName))
 
         # list of actions, data
@@ -2099,10 +2081,7 @@ class ProcessModelFile:
             aId = int(action.get("id", -1))
             label = action.get("name")
             comment = action.find("comment")
-            if comment is not None:
-                commentString = comment.text
-            else:
-                commentString = ""
+            commentString = comment.text if comment is not None else ""
 
             self.actions.append(
                 {
@@ -2515,10 +2494,7 @@ class WriteModelFile:
             # relations
             for ft in ("from", "to"):
                 for rel in data.GetRelations(ft):
-                    if ft == "from":
-                        aid = rel.GetTo().GetId()
-                    else:
-                        aid = rel.GetFrom().GetId()
+                    aid = rel.GetTo().GetId() if ft == "from" else rel.GetFrom().GetId()
                     self.fd.write(
                         '%s<relation dir="%s" id="%d" name="%s">\n'
                         % (" " * self.indent, ft, aid, rel.GetLabel())
@@ -2618,6 +2594,7 @@ class WriteScriptFile(ABC):
     """Abstract class for scripts based on the model."""
 
     @abstractmethod
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3210,6 +3187,10 @@ class WritePythonFile(WriteScriptFile):
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> osgeo-main
     def __init__(self, fd, model):
         """Constructor to be overriden."""
         self.fd = None
@@ -3723,6 +3704,7 @@ if __name__ == "__main__":
 
 class WritePythonFile(WriteScriptFile):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4799,6 +4781,8 @@ class WritePythonFile(WriteScriptFile):
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -5695,10 +5679,7 @@ if __name__ == "__main__":
         parameterized_params = item.GetParameterizedParams()
 
         for flag in parameterized_params["flags"]:
-            if flag["label"]:
-                desc = flag["label"]
-            else:
-                desc = flag["description"]
+            desc = flag["label"] or flag["description"]
 
             if flag["value"]:
                 value = '\n{}default="{}"'.format(
@@ -5964,12 +5945,7 @@ if __name__ == "__main__":
         return ret
 
     def _getParamDesc(self, param):
-        if param["label"]:
-            desc = param["label"]
-        else:
-            desc = param["description"]
-
-        return desc
+        return param["label"] or param["description"]
 
     def _getParamValue(self, param):
         if param["value"] and "output" not in param["name"]:
@@ -6082,10 +6058,7 @@ class WritePythonFile(WriteScriptFile):
         for item in modelItems:
             parametrizedParams = item.GetParameterizedParams()
             for flag in parametrizedParams["flags"]:
-                if flag["label"]:
-                    desc = flag["label"]
-                else:
-                    desc = flag["description"]
+                desc = flag["label"] or flag["description"]
                 self.fd.write(
                     r"""# %option
 # % key: {flag_name}
@@ -6106,10 +6079,7 @@ class WritePythonFile(WriteScriptFile):
                 self.fd.write("# %end\n")
 
             for param in parametrizedParams["params"]:
-                if param["label"]:
-                    desc = param["label"]
-                else:
-                    desc = param["description"]
+                desc = param["label"] or param["description"]
                 self.fd.write(
                     r"""# %option
 # % key: {param_name}
@@ -6198,6 +6168,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 r"""    run_command("g.remove", flags="f", type="raster",
                 name=%s)
 """
@@ -6245,6 +6216,8 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -6315,6 +6288,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a2d9fb4362 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6333,6 +6307,10 @@ def cleanup():
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> 17e44a46cf (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -6396,6 +6374,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6427,6 +6406,9 @@ def cleanup():
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> b49c22396f (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
@@ -6468,6 +6450,7 @@ def cleanup():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -6518,6 +6501,8 @@ def cleanup():
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
         modelVars = self.model.GetVariables()
         for item in self.model.GetItems(ModelAction):
             modelParams = item.GetParameterizedParams()
@@ -6528,6 +6513,7 @@ def cleanup():
         for item in self.model.GetItems(ModelAction):
 =======
         for item in self.model.GetItems():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6593,6 +6579,11 @@ def cleanup():
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
