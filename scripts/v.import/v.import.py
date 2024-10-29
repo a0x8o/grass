@@ -291,18 +291,27 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> b00fdbd3cf (v.import: Fixed E722 bare except (#4614))
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             except ImportError:
 >>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+            except ImportError:
+>>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+>>>>>>> b00fdbd3cf (v.import: Fixed E722 bare except (#4614))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "
@@ -380,18 +389,27 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> b00fdbd3cf (v.import: Fixed E722 bare except (#4614))
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             except ImportError:
 >>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+            except ImportError:
+>>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+>>>>>>> b00fdbd3cf (v.import: Fixed E722 bare except (#4614))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "
