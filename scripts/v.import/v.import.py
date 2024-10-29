@@ -282,10 +282,14 @@ def main():
             try:
                 from osgeo import gdal
 <<<<<<< HEAD
+<<<<<<< HEAD
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            except ImportError:
+>>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "
@@ -361,10 +365,14 @@ def main():
             try:
                 from osgeo import gdal
 <<<<<<< HEAD
+<<<<<<< HEAD
             except ImportError:
 =======
             except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+            except ImportError:
+>>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
                 gs.fatal(
                     _(
                         "Unable to load GDAL Python bindings (requires package "

@@ -211,6 +211,7 @@ per-file-ignores =
 <<<<<<< HEAD
     scripts/r.semantic.label/r.semantic.label.py: E501
 <<<<<<< HEAD
+<<<<<<< HEAD
     scripts/db.out.ogr/db.out.ogr.py: F841
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501n
@@ -218,6 +219,16 @@ per-file-ignores =
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501
 >>>>>>> osgeo-main
+=======
+    scripts/g.extension/g.extension.py: E501
+    scripts/v.unpack/v.unpack.py: E501
+=======
+    scripts/v.report/v.report.py: E721
+    scripts/db.out.ogr/db.out.ogr.py: F841
+    scripts/g.extension/g.extension.py: F841, E722, E501
+    scripts/v.unpack/v.unpack.py: E722, E501
+>>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+>>>>>>> 4403789ba0 (v.import: Fixed E722 bare except (#4614))
     scripts/v.import/v.import.py: E501
     scripts/db.univar/db.univar.py: E501
     scripts/i.pansharpen/i.pansharpen.py: E501
