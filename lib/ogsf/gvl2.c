@@ -321,10 +321,13 @@ void GVL_get_dims(int id, int *rows, int *cols, int *depths)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 00f589b478 (lib/ogsf: Dereference after null check in gvl2.c (#4588))
 
         G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
                 gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
@@ -344,6 +347,7 @@ void GVL_get_dims(int id, int *rows, int *cols, int *depths)
     }
 =======
 >>>>>>> ea3a3f27ea (lib/ogsf: Dereference after null check in gvl2.c (#4588))
+<<<<<<< HEAD
 
         G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
                 gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
@@ -365,9 +369,18 @@ void GVL_get_dims(int id, int *rows, int *cols, int *depths)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     }
+=======
+>>>>>>> 00f589b478 (lib/ogsf: Dereference after null check in gvl2.c (#4588))
 
-    G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
-            gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
+        G_debug(3, "GVL_get_dims() id=%d, rows=%d, cols=%d, depths=%d",
+                gvl->gvol_id, gvl->rows, gvl->cols, gvl->depths);
+    }
+    else {
+        G_debug(2,
+                "GVL_get_dims(): Attempted to access a null volume structure "
+                "for id=%d",
+                id);
+    }
 
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
