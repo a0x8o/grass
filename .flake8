@@ -225,10 +225,18 @@ per-file-ignores =
 =======
     scripts/v.report/v.report.py: E721
     scripts/db.out.ogr/db.out.ogr.py: F841
+<<<<<<< HEAD
     scripts/g.extension/g.extension.py: F841, E722, E501
     scripts/v.unpack/v.unpack.py: E722, E501
 >>>>>>> 01cf883c12 (v.import: Fixed E722 bare except (#4614))
+<<<<<<< HEAD
 >>>>>>> 4403789ba0 (v.import: Fixed E722 bare except (#4614))
+=======
+=======
+    scripts/g.extension/g.extension.py: E501
+    scripts/v.unpack/v.unpack.py: E501
+>>>>>>> 5c1f11d634 (v.unpack: Fixed bare 'except' (#4616))
+>>>>>>> b52c03e0c5 (v.unpack: Fixed bare 'except' (#4616))
     scripts/v.import/v.import.py: E501
     scripts/db.univar/db.univar.py: E501
     scripts/i.pansharpen/i.pansharpen.py: E501
