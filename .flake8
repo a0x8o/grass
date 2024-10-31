@@ -227,6 +227,7 @@ per-file-ignores =
 >>>>>>> 66168599df (v.report: Updated instance checks (#4618))
 >>>>>>> a28d83a678 (v.report: Updated instance checks (#4618))
     scripts/g.extension/g.extension.py: E501
+<<<<<<< HEAD
     scripts/v.unpack/v.unpack.py: E501
 =======
     scripts/v.report/v.report.py: E721
@@ -242,7 +243,13 @@ per-file-ignores =
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501
 >>>>>>> 5c1f11d634 (v.unpack: Fixed bare 'except' (#4616))
+<<<<<<< HEAD
 >>>>>>> b52c03e0c5 (v.unpack: Fixed bare 'except' (#4616))
+=======
+=======
+    scripts/v.unpack/v.unpack.py: E501n
+>>>>>>> a27787ac67 (db.out.ogr: Removed unused variable (#4617))
+>>>>>>> a450684f59 (db.out.ogr: Removed unused variable (#4617))
     scripts/v.import/v.import.py: E501
     scripts/db.univar/db.univar.py: E501
     scripts/i.pansharpen/i.pansharpen.py: E501
