@@ -212,6 +212,7 @@ per-file-ignores =
     scripts/r.semantic.label/r.semantic.label.py: E501
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scripts/db.out.ogr/db.out.ogr.py: F841
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501n
@@ -220,6 +221,11 @@ per-file-ignores =
     scripts/v.unpack/v.unpack.py: E501
 >>>>>>> osgeo-main
 =======
+=======
+=======
+    scripts/db.out.ogr/db.out.ogr.py: F841
+>>>>>>> 66168599df (v.report: Updated instance checks (#4618))
+>>>>>>> a28d83a678 (v.report: Updated instance checks (#4618))
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501
 =======
