@@ -296,6 +296,7 @@ per-file-ignores =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scripts/db.out.ogr/db.out.ogr.py: F841
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501n
@@ -334,6 +335,11 @@ per-file-ignores =
 >>>>>>> a27787ac67 (db.out.ogr: Removed unused variable (#4617))
 >>>>>>> a450684f59 (db.out.ogr: Removed unused variable (#4617))
 =======
+=======
+=======
+    scripts/db.out.ogr/db.out.ogr.py: F841
+>>>>>>> 66168599df (v.report: Updated instance checks (#4618))
+>>>>>>> 68f09ce099 (v.report: Updated instance checks (#4618))
     scripts/g.extension/g.extension.py: E501
     scripts/v.unpack/v.unpack.py: E501
 =======
