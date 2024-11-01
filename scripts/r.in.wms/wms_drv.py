@@ -21,17 +21,25 @@ import socket
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 =======
 import grass.script as gs
 
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 from time import sleep
 
 import grass.script as gs
@@ -41,18 +49,27 @@ try:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 except ImportError:
 =======
 except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 except ImportError:
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+except ImportError:
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' "
@@ -63,8 +80,11 @@ except ImportError:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 =======
 import numpy as np
 
@@ -75,10 +95,15 @@ from math import pi, floor
 from urllib.error import HTTPError
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 from http.client import HTTPException
 from math import floor, pi
 from urllib.error import HTTPError
@@ -91,6 +116,12 @@ from wms_base import GetEpsg, GetSRSParamVal, WMSBase
 from wms_cap_parsers import OnEarthCapabilitiesTree, WMTSCapabilitiesTree
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+
+np.arrayrange = np.arange
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 
 <<<<<<< HEAD
 np.arrayrange = np.arange

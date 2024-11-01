@@ -286,6 +286,13 @@ per-file-ignores =
     # E402 module level import not at top of file
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+    scripts/r.semantic.label/r.semantic.label.py: E501
+>>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
