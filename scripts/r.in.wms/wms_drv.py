@@ -119,14 +119,18 @@ from wms_cap_parsers import OnEarthCapabilitiesTree, WMTSCapabilitiesTree
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 np.arrayrange = np.arange
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 >>>>>>> 923d022ffe (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 np.arrayrange = np.arange
 >>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 
+=======
+>>>>>>> 3502dc1433 (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
 =======
 >>>>>>> 333cadc59a (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
 
@@ -384,8 +388,11 @@ class WMSDrv(WMSBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3502dc1433 (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
             np.arange(256),
             np.arange(256),
             np.arange(256),
@@ -395,13 +402,19 @@ class WMSDrv(WMSBase):
             np.arrayrange(256),
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3502dc1433 (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
 =======
             np.arange(256),
             np.arange(256),
             np.arange(256),
 >>>>>>> 333cadc59a (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
+<<<<<<< HEAD
 =======
 >>>>>>> a08f2382ac (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 3502dc1433 (r.in.wms: Replace long-deprecated `np.arrayrange` alias with `np.arange` (#4629))
             np.ones(256) * 255,
         ]
 
