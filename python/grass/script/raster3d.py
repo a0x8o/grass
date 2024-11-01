@@ -109,10 +109,16 @@ def mapcalc3d(
         )
     except CalledModuleError:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1065754a7 (grass.script: Pass environment to message functions (#4630))
         fatal(
             _("An error occurred while running r3.mapcalc with expression: %s") % e,
             env=env,
         )
+<<<<<<< HEAD
 =======
         fatal(_("An error occurred while running r3.mapcalc with expression: %s") % e)
 >>>>>>> fb2b1e4ce2 (style: Fix single-line-implicit-string-concatenation violations (ISC001)  (#3943))
+=======
+>>>>>>> f1065754a7 (grass.script: Pass environment to message functions (#4630))
