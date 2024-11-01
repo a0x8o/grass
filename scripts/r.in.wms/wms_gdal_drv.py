@@ -18,10 +18,14 @@ import grass.script as gs
 try:
     from osgeo import gdal
 <<<<<<< HEAD
+<<<<<<< HEAD
 except ImportError:
 =======
 except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+except ImportError:
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' being "

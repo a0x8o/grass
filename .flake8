@@ -209,6 +209,9 @@ per-file-ignores =
     python/grass/*/*/*/__init__.py: F403
     # E402 module level import not at top of file
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
     scripts/r.semantic.label/r.semantic.label.py: E501
 <<<<<<< HEAD
 <<<<<<< HEAD

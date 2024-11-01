@@ -19,10 +19,13 @@ This program is free software under the GNU General Public License
 
 import socket
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import grass.script as gs
 
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 from time import sleep
 
 import grass.script as gs
@@ -30,10 +33,14 @@ import grass.script as gs
 try:
     from osgeo import gdal
 <<<<<<< HEAD
+<<<<<<< HEAD
 except ImportError:
 =======
 except:
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+except ImportError:
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
     gs.fatal(
         _(
             "Unable to load GDAL Python bindings (requires package 'python-gdal' "
@@ -41,6 +48,7 @@ except:
         )
     )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import numpy as np
@@ -51,6 +59,8 @@ from math import pi, floor
 
 from urllib.error import HTTPError
 >>>>>>> e089dc6c2c (style: Fix unconventional-import-alias (ICN001) (consolidate `import grass.script as gs`) (#3981))
+=======
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 from http.client import HTTPException
 from math import floor, pi
 from urllib.error import HTTPError
@@ -61,6 +71,11 @@ import numpy as np
 from srs import Srs
 from wms_base import GetEpsg, GetSRSParamVal, WMSBase
 from wms_cap_parsers import OnEarthCapabilitiesTree, WMTSCapabilitiesTree
+<<<<<<< HEAD
+=======
+
+np.arrayrange = np.arange
+>>>>>>> 37e011818b (r.in.wms: Removed bare 'except' and repositioned imports (#4622))
 
 
 class WMSDrv(WMSBase):
