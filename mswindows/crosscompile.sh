@@ -3063,8 +3063,11 @@ LDFLAGS="-lcurses" \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-blas \
 =======
 --with-nls \
@@ -3072,11 +3075,17 @@ LDFLAGS="-lcurses" \
 --with-freetype-includes=$freetype_include \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --with-blas \
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+--with-blas \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-bzlib \
 --with-freetype-includes=$freetype_include \
 --with-geos \
@@ -3136,8 +3145,11 @@ PKG_CONFIG=$mxe_bin-pkg-config \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-blas \
 =======
 --with-nls \
@@ -3145,11 +3157,17 @@ PKG_CONFIG=$mxe_bin-pkg-config \
 --with-freetype-includes=$mxe_shared/include/freetype2 \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --with-blas \
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+--with-blas \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-bzlib \
 --with-freetype-includes=$mxe_shared/include/freetype2 \
 --with-gdal=$mxe_shared/bin/gdal-config \

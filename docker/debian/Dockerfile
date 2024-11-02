@@ -26485,10 +26485,13 @@ RUN mkdir vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
     wget -q http://download.osgeo.org/proj/vdatum/egm08_25/egm08_25.gtx && mv egm08_25.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/egm96_15/egm96_15.gtx && mv egm96_15.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid1999.zip && unzip -j -u usa_geoid1999.zip -d /usr/share/proj; \
@@ -29142,10 +29145,13 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_CPD=OFF \
       -DBUILD_PLUGIN_GREYHOUND=ON \
@@ -30473,12 +30479,14 @@ RUN wget -q \
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
       -DBUILD_PLUGIN_PYTHON=ON \
+=======
+      -DBUILD_PGPOINTCLOUD_TESTS=OFF \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
       -DBUILD_PLUGIN_CPD=OFF \
       -DBUILD_PLUGIN_GREYHOUND=ON \
       -DBUILD_PLUGIN_HEXBIN=ON \
-      -DHEXER_INCLUDE_DIR=/usr/include/ \
-      -DBUILD_PLUGIN_NITF=OFF \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30558,6 +30566,8 @@ RUN wget -q \
 <<<<<<< HEAD
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> c4c5579bbb (r.horizon manual - fix typo (#2794))
 =======
@@ -30675,6 +30685,7 @@ RUN wget -q \
 =======
 >>>>>>> ba9afcba1b (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 >>>>>>> 81d97e00cb (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> f76eb8a5c2 (r.horizon manual - fix typo (#2794))
@@ -30728,9 +30739,16 @@ RUN wget -q \
 >>>>>>> c7104d8e5e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+      -DBUILD_PLUGIN_NITF=OFF \
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
-      -DBUILD_PGPOINTCLOUD_TESTS=OFF \
+      -DBUILD_PLUGIN_PYTHON=ON \
       -DBUILD_PLUGIN_SQLITE=ON \
+      -DHEXER_INCLUDE_DIR=/usr/include/ \
       -DWITH_LASZIP=OFF \
 <<<<<<< HEAD
 <<<<<<< HEAD

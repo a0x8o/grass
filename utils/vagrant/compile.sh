@@ -22,19 +22,28 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
         --enable-largefile \
 =======
         --srcdir=/vagrant \
         --prefix=/usr/lib \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         --enable-largefile \
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+=======
+        --enable-largefile \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
         --enable-shared \
         --prefix=/usr/lib \
         --srcdir=/vagrant \
@@ -49,32 +58,46 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-lapack \
         --with-mysql \
         --with-mysql-includes=`mysql_config --include | sed -e 's/-I//'` \
         --with-netcdf \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
         --with-freetype \
         --with-readline \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-nls \
         --with-odbc \
         --with-postgres \
         --with-postgres-includes=`pg_config --includedir` \
         --with-proj-share=/usr/share/proj \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +111,8 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-pthread \
         --with-readline \
         --with-sqlite \
@@ -125,8 +150,12 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 =======
 =======
         --with-cairo \
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-pthread \
-        --with-bzlib \
+        --with-readline \
+        --with-sqlite \
+        --with-x \
         --without-pdal
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 >>>>>>> 85a7f6db95 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))

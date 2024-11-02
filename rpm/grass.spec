@@ -199,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 %global shortver 82
@@ -458,7 +459,11 @@ Version:	8.2.0
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 %global shortver 84
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 =======
 >>>>>>> 3725fe2da2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -620,6 +625,7 @@ Version:	8.2.0
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 %global shortver 83
+<<<<<<< HEAD
 >>>>>>> 5af337c699 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
@@ -689,6 +695,7 @@ Version:	8.2.0
 Name:		grass
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> ff58b46888 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 >>>>>>> 25682bb3d2 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -1169,11 +1176,18 @@ Name:		grass
 %global shortver 83
 >>>>>>> 72a23cdfbd (Programmer's manual: update GRASS GIS arch drawing (#1610))
 >>>>>>> 02c6694ef5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
+=======
+%global shortver 84
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 %global macrosdir %(d=%{_rpmconfigdir}/macros.d; [ -d $d ] || d=%{_sysconfdir}/rpm; echo $d)
 
 Name:		grass
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 Version:	8.4.0
 Release:	3%{?dist}
 =======
@@ -4820,6 +4834,10 @@ BuildRequires:	proj-devel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5629,6 +5647,7 @@ BuildRequires:	python-argparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5722,7 +5741,15 @@ BuildRequires:	python-argparse
 =======
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+BuildRequires:	python3
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 %if 0%{?rhel} == 7
 # EPEL7
 BuildRequires:	python%{python3_version_nodots}-dateutil
@@ -5745,8 +5772,11 @@ BuildRequires:	zlib-devel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 BuildRequires:	bzip2-devel
 BuildRequires:	libzstd-devel
@@ -5770,6 +5800,7 @@ Requires:	PDAL-libs
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -5797,6 +5828,15 @@ Requires:	PDAL-libs
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+
+Requires:	bzip2-libs
+Requires:	geos
+Requires:	libzstd
+Requires:	PDAL
+Requires:	PDAL-libs
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 # fedora >= 34: Nothing
 %if (0%{?rhel} > 7 || 0%{?fedora} < 34)
 Requires:	proj-datumgrid
@@ -7634,6 +7674,7 @@ find -name \*.pl | xargs sed -i -e 's,#!/usr/bin/env perl,#!%{__perl},'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -7674,6 +7715,11 @@ find -name \*.pl | xargs sed -i -e 's,#!/usr/bin/env perl,#!%{__perl},'
 =======
 =======
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 	--with-opengl \
 	--with-odbc \
 	--with-fftw \
@@ -7701,6 +7747,7 @@ find -name \*.pl | xargs sed -i -e 's,#!/usr/bin/env perl,#!%{__perl},'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
@@ -7721,9 +7768,13 @@ find -name \*.pl | xargs sed -i -e 's,#!/usr/bin/env perl,#!%{__perl},'
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 =======
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
 =======
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
@@ -7750,6 +7801,8 @@ find -name \*.pl | xargs sed -i -e 's,#!/usr/bin/env perl,#!%{__perl},'
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 	--with-mysql-includes=%{_includedir}/mysql \
 %if (0%{?fedora} >= 27)
 	--with-mysql-libs=%{_libdir} \
@@ -7899,6 +7952,7 @@ fi
 %{_libdir}/%{name}%{shortver}/include
 
 %changelog
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8547,6 +8601,8 @@ fi
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 * Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
 - Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
 
@@ -8656,6 +8712,8 @@ fi
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
 >>>>>>> 32b99b60b3 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
@@ -9543,6 +9601,7 @@ fi
 >>>>>>> 55237d751f (Programmer's manual: update GRASS GIS arch drawing (#1610))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 5bd99675a5 (Programmer's manual: update GRASS GIS arch drawing (#1610))
 <<<<<<< HEAD
 >>>>>>> 203bdcfaf9 (Programmer's manual: update GRASS GIS arch drawing (#1610))
@@ -9674,7 +9733,57 @@ fi
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+* Sat Oct 26 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-3
+- Sort requirements and flags (https://github.com/OSGeo/grass/pull/4563/ by Edouard Choinière)
+
+* Fri Sep 06 2024 Sandro Mani <manisandro@gmail.com> - 8.4.0-2
+- Rebuild (PDAL)
+
+* Sun Jul 28 2024 Markus Neteler <neteler@mundialis.de> - 8.4.0-1
+- Update to 8.4.0
+
+* Thu Jul 18 2024 Fedora Release Engineering <releng@fedoraproject.org> - 8.3.2-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_41_Mass_Rebuild
+
+* Tue May 14 2024 Sandro Mani <manisandro@gmail.com> - 8.3.2-3
+- Rebuild (gdal)
+
+* Tue Mar 19 2024 Sandro Mani <manisandro@gmail.com> - 8.3.2-2
+- Rebuild (PDAL)
+
+* Thu Mar 07 2024 Markus Neteler <neteler@mundialis.de> - 8.3.2-1
+- Update to 8.3.2 (#2268514)
+
+* Wed Jan 24 2024 Fedora Release Engineering <releng@fedoraproject.org> - 8.3.1-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
+* Sat Jan 20 2024 Fedora Release Engineering <releng@fedoraproject.org> - 8.3.1-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
+* Wed Jan  3 2024 Florian Weimer <fweimer@redhat.com> - 8.3.1-4
+- Fix C compatibility issue in MySQL port handling
+
+* Wed Nov 15 2023 Sandro Mani <manisandro@gmail.com> - 8.3.1-3
+- Rebuild (gdal)
+
+* Sat Oct 28 2023 Markus Neteler <neteler@mundialis.de> 8.3.1-2
+- fix obsolete configure parameters
+
+* Thu Oct 26 2023 Fedora Release Monitoring <release-monitoring@fedoraproject.org> - 8.3.1-1
+- Update to GRASS GIS 8.3.1 (#2246359)
+
+* Sat Oct 14 2023 Sandro Mani <manisandro@gmail.com> - 8.3.0-4
+- Rebuild (PDAL)
+
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
 * Sun Aug 06 2023 Alexandre Detiste <alexandre.detiste@gmail.com> - 8.3.0-3
 - Remove support for RHEL6: Grass is now Python3 only
 
