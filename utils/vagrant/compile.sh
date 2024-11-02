@@ -20,11 +20,15 @@ if [ ! -f "include/Make/Platform.make" ] ; then
     ./configure \
         --bindir=/usr/bin \
 <<<<<<< HEAD
+<<<<<<< HEAD
         --enable-largefile \
 =======
         --srcdir=/vagrant \
         --prefix=/usr/lib \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+        --enable-largefile \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
         --enable-shared \
         --prefix=/usr/lib \
         --srcdir=/vagrant \
@@ -37,19 +41,26 @@ if [ ! -f "include/Make/Platform.make" ] ; then
         --with-gdal \
         --with-geos \
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-lapack \
         --with-mysql \
         --with-mysql-includes=`mysql_config --include | sed -e 's/-I//'` \
         --with-netcdf \
+<<<<<<< HEAD
 =======
         --with-freetype \
         --with-readline \
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-nls \
         --with-odbc \
         --with-postgres \
         --with-postgres-includes=`pg_config --includedir` \
         --with-proj-share=/usr/share/proj \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,8 +78,12 @@ if [ ! -f "include/Make/Platform.make" ] ; then
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
         --with-cairo \
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
         --with-pthread \
-        --with-bzlib \
+        --with-readline \
+        --with-sqlite \
+        --with-x \
         --without-pdal
 >>>>>>> 4b6fca67b9 (packaging: Update Vagrantfile to Ubuntu 24.04 (#3836))
 fi

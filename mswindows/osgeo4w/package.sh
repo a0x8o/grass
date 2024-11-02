@@ -113,6 +113,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -277,6 +278,12 @@ DLLS="
 	/mingw64/bin/libblas.dll
 =======
 >>>>>>> osgeo-main
+=======
+	/mingw64/bin/libblas.dll
+=======
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 	/mingw64/bin/zlib1.dll
 	/mingw64/bin/libbz2-1.dll
 	/mingw64/bin/libiconv-2.dll
@@ -782,25 +789,26 @@ DLLS="
 	/mingw64/bin/libfontconfig-1.dll
 	/mingw64/bin/libgfortran-5.dll
 	/mingw64/bin/libbrotlidec.dll
+=======
+	/mingw64/bin/libblas.dll
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
 	/mingw64/bin/libbrotlicommon.dll
-	/mingw64/bin/libintl-8.dll
-	/mingw64/bin/libsystre-0.dll
-	/mingw64/bin/libtre-5.dll
-	/mingw64/bin/libwinpthread-1.dll
+	/mingw64/bin/libbrotlidec.dll
+	/mingw64/bin/libbz2-1.dll
 	/mingw64/bin/libcairo-2.dll
-	/mingw64/bin/libpixman-1-0.dll
-	/mingw64/bin/libpng16-16.dll
+	/mingw64/bin/libfftw3-3.dll
+	/mingw64/bin/libfontconfig-1.dll
 	/mingw64/bin/libfreetype-6.dll
-	/mingw64/bin/libharfbuzz-0.dll
+	/mingw64/bin/libgcc_s_seh-1.dll
+	/mingw64/bin/libgfortran-5.dll
 	/mingw64/bin/libglib-2.0-0.dll
 	/mingw64/bin/libgomp-1.dll
 	/mingw64/bin/libgraphite2.dll
-	/mingw64/bin/libpcre-1.dll
-	/mingw64/bin/libstdc++-6.dll
-	/mingw64/bin/libgcc_s_seh-1.dll
-	/mingw64/bin/libfftw3-3.dll
-	/mingw64/bin/libblas.dll
+	/mingw64/bin/libharfbuzz-0.dll
+	/mingw64/bin/libiconv-2.dll
+	/mingw64/bin/libintl-8.dll
 	/mingw64/bin/liblapack.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -849,6 +857,8 @@ DLLS="
 >>>>>>> 7f1e5f8884 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 	/mingw64/bin/libomp.dll
 =======
 =======
@@ -1017,6 +1027,7 @@ DLLS="
 	/mingw64/bin/libomp.dll
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
+<<<<<<< HEAD
 	/mingw64/bin/libomp.dll
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
@@ -1116,6 +1127,20 @@ DLLS="
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
+=======
+	/mingw64/bin/libpcre-1.dll
+	/mingw64/bin/libpixman-1-0.dll
+	/mingw64/bin/libpng16-16.dll
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+	/mingw64/bin/libquadmath-0.dll
+	/mingw64/bin/libstdc++-6.dll
+	/mingw64/bin/libsystre-0.dll
+	/mingw64/bin/libtre-5.dll
+	/mingw64/bin/libwinpthread-1.dll
+	/mingw64/bin/zlib1.dll
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 "
 
 if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
@@ -1138,15 +1163,21 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 	./configure \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		--bindir=$OSGEO4W_ROOT_MSYS/bin \
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+		--bindir=$OSGEO4W_ROOT_MSYS/bin \
+		--enable-largefile \
+		--enable-shared \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 		--host=x86_64-w64-mingw32 \
-		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
-		--with-includes=$OSGEO4W_ROOT_MSYS/include \
+		--includedir=$OSGEO4W_ROOT_MSYS/include \
 		--libexecdir=$OSGEO4W_ROOT_MSYS/bin \
 		--prefix=$OSGEO4W_ROOT_MSYS/apps/grass \
+<<<<<<< HEAD
 		--bindir=$OSGEO4W_ROOT_MSYS/bin \
 		--includedir=$OSGEO4W_ROOT_MSYS/include \
 		--with-opengl=windows \
@@ -1475,13 +1506,14 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 =======
 		--with-odbc \
 		--with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 		--with-blas \
-		--with-lapack \
-		--with-lapack-includes=/mingw64/include \
-		--with-openmp \
+		--with-bzlib \
 		--with-cairo \
 		--with-cairo-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-cairo-ldflags="-L$PWD/mswindows/osgeo4w/lib -lcairo -lfontconfig" \
+<<<<<<< HEAD
 		--with-bzlib \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1935,8 +1967,46 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+		--with-cxx \
+		--with-fftw \
+		--with-freetype \
+		--with-freetype-includes=/mingw64/include/freetype2 \
+		--with-gdal=$PWD/mswindows/osgeo4w/gdal-config \
+		--with-geos=$PWD/mswindows/osgeo4w/geos-config \
+		--with-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-lapack \
+		--with-lapack-includes=/mingw64/include \
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
+		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
+		--with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
+		--with-nls \
+		--with-odbc \
+		--with-opengl=windows \
+		--with-openmp \
+		--with-postgres \
+		--with-postgres-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-postgres-libs=$PWD/mswindows/osgeo4w/lib \
+		--with-proj-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-proj-libs=$OSGEO4W_ROOT_MSYS/lib \
+		--with-proj-share=$OSGEO4W_ROOT_MSYS/share/proj \
+		--with-regex \
+		--with-sqlite \
+		--with-sqlite-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-sqlite-libs=$PWD/mswindows/osgeo4w/lib \
+		--with-zstd \
+		--without-pdal \
+		--without-x
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 
 	touch mswindows/osgeo4w/configure-stamp
 fi

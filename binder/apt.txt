@@ -76,6 +76,7 @@ libgeos-dev
 libncurses5-dev
 libnetcdf-dev
 libpdal-dev
+<<<<<<< HEAD
 =======
 liblas-c-dev
 libncurses5-dev
@@ -89,7 +90,17 @@ liblas-c-dev
 libncurses5-dev
 libnetcdf-dev
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
+=======
+=======
+<<<<<<< HEAD
+libgeos-dev
+>>>>>>> osgeo-main
+=======
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 libpng-dev
 libpq-dev
 libproj-dev

@@ -10,6 +10,7 @@ set -e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --enable-largefile=yes \
 =======
 >>>>>>> osgeo-main
@@ -39,6 +40,8 @@ set -e
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
 =======
 >>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
+=======
+>>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
     --with-bzlib \
     --with-cairo \
     --with-cxx \
@@ -59,6 +62,9 @@ set -e
 >>>>>>> osgeo-main
 =======
 =======
+    --enable-largefile=yes \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
 =======
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
     --enable-largefile=yes \
@@ -69,9 +75,17 @@ set -e
     --with-pthread \
     --with-proj-share=/usr/share/proj \
     --with-geos=/usr/bin/geos-config \
+=======
+    --with-bzlib \
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
     --with-cairo \
-    --with-opengl-libs=/usr/include/GL \
+    --with-cxx \
     --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
     --with-sqlite=yes
 <<<<<<< HEAD
 >>>>>>> eec6314975 (Add Binder setup files (#1603))
@@ -79,8 +93,24 @@ set -e
 >>>>>>> 89e695d85c (Add Binder setup files (#1603))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 4c7000bc90 (Add Binder setup files (#1603))
+<<<<<<< HEAD
 >>>>>>> 59a7b4bfb4 (Add Binder setup files (#1603))
+=======
+=======
+=======
+    --with-geos=/usr/bin/geos-config \
+    --with-nls \
+    --with-opengl-libs=/usr/include/GL \
+    --with-proj-share=/usr/share/proj \
+    --with-readline \
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+    --with-sqlite=yes \
+    --without-pdal
+>>>>>>> osgeo-main
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 make
 
 # put command on path

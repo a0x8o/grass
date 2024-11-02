@@ -1627,12 +1627,16 @@ CXXFLAGS="-g -O2 -Wall" \
 LDFLAGS="-lcurses" \
 ./configure \
 <<<<<<< HEAD
+<<<<<<< HEAD
 --with-blas \
 =======
 --with-nls \
 --with-readline \
 --with-freetype-includes=$freetype_include \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+--with-blas \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-bzlib \
 --with-freetype-includes=$freetype_include \
 --with-geos \
@@ -1690,12 +1694,16 @@ PKG_CONFIG=$mxe_bin-pkg-config \
 --build=$build_arch \
 --host=$arch \
 <<<<<<< HEAD
+<<<<<<< HEAD
 --with-blas \
 =======
 --with-nls \
 --with-readline \
 --with-freetype-includes=$mxe_shared/include/freetype2 \
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+--with-blas \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 --with-bzlib \
 --with-freetype-includes=$mxe_shared/include/freetype2 \
 --with-gdal=$mxe_shared/bin/gdal-config \

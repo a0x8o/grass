@@ -9002,6 +9002,7 @@ RUN mkdir vdatum && \
     cd vdatum && \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     wget -q http://download.osgeo.org/proj/vdatum/egm08_25/egm08_25.gtx && mv egm08_25.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/egm96_15/egm96_15.gtx && mv egm96_15.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid1999.zip && unzip -j -u usa_geoid1999.zip -d /usr/share/proj; \
@@ -9263,12 +9264,17 @@ RUN mkdir vdatum && \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2012.zip && unzip -j -u usa_geoid2012.zip -d /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2009.zip && unzip -j -u usa_geoid2009.zip -d /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2003.zip && unzip -j -u usa_geoid2003.zip -d /usr/share/proj; \
+=======
+    wget -q http://download.osgeo.org/proj/vdatum/egm08_25/egm08_25.gtx && mv egm08_25.gtx /usr/share/proj; \
+    wget -q http://download.osgeo.org/proj/vdatum/egm96_15/egm96_15.gtx && mv egm96_15.gtx /usr/share/proj; \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
     wget -q http://download.osgeo.org/proj/vdatum/usa_geoid1999.zip && unzip -j -u usa_geoid1999.zip -d /usr/share/proj; \
+    wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2003.zip && unzip -j -u usa_geoid2003.zip -d /usr/share/proj; \
+    wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2009.zip && unzip -j -u usa_geoid2009.zip -d /usr/share/proj; \
+    wget -q http://download.osgeo.org/proj/vdatum/usa_geoid2012.zip && unzip -j -u usa_geoid2012.zip -d /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/vertcon/vertconc.gtx && mv vertconc.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/vertcon/vertcone.gtx && mv vertcone.gtx /usr/share/proj; \
     wget -q http://download.osgeo.org/proj/vdatum/vertcon/vertconw.gtx && mv vertconw.gtx /usr/share/proj; \
-    wget -q http://download.osgeo.org/proj/vdatum/egm96_15/egm96_15.gtx && mv egm96_15.gtx /usr/share/proj; \
-    wget -q http://download.osgeo.org/proj/vdatum/egm08_25/egm08_25.gtx && mv egm08_25.gtx /usr/share/proj; \
     cd .. && \
     rm -rf vdatum
 
@@ -9966,6 +9972,7 @@ RUN wget -q \
       -DCMAKE_MAKE_PROGRAM=make \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       -DBUILD_PGPOINTCLOUD_TESTS=OFF \
       -DBUILD_PLUGIN_CPD=OFF \
       -DBUILD_PLUGIN_GREYHOUND=ON \
@@ -10250,11 +10257,12 @@ RUN wget -q \
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
       -DBUILD_PLUGIN_PYTHON=ON \
+=======
+      -DBUILD_PGPOINTCLOUD_TESTS=OFF \
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
       -DBUILD_PLUGIN_CPD=OFF \
       -DBUILD_PLUGIN_GREYHOUND=ON \
       -DBUILD_PLUGIN_HEXBIN=ON \
-      -DHEXER_INCLUDE_DIR=/usr/include/ \
-      -DBUILD_PLUGIN_NITF=OFF \
       -DBUILD_PLUGIN_ICEBRIDGE=ON \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10279,6 +10287,16 @@ RUN wget -q \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> osgeo-main
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10501,10 +10519,18 @@ RUN wget -q \
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 >>>>>>> ba9b3a13b7 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
+=======
+      -DBUILD_PLUGIN_NITF=OFF \
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
       -DBUILD_PLUGIN_PGPOINTCLOUD=OFF \
-      -DBUILD_PGPOINTCLOUD_TESTS=OFF \
+      -DBUILD_PLUGIN_PYTHON=ON \
       -DBUILD_PLUGIN_SQLITE=ON \
+      -DHEXER_INCLUDE_DIR=/usr/include/ \
       -DWITH_LASZIP=OFF \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11391,6 +11417,9 @@ ENV CXXFLAGS "$MYCXXFLAGS"
 # wxGUI require
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 # --with-nls
 # --with-x
 ENV NUMTHREADS=4
