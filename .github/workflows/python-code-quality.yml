@@ -44,6 +44,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       RUFF_VERSION: "0.5.1"
 =======
       RUFF_VERSION: "0.5.4"
@@ -69,6 +70,9 @@ jobs:
 =======
       RUFF_VERSION: "0.7.1"
 >>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.7.2"
+>>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
 
     runs-on: ${{ matrix.os }}
     permissions:

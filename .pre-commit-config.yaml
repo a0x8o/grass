@@ -45,6 +45,7 @@ repos:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rev: v0.5.1
 =======
     rev: v0.5.4
@@ -70,6 +71,9 @@ repos:
 =======
     rev: v0.7.1
 >>>>>>> osgeo-main
+=======
+    rev: v0.7.2
+>>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
     hooks:
       # Run the linter.
       - id: ruff
