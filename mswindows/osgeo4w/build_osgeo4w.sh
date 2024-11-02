@@ -199,39 +199,47 @@ export PYTHONHOME=${OSGEO4W_ROOT_MSYS}/apps/Python39
 export ARCH=x86_64-w64-mingw32
 
 ./configure \
+    --bindir=${OSGEO4W_ROOT_MSYS}/bin \
+    --enable-largefile \
+    --enable-shared \
     --host=${ARCH} \
-    --with-libs="${OSGEO4W_ROOT_MSYS}/lib ${OSGEO4W_ROOT_MSYS}/bin" \
-    --with-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --includedir=${OSGEO4W_ROOT_MSYS}/include \
     --libexecdir=${OSGEO4W_ROOT_MSYS}/bin \
     --prefix=${OSGEO4W_ROOT_MSYS}/apps/grass \
-    --bindir=${OSGEO4W_ROOT_MSYS}/bin \
-    --includedir=${OSGEO4W_ROOT_MSYS}/include \
-    --without-x \
-    --with-cxx \
-    --enable-shared \
-    --enable-largefile \
-    --with-openmp \
-    --with-fftw \
-    --with-nls \
-    --with-readline \
     --with-blas \
-    --with-lapack \
+    --with-bzlib \
+    --with-cairo \
+    --with-cairo-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-cairo-ldflags="-L${SRC}/mswindows/osgeo4w/lib -lcairo" \
+    --with-cairo-libs=$OSGEO4W_ROOT_MSYS/lib \
+    --with-cxx \
+    --with-fftw \
     --with-freetype \
     --with-freetype-includes=${OSGEO4W_ROOT_MSYS}/include/freetype2 \
-    --with-proj-share=${OSGEO4W_ROOT_MSYS}/share/proj \
-    --with-proj-includes=${OSGEO4W_ROOT_MSYS}/include \
-    --with-proj-libs=${OSGEO4W_ROOT_MSYS}/lib \
+    --with-gdal=${SRC}/mswindows/osgeo4w/gdal-config \
+    --with-geos=${SRC}/mswindows/osgeo4w/geos-config \
+    --with-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-lapack \
+    --with-liblas=${SRC}/mswindows/osgeo4w/liblas-config \
+    --with-libs="${OSGEO4W_ROOT_MSYS}/lib ${OSGEO4W_ROOT_MSYS}/bin" \
+    --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
+    --with-nls \
+    --with-odbc \
+    --with-opengl=windows \
+    --with-openmp \
     --with-postgres \
     --with-postgres-includes=${OSGEO4W_ROOT_MSYS}/include \
     --with-postgres-libs=${OSGEO4W_ROOT_MSYS}/lib \
-    --with-gdal=${SRC}/mswindows/osgeo4w/gdal-config \
-    --with-geos=${SRC}/mswindows/osgeo4w/geos-config \
+    --with-proj-includes=${OSGEO4W_ROOT_MSYS}/include \
+    --with-proj-libs=${OSGEO4W_ROOT_MSYS}/lib \
+    --with-proj-share=${OSGEO4W_ROOT_MSYS}/share/proj \
+    --with-readline \
+    --with-regex \
     --with-sqlite \
     --with-sqlite-includes=${OSGEO4W_ROOT_MSYS}/include \
     --with-sqlite-libs=${OSGEO4W_ROOT_MSYS}/lib \
-    --with-regex \
-    --with-nls \
     --with-zstd \
+<<<<<<< HEAD
     --with-odbc \
     --with-cairo \
     --with-cairo-includes=${OSGEO4W_ROOT_MSYS}/include \
@@ -419,6 +427,10 @@ export ARCH=x86_64-w64-mingw32
     --with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+    --without-pdal \
+    --without-x
+>>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
 
 make
 

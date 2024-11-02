@@ -645,11 +645,11 @@ ENV PACKAGES="\
       gdal-driver-JP2OpenJPEG \
       gdal-driver-LIBKML \
       gdal-driver-MSSQLSpatial \
+      gdal-driver-netCDF \
       gdal-driver-ODBC \
       gdal-driver-PG \
       gdal-driver-PNG \
       gdal-driver-WMS \
-      gdal-driver-netCDF \
       gdal-tools \
       geos \
       geos-dev \
