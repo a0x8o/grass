@@ -90,6 +90,7 @@ repos:
 =======
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
+<<<<<<< HEAD
     rev: v0.5.1
     hooks:
       # Run the linter.
@@ -100,7 +101,49 @@ repos:
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.41.0
 >>>>>>> bfd472d489 (CI(deps): Update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 (#3844))
+<<<<<<< HEAD
 >>>>>>> 756344f217 (CI(deps): Update pre-commit hook igorshubovych/markdownlint-cli to v0.41.0 (#3844))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    rev: v0.5.1
+=======
+    rev: v0.5.4
+>>>>>>> main
+=======
+    rev: v0.5.5
+>>>>>>> osgeo-main
+=======
+    rev: v0.5.7
+>>>>>>> osgeo-main
+=======
+    rev: v0.6.2
+>>>>>>> osgeo-main
+=======
+    rev: v0.6.3
+>>>>>>> osgeo-main
+=======
+    rev: v0.6.9
+>>>>>>> osgeo-main
+=======
+    rev: v0.7.0
+>>>>>>> osgeo-main
+=======
+    rev: v0.7.1
+>>>>>>> osgeo-main
+=======
+    rev: v0.7.2
+>>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
+>>>>>>> 79c03e82ac (CI(deps): Update ruff to v0.7.2 (#4631))
+>>>>>>> 2d8985db52 (CI(deps): Update ruff to v0.7.2 (#4631))
     hooks:
       # Run the linter.
       - id: ruff

@@ -107,6 +107,7 @@ jobs:
 =======
       # renovate: datasource=pypi depName=ruff
 <<<<<<< HEAD
+<<<<<<< HEAD
       RUFF_VERSION: "0.5.0"
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 <<<<<<< HEAD
@@ -115,7 +116,46 @@ jobs:
 =======
       RUFF_VERSION: "0.5.1"
 >>>>>>> 6ece005836 (CI(deps): Update dependency ruff to v0.5.1 (#3983))
+<<<<<<< HEAD
 >>>>>>> f74592713f (CI(deps): Update dependency ruff to v0.5.1 (#3983))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      RUFF_VERSION: "0.5.1"
+=======
+      RUFF_VERSION: "0.5.4"
+>>>>>>> main
+=======
+      RUFF_VERSION: "0.5.5"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.5.7"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.6.2"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.6.3"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.6.9"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.7.0"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.7.1"
+>>>>>>> osgeo-main
+=======
+      RUFF_VERSION: "0.7.2"
+>>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
+>>>>>>> 79c03e82ac (CI(deps): Update ruff to v0.7.2 (#4631))
+>>>>>>> 2d8985db52 (CI(deps): Update ruff to v0.7.2 (#4631))
 
     runs-on: ${{ matrix.os }}
     permissions:
