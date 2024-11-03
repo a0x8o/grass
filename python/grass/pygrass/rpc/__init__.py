@@ -14,6 +14,7 @@ import sys
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from ctypes import CFUNCTYPE, c_void_p
 from multiprocessing import Lock, Pipe, Process
 
@@ -23,21 +24,18 @@ from multiprocessing import Process, Lock, Pipe
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 =======
 >>>>>>> 5bb8db950a (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 from ctypes import CFUNCTYPE, c_void_p
 from multiprocessing import Lock, Pipe, Process
 
 =======
 from multiprocessing import Process, Lock, Pipe
+=======
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 from ctypes import CFUNCTYPE, c_void_p
+from multiprocessing import Lock, Pipe, Process
 
-from grass.exceptions import FatalError
-from grass.pygrass.vector import VectorTopo
-from grass.pygrass.vector.basic import Bbox
-from grass.pygrass.raster import RasterRow, raster2numpy_img
-<<<<<<< HEAD
->>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
-=======
->>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 import grass.lib.gis as libgis
 from grass.exceptions import FatalError
 from grass.pygrass import utils
@@ -58,6 +56,22 @@ from grass.pygrass.gis.region import Region
 from grass.pygrass.raster import RasterRow, raster2numpy_img
 from grass.pygrass.vector import VectorTopo
 from grass.pygrass.vector.basic import Bbox
+<<<<<<< HEAD
+<<<<<<< HEAD
+from grass.pygrass.raster import RasterRow, raster2numpy_img
+<<<<<<< HEAD
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+import grass.lib.gis as libgis
+from grass.exceptions import FatalError
+from grass.pygrass import utils
+from grass.pygrass.gis.region import Region
+from grass.pygrass.raster import RasterRow, raster2numpy_img
+from grass.pygrass.vector import VectorTopo
+from grass.pygrass.vector.basic import Bbox
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 =======
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 

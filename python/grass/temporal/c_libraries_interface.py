@@ -13,19 +13,28 @@ for details.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 from __future__ import annotations
 
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 =======
 from __future__ import annotations
 
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+<<<<<<< HEAD
 =======
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4665,8 +4674,15 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> 1c0cb85d51 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
+<<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+<<<<<<< HEAD
 >>>>>>> 3fa16d2bea (style(temporal): Sort and group imports (#3959))
+=======
+=======
+from typing import TYPE_CHECKING
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 
 import grass.lib.date as libdate
 import grass.lib.gis as libgis
@@ -4697,8 +4713,14 @@ if TYPE_CHECKING:
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
 
+<<<<<<< HEAD
 
 logger = logging.getLogger(__name__)
+=======
+if TYPE_CHECKING:
+    from multiprocessing.connection import Connection
+    from multiprocessing.synchronize import _LockLike
+>>>>>>> c864d02248 (python: Add typing to RPC server and Messenger (#4639))
 
 ###############################################################################
 
@@ -6578,10 +6600,13 @@ def _remove_timestamp(lock: _LockLike, conn: Connection, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 def _read_semantic_label(lock, conn, data):
@@ -6594,6 +6619,7 @@ def _read_semantic_label(lock, conn, data):
 =======
 def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 >>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -6601,6 +6627,8 @@ def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 def _read_semantic_label(lock, conn, data):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
     """Read the file based GRASS band identifier
     the result using the provided pipe.
 
@@ -16133,6 +16161,13 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16989,6 +17024,7 @@ def _write_semantic_label(lock, conn, data):
 =======
 def _write_semantic_label(lock: _LockLike, conn: Connection, data):
 >>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -17004,6 +17040,8 @@ def _write_semantic_label(lock: _LockLike, conn: Connection, data):
 def _write_semantic_label(lock, conn, data):
 >>>>>>> 13ad0bbd2d (libpython: Save and load benchmark results (#1711))
 >>>>>>> 504a46451c (libpython: Save and load benchmark results (#1711))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
     """Write the file based GRASS band identifier.
 
     Rises ValueError on invalid semantic label.
@@ -21827,6 +21865,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -23010,7 +23049,11 @@ def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
 >>>>>>> 915e5ac55d (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
 def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
+=======
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 =======
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
@@ -23656,6 +23699,7 @@ def _remove_band_reference(lock, conn, data):
 =======
 =======
 =======
+<<<<<<< HEAD
 def _remove_semantic_label(lock, conn, data):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -23842,7 +23886,16 @@ def _remove_semantic_label(lock, conn, data):
 def _remove_semantic_label(lock, conn, data):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4a5c436a7f (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+>>>>>>> d04d8ffa36 (python: Add typing to RPC server and Messenger (#4639))
     """Remove the file based GRASS band identifier.
 
     The value to be send via pipe is the return value of G_remove_misc.
