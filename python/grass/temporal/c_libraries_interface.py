@@ -11,10 +11,15 @@ for details.
 """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from __future__ import annotations
 
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+from __future__ import annotations
+
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,7 +2287,11 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> ffb921b231 (pythonlib: Remove star imports (#1546))
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
+<<<<<<< HEAD
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+=======
+from typing import TYPE_CHECKING
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 
 import grass.lib.date as libdate
 import grass.lib.gis as libgis
@@ -2303,6 +2312,10 @@ if TYPE_CHECKING:
     from multiprocessing.synchronize import _LockLike
 =======
 >>>>>>> 0c13ccda1f (style(temporal): Sort and group imports (#3959))
+
+if TYPE_CHECKING:
+    from multiprocessing.connection import Connection
+    from multiprocessing.synchronize import _LockLike
 
 ###############################################################################
 
@@ -3039,7 +3052,11 @@ class RPCDefs:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _read_map_full_info(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _read_map_full_info(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Read full map specific metadata from the spatial database using
     PyGRASS functions.
 
@@ -3167,7 +3184,11 @@ def _read_vector_full_info(name, mapset, layer=None):
     return info
 
 
+<<<<<<< HEAD
 def _fatal_error(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _fatal_error(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Calls G_fatal_error()"""
     libgis.G_fatal_error("Fatal Error in C library server")
 
@@ -3175,7 +3196,11 @@ def _fatal_error(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _get_mapset(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _get_mapset(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return the current mapset
 
     :param lock: A multiprocessing.Lock instance
@@ -3192,7 +3217,11 @@ def _get_mapset(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _get_location(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _get_location(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return the current location
 
     :param lock: A multiprocessing.Lock instance
@@ -3209,7 +3238,11 @@ def _get_location(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _get_gisdbase(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _get_gisdbase(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return the current gisdatabase
 
     :param lock: A multiprocessing.Lock instance
@@ -3226,7 +3259,11 @@ def _get_gisdbase(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _get_driver_name(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _get_driver_name(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return the temporal database driver of a specific mapset
 
     :param lock: A multiprocessing.Lock instance
@@ -3245,7 +3282,11 @@ def _get_driver_name(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _get_database_name(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _get_database_name(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return the temporal database name of a specific mapset
 
     :param lock: A multiprocessing.Lock instance
@@ -3275,7 +3316,11 @@ def _get_database_name(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _available_mapsets(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _available_mapsets(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Return all available mapsets the user can access as a list of strings
 
     :param lock: A multiprocessing.Lock instance
@@ -3332,7 +3377,11 @@ def _available_mapsets(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _has_timestamp(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _has_timestamp(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Check if the file based GRASS timestamp is present and send
     True or False using the provided pipe.
 
@@ -3365,7 +3414,11 @@ def _has_timestamp(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _read_timestamp(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _read_timestamp(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Read the file based GRASS timestamp and send
     the result using the provided pipe.
 
@@ -3459,7 +3512,11 @@ def _write_timestamp(lock: _LockLike, conn: Connection, data):
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _remove_timestamp(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _remove_timestamp(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Remove the file based GRASS timestamp
     the return values of the called C-functions using the provided pipe.
 
@@ -3497,6 +3554,7 @@ def _remove_timestamp(lock: _LockLike, conn: Connection, data) -> None:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _read_semantic_label(lock: _LockLike, conn: Connection, data):
 =======
 def _read_semantic_label(lock, conn, data):
@@ -3504,6 +3562,9 @@ def _read_semantic_label(lock, conn, data):
 =======
 def _read_semantic_label(lock, conn, data):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+def _read_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Read the file based GRASS band identifier
     the result using the provided pipe.
 
@@ -8543,6 +8604,13 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+=======
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8990,6 +9058,9 @@ def _write_semantic_label(lock, conn, data):
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
 def _write_semantic_label(lock, conn, data):
+=======
+def _write_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
     """Write the file based GRASS band identifier.
 
     Rises ValueError on invalid semantic label.
@@ -11503,6 +11574,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -11817,7 +11889,11 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> 6676a8168a (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> c864d02248 (python: Add typing to RPC server and Messenger (#4639))
 def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
+=======
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
 =======
 =======
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
@@ -12314,6 +12390,7 @@ def _remove_band_reference(lock, conn, data):
 =======
 =======
 =======
+<<<<<<< HEAD
 def _remove_semantic_label(lock, conn, data):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> ee7e1bb8ec (wxpyimgview: explicit conversion to int (#2704))
@@ -12500,7 +12577,16 @@ def _remove_semantic_label(lock, conn, data):
 def _remove_semantic_label(lock, conn, data):
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
+>>>>>>> c864d02248 (python: Add typing to RPC server and Messenger (#4639))
     """Remove the file based GRASS band identifier.
 
     The value to be send via pipe is the return value of G_remove_misc.
@@ -13522,7 +13608,11 @@ def _remove_semantic_label(lock, conn, data):
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _map_exists(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _map_exists(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Check if a map exists in the spatial database
 
     The value to be send via pipe is True in case the map exists and False
@@ -13555,7 +13645,11 @@ def _map_exists(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _read_map_info(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _read_map_info(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Read map specific metadata from the spatial database using C-library
     functions
 
@@ -15699,7 +15793,11 @@ def _read_vector_info(name, mapset):
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _read_map_history(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _read_map_history(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """Read map history from the spatial database using C-library functions
 
     :param lock: A multiprocessing.Lock instance
@@ -15919,7 +16017,11 @@ def _convert_timestamp_from_grass(ts):
 ###############################################################################
 
 
+<<<<<<< HEAD
 def _stop(lock: _LockLike, conn: Connection, data) -> None:
+=======
+def _stop(lock: _LockLike, conn: Connection, data):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     libgis.G_debug(1, "Stop C-interface server")
     conn.close()
     lock.release()
@@ -15929,7 +16031,11 @@ def _stop(lock: _LockLike, conn: Connection, data) -> None:
 ###############################################################################
 
 
+<<<<<<< HEAD
 def c_library_server(lock: _LockLike, conn: Connection) -> None:
+=======
+def c_library_server(lock: _LockLike, conn: Connection):
+>>>>>>> b96f85f26c (python: Add typing to RPC server and Messenger (#4639))
     """The GRASS C-libraries server function designed to be a target for
     multiprocessing.Process
 
