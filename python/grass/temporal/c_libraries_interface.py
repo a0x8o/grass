@@ -2,13 +2,15 @@
 Fast and exit-safe interface to GRASS C-library functions
 using ctypes and multiprocessing
 
-(C) 2013 by the GRASS Development Team
+(C) 2013-2024 by the GRASS Development Team
 This program is free software under the GNU General Public
 License (>=v2). Read the file COPYING that comes with GRASS
 for details.
 
 :authors: Soeren Gebbert
 """
+
+from __future__ import annotations
 
 import logging
 <<<<<<< HEAD
@@ -542,6 +544,7 @@ from ctypes import CFUNCTYPE, POINTER, byref, c_int, c_void_p, cast
 >>>>>>> osgeo-main
 from datetime import datetime
 from multiprocessing import Lock, Pipe, Process
+from typing import TYPE_CHECKING
 
 import grass.lib.date as libdate
 import grass.lib.gis as libgis
@@ -555,6 +558,10 @@ from grass.pygrass.rpc.base import RPCServerBase
 from grass.pygrass.utils import decode
 from grass.pygrass.vector import VectorTopo
 from grass.script.utils import encode
+
+if TYPE_CHECKING:
+    from multiprocessing.connection import Connection
+    from multiprocessing.synchronize import _LockLike
 
 ###############################################################################
 
@@ -723,12 +730,13 @@ class RPCDefs:
 ###############################################################################
 
 
-def _read_map_full_info(lock, conn, data):
+def _read_map_full_info(lock: _LockLike, conn: Connection, data):
     """Read full map specific metadata from the spatial database using
     PyGRASS functions.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name, mapset]
     """
     info = None
@@ -850,7 +858,7 @@ def _read_vector_full_info(name, mapset, layer=None):
     return info
 
 
-def _fatal_error(lock, conn, data):
+def _fatal_error(lock: _LockLike, conn: Connection, data):
     """Calls G_fatal_error()"""
     libgis.G_fatal_error("Fatal Error in C library server")
 
@@ -858,11 +866,12 @@ def _fatal_error(lock, conn, data):
 ###############################################################################
 
 
-def _get_mapset(lock, conn, data):
+def _get_mapset(lock: _LockLike, conn: Connection, data):
     """Return the current mapset
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The mapset as list entry 1 [function_id]
 
     :returns: Name of the current mapset
@@ -874,11 +883,12 @@ def _get_mapset(lock, conn, data):
 ###############################################################################
 
 
-def _get_location(lock, conn, data):
+def _get_location(lock: _LockLike, conn: Connection, data):
     """Return the current location
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The mapset as list entry 1 [function_id]
 
     :returns: Name of the location
@@ -890,11 +900,12 @@ def _get_location(lock, conn, data):
 ###############################################################################
 
 
-def _get_gisdbase(lock, conn, data):
+def _get_gisdbase(lock: _LockLike, conn: Connection, data):
     """Return the current gisdatabase
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The mapset as list entry 1 [function_id]
 
     :returns: Name of the gisdatabase
@@ -906,11 +917,12 @@ def _get_gisdbase(lock, conn, data):
 ###############################################################################
 
 
-def _get_driver_name(lock, conn, data):
+def _get_driver_name(lock: _LockLike, conn: Connection, data):
     """Return the temporal database driver of a specific mapset
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The mapset as list entry 1 [function_id, mapset]
 
     :returns: Name of the driver or None if no temporal database present
@@ -924,11 +936,12 @@ def _get_driver_name(lock, conn, data):
 ###############################################################################
 
 
-def _get_database_name(lock, conn, data):
+def _get_database_name(lock: _LockLike, conn: Connection, data):
     """Return the temporal database name of a specific mapset
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The mapset as list entry 1 [function_id, mapset]
 
     :returns: Name of the database or None if no temporal database present
@@ -953,11 +966,12 @@ def _get_database_name(lock, conn, data):
 ###############################################################################
 
 
-def _available_mapsets(lock, conn, data):
+def _available_mapsets(lock: _LockLike, conn: Connection, data):
     """Return all available mapsets the user can access as a list of strings
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id]
 
     :returns: Names of available mapsets as list of strings
@@ -1009,12 +1023,13 @@ def _available_mapsets(lock, conn, data):
 ###############################################################################
 
 
-def _has_timestamp(lock, conn, data):
+def _has_timestamp(lock: _LockLike, conn: Connection, data):
     """Check if the file based GRASS timestamp is present and send
     True or False using the provided pipe.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer]
 
@@ -1041,7 +1056,7 @@ def _has_timestamp(lock, conn, data):
 ###############################################################################
 
 
-def _read_timestamp(lock, conn, data):
+def _read_timestamp(lock: _LockLike, conn: Connection, data):
     """Read the file based GRASS timestamp and send
     the result using the provided pipe.
 
@@ -1061,7 +1076,8 @@ def _read_timestamp(lock, conn, data):
     The end time may be None in case of a time instance.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send the result
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send the result
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer]
 
@@ -1089,7 +1105,7 @@ def _read_timestamp(lock, conn, data):
 ###############################################################################
 
 
-def _write_timestamp(lock, conn, data):
+def _write_timestamp(lock: _LockLike, conn: Connection, data):
     """Write the file based GRASS timestamp
     the return values of the called C-functions using the provided pipe.
 
@@ -1100,7 +1116,8 @@ def _write_timestamp(lock, conn, data):
     values description.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer, timestring]
     """
@@ -1133,7 +1150,7 @@ def _write_timestamp(lock, conn, data):
 ###############################################################################
 
 
-def _remove_timestamp(lock, conn, data):
+def _remove_timestamp(lock: _LockLike, conn: Connection, data):
     """Remove the file based GRASS timestamp
     the return values of the called C-functions using the provided pipe.
 
@@ -1144,7 +1161,8 @@ def _remove_timestamp(lock, conn, data):
     values description.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer]
 
@@ -1168,7 +1186,7 @@ def _remove_timestamp(lock, conn, data):
 ###############################################################################
 
 
-def _read_semantic_label(lock, conn, data):
+def _read_semantic_label(lock: _LockLike, conn: Connection, data):
     """Read the file based GRASS band identifier
     the result using the provided pipe.
 
@@ -1378,7 +1396,8 @@ def _read_semantic_label(lock, conn, data):
 >>>>>>> osgeo-main
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer, timestring]
 
@@ -2159,6 +2178,7 @@ def _read_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -2213,6 +2233,9 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> osgeo-main
 def _write_semantic_label(lock, conn, data):
+=======
+def _write_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
     """Write the file based GRASS band identifier.
 
     Rises ValueError on invalid semantic label.
@@ -2464,7 +2487,8 @@ def _write_semantic_label(lock, conn, data):
     Always sends back True.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer, timestring]
 
@@ -2863,6 +2887,7 @@ def _write_semantic_label(lock, conn, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -3043,12 +3068,16 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+def _remove_semantic_label(lock: _LockLike, conn: Connection, data):
+>>>>>>> 35ebcb33a3 (python: Add typing to RPC server and Messenger (#4639))
     """Remove the file based GRASS band identifier.
 
     The value to be send via pipe is the return value of G_remove_misc.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name,
                  mapset, layer, timestring]
 
@@ -3283,14 +3312,15 @@ def _remove_semantic_label(lock, conn, data):
 ###############################################################################
 
 
-def _map_exists(lock, conn, data):
+def _map_exists(lock: _LockLike, conn: Connection, data):
     """Check if a map exists in the spatial database
 
     The value to be send via pipe is True in case the map exists and False
     if not.
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name, mapset]
 
     """
@@ -3315,12 +3345,13 @@ def _map_exists(lock, conn, data):
 ###############################################################################
 
 
-def _read_map_info(lock, conn, data):
+def _read_map_info(lock: _LockLike, conn: Connection, data):
     """Read map specific metadata from the spatial database using C-library
     functions
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name, mapset]
     """
     kvp = None
@@ -3976,11 +4007,12 @@ def _read_vector_info(name, mapset):
 ###############################################################################
 
 
-def _read_map_history(lock, conn, data):
+def _read_map_history(lock: _LockLike, conn: Connection, data):
     """Read map history from the spatial database using C-library functions
 
     :param lock: A multiprocessing.Lock instance
-    :param conn: A multiprocessing.Pipe instance used to send True or False
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe used to send True or False
     :param data: The list of data entries [function_id, maptype, name, mapset]
     """
     kvp = None
@@ -4195,7 +4227,7 @@ def _convert_timestamp_from_grass(ts):
 ###############################################################################
 
 
-def _stop(lock, conn, data):
+def _stop(lock: _LockLike, conn: Connection, data):
     libgis.G_debug(1, "Stop C-interface server")
     conn.close()
     lock.release()
@@ -4205,12 +4237,13 @@ def _stop(lock, conn, data):
 ###############################################################################
 
 
-def c_library_server(lock, conn):
+def c_library_server(lock: _LockLike, conn: Connection):
     """The GRASS C-libraries server function designed to be a target for
     multiprocessing.Process
 
     :param lock: A multiprocessing.Lock
-    :param conn: A multiprocessing.Pipe
+    :param conn: A multiprocessing.connection.Connection object obtained from
+                 multiprocessing.Pipe
     """
 
     def error_handler(data):
@@ -4393,9 +4426,8 @@ def c_library_server(lock, conn):
         # Avoid busy waiting
         conn.poll(None)
         data = conn.recv()
-        lock.acquire()
-        functions[data[0]](lock, conn, data)
-        lock.release()
+        with lock:
+            functions[data[0]](lock, conn, data)
 
 
 class CLibrariesInterface(RPCServerBase):
