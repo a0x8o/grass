@@ -22,11 +22,15 @@
 #include <errno.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <string.h>
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+#include <string.h>
+>>>>>>> e8c71d225e (lib/vector/Vlib: Fix Resource Leak issues in break_polygons.c (#4612))
 #include <grass/vector.h>
 #include <grass/glocale.h>
 
