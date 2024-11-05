@@ -12656,10 +12656,13 @@ typedef enum {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 94b7310cb1 (r.colors.out: Add JSON support (#4555))
     G_OPT_C,        /*!< color */
     G_OPT_CN,       /*!< color or none */
     G_OPT_C_FORMAT, /*!< set color format to rgb,hex,hsv or triplet */
@@ -12950,6 +12953,11 @@ typedef enum {
 =======
     G_OPT_C,  /*!< color */
     G_OPT_CN, /*!< color or none */
+=======
+    G_OPT_C,        /*!< color */
+    G_OPT_CN,       /*!< color or none */
+    G_OPT_C_FORMAT, /*!< set color format to rgb,hex,hsv or triplet */
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

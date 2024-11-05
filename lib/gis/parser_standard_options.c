@@ -658,12 +658,17 @@ struct Option *G_define_standard_option(int opt)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+>>>>>>> 94b7310cb1 (r.colors.out: Add JSON support (#4555))
     case G_OPT_C_FORMAT:
         Opt->key = "color_format";
         Opt->type = TYPE_STRING;
@@ -682,10 +687,14 @@ struct Option *G_define_standard_option(int opt)
         break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 94b7310cb1 (r.colors.out: Add JSON support (#4555))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
@@ -695,6 +704,10 @@ struct Option *G_define_standard_option(int opt)
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
+>>>>>>> 94b7310cb1 (r.colors.out: Add JSON support (#4555))
 
         /* misc */
 
