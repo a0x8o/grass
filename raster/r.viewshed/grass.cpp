@@ -5383,11 +5383,15 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
     /*scan through the raster data */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // int isnull = 0;
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    // int isnull = 0;
+>>>>>>> c78fd460d5 (r.viewshed: address -Wunused-value warnings (#4609))
     dimensionType i, j;
     double ax, ay;
     AEvent e;
@@ -8518,6 +8522,7 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
             /*read the elevation value into the event */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // isnull = Rast_is_null_value(&(inrast[1][j]), data_type);
 =======
             Rast_is_null_value(&(inrast[1][j]), data_type);
@@ -8525,6 +8530,9 @@ AMI_STREAM<AEvent> *init_event_list(char *rastName, Viewpoint *vp,
 =======
             Rast_is_null_value(&(inrast[1][j]), data_type);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            // isnull = Rast_is_null_value(&(inrast[1][j]), data_type);
+>>>>>>> c78fd460d5 (r.viewshed: address -Wunused-value warnings (#4609))
             e.elev[1] = inrast[1][j];
 
             /* adjust for curvature */
@@ -17497,6 +17505,7 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
             /* read the current elevation value */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // int isNull = 0;
 
             switch (elev_data_type) {
@@ -17549,18 +17558,21 @@ void save_io_vis_and_elev_to_GRASS(IOVisibilityGrid *visgrid, char *elevfname,
         } /* for j */
 
 =======
+=======
+            // int isNull = 0;
+>>>>>>> c78fd460d5 (r.viewshed: address -Wunused-value warnings (#4609))
 
             switch (elev_data_type) {
             case CELL_TYPE:
-                Rast_is_c_null_value(&((CELL *)elevrast)[j]);
+                // isNull = Rast_is_c_null_value(&((CELL *)elevrast)[j]);
                 elev = (double)(((CELL *)elevrast)[j]);
                 break;
             case FCELL_TYPE:
-                Rast_is_f_null_value(&((FCELL *)elevrast)[j]);
+                // isNull = Rast_is_f_null_value(&((FCELL *)elevrast)[j]);
                 elev = (double)(((FCELL *)elevrast)[j]);
                 break;
             case DCELL_TYPE:
-                Rast_is_d_null_value(&((DCELL *)elevrast)[j]);
+                // isNull = Rast_is_d_null_value(&((DCELL *)elevrast)[j]);
                 elev = (double)(((DCELL *)elevrast)[j]);
                 break;
             }
