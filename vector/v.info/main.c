@@ -61,12 +61,15 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
                &shell_flag, &format);
+<<<<<<< HEAD
 =======
                &shell_flag);
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
                &shell_flag);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
 
     /* try to open head-only on level 2 */
     if (Vect_open_old_head2(&Map, input_opt, "", field_opt) < 2) {
@@ -96,6 +99,7 @@ int main(int argc, char *argv[])
         else if (col_flag) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             print_columns(&Map, input_opt, field_opt, format);
 =======
             print_columns(&Map, input_opt, field_opt);
@@ -103,6 +107,9 @@ int main(int argc, char *argv[])
 =======
             print_columns(&Map, input_opt, field_opt);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+            print_columns(&Map, input_opt, field_opt, format);
+>>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
         }
         Vect_close(&Map);
 
@@ -111,6 +118,9 @@ int main(int argc, char *argv[])
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
     if (format == JSON) {
         root_value = json_value_init_object();
         root_object = json_value_get_object(root_value);
