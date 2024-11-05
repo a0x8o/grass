@@ -86,6 +86,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
@@ -100,6 +101,8 @@ int main(int argc, char *argv[])
                &shell_flag);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 252fe5d829 (v.info: add json output for columns (#4590))
 
     /* try to open head-only on level 2 */
     if (Vect_open_old_head2(&Map, input_opt, "", field_opt) < 2) {
@@ -132,10 +135,13 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 252fe5d829 (v.info: add json output for columns (#4590))
             print_columns(&Map, input_opt, field_opt, format);
 =======
             print_columns(&Map, input_opt, field_opt);
@@ -148,6 +154,7 @@ int main(int argc, char *argv[])
 =======
             print_columns(&Map, input_opt, field_opt, format);
 >>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -155,6 +162,8 @@ int main(int argc, char *argv[])
             print_columns(&Map, input_opt, field_opt);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 252fe5d829 (v.info: add json output for columns (#4590))
         }
         Vect_close(&Map);
 
@@ -166,12 +175,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> b43eab38a4 (v.info: add json output for columns (#4590))
+>>>>>>> 252fe5d829 (v.info: add json output for columns (#4590))
     if (format == JSON) {
         root_value = json_value_init_object();
         root_object = json_value_get_object(root_value);
