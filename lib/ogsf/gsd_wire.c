@@ -4135,10 +4135,13 @@ int gsd_coarse_surf_map(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b6704f1264 (lib/ogsf: fix possible overflow errors in gsd_wire.c (#4636))
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
@@ -4151,6 +4154,7 @@ int gsd_coarse_surf_map(geosurf *surf)
 =======
                     ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> 25726a801f (lib/ogsf: fix possible overflow errors in gsd_wire.c (#4636))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -4158,6 +4162,8 @@ int gsd_coarse_surf_map(geosurf *surf)
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> b6704f1264 (lib/ogsf: fix possible overflow errors in gsd_wire.c (#4636))
                 }
 
                 if (check_material) {
