@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1730958623,
         "narHash": "sha256-JwQZIGSYnRNOgDDoIgqKITrPVil+RMWHsZH1eE1VGN0=",
         "owner": "NixOS",
@@ -53,6 +54,8 @@
 =======
 =======
 >>>>>>> 40b470065f (CI(deps): Lock file maintenance (#4564))
+=======
+>>>>>>> 5aba09e445 (CI(deps): Lock file maintenance (#4643))
         "lastModified": 1732238832,
         "narHash": "sha256-sQxuJm8rHY20xq6Ah+GwIUkF95tWjGRd1X8xF+Pkk38=",
         "owner": "NixOS",
@@ -62,6 +65,8 @@
 >>>>>>> 38f5cf43d1 (CI(deps): Lock file maintenance (#4756))
 =======
 =======
+=======
+>>>>>>> 49b2e446cf (CI(deps): Lock file maintenance (#4643))
 <<<<<<< HEAD
         "lastModified": 1730958623,
         "narHash": "sha256-JwQZIGSYnRNOgDDoIgqKITrPVil+RMWHsZH1eE1VGN0=",
@@ -75,8 +80,21 @@
         "repo": "nixpkgs",
         "rev": "0fcb98acb6633445764dafe180e6833eb0f95208",
 >>>>>>> 64eeb800f6 (CI(deps): Lock file maintenance (#4564))
+<<<<<<< HEAD
 >>>>>>> a41b9ecd9f (CI(deps): Lock file maintenance (#4564))
+<<<<<<< HEAD
 >>>>>>> 40b470065f (CI(deps): Lock file maintenance (#4564))
+=======
+=======
+=======
+        "lastModified": 1730272153,
+        "narHash": "sha256-B5WRZYsRlJgwVHIV6DvidFN7VX7Fg9uuwkRW9Ha8z+w=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2d2a9ddbe3f2c00747398f3dc9b05f7f2ebb0f53",
+>>>>>>> cb08052097 (CI(deps): Lock file maintenance (#4643))
+>>>>>>> 49b2e446cf (CI(deps): Lock file maintenance (#4643))
+>>>>>>> 5aba09e445 (CI(deps): Lock file maintenance (#4643))
         "type": "github"
       },
       "original": {
