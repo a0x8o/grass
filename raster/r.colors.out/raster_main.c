@@ -31,6 +31,7 @@ int main(int argc, char **argv)
     struct {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         struct Option *map, *file, *format, *color_format;
 =======
         struct Option *map, *file;
@@ -38,6 +39,9 @@ int main(int argc, char **argv)
 =======
         struct Option *map, *file;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        struct Option *map, *file, *format, *color_format;
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
     } opt;
     struct {
         struct Flag *p;
@@ -98,6 +102,9 @@ int main(int argc, char **argv)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
     if (strcmp(opt.format->answer, "json") == 0) {
         if (strcmp(opt.color_format->answer, "rgb") == 0) {
             clr_frmt = RGB;
@@ -118,6 +125,7 @@ int main(int argc, char **argv)
         Rast_print_colors(&colors, range.min, range.max, fp,
                           flag.p->answer ? 1 : 0);
     }
+<<<<<<< HEAD
 =======
     Rast_print_colors(&colors, range.min, range.max, fp,
                       flag.p->answer ? 1 : 0);
@@ -126,6 +134,8 @@ int main(int argc, char **argv)
     Rast_print_colors(&colors, range.min, range.max, fp,
                       flag.p->answer ? 1 : 0);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
 
     exit(EXIT_SUCCESS);
 }

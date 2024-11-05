@@ -6773,6 +6773,7 @@ typedef enum {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     G_OPT_C,        /*!< color */
     G_OPT_CN,       /*!< color or none */
     G_OPT_C_FORMAT, /*!< set color format to rgb,hex,hsv or triplet */
@@ -6951,6 +6952,11 @@ typedef enum {
 =======
     G_OPT_C,  /*!< color */
     G_OPT_CN, /*!< color or none */
+=======
+    G_OPT_C,        /*!< color */
+    G_OPT_CN,       /*!< color or none */
+    G_OPT_C_FORMAT, /*!< set color format to rgb,hex,hsv or triplet */
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
 
 <<<<<<< HEAD
 <<<<<<< HEAD

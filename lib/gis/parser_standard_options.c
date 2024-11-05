@@ -655,6 +655,9 @@ struct Option *G_define_standard_option(int opt)
         break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
     case G_OPT_C_FORMAT:
         Opt->key = "color_format";
         Opt->type = TYPE_STRING;
@@ -671,10 +674,13 @@ struct Option *G_define_standard_option(int opt)
             _("output color in HSV format (experimental)"),
             _("output color in colon-separated RGB format"));
         break;
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 6bac3385ba (r.colors.out: Add JSON support (#4555))
 
         /* misc */
 
