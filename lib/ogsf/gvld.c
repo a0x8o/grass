@@ -190,6 +190,7 @@ int gvld_isosurf(geovol *gvl)
         check_transp[i] = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ktrans[i] = (255U << 24);
 =======
         ktrans[i] = (255 << 24);
@@ -197,6 +198,9 @@ int gvld_isosurf(geovol *gvl)
 =======
         ktrans[i] = (255 << 24);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+        ktrans[i] = (255U << 24);
+>>>>>>> 681d830d53 (lib/ogsf: fix possible overflow errors in gvld.c (#4637))
         if (CONST_ATT == isosurf->att[ATT_TRANSP].att_src &&
             isosurf->att[ATT_TRANSP].constant != 0.0) {
             ktrans[i] = (255 - (int)isosurf->att[ATT_TRANSP].constant) << 24;
