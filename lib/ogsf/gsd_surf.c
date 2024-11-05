@@ -349,10 +349,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                 ktrans = (char)(255U - ktrans) << 24;
 =======
                 ktrans = (char)(255 - ktrans) << 24;
@@ -365,6 +368,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                 ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -372,6 +376,8 @@ int gsd_surf_map_old(geosurf *surf)
                 ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
             }
 
             gsd_litvert_func(n, ktrans | curcolor, pt);
@@ -401,10 +407,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                 ktrans = (char)(255U - ktrans) << 24;
 =======
                 ktrans = (char)(255 - ktrans) << 24;
@@ -417,6 +426,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                 ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -424,6 +434,8 @@ int gsd_surf_map_old(geosurf *surf)
                 ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
             }
 
             if (check_material) {
@@ -528,10 +540,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                         ktrans = (char)(255U - ktrans) << 24;
 =======
                         ktrans = (char)(255 - ktrans) << 24;
@@ -544,6 +559,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                         ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -551,6 +567,8 @@ int gsd_surf_map_old(geosurf *surf)
                         ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                     }
 
                     if (check_material) {
@@ -610,10 +628,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                         ktrans = (char)(255U - ktrans) << 24;
 =======
                         ktrans = (char)(255 - ktrans) << 24;
@@ -626,6 +647,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                         ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -633,6 +655,8 @@ int gsd_surf_map_old(geosurf *surf)
                         ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                     }
 
                     if (check_material) {
@@ -693,10 +717,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
@@ -709,6 +736,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                     ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -716,6 +744,8 @@ int gsd_surf_map_old(geosurf *surf)
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                 }
 
                 if (check_material) {
@@ -789,10 +819,13 @@ int gsd_surf_map_old(geosurf *surf)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
@@ -805,6 +838,7 @@ int gsd_surf_map_old(geosurf *surf)
 =======
                     ktrans = (char)(255U - ktrans) << 24;
 >>>>>>> f6905ba9dc (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
@@ -812,6 +846,8 @@ int gsd_surf_map_old(geosurf *surf)
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 40ea6e0a97 (lib/ogsf: fix possible overflow errors in gsd_surf.c (#4635))
                 }
 
                 if (check_material) {
@@ -7482,7 +7518,7 @@ int gsd_surf_map(geosurf *surf)
                 if (check_transp) {
                     GET_MAPATT(trbuff, offset2[ii], ttr);
                     ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
-                    ktrans = (char)(255 - ktrans) << 24;
+                    ktrans = (char)(255U - ktrans) << 24;
                 }
 
                 if (check_material) {
