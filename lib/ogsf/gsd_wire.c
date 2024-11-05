@@ -2536,6 +2536,7 @@ int gsd_coarse_surf_map(geosurf *surf)
                     ktrans = (char)SCALE_ATT(tratt, ttr, 0, 255);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ktrans = (char)(255U - ktrans) << 24;
 =======
                     ktrans = (char)(255 - ktrans) << 24;
@@ -2543,6 +2544,9 @@ int gsd_coarse_surf_map(geosurf *surf)
 =======
                     ktrans = (char)(255 - ktrans) << 24;
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+                    ktrans = (char)(255U - ktrans) << 24;
+>>>>>>> 25726a801f (lib/ogsf: fix possible overflow errors in gsd_wire.c (#4636))
                 }
 
                 if (check_material) {
