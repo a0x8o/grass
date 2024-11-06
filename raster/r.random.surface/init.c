@@ -37,10 +37,14 @@ void Init(void)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         FDM = Rast_open_old(mask_name, mask_mapset);
+<<<<<<< HEAD
         {
             MapCount = 0;
             CellBuffer = Rast_allocate_c_buf();
@@ -70,6 +74,8 @@ void Init(void)
     else {
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
         FDM = Rast_open_old("MASK", G_mapset());
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
         {
             MapCount = 0;
             CellBuffer = Rast_allocate_c_buf();
@@ -85,6 +91,10 @@ void Init(void)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+    }
+    else {
+        MapCount = Rs * Cs;
+        FDM = -1;
     }
 
     if (Uniform->answer)

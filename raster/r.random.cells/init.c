@@ -43,10 +43,14 @@ void Init(void)
     Cells = FlagCreate(Rs, Cs);
     CellCount = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         FD = Rast_open_old(mask_name, mask_mapset);
+<<<<<<< HEAD
 =======
     if (G_find_raster2("MASK", G_mapset())) {
         FD = Rast_open_old("MASK", G_mapset());
@@ -54,6 +58,8 @@ void Init(void)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
         {
             for (row = 0; row < Rs; row++) {
                 Rast_get_c_row_nomask(FD, CellBuffer, row);
