@@ -18,10 +18,13 @@ char *maskinfo(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 31ad49a08d (r.report: Work with any mask name (also for r.kappa) (#4633))
     char text[2 * GNAME_MAX + GMAPSET_MAX];
     int next;
     int first;
@@ -42,6 +45,7 @@ char *maskinfo(void)
 =======
     char text[2 * GNAME_MAX + GMAPSET_MAX];
 >>>>>>> 62f995254a (r.report: Work with any mask name (also for r.kappa) (#4633))
+<<<<<<< HEAD
     int next;
     int first;
     char mask_name[GNAME_MAX];
@@ -67,12 +71,17 @@ char *maskinfo(void)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
     char text[100];
+=======
+>>>>>>> 31ad49a08d (r.report: Work with any mask name (also for r.kappa) (#4633))
     int next;
     int first;
+    char mask_name[GNAME_MAX];
+    char mask_mapset[GMAPSET_MAX];
 
     results = NULL;
-    if (G_find_raster("MASK", G_mapset()) == NULL)
+    if (!Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL))
         return "none";
+<<<<<<< HEAD
     if (Rast_get_reclass("MASK", G_mapset(), &reclass) <= 0) {
         sprintf(text, "MASK in %s", G_mapset());
 <<<<<<< HEAD
@@ -82,7 +91,14 @@ char *maskinfo(void)
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
+        sprintf(text, "%s in %s", mask_name, mask_mapset);
+>>>>>>> 62f995254a (r.report: Work with any mask name (also for r.kappa) (#4633))
+>>>>>>> 31ad49a08d (r.report: Work with any mask name (also for r.kappa) (#4633))
         return append(results, text);
     }
 
