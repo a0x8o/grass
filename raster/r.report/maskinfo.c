@@ -21,6 +21,7 @@ char *maskinfo(void)
 
     results = NULL;
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL))
         return "none";
     if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
@@ -34,6 +35,12 @@ char *maskinfo(void)
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if (!Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL))
+        return "none";
+    if (Rast_get_reclass(mask_name, mask_mapset, &reclass) <= 0) {
+        sprintf(text, "%s in %s", mask_name, mask_mapset);
+>>>>>>> 62f995254a (r.report: Work with any mask name (also for r.kappa) (#4633))
         return append(results, text);
     }
 
