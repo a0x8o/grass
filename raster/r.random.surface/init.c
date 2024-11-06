@@ -40,12 +40,17 @@ void Init(void)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
@@ -86,9 +91,12 @@ void Init(void)
         FDM = Rast_open_old("MASK", G_mapset());
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+<<<<<<< HEAD
 =======
         FDM = Rast_open_old("MASK", G_mapset());
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
         {
             MapCount = 0;
             CellBuffer = Rast_allocate_c_buf();
@@ -110,6 +118,7 @@ void Init(void)
     else {
         MapCount = Rs * Cs;
         FDM = -1;
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
@@ -118,6 +127,8 @@ void Init(void)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
     }
 
     if (Uniform->answer)

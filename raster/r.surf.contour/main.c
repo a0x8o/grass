@@ -83,16 +83,24 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
+=======
+=======
+>>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
     char mask_name[GNAME_MAX];
     char mask_mapset[GMAPSET_MAX];
     if (Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL)) {
         file_fd = Rast_open_old(mask_name, mask_mapset);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
 =======
     if (NULL != G_find_file("cell", "MASK", G_mapset())) {
         file_fd = Rast_open_old("MASK", G_mapset());
@@ -102,6 +110,7 @@ int main(int argc, char *argv[])
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 340c6b9719 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
+<<<<<<< HEAD
 =======
 =======
     if (NULL != G_find_file("cell", "MASK", G_mapset())) {
@@ -114,6 +123,8 @@ int main(int argc, char *argv[])
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9727c24353 (raster: Work with any mask name (r.surf.contour, r.random.cells, r.random.surface) (#4634))
         for (r = 0; r < nrows; r++) {
             Rast_get_d_row_nomask(file_fd, alt_row, r);
             for (c = 0; c < ncols; c++)
