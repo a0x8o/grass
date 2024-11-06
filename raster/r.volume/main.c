@@ -14,10 +14,14 @@
  *               cell values within regions of a map defined by clumps or
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
  *               patches on a second map (or by raster mask). It also computes
  *               the "volume" by multiplying the total within a clump by the
  *               area of each cell. It also outputs the "centroid" location of
  *               each clump. Output is to standard out.
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -29,6 +33,8 @@
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
  *
  * COPYRIGHT:    (C) 1999-2006, 2013 by the GRASS Development Team
  *
@@ -158,6 +164,9 @@ int main(int argc, char *argv[])
     if (!clumpmap) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
         bool present =
             Rast_mask_status(mask_name, mask_mapset, NULL, NULL, NULL);
         if (!present)
@@ -168,6 +177,7 @@ int main(int argc, char *argv[])
         clumpmap = mask_name;
         use_mask = true;
         G_important_message(_("No clump map given, using raster mask"));
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -180,10 +190,13 @@ int main(int argc, char *argv[])
                             "MASK by r.mask command."));
         G_important_message(_("No clump map given, using MASK"));
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
     }
 
     /* open input and clump raster maps */
     fd_data = Rast_open_old(datamap, "");
+<<<<<<< HEAD
 <<<<<<< HEAD
     fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
 =======
@@ -192,6 +205,9 @@ int main(int argc, char *argv[])
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    fd_clump = Rast_open_old(clumpmap, use_mask ? mask_mapset : "");
+>>>>>>> 8aa8d20af2 (r.volume: Work with any mask name (#4632))
 
     /* initialize vector map (for centroids) if needed */
     if (centroidsmap) {
