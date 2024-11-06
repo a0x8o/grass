@@ -18,13 +18,17 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 import re
 =======
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import re
@@ -36,6 +40,11 @@ import re
 >>>>>>> 0d54fc2b9b (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+import re
+>>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 import shutil
 import tarfile
 import tempfile
@@ -51,22 +60,31 @@ from urllib.request import urlretrieve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 =======
 >>>>>>> 0d54fc2b9b (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 reponse_content_type_header_pattern = re.compile(r"application/(zip|octet-stream)")
 reponse_content_disposition_header_pattern = re.compile(r"attachment; filename=.*.zip$")
 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 =======
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
@@ -76,6 +94,10 @@ reponse_content_disposition_header_pattern = re.compile(r"attachment; filename=.
 >>>>>>> 0d54fc2b9b (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 def debug(*args, **kwargs):
     """Print a debug message (to be used in this module only)
 
@@ -3688,12 +3710,17 @@ def download_and_extract(source, reporthook=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 =======
 >>>>>>> 0d54fc2b9b (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 
         if not re.search(
             reponse_content_type_header_pattern, headers.get("content-type", "")
@@ -3703,12 +3730,16 @@ def download_and_extract(source, reporthook=None):
         ):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
 =======
         if headers.get("content-type", "") != "application/zip":
 >>>>>>> 6d691c8cd4 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
         if headers.get("content-type", "") != "application/zip":
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
@@ -3719,6 +3750,10 @@ def download_and_extract(source, reporthook=None):
 >>>>>>> 0d54fc2b9b (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> a51aad724c (python/grass/utils: fix checking server response content type/dispostion header (#4658))
+>>>>>>> f6594ec10b (python/grass/utils: fix checking server response content type/dispostion header (#4658))
             raise DownloadError(
                 _(
                     "Download of <{url}> failed or file <{name}> is not a ZIP file"
