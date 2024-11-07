@@ -2321,11 +2321,15 @@ int write_area(
         G_free(equivs);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Vect_destroy_line_struct(points);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    Vect_destroy_line_struct(points);
+>>>>>>> 1c28d6cce0 (r.to.vect: Fix Resource Leak issue in areas_io.c (#4663))
 
     return 0;
 }
