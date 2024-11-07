@@ -4162,13 +4162,17 @@ int write_area(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> f459c97174 (r.to.vect: Fix Resource Leak issue in areas_io.c (#4663))
     Vect_destroy_line_struct(points);
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     Vect_destroy_line_struct(points);
@@ -4180,6 +4184,11 @@ int write_area(
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    Vect_destroy_line_struct(points);
+>>>>>>> 1c28d6cce0 (r.to.vect: Fix Resource Leak issue in areas_io.c (#4663))
+>>>>>>> f459c97174 (r.to.vect: Fix Resource Leak issue in areas_io.c (#4663))
 
     return 0;
 }
