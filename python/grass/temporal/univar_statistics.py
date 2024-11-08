@@ -1707,7 +1707,7 @@ def compute_univar_stats(registered_map_info, stats_module, fs, rast_region=Fals
     )
 
     stats_module.inputs.map = id
-    if rast_region:
+    if rast_region and (stats_module.inputs.zones or stats_module.name == "r3.univar"):
         stats_module.env = gs.region_env(raster=id)
     stats_module.run()
 
@@ -6825,6 +6825,7 @@ def print_gridded_dataset_univar_statistics(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
@@ -6834,6 +6835,11 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> osgeo-main
+=======
+=======
+=======
+>>>>>>> aec9c42ac4 (t.rast.univar: allow r-flag combined with zones option (#4577))
+>>>>>>> ba28fbef7c (t.rast.univar: allow r-flag combined with zones option (#4577))
     if output is not None:
         out_file = open(output, "w")
 
@@ -7224,6 +7230,7 @@ def print_gridded_dataset_univar_statistics(
 >>>>>>> 776ce10d62 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> b5acd78515 (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
 >>>>>>> fbb5219778 (wxpyimgview: explicit conversion to int (#2704))
@@ -7265,7 +7272,15 @@ def print_gridded_dataset_univar_statistics(
 =======
 =======
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> osgeo-main
+=======
+>>>>>>> b9298093ee (t.rast.univar: allow r-flag combined with zones option (#4577))
+>>>>>>> aec9c42ac4 (t.rast.univar: allow r-flag combined with zones option (#4577))
+>>>>>>> ba28fbef7c (t.rast.univar: allow r-flag combined with zones option (#4577))
     spatial_extent = None
     if region_relation:
         spatial_extent = gs.parse_command("g.region", flags="3gu")
@@ -8862,6 +8877,7 @@ def print_gridded_dataset_univar_statistics(
         flag += "e"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if type == "strds" and rast_region is True and not zones:
 =======
     if type == "strds" and rast_region is True:
@@ -8869,6 +8885,9 @@ def print_gridded_dataset_univar_statistics(
 =======
     if type == "strds" and rast_region is True:
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    if type == "strds" and rast_region is True and not zones:
+>>>>>>> aec9c42ac4 (t.rast.univar: allow r-flag combined with zones option (#4577))
         flag += "r"
 
     # Setup pygrass module to use for computation
