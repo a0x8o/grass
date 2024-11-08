@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -187,6 +188,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> af64ae18ab (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 09c954095a (CI(deps): Update docker/dockerfile Docker tag to v1.11 (#4621))
+=======
+>>>>>>> c1e65a2b70 (CI(deps): Update docker/dockerfile:1.11 Docker digest to 10c699f (#4669))
 # syntax=docker/dockerfile:1.11@sha256:10c699f1b6c8bdc8f6b4ce8974855dd8542f1768c26eb240237b8f1c9c6c9976
 =======
 =======
@@ -203,6 +206,8 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 >>>>>>> bb025880fe (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> d624d8c34f (CI(deps): Update docker/dockerfile Docker tag to v1.11 (#4621))
+=======
+>>>>>>> 4c3dd25486 (CI(deps): Update docker/dockerfile:1.11 Docker digest to 10c699f (#4669))
 FROM ubuntu:22.04
 
 LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
@@ -880,8 +885,17 @@ LABEL authors="Carmen Tawalika,Markus Neteler,Anika Weinmann"
 =======
 # syntax=docker/dockerfile:1.11@sha256:1f2be5a2aa052cbd9aedf893d17c63277c3d1c51b3fb0f3b029c6b34f658d057
 >>>>>>> 3f0b69fdf5 (CI(deps): Update docker/dockerfile Docker tag to v1.11 (#4621))
+<<<<<<< HEAD
 >>>>>>> d624d8c34f (CI(deps): Update docker/dockerfile Docker tag to v1.11 (#4621))
+<<<<<<< HEAD
 >>>>>>> 09c954095a (CI(deps): Update docker/dockerfile Docker tag to v1.11 (#4621))
+=======
+=======
+=======
+# syntax=docker/dockerfile:1.11@sha256:10c699f1b6c8bdc8f6b4ce8974855dd8542f1768c26eb240237b8f1c9c6c9976
+>>>>>>> 600caae8f1 (CI(deps): Update docker/dockerfile:1.11 Docker digest to 10c699f (#4669))
+>>>>>>> 4c3dd25486 (CI(deps): Update docker/dockerfile:1.11 Docker digest to 10c699f (#4669))
+>>>>>>> c1e65a2b70 (CI(deps): Update docker/dockerfile:1.11 Docker digest to 10c699f (#4669))
 
 # Note: This file must be kept in sync in ./Dockerfile and ./docker/ubuntu/Dockerfile.
 #       Changes to this file must be copied over to the other file.
