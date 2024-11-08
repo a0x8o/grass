@@ -6096,11 +6096,15 @@ char *file_name(char *path, const char *dir, const char *element,
     const char *pname = name;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     char xname[GNAME_MAX] = {'\0'};
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+=======
+    char xname[GNAME_MAX] = {'\0'};
+>>>>>>> cbab883699 (lib/gis: Fix out of scope memory access error in file_name function call (#4650))
 
     if (base && *base) {
         sprintf(path, "%s", base);
