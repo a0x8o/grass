@@ -155,7 +155,6 @@
 >>>>>>> osgeo-main
 # %rules
 # % requires: percentile,-e
-# % exclusive: zones,-r
 # %end
 
 =======
@@ -449,9 +448,7 @@ def main():
     # Make sure the temporal database exists
     tgis.init()
 
-    if not output:
-        output = None
-    if output == "-":
+    if not output or output == "-":
         output = None
 
     # Check if zones map exists and is of type CELL
