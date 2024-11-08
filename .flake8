@@ -248,6 +248,7 @@ per-file-ignores =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     python/grass/temporal/temporal_raster_base_algebra.py: E722
 =======
 >>>>>>> osgeo-main
@@ -256,6 +257,8 @@ per-file-ignores =
 >>>>>>> b0a9aa7d1d (temporal: Fixed bare 'except' PEP8 error (#4670))
 =======
 >>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
+=======
+>>>>>>> 1e22903e30 (temporal: Fixed bare 'except' PEP8 error (#4670))
 =======
     python/grass/temporal/temporal_algebra.py: F841, E722
     python/grass/temporal/temporal_granularity.py: F841, E722
@@ -266,6 +269,7 @@ per-file-ignores =
 >>>>>>> 35f705e11d (Checks: fix flake8 E741 remainder (#3928))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb47639720 (Checks: fix flake8 E741 remainder (#3928))
 =======
 =======
@@ -274,6 +278,11 @@ per-file-ignores =
 >>>>>>> b0a9aa7d1d (temporal: Fixed bare 'except' PEP8 error (#4670))
 =======
 >>>>>>> 97a02a85cb (Checks: fix flake8 E741 remainder (#3928))
+=======
+=======
+    python/grass/temporal/temporal_raster_base_algebra.py: E722
+>>>>>>> 37100543d6 (temporal: Fixed bare 'except' PEP8 error (#4670))
+>>>>>>> 1e22903e30 (temporal: Fixed bare 'except' PEP8 error (#4670))
     # Current benchmarks/tests are changing sys.path before import.
     # Possibly, a different approach should be taken there anyway.
     python/grass/pygrass/tests/benchmark.py: F821
