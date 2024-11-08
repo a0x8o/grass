@@ -10524,12 +10524,17 @@ int main(int argc, char *argv[])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2b3e4eea (i.vi: Add ndwi color table to output (#4668))
 =======
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4e2b3e4eea (i.vi: Add ndwi color table to output (#4668))
+>>>>>>> c284b8a91f (i.vi: Add ndwi color table to output (#4668))
     else if (!strcasecmp(viflag, "ndwi")) {
         /* apply predefined NDWI color table */
         const char *style = "ndwi";
@@ -10542,10 +10547,14 @@ int main(int argc, char *argv[])
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c284b8a91f (i.vi: Add ndwi color table to output (#4668))
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2b3e4eea (i.vi: Add ndwi color table to output (#4668))
@@ -10555,6 +10564,10 @@ int main(int argc, char *argv[])
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 4e2b3e4eea (i.vi: Add ndwi color table to output (#4668))
+>>>>>>> c284b8a91f (i.vi: Add ndwi color table to output (#4668))
     else {
         /* Color from -1.0 to +1.0 in grey */
         Rast_init_colors(&colors);
