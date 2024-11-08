@@ -11306,13 +11306,17 @@ char *file_name(char *path, const char *dir, const char *element,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 79a620844a (lib/gis: Fix out of scope memory access error in file_name function call (#4650))
     char xname[GNAME_MAX] = {'\0'};
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     char xname[GNAME_MAX] = {'\0'};
@@ -11324,6 +11328,11 @@ char *file_name(char *path, const char *dir, const char *element,
 >>>>>>> 3ac340cfe2 (Merge branch 'a0x8o' into stag0)
 =======
 >>>>>>> 4217d7b0d6 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    char xname[GNAME_MAX] = {'\0'};
+>>>>>>> cbab883699 (lib/gis: Fix out of scope memory access error in file_name function call (#4650))
+>>>>>>> 79a620844a (lib/gis: Fix out of scope memory access error in file_name function call (#4650))
 
     if (base && *base) {
         sprintf(path, "%s", base);
