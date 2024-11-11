@@ -45,6 +45,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       RUFF_VERSION: "0.5.1"
 =======
       RUFF_VERSION: "0.5.4"
@@ -73,6 +74,9 @@ jobs:
 =======
       RUFF_VERSION: "0.7.2"
 >>>>>>> 0824e8842e (CI(deps): Update ruff to v0.7.2 (#4631))
+=======
+      RUFF_VERSION: "0.7.3"
+>>>>>>> osgeo-main
 
     runs-on: ${{ matrix.os }}
     permissions:
@@ -171,7 +175,7 @@ jobs:
           path: bandit.sarif
 
       - name: Upload SARIF File into Security Tab
-        uses: github/codeql-action/upload-sarif@662472033e021d55d94146f66f6058822b0b39fd # v3.27.0
+        uses: github/codeql-action/upload-sarif@4f3212b61783c3c68e8309a0f18a699764811cda # v3.27.1
         with:
           sarif_file: bandit.sarif
 

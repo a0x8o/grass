@@ -7,6 +7,7 @@ set -e
 ./configure \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     --enable-largefile=yes \
 =======
 >>>>>>> osgeo-main
@@ -31,12 +32,21 @@ set -e
     --with-sqlite=yes
 =======
 =======
+=======
+    --with-bzlib \
+    --with-cairo \
+    --with-cxx \
+    --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
+>>>>>>> osgeo-main
     --with-geos=/usr/bin/geos-config \
     --with-nls \
     --with-opengl-libs=/usr/include/GL \
     --with-proj-share=/usr/share/proj \
     --with-readline \
+<<<<<<< HEAD
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> osgeo-main
     --with-sqlite=yes \
     --without-pdal
 >>>>>>> osgeo-main

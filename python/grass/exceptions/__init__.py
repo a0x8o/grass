@@ -74,6 +74,7 @@ class CalledModuleError(subprocess.CalledProcessError):
         super().__init__(returncode, module)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         super(CalledModuleError, self).__init__(returncode, module)
 <<<<<<< HEAD
@@ -194,12 +195,15 @@ class CalledModuleError(subprocess.CalledProcessError):
 <<<<<<< HEAD
 =======
 >>>>>>> 628e5dfc04 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> osgeo-main
         # No need to include module name if it is directly in code of if it is not set.
         # Otherwise, make sure module name is there if provided and not in code.
         executed = code if not module or module in code else f"{module} {code}"
 =======
 =======
         super(CalledModuleError, self).__init__(returncode, module)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +219,11 @@ class CalledModuleError(subprocess.CalledProcessError):
 =======
 >>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
 >>>>>>> c190252548 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 3fce2ed438 (pythonlib: Remove star imports (#1546))
+=======
+>>>>>>> 7e8f036e2d (pythonlib: Remove star imports (#1546))
+>>>>>>> osgeo-main
         if not module or module in code:
             # No need to include module name if it is directly in code
             # of if it is not set.

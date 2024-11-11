@@ -117,6 +117,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +342,9 @@ def main():
 =======
             self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
 =======
+            self.toolbars["vdigit"].quitDigitizer.connect(lambda: self.Close())
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
             self.toolbars["vdigit"].quitDigitizer.connect(self.Close)
 =======
@@ -351,14 +355,20 @@ def main():
 <<<<<<< HEAD
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)

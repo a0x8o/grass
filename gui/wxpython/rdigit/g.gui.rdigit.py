@@ -153,6 +153,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +378,9 @@ def main():
 =======
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 =======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(self.Close)
 =======
@@ -387,14 +391,20 @@ def main():
 <<<<<<< HEAD
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
             # add Map Display panel to Map Display frame
             sizer = wx.BoxSizer(wx.VERTICAL)
@@ -418,7 +428,7 @@ def main():
             :param str name: map name
             :param str ltype: layer type
             """
-            mapLayer = self._mapObj.AddLayer(
+            self._mapObj.AddLayer(
                 ltype=ltype,
                 name=name,
                 command=["d.rast", "map={}".format(name)],

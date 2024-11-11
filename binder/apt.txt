@@ -29,10 +29,13 @@ libncurses5-dev
 libnetcdf-dev
 libpdal-dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 libgeos-dev
 >>>>>>> osgeo-main
 =======
 >>>>>>> e37730b936 (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+>>>>>>> osgeo-main
 libpng-dev
 libpq-dev
 libproj-dev

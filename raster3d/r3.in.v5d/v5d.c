@@ -49,13 +49,6 @@
  * values are in IEEE format.
  */
 
-/*
- * Updates:
- *
- * April 13, 1995, brianp
- *   finished Cray support for 2-byte and 4-byte compress modes
- */
-
 #include <grass/config.h>
 #include <assert.h>
 #include <stdio.h>
@@ -721,21 +714,6 @@ void v5dCompressGrid(int nr, int nc, int nl, int compressmode,
             else {
                 one_over_a = 1.0 / ga[lev];
             }
-#ifdef _CRAY
-            /* this is tricky because sizeof(V5Dushort)==8, not 2 */
-            for (i = 0; i < nrnc; i++, p++) {
-                V5Dushort compvalue;
-
-                if (IS_MISSING(data[p])) {
-                    compvalue = 65535;
-                }
-                else {
-                    compvalue = (V5Dushort)(int)((data[p] - b) * one_over_a);
-                }
-                compdata1[p * 2 + 0] = compvalue >> 8;    /* upper byte */
-                compdata1[p * 2 + 1] = compvalue & 0xffu; /* lower byte */
-            }
-#else
             for (i = 0; i < nrnc; i++, p++) {
                 if (IS_MISSING(data[p])) {
                     compdata2[p] = 65535;
@@ -745,20 +723,14 @@ void v5dCompressGrid(int nr, int nc, int nl, int compressmode,
                 }
             }
             /* TODO: byte-swapping on little endian??? */
-#endif
         }
     }
 
     else {
         /* compressmode==4 */
-#ifdef _CRAY
-        cray_to_ieee_array(compdata, data, nrncnl);
-#else
-        /* other machines: just copy 4-byte IEEE floats */
         assert(sizeof(float) == 4);
         memcpy(compdata, data, nrncnl * 4);
         /* TODO: byte-swapping on little endian??? */
-#endif
     }
 }
 
@@ -834,20 +806,6 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
             float a = ga[lev];
             float b = gb[lev];
 
-#ifdef _CRAY
-            /* this is tricky because sizeof(V5Dushort)==8, not 2 */
-            for (i = 0; i < nrnc; i++, p++) {
-                int compvalue;
-
-                compvalue = (compdata1[p * 2] << 8) | compdata1[p * 2 + 1];
-                if (compvalue == 65535) {
-                    data[p] = MISSING;
-                }
-                else {
-                    data[p] = (float)compvalue * a + b;
-                }
-            }
-#else
             /* sizeof(V5Dushort)==2! */
             for (i = 0; i < nrnc; i++, p++) {
                 if (compdata2[p] == 65535) {
@@ -857,19 +815,13 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
                     data[p] = (float)(int)compdata2[p] * a + b;
                 }
             }
-#endif
         }
     }
 
     else {
         /* compressmode==4 */
-#ifdef _CRAY
-        ieee_to_cray_array(data, compdata, nrncnl);
-#else
-        /* other machines: just copy 4-byte IEEE floats */
         assert(sizeof(float) == 4);
         memcpy(data, compdata, nrncnl * 4);
-#endif
     }
 }
 
@@ -900,6 +852,7 @@ void v5dDecompressGrid(int nr, int nc, int nl, int compressmode, void *compdata,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 =======
 <<<<<<< HEAD
@@ -950,6 +903,8 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 int v5dSizeofGrid(const v5dstruct *v, int time UNUSED, int var)
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
@@ -972,6 +927,7 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1072,6 +1028,11 @@ int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 int v5dSizeofGrid(const v5dstruct *v, int time, int var)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+int v5dSizeofGrid(const v5dstruct *v, int time, int var)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 {
     return v->Nr * v->Nc * v->Nl[var] * v->CompressMode;
 }
@@ -2912,11 +2873,7 @@ int v5dClose(void)
 #ifdef UNDERSCORE
 int v5dcreate_
 #else
-#ifdef _CRAY
-int V5DCREATE
-#else
 int v5dcreate
-#endif
 #endif
 
     (const char *name, const int *numtimes, const int *numvars, const int *nr,
@@ -3075,11 +3032,7 @@ int v5dcreate
 #ifdef UNDERSCORE
 int v5dcreatesimple_
 #else
-#ifdef _CRAY
-int V5DCREATESIMPLE
-#else
 int v5dcreatesimple
-#endif
 #endif
 
     (const char *name, const int *numtimes, const int *numvars, const int *nr,
@@ -3112,12 +3065,7 @@ int v5dcreatesimple
 #ifdef UNDERSCORE
     return v5dcreate_
 #else
-#ifdef _CRAY
-    return V5DCREATE
-#else
-
     return v5dcreate
-#endif
 #endif
         (name, numtimes, numvars, nr, nc, varnl, varname, timestamp, datestamp,
          &compressmode, &projection, projarg, &vertical, vertarg);
@@ -3131,11 +3079,7 @@ int v5dcreatesimple
 #ifdef UNDERSCORE
 int v5dsetlowlev_
 #else
-#ifdef _CRAY
-int V5DSETLOWLEV
-#else
 int v5dsetlowlev
-#endif
 #endif
     (int *lowlev)
 {
@@ -3151,11 +3095,7 @@ int v5dsetlowlev
 #ifdef UNDERSCORE
 int v5dsetunits_
 #else
-#ifdef _CRAY
-int V5DSETUNITS
-#else
 int v5dsetunits
-#endif
 #endif
     (int *var, char *name)
 {
@@ -3172,11 +3112,7 @@ int v5dsetunits
 #ifdef UNDERSCORE
 int v5dwrite_
 #else
-#ifdef _CRAY
-int V5DWRITE
-#else
 int v5dwrite
-#endif
 #endif
     (const int *time, const int *var, const float *data)
 {
@@ -3193,11 +3129,7 @@ int v5dwrite
 #ifdef UNDERSCORE
 int v5dmcfile_
 #else
-#ifdef _CRAY
-int V5DMCFILE
-#else
 int v5dmcfile
-#endif
 #endif
     (const int *time, const int *var, const int *mcfile, const int *mcgrid)
 {
@@ -3221,11 +3153,7 @@ int v5dmcfile
 #ifdef UNDERSCORE
 int v5dclose_(void)
 #else
-#ifdef _CRAY
-int V5DCLOSE(void)
-#else
 int v5dclose(void)
-#endif
 #endif
 {
     return v5dClose();

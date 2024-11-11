@@ -109,9 +109,15 @@ exec 3>&1 > >(tee mswindows/osgeo4w/package.log) 2>&1
 DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	/mingw64/bin/libblas.dll
+=======
+>>>>>>> osgeo-main
 	/mingw64/bin/zlib1.dll
 	/mingw64/bin/libbz2-1.dll
 	/mingw64/bin/libiconv-2.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,11 +178,14 @@ DLLS="
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 	/mingw64/bin/libexpat-1.dll
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 	/mingw64/bin/libexpat-1.dll
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +282,12 @@ DLLS="
 	/mingw64/bin/libbrotlidec.dll
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+	/mingw64/bin/libfontconfig-1.dll
+	/mingw64/bin/libgfortran-5.dll
+	/mingw64/bin/libbrotlidec.dll
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 	/mingw64/bin/libbrotlicommon.dll
 	/mingw64/bin/libbrotlidec.dll
 	/mingw64/bin/libbz2-1.dll
@@ -311,6 +326,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/mingw64/bin/libomp.dll
 =======
 <<<<<<< HEAD
@@ -436,6 +452,8 @@ DLLS="
 =======
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 	/mingw64/bin/libpcre-1.dll
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
@@ -449,14 +467,20 @@ DLLS="
 <<<<<<< HEAD
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 =======
 	/mingw64/bin/libomp.dll
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 	/mingw64/bin/libquadmath-0.dll
 	/mingw64/bin/libstdc++-6.dll
 	/mingw64/bin/libsystre-0.dll
@@ -497,6 +521,7 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-cairo-ldflags="-L$PWD/mswindows/osgeo4w/lib -lcairo -lfontconfig" \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		--with-bzlib \
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,11 +588,47 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+		--with-cxx \
+		--with-fftw \
+		--with-freetype \
+		--with-freetype-includes=/mingw64/include/freetype2 \
+		--with-gdal=$PWD/mswindows/osgeo4w/gdal-config \
+		--with-geos=$PWD/mswindows/osgeo4w/geos-config \
+		--with-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-lapack \
+		--with-lapack-includes=/mingw64/include \
+		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
+		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
+		--with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
+		--with-nls \
+		--with-odbc \
+		--with-opengl=windows \
+		--with-openmp \
+		--with-postgres \
+		--with-postgres-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-postgres-libs=$PWD/mswindows/osgeo4w/lib \
+		--with-proj-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-proj-libs=$OSGEO4W_ROOT_MSYS/lib \
+		--with-proj-share=$OSGEO4W_ROOT_MSYS/share/proj \
+		--with-regex \
+		--with-sqlite \
+		--with-sqlite-includes=$OSGEO4W_ROOT_MSYS/include \
+		--with-sqlite-libs=$PWD/mswindows/osgeo4w/lib \
+		--with-zstd \
+		--without-pdal \
+		--without-x
+=======
+		--with-bzlib \
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
 		--without-pdal
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,11 +788,17 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 =======
+>>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
+=======
 =======
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> dddb74a90a (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 
 	touch mswindows/osgeo4w/configure-stamp
 fi
