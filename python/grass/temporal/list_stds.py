@@ -150,7 +150,7 @@ def _open_output_file(file, encoding="utf-8", **kwargs):
             yield stream
 
 
-def _write_line(items, separator, file):
+def _write_line(items, separator, file) -> None:
     if not separator:
         separator = ","
     output = separator.join([f"{item}" for item in items])
@@ -158,8 +158,8 @@ def _write_line(items, separator, file):
         print(f"{output}", file=stream)
 
 
-def _write_plain(rows, header, separator, file):
-    def write_plain_row(items, separator, file):
+def _write_plain(rows, header, separator, file) -> None:
+    def write_plain_row(items, separator, file) -> None:
         output = separator.join([f"{item}" for item in items])
         print(f"{output}", file=file)
 
@@ -171,7 +171,7 @@ def _write_plain(rows, header, separator, file):
             write_plain_row(items=row, separator=separator, file=stream)
 
 
-def _write_json(rows, column_names, file):
+def _write_json(rows, column_names, file) -> None:
     # Lazy import output format-specific dependencies.
     # pylint: disable=import-outside-toplevel
     import datetime
@@ -197,7 +197,7 @@ def _write_json(rows, column_names, file):
         json.dump({"data": dict_rows, "metadata": meta}, stream, cls=ResultsEncoder)
 
 
-def _write_yaml(rows, column_names, file=sys.stdout):
+def _write_yaml(rows, column_names, file=sys.stdout) -> None:
     # Lazy import output format-specific dependencies.
     # pylint: disable=import-outside-toplevel
     import yaml
@@ -213,10 +213,10 @@ def _write_yaml(rows, column_names, file=sys.stdout):
         when https://github.com/yaml/pyyaml/issues/234 is resolved.
         """
 
-        def ignore_aliases(self, data):
+        def ignore_aliases(self, data) -> bool:
             return True
 
-        def increase_indent(self, flow=False, indentless=False):
+        def increase_indent(self, flow: bool = False, indentless: bool = False):
             return super().increase_indent(flow=flow, indentless=False)
 
     dict_rows = []
@@ -238,7 +238,7 @@ def _write_yaml(rows, column_names, file=sys.stdout):
         )
 
 
-def _write_csv(rows, column_names, separator, file=sys.stdout):
+def _write_csv(rows, column_names, separator, file=sys.stdout) -> None:
     # Lazy import output format-specific dependencies.
     # pylint: disable=import-outside-toplevel
     import csv
@@ -287,6 +287,7 @@ def _write_table(rows, column_names, output_format, separator, file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # No particular reason for this separator expect that this is the original behavior.
 =======
 <<<<<<< HEAD
@@ -337,6 +338,8 @@ def _write_table(rows, column_names, output_format, separator, file):
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         # No particular reason for this separator except that this is the original
@@ -363,6 +366,7 @@ def _write_table(rows, column_names, output_format, separator, file):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # No particular reason for this separator expect that this is the original behavior.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -463,6 +467,11 @@ def _write_table(rows, column_names, output_format, separator, file):
         # No particular reason for this separator expect that this is the original behavior.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        # No particular reason for this separator expect that this is the original behavior.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         # No particular reason for this separator expect that this is the original behavior.
@@ -541,6 +550,7 @@ def _get_get_registered_maps_as_objects_delta_gran(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -586,11 +596,14 @@ def _get_get_registered_maps_as_objects_delta_gran(
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
 
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +684,8 @@ def _get_get_registered_maps_as_objects_delta_gran(
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
         if isinstance(map_object, list):
@@ -833,6 +848,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -882,6 +898,8 @@ def _get_list_of_maps_stds(
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                     detail=(
@@ -912,6 +930,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
@@ -995,6 +1014,10 @@ def _get_list_of_maps_stds(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1026,6 +1049,7 @@ def _get_list_of_maps_stds(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
@@ -1140,6 +1164,11 @@ def _get_list_of_maps_stds(
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> osgeo-main
+=======
+>>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
                 )
             )
     if connection_state_changed:
@@ -1157,12 +1186,12 @@ def list_maps_of_stds(
     where,
     separator,
     method,
-    no_header=False,
+    no_header: bool = False,
     gran=None,
     dbif=None,
     outpath=None,
     output_format=None,
-):
+) -> None:
     """List the maps of a space time dataset using different methods
 
     :param type: The type of the maps raster, raster3d or vector

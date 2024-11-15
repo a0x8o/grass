@@ -154,6 +154,7 @@ def main():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +382,9 @@ def main():
             self.rdigit.quitDigitizer.connect(lambda: self.Close())
 >>>>>>> osgeo-main
 =======
+            self.rdigit.quitDigitizer.connect(lambda: self.Close())
+>>>>>>> osgeo-main
+=======
 <<<<<<< HEAD
             self.rdigit.quitDigitizer.connect(self.Close)
 =======
@@ -392,8 +396,11 @@ def main():
 >>>>>>> fd058b270f (wxGUI: fix layout flag assert in wms dialog (#1764))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 65fcf97c3a (wxGUI: fix layout flag assert in wms dialog (#1764))
 =======
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -402,7 +409,10 @@ def main():
 >>>>>>> dad8f82179 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> c10636c7fa (wxpyimgview: explicit conversion to int (#2704))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 

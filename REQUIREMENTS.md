@@ -35,6 +35,8 @@ for other platforms you may have to install some of them.
   GDAL: [https://gdal.org](https://gdal.org)
 - **Python >= 3.8** (for temporal framework, scripts, wxGUI, and ctypes interface)
   [https://www.python.org](https://www.python.org)
+- **MkDocs** with "Material" theme Python packages for the manual pages:
+  See `man/mkdocs/requirements.txt`.
 
 ## Optional packages
 
@@ -87,6 +89,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -136,6 +139,8 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 - **LIBSVM** (for SVM classification modules `i.svm.train` and `i.svm.predict`)
@@ -161,6 +166,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -244,6 +250,10 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -275,6 +285,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -324,6 +335,8 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 - **PDAL** ( for LAS import modules `r.in.pdal` and `v.in.pdal`)
@@ -349,6 +362,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 <<<<<<< HEAD
@@ -432,6 +446,10 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -469,6 +487,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,6 +598,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -610,6 +634,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -719,6 +744,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -766,6 +796,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,6 +907,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 =======
@@ -907,6 +943,7 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
@@ -1016,6 +1053,11 @@ Note: also the respective development packages (commonly named `xxx-dev` or
 =======
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 >>>>>>> 7f32ec0a8d (r.horizon manual - fix typo (#2794))
 =======
@@ -1071,6 +1113,7 @@ MacOSX users may go here to download precompiled libraries etc.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 © _GRASS Development Team 1997-2023_
 =======
 <<<<<<< HEAD
@@ -1121,6 +1164,8 @@ MacOSX users may go here to download precompiled libraries etc.:
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 © _GRASS Development Team 1997-2024_
@@ -1146,6 +1191,7 @@ MacOSX users may go here to download precompiled libraries etc.:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 © _GRASS Development Team 1997-2023_
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
@@ -1246,6 +1292,11 @@ MacOSX users may go here to download precompiled libraries etc.:
 © _GRASS Development Team 1997-2023_
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+=======
+© _GRASS Development Team 1997-2023_
+>>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+>>>>>>> osgeo-main
 =======
 =======
 © _GRASS Development Team 1997-2023_

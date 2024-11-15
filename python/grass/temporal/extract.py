@@ -63,11 +63,11 @@ def extract_dataset(
     expression,
     base,
     time_suffix,
-    nprocs=1,
-    register_null=False,
-    layer=1,
+    nprocs: int = 1,
+    register_null: bool = False,
+    layer: int = 1,
     vtype="point,line,boundary,centroid,area,face",
-):
+) -> None:
     """Extract a subset of a space time raster, raster3d or vector dataset
 
     A mapcalc expression can be provided to process the temporal extracted
@@ -342,7 +342,7 @@ def extract_dataset(
 ###############################################################################
 
 
-def run_mapcalc2d(expr):
+def run_mapcalc2d(expr) -> None:
     """Helper function to run r.mapcalc in parallel"""
     try:
         gs.run_command(
@@ -352,7 +352,7 @@ def run_mapcalc2d(expr):
         sys.exit(1)
 
 
-def run_mapcalc3d(expr):
+def run_mapcalc3d(expr) -> None:
     """Helper function to run r3.mapcalc in parallel"""
     try:
         gs.run_command(
@@ -362,7 +362,7 @@ def run_mapcalc3d(expr):
         sys.exit(1)
 
 
-def run_vector_extraction(input, output, layer, type, where):
+def run_vector_extraction(input, output, layer, type, where) -> None:
     """Helper function to run r.mapcalc in parallel"""
     try:
         gs.run_command(

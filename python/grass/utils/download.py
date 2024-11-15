@@ -57,6 +57,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Lazy import to avoding potential circular dependency.
 =======
 <<<<<<< HEAD
@@ -107,6 +108,8 @@ def debug(*args, **kwargs):
 >>>>>>> c427da62e8 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
     # Lazy import to avoiding potential circular dependency.
@@ -132,6 +135,7 @@ def debug(*args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     # Lazy import to avoding potential circular dependency.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -232,6 +236,11 @@ def debug(*args, **kwargs):
     # Lazy import to avoding potential circular dependency.
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+    # Lazy import to avoding potential circular dependency.
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
     # Lazy import to avoding potential circular dependency.
@@ -280,6 +289,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tar.extractall(path=extract_dir)
 =======
 <<<<<<< HEAD
@@ -330,6 +340,8 @@ def extract_tar(name, directory, tmpdir):
 >>>>>>> c427da62e8 (wxGUI/splashscreen: use standard one, try to show it before main app, increase timeout (#1718))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 
@@ -369,6 +381,7 @@ def extract_tar(name, directory, tmpdir):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         tar.extractall(path=extract_dir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -469,6 +482,11 @@ def extract_tar(name, directory, tmpdir):
         tar.extractall(path=extract_dir)
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+        tar.extractall(path=extract_dir)
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
         tar.extractall(path=extract_dir)

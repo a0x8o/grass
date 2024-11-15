@@ -50,6 +50,7 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             struct color_rgb *, int, int *, const char *);
 =======
 <<<<<<< HEAD
@@ -100,6 +101,8 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
                             struct color_rgb *, int, int *, int, const char *);
@@ -125,6 +128,7 @@ void write_into_legend_file(const char *, const char *, const char *, double,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             struct color_rgb *, int, int *, const char *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -225,6 +229,11 @@ void write_into_legend_file(const char *, const char *, const char *, double,
                             struct color_rgb *, int, int *, const char *);
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+                            struct color_rgb *, int, int *, const char *);
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
                             struct color_rgb *, int, int *, const char *);

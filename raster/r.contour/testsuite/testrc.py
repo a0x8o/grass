@@ -20,6 +20,7 @@ Purpose:    Tests r.contour and its flags/options.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
@@ -83,6 +84,9 @@ Purpose:    Tests r.contour and its flags/options.
 =======
 
 >>>>>>> fac93d230e (r.horizon manual - fix typo (#2794))
+=======
+
+>>>>>>> osgeo-main
 =======
 
 >>>>>>> osgeo-main

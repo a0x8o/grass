@@ -74,6 +74,7 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -120,10 +121,13 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
     double (*weight)(double, double);
 =======
     double (*weight) (double, double);
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +154,8 @@ void compute_weights(const char *function_type, double factor)
 =======
 >>>>>>> osgeo-main
 >>>>>>> main
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 =======
@@ -194,6 +200,7 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88558f8037 (r.report: add default units, change to full unit names (#1666))
 =======
@@ -250,6 +257,8 @@ void compute_weights(const char *function_type, double factor)
 >>>>>>> 29da11ce98 (r.report: add default units, change to full unit names (#1666))
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> osgeo-main
 
     if (!strcmp(function_type, "gaussian")) {
         weight = gaussian;
@@ -257,6 +266,7 @@ void compute_weights(const char *function_type, double factor)
     else if (!strcmp(function_type, "exponential")) {
         weight = exponential;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +553,12 @@ void compute_weights(const char *function_type, double factor)
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> osgeo-main
+=======
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> osgeo-main
 >>>>>>> a025896dba (r.report: add default units, change to full unit names (#1666))
 =======
 
@@ -550,6 +566,7 @@ void compute_weights(const char *function_type, double factor)
 
 =======
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +662,10 @@ void compute_weights(const char *function_type, double factor)
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 5788bd15e5 (wxpyimgview: explicit conversion to int (#2704))
+=======
+=======
+>>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
+>>>>>>> osgeo-main
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))

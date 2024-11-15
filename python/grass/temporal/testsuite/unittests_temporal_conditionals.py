@@ -10,6 +10,7 @@ for details.
 import datetime
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 import grass.script
@@ -17,13 +18,17 @@ import grass.script
 >>>>>>> osgeo-main
 >>>>>>> main
 import grass.temporal as tgis
+=======
+>>>>>>> osgeo-main
 from grass.gunittest.case import TestCase
 from grass.gunittest.main import test
+
+import grass.temporal as tgis
 
 
 class TestTemporalConditionals(TestCase):
     @classmethod
-    def setUpClass(cls):
+    def setUpClass(cls) -> None:
         """Initiate the temporal GIS and set the region"""
         tgis.init(True)  # Raise on error instead of exit(1)
         cls.use_temp_region()
@@ -141,16 +146,16 @@ class TestTemporalConditionals(TestCase):
             end="2001-01-04",
         )
 
-    def tearDown(self):
+    def tearDown(self) -> None:
         self.runModule("t.remove", inputs="R", quiet=True)
 
     @classmethod
-    def tearDownClass(cls):
+    def tearDownClass(cls) -> None:
         """Remove the temporary region"""
         cls.runModule("t.remove", flags="rf", inputs="A,B,C,D,E", quiet=True)
         cls.del_temp_region()
 
-    def test_temporal_condition_1(self):
+    def test_temporal_condition_1(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -170,7 +175,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_2(self):
+    def test_temporal_condition_2(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(expression="R = if(td(A) == 1, A)", basename="r", overwrite=True)
@@ -186,7 +191,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_3(self):
+    def test_temporal_condition_3(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -206,7 +211,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_4(self):
+    def test_temporal_condition_4(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -226,7 +231,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_5(self):
+    def test_temporal_condition_5(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -244,7 +249,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_6(self):
+    def test_temporal_condition_6(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -264,7 +269,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_7(self):
+    def test_temporal_condition_7(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -284,7 +289,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_condition_8(self):
+    def test_temporal_condition_8(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -304,7 +309,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_condition_9(self):
+    def test_temporal_condition_9(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -324,7 +329,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_condition_10(self):
+    def test_temporal_condition_10(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -344,7 +349,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_condition_11(self):
+    def test_temporal_condition_11(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -364,7 +369,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_condition_12(self):
+    def test_temporal_condition_12(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -384,7 +389,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "2 days")
 
-    def test_temporal_conditional_13(self):
+    def test_temporal_conditional_13(self) -> None:
         """Testing the hash operator function in conditional statement."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -405,7 +410,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_else_1(self):
+    def test_temporal_condition_else_1(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -425,7 +430,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_else_2(self):
+    def test_temporal_condition_else_2(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -445,7 +450,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_else_3(self):
+    def test_temporal_condition_else_3(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(
@@ -465,7 +470,7 @@ class TestTemporalConditionals(TestCase):
         self.assertEqual(D.check_temporal_topology(), True)
         self.assertEqual(D.get_granularity(), "1 day")
 
-    def test_temporal_condition_else_4(self):
+    def test_temporal_condition_else_4(self) -> None:
         """Testing the temporal select operator with equal relations."""
         ta = tgis.TemporalAlgebraParser(run=True, debug=True)
         ta.parse(

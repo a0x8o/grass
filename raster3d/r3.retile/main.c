@@ -66,6 +66,7 @@ static void fatal_error(void *map, int *fd, int depths,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> main
 =======
@@ -157,6 +158,10 @@ static void set_params(void);            /*Fill the paramType structure */
 static void set_params(void);            /*Fill the paramType structure */
 =======
 >>>>>>> osgeo-main
+=======
+static void set_params(void);            /*Fill the paramType structure */
+=======
+>>>>>>> osgeo-main
 static void set_params();                /*Fill the paramType structure */
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -165,6 +170,7 @@ static void set_params();                /*Fill the paramType structure */
 =======
 static void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 498a331298 (Fix missing function prototypes (#2727))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,11 +227,14 @@ static void set_params(void);            /*Fill the paramType structure */
 =======
 >>>>>>> osgeo-main
 =======
+>>>>>>> osgeo-main
+=======
 static void set_params();                /*Fill the paramType structure */
 =======
 static void set_params(void);            /*Fill the paramType structure */
 >>>>>>> 7409ab6716 (r.horizon manual - fix typo (#2794))
 >>>>>>> f130b43e6c (r.horizon manual - fix typo (#2794))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +359,8 @@ static void set_params();                /*Fill the paramType structure */
 >>>>>>> 38fb0d903f (Fix missing function prototypes (#2727))
 =======
 >>>>>>> 5ce081f790 (r.horizon manual - fix typo (#2794))
+=======
+>>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
 

@@ -20,6 +20,7 @@ per-file-ignores =
     # E741 ambiguous variable name 'l'
     __init__.py: F403
     man/build_html.py: E501
+    man/build_md.py: E501
     doc/python/m.distance.py: E501
     gui/scripts/d.wms.py: E501
     gui/wxpython/image2target/g.gui.image2target.py: E501
@@ -27,9 +28,7 @@ per-file-ignores =
     gui/wxpython/psmap/*: E501
     gui/wxpython/vdigit/*: F841, E722, F405, F403
     gui/wxpython/animation/g.gui.animation.py: E501
-    gui/wxpython/tplot/frame.py: F841, E722
     gui/wxpython/tplot/g.gui.tplot.py: E501
-    gui/wxpython/iclass/digit.py: F405, F403
     gui/wxpython/iclass/frame.py: F405, F403
     gui/wxpython/iclass/g.gui.iclass.py: E501
     gui/wxpython/iclass/statistics.py: F841, F405, F403
@@ -50,8 +49,6 @@ per-file-ignores =
     gui/wxpython/tools/build_modules_xml.py: E722
     gui/wxpython/web_services/cap_interface.py: E501
     gui/wxpython/web_services/widgets.py: F841, E402
-    gui/wxpython/rlisetup/sampling_frame.py: F841
-    gui/wxpython/rlisetup/wizard.py: E722
     # Generated file
     gui/wxpython/menustrings.py: E501
     # F821 undefined name 'cmp'
