@@ -22212,7 +22212,7 @@ class MapPanel(SingleMapPanel):
         self.MapWindow.SetRegion(zoomOnly=False)
 
     def OnSetExtentToWind(self, event):
-        """Set compulational region extent interactively"""
+        """Set computational region extent interactively"""
         self.MapWindow.SetModeDrawRegion()
 
     def OnSaveDisplayRegion(self, event):

@@ -43687,6 +43687,7 @@ class GMFrame(wx.Frame):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         :return int: False if failed, True if succcess
 >>>>>>> osgeo-main
@@ -43702,6 +43703,9 @@ class GMFrame(wx.Frame):
 =======
 >>>>>>> f7d484e6ea (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
 >>>>>>> 908bc330ca (wxGUI: create parallel wx.frame for Single Window layout development (#1604))
+=======
+        :return int: False if failed, True if success
+>>>>>>> 9313630b83 (wxGUI: Fix various typos in comments, strings, and methods (#4710))
         """
         if not self.currentPage:
             self.NewDisplay(show=True)

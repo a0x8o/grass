@@ -751,7 +751,7 @@ class DbMgrBase:
         :param item: item from Layer Tree
         :param log: log window
         :param statusbar: widget with statusbar
-        :param kwagrs: other wx.Frame's arguments
+        :param kwargs: other wx.Frame's arguments
         """
 
         # stores all data, which are shared by pages
@@ -922,7 +922,7 @@ class DbMgrNotebookBase(GNotebook):
         self.listOfCommands = []
         self.listOfSQLStatements = []
 
-        # initializet pages
+        # initialize pages
         self.pages = self.parentDbMgrBase.pages
 
         # shared data among pages
@@ -1142,7 +1142,7 @@ class DbMgrBrowsePage(DbMgrNotebookBase):
     def AddLayer(self, layer, pos=-1):
         """Adds tab which represents table and enables browse it
 
-        :param layer: vector map layer conntected to table
+        :param layer: vector map layer connected to table
         :param pos: position of tab, if -1 it is added to end
 
         :return: True if layer was added
@@ -4034,7 +4034,7 @@ class FieldStatistics(wx.Frame):
             database=database,
         )
         if not dataStr:
-            GError(parent=self.parent, message=_("Unable to calculte statistics."))
+            GError(parent=self.parent, message=_("Unable to calculate statistics."))
             self.Close()
             return
 
@@ -4043,7 +4043,7 @@ class FieldStatistics(wx.Frame):
             GError(
                 parent=self.parent,
                 message=_(
-                    "Unable to calculte statistics. "
+                    "Unable to calculate statistics. "
                     "Invalid number of lines %d (should be %d)."
                 )
                 % (len(dataLines), len(stats)),
@@ -4070,7 +4070,7 @@ class FieldStatistics(wx.Frame):
         )
         if not dataVar:
             GWarning(
-                parent=self.parent, message=_("Unable to calculte standard deviation.")
+                parent=self.parent, message=_("Unable to calculate standard deviation.")
             )
         varSum = 0
         for var in decode(dataVar).splitlines():
