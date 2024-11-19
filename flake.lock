@@ -21,6 +21,7 @@
       "locked": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1730958623,
         "narHash": "sha256-JwQZIGSYnRNOgDDoIgqKITrPVil+RMWHsZH1eE1VGN0=",
         "owner": "NixOS",
@@ -40,6 +41,13 @@
         "repo": "nixpkgs",
         "rev": "2d2a9ddbe3f2c00747398f3dc9b05f7f2ebb0f53",
 >>>>>>> cb08052097 (CI(deps): Lock file maintenance (#4643))
+=======
+        "lastModified": 1731890469,
+        "narHash": "sha256-D1FNZ70NmQEwNxpSSdTXCSklBH1z2isPR84J6DQrJGs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5083ec887760adfe12af64830a66807423a859a7",
+>>>>>>> 2af6ffc057 (CI(deps): Lock file maintenance (#4712))
         "type": "github"
       },
       "original": {
