@@ -117,6 +117,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -465,6 +466,8 @@ DLLS="
 >>>>>>> osgeo-main
 =======
 >>>>>>> osgeo-main
+=======
+>>>>>>> 9984205dc8 (packaging: build Windows with libopenblas (#4716))
 	/mingw64/bin/libbrotlicommon.dll
 	/mingw64/bin/libbrotlidec.dll
 	/mingw64/bin/libbz2-1.dll
@@ -480,6 +483,7 @@ DLLS="
 	/mingw64/bin/libharfbuzz-0.dll
 	/mingw64/bin/libiconv-2.dll
 	/mingw64/bin/libintl-8.dll
+<<<<<<< HEAD
 	/mingw64/bin/liblapack.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,6 +655,8 @@ DLLS="
 =======
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 9984205dc8 (packaging: build Windows with libopenblas (#4716))
 	/mingw64/bin/libpcre-1.dll
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
@@ -751,6 +757,7 @@ DLLS="
 	/mingw64/bin/libtre-5.dll
 	/mingw64/bin/libwinpthread-1.dll
 	/mingw64/bin/zlib1.dll
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8422103f4c (wxpyimgview: explicit conversion to int (#2704))
@@ -1316,6 +1323,9 @@ DLLS="
 	/mingw64/bin/libwinpthread-1.dll
 	/mingw64/bin/zlib1.dll
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+  /mingw64/bin/libopenblas.dll
+>>>>>>> 9984205dc8 (packaging: build Windows with libopenblas (#4716))
 "
 
 if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
@@ -1627,7 +1637,6 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-geos=$PWD/mswindows/osgeo4w/geos-config \
 		--with-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-lapack \
-		--with-lapack-includes=/mingw64/include \
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
 		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
 		--with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \
