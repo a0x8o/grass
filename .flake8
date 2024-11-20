@@ -130,6 +130,7 @@ per-file-ignores =
     gui/wxpython/mapwin/graphics.py: E722
     gui/wxpython/startup/locdownload.py: E722, E402
     gui/wxpython/timeline/g.gui.timeline.py: E501
+<<<<<<< HEAD
     gui/wxpython/tools/build_modules_xml.py: E722
     gui/wxpython/web_services/cap_interface.py: E501
 <<<<<<< HEAD
@@ -146,6 +147,8 @@ per-file-ignores =
     gui/wxpython/rlisetup/sampling_frame.py: F841
     gui/wxpython/rlisetup/wizard.py: E722
 >>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
+=======
+>>>>>>> 546a544caa (wxGUI: Fixed PEP8 errors in web_services/ (#4706))
     # Generated file
     gui/wxpython/menustrings.py: E501
     # F821 undefined name 'cmp'
