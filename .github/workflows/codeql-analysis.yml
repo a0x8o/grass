@@ -71,6 +71,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: github/codeql-action/init@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
         uses: github/codeql-action/init@2e230e8fe0ad3a14a340ad0815ddb96d599d2aff # v3.25.8
@@ -81,6 +82,9 @@ jobs:
 =======
         uses: github/codeql-action/init@b611370bb5703a7efb587f9d136a52ea24c5c38c # v3.25.11
 >>>>>>> 1a779126bc (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
+=======
+        uses: github/codeql-action/init@f09c1c0a94de965c15400f5634aa42fac8fb8f88 # v3.27.5
+>>>>>>> c877e71d20 (CI(deps): Update github/codeql-action action to v3.27.5 (#4727))
         with:
           languages: ${{ matrix.language }}
           config-file: ./.github/codeql/codeql-config.yml
@@ -108,6 +112,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: github/codeql-action/analyze@ea9e4e37992a54ee68a9622e985e60c8e8f12d9f # v3.27.4
 =======
         uses: github/codeql-action/analyze@2e230e8fe0ad3a14a340ad0815ddb96d599d2aff # v3.25.8
@@ -118,5 +123,8 @@ jobs:
 =======
         uses: github/codeql-action/analyze@b611370bb5703a7efb587f9d136a52ea24c5c38c # v3.25.11
 >>>>>>> 1a779126bc (CI(deps): Update github/codeql-action action to v3.25.11 (#3938))
+=======
+        uses: github/codeql-action/analyze@f09c1c0a94de965c15400f5634aa42fac8fb8f88 # v3.27.5
+>>>>>>> c877e71d20 (CI(deps): Update github/codeql-action action to v3.27.5 (#4727))
         with:
           category: "/language:${{matrix.language}}"
