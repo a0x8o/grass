@@ -11908,8 +11908,8 @@ msgstr "Niveau de verbosité :"
 #: ../gui/wxpython/gui_core/preferences.py:1294
 msgid "Number of threads for parallel computing (supported tools only):"
 msgstr ""
-"Nombre de threads pour le calcul parallèle (outils pris en charge uniquement)"
-" :"
+"Nombre de threads pour le calcul parallèle (outils pris en charge "
+"uniquement) :"
 
 #: ../gui/wxpython/gui_core/preferences.py:1319
 msgid "Maximum memory in MB to be used (supported tools only):"
@@ -16053,10 +16053,6 @@ msgstr "Définir la région calculée à partir de celle de l'écran"
 #: ../gui/wxpython/mapdisp/frame.py:1528
 msgid "Set computational region extent interactively"
 msgstr "Définir l'emprise de la région de calcul de manière interactive"
-
-#: ../gui/wxpython/mapdisp/frame.py:1531
-msgid "Set computational region from named region"
-msgstr "Définir la région calculée depuis un nom de région"
 
 #: ../gui/wxpython/mapdisp/frame.py:1534
 msgid "Save computational region to named region"
@@ -49375,6 +49371,7 @@ msgstr "étiquettes :"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49595,6 +49592,11 @@ msgstr "étiquettes :"
 =======
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 022a06ee3d (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "supported tools only"
+msgstr "outils pris en charge uniquement"
+
+>>>>>>> 55c0326ad0 (i18n: fix duplicate messsages in po files (#4722))
 #~ msgid "Location Name:"
 #~ msgstr "Nom du secteur : "
 
@@ -58610,7 +58612,6 @@ msgstr "Utilitaire de requêtes SQL"
 #~ msgid "Deactive overwrite"
 #~ msgstr "Désactiver l'écrasement"
 
-
 #, python-format
 #~ msgid "Unable to load icon theme. Reason: %s. Quiting wxGUI..."
 #~ msgstr ""
@@ -58622,6 +58623,7 @@ msgstr "Utilitaire de requêtes SQL"
 #~ msgstr ""
 #~ "Impossible d'obtenir l’extension géographique courante. Sortie forcée de "
 #~ "wxGUI. Merci d'exécuter manuellement g.region pour résoudre ce problème."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60172,3 +60174,5 @@ msgstr "Double-clic ou Ctrl+Entrée pour exécuter le module sélectionné"
 >>>>>>> 49258e3437 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 55c0326ad0 (i18n: fix duplicate messsages in po files (#4722))
