@@ -54,6 +54,7 @@ repos:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rev: v0.5.1
 =======
     rev: v0.5.4
@@ -148,6 +149,9 @@ repos:
 =======
     rev: v0.7.4
 >>>>>>> d5584063f5 (CI(deps): Update ruff to v0.7.4 (#4705))
+=======
+    rev: v0.8.0
+>>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
     hooks:
       # Run the linter.
       - id: ruff

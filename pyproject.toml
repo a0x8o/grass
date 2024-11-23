@@ -3736,10 +3736,14 @@ exclude = '''
 
 [tool.ruff]
 <<<<<<< HEAD
+<<<<<<< HEAD
 required-version = ">=0.6.0"
 =======
 required-version = ">=0.5.0"
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+required-version = ">=0.8.0"
+>>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
 
 builtins = ["_"]
 
@@ -4092,6 +4096,7 @@ ignore = [
     "PLW2901", # redefined-loop-name
 <<<<<<< HEAD
     "PLW3201", # bad-dunder-method-name
+<<<<<<< HEAD
     "PT004",   # pytest-missing-fixture-name-underscore # deprecated, so doesn't appear with --preview
 =======
     "PLW3201", # nested-min-max
@@ -4103,6 +4108,8 @@ ignore = [
     "PT018",   # pytest-composite-assertion
     "PT023",   # pytest-incorrect-mark-parentheses-style
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
     "PTH100",  # os-path-abspath
     "PTH101",  # os-chmod
     "PTH102",  # os-mkdir

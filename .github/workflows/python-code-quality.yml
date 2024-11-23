@@ -49,6 +49,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       RUFF_VERSION: "0.5.1"
 =======
       RUFF_VERSION: "0.5.4"
@@ -160,6 +161,9 @@ jobs:
 =======
       RUFF_VERSION: "0.7.4"
 >>>>>>> d5584063f5 (CI(deps): Update ruff to v0.7.4 (#4705))
+=======
+      RUFF_VERSION: "0.8.0"
+>>>>>>> f1093bdc6a (CI(deps): Update ruff to v0.8.0 (#4738))
 
     runs-on: ${{ matrix.os }}
     permissions:
