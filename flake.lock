@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "lastModified": 1730958623,
         "narHash": "sha256-JwQZIGSYnRNOgDDoIgqKITrPVil+RMWHsZH1eE1VGN0=",
         "owner": "NixOS",
@@ -48,6 +49,13 @@
         "repo": "nixpkgs",
         "rev": "5083ec887760adfe12af64830a66807423a859a7",
 >>>>>>> 2af6ffc057 (CI(deps): Lock file maintenance (#4712))
+=======
+        "lastModified": 1732238832,
+        "narHash": "sha256-sQxuJm8rHY20xq6Ah+GwIUkF95tWjGRd1X8xF+Pkk38=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8edf06bea5bcbee082df1b7369ff973b91618b8d",
+>>>>>>> 38f5cf43d1 (CI(deps): Lock file maintenance (#4756))
         "type": "github"
       },
       "original": {
