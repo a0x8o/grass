@@ -38,6 +38,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: super-linter/super-linter/slim@b92721f792f381cedc002ecdbb9847a15ece5bb8 # v7.1.0
 =======
         uses: super-linter/super-linter/slim@3fe03abab2eafb293ace16d4a3b07aeabcb3f1a0 # v6.7.0
@@ -55,6 +56,9 @@ jobs:
 >>>>>>> 31def23932 (CI(deps): Update super-linter/super-linter action to v6.7.0 (#4002))
 >>>>>>> 8938eb13e8 (CI(deps): Update super-linter/super-linter action to v6.7.0 (#4002))
 >>>>>>> 98c5477af1 (CI(deps): Update super-linter/super-linter action to v6.7.0 (#4002))
+=======
+        uses: super-linter/super-linter/slim@e1cb86b6e8d119f789513668b4b30bf17fe1efe4 # v7.2.0
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
         env:
           DEFAULT_BRANCH: main
           # To report GitHub Actions status checks

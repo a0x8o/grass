@@ -13,11 +13,11 @@
 =======
 >>>>>>> a1d554657a (style: Apply missing pre-commit fixes (#3834))
 
-        // allows to use comments starting with
+        // allows using comments starting with
         // "# renovate: " to update _VERSION
         // environment variables in GitHub Action files.
         "customManagers:githubActionsVersions",
-        // allows to use comments starting with
+        // allows using comments starting with
         // "# renovate: " to update _VERSION
         // ENV or ARG in a Dockerfile.
         "customManagers:dockerfileVersions",

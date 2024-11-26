@@ -8108,7 +8108,7 @@ msgstr "Fusionner des contours"
 #: ../gui/wxpython/menustrings.py:572 ../gui/wxpython/menustrings.py:1537
 #, fuzzy
 msgid ""
-"Dissolves adjacent or overlaping features sharing a common category number "
+"Dissolves adjacent or overlapping features sharing a common category number "
 "or attribute."
 msgstr ""
 "Fusionne des contours entre surfaces adjacentes partageant un attribut ou "
@@ -60110,6 +60110,7 @@ msgstr "étiquettes :"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -60625,6 +60626,11 @@ msgstr "outils pris en charge uniquement"
 >>>>>>> b1d91344aa (wxpyimgview: explicit conversion to int (#2704))
 =======
 >>>>>>> a5a2fa0841 (wxpyimgview: explicit conversion to int (#2704))
+=======
+msgid "supported tools only"
+msgstr "outils pris en charge uniquement"
+
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 #~ msgid "Location Name:"
 #~ msgstr "Nom du secteur : "
 
@@ -73831,6 +73837,7 @@ msgstr "Utilitaire de requêtes SQL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 960ecd077b (wxpyimgview: explicit conversion to int (#2704))
 =======
@@ -76691,3 +76698,5 @@ msgstr "Double-clic ou Ctrl+Entrée pour exécuter le module sélectionné"
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3

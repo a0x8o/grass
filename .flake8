@@ -20,6 +20,7 @@ per-file-ignores =
     # E741 ambiguous variable name 'l'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
@@ -47,6 +48,8 @@ per-file-ignores =
 =======
 >>>>>>> cfa8c4eeca (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
 >>>>>>> 0821b09838 (Checks: Fix Flake8 W605 - invalid escape sequence (#3763))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
     man/build_html.py: E501
 <<<<<<< HEAD
     man/build_md.py: E501
@@ -154,6 +157,7 @@ per-file-ignores =
     gui/wxpython/timeline/g.gui.timeline.py: E501
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     gui/wxpython/tools/build_modules_xml.py: E722
     gui/wxpython/web_services/cap_interface.py: E501
 <<<<<<< HEAD
@@ -197,6 +201,8 @@ per-file-ignores =
 >>>>>>> ba65a804c6 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
 >>>>>>> 3a3b3fa8db (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
 >>>>>>> 16b2bafce3 (Checks: fix flake8 E741 in gui/wxpython directory (#3926))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
     # Generated file
     gui/wxpython/menustrings.py: E501
     # F821 undefined name 'cmp'
