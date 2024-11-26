@@ -1775,6 +1775,7 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?
 =======
 <<<<<<< HEAD
@@ -2608,6 +2609,9 @@ class GCPPanel(MapPanel, ColumnSorterMixin):
         # TODO: it is here just to remove old or obsolete beavior of base class
 >>>>>>> 57711afe47 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
+=======
+        # TODO: it is here just to remove old or obsolete behavior of base class
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
         #       gcp/MapPanel?
 =======
         # TODO: it is here just to remove old or obsolate beavior of base class gcp/MapPanel?

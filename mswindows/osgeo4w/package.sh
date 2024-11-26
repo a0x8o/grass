@@ -125,6 +125,7 @@ DLLS="
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 68f959884d (Merge branch 'a0x8o' into stag0)
@@ -1178,6 +1179,8 @@ DLLS="
 	/mingw64/bin/libbrotlidec.dll
 >>>>>>> a258a6de0c (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> fb687ccc49 (wxpyimgview: explicit conversion to int (#2704))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 	/mingw64/bin/libbrotlicommon.dll
 	/mingw64/bin/libbrotlidec.dll
 	/mingw64/bin/libbz2-1.dll
@@ -1193,6 +1196,7 @@ DLLS="
 	/mingw64/bin/libharfbuzz-0.dll
 	/mingw64/bin/libiconv-2.dll
 	/mingw64/bin/libintl-8.dll
+<<<<<<< HEAD
 	/mingw64/bin/liblapack.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,6 +1530,8 @@ DLLS="
 =======
 >>>>>>> osgeo-main
 =======
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 	/mingw64/bin/libpcre-1.dll
 	/mingw64/bin/libpixman-1-0.dll
 	/mingw64/bin/libpng16-16.dll
@@ -1654,6 +1660,7 @@ DLLS="
 	/mingw64/bin/libtre-5.dll
 	/mingw64/bin/libwinpthread-1.dll
 	/mingw64/bin/zlib1.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 =======
@@ -2242,6 +2249,9 @@ DLLS="
 >>>>>>> 88cfd0573d (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 358e3de0db (style: Sort package lists, configure options, and other various sortable files (#4563))
 >>>>>>> 869f8c65fb (style: Sort package lists, configure options, and other various sortable files (#4563))
+=======
+  /mingw64/bin/libopenblas.dll
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 "
 
 if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
@@ -3172,7 +3182,6 @@ if ! [ -f mswindows/osgeo4w/configure-stamp ]; then
 		--with-geos=$PWD/mswindows/osgeo4w/geos-config \
 		--with-includes=$OSGEO4W_ROOT_MSYS/include \
 		--with-lapack \
-		--with-lapack-includes=/mingw64/include \
 		--with-liblas=$PWD/mswindows/osgeo4w/liblas-config \
 		--with-libs="$OSGEO4W_ROOT_MSYS/lib" \
 		--with-netcdf=${OSGEO4W_ROOT_MSYS}/bin/nc-config \

@@ -5387,6 +5387,9 @@ if TYPE_CHECKING:
     from multiprocessing.synchronize import _LockLike
 >>>>>>> c864d02248 (python: Add typing to RPC server and Messenger (#4639))
 
+
+logger = logging.getLogger(__name__)
+
 ###############################################################################
 
 
@@ -13566,6 +13569,7 @@ def _read_semantic_label(lock, conn, data):
 =======
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
         else:
+<<<<<<< HEAD
             logging.error(
 <<<<<<< HEAD
                 "Unable to read semantic label. Unsupported map type {maptype}",
@@ -15149,6 +15153,11 @@ def _read_semantic_label(lock, conn, data):
 >>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
+=======
+            logger.error(
+                "Unable to read semantic label. Unsupported map type %(maptype)s",
+                {"maptype": maptype},
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
             )
             return -1
     finally:
@@ -21862,6 +21871,7 @@ def _write_semantic_label(lock, conn, data):
 =======
 >>>>>>> 173e44f2dc (libpython: Save and load benchmark results (#1711))
         else:
+<<<<<<< HEAD
             logging.error(
 <<<<<<< HEAD
                 "Unable to write semantic label. Unsupported map type {maptype}",
@@ -23589,6 +23599,11 @@ def _write_semantic_label(lock, conn, data):
 >>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
+=======
+            logger.error(
+                "Unable to write semantic label. Unsupported map type %(maptype)s",
+                {"maptype": maptype},
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
             )
             return -2
     finally:
@@ -26823,6 +26838,7 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> 6cf60c76a4 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 90e8567102 (wxpyimgview: explicit conversion to int (#2704))
         else:
+<<<<<<< HEAD
             logging.error(
 <<<<<<< HEAD
                 "Unable to remove semantic label. Unsupported map type {maptype}",
@@ -28037,6 +28053,11 @@ def _remove_semantic_label(lock, conn, data):
 >>>>>>> 2157ee3930 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> b297e0cc69 (style: Fix python logging-related pylint and ruff warnings (#3998))
 >>>>>>> 37d5acc083 (style: Fix python logging-related pylint and ruff warnings (#3998))
+=======
+            logger.error(
+                "Unable to remove semantic label. Unsupported map type %(maptype)s",
+                {"maptype": maptype},
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
             )
             return -2
     finally:
@@ -28276,6 +28297,7 @@ def _read_raster_info(name, mapset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             logging.warning(_("Raster range file is empty"))
 =======
 <<<<<<< HEAD
@@ -30294,6 +30316,9 @@ def _read_raster_info(name, mapset):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+            logger.info(_("Raster range file is empty"))
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
             kvp["min"] = None
             kvp["max"] = None
         else:
@@ -30423,6 +30448,7 @@ def _read_raster_info(name, mapset):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             logging.warning(_("Raster range file is empty"))
 =======
 <<<<<<< HEAD
@@ -32441,6 +32467,9 @@ def _read_raster_info(name, mapset):
 >>>>>>> de41c5c11e (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> 146be9abe9 (wxpyimgview: explicit conversion to int (#2704))
 >>>>>>> d3f362186e (wxpyimgview: explicit conversion to int (#2704))
+=======
+            logger.info(_("Raster range file is empty"))
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
             kvp["min"] = None
             kvp["max"] = None
         else:

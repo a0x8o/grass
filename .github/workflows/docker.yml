@@ -129,6 +129,7 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         uses: docker/build-push-action@1a162644f9a7e87d8f4b053101d1d9a712edc18c # v6.3.0
 =======
         uses: docker/build-push-action@5176d81f87c23d6fc96624dfdbcd9f3830bbe445 # v6.5.0
@@ -170,6 +171,9 @@ jobs:
         uses: docker/build-push-action@1a162644f9a7e87d8f4b053101d1d9a712edc18c # v6.3.0
 >>>>>>> db4f23459c (CI(deps): Update docker/build-push-action action to v6.3.0 (#3976))
 >>>>>>> 3d802a7bcb (CI(deps): Update docker/build-push-action action to v6.3.0 (#3976))
+=======
+        uses: docker/build-push-action@48aba3b46d1b1fec4febb7c5d0c644b249a11355 # v6.10.0
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
         with:
           push: true
           pull: true

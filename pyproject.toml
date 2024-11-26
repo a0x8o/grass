@@ -6720,6 +6720,7 @@ exclude = '''
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 required-version = ">=0.6.0"
 =======
 required-version = ">=0.5.0"
@@ -6737,6 +6738,9 @@ required-version = ">=0.5.0"
 >>>>>>> deff63f816 (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> bb75228712 (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+required-version = ">=0.8.0"
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 
 builtins = ["_"]
 
@@ -7157,6 +7161,7 @@ ignore = [
     "PLW3201", # bad-dunder-method-name
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
@@ -7177,6 +7182,8 @@ ignore = [
 =======
 >>>>>>> bb75228712 (checks(ruff): Configure ruff linter (#3972))
 >>>>>>> d77766906a (checks(ruff): Configure ruff linter (#3972))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
     "PTH100",  # os-path-abspath
     "PTH101",  # os-chmod
     "PTH102",  # os-mkdir
@@ -7471,11 +7478,14 @@ ignore = [
 "lib/init/grass.py" = ["SIM115"]
 "locale/grass_po_stats.py" = ["SIM115"]
 <<<<<<< HEAD
+<<<<<<< HEAD
 "man/build_*.py" = ["SIM115"]
 "man/parser_standard_options.py" = ["SIM115"]
 >>>>>>> osgeo-main
 =======
 >>>>>>> 6c45ad9cf2 (man: Use a context manager for opening files (#4291))
+=======
+>>>>>>> 7e29f98e86c644696e35f504c8ae4d287e1745d3
 "python/grass/__init__.py" = ["PYI056"]
 "python/grass/exp*/tests/grass_script_mapset_session_test.py" = ["SIM117"]
 "python/grass/exp*/tests/grass_script_tmp_mapset_session_test.py" = ["SIM117"]
